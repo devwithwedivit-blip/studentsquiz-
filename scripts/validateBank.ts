@@ -4,7 +4,10 @@ import { fileURLToPath } from 'node:url';
 import {
   validateQuestionBank,
   validateCrossClassDuplicates,
+  validatePassages,
   BankValidationReport,
+  PassageValidationReport,
+  PASSAGE_RANGES,
   QuestionItemRef
 } from '../src/services/validator.js';
 
@@ -55,6 +58,8 @@ if (!fs.existsSync(dataDir)) {
 
 const reports: BankValidationReport[] = [];
 const allGlobalQuestions: QuestionItemRef[] = [];
+const allPassageReports: PassageValidationReport[] = [];
+const allPassageFileIssues: { className: number; issues: any[] }[] = [];
 let totalErrors = 0;
 let totalWarnings = 0;
 let totalQuestions = 0;
@@ -73,17 +78,26 @@ if (classDirs.length === 0) {
 for (const cDir of classDirs) {
   const fullClassPath = path.join(dataDir, cDir);
   if (!fs.statSync(fullClassPath).isDirectory()) continue;
+  const clsNum = parseInt(cDir.replace('class-', ''), 10);
 
-  let files = fs.readdirSync(fullClassPath).filter(f => f.endsWith('.json')).sort();
+  // Exclude *.passages.json from standard question bank scanning
+  let files = fs.readdirSync(fullClassPath).filter(f => f.endsWith('.json') && !f.endsWith('.passages.json')).sort();
   if (targetFileFilter) {
     files = files.filter(f => f.includes(targetFileFilter!));
   }
+
+  let classHindiQuestions: any[] = [];
+
   for (const file of files) {
     const filePath = path.join(fullClassPath, file);
     try {
       const raw = fs.readFileSync(filePath, 'utf-8');
       const questions = JSON.parse(raw);
       const relativePath = path.relative(rootDir, filePath).replace(/\\/g, '/');
+
+      if (file === 'hindi.json' && Array.isArray(questions)) {
+        classHindiQuestions = questions;
+      }
 
       const report = validateQuestionBank(questions, relativePath, {
         requireExact100: !allowPartial,
@@ -114,6 +128,34 @@ for (const cDir of classDirs) {
       totalWarnings += fileWarnings.length;
     } catch (err: any) {
       console.error(`❌ Failed to parse JSON file: ${filePath}`);
+      console.error(err.message);
+      totalErrors++;
+    }
+  }
+
+  // Check hindi.passages.json for this class if present
+  const passagesFilePath = path.join(fullClassPath, 'hindi.passages.json');
+  if (fs.existsSync(passagesFilePath) && (!targetFileFilter || targetFileFilter.includes('hindi') || targetFileFilter.includes('passage'))) {
+    try {
+      const rawPassages = fs.readFileSync(passagesFilePath, 'utf-8');
+      const passagesData = JSON.parse(rawPassages);
+      const pResult = validatePassages(passagesData, clsNum, classHindiQuestions, { allowPartial });
+      allPassageReports.push(...pResult.reports);
+      if (pResult.fileIssues.length > 0) {
+        allPassageFileIssues.push({ className: clsNum, issues: pResult.fileIssues });
+        for (const fi of pResult.fileIssues) {
+          if (fi.severity === 'error') totalErrors++;
+          else totalWarnings++;
+        }
+      }
+      for (const prep of pResult.reports) {
+        for (const pIssue of prep.issues) {
+          if (pIssue.severity === 'error') totalErrors++;
+          else totalWarnings++;
+        }
+      }
+    } catch (err: any) {
+      console.error(`❌ Failed to parse passage file: ${passagesFilePath}`);
       console.error(err.message);
       totalErrors++;
     }
@@ -161,6 +203,55 @@ for (const rep of reports) {
       const icon = issue.severity === 'error' ? '   🛑 [ERROR]' : '   ⚠️ [WARN]';
       const loc = issue.questionId ? ` (${issue.questionId}${issue.field ? ` -> ${issue.field}` : ''})` : '';
       console.log(`${icon}${loc}: ${issue.message}`);
+    }
+  }
+}
+
+// Print Unseen Passages Table
+if (allPassageReports.length > 0 || allPassageFileIssues.length > 0) {
+  console.log('\n📜 UNSEEN PASSAGES AUDIT TABLE (Phase 7):');
+  console.log('-'.repeat(125));
+  console.log(
+    'Class'.padEnd(8) +
+    'Passage ID'.padEnd(18) +
+    'Kind'.padEnd(10) +
+    'Words/Lines'.padEnd(18) +
+    'Required Range'.padEnd(24) +
+    'Linked Qs'.padEnd(14) +
+    'Status'
+  );
+  console.log('-'.repeat(125));
+
+  for (const pr of allPassageReports) {
+    const range = PASSAGE_RANGES[pr.class];
+    const targetRangeStr = pr.kind === 'gadya'
+      ? `${range?.gadyaWords[0] || 0}-${range?.gadyaWords[1] || 0} words`
+      : `${range?.padyaLines[0] || 0}-${range?.padyaLines[1] || 0} lines`;
+    const actualStr = pr.kind === 'gadya' ? `${pr.wordCount} words` : `${pr.lineCount} lines`;
+    const statusStr = pr.isValid ? '✅ PASS' : '❌ FAIL';
+
+    console.log(
+      `Class ${pr.class}`.padEnd(8) +
+      pr.id.padEnd(18) +
+      pr.kind.padEnd(10) +
+      actualStr.padEnd(18) +
+      targetRangeStr.padEnd(24) +
+      `${pr.linkedQuestionCount} / 5 Qs`.padEnd(14) +
+      statusStr
+    );
+
+    if (pr.issues.length > 0) {
+      for (const issue of pr.issues) {
+        const icon = issue.severity === 'error' ? '   🛑 [PASSAGE ERROR]' : '   ⚠️ [PASSAGE WARN]';
+        console.log(`${icon} (${pr.id}): ${issue.message}`);
+      }
+    }
+  }
+
+  for (const pfi of allPassageFileIssues) {
+    for (const issue of pfi.issues) {
+      const icon = issue.severity === 'error' ? '   🛑 [PASSAGE FILE ERROR]' : '   ⚠️ [PASSAGE FILE WARN]';
+      console.log(`${icon} (Class ${pfi.className} Passages): ${issue.message}`);
     }
   }
 }

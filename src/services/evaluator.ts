@@ -7,15 +7,29 @@ export interface EvaluationResult {
   isPartial?: boolean;
 }
 
-// Unicode and whitespace normalization (safe for English & Devanagari)
-export function normalizeAnswerText(text: string): string {
+// Devanagari Hindi tolerance normalization: NFC, anusvar/panchamakshar, chandrabindu, and nukta
+export function normalizeHindiDevanagari(text: string): string {
   if (!text) return '';
   return text
-    .normalize('NFKC')
+    .normalize('NFC')
+    // Remove Nukta (U+093C)
+    .replace(/\u093C/g, '')
+    // Replace Chandrabindu (U+0901) with Anusvar (U+0902)
+    .replace(/\u0901/g, '\u0902')
+    // Map half nasals before consonants ([ङञणनम] + virama \u094D) to Anusvar (\u0902)
+    .replace(/[ङञणनम]\u094D(?=[क-ह])/g, '\u0902');
+}
+
+// Unicode and whitespace normalization (tolerant for English & Devanagari)
+export function normalizeAnswerText(text: string): string {
+  if (!text) return '';
+  const cleaned = text
+    .normalize('NFC')
     .toLowerCase()
-    .replace(/[.,/#!$%^&*;:{}=\-_`~()?"'’]/g, '')
+    .replace(/[.,/#!$%^&*;:{}=\-_`~()?"'’।॥]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
+  return normalizeHindiDevanagari(cleaned);
 }
 
 export function evaluateAnswer(

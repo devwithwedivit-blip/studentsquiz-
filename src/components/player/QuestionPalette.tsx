@@ -1,5 +1,4 @@
-import React from 'react';
-import { UserAnswer } from '../../types/quiz';
+import { UserAnswer, Question } from '../../types/quiz';
 import { HandDrawnIcon } from '../common/HandDrawnIcon';
 
 interface QuestionPaletteProps {
@@ -7,6 +6,7 @@ interface QuestionPaletteProps {
   currentIndex: number;
   answers: Record<string, UserAnswer>;
   questionIds: string[];
+  questions?: Question[];
   onSelectIndex: (idx: number) => void;
   isOpen: boolean;
   onToggle: () => void;
@@ -17,6 +17,7 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
   currentIndex,
   answers,
   questionIds,
+  questions,
   onSelectIndex,
   isOpen,
   onToggle
@@ -83,15 +84,11 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
             </div>
           </div>
 
-          {/* Grid of question buttons */}
-          <div
-            style={{
-              display: 'grid',
-              gridTemplateColumns: 'repeat(auto-fill, minmax(38px, 1fr))',
-              gap: '0.45rem'
-            }}
-          >
-            {questionIds.map((qId, idx) => {
+          {/* Question buttons, grouped by passage if passages exist */}
+          {(() => {
+            const hasAnyPassage = questions?.some(q => q.passageId);
+
+            const renderButton = (qId: string, idx: number) => {
               const ans = answers[qId];
               const isCurrent = idx === currentIndex;
               const isAnswered = ans && ans.answer !== undefined && ans.answer !== '' && !ans.isSkipped;
@@ -159,8 +156,85 @@ export const QuestionPalette: React.FC<QuestionPaletteProps> = ({
                   )}
                 </button>
               );
-            })}
-          </div>
+            };
+
+            if (!hasAnyPassage || !questions) {
+              return (
+                <div
+                  style={{
+                    display: 'grid',
+                    gridTemplateColumns: 'repeat(auto-fill, minmax(38px, 1fr))',
+                    gap: '0.45rem'
+                  }}
+                >
+                  {questionIds.map((qId, idx) => renderButton(qId, idx))}
+                </div>
+              );
+            }
+
+            // Build contiguous groups
+            type Group = { passageId?: string; kind?: string; items: { qId: string; idx: number }[] };
+            const groups: Group[] = [];
+            let currentGroup: Group | null = null;
+            let passageCounter = 0;
+            const passageNumberMap: Record<string, number> = {};
+
+            questions.forEach((q, idx) => {
+              const pId = q.passageId;
+              if (pId && !passageNumberMap[pId]) {
+                passageCounter++;
+                passageNumberMap[pId] = passageCounter;
+              }
+
+              if (!currentGroup || currentGroup.passageId !== pId) {
+                currentGroup = {
+                  passageId: pId,
+                  kind: q.passage?.kind,
+                  items: [{ qId: q.id, idx }]
+                };
+                groups.push(currentGroup);
+              } else {
+                currentGroup.items.push({ qId: q.id, idx });
+              }
+            });
+
+            return (
+              <div style={{ display: 'flex', flexDirection: 'column', gap: '0.9rem' }}>
+                {groups.map((group, gIdx) => {
+                  const firstIdx = group.items[0].idx + 1;
+                  const lastIdx = group.items[group.items.length - 1].idx + 1;
+                  const title = group.passageId
+                    ? `Passage ${passageNumberMap[group.passageId]}: Q${firstIdx}-Q${lastIdx}`
+                    : `General Grammar Questions (Q${firstIdx}-Q${lastIdx})`;
+
+                  return (
+                    <div key={gIdx} style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                      <div
+                        style={{
+                          fontSize: '0.82rem',
+                          fontWeight: 700,
+                          color: 'var(--ink-secondary)',
+                          borderLeft: '3px solid var(--ink-secondary)',
+                          paddingLeft: '0.4rem'
+                        }}
+                      >
+                        {title}
+                      </div>
+                      <div
+                        style={{
+                          display: 'grid',
+                          gridTemplateColumns: 'repeat(auto-fill, minmax(38px, 1fr))',
+                          gap: '0.45rem'
+                        }}
+                      >
+                        {group.items.map(item => renderButton(item.qId, item.idx))}
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            );
+          })()}
         </div>
       )}
     </div>

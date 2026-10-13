@@ -1,11 +1,21 @@
-import { Question, SubjectId } from '../types/quiz';
-import { getOverlayQuestions } from '../services/db';
+import { Question, SubjectId, Passage } from '../types/quiz';
+import { getOverlayQuestions, getOverlayPassages } from '../services/db';
 
 // Vite lazy glob imports: returns mapping of path -> dynamic import function () => Promise<{ default: Question[] }>
-const seedBankModules = import.meta.glob<{ default: Question[] }>('/src/data/class-*/*.json');
+// Exclude .passages.json from question modules
+const seedBankModules = import.meta.glob<{ default: Question[] }>([
+  '/src/data/class-*/*.json',
+  '!/src/data/class-*/*.passages.json'
+]);
 
-// Memory cache of loaded subject questions
+// Vite lazy glob imports for passages
+const seedPassageModules = import.meta.glob<{ default: Passage[] }>(
+  '/src/data/class-*/*.passages.json'
+);
+
+// Memory cache of loaded subject questions & passages
 const seedCache = new Map<string, Question[]>();
+const passageCache = new Map<string, Passage[]>();
 
 /**
  * Lazily loads a specific class + subject question file (100 questions)
@@ -31,6 +41,102 @@ export async function loadSubjectQuestions(cls: number, subject: string): Promis
     console.error(`Failed to lazily load ${key}:`, err);
     return [];
   }
+}
+
+/**
+ * Lazily loads passages for a specific class
+ */
+export async function loadClassPassages(cls: number): Promise<Passage[]> {
+  const key = `/src/data/class-${cls}/hindi.passages.json`;
+  if (passageCache.has(key)) {
+    return passageCache.get(key)!;
+  }
+
+  const loader = seedPassageModules[key];
+  if (!loader) {
+    return [];
+  }
+
+  try {
+    const mod = await loader();
+    const passages = mod.default || [];
+    passageCache.set(key, passages);
+    return passages;
+  } catch (err) {
+    console.error(`Failed to lazily load passages for ${key}:`, err);
+    return [];
+  }
+}
+
+/**
+ * Loads all seed passages across all classes
+ */
+export async function getAllSeedPassages(): Promise<Passage[]> {
+  const promises = Object.keys(seedPassageModules).map(async key => {
+    if (passageCache.has(key)) return passageCache.get(key)!;
+    const loader = seedPassageModules[key];
+    if (!loader) return [];
+    try {
+      const mod = await loader();
+      const ps = mod.default || [];
+      passageCache.set(key, ps);
+      return ps;
+    } catch {
+      return [];
+    }
+  });
+
+  const all = await Promise.all(promises);
+  return all.flat();
+}
+
+/**
+ * Loads effective passages combining seed passages with IndexedDB overlay
+ */
+export async function getEffectivePassages(
+  options: { class?: number; includeDeleted?: boolean } = {}
+): Promise<Passage[]> {
+  let seedPassages: Passage[] = [];
+  if (options.class) {
+    seedPassages = await loadClassPassages(options.class);
+  } else {
+    seedPassages = await getAllSeedPassages();
+  }
+
+  let overlayPassages: any[] = [];
+  try {
+    overlayPassages = await getOverlayPassages();
+  } catch (err) {
+    console.warn('Could not load passage overlays:', err);
+  }
+
+  const overlayMap = new Map<string, any>();
+  for (const p of overlayPassages) {
+    overlayMap.set(p.id, p);
+  }
+
+  const effective: Passage[] = [];
+  for (const seed of seedPassages) {
+    if (overlayMap.has(seed.id)) {
+      const ov = overlayMap.get(seed.id)!;
+      if (ov.isUserDeleted) {
+        if (options.includeDeleted) effective.push(ov);
+        continue;
+      }
+      effective.push(ov);
+      overlayMap.delete(seed.id);
+    } else {
+      effective.push(seed);
+    }
+  }
+
+  for (const [, userP] of overlayMap) {
+    if (userP.isUserDeleted && !options.includeDeleted) continue;
+    if (options.class && userP.class !== options.class) continue;
+    effective.push(userP);
+  }
+
+  return effective;
 }
 
 /**
@@ -141,6 +247,23 @@ export async function getEffectiveQuestions(
     if (options.class && userQ.class !== options.class) continue;
     if (options.subjects && options.subjects.length > 0 && !options.subjects.includes(userQ.subject)) continue;
     effective.push(userQ);
+  }
+
+  // Load passages and join them to questions with passageId
+  try {
+    const passages = await getEffectivePassages({ class: options.class, includeDeleted: false });
+    const passageMap = new Map<string, Passage>();
+    for (const p of passages) {
+      passageMap.set(p.id, p);
+    }
+
+    for (const q of effective) {
+      if (q.passageId && passageMap.has(q.passageId)) {
+        q.passage = passageMap.get(q.passageId);
+      }
+    }
+  } catch (err) {
+    console.warn('Could not join passages:', err);
   }
 
   return effective;

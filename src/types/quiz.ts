@@ -29,6 +29,17 @@ export interface ImageAttachment {
   caption?: string;
 }
 
+export interface Passage {
+  id: string; // e.g. "c9-hindi-p01"
+  class: 9 | 10 | 11 | 12;
+  subject: SubjectId;
+  kind: 'gadya' | 'padya';
+  title: string; // teacher-only, NEVER shown to students
+  text: string; // paragraphs separated by \n\n; poems = one line per \n
+  wordCount: number;
+  theme: string;
+}
+
 export interface Question {
   id: string;
   class: 9 | 10 | 11 | 12;
@@ -50,6 +61,10 @@ export interface Question {
   marks: number;
   volatile?: boolean;
   hint?: string; // especially for logic questions
+  // Passage link (for unseen passages)
+  passageId?: string;
+  passageOrder?: number; // 1..5
+  passage?: Passage;
   // User overlay flags (stored in IndexedDB overlay)
   isUserAdded?: boolean;
   isUserEdited?: boolean;
@@ -72,7 +87,10 @@ export interface QuizConfig {
   shuffleQuestions: boolean;
   negativeMarking: boolean; // 0.25 marks penalty per wrong
   quizMode: QuizMode; // practice (instant feedback) vs exam (feedback at end)
+  includePassages?: boolean; // include unseen passages for Hindi
+  passageCount?: number; // requested number of passages (groups of 5 questions)
 }
+
 
 export interface UserAnswer {
   questionId: string;
@@ -103,6 +121,7 @@ export interface QuizResult {
   questionList: Question[];
   xpEarned: number;
   badgesUnlocked: string[];
+  bankVersion?: string;
 }
 
 export interface QuizPreset {

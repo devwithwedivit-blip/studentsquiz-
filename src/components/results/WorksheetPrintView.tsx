@@ -96,13 +96,47 @@ export const WorksheetPrintView: React.FC<WorksheetPrintViewProps> = ({
 
         {/* Questions List */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
-          {questions.map((q, idx) => (
-            <div key={q.id} style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', pageBreakInside: 'avoid' }}>
-              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
-                <div style={{ fontSize: '1.05rem', fontWeight: 600, flex: 1, paddingRight: '1rem' }}>
-                  <span>{idx + 1}. </span>
-                  <span>{q.question}</span>
-                </div>
+          {questions.map((q, idx) => {
+            const isFirstOfPassage = q.passage && (idx === 0 || questions[idx - 1]?.passageId !== q.passageId);
+            return (
+              <React.Fragment key={q.id}>
+                {isFirstOfPassage && q.passage && (
+                  <div
+                    style={{
+                      border: '1.5px solid #1e293b',
+                      borderRadius: '4px',
+                      padding: '1rem 1.25rem',
+                      backgroundColor: '#f8fafc',
+                      pageBreakInside: 'avoid',
+                      fontFamily: "'Noto Sans Devanagari', 'Times New Roman', serif",
+                      lineHeight: '1.85',
+                      marginBottom: '0.6rem'
+                    }}
+                  >
+                    <div style={{ fontWeight: 'bold', fontSize: '1rem', marginBottom: '0.5rem', color: '#0f172a' }}>
+                      {q.passage.kind === 'padya'
+                        ? 'निम्नलिखित काव्यांश को ध्यानपूर्वक पढ़कर दिए गए प्रश्नों (प्रश्न ' + (idx + 1) + ' से ' + (idx + 5) + ') के उत्तर दीजिए:'
+                        : 'निम्नलिखित गद्यांश को ध्यानपूर्वक पढ़कर दिए गए प्रश्नों (प्रश्न ' + (idx + 1) + ' से ' + (idx + 5) + ') के उत्तर दीजिए:'}
+                    </div>
+                    <div
+                      style={{
+                        fontSize: '0.96rem',
+                        whiteSpace: q.passage.kind === 'padya' ? 'pre-line' : 'pre-wrap',
+                        color: '#1e293b'
+                      }}
+                    >
+                      {q.passage.text}
+                    </div>
+                  </div>
+                )}
+
+                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', pageBreakInside: 'avoid' }}>
+                  <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline' }}>
+                    <div style={{ fontSize: '1.05rem', fontWeight: 600, flex: 1, paddingRight: '1rem' }}>
+                      <span>{idx + 1}. </span>
+                      <span>{q.question}</span>
+                    </div>
+
                 <span style={{ fontWeight: 'bold', fontSize: '0.95rem', flexShrink: 0 }}>
                   [{q.marks}]
                 </span>
@@ -145,7 +179,9 @@ export const WorksheetPrintView: React.FC<WorksheetPrintViewProps> = ({
                 </div>
               )}
             </div>
-          ))}
+          </React.Fragment>
+        );
+      })}
         </div>
 
         {/* Answer Key Page (Optional for Teachers) */}

@@ -1,4 +1,4 @@
-const CACHE_NAME = 'quizforge-v1';
+const CACHE_NAME = 'quizforge-v2';
 const STATIC_ASSETS = [
   '/',
   '/index.html',
@@ -30,15 +30,26 @@ self.addEventListener('activate', event => {
   );
 });
 
-// Fetch: Stale-While-Revalidate / Cache-first strategy for offline operation
+// Fetch: Stale-While-Revalidate for offline static assets, BYPASS SUPABASE ONLINE
 self.addEventListener('fetch', event => {
   const { request } = event;
   const url = new URL(request.url);
 
-  // Skip non-GET and cross-origin non-CDN requests
+  // 1. CRITICAL: Always bypass cache for all Supabase API, Auth, Realtime, and Edge Functions
+  if (
+    url.hostname.includes('supabase.co') ||
+    url.pathname.includes('/functions/v1') ||
+    url.pathname.includes('/rest/v1') ||
+    url.pathname.includes('/auth/v1') ||
+    url.pathname.includes('/realtime/v1')
+  ) {
+    return; // Pass through straight to network!
+  }
+
+  // 2. Skip non-GET requests
   if (request.method !== 'GET') return;
 
-  // For navigation requests (HTML pages)
+  // 3. For navigation requests (SPA HTML pages: /, /student, /admin, /results)
   if (request.mode === 'navigate') {
     event.respondWith(
       fetch(request).catch(() => {
@@ -48,7 +59,7 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  // For static assets, chunks, scripts, fonts, and stylesheets
+  // 4. For static assets, chunks, scripts, fonts, and stylesheets
   event.respondWith(
     caches.match(request).then(cachedResponse => {
       if (cachedResponse) {

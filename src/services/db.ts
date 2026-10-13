@@ -1,5 +1,5 @@
 import { openDB, DBSchema, IDBPDatabase } from 'idb';
-import { Question, QuizResult, UserStats, ActiveQuizSession } from '../types/quiz';
+import { Question, QuizResult, UserStats, ActiveQuizSession, Passage } from '../types/quiz';
 
 export function notifyStorageFull(customMessage?: string): void {
   const msg =
@@ -13,10 +13,20 @@ export function notifyStorageFull(customMessage?: string): void {
   }
 }
 
+export interface OverlayPassage extends Passage {
+  isUserAdded?: boolean;
+  isUserEdited?: boolean;
+  isUserDeleted?: boolean;
+}
+
 interface QuizForgeDB extends DBSchema {
   questionOverlay: {
     key: string; // question id
     value: Question;
+  };
+  passageOverlay: {
+    key: string; // passage id
+    value: OverlayPassage;
   };
   quizResults: {
     key: string; // attempt id
@@ -34,7 +44,9 @@ interface QuizForgeDB extends DBSchema {
 }
 
 const DB_NAME = 'quizforge_database';
-const DB_VERSION = 1;
+const DB_VERSION = 2;
+
+export const BANK_VERSION = 'v2_hindi_rewrite';
 
 let dbPromise: Promise<IDBPDatabase<QuizForgeDB>> | null = null;
 
@@ -44,6 +56,9 @@ export async function getDB(): Promise<IDBPDatabase<QuizForgeDB>> {
       upgrade(db) {
         if (!db.objectStoreNames.contains('questionOverlay')) {
           db.createObjectStore('questionOverlay', { keyPath: 'id' });
+        }
+        if (!db.objectStoreNames.contains('passageOverlay')) {
+          db.createObjectStore('passageOverlay', { keyPath: 'id' });
         }
         if (!db.objectStoreNames.contains('quizResults')) {
           const resultStore = db.createObjectStore('quizResults', { keyPath: 'id' });
@@ -59,6 +74,53 @@ export async function getDB(): Promise<IDBPDatabase<QuizForgeDB>> {
     });
   }
   return dbPromise;
+}
+
+// BANK VERSION MIGRATION
+export async function runBankVersionMigration(): Promise<void> {
+  if (typeof window === 'undefined') return;
+  const currentVersion = localStorage.getItem('quizforge_bank_version');
+  if (currentVersion === BANK_VERSION) return;
+
+  try {
+    const db = await getDB();
+    // 1. Remove overlay entries that point to OLD Hindi seed IDs, while keeping user-added questions
+    const allOverlays = await db.getAll('questionOverlay');
+    const isOldHindiSeed = (id: string) =>
+      id.startsWith('c9-hindi-') ||
+      id.startsWith('c10-hindi-') ||
+      id.startsWith('c11-hindi-') ||
+      id.startsWith('c12-hindi-');
+
+    for (const q of allOverlays) {
+      if (isOldHindiSeed(q.id) && !q.isUserAdded) {
+        await db.delete('questionOverlay', q.id);
+      }
+    }
+
+    // 2. Remove old Hindi bookmarks
+    const bookmarks = await db.getAll('bookmarkedQuestions');
+    for (const b of bookmarks) {
+      if (isOldHindiSeed(b.id)) {
+        await db.delete('bookmarkedQuestions', b.id);
+      }
+    }
+
+    // 3. Remove old Hindi questions from mistake queue
+    const stats = await getUserStats();
+    const updatedMistakes = (stats.mistakeQuestionIds || []).filter(id => !isOldHindiSeed(id));
+    const updatedBookmarks = (stats.bookmarkedQuestionIds || []).filter(id => !isOldHindiSeed(id));
+    await saveUserStats({
+      ...stats,
+      mistakeQuestionIds: updatedMistakes,
+      bookmarkedQuestionIds: updatedBookmarks
+    });
+
+    localStorage.setItem('quizforge_bank_version', BANK_VERSION);
+    console.log(`QuizForge migrated to bank version: ${BANK_VERSION}`);
+  } catch (err) {
+    console.error('Bank migration failed:', err);
+  }
 }
 
 // QUESTION OVERLAY OPERATIONS
@@ -94,10 +156,69 @@ export async function deleteOverlayQuestion(id: string): Promise<void> {
   }
 }
 
+// PASSAGE OVERLAY OPERATIONS
+export async function getOverlayPassages(): Promise<OverlayPassage[]> {
+  try {
+    const db = await getDB();
+    return await db.getAll('passageOverlay');
+  } catch (err) {
+    console.error('Failed to get overlay passages:', err);
+    return [];
+  }
+}
+
+export async function saveOverlayPassage(passage: OverlayPassage): Promise<void> {
+  try {
+    const db = await getDB();
+    await db.put('passageOverlay', passage);
+  } catch (err: any) {
+    if (err?.name === 'QuotaExceededError') {
+      notifyStorageFull('Cannot save custom passage: Browser storage quota exceeded.');
+    } else {
+      console.error('Error saving overlay passage:', err);
+    }
+  }
+}
+
+export async function addOverlayPassage(passage: Passage): Promise<void> {
+  await saveOverlayPassage({ ...passage, isUserAdded: true });
+}
+
+export async function updateOverlayPassage(passage: Passage): Promise<void> {
+  await saveOverlayPassage({ ...passage, isUserEdited: true });
+}
+
+export async function markOverlayPassageDeleted(id: string): Promise<void> {
+  try {
+    const db = await getDB();
+    const existing = await db.get('passageOverlay', id);
+    if (existing) {
+      await saveOverlayPassage({ ...existing, isUserDeleted: true });
+    } else {
+      await saveOverlayPassage({ id, isUserDeleted: true } as any);
+    }
+  } catch (err) {
+    console.error('Error marking passage deleted:', err);
+  }
+}
+
+export async function deleteOverlayPassage(id: string): Promise<void> {
+  try {
+    const db = await getDB();
+    await db.delete('passageOverlay', id);
+  } catch (err) {
+    console.error('Error deleting overlay passage:', err);
+  }
+}
+
+
 export async function resetToOriginalBank(): Promise<void> {
   try {
     const db = await getDB();
     await db.clear('questionOverlay');
+    if (db.objectStoreNames.contains('passageOverlay')) {
+      await db.clear('passageOverlay');
+    }
   } catch (err) {
     console.error('Error resetting overlay:', err);
   }

@@ -16,10 +16,10 @@
 | **Chemistry** | 100 | 22 | 8 | 8 | 5 | 18 | 6 | 8 | 8 | 9 | 8 | 40 / 45 / 15 | ✅ PASS |
 | **Biology** | 100 | 24 | 10 | 10 | 6 | 5 | 12 | 10 | 5 | 8 | 10 | 40 / 45 / 15 | ✅ PASS |
 | **English** | 100 | 28 | 10 | 14 | 8 | 3 | 6 | 12 | 6 | 8 | 5 | 40 / 45 / 15 | ✅ PASS |
-| **Hindi** | 100 | 28 | 10 | 14 | 8 | 3 | 6 | 12 | 6 | 8 | 5 | 40 / 45 / 15 | ✅ PASS |
+| **Hindi** | 100 | 33 | 8 | 13 | 7 | 3 | 4 | 12 | 5 | 9 | 6 | 40 / 45 / 15 | ✅ PASS |
 | **Computer Science** | 100 | 25 | 10 | 10 | 6 | 10 | 6 | 10 | 8 | 8 | 7 | 40 / 45 / 15 | ✅ PASS |
 | **General Knowledge (GK)** | 100 | 25 | 10 | 10 | 6 | 10 | 6 | 10 | 8 | 8 | 7 | 40 / 45 / 15 | ✅ PASS |
-| **CLASS 9 TOTAL** | **800** | **196** | **74** | **82** | **49** | **82** | **54** | **78** | **57** | **67** | **61** | **319 / 361 / 120** (39.9% / 45.1% / 15.0%) | ✅ **PERFECT** |
+| **CLASS 9 TOTAL** | **800** | **201** | **72** | **81** | **48** | **82** | **52** | **78** | **56** | **68** | **62** | **319 / 361 / 120** (39.9% / 45.1% / 15.0%) | ✅ **PERFECT** |
 
 ---
 
@@ -37,11 +37,12 @@
    - *Beehive* (The Fun They Had, The Sound of Music, The Little Girl, A Truly Beautiful Mind, The Snake and the Mirror, My Childhood, Reach for the Top, Kathmandu, If I Were You; Poems: The Road Not Taken, Wind, Rain on the Roof, The Lake Isle of Innisfree, A Legend of the Northland, No Men Are Foreign, On Killing a Tree, A Slumber Did My Spirit Seal).
    - *Moments* (The Lost Child, The Adventures of Toto, Iswaran the Storyteller, In the Kingdom of Fools, The Happy Prince, The Last Leaf, A House Is Not a Home, The Beggar).
    - *Grammar & Writing*: Tenses, Modals, Determiners, Subject-Verb Agreement, Reported Speech, Descriptive Paragraph, Diary Entry, Story Writing.
-6. **Hindi (`hindi.json`)**:
-   - *क्षितिज भाग 1 (Kshitij)*: दो बैलों की कथा, ल्हासा की ओर, उपभोक्तावाद की संस्कृति, साँवले सपनों की याद, प्रेमचंद के फटे जूते, मेरे बचपन के दिन; कबीर (साखियाँ एवं सबद), ललद्यद (वाख), रसखान (सवैये), माखनलाल चतुर्वेदी (कैदी और कोकिला), सुमित्रानंदन पंत (ग्राम श्री), केदारनाथ अग्रवाल, सर्वेश्वर दयाल सक्सेना (मेघ आए), चंद्रकांत देवताले, राजेश जोशी (बच्चे काम पर जा रहे हैं).
-   - *कृतिका भाग 1 (Kritika)*: इस जल प्रलय में, मेरे संग की औरतें, रीढ़ की हड्डी, माटी वाली.
-   - *स्पर्श एवं संचयन (Sparsh & Sanchayan)*: दुःख का अधिकार, एवरेस्ट: मेरी शिखर यात्रा, तुम कब जाओगे अतिथि, वैज्ञानिक चेतना के वाहक, शुक्रतारे के समान; रैदास, रहीम के दोहे, गीत-अगीत, अग्नि पथ, नए इलाके में / खुशबू रचते हैं हाथ; गिल्लू, स्मृति, कल्लू कुम्हार की उनाकोटी, हामिद खाँ, दिए जल उठे.
-   - *व्याकरण एवं रचना*: उपसर्ग एवं प्रत्यय, समास, अर्थ की दृष्टि से वाक्य भेद, अलंकार (अनुप्रास, यमक, उपमा, रूपक, उत्प्रेक्षा, अतिशयोक्ति), संधि, विलोम, पर्यायवाची, मुहावरे, पत्र लेखन, संवाद लेखन.
+6. **Hindi (`hindi.json` & `hindi.passages.json`) — Phase 7 Pure Grammar & Unseen Passages**:
+   - *शुद्ध व्याकरण (70 प्रश्न)*: वर्ण विचार (10), संधि (7), समास (7), संज्ञा, सर्वनाम और विशेषण (6), क्रिया और अविकारी शब्द (5), उपसर्ग और प्रत्यय (5), पर्यायवाची, विलोम और अनेकार्थी शब्द (5), कारक (4), मुहावरे और लोकोक्तियाँ (3), अनेक शब्दों के लिए एक शब्द (3), शब्द शुद्धि और वाक्य शुद्धि (3), अलंकार (3), रस (3), लिंग और वचन (2), काल (2), पत्र, अनुच्छेद, विज्ञापन और सूचना लेखन (2).
+   - *अपठित बोध (30 प्रश्न = 6 गद्यांश/पद्यांश × 5 प्रश्न)*:
+     - 4 अपठित गद्यांश (`c9-hindi-p01` से `p04`: समय का सदुपयोग, पर्यावरण संरक्षण, स्वाध्याय व पुस्तकें, वैज्ञानिक दृष्टिकोण — प्रत्येक 120-170 शब्द).
+     - 2 अपठित पद्यांश (`c9-hindi-p05` से `p06`: कर्मवीर की साधना, प्रकृति का अनुपम संदेश — प्रत्येक 8 पंक्तियाँ).
+   - *पाठ्यपुस्तकीय साहित्य शून्य*: क्षितिज, कृतिका, स्पर्श, संचयन आदि के पाठों, कविताओं व लेखकों से संबंधित कोई प्रश्न नहीं।
 7. **Computer Science (`cs.json`)**:
    - *Computer Fundamentals*, *Input/Output Devices*, *Memory and Storage*, *Operating System Basics*, *Word Processing*, *Spreadsheets*, *Internet and Safe Browsing*, *Cyber Safety and Ethics*, *Introduction to HTML*, *Number System Basics*, *Introduction to AI*.
 8. **General Knowledge (`gk.json`)**:

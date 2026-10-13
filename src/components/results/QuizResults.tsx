@@ -286,6 +286,24 @@ export const QuizResults: React.FC<QuizResultsProps> = ({
           </div>
         </div>
 
+        {/* Old bank version alert for past Hindi attempts */}
+        {result.config?.selectedSubjects?.includes('hindi') && (result as any).bankVersion !== 'v2_hindi_rewrite' && (
+          <div
+            className="notebook-sheet"
+            style={{
+              padding: '0.9rem 1.2rem',
+              backgroundColor: 'var(--red-pen-bg)',
+              color: 'var(--red-pen)',
+              border: '1.5px dashed var(--red-pen)',
+              borderRadius: '6px',
+              fontSize: '0.92rem',
+              fontWeight: 600
+            }}
+          >
+            ⚠️ This attempt used an older version of the Hindi bank.
+          </div>
+        )}
+
         {result.questionList
           .filter(q => {
             const ans = result.userAnswers[q.id];
@@ -320,7 +338,29 @@ export const QuizResults: React.FC<QuizResultsProps> = ({
                   </span>
                 </div>
 
+                {/* Unseen Passage if linked to question */}
+                {q.passage && (
+                  <div
+                    style={{
+                      padding: '0.8rem 1rem',
+                      backgroundColor: 'var(--bg-paper-subtle)',
+                      borderRadius: '4px',
+                      borderLeft: '3px solid var(--accent, #aa3bff)',
+                      fontSize: '0.92rem',
+                      lineHeight: '1.8',
+                      fontFamily: "'Noto Sans Devanagari', sans-serif",
+                      whiteSpace: q.passage.kind === 'padya' ? 'pre-line' : 'pre-wrap'
+                    }}
+                  >
+                    <strong style={{ display: 'block', marginBottom: '0.3rem', color: 'var(--ink-secondary)' }}>
+                      {q.passage.kind === 'padya' ? '📜 संबद्ध काव्यांश:' : '📄 संबद्ध गद्यांश:'}
+                    </strong>
+                    {q.passage.text}
+                  </div>
+                )}
+
                 <div style={{ fontSize: '1.05rem', fontWeight: 600 }}>{q.question}</div>
+
 
                 {q.image && (
                   <div

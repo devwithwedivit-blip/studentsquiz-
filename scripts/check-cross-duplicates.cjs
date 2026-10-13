@@ -3,10 +3,11 @@ const path = require('path');
 
 const classes = ['class-9', 'class-10', 'class-11', 'class-12'];
 const allQuestions = [];
+const allPassages = [];
 
 for (const cls of classes) {
   const dir = path.join(__dirname, '..', 'src', 'data', cls);
-  const files = fs.readdirSync(dir).filter(f => f.endsWith('.json'));
+  const files = fs.readdirSync(dir).filter(f => f.endsWith('.json') && !f.endsWith('.passages.json'));
   for (const file of files) {
     const questions = JSON.parse(fs.readFileSync(path.join(dir, file), 'utf8'));
     for (const q of questions) {
@@ -16,9 +17,25 @@ for (const cls of classes) {
       });
     }
   }
+
+  const pFile = path.join(dir, 'hindi.passages.json');
+  if (fs.existsSync(pFile)) {
+    try {
+      const passages = JSON.parse(fs.readFileSync(pFile, 'utf8'));
+      for (const p of passages) {
+        if (p && p.id && p.content) {
+          allPassages.push({
+            ...p,
+            _class: cls
+          });
+        }
+      }
+    } catch {}
+  }
 }
 
 console.log(`Total questions loaded: ${allQuestions.length}`);
+console.log(`Total unseen passages loaded: ${allPassages.length}`);
 
 // Common generic stop words in question stems that don't indicate semantic duplication
 const STOP_WORDS = new Set([
@@ -76,9 +93,36 @@ for (let i = 0; i < allQuestions.length; i++) {
   }
 }
 
-console.log(`Cross-class near-duplicate pairs (>= 80% content similarity): ${crossClassDupes.length}`);
+console.log(`Cross-class near-duplicate question pairs (>= 80% content similarity): ${crossClassDupes.length}`);
 if (crossClassDupes.length > 0) {
   console.log(JSON.stringify(crossClassDupes, null, 2));
 } else {
-  console.log('PASS: 0 cross-class near-duplicate pairs found across all 3,200 questions!');
+  console.log('PASS: 0 cross-class near-duplicate question pairs found!');
+}
+
+if (allPassages.length > 0) {
+  const passageTokenMap = allPassages.map(p => tokenize(p.content));
+  const crossPassageDupes = [];
+  for (let i = 0; i < allPassages.length; i++) {
+    for (let j = i + 1; j < allPassages.length; j++) {
+      const p1 = allPassages[i];
+      const p2 = allPassages[j];
+      if (p1._class !== p2._class) {
+        const sim = jaccard(passageTokenMap[i], passageTokenMap[j]);
+        if (sim >= 0.7) {
+          crossPassageDupes.push({
+            p1: `${p1.id} (${p1._class})`,
+            p2: `${p2.id} (${p2._class})`,
+            sim: Math.round(sim * 100) + '%'
+          });
+        }
+      }
+    }
+  }
+  console.log(`Cross-class near-duplicate passage pairs (>= 70% similarity): ${crossPassageDupes.length}`);
+  if (crossPassageDupes.length > 0) {
+    console.log(JSON.stringify(crossPassageDupes, null, 2));
+  } else {
+    console.log('PASS: 0 cross-class near-duplicate passage pairs found!');
+  }
 }

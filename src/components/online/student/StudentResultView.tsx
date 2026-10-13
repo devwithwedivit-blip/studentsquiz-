@@ -1,0 +1,242 @@
+import React from 'react';
+import { SubmitAttemptResponse } from '../../../types/online';
+
+interface StudentResultViewProps {
+  result: SubmitAttemptResponse;
+  onBackToDashboard: () => void;
+}
+
+export function StudentResultView({ result, onBackToDashboard }: StudentResultViewProps) {
+  const { score, total, percentage, timeTakenSeconds, answersVisible, review, status } = result;
+
+  const mins = Math.floor(timeTakenSeconds / 60);
+  const secs = timeTakenSeconds % 60;
+
+  const getPraiseMessage = (pct: number) => {
+    if (pct >= 90) return { text: '🌟 उत्कृष्ट प्रदर्शन! (Outstanding!)', color: '#059669' };
+    if (pct >= 75) return { text: '👏 बहुत अच्छा प्रयास! (Great Job!)', color: '#0284c7' };
+    if (pct >= 50) return { text: '👍 अच्छा प्रयास! निरंतर अभ्यास करते रहें।', color: '#d97706' };
+    return { text: '📚 पुनः अभ्यास की आवश्यकता है। और मेहनत करें!', color: '#dc2626' };
+  };
+
+  const praise = getPraiseMessage(percentage);
+
+  const handlePrint = () => {
+    window.print();
+  };
+
+  return (
+    <div style={{ maxWidth: '850px', margin: '0 auto', padding: '1rem' }}>
+      {/* Result Card */}
+      <div
+        className="notebook-sheet"
+        style={{
+          padding: '2.5rem',
+          textAlign: 'center',
+          marginBottom: '1.5rem',
+          borderTop: '6px solid var(--accent-color)'
+        }}
+      >
+        <div style={{ fontSize: '3.5rem', marginBottom: '0.4rem' }}>
+          {percentage >= 75 ? '🏆' : percentage >= 50 ? '🎯' : '📖'}
+        </div>
+        <h2 style={{ fontFamily: 'var(--font-heading)', margin: 0, fontSize: '1.8rem' }}>
+          परीक्षा परिणाम (Exam Result)
+        </h2>
+        <div
+          style={{
+            fontSize: '1.1rem',
+            fontWeight: 700,
+            color: praise.color,
+            margin: '0.5rem 0 1.5rem 0'
+          }}
+        >
+          {praise.text}
+        </div>
+
+        {status === 'timed_out' && (
+          <div
+            style={{
+              padding: '0.5rem 1rem',
+              backgroundColor: 'var(--red-pen-bg)',
+              color: 'var(--red-pen)',
+              borderRadius: '6px',
+              display: 'inline-block',
+              fontWeight: 600,
+              fontSize: '0.85rem',
+              marginBottom: '1rem'
+            }}
+          >
+            ⏱️ समय सीमा समाप्त होने पर स्वतः सबमिट किया गया
+          </div>
+        )}
+
+        {/* Score Metrics Grid */}
+        <div
+          style={{
+            display: 'grid',
+            gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))',
+            gap: '1rem',
+            margin: '1.5rem 0'
+          }}
+        >
+          <div
+            style={{
+              padding: '1.2rem',
+              backgroundColor: 'var(--paper-card)',
+              borderRadius: '8px',
+              border: '1.5px solid var(--paper-line)'
+            }}
+          >
+            <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>कुल प्राप्तांक</div>
+            <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--accent-color)', marginTop: '0.2rem' }}>
+              {score} <span style={{ fontSize: '1.1rem', color: 'var(--ink-secondary)' }}>/ {total}</span>
+            </div>
+          </div>
+
+          <div
+            style={{
+              padding: '1.2rem',
+              backgroundColor: 'var(--paper-card)',
+              borderRadius: '8px',
+              border: '1.5px solid var(--paper-line)'
+            }}
+          >
+            <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>प्रतिशत (Percentage)</div>
+            <div style={{ fontSize: '2rem', fontWeight: 800, color: praise.color, marginTop: '0.2rem' }}>
+              {percentage}%
+            </div>
+          </div>
+
+          <div
+            style={{
+              padding: '1.2rem',
+              backgroundColor: 'var(--paper-card)',
+              borderRadius: '8px',
+              border: '1.5px solid var(--paper-line)'
+            }}
+          >
+            <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>लिया गया समय</div>
+            <div style={{ fontSize: '1.8rem', fontWeight: 800, color: 'var(--ink-primary)', marginTop: '0.2rem' }}>
+              {mins}m {secs}s
+            </div>
+          </div>
+        </div>
+
+        {/* Action Buttons */}
+        <div style={{ display: 'flex', gap: '0.8rem', justifyContent: 'center' }}>
+          <button
+            onClick={onBackToDashboard}
+            className="paper-btn paper-btn-accent"
+            style={{ padding: '0.6rem 1.4rem', fontWeight: 700 }}
+          >
+            ← डैशबोर्ड पर वापस जाएं
+          </button>
+          <button
+            onClick={handlePrint}
+            className="paper-btn"
+            style={{ padding: '0.6rem 1.2rem', fontWeight: 600 }}
+          >
+            🖨️ प्रिंट करें (Print Result)
+          </button>
+        </div>
+      </div>
+
+      {/* Answer Review Section */}
+      {answersVisible ? (
+        <div>
+          <h3 style={{ fontFamily: 'var(--font-heading)', margin: '1.5rem 0 1rem 0' }}>
+            🔍 उत्तर समीक्षा एवं व्याख्या (Review & Explanations)
+          </h3>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+            {review.map((item, idx) => {
+              const isFull = item.isCorrect;
+              const isPartial = !isFull && (item.marksAwarded > 0);
+
+              return (
+                <div
+                  key={item.questionId}
+                  className="notebook-sheet"
+                  style={{
+                    padding: '1.2rem',
+                    borderLeft: `5px solid ${isFull ? '#059669' : isPartial ? '#d97706' : '#dc2626'}`
+                  }}
+                >
+                  <div
+                    style={{
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      marginBottom: '0.6rem'
+                    }}
+                  >
+                    <span style={{ fontWeight: 700, fontSize: '0.95rem' }}>
+                      प्रश्न {idx + 1} ({item.type})
+                    </span>
+                    <span
+                      style={{
+                        padding: '0.2rem 0.6rem',
+                        borderRadius: '4px',
+                        fontSize: '0.8rem',
+                        fontWeight: 700,
+                        backgroundColor: isFull ? '#d1fae5' : isPartial ? '#fef3c7' : '#fee2e2',
+                        color: isFull ? '#065f46' : isPartial ? '#92400e' : '#991b1b'
+                      }}
+                    >
+                      {item.marksAwarded} / {item.marks} अंक
+                    </span>
+                  </div>
+
+                  <div style={{ fontSize: '0.9rem', marginBottom: '0.4rem' }}>
+                    <strong>आपका उत्तर:</strong>{' '}
+                    <span style={{ color: isFull ? '#065f46' : '#991b1b', fontWeight: 600 }}>
+                      {typeof item.userResponse === 'object'
+                        ? JSON.stringify(item.userResponse)
+                        : String(item.userResponse ?? '(अनुत्तरित)')}
+                    </span>
+                  </div>
+
+                  {item.correctAnswer !== undefined && (
+                    <div style={{ fontSize: '0.9rem', marginBottom: '0.4rem', color: '#065f46' }}>
+                      <strong>सही उत्तर:</strong>{' '}
+                      <span style={{ fontWeight: 600 }}>
+                        {typeof item.correctAnswer === 'object'
+                          ? JSON.stringify(item.correctAnswer)
+                          : String(item.correctAnswer)}
+                      </span>
+                    </div>
+                  )}
+
+                  {item.explanation && (
+                    <div
+                      style={{
+                        marginTop: '0.6rem',
+                        padding: '0.6rem 0.8rem',
+                        backgroundColor: 'var(--yellow-sticky)',
+                        borderRadius: '6px',
+                        fontSize: '0.85rem',
+                        lineHeight: '1.5'
+                      }}
+                    >
+                      💡 <strong>व्याख्या:</strong> {item.explanation}
+                    </div>
+                  )}
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      ) : (
+        <div className="notebook-sheet" style={{ padding: '2rem', textAlign: 'center' }}>
+          <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>🔒</div>
+          <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)' }}>
+            विस्तृत समीक्षा वर्तमान में सुरक्षित है
+          </h4>
+          <p style={{ color: 'var(--ink-secondary)', fontSize: '0.9rem', marginTop: '0.4rem' }}>
+            इस परीक्षा की सेटिंग के अनुसार, परीक्षा अवधि समाप्त होने के पश्चात ही सही उत्तर और विस्तृत समाधान दिखाए जाएंगे।
+          </p>
+        </div>
+      )}
+    </div>
+  );
+}

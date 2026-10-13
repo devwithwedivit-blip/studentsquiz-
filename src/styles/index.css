@@ -307,3 +307,38 @@ button {
     scroll-behavior: auto !important;
   }
 }
+
+/* Unseen Passage Responsive Split View */
+.quiz-split-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.2rem;
+  width: 100%;
+}
+
+@media (min-width: 860px) {
+  .quiz-split-container.has-passage {
+    grid-template-columns: minmax(360px, 1fr) minmax(420px, 1.15fr);
+    align-items: start;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .desktop-passage-col {
+    position: sticky;
+    top: 1rem;
+    display: block;
+  }
+  .mobile-passage-trigger {
+    display: none !important;
+  }
+}
+
+@media (max-width: 859px) {
+  .desktop-passage-col {
+    display: none !important;
+  }
+  .mobile-passage-trigger {
+    display: flex !important;
+  }
+}
+

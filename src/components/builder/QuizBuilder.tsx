@@ -49,6 +49,8 @@ export const QuizBuilder: React.FC<QuizBuilderProps> = ({
   const [shuffleQuestions, setShuffleQuestions] = useState(true);
   const [negativeMarking, setNegativeMarking] = useState(false);
   const [mistakeIds, setMistakeIds] = useState<string[]>([]);
+  const [includePassages, setIncludePassages] = useState<boolean>(true);
+  const [passageCount, setPassageCount] = useState<number>(1);
 
   // Count stepper per question type
   const [typeCounts, setTypeCounts] = useState<Record<QuestionType, number>>({
@@ -80,13 +82,14 @@ export const QuizBuilder: React.FC<QuizBuilderProps> = ({
     }
   }, [selectedClass, subjectsInClass]);
 
-  // Chapters available for currently selected class & subjects
+  // Chapters available for currently selected class & subjects (including full subject list from metadata)
   const availableChapters = Array.from(
-    new Set(
-      allQuestions
+    new Set([
+      ...allQuestions
         .filter(q => q.class === selectedClass && selectedSubjects.includes(q.subject))
-        .map(q => q.chapter)
-    )
+        .map(q => q.chapter),
+      ...selectedSubjects.flatMap(s => SUBJECTS[s]?.chaptersByClass?.[selectedClass] || [])
+    ])
   );
 
   // Total questions count requested
@@ -103,6 +106,85 @@ export const QuizBuilder: React.FC<QuizBuilderProps> = ({
 
   // Presets definition
   const presets: QuizPreset[] = [
+    {
+      id: 'unseenPassage1',
+      name: 'Unseen Passage: 1 passage (5 Qs)',
+      description: '1 complete unseen passage with 5 contextual questions (MCQ, Fill, Short, T/F)',
+      badge: '📄 1 Passage (5 Qs)',
+      configPartial: {
+        totalQuestions: 5,
+        includePassages: true,
+        passageCount: 1,
+        selectedSubjects: ['hindi'],
+        typeCounts: {
+          mcq: 2,
+          truefalse: 1,
+          fillblank: 1,
+          match: 0,
+          numerical: 0,
+          image: 0,
+          short: 1,
+          logic: 0,
+          multiselect: 0,
+          ordering: 0
+        },
+        quizMode: 'practice',
+        timerMode: 'none'
+      }
+    },
+    {
+      id: 'unseenPassage2',
+      name: 'Unseen Passage: 2 passages (10 Qs)',
+      description: 'Comprehensive comprehension drill with 2 passages (10 questions in groups of 5)',
+      badge: '📄 2 Passages (10 Qs)',
+      configPartial: {
+        totalQuestions: 10,
+        includePassages: true,
+        passageCount: 2,
+        selectedSubjects: ['hindi'],
+        typeCounts: {
+          mcq: 4,
+          truefalse: 1,
+          fillblank: 1,
+          match: 0,
+          numerical: 0,
+          image: 0,
+          short: 3,
+          logic: 0,
+          multiselect: 1,
+          ordering: 0
+        },
+        quizMode: 'exam',
+        timerMode: 'whole-quiz',
+        timerSeconds: 1200
+      }
+    },
+    {
+      id: 'vyakaranDrill',
+      name: 'Vyakaran Drill',
+      description: 'Pure Hindi grammar practice across all chapters without unseen passages',
+      badge: '✍️ Grammar Only',
+      configPartial: {
+        totalQuestions: 15,
+        includePassages: false,
+        passageCount: 0,
+        selectedSubjects: ['hindi'],
+        typeCounts: {
+          mcq: 4,
+          truefalse: 1,
+          fillblank: 2,
+          match: 2,
+          numerical: 1,
+          image: 1,
+          short: 1,
+          logic: 1,
+          multiselect: 1,
+          ordering: 1
+        },
+        quizMode: 'practice',
+        timerMode: 'none'
+      }
+    },
     {
       id: 'quick10',
       name: 'Quick 10',
@@ -201,9 +283,19 @@ export const QuizBuilder: React.FC<QuizBuilderProps> = ({
     if (preset.configPartial.negativeMarking !== undefined) {
       setNegativeMarking(preset.configPartial.negativeMarking);
     }
+    if (preset.configPartial.includePassages !== undefined) {
+      setIncludePassages(preset.configPartial.includePassages);
+    }
+    if (preset.configPartial.passageCount !== undefined) {
+      setPassageCount(preset.configPartial.passageCount);
+    }
+    if (preset.configPartial.selectedSubjects) {
+      setSelectedSubjects(preset.configPartial.selectedSubjects);
+    }
   };
 
   const handleStart = () => {
+    const isHindi = selectedSubjects.includes('hindi');
     const config: QuizConfig = {
       selectedClass,
       selectedSubjects,
@@ -215,11 +307,14 @@ export const QuizBuilder: React.FC<QuizBuilderProps> = ({
       timerSeconds: timerMode === 'per-question' ? 60 : timerMode === 'whole-quiz' ? 1800 : 0,
       shuffleQuestions,
       negativeMarking,
-      quizMode
+      quizMode,
+      includePassages: isHindi ? includePassages : false,
+      passageCount: isHindi && includePassages ? passageCount : 0
     };
 
     onStartQuiz(config);
   };
+
 
   return (
     <div style={{ maxWidth: '900px', margin: '0 auto', display: 'flex', flexDirection: 'column', gap: '1.6rem' }}>
@@ -601,6 +696,62 @@ export const QuizBuilder: React.FC<QuizBuilderProps> = ({
             </span>
           </label>
         </div>
+
+        {/* Unseen Passage Controls for Hindi */}
+        {selectedSubjects.includes('hindi') && (
+          <div
+            style={{
+              padding: '0.9rem 1.1rem',
+              backgroundColor: 'var(--bg-paper-subtle)',
+              border: '1.5px dashed var(--ink-border)',
+              borderRadius: 'var(--radius-card)',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '0.7rem'
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.8rem' }}>
+              <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', cursor: 'pointer' }}>
+                <input
+                  type="checkbox"
+                  checked={includePassages}
+                  onChange={e => setIncludePassages(e.target.checked)}
+                />
+                <span style={{ fontSize: '0.92rem', fontWeight: 700 }}>
+                  Include unseen-passage questions (अपठित बोध)
+                </span>
+              </label>
+
+              {includePassages && (
+                <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <label htmlFor="passage-count-select" style={{ fontSize: '0.85rem', fontWeight: 600 }}>Passages:</label>
+                  <select
+                    id="passage-count-select"
+                    value={passageCount}
+                    onChange={e => setPassageCount(Number(e.target.value))}
+                    style={{
+                      padding: '0.3rem 0.6rem',
+                      borderRadius: '4px',
+                      border: '1.5px solid var(--ink-border)',
+                      fontSize: '0.85rem',
+                      fontFamily: 'inherit'
+                    }}
+                  >
+                    <option value={1}>1 passage (5 Qs)</option>
+                    <option value={2}>2 passages (10 Qs)</option>
+                  </select>
+                </div>
+              )}
+            </div>
+
+            <div style={{ fontSize: '0.8rem', color: 'var(--ink-secondary)' }}>
+              {includePassages
+                ? `Requests for passage questions always pull whole groups of 5 questions per passage (currently: ${passageCount * 5} passage questions included).`
+                : 'Vyakaran only: Unseen passage questions will be excluded.'}
+            </div>
+          </div>
+        )}
+
 
         {/* Start Quiz Action Bar */}
         <div

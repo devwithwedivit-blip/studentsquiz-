@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
-import { Question, QuestionType, Difficulty, SubjectId } from '../../types/quiz';
+import { Question, QuestionType, Difficulty, SubjectId, Passage } from '../../types/quiz';
 import { SUBJECTS, ALL_CLASSES } from '../../data/subjects';
 import { QuestionCard } from '../player/QuestionCard';
+import { PassagePanel } from '../player/PassagePanel';
 import { HandDrawnIcon } from '../common/HandDrawnIcon';
 
 interface QuestionEditorModalProps {
   question: Partial<Question> | null;
+  passages?: Passage[];
   isOpen: boolean;
   onClose: () => void;
   onSave: (question: Question) => void;
@@ -13,6 +15,7 @@ interface QuestionEditorModalProps {
 
 export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
   question,
+  passages,
   isOpen,
   onClose,
   onSave
@@ -90,6 +93,12 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
     question?.orderedItems || ['Step 1', 'Step 2', 'Step 3', 'Step 4']
   );
 
+  const [passageId, setPassageId] = useState<string>(question?.passageId || '');
+  const [passageOrder, setPassageOrder] = useState<number>(question?.passageOrder || 1);
+
+  const relevantPassages = (passages || []).filter(p => p.class === cls && p.subject === subject);
+  const linkedPassage = relevantPassages.find(p => p.id === passageId);
+
   const [showLivePreview, setShowLivePreview] = useState(true);
 
   // Build temporary question for live preview
@@ -103,6 +112,9 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
     question: questionText || 'Question statement will appear here...',
     marks,
     explanation: explanation || 'Step-by-step teacher explanation.',
+    passageId: passageId || undefined,
+    passageOrder: passageId ? Number(passageOrder) : undefined,
+    passage: linkedPassage,
     options: type === 'mcq' ? mcqOptions : type === 'multiselect' ? multiOptions : undefined,
     answer:
       type === 'mcq'
@@ -141,6 +153,7 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
     unit: type === 'numerical' ? numUnit : undefined,
     hint: type === 'logic' ? hint : undefined
   };
+
 
   const handleFileUpload = (e: React.ChangeEvent<HTMLInputElement>) => {
     const file = e.target.files?.[0];
@@ -346,6 +359,65 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
                 />
               </div>
             </div>
+
+            {/* Link to Passage dropdown (for Hindi) */}
+            {subject === 'hindi' && (
+              <div
+                style={{
+                  display: 'grid',
+                  gridTemplateColumns: passageId ? '1.5fr 1fr' : '1fr',
+                  gap: '0.8rem',
+                  padding: '0.75rem',
+                  backgroundColor: 'var(--bg-paper-subtle)',
+                  borderRadius: '4px',
+                  border: '1.5px dashed var(--ink-border)'
+                }}
+              >
+                <div>
+                  <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>
+                    Link to Passage (अपठित परिच्छेद से जोड़ें):
+                  </label>
+                  <select
+                    value={passageId}
+                    onChange={e => {
+                      setPassageId(e.target.value);
+                      if (e.target.value) {
+                        const p = relevantPassages.find(rp => rp.id === e.target.value);
+                        if (p && !chapter) {
+                          setChapter(p.kind === 'padya' ? 'अपठित पद्यांश' : 'अपठित गद्यांश');
+                        }
+                      }
+                    }}
+                    style={{ width: '100%', padding: '0.5rem', borderRadius: '4px', border: '1px solid #cbd5e1' }}
+                  >
+                    <option value="">None (Standalone Vyakaran question)</option>
+                    {relevantPassages.map(p => (
+                      <option key={p.id} value={p.id}>
+                        [{p.id}] {p.kind === 'padya' ? 'पद्यांश' : 'गद्यांश'} — {p.wordCount || p.text.split(/\s+/).length} words ({p.theme || 'General'})
+                      </option>
+                    ))}
+                  </select>
+                </div>
+
+                {passageId && (
+                  <div>
+                    <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>
+                      Passage Order (प्रश्न क्रमांक 1-5):
+                    </label>
+                    <select
+                      value={passageOrder}
+                      onChange={e => setPassageOrder(Number(e.target.value))}
+                      style={{ width: '100%', padding: '0.5rem', borderRadius: '4px', border: '1px solid #cbd5e1' }}
+                    >
+                      {[1, 2, 3, 4, 5].map(num => (
+                        <option key={num} value={num}>Question {num} of 5</option>
+                      ))}
+                    </select>
+                  </div>
+                )}
+              </div>
+            )}
+
 
             {/* Question Text */}
             <div>
@@ -630,10 +702,18 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
                 👁 Live Student View Preview
               </div>
 
+              {/* If linked to a passage, preview the passage alongside question */}
+              {linkedPassage && (
+                <div style={{ maxHeight: '280px', overflowY: 'auto' }}>
+                  <PassagePanel passage={linkedPassage} passageOrder={passageOrder} />
+                </div>
+              )}
+
               <QuestionCard
                 question={previewQuestion}
                 questionNumber={1}
                 totalQuestions={1}
+
                 userAnswerRecord={undefined}
                 onUpdateAnswer={() => {}}
                 onSubmitAnswer={() => {}}

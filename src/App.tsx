@@ -5,9 +5,15 @@ import {
   QuizResult,
   UserStats,
   ActiveQuizSession,
-  UserAnswer
+  UserAnswer,
+  Passage
 } from './types/quiz';
-import { getEffectiveQuestions } from './data/bankLoader';
+import {
+  StudentSession,
+  StartAttemptResponse,
+  SubmitAttemptResponse
+} from './types/online';
+import { getEffectiveQuestions, getEffectivePassages } from './data/bankLoader';
 import {
   saveOverlayQuestion,
   deleteOverlayQuestion,
@@ -16,9 +22,21 @@ import {
   getBookmarks,
   toggleBookmark,
   getActiveQuizSession,
-  clearActiveQuizSession
+  clearActiveQuizSession,
+  saveOverlayPassage,
+  markOverlayPassageDeleted,
+  addOverlayPassage,
+  updateOverlayPassage
 } from './services/db';
+import { isSupabaseConfigured } from './services/supabase';
+import { getStoredStudentSession, startOnlineAttempt, clearStudentSession } from './services/studentApi';
+import { getCurrentAdmin, adminLogout, AdminProfile } from './services/adminApi';
+
+// Common & Mode
+import { ModeSelector, AppMode } from './components/common/ModeSelector';
 import { NotebookHeader } from './components/common/NotebookHeader';
+
+// Practice Components
 import { QuizBuilder } from './components/builder/QuizBuilder';
 import { QuizPlayer } from './components/player/QuizPlayer';
 import { QuizResults } from './components/results/QuizResults';
@@ -27,18 +45,39 @@ import { BankManager } from './components/manager/BankManager';
 import { BookmarksView } from './components/results/BookmarksView';
 import { PastAttemptsView } from './components/results/PastAttemptsView';
 
+// Online Components
+import { StudentLoginForm } from './components/online/student/StudentLoginForm';
+import { StudentDashboard } from './components/online/student/StudentDashboard';
+import { OnlineQuizPlayer } from './components/online/student/OnlineQuizPlayer';
+import { StudentResultView } from './components/online/student/StudentResultView';
+import { AdminLoginForm } from './components/online/admin/AdminLoginForm';
+import { AdminPortal } from './components/online/admin/AdminPortal';
+import { LiveResultsView } from './components/online/results/LiveResultsView';
+
 export function App() {
   const [questions, setQuestions] = useState<Question[]>([]);
+  const [passages, setPassages] = useState<Passage[]>([]);
   const [loading, setLoading] = useState(true);
 
-  // View state
+  // App Mode ('practice' | 'student' | 'admin' | 'results')
+  const [appMode, setAppMode] = useState<AppMode>(() => {
+    const path = window.location.pathname.toLowerCase();
+    const search = new URLSearchParams(window.location.search);
+    const m = search.get('mode');
+    if (m === 'student' || path.startsWith('/student')) return 'student';
+    if (m === 'admin' || path.startsWith('/admin')) return 'admin';
+    if (m === 'results' || path.startsWith('/results')) return 'results';
+    return 'practice';
+  });
+
+  // Practice View state
   const [activeTab, setActiveTab] = useState<'builder' | 'manager' | 'bookmarks' | 'history'>('builder');
   const [activeQuizQuestions, setActiveQuizQuestions] = useState<Question[] | null>(null);
   const [activeQuizConfig, setActiveQuizConfig] = useState<QuizConfig | null>(null);
   const [latestResult, setLatestResult] = useState<QuizResult | null>(null);
   const [isPrintMode, setIsPrintMode] = useState(false);
 
-  // Mid-quiz resume and storage alerts
+  // Mid-quiz resume and storage alerts (offline practice)
   const [pendingResumeSession, setPendingResumeSession] = useState<ActiveQuizSession | null>(null);
   const [resumeState, setResumeState] = useState<{
     initialAnswers?: Record<string, UserAnswer>;
@@ -61,11 +100,22 @@ export function App() {
   });
   const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
 
+  // Online Student state
+  const [studentSession, setStudentSession] = useState<StudentSession | null>(() => getStoredStudentSession());
+  const [activeOnlineQuiz, setActiveOnlineQuiz] = useState<StartAttemptResponse | null>(null);
+  const [onlineResult, setOnlineResult] = useState<SubmitAttemptResponse | null>(null);
+
+  // Online Admin state
+  const [adminSession, setAdminSession] = useState<AdminProfile | null>(null);
+  const [targetQuizId, setTargetQuizId] = useState<string>('');
+
   // Reload bank
   const reloadBank = async () => {
     try {
       const qs = await getEffectiveQuestions();
       setQuestions(qs);
+      const ps = await getEffectivePassages();
+      setPassages(ps);
       const s = await getUserStats();
       setStats(s);
       const b = await getBookmarks();
@@ -80,11 +130,16 @@ export function App() {
   useEffect(() => {
     reloadBank();
 
-    // Check for mid-quiz recovery session
+    // Check for mid-quiz recovery session in practice mode
     const savedSession = getActiveQuizSession();
     if (savedSession && savedSession.questions && savedSession.questions.length > 0) {
       setPendingResumeSession(savedSession);
     }
+
+    // Check existing admin auth
+    getCurrentAdmin().then(adm => {
+      if (adm) setAdminSession(adm);
+    });
 
     // Storage warning listener
     const handleStorageWarn = (e: any) => {
@@ -94,9 +149,31 @@ export function App() {
     return () => window.removeEventListener('quizforge:storage-warning', handleStorageWarn);
   }, []);
 
-  // START QUIZ
+  // Update browser history/URL smoothly when switching mode
+  const handleSelectMode = (mode: AppMode) => {
+    setAppMode(mode);
+    const newUrl = mode === 'practice' ? '/' : `/${mode}`;
+    window.history.pushState({}, '', newUrl);
+  };
+
+  // --- ONLINE STUDENT ACTIONS ---
+  const handleStartOnlineQuiz = async (quizId: string) => {
+    try {
+      const data = await startOnlineAttempt(quizId);
+      setActiveOnlineQuiz(data);
+      setOnlineResult(null);
+    } catch (err: any) {
+      alert(err.message || 'परीक्षा प्रारंभ करने में असमर्थ।');
+    }
+  };
+
+  const handleFinishOnlineQuiz = (res: SubmitAttemptResponse) => {
+    setActiveOnlineQuiz(null);
+    setOnlineResult(res);
+  };
+
+  // --- PRACTICE MODE ACTIONS (UNCHANGED) ---
   const handleStartQuiz = (config: QuizConfig) => {
-    // Select questions according to config
     const pool = questions.filter(q => {
       if (q.isHidden) return false;
       if (q.class !== config.selectedClass) return false;
@@ -106,34 +183,77 @@ export function App() {
       return true;
     });
 
-    // Select questions for each type according to count stepper
     const selected: Question[] = [];
+
+    if (config.selectedSubjects.includes('hindi') && config.includePassages !== false && config.passageCount && config.passageCount > 0) {
+      const passageQuestions = pool.filter(q => q.passageId);
+      const uniquePassageIds = Array.from(new Set(passageQuestions.map(q => q.passageId!)));
+      const chosenPassageIds = (config.shuffleQuestions ? [...uniquePassageIds].sort(() => Math.random() - 0.5) : uniquePassageIds)
+        .slice(0, config.passageCount);
+
+      for (const pId of chosenPassageIds) {
+        const pQs = passageQuestions
+          .filter(q => q.passageId === pId)
+          .sort((a, b) => (a.passageOrder || 0) - (b.passageOrder || 0));
+        selected.push(...pQs);
+      }
+    }
+
+    const remainingPool = pool.filter(q => {
+      if (selected.some(s => s.id === q.id)) return false;
+      if (config.includePassages === false && q.passageId) return false;
+      return true;
+    });
+
     for (const [t, targetCount] of Object.entries(config.typeCounts)) {
       if (targetCount <= 0) continue;
-      const ofType = pool.filter(q => q.type === t && !selected.some(s => s.id === q.id));
+      const alreadyOfThisType = selected.filter(q => q.type === t).length;
+      const stillNeeded = Math.max(0, targetCount - alreadyOfThisType);
+      if (stillNeeded <= 0) continue;
+
+      const ofType = remainingPool.filter(q => q.type === t && !selected.some(s => s.id === q.id));
       const shuffledOfType = config.shuffleQuestions
         ? [...ofType].sort(() => Math.random() - 0.5)
         : ofType;
-      selected.push(...shuffledOfType.slice(0, targetCount));
+      selected.push(...shuffledOfType.slice(0, stillNeeded));
     }
 
-    // If pool of requested types was smaller, fill with remaining pool
     if (selected.length < config.totalQuestions) {
-      const remaining = pool.filter(q => !selected.some(s => s.id === q.id));
+      const rest = remainingPool.filter(q => !selected.some(s => s.id === q.id));
       const needed = config.totalQuestions - selected.length;
-      selected.push(...remaining.slice(0, needed));
+      selected.push(...rest.slice(0, needed));
     }
 
-    const finalQuestions = config.shuffleQuestions
-      ? [...selected].sort(() => Math.random() - 0.5)
-      : selected;
+    const groups: Question[][] = [];
+    const passageMap = new Map<string, Question[]>();
+
+    for (const q of selected) {
+      if (q.passageId) {
+        if (!passageMap.has(q.passageId)) {
+          passageMap.set(q.passageId, []);
+        }
+        passageMap.get(q.passageId)!.push(q);
+      } else {
+        groups.push([q]);
+      }
+    }
+
+    for (const pGroup of passageMap.values()) {
+      pGroup.sort((a, b) => (a.passageOrder || 0) - (b.passageOrder || 0));
+      groups.push(pGroup);
+    }
+
+    const shuffledGroups = config.shuffleQuestions
+      ? [...groups].sort(() => Math.random() - 0.5)
+      : groups;
+
+    const finalQuestions = shuffledGroups.flat();
 
     if (finalQuestions.length === 0) {
       alert('No questions match this selection in the question bank. Please adjust your filters.');
       return;
     }
 
-    // Prompt user if fewer questions are available than requested
     if (finalQuestions.length < config.totalQuestions) {
       const proceed = window.confirm(
         `Only ${finalQuestions.length} questions match your filter criteria (requested: ${config.totalQuestions}). Would you like to proceed with these ${finalQuestions.length} questions?`
@@ -148,7 +268,6 @@ export function App() {
     setIsPrintMode(false);
   };
 
-  // PRACTICE SAVED / WRONG QUESTIONS
   const handlePracticeQuestions = (targetQuestions: Question[]) => {
     const config: QuizConfig = {
       selectedClass: targetQuestions[0]?.class || 9,
@@ -181,7 +300,6 @@ export function App() {
     setIsPrintMode(false);
   };
 
-  // QUESTION BANK ACTIONS
   const handleAddQuestion = async (q: Question) => {
     await saveOverlayQuestion(q);
     await reloadBank();
@@ -195,7 +313,6 @@ export function App() {
   const handleDeleteQuestion = async (id: string) => {
     const target = questions.find(q => q.id === id);
     if (target) {
-      // Mark as deleted in overlay
       await saveOverlayQuestion({ ...target, isUserDeleted: true });
       await reloadBank();
     }
@@ -231,6 +348,51 @@ export function App() {
     await reloadBank();
   };
 
+  const handleAddPassage = async (p: Passage) => {
+    await addOverlayPassage(p);
+    await reloadBank();
+  };
+
+  const handleEditPassage = async (p: Passage) => {
+    await updateOverlayPassage(p);
+    await reloadBank();
+  };
+
+  const handleDeletePassage = async (id: string, deleteLinkedQuestions: boolean) => {
+    await markOverlayPassageDeleted(id);
+    if (deleteLinkedQuestions) {
+      const linked = questions.filter(q => q.passageId === id);
+      for (const q of linked) {
+        await saveOverlayQuestion({ ...q, isUserDeleted: true });
+      }
+    } else {
+      const linked = questions.filter(q => q.passageId === id);
+      for (const q of linked) {
+        const { passageId, passageOrder, passage, ...rest } = q;
+        await saveOverlayQuestion({ ...rest, passageId: undefined, passageOrder: undefined });
+      }
+    }
+    await reloadBank();
+  };
+
+  const handleDuplicatePassage = async (p: Passage) => {
+    const newId = `${p.id}-copy-${Date.now()}`;
+    const newPassage: Passage = {
+      ...p,
+      id: newId,
+      title: `${p.title} (प्रतिलिपि)`
+    };
+    await addOverlayPassage(newPassage);
+    await reloadBank();
+  };
+
+  const handleImportPassages = async (imported: Passage[]) => {
+    for (const p of imported) {
+      await addOverlayPassage(p);
+    }
+    await reloadBank();
+  };
+
   const handleToggleBookmark = async (qId: string) => {
     const isNow = await toggleBookmark(qId);
     setBookmarkedIds(prev => {
@@ -246,7 +408,7 @@ export function App() {
       <div style={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
         <div className="notebook-sheet" style={{ padding: '2rem', textAlign: 'center' }}>
           <h2 style={{ fontFamily: 'var(--font-heading)' }}>Opening QuizForge Notebook...</h2>
-          <p style={{ color: 'var(--ink-secondary)', marginTop: '0.4rem' }}>Loading offline curriculum question bank.</p>
+          <p style={{ color: 'var(--ink-secondary)', marginTop: '0.4rem' }}>Loading question bank and offline curriculum.</p>
         </div>
       </div>
     );
@@ -254,17 +416,12 @@ export function App() {
 
   return (
     <div style={{ minHeight: '100vh', padding: '1rem', maxWidth: '1200px', margin: '0 auto' }}>
-      {/* Notebook Header */}
-      {!activeQuizQuestions && (
-        <NotebookHeader
-          activeTab={activeTab}
-          onSelectTab={tab => {
-            setActiveTab(tab);
-            setLatestResult(null);
-            setIsPrintMode(false);
-          }}
-          streakDays={stats.currentStreakDays}
-          totalXp={stats.totalXp}
+      {/* Top Application Mode Selector */}
+      {!activeQuizQuestions && !activeOnlineQuiz && (
+        <ModeSelector
+          currentMode={appMode}
+          onSelectMode={handleSelectMode}
+          isOnlineConfigured={isSupabaseConfigured}
         />
       )}
 
@@ -284,9 +441,7 @@ export function App() {
             gap: '0.8rem'
           }}
         >
-          <div style={{ fontSize: '0.9rem', fontWeight: 600 }}>
-            ⚠️ {storageWarning}
-          </div>
+          <div style={{ fontSize: '0.9rem', fontWeight: 600 }}>⚠️ {storageWarning}</div>
           <button
             className="paper-btn"
             style={{ padding: '0.2rem 0.5rem', fontSize: '0.8rem' }}
@@ -297,150 +452,234 @@ export function App() {
         </div>
       )}
 
-      {/* Mid-Quiz Session Recovery Sticky Note */}
-      {pendingResumeSession && !activeQuizQuestions && (
-        <div
-          className="notebook-sheet"
-          style={{
-            marginBottom: '1rem',
-            padding: '1rem 1.4rem',
-            backgroundColor: 'var(--yellow-sticky)',
-            border: '2px dashed var(--yellow-sticky-border)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'space-between',
-            flexWrap: 'wrap',
-            gap: '0.8rem'
-          }}
-        >
-          <div>
-            <div style={{ fontWeight: 700, fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-              <span>📌</span>
-              <span>Unfinished Quiz Session Detected</span>
-            </div>
-            <div style={{ fontSize: '0.88rem', color: 'var(--ink-secondary)', marginTop: '0.2rem' }}>
-              Class {pendingResumeSession.config.selectedClass} • {pendingResumeSession.questions.length} Questions • {Object.keys(pendingResumeSession.userAnswers || {}).length} answered • Resumes at Question {pendingResumeSession.currentIndex + 1}
-            </div>
-          </div>
-          <div style={{ display: 'flex', gap: '0.6rem' }}>
-            <button
-              className="paper-btn paper-btn-accent"
-              style={{ padding: '0.4rem 0.8rem', fontSize: '0.88rem' }}
-              onClick={() => {
-                setActiveQuizConfig(pendingResumeSession.config);
-                setActiveQuizQuestions(pendingResumeSession.questions);
-                setResumeState({
-                  initialAnswers: pendingResumeSession.userAnswers,
-                  initialIndex: pendingResumeSession.currentIndex,
-                  initialTimeElapsed: pendingResumeSession.totalTimeElapsed
-                });
-                setPendingResumeSession(null);
-                setLatestResult(null);
-              }}
-            >
-              Resume Quiz
-            </button>
-            <button
-              className="paper-btn"
-              style={{ padding: '0.4rem 0.8rem', fontSize: '0.88rem' }}
-              onClick={() => {
-                clearActiveQuizSession();
-                setPendingResumeSession(null);
-              }}
-            >
-              Dismiss
-            </button>
-          </div>
-        </div>
-      )}
-
-      {/* VIEW ROUTING */}
-      {/* 1. Active Quiz Player */}
-      {activeQuizQuestions && activeQuizConfig && !latestResult ? (
-        <QuizPlayer
-          questions={activeQuizQuestions}
-          config={activeQuizConfig}
-          initialAnswers={resumeState?.initialAnswers}
-          initialIndex={resumeState?.initialIndex}
-          initialTimeElapsed={resumeState?.initialTimeElapsed}
-          onFinishQuiz={res => {
-            setLatestResult(res);
-            setResumeState(null);
-            reloadBank();
-          }}
-          onQuitQuiz={() => {
-            if (window.confirm('Are you sure you want to exit this test session?')) {
-              setActiveQuizQuestions(null);
-              setActiveQuizConfig(null);
-              setResumeState(null);
-            }
-          }}
-        />
-      ) : latestResult ? (
-        /* 2. Results or Printable Question Paper */
-        isPrintMode ? (
-          <WorksheetPrintView
-            questions={latestResult.questionList}
-            config={latestResult.config}
-            onBack={() => setIsPrintMode(false)}
+      {/* ======================================================== */}
+      {/* 1. STUDENT PORTAL (/student)                             */}
+      {/* ======================================================== */}
+      {appMode === 'student' ? (
+        !studentSession ? (
+          <StudentLoginForm
+            onSuccess={sess => setStudentSession(sess)}
+            onBackToModeSelect={() => handleSelectMode('practice')}
+          />
+        ) : activeOnlineQuiz ? (
+          <OnlineQuizPlayer
+            quizData={activeOnlineQuiz}
+            onFinish={handleFinishOnlineQuiz}
+            onQuit={() => {
+              if (window.confirm('क्या आप परीक्षा से बाहर जाना चाहते हैं? आपकी प्रगति सहेजी जा चुकी है।')) {
+                setActiveOnlineQuiz(null);
+              }
+            }}
+          />
+        ) : onlineResult ? (
+          <StudentResultView
+            result={onlineResult}
+            onBackToDashboard={() => setOnlineResult(null)}
           />
         ) : (
-          <QuizResults
-            result={latestResult}
-            onRetryQuiz={() => {
-              handleStartQuiz(latestResult.config);
+          <StudentDashboard
+            session={studentSession}
+            onLogout={() => {
+              clearStudentSession();
+              setStudentSession(null);
             }}
-            onRetryMistakes={wrongQs => {
-              handlePracticeQuestions(wrongQs);
-            }}
-            onNewQuiz={() => {
-              setLatestResult(null);
-              setActiveQuizQuestions(null);
-              setActiveQuizConfig(null);
-              setActiveTab('builder');
-            }}
-            onPrintWorksheet={() => setIsPrintMode(true)}
+            onStartQuiz={handleStartOnlineQuiz}
+            onViewAttempt={() => {}}
           />
         )
-      ) : activeTab === 'builder' ? (
-        /* 3. Quiz Builder */
-        <QuizBuilder
-          allQuestions={questions}
-          onStartQuiz={handleStartQuiz}
-          onOpenManager={() => setActiveTab('manager')}
-        />
-      ) : activeTab === 'manager' ? (
-        /* 4. Question Bank Manager */
-        <BankManager
-          questions={questions}
-          onAddQuestion={handleAddQuestion}
-          onEditQuestion={handleEditQuestion}
-          onDeleteQuestion={handleDeleteQuestion}
-          onBulkDelete={handleBulkDelete}
-          onToggleHide={handleToggleHide}
-          onResetBank={handleResetBank}
-          onImportQuestions={handleImportQuestions}
-          onBackToBuilder={() => setActiveTab('builder')}
-        />
-      ) : activeTab === 'bookmarks' ? (
-        /* 5. Bookmarks / Saved Revision Notes */
-        <BookmarksView
-          questions={questions}
-          bookmarkedIds={bookmarkedIds}
-          onToggleBookmark={handleToggleBookmark}
-          onPracticeSaved={handlePracticeQuestions}
-          onNewQuiz={() => setActiveTab('builder')}
+      ) : appMode === 'admin' ? (
+        /* ======================================================== */
+        /* 2. ADMIN PORTAL (/admin)                                 */
+        /* ======================================================== */
+        !adminSession ? (
+          <AdminLoginForm
+            onSuccess={adm => setAdminSession(adm)}
+            onBackToModeSelect={() => handleSelectMode('practice')}
+          />
+        ) : (
+          <AdminPortal
+            admin={adminSession}
+            allQuestions={questions}
+            onLogout={() => {
+              adminLogout();
+              setAdminSession(null);
+            }}
+            onOpenLiveResults={id => {
+              setTargetQuizId(id);
+              handleSelectMode('results');
+            }}
+          />
+        )
+      ) : appMode === 'results' ? (
+        /* ======================================================== */
+        /* 3. LIVE RESULTS VIEWER (/results)                        */
+        /* ======================================================== */
+        <LiveResultsView
+          initialQuizId={targetQuizId}
+          onBackToAdmin={() => handleSelectMode('admin')}
+          onBackToHome={() => handleSelectMode('practice')}
         />
       ) : (
-        /* 6. Past Attempts & Badges */
-        <PastAttemptsView
-          onSelectAttempt={att => {
-            setLatestResult(att);
-            setActiveQuizConfig(att.config);
-            setActiveQuizQuestions(att.questionList);
-          }}
-          onNewQuiz={() => setActiveTab('builder')}
-        />
+        /* ======================================================== */
+        /* 4. OFFLINE PRACTICE MODE (DEFAULT PHASE 1-7)             */
+        /* ======================================================== */
+        <div>
+          {/* Notebook Header */}
+          {!activeQuizQuestions && (
+            <NotebookHeader
+              activeTab={activeTab}
+              onSelectTab={tab => {
+                setActiveTab(tab);
+                setLatestResult(null);
+                setIsPrintMode(false);
+              }}
+              streakDays={stats.currentStreakDays}
+              totalXp={stats.totalXp}
+            />
+          )}
+
+          {/* Mid-Quiz Session Recovery Sticky Note */}
+          {pendingResumeSession && !activeQuizQuestions && (
+            <div
+              className="notebook-sheet"
+              style={{
+                marginBottom: '1rem',
+                padding: '1rem 1.4rem',
+                backgroundColor: 'var(--yellow-sticky)',
+                border: '2px dashed var(--yellow-sticky-border)',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'space-between',
+                flexWrap: 'wrap',
+                gap: '0.8rem'
+              }}
+            >
+              <div>
+                <div style={{ fontWeight: 700, fontSize: '1rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                  <span>📌</span>
+                  <span>Unfinished Practice Session Detected</span>
+                </div>
+                <div style={{ fontSize: '0.88rem', color: 'var(--ink-secondary)', marginTop: '0.2rem' }}>
+                  Class {pendingResumeSession.config.selectedClass} • {pendingResumeSession.questions.length} Questions • {Object.keys(pendingResumeSession.userAnswers || {}).length} answered
+                </div>
+              </div>
+              <div style={{ display: 'flex', gap: '0.6rem' }}>
+                <button
+                  className="paper-btn paper-btn-accent"
+                  style={{ padding: '0.4rem 0.8rem', fontSize: '0.88rem' }}
+                  onClick={() => {
+                    setActiveQuizConfig(pendingResumeSession.config);
+                    setActiveQuizQuestions(pendingResumeSession.questions);
+                    setResumeState({
+                      initialAnswers: pendingResumeSession.userAnswers,
+                      initialIndex: pendingResumeSession.currentIndex,
+                      initialTimeElapsed: pendingResumeSession.totalTimeElapsed
+                    });
+                    setPendingResumeSession(null);
+                    setLatestResult(null);
+                  }}
+                >
+                  Resume Quiz
+                </button>
+                <button
+                  className="paper-btn"
+                  style={{ padding: '0.4rem 0.8rem', fontSize: '0.88rem' }}
+                  onClick={() => {
+                    clearActiveQuizSession();
+                    setPendingResumeSession(null);
+                  }}
+                >
+                  Dismiss
+                </button>
+              </div>
+            </div>
+          )}
+
+          {/* Practice View Routing */}
+          {activeQuizQuestions && activeQuizConfig && !latestResult ? (
+            <QuizPlayer
+              questions={activeQuizQuestions}
+              config={activeQuizConfig}
+              initialAnswers={resumeState?.initialAnswers}
+              initialIndex={resumeState?.initialIndex}
+              initialTimeElapsed={resumeState?.initialTimeElapsed}
+              onFinishQuiz={res => {
+                setLatestResult(res);
+                setResumeState(null);
+                reloadBank();
+              }}
+              onQuitQuiz={() => {
+                if (window.confirm('Are you sure you want to exit this test session?')) {
+                  setActiveQuizQuestions(null);
+                  setActiveQuizConfig(null);
+                  setResumeState(null);
+                }
+              }}
+            />
+          ) : latestResult ? (
+            isPrintMode ? (
+              <WorksheetPrintView
+                questions={latestResult.questionList}
+                config={latestResult.config}
+                onBack={() => setIsPrintMode(false)}
+              />
+            ) : (
+              <QuizResults
+                result={latestResult}
+                onRetryQuiz={() => handleStartQuiz(latestResult.config)}
+                onRetryMistakes={wrongQs => handlePracticeQuestions(wrongQs)}
+                onNewQuiz={() => {
+                  setLatestResult(null);
+                  setActiveQuizQuestions(null);
+                  setActiveQuizConfig(null);
+                  setActiveTab('builder');
+                }}
+                onPrintWorksheet={() => setIsPrintMode(true)}
+              />
+            )
+          ) : activeTab === 'builder' ? (
+            <QuizBuilder
+              allQuestions={questions}
+              onStartQuiz={handleStartQuiz}
+              onOpenManager={() => setActiveTab('manager')}
+            />
+          ) : activeTab === 'manager' ? (
+            <BankManager
+              questions={questions}
+              passages={passages}
+              onAddQuestion={handleAddQuestion}
+              onEditQuestion={handleEditQuestion}
+              onDeleteQuestion={handleDeleteQuestion}
+              onBulkDelete={handleBulkDelete}
+              onToggleHide={handleToggleHide}
+              onResetBank={handleResetBank}
+              onImportQuestions={handleImportQuestions}
+              onImportPassages={handleImportPassages}
+              onAddPassage={handleAddPassage}
+              onEditPassage={handleEditPassage}
+              onDeletePassage={handleDeletePassage}
+              onDuplicatePassage={handleDuplicatePassage}
+              onBackToBuilder={() => setActiveTab('builder')}
+            />
+          ) : activeTab === 'bookmarks' ? (
+            <BookmarksView
+              questions={questions}
+              bookmarkedIds={bookmarkedIds}
+              onToggleBookmark={handleToggleBookmark}
+              onPracticeSaved={handlePracticeQuestions}
+              onNewQuiz={() => setActiveTab('builder')}
+            />
+          ) : (
+            <PastAttemptsView
+              onSelectAttempt={att => {
+                setLatestResult(att);
+                setActiveQuizConfig(att.config);
+                setActiveQuizQuestions(att.questionList);
+              }}
+              onNewQuiz={() => setActiveTab('builder')}
+            />
+          )}
+        </div>
       )}
     </div>
   );

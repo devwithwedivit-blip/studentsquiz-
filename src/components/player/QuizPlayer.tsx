@@ -16,6 +16,7 @@ import { toggleBookmark, getBookmarks, saveQuizResult, saveActiveQuizSession, cl
 import { PencilProgressBar } from './PencilProgressBar';
 import { QuestionPalette } from './QuestionPalette';
 import { QuestionCard } from './QuestionCard';
+import { PassagePanel } from './PassagePanel';
 import { ScratchpadModal } from '../common/ScratchpadModal';
 import { HandDrawnIcon } from '../common/HandDrawnIcon';
 
@@ -43,6 +44,9 @@ export const QuizPlayer: React.FC<QuizPlayerProps> = ({
   const [isPaletteOpen, setIsPaletteOpen] = useState(false);
   const [isScratchpadOpen, setIsScratchpadOpen] = useState(false);
   const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
+  const [highlightsByPassage, setHighlightsByPassage] = useState<Record<string, string[]>>({});
+  const [isMobilePassageOpen, setIsMobilePassageOpen] = useState(false);
+  const [isMobilePassageExpanded, setIsMobilePassageExpanded] = useState(false);
 
   // Timing
   const [totalTimeElapsed, setTotalTimeElapsed] = useState(initialTimeElapsed || 0);
@@ -322,7 +326,8 @@ export const QuizPlayer: React.FC<QuizPlayerProps> = ({
       userAnswers: evaluatedAnswers,
       questionList: questions,
       xpEarned,
-      badgesUnlocked: []
+      badgesUnlocked: [],
+      bankVersion: 'v2_hindi_rewrite'
     };
 
     await saveQuizResult(finalResult);
@@ -424,64 +429,177 @@ export const QuizPlayer: React.FC<QuizPlayerProps> = ({
         />
       </div>
 
-      {/* Main Question Card */}
-      <QuestionCard
-        question={currentQ}
-        questionNumber={currentIndex + 1}
-        totalQuestions={questions.length}
-        userAnswerRecord={answers[currentQ.id]}
-        onUpdateAnswer={handleUpdateCurrentAnswer}
-        onSubmitAnswer={handleSubmitCurrentAnswer}
-        onSelfGradeCorrect={handleSelfGrade}
-        onUseHint={handleUseHint}
-        onToggleFlag={handleToggleFlag}
-        onOpenScratchpad={() => setIsScratchpadOpen(true)}
-        quizMode={config.quizMode}
-        isBookmarked={bookmarkedIds.has(currentQ.id)}
-        onToggleBookmark={handleToggleBookmark}
-      />
+      {/* Split view if passage is present; otherwise single column */}
+      <div className={`quiz-split-container ${currentQ.passage ? 'has-passage' : ''}`}>
+        {/* Desktop Passage Column (sticky on left) */}
+        {currentQ.passage && (
+          <div className="desktop-passage-col">
+            <PassagePanel
+              passage={currentQ.passage}
+              passageOrder={currentQ.passageOrder}
+              highlights={highlightsByPassage[currentQ.passage.id] || []}
+              onAddHighlight={phrase => {
+                setHighlightsByPassage(prev => ({
+                  ...prev,
+                  [currentQ.passage!.id]: prev[currentQ.passage!.id]?.includes(phrase)
+                    ? prev[currentQ.passage!.id]
+                    : [...(prev[currentQ.passage!.id] || []), phrase]
+                }));
+              }}
+              onClearHighlights={() => {
+                setHighlightsByPassage(prev => ({
+                  ...prev,
+                  [currentQ.passage!.id]: []
+                }));
+              }}
+            />
+          </div>
+        )}
 
-      {/* Bottom Navigation Buttons */}
-      <div
-        style={{
-          display: 'flex',
-          alignItems: 'center',
-          justifyContent: 'space-between',
-          flexWrap: 'wrap',
-          gap: '0.8rem'
-        }}
-      >
-        <button
-          className="paper-btn"
-          onClick={() => goToQuestion(currentIndex - 1)}
-          disabled={currentIndex === 0}
-          style={{ opacity: currentIndex === 0 ? 0.4 : 1 }}
-        >
-          <HandDrawnIcon name="chevron-left" size={18} />
-          <span>Previous</span>
-        </button>
+        {/* Question + Controls Column */}
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.4rem', width: '100%' }}>
+          {/* Mobile Passage Trigger Bar (visible on <=859px) */}
+          {currentQ.passage && (
+            <div className="mobile-passage-trigger" style={{ flexDirection: 'column', gap: '0.6rem' }}>
+              <div style={{ display: 'flex', gap: '0.5rem', width: '100%' }}>
+                <button
+                  type="button"
+                  className="paper-btn paper-btn-accent"
+                  onClick={() => setIsMobilePassageOpen(true)}
+                  style={{
+                    flex: 1,
+                    padding: '0.5rem 0.8rem',
+                    fontSize: '0.88rem',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '0.4rem'
+                  }}
+                >
+                  <span>📖 Read Passage ({currentQ.passage.kind === 'padya' ? 'काव्यांश' : 'गद्यांश'})</span>
+                </button>
+                <button
+                  type="button"
+                  className="paper-btn"
+                  onClick={() => setIsMobilePassageExpanded(p => !p)}
+                  style={{ padding: '0.5rem 0.8rem', fontSize: '0.85rem' }}
+                  aria-label="Toggle passage preview"
+                >
+                  {isMobilePassageExpanded ? '▲ Hide' : '▼ Preview'}
+                </button>
+              </div>
 
-        <div style={{ display: 'flex', gap: '0.6rem' }}>
-          <button className="paper-btn" onClick={handleSkipQuestion}>
-            <span>Skip</span>
-          </button>
-
-          {currentIndex < questions.length - 1 ? (
-            <button
-              className="paper-btn paper-btn-primary"
-              onClick={() => goToQuestion(currentIndex + 1)}
-            >
-              <span>Next</span>
-              <HandDrawnIcon name="chevron-right" size={18} />
-            </button>
-          ) : (
-            <button className="paper-btn paper-btn-accent" onClick={buildAndSubmitResult}>
-              <span>Submit Final Test</span>
-              <HandDrawnIcon name="check" size={18} />
-            </button>
+              {isMobilePassageExpanded && (
+                <div style={{ maxHeight: '250px', overflowY: 'auto' }}>
+                  <PassagePanel
+                    passage={currentQ.passage}
+                    passageOrder={currentQ.passageOrder}
+                    highlights={highlightsByPassage[currentQ.passage.id] || []}
+                    onAddHighlight={phrase => {
+                      setHighlightsByPassage(prev => ({
+                        ...prev,
+                        [currentQ.passage!.id]: prev[currentQ.passage!.id]?.includes(phrase)
+                          ? prev[currentQ.passage!.id]
+                          : [...(prev[currentQ.passage!.id] || []), phrase]
+                      }));
+                    }}
+                    onClearHighlights={() => {
+                      setHighlightsByPassage(prev => ({
+                        ...prev,
+                        [currentQ.passage!.id]: []
+                      }));
+                    }}
+                  />
+                </div>
+              )}
+            </div>
           )}
+
+          {/* Main Question Card */}
+          <QuestionCard
+            question={currentQ}
+            questionNumber={currentIndex + 1}
+            totalQuestions={questions.length}
+            userAnswerRecord={answers[currentQ.id]}
+            onUpdateAnswer={handleUpdateCurrentAnswer}
+            onSubmitAnswer={handleSubmitCurrentAnswer}
+            onSelfGradeCorrect={handleSelfGrade}
+            onUseHint={handleUseHint}
+            onToggleFlag={handleToggleFlag}
+            onOpenScratchpad={() => setIsScratchpadOpen(true)}
+            quizMode={config.quizMode}
+            isBookmarked={bookmarkedIds.has(currentQ.id)}
+            onToggleBookmark={handleToggleBookmark}
+          />
+
+          {/* Bottom Navigation Buttons */}
+          <div
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'space-between',
+              flexWrap: 'wrap',
+              gap: '0.8rem'
+            }}
+          >
+            <button
+              className="paper-btn"
+              onClick={() => goToQuestion(currentIndex - 1)}
+              disabled={currentIndex === 0}
+              style={{ opacity: currentIndex === 0 ? 0.4 : 1 }}
+            >
+              <HandDrawnIcon name="chevron-left" size={18} />
+              <span>Previous</span>
+            </button>
+
+            <div style={{ display: 'flex', gap: '0.6rem' }}>
+              <button className="paper-btn" onClick={handleSkipQuestion}>
+                <span>Skip</span>
+              </button>
+
+              {currentIndex < questions.length - 1 ? (
+                <button
+                  className="paper-btn paper-btn-primary"
+                  onClick={() => goToQuestion(currentIndex + 1)}
+                >
+                  <span>Next</span>
+                  <HandDrawnIcon name="chevron-right" size={18} />
+                </button>
+              ) : (
+                <button className="paper-btn paper-btn-accent" onClick={buildAndSubmitResult}>
+                  <span>Submit Final Test</span>
+                  <HandDrawnIcon name="check" size={18} />
+                </button>
+              )}
+            </div>
+          </div>
         </div>
       </div>
+
+      {/* Mobile Passage Fullscreen Modal / Bottom Sheet */}
+      {isMobilePassageOpen && currentQ.passage && (
+        <PassagePanel
+          passage={currentQ.passage}
+          passageOrder={currentQ.passageOrder}
+          mode="modal"
+          onCloseModal={() => setIsMobilePassageOpen(false)}
+          highlights={highlightsByPassage[currentQ.passage.id] || []}
+          onAddHighlight={phrase => {
+            setHighlightsByPassage(prev => ({
+              ...prev,
+              [currentQ.passage!.id]: prev[currentQ.passage!.id]?.includes(phrase)
+                ? prev[currentQ.passage!.id]
+                : [...(prev[currentQ.passage!.id] || []), phrase]
+            }));
+          }}
+          onClearHighlights={() => {
+            setHighlightsByPassage(prev => ({
+              ...prev,
+              [currentQ.passage!.id]: []
+            }));
+          }}
+        />
+      )}
 
       {/* Question Sheet Navigator (Palette) */}
       <QuestionPalette
@@ -489,6 +607,7 @@ export const QuizPlayer: React.FC<QuizPlayerProps> = ({
         currentIndex={currentIndex}
         answers={answers}
         questionIds={questionIds}
+        questions={questions}
         onSelectIndex={goToQuestion}
         isOpen={isPaletteOpen}
         onToggle={() => setIsPaletteOpen(!isPaletteOpen)}
@@ -502,3 +621,4 @@ export const QuizPlayer: React.FC<QuizPlayerProps> = ({
     </div>
   );
 };
+

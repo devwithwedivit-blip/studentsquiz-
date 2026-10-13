@@ -1,13 +1,15 @@
 import React, { useState, useEffect } from 'react';
-import { Question, SubjectId, QuestionType, Difficulty } from '../../types/quiz';
+import { Question, SubjectId, QuestionType, Difficulty, Passage } from '../../types/quiz';
 import { SUBJECTS, ALL_CLASSES, ALL_SUBJECTS } from '../../data/subjects';
 import { filterQuestions } from '../../data/bankLoader';
 import { HandDrawnIcon } from '../common/HandDrawnIcon';
 import { QuestionEditorModal } from './QuestionEditorModal';
 import { ImportExportModal } from './ImportExportModal';
+import { PassageEditorModal } from './PassageEditorModal';
 
 interface BankManagerProps {
   questions: Question[];
+  passages?: Passage[];
   onAddQuestion: (q: Question) => void;
   onEditQuestion: (q: Question) => void;
   onDeleteQuestion: (id: string) => void;
@@ -15,11 +17,17 @@ interface BankManagerProps {
   onToggleHide: (id: string) => void;
   onResetBank: () => void;
   onImportQuestions: (imported: Question[]) => void;
+  onImportPassages?: (imported: Passage[]) => void;
+  onAddPassage?: (p: Passage) => void;
+  onEditPassage?: (p: Passage) => void;
+  onDeletePassage?: (id: string, deleteLinkedQuestions: boolean) => void;
+  onDuplicatePassage?: (p: Passage) => void;
   onBackToBuilder: () => void;
 }
 
 export const BankManager: React.FC<BankManagerProps> = ({
   questions,
+  passages = [],
   onAddQuestion,
   onEditQuestion,
   onDeleteQuestion,
@@ -27,8 +35,21 @@ export const BankManager: React.FC<BankManagerProps> = ({
   onToggleHide,
   onResetBank,
   onImportQuestions,
+  onImportPassages,
+  onAddPassage,
+  onEditPassage,
+  onDeletePassage,
+  onDuplicatePassage,
   onBackToBuilder
 }) => {
+  // Active manager section: questions or passages
+  const [activeSection, setActiveSection] = useState<'questions' | 'passages'>('questions');
+
+  // Passage editor & delete warning modal state
+  const [editingPassage, setEditingPassage] = useState<Partial<Passage> | null>(null);
+  const [isPassageModalOpen, setIsPassageModalOpen] = useState(false);
+  const [passagePendingDelete, setPassagePendingDelete] = useState<Passage | null>(null);
+  const [filterPassageClass, setFilterPassageClass] = useState<number | 'all'>('all');
   // Filters
   const [filterClass, setFilterClass] = useState<number | undefined>(undefined);
   const [filterSubject, setFilterSubject] = useState<SubjectId | 'all'>('all');
@@ -245,16 +266,247 @@ export const BankManager: React.FC<BankManagerProps> = ({
         </div>
       </div>
 
-      {/* Filter and Search Bar */}
-      <div
-        className="notebook-sheet"
-        style={{
-          padding: '1.2rem',
-          display: 'flex',
-          flexDirection: 'column',
-          gap: '0.8rem'
-        }}
-      >
+      {/* Subtab Switcher: Questions vs Passages */}
+      <div style={{ display: 'flex', gap: '0.6rem', borderBottom: '2px solid var(--ink-border)', paddingBottom: '0.4rem' }}>
+        <button
+          type="button"
+          className={`paper-btn ${activeSection === 'questions' ? 'paper-btn-primary' : ''}`}
+          onClick={() => setActiveSection('questions')}
+          style={{ padding: '0.5rem 1rem', fontSize: '0.95rem', fontWeight: 700 }}
+        >
+          📝 Questions ({questions.length})
+        </button>
+        <button
+          type="button"
+          className={`paper-btn ${activeSection === 'passages' ? 'paper-btn-primary' : ''}`}
+          onClick={() => setActiveSection('passages')}
+          style={{ padding: '0.5rem 1rem', fontSize: '0.95rem', fontWeight: 700 }}
+        >
+          📄 Passages ({passages.length})
+        </button>
+      </div>
+
+      {activeSection === 'passages' ? (
+        /* PASSAGES MANAGEMENT VIEW */
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.2rem' }}>
+          {/* Passage Toolbar */}
+          <div
+            className="notebook-sheet"
+            style={{
+              padding: '1.2rem',
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              flexWrap: 'wrap',
+              gap: '0.8rem'
+            }}
+          >
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.8rem' }}>
+              <label style={{ fontSize: '0.88rem', fontWeight: 700 }}>Filter Class:</label>
+              <select
+                value={filterPassageClass}
+                onChange={e => setFilterPassageClass(e.target.value === 'all' ? 'all' : Number(e.target.value))}
+                style={{ padding: '0.4rem 0.8rem', borderRadius: '4px', border: '1px solid #cbd5e1', fontSize: '0.88rem' }}
+              >
+                <option value="all">All Classes</option>
+                <option value={9}>Class 9</option>
+                <option value={10}>Class 10</option>
+                <option value={11}>Class 11</option>
+                <option value={12}>Class 12</option>
+              </select>
+            </div>
+
+            <button
+              type="button"
+              className="paper-btn paper-btn-accent"
+              onClick={() => {
+                setEditingPassage({ class: (filterPassageClass === 'all' ? 9 : filterPassageClass) as any, subject: 'hindi', kind: 'gadya' });
+                setIsPassageModalOpen(true);
+              }}
+            >
+              <HandDrawnIcon name="plus" size={16} />
+              <span>Add New Passage</span>
+            </button>
+          </div>
+
+          {/* Passages List */}
+          {passages.filter(p => filterPassageClass === 'all' || p.class === filterPassageClass).length === 0 ? (
+            <div className="notebook-sheet" style={{ padding: '2.5rem', textAlign: 'center' }}>
+              <p style={{ color: 'var(--ink-secondary)', fontSize: '1rem', marginBottom: '1rem' }}>
+                No passages found for this class.
+              </p>
+              <button
+                type="button"
+                className="paper-btn paper-btn-primary"
+                onClick={() => {
+                  setEditingPassage({ class: (filterPassageClass === 'all' ? 9 : filterPassageClass) as any, subject: 'hindi', kind: 'gadya' });
+                  setIsPassageModalOpen(true);
+                }}
+              >
+                Add Your First Passage
+              </button>
+            </div>
+          ) : (
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))', gap: '1rem' }}>
+              {passages
+                .filter(p => filterPassageClass === 'all' || p.class === filterPassageClass)
+                .map(p => {
+                  const linkedQs = questions.filter(q => q.passageId === p.id);
+                  const wordCount = p.wordCount || p.text.trim().split(/\s+/).filter(Boolean).length;
+                  const lineCount = p.text.split('\n').filter(Boolean).length;
+                  const isPoem = p.kind === 'padya';
+
+                  return (
+                    <div
+                      key={p.id}
+                      className="notebook-sheet"
+                      style={{
+                        padding: '1.2rem',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '0.7rem',
+                        borderLeft: `4px solid ${isPoem ? '#a855f7' : '#0284c7'}`
+                      }}
+                    >
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '0.4rem' }}>
+                        <div>
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap' }}>
+                            <span style={{ fontWeight: 800, fontSize: '0.85rem' }}>Class {p.class}</span>
+                            <span
+                              style={{
+                                padding: '0.15rem 0.5rem',
+                                borderRadius: '4px',
+                                fontSize: '0.78rem',
+                                fontWeight: 700,
+                                backgroundColor: isPoem ? '#f3e8ff' : '#e0f2fe',
+                                color: isPoem ? '#7e22ce' : '#0369a1'
+                              }}
+                            >
+                              {isPoem ? '📜 पद्यांश' : '📄 गद्यांश'}
+                            </span>
+                            <span style={{ fontSize: '0.78rem', color: 'var(--ink-secondary)' }}>
+                              ({p.id})
+                            </span>
+                          </div>
+                          <div style={{ fontSize: '0.92rem', fontWeight: 700, marginTop: '0.3rem' }}>
+                            {p.title} <span style={{ fontSize: '0.72rem', color: 'var(--ink-muted)', fontWeight: 400 }}>(Teacher-only)</span>
+                          </div>
+                        </div>
+
+                        <span
+                          style={{
+                            padding: '0.2rem 0.5rem',
+                            borderRadius: '4px',
+                            fontSize: '0.75rem',
+                            fontWeight: 700,
+                            backgroundColor: linkedQs.length === 5 ? 'var(--green-tick-bg)' : '#fef3c7',
+                            color: linkedQs.length === 5 ? 'var(--green-tick)' : '#b45309'
+                          }}
+                        >
+                          {linkedQs.length}/5 Questions
+                        </span>
+                      </div>
+
+                      {/* Excerpt */}
+                      <div
+                        style={{
+                          fontSize: '0.88rem',
+                          lineHeight: '1.6',
+                          color: 'var(--ink-primary)',
+                          fontFamily: "'Noto Sans Devanagari', sans-serif",
+                          maxHeight: '80px',
+                          overflow: 'hidden',
+                          textOverflow: 'ellipsis',
+                          display: '-webkit-box',
+                          WebkitLineClamp: 3,
+                          WebkitBoxOrient: 'vertical',
+                          backgroundColor: 'var(--bg-paper-subtle)',
+                          padding: '0.5rem',
+                          borderRadius: '4px'
+                        }}
+                      >
+                        {p.text}
+                      </div>
+
+                      {/* Stats */}
+                      <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.78rem', color: 'var(--ink-secondary)' }}>
+                        <span>
+                          {isPoem ? `${lineCount} पंक्तियाँ` : `${wordCount} शब्द`} • विषय: {p.theme || 'General'}
+                        </span>
+                        {linkedQs.length > 0 && (
+                          <span title={linkedQs.map(q => q.id).join(', ')}>
+                            {linkedQs.map(q => q.passageOrder || '?').sort().join(', ')}
+                          </span>
+                        )}
+                      </div>
+
+                      {/* Card Actions */}
+                      <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '0.4rem', marginTop: '0.3rem', borderTop: '1px dashed var(--ink-border)', paddingTop: '0.5rem' }}>
+                        <button
+                          type="button"
+                          className="paper-btn"
+                          style={{ padding: '0.2rem 0.5rem', fontSize: '0.78rem' }}
+                          onClick={() => {
+                            setEditingPassage(p);
+                            setIsPassageModalOpen(true);
+                          }}
+                        >
+                          <HandDrawnIcon name="edit" size={13} />
+                          <span>Edit</span>
+                        </button>
+                        <button
+                          type="button"
+                          className="paper-btn"
+                          style={{ padding: '0.2rem 0.5rem', fontSize: '0.78rem' }}
+                          onClick={() => {
+                            if (onDuplicatePassage) {
+                              onDuplicatePassage(p);
+                              showToast(`Duplicated passage "${p.id}"`);
+                            }
+                          }}
+                        >
+                          <HandDrawnIcon name="copy" size={13} />
+                          <span>Duplicate</span>
+                        </button>
+                        <button
+                          type="button"
+                          className="paper-btn paper-btn-danger"
+                          style={{ padding: '0.2rem 0.5rem', fontSize: '0.78rem' }}
+                          onClick={() => {
+                            if (linkedQs.length > 0) {
+                              setPassagePendingDelete(p);
+                            } else {
+                              if (window.confirm(`Delete passage "${p.id}"?`)) {
+                                onDeletePassage && onDeletePassage(p.id, false);
+                                showToast(`Deleted passage "${p.id}"`);
+                              }
+                            }
+                          }}
+                        >
+                          <HandDrawnIcon name="trash" size={13} />
+                          <span>Delete</span>
+                        </button>
+                      </div>
+                    </div>
+                  );
+                })}
+            </div>
+          )}
+        </div>
+      ) : (
+        /* QUESTIONS MANAGEMENT VIEW */
+        <>
+          {/* Filter and Search Bar */}
+          <div
+            className="notebook-sheet"
+            style={{
+              padding: '1.2rem',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '0.8rem'
+            }}
+          >
+
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(160px, 1fr))', gap: '0.6rem' }}>
           {/* Class Filter */}
           <select
@@ -541,6 +793,8 @@ export const BankManager: React.FC<BankManagerProps> = ({
           </div>
         </div>
       )}
+        </>
+      )}
 
       {/* Undo Delete Toast */}
       {toastMessage && (
@@ -605,7 +859,7 @@ export const BankManager: React.FC<BankManagerProps> = ({
               Reset to Original Question Bank?
             </h3>
             <p style={{ color: 'var(--ink-secondary)', fontSize: '0.95rem' }}>
-              This will safely remove all your custom added, edited, and deleted question overlays from IndexedDB and restore the clean original seed question bank.
+              This will safely remove all your custom added, edited, and deleted question and passage overlays from IndexedDB and restore the clean original seed bank.
             </p>
             <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '0.6rem' }}>
               <button className="paper-btn" onClick={() => setShowResetConfirm(false)}>
@@ -616,7 +870,7 @@ export const BankManager: React.FC<BankManagerProps> = ({
                 onClick={() => {
                   onResetBank();
                   setShowResetConfirm(false);
-                  showToast('Question bank reset to original seed data.');
+                  showToast('Question bank and passages reset to original seed data.');
                 }}
               >
                 Yes, Reset Bank
@@ -630,6 +884,7 @@ export const BankManager: React.FC<BankManagerProps> = ({
       <QuestionEditorModal
         isOpen={isEditorOpen}
         question={editingQuestion}
+        passages={passages}
         onClose={() => setIsEditorOpen(false)}
         onSave={q => {
           if (editingQuestion?.id) {
@@ -642,15 +897,103 @@ export const BankManager: React.FC<BankManagerProps> = ({
         }}
       />
 
+      {/* Add / Edit Passage Modal */}
+      <PassageEditorModal
+        isOpen={isPassageModalOpen}
+        passage={editingPassage}
+        onClose={() => setIsPassageModalOpen(false)}
+        onSave={p => {
+          if (editingPassage?.id) {
+            onEditPassage && onEditPassage(p);
+            showToast(`Updated passage "${p.id}"`);
+          } else {
+            onAddPassage && onAddPassage(p);
+            showToast(`Created new passage "${p.id}"`);
+          }
+        }}
+      />
+
+      {/* Delete Passage Warning Modal (Check linked questions) */}
+      {passagePendingDelete && (
+        <div
+          role="dialog"
+          aria-modal="true"
+          style={{
+            position: 'fixed',
+            inset: 0,
+            backgroundColor: 'rgba(15, 23, 42, 0.75)',
+            zIndex: 10000,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            padding: '1rem'
+          }}
+          onClick={() => setPassagePendingDelete(null)}
+        >
+          <div
+            className="notebook-sheet"
+            style={{
+              maxWidth: '520px',
+              padding: '1.8rem',
+              backgroundColor: '#ffffff',
+              border: '2.5px solid var(--red-pen)',
+              display: 'flex',
+              flexDirection: 'column',
+              gap: '1rem'
+            }}
+            onClick={e => e.stopPropagation()}
+          >
+            <h3 style={{ fontSize: '1.25rem', color: 'var(--red-pen)', margin: 0 }}>
+              ⚠️ Passage Has Linked Questions
+            </h3>
+            <p style={{ color: 'var(--ink-secondary)', fontSize: '0.95rem', margin: 0 }}>
+              Passage <strong>"{passagePendingDelete.id}"</strong> has{' '}
+              <strong>{questions.filter(q => q.passageId === passagePendingDelete.id).length} linked questions</strong> in the question bank.
+              Deleting this passage may affect those questions.
+            </p>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.6rem', marginTop: '0.5rem' }}>
+              <button
+                className="paper-btn paper-btn-danger"
+                onClick={() => {
+                  onDeletePassage && onDeletePassage(passagePendingDelete.id, true);
+                  showToast(`Deleted passage "${passagePendingDelete.id}" and its linked questions.`);
+                  setPassagePendingDelete(null);
+                }}
+              >
+                Delete Questions Too (Remove passage & all linked questions)
+              </button>
+              <button
+                className="paper-btn"
+                onClick={() => {
+                  onDeletePassage && onDeletePassage(passagePendingDelete.id, false);
+                  showToast(`Unlinked questions and deleted passage "${passagePendingDelete.id}".`);
+                  setPassagePendingDelete(null);
+                }}
+              >
+                Unlink Questions (Keep questions, remove passage link)
+              </button>
+              <button className="paper-btn" onClick={() => setPassagePendingDelete(null)}>
+                Cancel
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Import / Export Modal */}
       <ImportExportModal
         isOpen={isImportExportOpen}
         onClose={() => setIsImportExportOpen(false)}
         questions={questions}
+        passages={passages}
         onImportQuestions={imported => {
           onImportQuestions(imported);
+        }}
+        onImportPassages={importedPs => {
+          onImportPassages && onImportPassages(importedPs);
         }}
       />
     </div>
   );
 };
+
