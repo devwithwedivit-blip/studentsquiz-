@@ -1,0 +1,1940 @@
+[
+  {
+    "id": "c9-cs-001",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which internal component of the Central Processing Unit (CPU) is specifically responsible for performing mathematical calculations and logical comparisons?",
+    "options": [
+      "Arithmetic Logic Unit (ALU)",
+      "Control Unit (CU)",
+      "Memory Data Register (MDR)",
+      "Instruction Pointer (IP)"
+    ],
+    "answer": 0,
+    "explanation": "The ALU (Arithmetic Logic Unit) executes all arithmetic calculations (addition, subtraction, multiplication) and logical decisions (AND, OR, NOT, comparisons).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-002",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Memory and Storage",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which type of computer memory is volatile, meaning all stored instructions and data are erased immediately when the computer's power is turned off?",
+    "options": [
+      "RAM (Random Access Memory)",
+      "ROM (Read Only Memory)",
+      "Hard Disk Drive (HDD)",
+      "Flash Memory"
+    ],
+    "answer": 0,
+    "explanation": "RAM is semiconductor volatile memory; it requires electrical power to retain charge. ROM and magnetic/flash secondary storage are non-volatile.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-003",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Input/Output Devices",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following is an optical data input device widely used for automatically reading and grading pencil or pen marks on multiple-choice test sheets?",
+    "options": [
+      "Optical Mark Reader (OMR)",
+      "Magnetic Ink Character Reader (MICR)",
+      "Magnetic Stripe Card Reader",
+      "Thermal Receipt Printer"
+    ],
+    "answer": 0,
+    "explanation": "OMR (Optical Mark Recognition/Reader) detects the presence or absence of marks at preset coordinates on standardized exam answer sheets by sensing reflected light.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-004",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Operating System Basics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In operating system architecture, what is the core software component that resides in RAM and directly manages CPU scheduling, memory allocation, and peripheral access?",
+    "options": [
+      "Kernel",
+      "Shell",
+      "Device Driver",
+      "Graphical Desktop Environment"
+    ],
+    "answer": 0,
+    "explanation": "The kernel is the foundational core of an operating system. It manages low-level hardware interactions, process lifecycles, and system calls.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-005",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Number System Basics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the equivalent binary representation of the decimal integer 13?",
+    "options": [
+      "1101",
+      "1011",
+      "1110",
+      "1001"
+    ],
+    "answer": 0,
+    "explanation": "Decimal 13 decomposed into powers of 2: 8 (2^3) + 4 (2^2) + 0 (2^1) + 1 (2^0) = 1101 in binary.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-006",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Memory and Storage",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In the standard computer memory hierarchy, which storage component delivers the absolute lowest access latency (fastest response time) to the CPU execution core?",
+    "options": [
+      "CPU Internal Registers",
+      "Level 1 (L1) Cache",
+      "Level 3 (L3) Shared Cache",
+      "Main Memory (DDR SDRAM)"
+    ],
+    "answer": 0,
+    "explanation": "CPU registers are built directly inside the processor arithmetic pipeline and operate within a single clock cycle (<1 nanosecond), faster than L1 SRAM cache.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-007",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "ROM (Read-Only Memory) contains the foundational firmware instructions (such as BIOS or UEFI) required to perform the Power-On Self-Test (POST) when a computer boots.",
+    "answer": true,
+    "explanation": "ROM retains permanent startup instructions without power, enabling the CPU to initialize system hardware and bootstrap the operating system.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-008",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Input/Output Devices",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "A laser printer is classified as an impact printer because it uses microscopic mechanical needles to strike an inked fabric ribbon directly against the paper.",
+    "answer": false,
+    "explanation": "A laser printer is a non-impact printer that uses a revolving photoreceptor drum, electrostatic charges, and heated toner powder rather than physical striking pins.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-009",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Operating System Basics",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "An operating system that supports preemptive multitasking can interrupt a running process and assign the CPU to another waiting task based on priority or time slicing.",
+    "answer": true,
+    "explanation": "In preemptive multitasking, the OS scheduler controls the CPU timer and forcibly suspends active threads to prevent a single process from monopolizing system hardware.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-010",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Memory and Storage",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In digital computing, a contiguous group of 4 binary digits (bits), which represents exactly one hexadecimal character and half of an 8-bit byte, is called a _____.",
+    "answer": "nibble",
+    "acceptedAnswers": [
+      "nibble",
+      "Nibble"
+    ],
+    "explanation": "A nibble is a 4-bit data unit. Two nibbles combine to form an 8-bit byte (e.g., 1111 = 15 = F in hex).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-011",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The fundamental operational cycle of a central processing unit consists of three sequential phases: Fetch, _____, and Execute.",
+    "answer": "Decode",
+    "acceptedAnswers": [
+      "Decode",
+      "decode"
+    ],
+    "explanation": "In the instruction cycle (machine cycle), the CPU fetches an instruction from memory, the Control Unit decodes the opcode, and the ALU or registers execute it.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-012",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Input/Output Devices",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each hardware peripheral with its primary function or application:",
+    "pairs": [
+      [
+        "Plotter",
+        "High-precision vector printing of engineering blueprints"
+      ],
+      [
+        "MICR Reader",
+        "Processing bank check numbers printed with magnetic ink"
+      ],
+      [
+        "Barcode Scanner",
+        "Capturing universal product codes at retail checkouts"
+      ],
+      [
+        "Microphone",
+        "Converting acoustic sound waves into digital audio signals"
+      ]
+    ],
+    "explanation": "Plotters output large scale vector drawings, MICR reads banking checks, barcode scanners read optical line patterns, and microphones capture sound.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-013",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Memory and Storage",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each standard digital storage unit with its binary byte equivalent:",
+    "pairs": [
+      [
+        "1 Kilobyte (KB)",
+        "1024 Bytes (2^10 Bytes)"
+      ],
+      [
+        "1 Megabyte (MB)",
+        "1024 Kilobytes (2^20 Bytes)"
+      ],
+      [
+        "1 Gigabyte (GB)",
+        "1024 Megabytes (2^30 Bytes)"
+      ],
+      [
+        "1 Terabyte (TB)",
+        "1024 Gigabytes (2^40 Bytes)"
+      ]
+    ],
+    "explanation": "In binary computer architecture, each standard prefix represents 2^10 = 1024 multiplier of the preceding unit.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-014",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Number System Basics",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Convert the 4-bit unsigned binary number (1011)_2 into its equivalent base-10 decimal value.",
+    "answer": 11,
+    "explanation": "Step-by-step conversion: (1 × 2^3) + (0 × 2^2) + (1 × 2^1) + (1 × 2^0) = (1 × 8) + (0 × 4) + (1 × 2) + (1 × 1) = 8 + 0 + 2 + 1 = 11.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-015",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Memory and Storage",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A raw ASCII text document contains exactly 4096 individual characters, where each character requires 1 byte of storage. Calculate the file size in Kilobytes (KB).",
+    "answer": 4,
+    "explanation": "Total size in bytes = 4096 × 1 byte = 4096 bytes. Since 1 KB = 1024 bytes, Size in KB = 4096 / 1024 = 4 KB.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-016",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Logic Gates",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the standard 2-input logic gate symbol shown below. If input A is 1 (True) and input B is 0 (False), what will be the output value at Y?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180' width='100%' height='100%'><rect width='320' height='180' fill='#f8fafc'/><line x1='40' y1='60' x2='110' y2='60' stroke='#1e293b' stroke-width='3'/><line x1='40' y1='120' x2='110' y2='120' stroke='#1e293b' stroke-width='3'/><text x='30' y='65' font-size='16' font-family='monospace' font-weight='bold' fill='#0f172a'>A = 1</text><text x='30' y='125' font-size='16' font-family='monospace' font-weight='bold' fill='#0f172a'>B = 0</text><path d='M110,40 L160,40 C195,40 210,65 210,90 C210,115 195,140 160,140 L110,140 Z' fill='#38bdf8' stroke='#0284c7' stroke-width='3'/><text x='150' y='95' font-size='14' font-weight='bold' fill='#0c4a6e' text-anchor='middle'>AND</text><line x1='210' y1='90' x2='280' y2='90' stroke='#1e293b' stroke-width='3'/><text x='290' y='95' font-size='16' font-family='monospace' font-weight='bold' fill='#0f172a'>Y = ?</text></svg>"
+    },
+    "options": [
+      "0",
+      "1",
+      "High Impedance",
+      "Indeterminate"
+    ],
+    "answer": 0,
+    "explanation": "The diagram displays an AND gate. In an AND gate, the output Y is 1 if and only if both inputs are 1. Because input B is 0, output Y = 1 AND 0 = 0.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-017",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the flowchart symbols diagram below, which letter indicates the diamond-shaped symbol used to represent a conditional Decision or Branching statement?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180' width='100%' height='100%'><rect width='320' height='180' fill='#f8fafc'/><rect x='15' y='20' width='65' height='35' rx='17' fill='#fed7aa' stroke='#ea580c' stroke-width='2'/><text x='47' y='42' font-size='10' font-weight='bold' text-anchor='middle' fill='#9a3412'>A: Start/End</text><polygon points='115,55 170,55 155,20 100,20' fill='#bbf7d0' stroke='#16a34a' stroke-width='2'/><text x='135' y='42' font-size='10' font-weight='bold' text-anchor='middle' fill='#166534'>B: In/Out</text><rect x='190' y='20' width='110' height='35' fill='#bfdbfe' stroke='#2563eb' stroke-width='2'/><text x='245' y='42' font-size='10' font-weight='bold' text-anchor='middle' fill='#1e40af'>C: Process</text><polygon points='160,80 230,115 160,150 90,115' fill='#fecdd3' stroke='#e11d48' stroke-width='2'/><text x='160' y='120' font-size='11' font-weight='bold' text-anchor='middle' fill='#9f1239'>D: Decision (?)</text></svg>"
+    },
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 3,
+    "explanation": "In standard ANSI flowchart conventions: Oval (A) represents Terminal/Start-End; Parallelogram (B) represents Input/Output; Rectangle (C) represents Process; and Diamond (D) represents Decision.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-018",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the full expansion of the primary hardware acronym 'CPU'?",
+    "sampleAnswer": "Central Processing Unit",
+    "keywords": [
+      "Central",
+      "Processing",
+      "Unit"
+    ],
+    "acceptedAnswers": [
+      "Central Processing Unit",
+      "Central Processing unit",
+      "central processing unit"
+    ],
+    "explanation": "CPU stands for Central Processing Unit, the primary electronic circuitry executing computer software instructions.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-019",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Number System Basics",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What is the decimal equivalent of the largest 8-bit unsigned binary byte (11111111)_2?",
+    "sampleAnswer": "255",
+    "keywords": [
+      "255"
+    ],
+    "acceptedAnswers": [
+      "255"
+    ],
+    "explanation": "An 8-bit byte with all bits set to 1 equals 2^8 - 1 = 256 - 1 = 255 in decimal notation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-020",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Memory and Storage",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): High-speed cache memory is placed between the central processor and primary RAM to accelerate instruction processing.\nReason (R): Cache memory is fabricated from fast Static RAM (SRAM) and stores copies of frequently accessed memory lines, minimizing access to slower Dynamic RAM (DRAM).",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Cache bridges the speed disparity between high-clock-rate processor cores and slower capacitive main DRAM. Utilizing SRAM cache reduces memory wait-states.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-021",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Operating System Basics",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): Command Line Interface (CLI) operating environments typically consume significantly less RAM and CPU processing power than Graphical User Interfaces (GUI).\nReason (R): A CLI environment only maintains text streams and terminal buffers, avoiding the memory overhead of window managers, high-resolution graphics drivers, and composite rendering.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "GUIs require continuous framebuffer updates, complex graphics compositing, and font rendering engines, whereas a CLI relies on lightweight text streams.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-022",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following software programs are classified as System Software rather than Application Software?",
+    "options": [
+      "Operating System (e.g., Linux, Windows)",
+      "Device Driver (e.g., Graphics Driver)",
+      "BIOS/UEFI Firmware",
+      "Spreadsheet Editor (e.g., LibreOffice Calc)",
+      "Desktop Web Browser"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Operating systems, device drivers, and firmware are system software designed to manage computer hardware. Spreadsheets and web browsers are application software.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-023",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Input/Output Devices",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Select all peripheral devices that function strictly as Output devices in a standard desktop computer system:",
+    "options": [
+      "Flat-panel LCD Monitor",
+      "Inkjet Color Printer",
+      "External Audio Speakers",
+      "Flatbed Document Scanner",
+      "Optical Computer Mouse"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Monitors, printers, and speakers output visual, physical, and acoustic data from the computer. Scanners and mice are input devices.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-024",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Memory and Storage",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the standard digital data storage measurement units in ascending order of storage capacity (smallest to largest):",
+    "orderedItems": [
+      "Bit (b)",
+      "Byte (B)",
+      "Kilobyte (KB)",
+      "Megabyte (MB)",
+      "Gigabyte (GB)",
+      "Terabyte (TB)"
+    ],
+    "answer": "ordered",
+    "explanation": "The proper ascending hierarchy is: Bit (1 bit) -> Byte (8 bits) -> Kilobyte (1024 B) -> Megabyte (1024 KB) -> Gigabyte (1024 MB) -> Terabyte (1024 GB).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-025",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential phases of the computer booting process (Cold Boot) in their correct chronological order:",
+    "orderedItems": [
+      "Power Supply unit stabilizes voltage and sends Power Good signal to activate CPU.",
+      "CPU executes BIOS/UEFI firmware from ROM and runs Power-On Self-Test (POST).",
+      "POST verifies system hardware integrity including RAM, video card, and keyboard.",
+      "The BIOS searches the designated boot order list to locate the Master Boot Record / EFI bootloader.",
+      "The bootloader initializes the Operating System kernel and loads core system services into RAM."
+    ],
+    "answer": "ordered",
+    "explanation": "Chronological boot sequence: Power signal -> CPU starts BIOS from ROM -> POST checks hardware -> Boot device selected & bootloader retrieved -> OS kernel loaded into RAM.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-026",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Internet and Safe Browsing",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which prefix scheme in a web address (URL) signifies that the connection to the web server is encrypted and secured by modern cryptographic transport protocols?",
+    "options": [
+      "https://",
+      "http://",
+      "ftp://",
+      "file://"
+    ],
+    "answer": 0,
+    "explanation": "HTTPS (Hypertext Transfer Protocol Secure) encrypts all bidirectional network traffic between the browser and web server using TLS/SSL encryption.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-027",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What type of deceptive cyberattack attempts to trick users into divulging confidential login credentials, banking PINs, or identity details through counterfeit emails and spoofed websites?",
+    "options": [
+      "Phishing",
+      "Denial of Service (DoS)",
+      "Disk Defragmentation",
+      "Buffer Overflow"
+    ],
+    "answer": 0,
+    "explanation": "Phishing is a social engineering attack where malicious actors masquerade as trusted entities (e.g., banks or school portals) to deceive victims into revealing private credentials.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-028",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Operating System Basics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which file extension is commonly used to store lossless bitmap graphics and images with transparent alpha channels?",
+    "options": [
+      ".png",
+      ".exe",
+      ".bat",
+      ".docx"
+    ],
+    "answer": 0,
+    "explanation": ".png (Portable Network Graphics) is an open raster image format supporting lossless compression and transparent backgrounds. .exe is an executable, .bat is a batch script, and .docx is a document.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-029",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Internet and Safe Browsing",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the primary role of the Domain Name System (DNS) on the global internet?",
+    "options": [
+      "Translating human-friendly domain names (e.g., example.com) into machine-routable IP addresses",
+      "Compressing multimedia video streams to reduce bandwidth consumption",
+      "Encrypting stored passwords on the user's local operating system",
+      "Assigning physical MAC addresses to network interface cards"
+    ],
+    "answer": 0,
+    "explanation": "DNS acts as the phonebook of the internet. It maps human-readable hostnames (such as www.ncert.nic.in) to numeric IP addresses that routers use to deliver packets.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-030",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What term describes the permanent trail of identifiable data, posts, search queries, uploaded media, and location tags left behind by an individual across digital platforms?",
+    "options": [
+      "Digital Footprint",
+      "Browser Sandbox",
+      "Session Cookie",
+      "Virtual Virtualization"
+    ],
+    "answer": 0,
+    "explanation": "A digital footprint encompasses all traces of personal online activity, both active (posts, comments, emails) and passive (server logs, IP tracking, cookies).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-031",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "How does a standalone computer worm fundamentally differ from a conventional computer virus?",
+    "options": [
+      "A worm self-replicates across networks autonomously without needing to attach to a host file or rely on human execution",
+      "A worm cannot infect electronic storage media",
+      "A worm strictly targets mainframe servers and is incapable of infecting personal laptops",
+      "A worm requires macro-enabled spreadsheet templates to activate"
+    ],
+    "answer": 0,
+    "explanation": "Unlike a traditional virus which requires a host program to attach to and a user to run it, a computer worm propagates autonomously across computer networks by exploiting software vulnerabilities.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-032",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Internet and Safe Browsing",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "A web browser application (such as Google Chrome or Mozilla Firefox) and an internet search engine (such as Google Search or DuckDuckGo) are identical software components serving the exact same technical function.",
+    "answer": false,
+    "explanation": "A web browser is a local client application used to retrieve, render, and view HTML web pages, while a search engine is a remote web service with web crawlers that indexes and searches website databases.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-033",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Open Source software grants users the legal right to inspect, modify, enhance, and redistribute its underlying source code according to the terms of its open licensing agreement.",
+    "answer": true,
+    "explanation": "Open-source software (OSS) licenses (like GNU GPL, Apache, MIT) ensure that human-readable source code remains accessible and modifiable by the developer community.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-034",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Any intrusive software explicitly designed by threat actors to damage, hijack, or gain unauthorized control over computer systems is comprehensively known as _____.",
+    "answer": "malware",
+    "acceptedAnswers": [
+      "malware",
+      "Malware"
+    ],
+    "explanation": "Malware is short for 'malicious software' and encompasses viruses, worms, trojans, ransomware, spyware, and adware.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-035",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Internet and Safe Browsing",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The numerical hardware and routing label assigned to each network interface card communicating via standard internet protocols is called an _____ address.",
+    "answer": "IP",
+    "acceptedAnswers": [
+      "IP",
+      "IP address",
+      "Internet Protocol"
+    ],
+    "explanation": "An IP (Internet Protocol) address (e.g., IPv4 like 192.168.1.1 or IPv6) identifies a connected node on a computer network.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-036",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Operating System Basics",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "While Microsoft Windows traditionally uses a backslash (`\\`) to delimit folder hierarchies in file paths, Unix, Linux, and macOS file paths use a _____ (`/`).",
+    "answer": "forward slash",
+    "acceptedAnswers": [
+      "forward slash",
+      "slash",
+      "/",
+      "forward-slash"
+    ],
+    "explanation": "Unix and POSIX operating systems, as well as internet URLs, utilize the forward slash (`/`) as standard directory path separators.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-037",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each category of malicious software with its distinctive harmful behavior:",
+    "pairs": [
+      [
+        "Ransomware",
+        "Encrypts user documents and demands financial ransom for decryption"
+      ],
+      [
+        "Spyware",
+        "Covertly tracks keystrokes and browsed history without authorization"
+      ],
+      [
+        "Trojan Horse",
+        "Disguises its payload within an ostensibly harmless utility application"
+      ],
+      [
+        "Adware",
+        "Uncontrollably generates disruptive promotional pop-ups and advertisements"
+      ]
+    ],
+    "explanation": "Ransomware locks files for extortion, spyware steals private telemetry, trojans deceive users by pretending to be benign, and adware floods interfaces with ads.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-038",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Number System Basics",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Convert the positive decimal integer 25 into its equivalent base-2 binary representation.",
+    "answer": 11001,
+    "explanation": "Step-by-step conversion of 25: 25 / 2 = 12 rem 1; 12 / 2 = 6 rem 0; 6 / 2 = 3 rem 0; 3 / 2 = 1 rem 1; 1 / 2 = 0 rem 1. Reading remainders bottom-up yields 11001.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-039",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Number System Basics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Convert the 2-digit hexadecimal number (2F)_16 into its base-10 decimal value.",
+    "answer": 47,
+    "explanation": "In hexadecimal, F represents 15. Value = (2 × 16^1) + (15 × 16^0) = (2 × 16) + (15 × 1) = 32 + 15 = 47.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-040",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Internet and Safe Browsing",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A student downloads a 120 Megabyte (MB) video tutorial across a broadband link with a sustained average throughput of 16 Megabits per second (Mbps). How many seconds will the download take?",
+    "answer": 60,
+    "explanation": "File size in bits = 120 MB × 8 Megabits/MB = 960 Megabits. Download duration = Total bits / Bandwidth = 960 Megabits / 16 Mbps = 60 seconds.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-041",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Internet and Safe Browsing",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the Uniform Resource Locator (URL) decomposition diagram below. Which letter specifically designates the Top-Level Domain (TLD)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180' width='100%' height='100%'><rect width='320' height='180' fill='#f8fafc'/><rect x='10' y='20' width='300' height='50' fill='#ffffff' stroke='#334155' stroke-width='2' rx='6'/><text x='15' y='50' font-family='monospace' font-size='12' fill='#0f172a'><tspan fill='#0284c7' font-weight='bold'>https://</tspan><tspan fill='#16a34a' font-weight='bold'>www.example</tspan><tspan fill='#dc2626' font-weight='bold'>.edu</tspan><tspan fill='#475569'>/docs/page.html</tspan></text><rect x='15' y='90' width='60' height='30' fill='#e0f2fe' stroke='#0284c7' rx='3'/><text x='45' y='110' font-size='10' text-anchor='middle' fill='#0369a1' font-weight='bold'>A: Protocol</text><rect x='85' y='90' width='80' height='30' fill='#dcfce7' stroke='#16a34a' rx='3'/><text x='125' y='110' font-size='10' text-anchor='middle' fill='#15803d' font-weight='bold'>B: Domain</text><rect x='175' y='90' width='55' height='30' fill='#fee2e2' stroke='#dc2626' rx='3'/><text x='202' y='110' font-size='10' text-anchor='middle' fill='#991b1b' font-weight='bold'>C: TLD</text><rect x='240' y='90' width='65' height='30' fill='#f1f5f9' stroke='#64748b' rx='3'/><text x='272' y='110' font-size='10' text-anchor='middle' fill='#334155' font-weight='bold'>D: Path</text><line x1='45' y1='60' x2='45' y2='90' stroke='#0284c7' stroke-width='1.5' stroke-dasharray='2,2'/><line x1='125' y1='60' x2='125' y2='90' stroke='#16a34a' stroke-width='1.5' stroke-dasharray='2,2'/><line x1='202' y1='60' x2='202' y2='90' stroke='#dc2626' stroke-width='1.5' stroke-dasharray='2,2'/><line x1='272' y1='60' x2='272' y2='90' stroke='#64748b' stroke-width='1.5' stroke-dasharray='2,2'/></svg>"
+    },
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 2,
+    "explanation": "In the URL breakdown: A is the protocol (https://), B is the domain name (www.example), C is the Top-Level Domain (.edu), and D is the file path (/docs/page.html).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-042",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Internet and Safe Browsing",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the full expansion of the web networking acronym 'HTTP'?",
+    "sampleAnswer": "HyperText Transfer Protocol",
+    "keywords": [
+      "HyperText",
+      "Transfer",
+      "Protocol"
+    ],
+    "acceptedAnswers": [
+      "HyperText Transfer Protocol",
+      "Hypertext Transfer Protocol",
+      "hypertext transfer protocol"
+    ],
+    "explanation": "HTTP stands for HyperText Transfer Protocol, the foundational application-layer protocol powering information transfer on the World Wide Web.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-043",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What modern cryptographic security protocol is paired with HTTP to establish encrypted HTTPS connections?",
+    "sampleAnswer": "TLS (Transport Layer Security)",
+    "keywords": [
+      "TLS",
+      "SSL",
+      "Transport Layer Security"
+    ],
+    "acceptedAnswers": [
+      "TLS",
+      "SSL/TLS",
+      "Transport Layer Security",
+      "SSL"
+    ],
+    "explanation": "Transport Layer Security (TLS), and its predecessor SSL, provides privacy, authentication, and data integrity over TCP/IP web connections.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-044",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Operating System Basics",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What technical term describes a hardware or software signal issued to the CPU to temporarily suspend its active thread and attend to a critical event immediately?",
+    "sampleAnswer": "Interrupt",
+    "keywords": [
+      "Interrupt",
+      "interrupt"
+    ],
+    "acceptedAnswers": [
+      "interrupt",
+      "Interrupt",
+      "Hardware interrupt"
+    ],
+    "explanation": "An interrupt alerts the CPU of an urgent request (e.g., keyboard stroke, disk I/O completion), triggering an interrupt service routine (ISR).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-045",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): Enforcing Two-Factor Authentication (2FA) significantly reduces account takeovers compared to relying solely on a password.\nReason (R): Even if an adversary steals or guesses the user's password, authentication is rejected without the second out-of-band factor (such as a time-based authenticator token or physical security key).",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "2FA combines something you know (password) with something you have (authenticator app/hardware key), neutralizing password leaks.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-046",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Internet and Safe Browsing",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): Using 'Incognito' or 'Private' browsing mode does not shield a user's web browsing activity from their Internet Service Provider (ISP) or local network administrator.\nReason (R): Private browsing mode only prevents the client browser from locally writing browsing history, cookies, and cached files to the local storage drive; outbound IP packets still travel visibly across external network switches.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Private browsing is a local privacy tool, not an anonymity network or VPN. External routers, DNS resolvers, and network monitors still observe requested IP addresses.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-047",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following practices represent recommended guidelines for maintaining strong password security and cyber hygiene?",
+    "options": [
+      "Creating passwords with at least 12 to 16 diverse characters",
+      "Combining uppercase letters, lowercase letters, numbers, and symbols",
+      "Using identical passwords across all personal, educational, and financial accounts",
+      "Writing passwords on sticky notes attached to the computer screen",
+      "Avoiding common dictionary words and predictable sequences like 'abc123'"
+    ],
+    "answer": [
+      0,
+      1,
+      4
+    ],
+    "explanation": "Complex multi-character passphrases and unique credentials per account protect against credential stuffing and brute-force dictionary attacks.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-048",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Operating System Basics",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Select all operating systems that are built upon the open-source Linux kernel architecture:",
+    "options": [
+      "Ubuntu Linux",
+      "Android OS",
+      "Red Hat Enterprise Linux",
+      "Microsoft Windows 11",
+      "Apple iOS"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Ubuntu, Android, and Red Hat are based on the Linux kernel. Windows uses the proprietary Windows NT kernel, and Apple iOS uses Darwin/XNU.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-049",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Internet and Safe Browsing",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the steps describing how a web browser requests, fetches, and displays a webpage when a user submits a URL:",
+    "orderedItems": [
+      "User enters a website URL (e.g., https://example.org) into the browser and presses Enter.",
+      "The client device sends a query to a DNS server to resolve the hostname into an IP address.",
+      "The browser establishes a secure TCP/TLS network connection with the destination web server.",
+      "The browser transmits an HTTP GET request seeking the specific webpage resource.",
+      "The web server sends back the HTML document, which the browser engine parses and renders onto the screen."
+    ],
+    "answer": "ordered",
+    "explanation": "Webpage retrieval sequence: URL submission -> DNS name resolution -> TCP/TLS handshake -> HTTP GET request -> HTML response returned & rendered.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-050",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following digital security threats in ascending order of their destructive potential and systemic severity (from minor annoyance to critical catastrophic damage):",
+    "orderedItems": [
+      "Unsolicited promotional spam email cluttering the email inbox",
+      "Third-party tracking cookies logging web page visits for targeted advertising",
+      "Adware continuously injecting unwanted advertising banners into browser windows",
+      "Keylogger spyware harvesting bank login passwords and sensitive private messages",
+      "Cryptographic ransomware seizing control of critical infrastructure and encrypting all hospital patient databases"
+    ],
+    "answer": "ordered",
+    "explanation": "Threat hierarchy: Spam email (inbox clutter) -> Tracking cookie (ad tracking) -> Adware (display annoyance) -> Spyware/Keylogger (identity theft) -> Ransomware (system shutdown & data hostage).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-051",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Word Processing",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which feature in modern word processing software enables users to generate personalized letters, certificates, or envelopes in bulk by linking a template document to an external recipient list?",
+    "options": [
+      "Mail Merge",
+      "Macro Recorder",
+      "Track Changes",
+      "WordArt Gallery"
+    ],
+    "answer": 0,
+    "explanation": "Mail Merge combines a primary form document with a structured data source (e.g., spreadsheet list of names and addresses) to generate personalized outputs.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-052",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Spreadsheets",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In a spreadsheet program (such as MS Excel or LibreOffice Calc), what punctuation symbol must prefix every formula or computational expression entered into a cell?",
+    "options": [
+      "=",
+      "+",
+      "@",
+      "#"
+    ],
+    "answer": 0,
+    "explanation": "Every formula or built-in function in a spreadsheet must begin with an equal sign (`=`) to signal to the calculation engine that the cell contains an expression rather than static text.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-053",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to HTML",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which foundational HTML tag is used to define an anchor hyperlink that navigates to another webpage or external URL?",
+    "options": [
+      "<a>",
+      "<link>",
+      "<href>",
+      "<nav>"
+    ],
+    "answer": 0,
+    "explanation": "The anchor tag `<a>` with its `href` attribute (e.g., `<a href='https://example.com'>Link</a>`) creates a clickable hyperlink.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-054",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Spreadsheets",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If cell C1 contains the formula `=$A$1+B1` and is copied directly downward into cell C2, what will the formula in cell C2 become due to mixed/absolute referencing?",
+    "options": [
+      "=$A$1+B2",
+      "=$A$2+B2",
+      "=$A$1+B1",
+      "=$A$2+B1"
+    ],
+    "answer": 0,
+    "explanation": "`$A$1` is an absolute reference and remains fixed, while `B1` is a relative reference that increments to `B2` when copied one row down.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-055",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to HTML",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which HTML heading element renders text with the highest visual prominence and top-level document hierarchy by default?",
+    "options": [
+      "<h1>",
+      "<h6>",
+      "<heading>",
+      "<head>"
+    ],
+    "answer": 0,
+    "explanation": "HTML defines six levels of section headings: `<h1>` to `<h6>`. `<h1>` represents the highest and largest primary heading, while `<h6>` is the smallest.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-056",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Spreadsheets",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "What value will the conditional spreadsheet formula `=IF(AVERAGE(10, 20, 30) > 25, \"Pass\", \"Review\")` return when calculated?",
+    "options": [
+      "Review",
+      "Pass",
+      "20",
+      "#VALUE!"
+    ],
+    "answer": 0,
+    "explanation": "AVERAGE(10, 20, 30) = (10 + 20 + 30) / 3 = 60 / 3 = 20. The condition 20 > 25 is FALSE. The IF function evaluates to the false parameter, returning 'Review'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-057",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Word Processing",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The 'Find and Replace' utility in word processing programs enables a user to search for every occurrence of a specific word or phrase and automatically substitute it with a chosen replacement term across the document.",
+    "answer": true,
+    "explanation": "Find and Replace automates global text editing, allowing instant search and replacement of words, phrases, or formatting styles.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-058",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to HTML",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In standard HTML, an ordered list element (`<ol>`) formats its items with bullet points (dots or squares), whereas an unordered list element (`<ul>`) formats items with sequential numbers (1, 2, 3).",
+    "answer": false,
+    "explanation": "An ordered list (`<ol>`) renders items with sequential numbers or letters, while an unordered list (`<ul>`) renders items with bullet marks.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-059",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Spreadsheets",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "A relative cell reference (such as `A1`) automatically adjusts its column and row coordinates relative to the new position when copied or autofilled across neighboring spreadsheet cells.",
+    "answer": true,
+    "explanation": "Relative references dynamically maintain relative offset positions (e.g., copying A1 one cell down shifts to A2; one cell right shifts to B1).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-060",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to HTML",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The mandatory attribute in an HTML image element `<img>` used to specify the file path or web address of the image resource is _____.",
+    "answer": "src",
+    "acceptedAnswers": [
+      "src",
+      "src attribute"
+    ],
+    "explanation": "The `src` (source) attribute provides the URL or local file path to the graphic file (e.g., `<img src='logo.png' alt='Logo'>`).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-061",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Word Processing",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The standard keyboard shortcut combination used to paste previously copied or cut clipboard contents into an active word processing document is Ctrl + _____.",
+    "answer": "V",
+    "acceptedAnswers": [
+      "V",
+      "v"
+    ],
+    "explanation": "Ctrl + C copies, Ctrl + X cuts, and Ctrl + V pastes text or objects from the system clipboard.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-062",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Spreadsheets",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each spreadsheet function with its primary mathematical or statistical output:",
+    "pairs": [
+      [
+        "=SUM(A1:A5)",
+        "Calculates the total arithmetic addition of values in the cell range"
+      ],
+      [
+        "=MAX(A1:A5)",
+        "Returns the highest numeric value found within the cell range"
+      ],
+      [
+        "=MIN(A1:A5)",
+        "Returns the lowest numeric value found within the cell range"
+      ],
+      [
+        "=COUNT(A1:A5)",
+        "Counts the number of cells containing numbers in the range"
+      ]
+    ],
+    "explanation": "SUM adds values, MAX finds the peak, MIN finds the lowest, and COUNT tallies numeric entries.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-063",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to HTML",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each HTML text formatting tag with its visual display effect in web browsers:",
+    "pairs": [
+      [
+        "<p>",
+        "Encloses a block-level paragraph with margin separation"
+      ],
+      [
+        "<br>",
+        "Forces a single inline line break without paragraph spacing"
+      ],
+      [
+        "<b>",
+        "Renders text in boldface font without semantic importance"
+      ],
+      [
+        "<hr>",
+        "Draws a horizontal rule creating a visual thematic break"
+      ]
+    ],
+    "explanation": "<p> defines paragraphs, <br> creates line breaks, <b> bolds text, and <hr> creates horizontal dividing lines.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-064",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Spreadsheets",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In a spreadsheet, cells contain the following numeric data: A1 = 12, A2 = 8, A3 = 14, and A4 = 6. Evaluate the exact numeric value computed by the formula `=SUM(A1:A4) / COUNT(A1:A4)`.",
+    "answer": 10,
+    "explanation": "Step 1: Calculate SUM(A1:A4) = 12 + 8 + 14 + 6 = 40. Step 2: Calculate COUNT(A1:A4) = 4 cells with numbers. Step 3: 40 / 4 = 10.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-065",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Spreadsheets",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In a worksheet, cell B1 = 5, B2 = 15, and B3 = 25. Evaluate the numeric outcome of the conditional expression: `=IF(MAX(B1:B3) >= 30, B2 * 2, (B3 - B1) / 2)`.",
+    "answer": 10,
+    "explanation": "MAX(5, 15, 25) = 25. The logical test 25 >= 30 is FALSE. The formula therefore evaluates the false branch: (B3 - B1) / 2 = (25 - 5) / 2 = 20 / 2 = 10.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-066",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to HTML",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the HTML table grid layout below. Which HTML tag is used to create an individual standard table data cell (represented by the letter B)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180' width='100%' height='100%'><rect width='320' height='180' fill='#f8fafc'/><rect x='20' y='20' width='280' height='140' fill='#ffffff' stroke='#334155' stroke-width='2' rx='4'/><rect x='20' y='20' width='140' height='40' fill='#e2e8f0' stroke='#64748b'/><text x='90' y='45' font-size='12' font-weight='bold' text-anchor='middle' fill='#0f172a'>A: Header Cell (&lt;th&gt;)</text><rect x='160' y='20' width='140' height='40' fill='#e2e8f0' stroke='#64748b'/><text x='230' y='45' font-size='12' font-weight='bold' text-anchor='middle' fill='#0f172a'>Header Cell (&lt;th&gt;)</text><rect x='20' y='60' width='140' height='50' fill='#f1f5f9' stroke='#94a3b8'/><text x='90' y='90' font-size='12' text-anchor='middle' fill='#1e293b'>B: Data Cell (?)</text><rect x='160' y='60' width='140' height='50' fill='#f1f5f9' stroke='#94a3b8'/><text x='230' y='90' font-size='12' text-anchor='middle' fill='#1e293b'>Data Cell (?)</text><rect x='20' y='110' width='140' height='50' fill='#f1f5f9' stroke='#94a3b8'/><text x='90' y='140' font-size='12' text-anchor='middle' fill='#1e293b'>Data Cell (?)</text><rect x='160' y='110' width='140' height='50' fill='#f1f5f9' stroke='#94a3b8'/><text x='230' y='140' font-size='12' text-anchor='middle' fill='#1e293b'>Data Cell (?)</text></svg>"
+    },
+    "options": [
+      "<td>",
+      "<th>",
+      "<tr>",
+      "<table>"
+    ],
+    "answer": 0,
+    "explanation": "In an HTML table, `<tr>` defines a table row, `<th>` defines a bold/centered header cell (A), and `<td>` defines a standard data cell (B).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-067",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to HTML",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the full expansion of the web document markup acronym 'HTML'?",
+    "sampleAnswer": "HyperText Markup Language",
+    "keywords": [
+      "HyperText",
+      "Markup",
+      "Language"
+    ],
+    "acceptedAnswers": [
+      "HyperText Markup Language",
+      "Hypertext Markup Language",
+      "hypertext markup language"
+    ],
+    "explanation": "HTML stands for HyperText Markup Language, the standard markup language used to structure content for display in web browsers.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-068",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Spreadsheets",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What character symbol is prepended to a column letter and row number (such as in `$B$4`) in spreadsheet formulas to lock them as an absolute reference?",
+    "sampleAnswer": "$ (Dollar sign)",
+    "keywords": [
+      "$",
+      "dollar"
+    ],
+    "acceptedAnswers": [
+      "$",
+      "dollar",
+      "dollar sign",
+      "Dollar sign"
+    ],
+    "explanation": "The dollar sign (`$`) is used in spreadsheet referencing to lock rows, columns, or both into static absolute coordinates.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-069",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Word Processing",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What word processing feature automatically advances typed text to the beginning of the next line when a typed word exceeds the right-hand page margin?",
+    "sampleAnswer": "Word Wrap",
+    "keywords": [
+      "word",
+      "wrap"
+    ],
+    "acceptedAnswers": [
+      "word wrap",
+      "Word wrap",
+      "Word Wrap",
+      "word wrapping"
+    ],
+    "explanation": "Word wrap automatically breaks text lines at word boundaries without requiring the user to press the Enter key.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-070",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to HTML",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): HTML tags such as `<br>`, `<img>`, and `<hr>` are classified as empty (or void) elements.\nReason (R): Empty elements cannot enclose textual or nested element children and therefore do not require an end closing tag (such as `</br>`) in standard HTML5.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Void elements in HTML represent standalone objects or breaks; having no content model, they do not have closing tags in HTML5 syntax.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-071",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Spreadsheets",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): When calculating product sales tax across multiple rows in a worksheet, the cell referencing the tax percentage rate should be written with absolute referencing (e.g., `$E$1`).\nReason (R): An absolute reference prevents the row and column coordinates from incrementing when the formula is dragged down across multiple table rows.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "If relative referencing were used, row offsets would cause subsequent rows to point to empty cells below the tax rate, yielding zero or error values.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-072",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Word Processing",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are standard horizontal paragraph alignment options provided in word processors?",
+    "options": [
+      "Align Left",
+      "Center Align",
+      "Align Right",
+      "Justify",
+      "Diagonal Angle Align"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Standard horizontal alignment choices are Left, Center, Right, and Justify (which aligns both left and right margins). Diagonal alignment is not a standard paragraph format.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-073",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to HTML",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Select all valid HTML tags that form proper structural elements of a table:",
+    "options": [
+      "<table>",
+      "<tr>",
+      "<th>",
+      "<td>",
+      "<tablecolumn>"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "`<table>` defines the table, `<tr>` defines rows, `<th>` defines header cells, and `<td>` defines standard data cells. `<tablecolumn>` is not a valid HTML tag.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-074",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to HTML",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the core skeleton tags of a minimal, valid HTML5 document in their correct hierarchical nesting order from the root declaration down to visible page content:",
+    "orderedItems": [
+      "<!DOCTYPE html> preamble declared as the very first line of the document",
+      "<html> root container tag enclosing all document elements",
+      "<head> metadata container element holding document configuration and stylesheets",
+      "<title> element specifying the web page title displayed on the browser tab",
+      "<body> container element containing all visible headings, paragraphs, and media"
+    ],
+    "answer": "ordered",
+    "explanation": "Standard HTML5 nesting: <!DOCTYPE html> -> <html> -> <head> -> <title> inside head -> <body> containing visual web elements.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-075",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Word Processing",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the standard sequential steps of creating and executing a Mail Merge in a word processing program:",
+    "orderedItems": [
+      "Draft the primary form document template (e.g., student report card or certificate).",
+      "Connect and link the document to the external recipient data source (e.g., spreadsheet table).",
+      "Insert specific merge placeholders (e.g., <<Student_Name>>, <<Marks>>) into the template.",
+      "Preview the merged records to verify that dynamic recipient data aligns correctly.",
+      "Complete the merge to print or generate individual personalized documents."
+    ],
+    "answer": "ordered",
+    "explanation": "Mail merge systematically proceeds by drafting the main document, connecting recipient records, inserting merge field codes, previewing populated samples, and finally executing the merge output.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-076",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which major subfield of Artificial Intelligence is dedicated to enabling computing systems to understand, parse, translate, and generate human spoken and written text?",
+    "options": [
+      "Natural Language Processing (NLP)",
+      "Computer Vision (CV)",
+      "Robotic Hardware Kinematics",
+      "Network Packet Switching"
+    ],
+    "answer": 0,
+    "explanation": "Natural Language Processing (NLP) combines computational linguistics with machine learning to process and interpret human language (e.g., translators, voice bots).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-077",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the defining capability that distinguishes modern Artificial Intelligence systems from conventional, static computer programs?",
+    "options": [
+      "The ability to detect patterns in training data and improve decision accuracy without being explicitly coded for every edge case",
+      "The ability to run without consuming electricity or memory resources",
+      "The hardware replacement of microprocessors with optical vacuum tubes",
+      "The inability to execute standard numerical calculations"
+    ],
+    "answer": 0,
+    "explanation": "Traditional programs follow rigid human-coded rules, whereas AI systems infer probabilistic models and predictive rules directly from data training.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-078",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In standard computer bus architecture, which unidirectional bus transmits target memory location addresses from the CPU to RAM and peripheral controllers?",
+    "options": [
+      "Address Bus",
+      "Data Bus",
+      "Control Bus",
+      "PCIe Power Line"
+    ],
+    "answer": 0,
+    "explanation": "The Address Bus carries memory address pointers from the CPU to system components. The width of the address bus determines the maximum addressable physical memory.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-079",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which domain of Artificial Intelligence is primarily responsible for processing digital images and video feeds to detect pedestrians, lane markers, and obstacles in self-driving cars?",
+    "options": [
+      "Computer Vision (CV)",
+      "Natural Language Processing (NLP)",
+      "Speech Synthesis",
+      "Relational Database Querying"
+    ],
+    "answer": 0,
+    "explanation": "Computer Vision (CV) trains neural networks to capture, process, and evaluate visual data from cameras and LIDAR sensors to recognize real-world objects.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-080",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Number System Basics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the numeric base (radix) of the Octal number system, which utilizes the digits 0 through 7?",
+    "options": [
+      "8",
+      "2",
+      "10",
+      "16"
+    ],
+    "answer": 0,
+    "explanation": "The octal number system has a base of 8 and uses digits 0, 1, 2, 3, 4, 5, 6, 7. Each octal digit maps directly to exactly 3 binary bits.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-081",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What ethical term denotes biased, skewed, or discriminatory outcomes generated by an automated AI model as a result of prejudiced or unrepresentative training data?",
+    "options": [
+      "Algorithmic Bias",
+      "Data Compression",
+      "Buffer Overflow",
+      "Overclocking"
+    ],
+    "answer": 0,
+    "explanation": "Algorithmic bias occurs when training datasets contain historical human prejudices or disproportionate representation, causing AI systems to replicate systematic unfairness.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-082",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In central processor hardware specifications, what does a processor clock frequency rating of 3.2 Gigahertz (GHz) directly indicate?",
+    "options": [
+      "The internal clock generator produces 3.2 billion synchronization cycles per second",
+      "The processor reads 3.2 Gigabytes of disk data per second",
+      "The processor consumes 3.2 Gigawatts of electrical energy per second",
+      "The chip contains exactly 3.2 million microcode transistors"
+    ],
+    "answer": 0,
+    "explanation": "A clock rate of 3.2 GHz signifies 3.2 × 10^9 clock cycles per second. The CPU synchronizes internal instruction pipeline stages to these tick cycles.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-083",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "An intelligent smart thermostat that autonomously regulates room climate by learning family schedule habits and predicting occupancy patterns uses Artificial Intelligence concepts.",
+    "answer": true,
+    "explanation": "Adaptive smart devices apply machine learning algorithms to sensor data to infer household routines and optimize energy conservation automatically.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-084",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "A microprocessor with a 32-bit address bus can natively map and address up to 64 Gigabytes of physical RAM without special banking extensions.",
+    "answer": false,
+    "explanation": "A 32-bit address bus can generate at most 2^32 unique memory addresses = 4,294,967,296 bytes = exactly 4 Gigabytes (GB) of addressable memory.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-085",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Automated voice assistants such as Apple Siri, Amazon Alexa, and Google Assistant are core consumer applications of Natural Language _____ (NLP).",
+    "answer": "Processing",
+    "acceptedAnswers": [
+      "Processing",
+      "processing"
+    ],
+    "explanation": "Natural Language Processing (NLP) enables conversational agents to parse voice syntax, interpret intent, and generate natural synthesized speech.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-086",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The internal system bus that bidirectionally carries operational binary words, program instructions, and computational results between the CPU and memory is the _____ Bus.",
+    "answer": "Data",
+    "acceptedAnswers": [
+      "Data",
+      "data",
+      "Data Bus"
+    ],
+    "explanation": "The Data Bus is bidirectional because data must both be fetched from memory into the CPU and written back from CPU registers to memory.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-087",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The primary branch of Artificial Intelligence wherein mathematical models iteratively improve their prediction accuracy from data without explicit manual programming is called Machine _____.",
+    "answer": "Learning",
+    "acceptedAnswers": [
+      "Learning",
+      "learning"
+    ],
+    "explanation": "Machine Learning (ML) focuses on the development of statistical algorithms that learn patterns from training datasets to make inferences on unseen data.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-088",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each Artificial Intelligence domain with its prominent real-world application:",
+    "pairs": [
+      [
+        "Computer Vision",
+        "Facial recognition biometric unlocking on smartphones"
+      ],
+      [
+        "Natural Language Processing",
+        "Automated real-time speech translation across languages"
+      ],
+      [
+        "Predictive Data Analytics",
+        "Forecasting patient cardiovascular risk from health records"
+      ],
+      [
+        "Autonomous Robotics",
+        "Automated warehouse parcel sorting and navigation"
+      ]
+    ],
+    "explanation": "Computer Vision parses image data, NLP interprets human linguistic communication, predictive analytics evaluates tabular records, and robotics navigates physical space.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-089",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Number System Basics",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Convert the decimal integer 18 into its equivalent binary representation.",
+    "answer": 10010,
+    "explanation": "18 decomposed into powers of two: 16 (2^4) + 2 (2^1) = (10010)_2. Working: 18 / 2 = 9 r 0; 9 / 2 = 4 r 1; 4 / 2 = 2 r 0; 2 / 2 = 1 r 0; 1 / 2 = 0 r 1 -> 10010.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-090",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Number System Basics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Convert the 3-bit binary value (111)_2 to decimal, and multiply that result by the decimal value of the binary number (10)_2. What is the final decimal product?",
+    "answer": 14,
+    "explanation": "(111)_2 = 4 + 2 + 1 = 7 in decimal. (10)_2 = 2 in decimal. Multiplying the two values gives 7 × 2 = 14.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-091",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A microprocessor transfers data across a 64-bit wide Data Bus. If the bus operates at a clock frequency of 800 Megahertz (MHz) and completes 1 data transfer per cycle, calculate the maximum theoretical data transfer rate in Megabytes per second (MB/s).",
+    "answer": 6400,
+    "explanation": "Step 1: 64 bits = 64 / 8 = 8 bytes per transfer cycle. Step 2: Bandwidth = 8 bytes × 800,000,000 transfers/sec = 6,400,000,000 bytes/sec = 6400 MB/s.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-092",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Network Topologies",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Identify the local network layout shown in the diagram below, where all individual computer nodes are linked directly via dedicated cables to a centralized network switch.",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='100%'><rect width='320' height='200' fill='#f8fafc'/><circle cx='160' cy='100' r='28' fill='#38bdf8' stroke='#0284c7' stroke-width='3'/><text x='160' y='98' font-size='9' font-weight='bold' text-anchor='middle' fill='#0c4a6e'>Central</text><text x='160' y='110' font-size='9' font-weight='bold' text-anchor='middle' fill='#0c4a6e'>Switch</text><rect x='30' y='20' width='55' height='35' rx='4' fill='#e2e8f0' stroke='#64748b' stroke-width='2'/><text x='57' y='42' font-size='9' font-weight='bold' text-anchor='middle' fill='#1e293b'>Node A</text><rect x='235' y='20' width='55' height='35' rx='4' fill='#e2e8f0' stroke='#64748b' stroke-width='2'/><text x='262' y='42' font-size='9' font-weight='bold' text-anchor='middle' fill='#1e293b'>Node B</text><rect x='30' y='145' width='55' height='35' rx='4' fill='#e2e8f0' stroke='#64748b' stroke-width='2'/><text x='57' y='167' font-size='9' font-weight='bold' text-anchor='middle' fill='#1e293b'>Node C</text><rect x='235' y='145' width='55' height='35' rx='4' fill='#e2e8f0' stroke='#64748b' stroke-width='2'/><text x='262' y='167' font-size='9' font-weight='bold' text-anchor='middle' fill='#1e293b'>Node D</text><line x1='85' y1='45' x2='136' y2='82' stroke='#0284c7' stroke-width='2.5'/><line x1='235' y1='45' x2='184' y2='82' stroke='#0284c7' stroke-width='2.5'/><line x1='85' y1='155' x2='136' y2='118' stroke='#0284c7' stroke-width='2.5'/><line x1='235' y1='155' x2='184' y2='118' stroke='#0284c7' stroke-width='2.5'/></svg>"
+    },
+    "options": [
+      "Star Topology",
+      "Bus Topology",
+      "Ring Topology",
+      "Mesh Topology"
+    ],
+    "answer": 0,
+    "explanation": "In a Star Topology, every peripheral workstation connects independently to a central hub or switch. Failure of one cable only disconnects that single node.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-093",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Logic Gates",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the logic circuit combination below, inputs A = 0 and B = 1 enter an OR gate, and its output is then fed into a NOT inverter gate. What will be the final output value Y?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 180' width='100%' height='100%'><rect width='320' height='180' fill='#f8fafc'/><line x1='20' y1='65' x2='80' y2='65' stroke='#1e293b' stroke-width='2.5'/><line x1='20' y1='115' x2='80' y2='115' stroke='#1e293b' stroke-width='2.5'/><text x='15' y='68' font-size='12' font-family='monospace' font-weight='bold' fill='#0f172a'>A=0</text><text x='15' y='118' font-size='12' font-family='monospace' font-weight='bold' fill='#0f172a'>B=1</text><path d='M80,45 C95,65 95,115 80,135 C115,135 145,115 160,90 C145,65 115,45 80,45 Z' fill='#bbf7d0' stroke='#16a34a' stroke-width='2.5'/><text x='115' y='95' font-size='12' font-weight='bold' fill='#166534' text-anchor='middle'>OR</text><line x1='160' y1='90' x2='210' y2='90' stroke='#1e293b' stroke-width='2.5'/><polygon points='210,65 255,90 210,115' fill='#fecdd3' stroke='#e11d48' stroke-width='2.5'/><circle cx='260' cy='90' r='5' fill='#ffffff' stroke='#e11d48' stroke-width='2'/><text x='230' y='94' font-size='10' font-weight='bold' fill='#9f1239' text-anchor='middle'>NOT</text><line x1='265' y1='90' x2='300' y2='90' stroke='#1e293b' stroke-width='2.5'/><text x='305' y='94' font-size='13' font-family='monospace' font-weight='bold' fill='#0f172a'>Y=?</text></svg>"
+    },
+    "options": [
+      "0",
+      "1",
+      "High Impedance",
+      "Floating"
+    ],
+    "answer": 0,
+    "explanation": "Step 1: The OR gate evaluates A OR B = 0 OR 1 = 1. Step 2: The NOT inverter inverts this result: NOT(1) = 0. Thus, final output Y = 0 (which is the truth table behavior of a NOR gate).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-094",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the ubiquitous two-letter abbreviation for 'Artificial Intelligence'?",
+    "sampleAnswer": "AI",
+    "keywords": [
+      "AI"
+    ],
+    "acceptedAnswers": [
+      "AI",
+      "A.I.",
+      "ai"
+    ],
+    "explanation": "AI is the universal acronym for Artificial Intelligence, the field of computer science creating systems capable of simulating human intelligence.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-095",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What historical behavioral assessment, formulated by British mathematician Alan Turing in 1950, tests whether a computer's conversational responses can be distinguished from those of a human?",
+    "sampleAnswer": "Turing Test",
+    "keywords": [
+      "Turing",
+      "Test"
+    ],
+    "acceptedAnswers": [
+      "Turing Test",
+      "Turing test",
+      "The Turing Test",
+      "turing test"
+    ],
+    "explanation": "The Turing Test evaluates whether a machine can exhibit conversational natural language behavior indistinguishable from a human interrogator.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-096",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): Deep neural network AI models generally require vast quantities of labeled training data compared to simple statistical models.\nReason (R): Deep learning architectures contain millions of internal mathematical parameters and weights that require extensive dataset exposure to converge without catastrophic overfitting.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Deep learning models have high model capacity; without sufficient training examples, the network fails to generalize and overfits training noise.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-097",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Network Topologies",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): In a standard local area Star network topology, an accidental cable cut to one workstation does not bring down the entire local network.\nReason (R): Each computer node maintains a private, dedicated physical link directly to the central switch rather than sharing a single serial communication backbone.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "In star networks, fault isolation is a primary benefit: only the severed cable link fails, whereas in bus topologies a single break disrupts the entire bus segment.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-098",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following modern technologies and tools rely on Artificial Intelligence algorithms?",
+    "options": [
+      "Email spam filtering that automatically classifies phishing attempts",
+      "Personalized content recommendation engines on streaming platforms",
+      "Facial recognition algorithms in photo gallery apps",
+      "A purely mechanical wind-up alarm clock with brass gears",
+      "A passive wooden pencil ruler"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Spam filtering, recommendation systems, and facial detection utilize machine learning models. Mechanical clocks and rulers are simple analog tools.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-099",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Computer Fundamentals",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Select all primary internal system buses that form the foundational system bus architecture of a computer:",
+    "options": [
+      "Data Bus",
+      "Address Bus",
+      "Control Bus",
+      "Optical Audio Bus",
+      "Parallel Printer Bus"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The three classical system buses in computer architecture are the Data Bus (transfers data), the Address Bus (carries memory locations), and the Control Bus (carries timing and control signals).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-cs-100",
+    "class": 9,
+    "subject": "cs",
+    "chapter": "Introduction to AI",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the standard sequential stages of the Artificial Intelligence and Machine Learning project lifecycle from inception to deployment:",
+    "orderedItems": [
+      "Define the real-world problem and collect representative raw training data.",
+      "Clean, normalize, and label the dataset to remove noise and corrupt values.",
+      "Train the machine learning model using appropriate statistical learning algorithms.",
+      "Evaluate the model against an independent test dataset to assess accuracy and bias.",
+      "Deploy the validated AI model into a live production software application."
+    ],
+    "answer": "ordered",
+    "explanation": "Standard AI workflow: Problem scoping & data collection -> Data preprocessing & labeling -> Model training -> Evaluation & testing -> Production deployment.",
+    "marks": 2,
+    "volatile": false
+  }
+]

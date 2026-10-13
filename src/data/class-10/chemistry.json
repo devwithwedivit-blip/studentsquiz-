@@ -1,0 +1,1926 @@
+[
+  {
+    "id": "c10-chemistry-001",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In the chemical reaction 3Fe(s) + 4H₂O(g) -> Fe₃O₄(s) + 4H₂(g), which chemical species undergoes oxidation?",
+    "options": [
+      "Iron (Fe)",
+      "Water (H₂O)",
+      "Iron(II,III) oxide (Fe₃O₄)",
+      "Hydrogen gas (H₂)"
+    ],
+    "answer": 0,
+    "explanation": "Iron (Fe) gains oxygen atoms to form Fe₃O₄ and is therefore oxidized. Water (H₂O) loses oxygen atoms and is reduced to hydrogen gas (H₂).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-002",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "When excess carbon dioxide gas is bubbled continuously through lime water, the initial white precipitate dissolves to produce a transparent solution due to the formation of:",
+    "options": [
+      "Calcium hydrogen carbonate [Ca(HCO₃)₂]",
+      "Calcium carbonate [CaCO₃]",
+      "Calcium oxide [CaO]",
+      "Calcium chloride [CaCl₂]"
+    ],
+    "answer": 0,
+    "explanation": "Initial passing of CO₂ precipitates insoluble CaCO₃, creating a milky appearance. Excess CO₂ reacts with CaCO₃ and water to yield water-soluble calcium hydrogen carbonate Ca(HCO₃)₂, clearing the solution.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-003",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following noble metals occurs in its native uncombined elemental state in nature owing to its very low chemical reactivity?",
+    "options": [
+      "Gold (Au)",
+      "Aluminium (Al)",
+      "Sodium (Na)",
+      "Zinc (Zn)"
+    ],
+    "answer": 0,
+    "explanation": "Gold (Au) and Platinum (Pt) occupy the lowest positions in the reactivity series. They do not react with atmospheric air, moisture, or common acids and hence occur uncombined in the free native state.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-004",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the systematic IUPAC name of the secondary aliphatic alcohol having the structural formula CH₃-CH(OH)-CH₃?",
+    "options": [
+      "Propan-2-ol",
+      "Propan-1-ol",
+      "Ethanol",
+      "Propanone"
+    ],
+    "answer": 0,
+    "explanation": "The three-carbon parent alkane chain is propane. The hydroxyl functional group (-OH) is attached at carbon-2, resulting in the IUPAC name propan-2-ol.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-005",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Element X has an atomic number of 17. In which group and period of the Modern Periodic Table is element X positioned?",
+    "options": [
+      "Group 17, Period 3",
+      "Group 7, Period 3",
+      "Group 15, Period 2",
+      "Group 17, Period 2"
+    ],
+    "answer": 0,
+    "explanation": "Element 17 (Chlorine) has the electronic configuration 2, 8, 7. It occupies 3 shells, placing it in Period 3. With 7 valence electrons, its modern group number is 10 + 7 = Group 17 (halogens).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-006",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Bleaching powder [CaOCl₂] is manufactured industrially by the chemical action of dry chlorine gas on which starting compound?",
+    "options": [
+      "Dry slaked lime [Ca(OH)₂]",
+      "Quicklime [CaO]",
+      "Limestone [CaCO₃]",
+      "Gypsum [CaSO₄·2H₂O]"
+    ],
+    "answer": 0,
+    "explanation": "Bleaching powder is synthesized by treating dry slaked lime with dry chlorine gas: Ca(OH)₂ + Cl₂ -> CaOCl₂ + H₂O.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-007",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The decomposition of calcium carbonate into calcium oxide and carbon dioxide gas upon heating is an endothermic chemical reaction.",
+    "answer": true,
+    "explanation": "Thermal decomposition of limestone requires continuous absorption of thermal heat energy from the surroundings: CaCO₃(s) + Heat -> CaO(s) + CO₂(g), classifying it as an endothermic reaction.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-008",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Aluminium oxide (Al₂O₃) is an amphoteric oxide because it reacts with both strong mineral acids and strong alkalis to produce salt and water.",
+    "answer": true,
+    "explanation": "Amphoteric oxides exhibit both basic and acidic behavior. Al₂O₃ reacts with HCl to form AlCl₃ + H₂O and with NaOH to form sodium aluminate NaAlO₂ + H₂O.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-009",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Pure neutral water at 25 °C has an exact pH value equal to _____ on the standard pH scale.",
+    "answer": "7",
+    "acceptedAnswers": [
+      "7",
+      "7.0"
+    ],
+    "explanation": "At 25 °C, pure neutral water contains [H⁺] = 10⁻⁷ M, corresponding to pH = -log(10⁻⁷) = 7.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-010",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The chemical process of converting unsaturated vegetable oils into saturated solid fats using hydrogen gas over a finely divided nickel catalyst is known as _____ hydrogenation.",
+    "answer": "catalytic",
+    "acceptedAnswers": [
+      "catalytic",
+      "catalytic hydrogenation",
+      "addition"
+    ],
+    "explanation": "Vegetable oils containing aliphatic double bonds undergo catalytic hydrogenation (an addition reaction) in the presence of nickel/palladium catalyst to yield saturated solid fats.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-011",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each everyday chemical substance with its correct chemical name and formula:",
+    "pairs": [
+      [
+        "Plaster of Paris",
+        "CaSO₄·½H₂O (Calcium sulphate hemihydrate)"
+      ],
+      [
+        "Washing Soda",
+        "Na₂CO₃·10H₂O (Sodium carbonate decahydrate)"
+      ],
+      [
+        "Baking Soda",
+        "NaHCO₃ (Sodium hydrogen carbonate)"
+      ],
+      [
+        "Gypsum",
+        "CaSO₄·2H₂O (Calcium sulphate dihydrate)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Plaster of Paris is calcium sulphate hemihydrate, washing soda contains 10 molecules of water of crystallisation, baking soda is sodium bicarbonate, and gypsum has 2 water molecules.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-012",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the mass of carbon dioxide gas (in grams) produced by the complete stoichiometric combustion of 24 g of pure carbon in excess oxygen gas. (Atomic masses: C = 12 u, O = 16 u).",
+    "answer": 88,
+    "tolerance": 0.5,
+    "unit": "g",
+    "explanation": "Combustion equation: C + O₂ -> CO₂. Moles of carbon burned = 24 g / 12 g/mol = 2.0 mol. By 1:1 stoichiometry, 2.0 mol of CO₂ is generated. Molar mass of CO₂ = 12 + 2(16) = 44 g/mol. Mass of CO₂ = 2.0 mol × 44 g/mol = 88 g.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-013",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "What mass of anhydrous sodium carbonate [Na₂CO₃] in grams is required to prepare 250 mL of a 0.20 M standard volumetric solution? (Atomic masses: Na = 23 u, C = 12 u, O = 16 u).",
+    "answer": 5.3,
+    "tolerance": 0.1,
+    "unit": "g",
+    "explanation": "Molar mass of Na₂CO₃ = 2(23) + 12 + 3(16) = 106 g/mol. Volume = 250 mL = 0.25 L. Moles required = Molarity × Volume = 0.20 mol/L × 0.25 L = 0.050 mol. Required mass = 0.050 mol × 106 g/mol = 5.3 g.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-014",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "An iron ore sample contains 80% haematite [Fe₂O₃] by mass. Calculate the theoretical maximum mass of pure elemental iron (in kg) that can be extracted from 200 kg of this ore. (Atomic masses: Fe = 56 u, O = 16 u).",
+    "answer": 112,
+    "tolerance": 1,
+    "unit": "kg",
+    "explanation": "Mass of Fe₂O₃ in 200 kg ore = 0.80 × 200 kg = 160 kg. Molar mass of Fe₂O₃ = 2(56) + 3(16) = 160 g/mol. Mass fraction of Fe in Fe₂O₃ = (2 × 56) / 160 = 112 / 160 = 70%. Theoretical iron yielded = 0.70 × 160 kg = 112 kg.",
+    "marks": 3,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-015",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "When 10.0 g of solid calcium carbonate [CaCO₃] is heated to complete decomposition according to CaCO₃(s) -> CaO(s) + CO₂(g), what mass of solid calcium oxide residue (in grams) remains? (Atomic masses: Ca = 40 u, C = 12 u, O = 16 u).",
+    "answer": 5.6,
+    "tolerance": 0.1,
+    "unit": "g",
+    "explanation": "Molar mass of CaCO₃ = 40 + 12 + 48 = 100 g/mol. Moles of CaCO₃ = 10.0 / 100 = 0.10 mol. Stoichiometric ratio is 1:1, producing 0.10 mol CaO. Molar mass of CaO = 40 + 16 = 56 g/mol. Mass of CaO = 0.10 mol × 56 g/mol = 5.6 g.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-016",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A student titrates 25.0 mL of an unknown hydrochloric acid [HCl] sample against 0.10 M sodium hydroxide [NaOH]. If exactly 20.0 mL of NaOH is consumed to reach the neutral phenolphthalein end point, determine the molarity (mol/L) of the HCl solution.",
+    "answer": 0.08,
+    "tolerance": 0.005,
+    "unit": "M",
+    "explanation": "Neutralization: HCl + NaOH -> NaCl + H₂O. At neutralization: M₁V₁ = M₂V₂ => M_HCl × 25.0 mL = 0.10 M × 20.0 mL => M_HCl = (0.10 × 20.0) / 25.0 = 2.0 / 25.0 = 0.08 M.",
+    "marks": 3,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-017",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the apparatus illustrating the electrolytic decomposition of acidified water. Which inverted tube collects hydrogen gas at twice the volumetric rate of oxygen?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 240\" width=\"100%\" height=\"200\"><rect width=\"400\" height=\"240\" fill=\"#f8fafc\" rx=\"8\"/><rect x=\"80\" y=\"120\" width=\"240\" height=\"80\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"2\" rx=\"6\"/><text x=\"90\" y=\"140\" font-size=\"12\" font-weight=\"bold\" fill=\"#0369a1\">Acidified Water</text><rect x=\"130\" y=\"40\" width=\"35\" height=\"120\" fill=\"#ffffff\" stroke=\"#475569\" stroke-width=\"1.5\" rx=\"4\"/><rect x=\"130\" y=\"40\" width=\"35\" height=\"50\" fill=\"#dbeafe\"/><line x1=\"147\" y1=\"100\" x2=\"147\" y2=\"160\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"235\" y=\"40\" width=\"35\" height=\"120\" fill=\"#ffffff\" stroke=\"#475569\" stroke-width=\"1.5\" rx=\"4\"/><rect x=\"235\" y=\"40\" width=\"35\" height=\"25\" fill=\"#dbeafe\"/><line x1=\"252\" y1=\"80\" x2=\"252\" y2=\"160\" stroke=\"#1e293b\" stroke-width=\"3\"/><circle cx=\"147\" cy=\"20\" r=\"12\" fill=\"#ef4444\"/><text x=\"143\" y=\"24\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><circle cx=\"252\" cy=\"20\" r=\"12\" fill=\"#3b82f6\"/><text x=\"248\" y=\"24\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">B</text><line x1=\"147\" y1=\"160\" x2=\"147\" y2=\"220\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"252\" y1=\"160\" x2=\"252\" y2=\"220\" stroke=\"#1e293b\" stroke-width=\"2\"/><rect x=\"175\" y=\"210\" width=\"50\" height=\"20\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"1.5\"/><text x=\"182\" y=\"225\" font-size=\"11\" font-weight=\"bold\" fill=\"#9a3412\">6V Bat</text><text x=\"138\" y=\"215\" font-size=\"12\" font-weight=\"bold\" fill=\"#dc2626\">(-)</text><text x=\"255\" y=\"215\" font-size=\"12\" font-weight=\"bold\" fill=\"#2563eb\">(+)</text></svg>"
+    },
+    "options": [
+      "Tube A (Cathode, negative terminal)",
+      "Tube B (Anode, positive terminal)",
+      "Central reservoir",
+      "Outer electrolytic trough"
+    ],
+    "answer": 0,
+    "explanation": "During electrolysis of water (2H₂O -> 2H₂ + O₂), hydrogen gas is liberated at the negative cathode (Tube A) and oxygen gas at the positive anode (Tube B). The stoichiometry produces a 2:1 ratio of hydrogen to oxygen volume.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-018",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Why is paint or grease routinely coated over the surfaces of metallic iron gates and railings?",
+    "sampleAnswer": "Applying paint or grease establishes an impermeable protective barrier that isolates metallic iron from direct contact with atmospheric oxygen and airborne moisture, thereby preventing oxidation and rust formation.",
+    "acceptedAnswers": [
+      "Paint isolates iron from atmospheric oxygen and moisture, preventing rusting.",
+      "Creates a physical barrier preventing contact between iron, air, and moisture."
+    ],
+    "keywords": [
+      "barrier",
+      "oxygen",
+      "moisture",
+      "rusting"
+    ],
+    "explanation": "Rusting of iron requires simultaneous exposure to oxygen and moisture (forming hydrated iron(III) oxide Fe₂O₃·xH₂O). Paint forms an impervious physical barrier against air and water.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-019",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why does a carbon atom achieve electronic octet stability predominantly by sharing electrons (covalent bonding) rather than forming C⁴⁺ or C⁴⁻ ionic species?",
+    "sampleAnswer": "Carbon has 4 valence electrons. Gaining 4 electrons to form C⁴⁻ would require a small nucleus of only 6 protons to hold 10 electrons, which is energetically unstable. Losing 4 electrons to form C⁴⁺ demands immense ionization energy. Hence, carbon shares valence electrons to complete its octet.",
+    "acceptedAnswers": [
+      "Losing 4 electrons requires immense energy while gaining 4 creates nuclear instability (6 protons holding 10 electrons); hence it shares electrons.",
+      "High ionization enthalpy prevents C4+ formation and electrostatic instability prevents C4- formation; carbon therefore forms covalent bonds."
+    ],
+    "keywords": [
+      "shares electrons",
+      "immense energy",
+      "6 protons holding 10 electrons",
+      "octet"
+    ],
+    "explanation": "Attaining a C⁴⁻ anion is energetically unfavourable because 6 nuclear protons cannot hold 10 electrons. Removing 4 electrons to form C⁴⁺ requires an astronomical amount of ionization energy. Hence, carbon shares electron pairs through covalent bonds.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-020",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Biochemical respiration in all aerobic living cells is classified as an exothermic reaction.\nReason (R): During cellular respiration, glucose is oxidatively broken down in the presence of oxygen into carbon dioxide and water with the simultaneous liberation of chemical metabolic energy (ATP).",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Respiration equation: C₆H₁₂O₆ + 6O₂ -> 6CO₂ + 6H₂O + Energy. Because substantial chemical energy is released during the oxidation of glucose, respiration is an exothermic reaction.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-021",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Solid dry sodium chloride crystals do not conduct electric current, but molten sodium chloride or an aqueous sodium chloride solution conducts electricity readily.\nReason (R): In solid crystalline sodium chloride, strong electrostatic ionic bonds immobilize Na⁺ and Cl⁻ ions in fixed lattice positions, whereas in molten or aqueous states, the ions dissociate into mobile charge carriers.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Conduction of electricity requires mobile charge carriers. In solid NaCl, ions are held rigidly by electrostatic forces. In molten or aqueous state, hydration or thermal energy overcomes the lattice energy, freeing Na⁺ and Cl⁻ ions to conduct current.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-022",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Select all typical physical and chemical characteristics exhibited by ionic (electrovalent) compounds:",
+    "options": [
+      "High melting and boiling points due to strong electrostatic attraction between oppositely charged ions",
+      "Solubility in polar solvents such as water and insolubility in non-polar organic solvents like petrol and benzene",
+      "Ability to conduct electric current in molten liquid state or when dissolved in water",
+      "Occurrence predominantly as highly volatile low-boiling liquids at room temperature"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Ionic compounds form rigid, high-melting crystalline solids held together by strong inter-ionic electrostatic forces. They dissolve in polar solvents (water) and conduct electricity when molten or dissolved. They are non-volatile solids.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-023",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following household and laboratory chemical solutions turn red litmus paper blue?",
+    "options": [
+      "Aqueous soap solution",
+      "Milk of magnesia suspension [Mg(OH)₂]",
+      "Baking soda solution [NaHCO₃]",
+      "Fresh lemon juice [citric acid]"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Basic solutions turn red litmus paper blue. Soap solution, milk of magnesia, and baking soda solution are alkaline/basic. Lemon juice is acidic and turns blue litmus red.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-024",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following metals in order of decreasing chemical reactivity according to the standard reactivity series (from most reactive to least reactive):",
+    "orderedItems": [
+      "Potassium (K)",
+      "Sodium (Na)",
+      "Calcium (Ca)",
+      "Magnesium (Mg)",
+      "Copper (Cu)"
+    ],
+    "answer": "ordered",
+    "explanation": "Decreasing reactivity order: Potassium (K) > Sodium (Na) > Calcium (Ca) > Magnesium (Mg) > Copper (Cu).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-025",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following Group 1 alkali metals in order of increasing atomic radius (from smallest atomic size to largest atomic size):",
+    "orderedItems": [
+      "Lithium (Li, atomic number 3)",
+      "Sodium (Na, atomic number 11)",
+      "Potassium (K, atomic number 19)",
+      "Rubidium (Rb, atomic number 37)",
+      "Caesium (Cs, atomic number 55)"
+    ],
+    "answer": "ordered",
+    "explanation": "Moving down Group 1, each successive element adds a new electronic principal quantum shell, increasing atomic radius: Li < Na < K < Rb < Cs.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-026",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which organic carboxylic acid is naturally present in sour curd and milk?",
+    "options": [
+      "Lactic acid",
+      "Tartaric acid",
+      "Oxalic acid",
+      "Methanoic acid"
+    ],
+    "answer": 0,
+    "explanation": "Sour milk and curd contain lactic acid, formed through bacterial fermentation of lactose by Lactobacillus.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-027",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "When clear aqueous solutions of barium chloride [BaCl₂] and sodium sulphate [Na₂SO₄] are mixed together, a dense white precipitate forms instantaneously. Which type of chemical reaction does this exemplify?",
+    "options": [
+      "Double displacement precipitation reaction",
+      "Decomposition reaction",
+      "Single displacement redox reaction",
+      "Combination reaction"
+    ],
+    "answer": 0,
+    "explanation": "BaCl₂(aq) + Na₂SO₄(aq) -> BaSO₄(s)↓ + 2NaCl(aq). Ions exchange between the two reactants to precipitate insoluble white barium sulphate, which is a double displacement precipitation reaction.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-028",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Brass is a commercially vital homogeneous solid solution (alloy) composed primarily of which two metals?",
+    "options": [
+      "Copper and Zinc",
+      "Copper and Tin",
+      "Lead and Tin",
+      "Iron and Carbon"
+    ],
+    "answer": 0,
+    "explanation": "Brass is an alloy of copper (Cu) and zinc (Zn). Bronze is an alloy of copper and tin (Sn). Solder is made of lead (Pb) and tin (Sn).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-029",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "How many total single covalent bonds are present within one discrete molecule of propane [C₃H₈]?",
+    "options": [
+      "10 single covalent bonds",
+      "8 single covalent bonds",
+      "11 single covalent bonds",
+      "9 single covalent bonds"
+    ],
+    "answer": 0,
+    "explanation": "Propane has the structural formula CH₃-CH₂-CH₃. There are 2 carbon-carbon single bonds (C-C) and 8 carbon-hydrogen single bonds (C-H), giving a total of 2 + 8 = 10 single covalent bonds.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-030",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "According to Dmitri Mendeleev's historical periodic law formulated in 1869, the chemical and physical properties of the elements are periodic functions of their:",
+    "options": [
+      "Atomic masses",
+      "Atomic numbers",
+      "Number of valence electrons",
+      "Electronegativities"
+    ],
+    "answer": 0,
+    "explanation": "Mendeleev stated that properties of elements are periodic functions of their atomic masses. Modern periodic law states they are periodic functions of atomic numbers (Moseley).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-031",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The painful sting of a honeybee or nettle plant hair injects methanoic (formic) acid into human skin tissues, causing burning pain and inflammation.",
+    "answer": true,
+    "explanation": "Bee stings and nettle trichomes inject methanoic acid (HCOOH). Applying a mild alkaline paste such as baking soda (NaHCO₃) neutralizes the acid and alleviates discomfort.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-032",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Successive consecutive members in any homologous organic series differ from each other by a -CH₂- (methylene) unit and 14 unified atomic mass units.",
+    "answer": true,
+    "explanation": "In an organic homologous series (e.g. alkanes, alcohols), every adjacent pair of compounds differs in molecular formula by exactly one -CH₂- group and in molecular mass by 12 + 2(1) = 14 u.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-033",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "A chemical decomposition reaction triggered specifically by the absorption of thermal heat energy is termed _____ decomposition.",
+    "answer": "thermal",
+    "acceptedAnswers": [
+      "thermal",
+      "thermal decomposition"
+    ],
+    "explanation": "When decomposition is driven by heating (e.g. 2FeSO₄ -> Fe₂O₃ + SO₂ + SO₃), it is classified as thermal decomposition.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-034",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In the Modern Periodic Table, horizontal rows of chemical elements are designated as _____.",
+    "answer": "periods",
+    "acceptedAnswers": [
+      "periods",
+      "period"
+    ],
+    "explanation": "The Modern Periodic Table contains 7 horizontal rows called periods and 18 vertical columns called groups.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-035",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each organic functional group class with its characteristic structural formula:",
+    "pairs": [
+      [
+        "Alcohol",
+        "-OH (hydroxyl group)"
+      ],
+      [
+        "Aldehyde",
+        "-CHO (formyl group)"
+      ],
+      [
+        "Ketone",
+        "-CO- (carbonyl group)"
+      ],
+      [
+        "Carboxylic Acid",
+        "-COOH (carboxyl group)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Alcohols contain -OH, aldehydes contain terminal -CHO, ketones have internal carbonyl -CO-, and carboxylic acids have terminal -COOH.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-036",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "What mass of magnesium oxide [MgO] in grams is produced when 12.0 g of magnesium ribbon is burned completely in excess oxygen? (Atomic masses: Mg = 24 u, O = 16 u).",
+    "answer": 20,
+    "tolerance": 0.2,
+    "unit": "g",
+    "explanation": "Reaction: 2Mg + O₂ -> 2MgO. Moles of Mg = 12.0 / 24 = 0.50 mol. 0.50 mol of Mg yields 0.50 mol of MgO. Molar mass of MgO = 24 + 16 = 40 g/mol. Mass of MgO produced = 0.50 mol × 40 g/mol = 20.0 g.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-037",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Calculate the pH value of a 0.001 M (1.0 × 10⁻³ mol/L) aqueous solution of strong hydrochloric acid [HCl] at 25 °C.",
+    "answer": 3,
+    "tolerance": 0.1,
+    "unit": "pH",
+    "explanation": "HCl is a strong monoprotic acid that dissociates completely: HCl -> H⁺ + Cl⁻. Therefore, [H⁺] = 0.001 M = 10⁻³ M. pH = -log₁₀[H⁺] = -log₁₀(10⁻³) = 3.0.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-038",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "When 6.5 g of pure zinc granules reacts completely with excess dilute sulfuric acid according to Zn + H₂SO₄ -> ZnSO₄ + H₂, what volume of dry hydrogen gas (in litres) is evolved at STP? (Atomic mass: Zn = 65 u; Molar volume of ideal gas at STP = 22.4 L).",
+    "answer": 2.24,
+    "tolerance": 0.05,
+    "unit": "L",
+    "explanation": "Moles of Zn reacted = 6.5 g / 65 g/mol = 0.10 mol. Stoichiometry: 1 mol Zn produces 1 mol H₂. Therefore, 0.10 mol of H₂ is evolved. Volume of H₂ at STP = 0.10 mol × 22.4 L/mol = 2.24 L.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-039",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the molecular mass (in unified atomic mass units, u) of ethanol [C₂H₅OH]. (Atomic masses: C = 12 u, H = 1 u, O = 16 u).",
+    "answer": 46,
+    "tolerance": 0.2,
+    "unit": "u",
+    "explanation": "Molecular formula of ethanol is C₂H₆O. Molecular mass = (2 × 12) + (6 × 1) + 16 = 24 + 6 + 16 = 46 u.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-040",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram displays the Lewis electron-dot structure of a methane [CH₄] molecule. Exactly how many electron pairs are shared between the central carbon atom and surrounding hydrogen atoms?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" width=\"100%\" height=\"200\"><rect width=\"360\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><circle cx=\"180\" cy=\"110\" r=\"32\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"2\"/><text x=\"173\" y=\"117\" font-size=\"20\" font-weight=\"bold\" fill=\"#9a3412\">C</text><circle cx=\"180\" cy=\"35\" r=\"20\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"174\" y=\"42\" font-size=\"16\" font-weight=\"bold\" fill=\"#1e40af\">H</text><circle cx=\"180\" cy=\"185\" r=\"20\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"174\" y=\"192\" font-size=\"16\" font-weight=\"bold\" fill=\"#1e40af\">H</text><circle cx=\"95\" cy=\"110\" r=\"20\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"89\" y=\"117\" font-size=\"16\" font-weight=\"bold\" fill=\"#1e40af\">H</text><circle cx=\"265\" cy=\"110\" r=\"20\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"259\" y=\"117\" font-size=\"16\" font-weight=\"bold\" fill=\"#1e40af\">H</text><circle cx=\"180\" cy=\"68\" r=\"4\" fill=\"#0f172a\"/><circle cx=\"180\" cy=\"78\" r=\"4\" fill=\"#0f172a\"/><circle cx=\"180\" cy=\"142\" r=\"4\" fill=\"#0f172a\"/><circle cx=\"180\" cy=\"152\" r=\"4\" fill=\"#0f172a\"/><circle cx=\"138\" cy=\"110\" r=\"4\" fill=\"#0f172a\"/><circle cx=\"148\" cy=\"110\" r=\"4\" fill=\"#0f172a\"/><circle cx=\"212\" cy=\"110\" r=\"4\" fill=\"#0f172a\"/><circle cx=\"222\" cy=\"110\" r=\"4\" fill=\"#0f172a\"/></svg>"
+    },
+    "options": [
+      "4 shared pairs (8 valence electrons)",
+      "2 shared pairs",
+      "6 shared pairs",
+      "1 shared pair"
+    ],
+    "answer": 0,
+    "explanation": "Carbon has 4 valence electrons and shares 1 electron with each of four hydrogen atoms, forming 4 single covalent bonds (4 shared electron pairs), thereby completing its stable electronic octet.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-041",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the illustrated color-coded pH spectrum from 0 to 14, which designated zone corresponds to strongly basic (alkaline) solutions such as 1 M aqueous sodium hydroxide?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 160\" width=\"100%\" height=\"140\"><rect width=\"400\" height=\"160\" fill=\"#f8fafc\" rx=\"8\"/><rect x=\"40\" y=\"40\" width=\"75\" height=\"50\" fill=\"#ef4444\" rx=\"4\"/><text x=\"60\" y=\"70\" font-size=\"14\" font-weight=\"bold\" fill=\"white\">0 - 3</text><text x=\"55\" y=\"115\" font-size=\"11\" font-weight=\"bold\" fill=\"#b91c1c\">Zone A (Acidic)</text><rect x=\"120\" y=\"40\" width=\"75\" height=\"50\" fill=\"#f59e0b\" rx=\"4\"/><text x=\"140\" y=\"70\" font-size=\"14\" font-weight=\"bold\" fill=\"white\">4 - 6</text><text x=\"135\" y=\"115\" font-size=\"11\" font-weight=\"bold\" fill=\"#b45309\">Zone B (Weak)</text><rect x=\"200\" y=\"40\" width=\"75\" height=\"50\" fill=\"#10b981\" rx=\"4\"/><text x=\"230\" y=\"70\" font-size=\"14\" font-weight=\"bold\" fill=\"white\">7</text><text x=\"210\" y=\"115\" font-size=\"11\" font-weight=\"bold\" fill=\"#047857\">Zone C (Neutral)</text><rect x=\"280\" y=\"40\" width=\"85\" height=\"50\" fill=\"#7c3aed\" rx=\"4\"/><text x=\"300\" y=\"70\" font-size=\"14\" font-weight=\"bold\" fill=\"white\">11 - 14</text><text x=\"290\" y=\"115\" font-size=\"11\" font-weight=\"bold\" fill=\"#5b21b6\">Zone D (Strong Base)</text></svg>"
+    },
+    "options": [
+      "Zone A (pH 0-3)",
+      "Zone B (pH 4-6)",
+      "Zone C (pH 7)",
+      "Zone D (pH 11-14)"
+    ],
+    "answer": 3,
+    "explanation": "On the pH scale, values from 11 to 14 represent strong bases (high OH⁻ concentration), such as 1 M NaOH (pH ≈ 14). Neutral is pH 7, and strong acids lie in pH 0-3.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-042",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Why is metallic sodium stored immersed under kerosene oil in school and research laboratories?",
+    "sampleAnswer": "Sodium is an alkali metal of extreme chemical reactivity that reacts violently and exothermically with atmospheric oxygen and water vapor at room temperature, catching fire and releasing combustible hydrogen gas. Keeping it submerged under kerosene isolates it from air and moisture.",
+    "acceptedAnswers": [
+      "Sodium reacts violently with atmospheric oxygen and moisture; storing under kerosene prevents fire.",
+      "Kerosene isolates sodium from air and moisture, preventing spontaneous combustion."
+    ],
+    "keywords": [
+      "extreme reactivity",
+      "oxygen",
+      "moisture",
+      "catches fire"
+    ],
+    "explanation": "Sodium readily oxidizes in air to form Na₂O and Na₂O₂, and reacts vigorously with moisture: 2Na + 2H₂O -> 2NaOH + H₂ + Heat. The heat generated ignites the hydrogen gas. Kerosene shields it completely from air and water.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-043",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why does dry hydrogen chloride [HCl] gas fail to turn dry blue litmus paper red, whereas aqueous hydrochloric acid rapidly turns blue litmus red?",
+    "sampleAnswer": "Dry HCl gas does not dissociate into free hydrogen/hydronium ions (H⁺/H₃O⁺) in the total absence of water. Acidic properties are manifested solely in aqueous media where polar water molecules facilitate the ionization of HCl into H₃O⁺(aq) and Cl⁻(aq).",
+    "acceptedAnswers": [
+      "Dry HCl gas does not produce H+ ions without water; ionization occurs only in aqueous solution.",
+      "In the absence of water HCl does not ionize into H+ ions; acids show acidic properties only in water."
+    ],
+    "keywords": [
+      "absence of water",
+      "hydrogen ions",
+      "ionization",
+      "aqueous"
+    ],
+    "explanation": "Acids exhibit acidic characteristics only due to the presence of hydronium ions (H₃O⁺). Without water, HCl molecules remain covalent and un-ionized, unable to trigger indicator protonation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-044",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): The atomic radius of main-group elements decreases systematically across a period from left to right in the Modern Periodic Table.\nReason (R): Moving from left to right across a period, valence electrons enter the same principal electron shell while the positive nuclear charge increases, pulling valence electrons closer to the nucleus.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Across a period, nuclear charge (number of protons) increases progressively with each atomic number step, while electrons are added to the same principal shell. This heightened effective nuclear charge draws the electron cloud inward, shrinking atomic radius.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-045",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): In the preparation of ethyl ethanoate, ethanol and ethanoic acid are heated in the presence of a few drops of concentrated sulfuric acid.\nReason (R): Concentrated sulfuric acid acts simultaneously as an acid catalyst and a potent dehydrating agent that removes the byproduct water, driving the esterification equilibrium forward.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Esterification: CH₃COOH + C₂H₅OH ⇌ CH₃COOC₂H₅ + H₂O. Concentrated H₂SO₄ protonates the carboxylic acid to catalyze the reaction and absorbs product water, shifting the equilibrium toward ester formation by Le Chatelier's principle.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-046",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following macroscopic observations definitively indicate that a chemical reaction has taken place?",
+    "options": [
+      "Evolution of a gaseous product (effervescence)",
+      "Measurable change in thermal temperature (exothermic or endothermic heat exchange)",
+      "Formation of an insoluble solid precipitate",
+      "Reversible physical phase change like melting of ice into liquid water"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Chemical reactions involve breaking and making chemical bonds, typically evidenced by gas evolution, temperature shifts, color alterations, or precipitate formation. Melting of ice is an entirely physical, reversible phase change.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-047",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following non-metals are well-known exceptions to standard general physical properties of non-metallic elements?",
+    "options": [
+      "Bromine (the sole non-metallic element existing in liquid state at standard room temperature)",
+      "Iodine (a lustrous, shiny crystalline non-metal)",
+      "Carbon in the allotropic form of graphite (an electrical conductor)",
+      "Nitrogen (a diatomic gas that supports life)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Non-metals are generally non-lustrous, poor conductors, and solids/gases. Notable exceptions: Bromine is the only liquid non-metal; Iodine exhibits metallic-like lustrous sheen; Graphite has delocalized electrons that conduct electricity.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-048",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Select all correct scientific statements comparing soaps with synthetic detergents:",
+    "options": [
+      "Soaps are sodium or potassium salts of long-chain fatty acids (e.g. sodium stearate)",
+      "Soaps react with Ca²⁺ and Mg²⁺ ions in hard water to form an insoluble sticky precipitate (scum)",
+      "Synthetic detergents are sodium salts of sulphonic acids and remain effective cleansing agents in hard water",
+      "In a soap micelle, hydrophobic ionic carboxylate heads point outward into the surrounding water"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Statements 0, 1, and 2 are accurate. Statement 3 is false because the hydrophilic ionic heads (not hydrophobic) face outward into the water, while hydrophobic hydrocarbon tails orient inward toward oily dirt.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-049",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential electrochemical and chemical steps involved in the atmospheric corrosion (rusting) of metallic iron:",
+    "orderedItems": [
+      "The clean metallic iron surface is exposed to atmospheric oxygen and airborne moisture.",
+      "Iron atoms at anodic surface micro-regions undergo oxidation to ferrous ions: Fe -> Fe²⁺ + 2e⁻.",
+      "Electrons migrate to cathodic sites where dissolved oxygen and water reduce to hydroxide ions.",
+      "Ferrous ions diffuse and are oxidatively converted by dissolved oxygen into ferric ions.",
+      "Hydrated iron(III) oxide [Fe₂O₃·xH₂O], known as red-brown rust, deposits on the surface."
+    ],
+    "answer": "ordered",
+    "explanation": "Electrochemical mechanism of rusting: Exposure -> Anodic oxidation of Fe to Fe²⁺ -> Cathodic oxygen reduction -> Further oxidation to Fe³⁺ -> Deposition of insoluble hydrated ferric oxide rust.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-050",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following representative Period 3 elements in order of increasing first ionization enthalpy (from lowest energy to remove a valence electron to highest energy):",
+    "orderedItems": [
+      "Sodium (Na, Group 1)",
+      "Magnesium (Mg, Group 2)",
+      "Silicon (Si, Group 14)",
+      "Phosphorus (P, Group 15)",
+      "Chlorine (Cl, Group 17)"
+    ],
+    "answer": "ordered",
+    "explanation": "Across Period 3 from left to right, effective nuclear charge increases and atomic radius contracts, resulting in progressively higher ionization enthalpy: Na (496 kJ/mol) < Mg (737 kJ/mol) < Si (786 kJ/mol) < P (1012 kJ/mol) < Cl (1251 kJ/mol).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-051",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In the redox chemical reaction CuO(s) + H₂(g) -> Cu(s) + H₂O(l), which reactant functions as the oxidizing agent?",
+    "options": [
+      "Copper(II) oxide [CuO]",
+      "Hydrogen gas [H₂]",
+      "Copper metal [Cu]",
+      "Water [H₂O]"
+    ],
+    "answer": 0,
+    "explanation": "An oxidizing agent supplies oxygen or undergoes reduction. Copper(II) oxide (CuO) gives up oxygen to hydrogen and is reduced to metallic copper; hence CuO is the oxidizing agent.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-052",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "When small freshly cut pellets of sodium metal are dropped into pure absolute ethanol [C₂H₅OH], vigorous effervescence is observed owing to the rapid evolution of which gas?",
+    "options": [
+      "Hydrogen gas [H₂]",
+      "Carbon dioxide gas [CO₂]",
+      "Oxygen gas [O₂]",
+      "Methane gas [CH₄]"
+    ],
+    "answer": 0,
+    "explanation": "Active alkali metals react with alcohols by displacing hydrogen from the hydroxyl group: 2C₂H₅OH + 2Na -> 2C₂H₅ONa (sodium ethoxide) + H₂↑.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-053",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which English physicist experimentally discovered in 1913 using X-ray characteristic emission spectra that atomic number is a more fundamental property of an element than its atomic mass?",
+    "options": [
+      "Henry Moseley",
+      "Dmitri Mendeleev",
+      "John Newlands",
+      "J.J. Thomson"
+    ],
+    "answer": 0,
+    "explanation": "Henry Moseley established that the frequency of characteristic X-rays emitted by elements was proportional to the square of their atomic numbers (√ν ∝ Z), providing the bedrock for the Modern Periodic Law.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-054",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "An aqueous solution of copper(II) sulphate [CuSO₄] tests acidic to litmus paper (turning blue litmus red). This behavior occurs because CuSO₄ is a salt derived from:",
+    "options": [
+      "A strong acid [H₂SO₄] and a weak base [Cu(OH)₂]",
+      "A weak acid and a strong base",
+      "A strong acid and a strong base",
+      "A weak acid and a weak base"
+    ],
+    "answer": 0,
+    "explanation": "CuSO₄ is formed from strong sulfuric acid (H₂SO₄) and weak cupric hydroxide [Cu(OH)₂]. In water, Cu²⁺ cation undergoes cationic hydrolysis: Cu²⁺ + 2H₂O ⇌ Cu(OH)₂ + 2H⁺, generating excess H⁺ ions and making the solution acidic (pH < 7).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-055",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Cinnabar is a commercially significant natural red sulfide ore from which which heavy metal is pyrometallurgically extracted?",
+    "options": [
+      "Mercury [HgS]",
+      "Lead [PbS]",
+      "Copper [Cu₂S]",
+      "Iron [FeS₂]"
+    ],
+    "answer": 0,
+    "explanation": "Cinnabar is mercuric sulfide (HgS). When roasted in air, it converts to mercuric oxide (2HgS + 3O₂ -> 2HgO + 2SO₂), which spontaneously decomposes at high temperatures into metallic mercury (2HgO -> 2Hg + O₂).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-056",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Human tooth enamel, composed of crystalline calcium hydroxyapatite, begins to undergo chemical demineralization and decay when the oral pH drops below 5.5.",
+    "answer": true,
+    "explanation": "Salivary bacteria ferment dietary sugars to produce organic acids. When oral pH falls below 5.5, the insoluble calcium phosphate hydroxyapatite dissolves into acidic saliva, initiating dental caries.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-057",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Galvanisation protects iron structural columns from corrosion by electroplating them with a continuous protective film of molten tin metal.",
+    "answer": false,
+    "explanation": "Galvanisation is the metallurgical process of coating iron or steel with a thin sacrificial protective layer of zinc (Zn), not tin. Zinc acts as a sacrificial anode because it is more electropositive than iron.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-058",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The unique structural property of carbon atoms to form strong covalent bonds with other carbon atoms to yield extended linear chains, branched skeletons, and closed rings is called _____.",
+    "answer": "catenation",
+    "acceptedAnswers": [
+      "catenation"
+    ],
+    "explanation": "Catenation is the self-bonding capability of carbon due to its small atomic size and unusually high carbon-carbon single bond strength (approx 348 kJ/mol).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-059",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The spoilage of food items containing unsaturated edible oils and animal fats, marked by unpleasant rancid odor and taste, is fundamentally caused by slow aerial _____ over storage time.",
+    "answer": "oxidation",
+    "acceptedAnswers": [
+      "oxidation",
+      "aerial oxidation"
+    ],
+    "explanation": "Rancidity is the oxidative degradation of fats and oils by aerial oxygen, forming foul-smelling peroxides, aldehydes, and volatile fatty acids.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-060",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each chemical element with its designated family group in the Modern Periodic Table:",
+    "pairs": [
+      [
+        "Magnesium (Mg, atomic number 12)",
+        "Alkaline Earth Metal (Group 2)"
+      ],
+      [
+        "Argon (Ar, atomic number 18)",
+        "Noble Gas (Group 18)"
+      ],
+      [
+        "Potassium (K, atomic number 19)",
+        "Alkali Metal (Group 1)"
+      ],
+      [
+        "Fluorine (F, atomic number 9)",
+        "Halogen (Group 17)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Mg is in Group 2 (alkaline earth), Ar is in Group 18 (noble gas), K is in Group 1 (alkali metal), and F is in Group 17 (halogen).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-061",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each general metallurgical extraction route with the corresponding reactivity category of metals:",
+    "pairs": [
+      [
+        "Electrolytic reduction of molten halides or oxides",
+        "Highly reactive metals (K, Na, Ca, Mg, Al)"
+      ],
+      [
+        "Reduction of roasted oxide ore using carbon (coke)",
+        "Moderately reactive metals (Zn, Fe, Pb)"
+      ],
+      [
+        "Roasting sulfide ore followed by thermal self-reduction",
+        "Low reactivity metals (Cu, Hg)"
+      ],
+      [
+        "Physical placer separation from native deposits",
+        "Least reactive noble metals (Au, Pt)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Top reactivity metals require electrolysis; middle metals are reduced with carbon/coke; lower metals are reduced by heat alone; noble metals occur free.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-062",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In the exothermic thermite welding process: Fe₂O₃(s) + 2Al(s) -> Al₂O₃(s) + 2Fe(l). What mass of aluminium powder (in grams) is stoichiometrically required to react completely with 80.0 g of haematite [Fe₂O₃]? (Atomic masses: Fe = 56 u, O = 16 u, Al = 27 u).",
+    "answer": 27,
+    "tolerance": 0.2,
+    "unit": "g",
+    "explanation": "Molar mass of Fe₂O₃ = 2(56) + 3(16) = 160 g/mol. Moles of Fe₂O₃ = 80.0 / 160 = 0.50 mol. Stoichiometric ratio: 1 mol Fe₂O₃ requires 2 mol Al. Therefore, 0.50 mol Fe₂O₃ requires 1.0 mol Al. Molar mass of Al = 27 g/mol. Mass of Al = 1.0 mol × 27 g/mol = 27.0 g.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-063",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "An aliphatic hydrocarbon has an empirical formula of CH₂. If its experimental molar mass determined by vapor density is 56 g/mol, calculate the exact number of carbon atoms present in one molecule of this hydrocarbon. (Atomic masses: C = 12 u, H = 1 u).",
+    "answer": 4,
+    "tolerance": 0.1,
+    "unit": "atoms",
+    "explanation": "Empirical formula mass of CH₂ = 12 + 2(1) = 14 g/mol. Molecular mass = 56 g/mol. Ratio n = Molecular mass / Empirical mass = 56 / 14 = 4. The molecular formula is (CH₂)₄ = C₄H₈. Hence, there are 4 carbon atoms per molecule.",
+    "marks": 3,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-064",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A clear aqueous solution of potassium hydroxide [KOH] has a hydroxide ion concentration [OH⁻] = 1.0 × 10⁻⁴ mol/L at 25 °C. Given that the ionic product of water K_w = 1.0 × 10⁻¹⁴, calculate the pH value of this solution.",
+    "answer": 10,
+    "tolerance": 0.1,
+    "unit": "pH",
+    "explanation": "pOH = -log₁₀[OH⁻] = -log₁₀(10⁻⁴) = 4.0. Using the relation pH + pOH = 14 at 25 °C: pH = 14 - pOH = 14 - 4 = 10.0.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-065",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "An ornamental gold jewelry piece is certified as 18 carat gold (meaning 18 parts by mass out of 24 parts is pure elemental gold). What is the percentage of pure gold in this alloy?",
+    "answer": 75,
+    "tolerance": 0.5,
+    "unit": "%",
+    "explanation": "Pure 24 carat gold is 100% gold. For 18 carat gold: Percentage of pure gold = (18 / 24) × 100% = 0.75 × 100% = 75.0%.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-066",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the electrolytic cell used for industrial electro-refining of crude blister copper. What substance collects as insoluble residue settled directly beneath the anode?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 240\" width=\"100%\" height=\"200\"><rect width=\"400\" height=\"240\" fill=\"#f8fafc\" rx=\"8\"/><rect x=\"60\" y=\"80\" width=\"280\" height=\"130\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2\" rx=\"6\"/><text x=\"70\" y=\"105\" font-size=\"12\" font-weight=\"bold\" fill=\"#1e40af\">Acidified CuSO4 Solution</text><rect x=\"110\" y=\"40\" width=\"25\" height=\"140\" fill=\"#b45309\" stroke=\"#78350f\" stroke-width=\"2\"/><text x=\"95\" y=\"30\" font-size=\"11\" font-weight=\"bold\" fill=\"#78350f\">Anode (Impure Cu)</text><rect x=\"265\" y=\"40\" width=\"12\" height=\"140\" fill=\"#ea580c\" stroke=\"#9a3412\" stroke-width=\"2\"/><text x=\"245\" y=\"30\" font-size=\"11\" font-weight=\"bold\" fill=\"#9a3412\">Cathode (Pure Cu)</text><line x1=\"122\" y1=\"40\" x2=\"122\" y2=\"15\" stroke=\"#0f172a\" stroke-width=\"2\"/><line x1=\"122\" y1=\"15\" x2=\"170\" y2=\"15\" stroke=\"#0f172a\" stroke-width=\"2\"/><line x1=\"271\" y1=\"40\" x2=\"271\" y2=\"15\" stroke=\"#0f172a\" stroke-width=\"2\"/><line x1=\"271\" y1=\"15\" x2=\"230\" y2=\"15\" stroke=\"#0f172a\" stroke-width=\"2\"/><rect x=\"170\" y=\"5\" width=\"60\" height=\"20\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"1.5\"/><text x=\"180\" y=\"20\" font-size=\"11\" font-weight=\"bold\" fill=\"#9a3412\">DC Source</text><path d=\"M 95,195 Q 122,185 145,195 Z\" fill=\"#475569\" stroke=\"#1e293b\" stroke-width=\"1\"/><circle cx=\"122\" cy=\"195\" r=\"10\" fill=\"#ef4444\"/><text x=\"118\" y=\"199\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">M</text><text x=\"145\" y=\"205\" font-size=\"11\" font-weight=\"bold\" fill=\"#0f172a\">Settled Residue</text></svg>"
+    },
+    "options": [
+      "Anode mud (containing precious unoxidized metals Ag, Au, Pt)",
+      "Cathode sponge",
+      "Molten furnace slag",
+      "Hydrated copper sulphate sediment"
+    ],
+    "answer": 0,
+    "explanation": "During electro-refining of copper, less electropositive impurities like silver, gold, and platinum do not dissolve in the electrolyte and settle below the impure anode as insoluble 'anode mud'.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-067",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the illustrated single displacement experiment, clean iron nails are left immersed in bright blue copper(II) sulphate solution. What chemical product causes the solution to turn light green over time?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 220\" width=\"100%\" height=\"200\"><rect width=\"380\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><rect x=\"140\" y=\"30\" width=\"60\" height=\"160\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"2\" rx=\"8\"/><text x=\"70\" y=\"110\" font-size=\"12\" font-weight=\"bold\" fill=\"#047857\">Pale Green Solution</text><line x1=\"160\" y1=\"50\" x2=\"160\" y2=\"160\" stroke=\"#b45309\" stroke-width=\"4\" stroke-linecap=\"round\"/><line x1=\"175\" y1=\"70\" x2=\"175\" y2=\"170\" stroke=\"#b45309\" stroke-width=\"4\" stroke-linecap=\"round\"/><text x=\"210\" y=\"110\" font-size=\"11\" font-weight=\"bold\" fill=\"#b45309\">Coated Iron Nails</text><circle cx=\"170\" cy=\"130\" r=\"12\" fill=\"#10b981\"/><text x=\"166\" y=\"134\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">P</text></svg>"
+    },
+    "options": [
+      "Ferrous sulphate [FeSO₄(aq)]",
+      "Copper hydroxide [Cu(OH)₂]",
+      "Sulfur trioxide [SO₃]",
+      "Ferric chloride [FeCl₃]"
+    ],
+    "answer": 0,
+    "explanation": "Iron is more reactive than copper and displaces it from CuSO₄: Fe(s) + CuSO₄(aq) [blue] -> FeSO₄(aq) [light green] + Cu(s) [reddish brown]. The green color is due to Fe²⁺ ions in aqueous ferrous sulphate.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-068",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What is the saponification reaction in organic chemistry? Give its general word or chemical reaction scheme.",
+    "sampleAnswer": "Saponification is the alkaline hydrolysis of an ester (animal fat or vegetable oil) with aqueous sodium hydroxide (or potassium hydroxide) to yield sodium salt of carboxylic fatty acid (soap) and glycerol (alcohol): Ester + NaOH -> Soap (Sodium salt of fatty acid) + Glycerol.",
+    "acceptedAnswers": [
+      "Alkaline hydrolysis of fats/oils using sodium hydroxide producing soap and glycerol.",
+      "Hydrolysis of an ester with alkali yielding sodium salt of carboxylic acid (soap) and alcohol."
+    ],
+    "keywords": [
+      "alkaline hydrolysis",
+      "ester",
+      "soap",
+      "glycerol"
+    ],
+    "explanation": "When esters are boiled with caustic soda (NaOH), they hydrolyze: CH₃COOC₂H₅ + NaOH -> CH₃COONa + C₂H₅OH. In soap manufacture, glyceryl esters of fatty acids yield soap and glycerol.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-069",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Why are noble gases placed in a separate dedicated group (Group 18) at the extreme right of the Modern Periodic Table?",
+    "sampleAnswer": "Noble gases possess completely filled valence electron shells (an octet of 8 electrons, or a duplet of 2 for helium), making them extremely stable and chemically inert with zero valency. Because they share identical unreactive electronic properties and do not fit into reactive groups, they are gathered in a distinct group.",
+    "acceptedAnswers": [
+      "They have completely filled outermost shells and zero valency, making them chemically inert.",
+      "Completely filled valence octet renders them inert; hence grouped together in Group 18."
+    ],
+    "keywords": [
+      "completely filled",
+      "valence shell",
+      "inert",
+      "zero valency"
+    ],
+    "explanation": "All Group 18 elements (He, Ne, Ar, Kr, Xe, Rn) have stable ns² np⁶ valence configurations (1s² for He). Their chemical inertness and zero valency warrant placement in a distinct separate column.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-070",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): When diluting concentrated sulfuric acid with water, one must always add the acid slowly into water with continuous stirring, never water into acid.\nReason (R): The dissolution of concentrated sulfuric acid in water is an intensely exothermic reaction; pouring water into concentrated acid causes localized steam boiling and violent corrosive acid splashing.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Because dilution is highly exothermic, adding concentrated acid slowly to a large heat capacity of water with stirring absorbs the heat safely. Adding water into acid causes instantaneous boiling and dangerous acid splatter.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-071",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Non-metallic electronegative character increases progressively across a period from left to right in the Modern Periodic Table.\nReason (R): Across a period, increasing effective nuclear charge and contracting atomic radius enhance the atomic core's electrostatic attraction for incoming valence electrons.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Non-metallic character is the tendency to accept electrons. As effective nuclear charge increases and atomic radius contracts across a period, electrons are pulled more strongly, elevating electronegativity and non-metallic character.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-072",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following natural extracts and synthetic formulations function reliably as acid-base indicators?",
+    "options": [
+      "Litmus solution extracted naturally from lichen plants",
+      "Synthetic phenolphthalein indicator solution",
+      "Natural red cabbage leaf juice extract",
+      "Pure aqueous sodium chloride solution"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Litmus, phenolphthalein, and red cabbage extract undergo clear color shifts depending on hydronium ion concentration, making them indicators. Sodium chloride is a neutral salt with no dye properties.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-073",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following allotropic modifications of pure carbon are crystalline solids with geometrically ordered lattices?",
+    "options": [
+      "Diamond (tetrahedral sp³ network)",
+      "Graphite (hexagonal layered sp² sheets)",
+      "Buckminsterfullerene [C₆₀] (truncated icosahedron cage)",
+      "Activated wood charcoal"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Diamond, graphite, and fullerenes (C₆₀) are well-characterized crystalline allotropes of carbon with precise covalent architectures. Charcoal, lampblack, and coke are microcrystalline/amorphous forms.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-074",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following straight-chain homologous alkanes in order of increasing normal boiling point (from lowest boiling point to highest boiling point):",
+    "orderedItems": [
+      "Methane [CH₄, boiling point -161 °C]",
+      "Ethane [C₂H₆, boiling point -89 °C]",
+      "Propane [C₃H₈, boiling point -42 °C]",
+      "Butane [C₄H₁₀, boiling point -0.5 °C]",
+      "Pentane [C₅H₁₂, boiling point 36 °C]"
+    ],
+    "answer": "ordered",
+    "explanation": "As carbon chain length and molecular mass increase, molecular surface area expands, leading to stronger intermolecular London dispersion forces and higher boiling points: CH₄ < C₂H₆ < C₃H₈ < C₄H₁₀ < C₅H₁₂.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-075",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the sequential industrial metallurgical operations involved in the commercial extraction of metallic zinc from zinc blende ore [ZnS]:",
+    "orderedItems": [
+      "Crushing, pulverizing, and concentration of zinc blende ore via froth floatation.",
+      "Roasting concentrated sulfide ore in excess air: 2ZnS + 3O₂ -> 2ZnO + 2SO₂.",
+      "Reduction of zinc oxide using coke (carbon) in a vertical retort: ZnO + C -> Zn + CO.",
+      "Condensation of hot zinc vapor into molten liquid and cast crude spelter.",
+      "Electrolytic refining of crude spelter to achieve 99.99% pure zinc."
+    ],
+    "answer": "ordered",
+    "explanation": "Zinc extraction sequence: Concentration (froth floatation) -> Roasting to oxide -> Carbon reduction -> Vapor condensation -> Electrolytic refining.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-076",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the chemical formula of baking soda used commonly in households for cooking and baking?",
+    "options": [
+      "NaHCO₃",
+      "Na₂CO₃·10H₂O",
+      "NaCl",
+      "NaOH"
+    ],
+    "answer": 0,
+    "explanation": "Baking soda is sodium hydrogen carbonate (sodium bicarbonate), NaHCO₃.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-077",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In the thermal decomposition reaction 2Pb(NO₃)₂(s) -> 2PbO(s) + 4NO₂(g) + O₂(g), what is the characteristic visible appearance of the nitrogen dioxide [NO₂] gas evolved?",
+    "options": [
+      "Pungent reddish-brown gaseous fumes",
+      "Colorless and odorless gas",
+      "Dense white choking smoke",
+      "Greenish-yellow suffocating gas"
+    ],
+    "answer": 0,
+    "explanation": "Heating crystalline lead nitrate produces reddish-brown gaseous fumes of nitrogen dioxide (NO₂), along with a yellow solid residue of lead(II) oxide (PbO) and colorless oxygen gas.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-078",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which non-metallic element allotrope constitutes the hardest naturally occurring solid substance known on Earth?",
+    "options": [
+      "Diamond (allotropic form of carbon)",
+      "Silicon",
+      "Boron",
+      "Graphite"
+    ],
+    "answer": 0,
+    "explanation": "Diamond is an allotrope of carbon in which each carbon atom is covalently bonded to four other carbon atoms in a rigid three-dimensional tetrahedral lattice, giving it extreme hardness.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-079",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Vinegar used widely in culinary preservation and cooking is an aqueous solution containing what standard concentration of ethanoic (acetic) acid in water?",
+    "options": [
+      "5% to 8%",
+      "15% to 20%",
+      "40% to 50%",
+      "95% to 98%"
+    ],
+    "answer": 0,
+    "explanation": "Commercial vinegar is a 5% to 8% aqueous solution of ethanoic acid (acetic acid) in water.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-080",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Johann Wolfgang Döbereiner's historic triad containing Lithium (atomic mass 7) and Potassium (atomic mass 39), what was the calculated theoretical atomic mass of the intermediate alkali metal Sodium?",
+    "options": [
+      "23",
+      "32",
+      "46",
+      "28"
+    ],
+    "answer": 0,
+    "explanation": "Döbereiner showed that the atomic mass of the middle element is approximately the arithmetic mean of the atomic masses of the first and third elements: (7 + 39) / 2 = 46 / 2 = 23.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-081",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "When ethanoic acid reacts with sodium carbonate [Na₂CO₃], effervescence occurs releasing a gas that turns lime water milky. Which gas is liberated?",
+    "options": [
+      "Carbon dioxide [CO₂]",
+      "Hydrogen [H₂]",
+      "Sulfur dioxide [SO₂]",
+      "Carbon monoxide [CO]"
+    ],
+    "answer": 0,
+    "explanation": "2CH₃COOH + Na₂CO₃ -> 2CH₃COONa + H₂O + CO₂↑. Carbon dioxide gas reacts with lime water to precipitate insoluble CaCO₃, turning it milky.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-082",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Non-metallic oxides such as carbon dioxide [CO₂] and sulfur dioxide [SO₂] are acidic in nature and dissolve in water to produce acidic solutions that turn blue litmus red.",
+    "answer": true,
+    "explanation": "Most non-metal oxides are acidic: CO₂ + H₂O -> H₂CO₃ (carbonic acid) and SO₂ + H₂O -> H₂SO₃ (sulfurous acid). They neutralize bases and turn blue litmus paper red.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-083",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In a single chemical displacement reaction, an element of higher chemical reactivity displaces a less reactive element from its aqueous salt solution.",
+    "answer": true,
+    "explanation": "In a displacement reaction, a more reactive element displaces a less reactive element (e.g. Zn + CuSO₄ -> ZnSO₄ + Cu), as dictated by the electrochemical reactivity series.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-084",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The fixed number of water molecules chemically bound within one formula unit of a crystalline salt lattice is called water of _____.",
+    "answer": "crystallisation",
+    "acceptedAnswers": [
+      "crystallisation",
+      "crystallization"
+    ],
+    "explanation": "Water of crystallisation imparts geometrical crystalline shape and hydration properties to salts, such as the 5 molecules in copper sulphate crystals [CuSO₄·5H₂O].",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-085",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Unsaturated aliphatic hydrocarbons characterized by the presence of at least one carbon-carbon double bond (C=C) are collectively termed _____.",
+    "answer": "alkenes",
+    "acceptedAnswers": [
+      "alkenes",
+      "alkene"
+    ],
+    "explanation": "Alkenes are unsaturated hydrocarbons with the general formula C_n H_2n containing at least one carbon-carbon double bond.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-086",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each chemical reaction equation with its definitive reaction mechanism category:",
+    "pairs": [
+      [
+        "CaO(s) + H₂O(l) -> Ca(OH)₂(aq) + Heat",
+        "Combination & Exothermic reaction"
+      ],
+      [
+        "2AgCl(s) -[sunlight]-> 2Ag(s) + Cl₂(g)",
+        "Photochemical decomposition reaction"
+      ],
+      [
+        "Zn(s) + CuSO₄(aq) -> ZnSO₄(aq) + Cu(s)",
+        "Single displacement redox reaction"
+      ],
+      [
+        "AgNO₃(aq) + NaCl(aq) -> AgCl(s)↓ + NaNO₃(aq)",
+        "Double displacement precipitation reaction"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Slaking of lime is exothermic combination; silver chloride decomposition is photolytic; zinc displacing copper is single displacement; precipitation of AgCl is double displacement.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-087",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the formula unit mass (in unified atomic mass units, u) of pure anhydrous sodium hydroxide [NaOH]. (Atomic masses: Na = 23 u, O = 16 u, H = 1 u).",
+    "answer": 40,
+    "tolerance": 0.1,
+    "unit": "u",
+    "explanation": "Formula unit mass of NaOH = 23 (Na) + 16 (O) + 1 (H) = 40 u.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-088",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "When 4.0 g of pure hydrogen gas [H₂] reacts completely with excess oxygen gas according to 2H₂(g) + O₂(g) -> 2H₂O(l), what mass of liquid water in grams is produced? (Atomic masses: H = 1 u, O = 16 u).",
+    "answer": 36,
+    "tolerance": 0.2,
+    "unit": "g",
+    "explanation": "Molar mass of H₂ = 2 g/mol. Moles of H₂ = 4.0 / 2 = 2.0 mol. Stoichiometric ratio: 2 mol H₂ yields 2 mol H₂O. Molar mass of H₂O = 2(1) + 16 = 18 g/mol. Mass of H₂O produced = 2.0 mol × 18 g/mol = 36.0 g.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-089",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A 50.0 mL volume of 0.20 M barium hydroxide [Ba(OH)₂] aqueous solution is completely neutralized by 0.10 M nitric acid [HNO₃]. What volume of nitric acid (in mL) is stoichiometrically required?",
+    "answer": 200,
+    "tolerance": 1,
+    "unit": "mL",
+    "explanation": "Neutralization: Ba(OH)₂ + 2HNO₃ -> Ba(NO₃)₂ + 2H₂O. Moles of Ba(OH)₂ = 0.20 mol/L × 0.050 L = 0.010 mol. Because 1 mol Ba(OH)₂ requires 2 mol HNO₃, moles of HNO₃ needed = 0.020 mol. Volume of 0.10 M HNO₃ = 0.020 mol / 0.10 mol/L = 0.200 L = 200 mL.",
+    "marks": 3,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-090",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the mass percentage of elemental carbon in pure crystalline glucose [C₆H₁₂O₆]. (Atomic masses: C = 12 u, H = 1 u, O = 16 u).",
+    "answer": 40,
+    "tolerance": 0.2,
+    "unit": "%",
+    "explanation": "Molar mass of C₆H₁₂O₆ = 6(12) + 12(1) + 6(16) = 72 + 12 + 96 = 180 g/mol. Mass of carbon per mole = 72 g. Mass percentage = (72 / 180) × 100% = 40.0%.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-091",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A monumental cast bronze bell weighing 250 kg is composed of 88% copper and 12% tin by mass. How many kilograms of pure copper are contained within this bronze alloy bell?",
+    "answer": 220,
+    "tolerance": 0.5,
+    "unit": "kg",
+    "explanation": "Mass of copper = 88% of 250 kg = 0.88 × 250 kg = 220.0 kg.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-092",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the summarized schematic chart of Modern Periodic Table trends, which arrow indicates the directional vector along which atomic radius increases?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" width=\"100%\" height=\"200\"><rect width=\"400\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><rect x=\"80\" y=\"40\" width=\"240\" height=\"140\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"2\" rx=\"6\"/><text x=\"110\" y=\"110\" font-size=\"14\" font-weight=\"bold\" fill=\"#0369a1\">Periodic Table Grid</text><line x1=\"50\" y1=\"50\" x2=\"50\" y2=\"170\" stroke=\"#16a34a\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"50,185 43,168 57,168\" fill=\"#16a34a\"/><circle cx=\"50\" cy=\"110\" r=\"12\" fill=\"#10b981\"/><text x=\"46\" y=\"114\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><line x1=\"90\" y1=\"25\" x2=\"310\" y2=\"25\" stroke=\"#dc2626\" stroke-width=\"4\" stroke-linecap=\"round\"/><polygon points=\"325,25 308,18 308,32\" fill=\"#dc2626\"/><circle cx=\"200\" cy=\"25\" r=\"12\" fill=\"#ef4444\"/><text x=\"196\" y=\"29\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">B</text><line x1=\"90\" y1=\"195\" x2=\"310\" y2=\"195\" stroke=\"#2563eb\" stroke-width=\"3\"/><circle cx=\"200\" cy=\"195\" r=\"12\" fill=\"#3b82f6\"/><text x=\"196\" y=\"199\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">C</text></svg>"
+    },
+    "options": [
+      "Arrow A (Downwards along a vertical group)",
+      "Arrow B (Left-to-right along a period)",
+      "Arrow C (Right-to-left along bottom)",
+      "Diagonal vector"
+    ],
+    "answer": 0,
+    "explanation": "Atomic radius increases going down a group (Arrow A) because each successive period adds an additional principal quantum electron shell.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-093",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why must Plaster of Paris always be stored in hermetically sealed moisture-proof containers? Explain with the balanced chemical reaction.",
+    "sampleAnswer": "Plaster of Paris (calcium sulphate hemihydrate, CaSO₄·½H₂O) readily absorbs ambient atmospheric moisture and sets irreversibly into an unworkable hard crystalline mass called gypsum: CaSO₄·½H₂O + 1½H₂O -> CaSO₄·2H₂O. Storing it in moisture-proof containers prevents premature hardening.",
+    "acceptedAnswers": [
+      "Plaster of Paris absorbs moisture from air and sets into hard solid gypsum: CaSO4.0.5H2O + 1.5H2O -> CaSO4.2H2O.",
+      "It reacts with atmospheric moisture to form hard gypsum, losing its setting utility."
+    ],
+    "keywords": [
+      "absorbs moisture",
+      "sets",
+      "gypsum",
+      "hard solid"
+    ],
+    "explanation": "Contact with moisture hydrates calcium sulphate hemihydrate into dihydrate gypsum, causing the white powder to set into an intractable solid block.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-094",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What are structural isomers in organic chemistry? Name the two constitutional isomers of butane [C₄H₁₀].",
+    "sampleAnswer": "Structural isomers are organic compounds possessing identical molecular formulas but differing in the connectivity and arrangement of their constituent atoms. The two constitutional isomers of butane (C₄H₁₀) are n-butane (butane) and isobutane (2-methylpropane).",
+    "acceptedAnswers": [
+      "Compounds with the same molecular formula but different structural arrangements; butane and 2-methylpropane (isobutane).",
+      "Same formula with different structures: normal butane and 2-methylpropane."
+    ],
+    "keywords": [
+      "same molecular formula",
+      "different structures",
+      "butane",
+      "2-methylpropane"
+    ],
+    "explanation": "C₄H₁₀ exists as unbranched n-butane (CH₃-CH₂-CH₂-CH₃) and branched 2-methylpropane [CH₃-CH(CH₃)-CH₃].",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-095",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Chemical Reactions and Equations",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Commercial manufacturers of potato chips flush packaged bags with pure gaseous nitrogen.\nReason (R): Nitrogen is an unreactive inert gas that displaces atmospheric oxygen, shielding unsaturated oils in the chips from oxidative rancidity.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Fats and oils turn rancid when oxidized by air. Packaging snacks in unreactive nitrogen gas prevents aerial oxidation, extending shelf life and preserving crispness.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-096",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Hydrogen gas is generally not liberated when metals react with dilute nitric acid [HNO₃].\nReason (R): Nitric acid is a potent chemical oxidizing agent that rapidly oxidizes nascent hydrogen to water and is itself reduced to nitrogen oxides (NO₂, NO, or N₂O).",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Unlike HCl or H₂SO₄, HNO₃ is a strong oxidizing agent. Any H₂ generated is oxidized immediately to H₂O, while nitrogen is reduced to oxides like NO₂ or NO (except with very dilute HNO₃ on Mg and Mn).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-097",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Metals and Non-metals",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following metals react vigorously with cold liquid water to form their metal hydroxides and evolve hydrogen gas?",
+    "options": [
+      "Potassium [K]",
+      "Sodium [Na]",
+      "Calcium [Ca]",
+      "Iron [Fe]"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Potassium, sodium, and calcium react with cold water: K and Na react violently catching fire; Ca reacts vigorously floating on evolved H₂ bubbles. Iron reacts only with high-temperature steam.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-098",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Periodic Classification of Elements",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Identify all scientifically accurate statements regarding trends in the Modern Periodic Table:",
+    "options": [
+      "Elements belonging to the same vertical group possess identical valence electron configurations and similar chemical valencies",
+      "Metallic electropositive character increases down a group as atomic radius increases and ionization enthalpy decreases",
+      "Fluorine possesses the highest electronegativity among all elements in the periodic table",
+      "Valency increases monotonically from 1 to 8 across Period 2 from lithium to neon"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Statements 0, 1, and 2 are correct. Statement 3 is false because valency across a period increases from 1 to 4 and then drops back to 0 for noble gases.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-099",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Acids, Bases and Salts",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following aqueous solutions in order of increasing pH value at 25 °C (from strongest acid / lowest pH to strongest base / highest pH):",
+    "orderedItems": [
+      "Gastric juice (pH ≈ 1.2)",
+      "Fresh lemon juice (pH ≈ 2.2)",
+      "Pure neutral water (pH = 7.0)",
+      "Milk of magnesia suspension (pH ≈ 10.5)",
+      "1 M Sodium hydroxide solution (pH ≈ 14.0)"
+    ],
+    "answer": "ordered",
+    "explanation": "Increasing pH sequence: Gastric juice (1.2) < Lemon juice (2.2) < Pure water (7.0) < Milk of magnesia (10.5) < 1 M NaOH (14.0).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-chemistry-100",
+    "class": 10,
+    "subject": "chemistry",
+    "chapter": "Carbon and its Compounds",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following organic compounds in order of increasing number of carbon atoms per molecule (from 1 carbon to 5 carbons):",
+    "orderedItems": [
+      "Methane [CH₄, 1 carbon]",
+      "Ethene [C₂H₄, 2 carbons]",
+      "Propyne [C₃H₄, 3 carbons]",
+      "Butanoic acid [C₄H₈O₂, 4 carbons]",
+      "Pentan-1-ol [C₅H₁₁OH, 5 carbons]"
+    ],
+    "answer": "ordered",
+    "explanation": "Carbon atom counts: Methane (1) < Ethene (2) < Propyne (3) < Butanoic acid (4) < Pentan-1-ol (5).",
+    "marks": 2,
+    "volatile": false
+  }
+]

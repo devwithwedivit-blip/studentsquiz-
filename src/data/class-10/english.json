@@ -1,0 +1,1999 @@
+[
+  {
+    "id": "c10-english-001",
+    "class": 10,
+    "subject": "english",
+    "chapter": "A Letter to God",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In G.L. Fuentes' story 'A Letter to God', what did Lencho compare the falling raindrops to before the weather turned into a violent hailstorm?",
+    "options": [
+      "New coins (ten-cent and five-cent pieces)",
+      "Frozen pearls",
+      "Diamonds from heaven",
+      "Gleaming silver buttons"
+    ],
+    "answer": 0,
+    "explanation": "Lencho exclaimed that the falling drops were like new coins: the big drops were ten-cent pieces and the little ones were fives, signifying a prosperous harvest.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-002",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "On which historic date was Nelson Mandela sworn in as the first democratic Black President of South Africa at the Union Buildings in Pretoria?",
+    "options": [
+      "10 May 1994",
+      "15 August 1994",
+      "27 April 1994",
+      "1 January 1995"
+    ],
+    "answer": 0,
+    "explanation": "Nelson Mandela took oath on 10 May 1994, inaugurating South Africa's first non-racial, democratic government before leaders of over 140 nations.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-003",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Dust of Snow",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Robert Frost's poem 'Dust of Snow', what natural agent shakes down the fine particles of snow onto the poet, saving a part of his day from melancholy?",
+    "options": [
+      "A crow perched on a hemlock tree",
+      "A playful squirrel jumping across an oak bough",
+      "A gentle winter gust of wind",
+      "A robin fluttering on a pine branch"
+    ],
+    "answer": 0,
+    "explanation": "The crow shaking snow from a poisonous hemlock tree unexpectedly uplifts the poet's depressed mood, redeeming a day he had rued.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-004",
+    "class": 10,
+    "subject": "english",
+    "chapter": "A Triumph of Surgery",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In James Herriot's story 'A Triumph of Surgery', what was the genuine medical cause of Tricki the dog's bloated, listless condition?",
+    "options": [
+      "Chronic overfeeding and total lack of physical exercise by Mrs Pumphrey",
+      "A severe bacterial infection of the canine digestive tract",
+      "An incurable congenital heart defect",
+      "Acute dehydration caused by refusal of water"
+    ],
+    "answer": 0,
+    "explanation": "Mrs Pumphrey indulged Tricki with rich treats (cream cakes, chocolates, cod-liver oil) without exercise, turning him into an overweight, bloated invalid.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-005",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Tenses",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Identify the grammatically correct sentence structured in the Future Continuous tense:",
+    "options": [
+      "By this time tomorrow, the diplomatic envoy will be negotiating the treaty.",
+      "By this time tomorrow, the diplomatic envoy will negotiate the treaty.",
+      "By this time tomorrow, the diplomatic envoy will have negotiate the treaty.",
+      "By this time tomorrow, the diplomatic envoy is negotiating the treaty."
+    ],
+    "answer": 0,
+    "explanation": "Future Continuous tense follows the structure: subject + will be + present participle (-ing verb): 'will be negotiating'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-006",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Modals",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Choose the modal construction that expresses an unfulfilled past moral or procedural duty in the sentence: 'You _____ the project blueprint to the board yesterday, but you overlooked it.'",
+    "options": [
+      "should have submitted",
+      "must submit",
+      "could submit",
+      "ought to submit"
+    ],
+    "answer": 0,
+    "explanation": "'Should have + past participle' denotes a past obligation or prudent action that ought to have occurred but was not carried out.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-007",
+    "class": 10,
+    "subject": "english",
+    "chapter": "From the Diary of Anne Frank",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Why did Mr Keesing, Anne Frank's mathematics master, repeatedly assign her essays with titles like 'A Chatterbox' and 'Quack, Quack, Quack, Said Mistress Chatterbox'?",
+    "options": [
+      "As a corrective disciplinary punishment for her incessant talking in class",
+      "To encourage her talent for creative humorous prose",
+      "Because she failed her algebra assessments",
+      "As an elocution test for the school debating society"
+    ],
+    "answer": 0,
+    "explanation": "Mr Keesing was annoyed by Anne's uncontrollable talking during his lectures and assigned extra humorous essays as punishment, which Anne answered with brilliant wit.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-008",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Two Stories about Flying",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In Liam O'Flaherty's 'His First Flight', the young seagull was finally propelled into taking flight when blinded by desperate hunger for a scrap of fish held by his mother.",
+    "answer": true,
+    "explanation": "Maddened by 24 hours of intense hunger, the young seagull dived at the fish his mother hovered before him, falling into space and spreading his wings in natural flight.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-009",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Reported Speech",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In reported speech, the direct interrogative sentence 'The inspector asked him, \"Why are you shouting?\"' changes correctly to 'The inspector asked him why was he shouting.'",
+    "answer": false,
+    "explanation": "In indirect questions, the inverted auxiliary word order is replaced by assertive subject-verb word order: 'why he was shouting', not 'why was he shouting'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-010",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Thief's Story",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In Ruskin Bond's 'The Thief's Story', Anil handed Hari Singh over to the police immediately after realizing that the currency notes were still damp from midnight rain.",
+    "answer": false,
+    "explanation": "Anil knew Hari had taken and returned the money, but showed neither anger nor handed him to the police; instead, he paid him fifty rupees and offered to teach him whole sentences.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-011",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Fire and Ice",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In Robert Frost's poem 'Fire and Ice', the poet associates destructive passion with fire and associates cold, unfeeling destructive _____ with ice.",
+    "answer": "hatred",
+    "acceptedAnswers": [
+      "hatred",
+      "hate"
+    ],
+    "explanation": "Frost states that from what he has tasted of desire he holds with fire, but for destruction ice (symbolizing cold hatred, rigidity, and indifference) is also great.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-012",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Subject-Verb Agreement",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Neither the laboratory head nor the apprentice researchers _____ (was / were) present when the thermal alarm sounded.",
+    "answer": "were",
+    "acceptedAnswers": [
+      "were"
+    ],
+    "explanation": "When subjects are joined by 'neither... nor', the verb agrees in number with the nearer subject ('apprentice researchers' is plural, requiring 'were').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-013",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Determiners",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "There is _____ (few / little) doubt that renewable energy investments must expand exponentially to halt environmental degradation.",
+    "answer": "little",
+    "acceptedAnswers": [
+      "little"
+    ],
+    "explanation": "'Doubt' is an uncountable noun requiring the quantifier 'little' (meaning hardly any), whereas 'few' is used with countable plural nouns.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-014",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Midnight Visitor",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "In Robert Arthur's detective story 'The Midnight Visitor', secret agent Ausable outwits the armed intruder Max by fabricating a non-existent _____ beneath his sixth-floor hotel window.",
+    "answer": "balcony",
+    "acceptedAnswers": [
+      "balcony"
+    ],
+    "explanation": "Ausable convincingly complains about a nuisance balcony below his French window, panicking Max into leaping out of the window to his death.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-015",
+    "class": 10,
+    "subject": "english",
+    "chapter": "First Flight",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each CBSE Class 10 literary text with its corresponding author:",
+    "pairs": [
+      [
+        "A Letter to God",
+        "G.L. Fuentes"
+      ],
+      [
+        "His First Flight",
+        "Liam O'Flaherty"
+      ],
+      [
+        "Dust of Snow",
+        "Robert Frost"
+      ],
+      [
+        "A Triumph of Surgery",
+        "James Herriot"
+      ]
+    ],
+    "explanation": "Authors: G.L. Fuentes wrote 'A Letter to God'; Liam O'Flaherty wrote 'His First Flight'; Robert Frost composed 'Dust of Snow'; veterinary surgeon James Herriot penned 'A Triumph of Surgery'.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-016",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Reported Speech",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each direct speech sentence with its grammatically accurate indirect counterpart:",
+    "pairs": [
+      [
+        "Direct: 'I am drafting the report now'",
+        "Indirect: He said that he was drafting the report then"
+      ],
+      [
+        "Direct: 'Have you verified the data?'",
+        "Indirect: She asked if I had verified the data"
+      ],
+      [
+        "Direct: 'Please maintain silence in the hall'",
+        "Indirect: The librarian requested us to maintain silence in the hall"
+      ],
+      [
+        "Direct: 'Bravo! You executed the play brilliantly'",
+        "Indirect: The coach applauded them, saying that they had executed the play brilliantly"
+      ]
+    ],
+    "explanation": "Reported speech transformations: Present continuous -> Past continuous; Present perfect question -> Past perfect with if/whether; Imperative -> infinitive with request; Exclamatory -> applauded/exclaimed.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-017",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "According to official CBSE Class 10 English Language and Literature examination guidelines, what is the maximum prescribed upper word limit for an Analytical Paragraph or a Formal Letter to an Editor?",
+    "answer": 120,
+    "tolerance": 0,
+    "unit": "words",
+    "explanation": "CBSE prescribes a concise word limit of 100-120 words for both Section B formal writing tasks (Letter to Editor / Analytical Paragraph).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-018",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the standard format of an official Formal Letter to an Editor, which labelled block (D) states the core purpose of the letter in a single concise line?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" width=\"100%\" height=\"200\"><rect width=\"360\" height=\"260\" fill=\"#f8fafc\" rx=\"8\"/><rect x=\"40\" y=\"20\" width=\"120\" height=\"30\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" rx=\"4\"/><text x=\"48\" y=\"38\" font-size=\"10\" fill=\"#334155\">Sender's Address (A)</text><rect x=\"40\" y=\"58\" width=\"80\" height=\"20\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" rx=\"4\"/><text x=\"48\" y=\"72\" font-size=\"10\" fill=\"#334155\">Date (B)</text><rect x=\"40\" y=\"86\" width=\"140\" height=\"35\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" rx=\"4\"/><text x=\"48\" y=\"104\" font-size=\"10\" fill=\"#334155\">Receiver's Address (C)</text><rect x=\"40\" y=\"130\" width=\"280\" height=\"25\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"2\" rx=\"4\"/><circle cx=\"25\" cy=\"142\" r=\"10\" fill=\"#ef4444\"/><text x=\"21\" y=\"146\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">D</text><text x=\"48\" y=\"146\" font-size=\"11\" font-weight=\"bold\" fill=\"#854d0e\">Subject: Concise theme statement</text><rect x=\"40\" y=\"165\" width=\"280\" height=\"55\" fill=\"#dcfce7\" stroke=\"#16a34a\" rx=\"4\"/><text x=\"48\" y=\"182\" font-size=\"10\" fill=\"#166534\">Salutation & 3-Part Letter Body</text><rect x=\"40\" y=\"228\" width=\"110\" height=\"20\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" rx=\"4\"/><text x=\"48\" y=\"242\" font-size=\"10\" fill=\"#334155\">Yours faithfully, Name</text></svg>"
+    },
+    "options": [
+      "Block D (Subject line)",
+      "Block A (Sender's address)",
+      "Block B (Date)",
+      "Block C (Receiver's designation)"
+    ],
+    "answer": 0,
+    "explanation": "Block D represents the Subject line, which highlights the central theme and grievance of the letter concisely before the salutation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-019",
+    "class": 10,
+    "subject": "english",
+    "chapter": "A Letter to God",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Why did the postmaster decide to collect contributions from his post office staff and send money to Lencho?",
+    "sampleAnswer": "The postmaster was deeply impressed and moved by Lencho's extraordinary, unshakeable faith in God and wished to preserve that faith from being shattered by disappointment.",
+    "acceptedAnswers": [
+      "He wanted to preserve Lencho's unshakable faith in God and was touched by his letter.",
+      "To keep Lencho's faith in God alive after reading his honest letter."
+    ],
+    "keywords": [
+      "faith in God",
+      "unshakable",
+      "preserve",
+      "Lencho"
+    ],
+    "explanation": "The kind, sensible postmaster did not want such complete faith in God to waver, so he gave part of his own salary and collected 70 pesos from friends.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-020",
+    "class": 10,
+    "subject": "english",
+    "chapter": "A Tiger in the Zoo",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "In Leslie Norris's poem 'A Tiger in the Zoo', how does the tiger's captive behavior in a cage contrast with his natural existence in the wild?",
+    "sampleAnswer": "In the cage, the tiger is locked behind concrete walls and metal bars, pacing quietly in suppressed rage while ignoring indifferent visitors; in the wild, he stalks stealthily through shadows near water holes to hunt plump deer and terrifies jungle borders with majestic freedom.",
+    "acceptedAnswers": [
+      "In the zoo he is locked behind bars in quiet rage ignoring visitors, while in the wild he roams freely, stalks prey near water holes, and snarls at village edges.",
+      "In the cage his strength is imprisoned behind bars, whereas in the wild he is free to hunt and roam in tall grass."
+    ],
+    "keywords": [
+      "cage",
+      "bars",
+      "wild",
+      "hunt",
+      "freedom"
+    ],
+    "explanation": "The poem contrasts the unnatural confinement and silent indignation of the captive animal with the untamed predatory power and freedom of his natural jungle habitat.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-021",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Nelson Mandela: Long Walk to Freedom",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What does Nelson Mandela signify by the 'twin obligations' that every human being possesses in a free and civil society?",
+    "sampleAnswer": "Mandela explains that every man possesses two distinct moral duties: first, his obligation to his immediate family, parents, wife, and children; second, his obligation to his broader community, his fellow citizens, and his country.",
+    "acceptedAnswers": [
+      "Obligation to one's family (parents, wife, children) and obligation to one's people, community, and country.",
+      "Every person has twin obligations: one to family and children, and another to their society, community, and nation."
+    ],
+    "keywords": [
+      "family",
+      "community",
+      "country",
+      "people"
+    ],
+    "explanation": "In South Africa under apartheid, a Black man could not fulfill both obligations: attempting to serve his people meant being ripped away from his family into isolation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-022",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Dust of Snow",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given the following Assertion (A) and Reason (R), select the correct option:\nAssertion (A): In 'Dust of Snow', Robert Frost deliberately employs unconventional poetic symbols — a black crow and a poisonous hemlock tree — rather than birds like nightingales or trees like maples.\nReason (R): The poet demonstrates that even dark, ill-omened elements of nature can catalyze profound spiritual solace and lift human despondency.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Frost defies conventional romantic nature imagery to prove that beauty and psychological restoration arise unexpectedly from the humblest, harshest natural entities.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-023",
+    "class": 10,
+    "subject": "english",
+    "chapter": "From the Diary of Anne Frank",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following facts accurately reflect Anne Frank's reflections regarding her personal diary, named 'Kitty'? (Select all that apply)",
+    "options": [
+      "She believed that paper has more patience than human beings",
+      "She received the red-checkered diary as a present on her thirteenth birthday",
+      "She created an imaginary confidante in her diary because she felt she lacked a true intimate friend",
+      "She originally wrote the entire secret annex diary in classical Latin verse"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Anne famously observed that paper is more patient than people and needed Kitty to pour out her heart because casual friends could not share deep intimacies. She wrote in Dutch, not Latin verse.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-024",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Determiners",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following sentences correctly utilize determiners and quantifiers in formal English grammar? (Select all that apply)",
+    "options": [
+      "Few students were able to solve the cryptic cryptogram, so the examiner explained the solution.",
+      "There was little fuel remaining in the emergency tank, barely enough to power the pump for an hour.",
+      "She has inspected each of the architectural drafts with meticulous care.",
+      "Every students in the auditorium must display their admit cards at the doorway."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "'Few' (hardly any with plural noun), 'little' (hardly any with uncountable noun), and 'each of the + plural noun' are grammatically sound. 'Every students' is ungrammatical because 'every' takes a singular noun ('every student').",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-025",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the standard structural components of an official Formal Letter to an Editor in their correct top-to-bottom sequence according to CBSE format:",
+    "orderedItems": [
+      "Sender's full postal address and contact details.",
+      "Date of writing formatted without abbreviations (e.g. 15 October 2026).",
+      "Receiver's designation and official organization address (The Editor, The Times of India, New Delhi).",
+      "Concise and underlined Subject statement highlighting the civic or social grievance.",
+      "Salutation (Sir/Madam), followed by the three-paragraph structured body, complimentary close, and formal signature."
+    ],
+    "answer": "ordered",
+    "explanation": "CBSE Formal Letter layout: Sender's address -> Date -> Receiver's address -> Subject -> Salutation and body paragraphs -> Complimentary close and signature.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-026",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Glimpses of India",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In 'A Baker from Goa', what was the traditional village bread-maker affectionately called in Goan society?",
+    "options": [
+      "Pader",
+      "Kabai",
+      "Bol",
+      "Kallu"
+    ],
+    "answer": 0,
+    "explanation": "In Goan villages, bakers are traditionally known as 'pader', arriving with the characteristic thud and jingle of a bamboo staff.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-027",
+    "class": 10,
+    "subject": "english",
+    "chapter": "How to Tell Wild Animals",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "According to Carolyn Wells' humorous poem 'How to Tell Wild Animals', which beast approaches with merry, deceptive smiles while the other weeps crocodile tears?",
+    "options": [
+      "Hyenas come with merry smiles, while Crocodiles weep",
+      "Tigers smile, while Bears weep",
+      "Chameleons smile, while Lizards weep",
+      "Leopards smile, while Lions weep"
+    ],
+    "answer": 0,
+    "explanation": "The poet humorously distinguishes them: 'Hyenas come with merry smiles; but if they weep they're Crocodiles.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-028",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Two Stories about Flying",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Frederick Forsyth's 'The Black Aeroplane', what startling revelation was given to the pilot of the old Dakota by the woman in the Paris control centre?",
+    "options": [
+      "No other airplane was flying in the storm that night except his Dakota",
+      "The black airplane had made a forced emergency landing five miles away",
+      "His compass and radio instruments had never suffered any electrical failure",
+      "A military rescue helicopter had accompanied him across the storm clouds"
+    ],
+    "answer": 0,
+    "explanation": "The woman looked at him strangely and laughed, confirming that radar detected no other aircraft in the storm except his solitary Dakota.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-029",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Ball Poem",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In John Berryman's 'The Ball Poem', why does the poet refuse to intervene and offer the grieving boy a dime to purchase another ball?",
+    "options": [
+      "Because money is external, and buying a new ball cannot replace the deep emotional memories attached to the lost possession",
+      "Because the poet possessed no spare coins in his overcoat pockets",
+      "Because he wanted the boy's parents to discipline him for negligence",
+      "Because buying toys near the busy harbour wharf was strictly forbidden"
+    ],
+    "answer": 0,
+    "explanation": "The poet realizes that a replacement ball is worthless because money cannot buy back the irreplaceable memories of childhood lost in the harbour water.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-030",
+    "class": 10,
+    "subject": "english",
+    "chapter": "A Question of Trust",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Victor Canning's 'A Question of Trust', what was Horace Danby's respectable trade and his secret annual criminal enterprise?",
+    "options": [
+      "He made locks by day and burgled one wealthy safe each year to purchase rare collector books",
+      "He was an antique jewelry dealer who forged precious gems",
+      "He managed a municipal library and stole money to finance European vacations",
+      "He was a clock repairman who smuggled diamonds across borders"
+    ],
+    "answer": 0,
+    "explanation": "Horace was a successful locksmith who robbed one safe each year, calculating carefully to obtain enough money to purchase rare, expensive books through an agent.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-031",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Modals",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Select the modal auxiliary verb expressing an authoritative negative deduction in the sentence: 'All laboratory lights are off and the front gate is padlocked. The research director _____ be inside.'",
+    "options": [
+      "can't",
+      "mustn't",
+      "shouldn't",
+      "mightn't"
+    ],
+    "answer": 0,
+    "explanation": "'Can't' is used for logical deduction when evidence proves that something is impossible in the present ('He can't be inside').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-032",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "How did the eccentric scientist Griffin succeed in making human flesh completely invisible in H.G. Wells' story?",
+    "options": [
+      "By swallowing rare synthetic drugs that made his body transparent as a sheet of glass while remaining physically solid",
+      "By wearing an experimental photon-refracting textile suit",
+      "By exposing his cells to high-frequency gamma radiation in his London basement",
+      "By projecting hypnotic telepathic illusions upon observers"
+    ],
+    "answer": 0,
+    "explanation": "Griffin carried out experiments to prove the human body could become invisible; he swallowed rare drugs, making his transparent body as solid as glass.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-033",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Glimpses of India",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "According to the ancient Indian legend in 'Tea from Assam', Buddhist ascetic Bodhidharma severed his eyelids because he felt drowsy during meditation, and ten tea plants sprouted from them.",
+    "answer": true,
+    "explanation": "Bodhidharma cut off his eyelids to prevent falling asleep; the tea plants that grew from them banished sleep when their leaves were infused in hot water.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-034",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "When village constable Jaffers arrived at the Coach and Horses inn in Iping to arrest Griffin, he discovered to his astonishment that the suspect had removed his bandages and false nose to become completely headless.",
+    "answer": true,
+    "explanation": "Griffin shed his spectacles, bandages, and prosthetic nose during an altercation with Mrs Hall, leaving the horrified crowd and constable Jaffers facing a headless man.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-035",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Glimpses of India",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Coorg (Kodagu), the picturesque district nestled in the Western Ghats of Karnataka, is celebrated for evergreen rainforests, spices, and sprawling plantations of _____.",
+    "answer": "coffee",
+    "acceptedAnswers": [
+      "coffee",
+      "coffee plantations"
+    ],
+    "explanation": "Coorg is known as the coffee country of India, where colonial bungalows nestle under prime canopy trees amid rich coffee estates.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-036",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Subject-Verb Agreement",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Each of the environmental impact assessments submitted by the regional conservation councils _____ (has / have) been approved by the board.",
+    "answer": "has",
+    "acceptedAnswers": [
+      "has"
+    ],
+    "explanation": "The indefinite pronoun 'Each' is singular in formal grammar and takes the singular auxiliary verb 'has', regardless of the plural noun 'assessments'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-037",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Ball Poem",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "In 'The Ball Poem', the philosophical process that the young boy begins to learn through his first bereavement is called the 'epistemology of _____'.",
+    "answer": "loss",
+    "acceptedAnswers": [
+      "loss"
+    ],
+    "explanation": "Berryman writes: 'He is learning, well behind his desperate eyes, the epistemology of loss, how to stand up, knowing what every man must one day know.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-038",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Glimpses of India",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each Indian region featured in 'Glimpses of India' with its defining cultural or geographical characteristic:",
+    "pairs": [
+      [
+        "Goa",
+        "Traditional village bakers (pader) and sweet wedding bread (bol)"
+      ],
+      [
+        "Coorg",
+        "Kodavu martial traditions, kuppia dress, and General Cariappa"
+      ],
+      [
+        "Assam",
+        "Pranjol's home and vast undulating tea gardens at Dhekiabari"
+      ],
+      [
+        "Brahmaputra",
+        "Mighty river flowing past tea plantations and misty hills"
+      ]
+    ],
+    "explanation": "Cultural hallmarks: Goa has Portuguese baking traditions; Coorg has martial Kodavus and coffee; Assam has tea estates; Brahmaputra flows through Assam.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-039",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Grammar",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each erroneous sentence with its corrected version and grammatical rationale:",
+    "pairs": [
+      [
+        "Error: 'He ran fastly to reach the station'",
+        "Correction: 'He ran fast to reach the station' ('fast' functions as both adjective and adverb)"
+      ],
+      [
+        "Error: 'One of the student was absent'",
+        "Correction: 'One of the students was absent' ('one of the' must be followed by a plural noun)"
+      ],
+      [
+        "Error: 'She is senior than me in service'",
+        "Correction: 'She is senior to me in service' (Latin comparatives like senior take preposition 'to')"
+      ],
+      [
+        "Error: 'Despite of his illness, he passed'",
+        "Correction: 'Despite his illness, he passed' ('despite' never takes the preposition 'of')"
+      ]
+    ],
+    "explanation": "Common editing rules: 'Fast' has no -ly form; 'one of the' requires plural noun; 'senior/junior/prior' take 'to'; 'despite' takes no 'of'.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-040",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Dust of Snow",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "In Robert Frost's poem 'Dust of Snow', how many total poetic lines are there across its two concise four-line stanzas (quatrains)?",
+    "answer": 8,
+    "tolerance": 0,
+    "unit": "lines",
+    "explanation": "'Dust of Snow' consists of two 4-line stanzas with an ABAB CDCD rhyme scheme, totaling 8 lines.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-041",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the comparative bar chart presented for an Analytical Paragraph writing prompt, which country exhibits the highest percentage of renewable energy adoption?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" width=\"100%\" height=\"200\"><rect width=\"360\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><line x1=\"60\" y1=\"180\" x2=\"320\" y2=\"180\" stroke=\"#475569\" stroke-width=\"2\"/><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"180\" stroke=\"#475569\" stroke-width=\"2\"/><rect x=\"80\" y=\"50\" width=\"50\" height=\"130\" fill=\"#16a34a\" rx=\"4\"/><text x=\"88\" y=\"42\" font-size=\"11\" font-weight=\"bold\" fill=\"#166534\">65%</text><text x=\"82\" y=\"198\" font-size=\"10\" fill=\"#334155\">Country A</text><rect x=\"160\" y=\"90\" width=\"50\" height=\"90\" fill=\"#3b82f6\" rx=\"4\"/><text x=\"168\" y=\"82\" font-size=\"11\" font-weight=\"bold\" fill=\"#1e40af\">45%</text><text x=\"162\" y=\"198\" font-size=\"10\" fill=\"#334155\">Country B</text><rect x=\"240\" y=\"140\" width=\"50\" height=\"40\" fill=\"#f59e0b\" rx=\"4\"/><text x=\"248\" y=\"132\" font-size=\"11\" font-weight=\"bold\" fill=\"#b45309\">20%</text><text x=\"242\" y=\"198\" font-size=\"10\" fill=\"#334155\">Country C</text></svg>"
+    },
+    "options": [
+      "Country A (65%)",
+      "Country B (45%)",
+      "Country C (20%)",
+      "Country B and C combined"
+    ],
+    "answer": 0,
+    "explanation": "Country A leads the chart with 65% renewable energy adoption, followed by Country B at 45% and Country C at 20%.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-042",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Two Stories about Flying",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "In Frederick Forsyth's 'The Black Aeroplane', which primary cockpit flight instrument is shown dead and spinning helplessly when the Dakota enters the storm clouds?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 220\" width=\"100%\" height=\"200\"><rect width=\"340\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><circle cx=\"170\" cy=\"110\" r=\"70\" fill=\"#1e293b\" stroke=\"#475569\" stroke-width=\"4\"/><text x=\"165\" y=\"60\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">N</text><text x=\"166\" y=\"175\" font-size=\"12\" font-weight=\"bold\" fill=\"#94a3b8\">S</text><text x=\"225\" y=\"114\" font-size=\"12\" font-weight=\"bold\" fill=\"#94a3b8\">E</text><text x=\"108\" y=\"114\" font-size=\"12\" font-weight=\"bold\" fill=\"#94a3b8\">W</text><line x1=\"170\" y1=\"110\" x2=\"200\" y2=\"80\" stroke=\"#ef4444\" stroke-width=\"4\"/><circle cx=\"170\" cy=\"110\" r=\"6\" fill=\"white\"/><path d=\"M 140,70 A 40,40 0 1,1 210,130\" fill=\"none\" stroke=\"#f59e0b\" stroke-width=\"2\" stroke-dasharray=\"4,4\"/><text x=\"120\" y=\"205\" font-size=\"11\" font-weight=\"bold\" fill=\"#0f172a\">Instrument Panel</text></svg>"
+    },
+    "options": [
+      "Magnetic compass",
+      "Altimeter gauge",
+      "Airspeed indicator",
+      "Fuel level tank"
+    ],
+    "answer": 0,
+    "explanation": "The pilot looked at the compass and couldn't believe his eyes: the compass was turning round and round and round; it was dead and would not work.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-043",
+    "class": 10,
+    "subject": "english",
+    "chapter": "A Question of Trust",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Why did Horace Danby commit a safe burglary once every year despite being regarded as an honest, respectable locksmith?",
+    "sampleAnswer": "Horace was passionately fond of rare and expensive collector books. He burglarized one wealthy safe each year to secretly purchase the rare books he loved through a clandestine book agent.",
+    "acceptedAnswers": [
+      "To buy rare and expensive books that he loved reading.",
+      "He stole money once a year to buy rare, costly books through a secret book agent."
+    ],
+    "keywords": [
+      "rare books",
+      "expensive books",
+      "buy books",
+      "collector"
+    ],
+    "explanation": "Horace planned each robbery meticulously for two weeks to steal enough money to last twelve months and satisfy his passion for rare literature.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-044",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Mijbil the Otter",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "How did Mijbil the otter initially react upon entering the bathroom, and what unique game did he invent using a ping-pong ball?",
+    "sampleAnswer": "Mijbil went wild with joy in water, plunging and rolling in the bathtub; he invented a game using a damaged suitcase lid where he rolled a ping-pong ball down the slope and scurried around to ambush it before it hit the floor.",
+    "acceptedAnswers": [
+      "He loved water and played in the bathtub, and he played with a ping-pong ball on the sloping lid of a suitcase, chasing it as it rolled down.",
+      "He rolled a ping-pong ball down a sloping suitcase lid and ambushed it before it hit the floor."
+    ],
+    "keywords": [
+      "ping-pong ball",
+      "bathtub",
+      "water",
+      "suitcase",
+      "slope"
+    ],
+    "explanation": "Otters have an instinctive love for water, and Mijbil demonstrated remarkable intelligence by inventively using a sloping suitcase lid as a pinball ramp.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-045",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Ball Poem",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Explain the deeper philosophical significance of John Berryman's statement 'Money is external' in 'The Ball Poem'.",
+    "sampleAnswer": "Berryman signifies that money is strictly a material, external commodity; while cash can purchase a new physical ball, it is powerless to buy back the boy's lost childhood memories, sentimental associations, and the innocent sense of possession that vanished with the lost ball.",
+    "acceptedAnswers": [
+      "Money can buy a new ball, but it cannot purchase back the precious childhood memories and emotional attachment associated with the lost ball.",
+      "It means money can only buy material things; it cannot restore lost innocence, personal history, or the grief of losing something dear."
+    ],
+    "keywords": [
+      "money is external",
+      "cannot buy back",
+      "memories",
+      "attachment",
+      "innocence"
+    ],
+    "explanation": "Material compensation cannot restore the intangible emotional bonds and memories woven into lost personal treasures.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-046",
+    "class": 10,
+    "subject": "english",
+    "chapter": "A Question of Trust",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given the following Assertion (A) and Reason (R), select the correct option:\nAssertion (A): Horace Danby was arrested two days after the burglary at Shotover Grange because his fingerprints were found all over the room.\nReason (R): Horace had removed his gloves to light a cigarette for the charming young woman in the red dress, who pretended to be the mistress of the house and tricked him into opening the safe without gloves.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The woman in red was herself a clever jewel thief; she exploited Horace's panic, getting him to open the safe bare-handed so that all incriminating fingerprints pointed exclusively to him.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-047",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Two Stories about Flying",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given the following Assertion (A) and Reason (R), select the correct option:\nAssertion (A): The identity of the pilot of the black aeroplane remains an unexplained mystery at the conclusion of Frederick Forsyth's narrative.\nReason (R): The air traffic controller confirmed that no other airplane was visible on the radar screen that night, suggesting the phantom pilot was either a miraculous manifestation or the pilot's own inner courage externalized.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The story ends on an open, enigmatic note: with no physical aircraft on the radar, the reader is left to contemplate whether the guide was divine intervention or subconscious hallucination.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-048",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Glimpses of India",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following facts accurately describe the land and people of Coorg (Kodagu) as depicted by Lokesh Abrol? (Select all that apply)",
+    "options": [
+      "Evergreen rainforests cover thirty percent of the district of Coorg",
+      "The traditional long black coat with an embroidered waist-belt worn by Kodavus is called kuppia",
+      "General Cariappa, the first Commander-in-Chief of the Indian Army, hailed from Coorg",
+      "The people of Coorg are descended exclusively from Portuguese naval officers"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Thirty percent is rainforest; Kodavus wear kuppia (resembling Arabic kuffia) and trace descent to Greek or Arab soldiers, not Portuguese; General Cariappa was Coorgi.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-049",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Subject-Verb Agreement",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following sentences demonstrate correct subject-verb agreement according to standard English grammar rules? (Select all that apply)",
+    "options": [
+      "The committee has announced its unanimous decision regarding the festival date.",
+      "Bread and butter is his customary morning meal.",
+      "A large number of volunteers has enrolled for the beach cleanliness drive.",
+      "Mathematics is an intellectually demanding discipline."
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "A collective noun acting as a single unit ('committee') takes singular 'has'; paired foods representing a single dish ('bread and butter') take singular 'is'; 'Mathematics' takes singular 'is'. 'A large number of' takes plural verb ('have enrolled').",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-050",
+    "class": 10,
+    "subject": "english",
+    "chapter": "How to Tell Wild Animals",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the chronological sequence in which Carolyn Wells humorously introduces wild animals in her satirical poem 'How to Tell Wild Animals':",
+    "orderedItems": [
+      "The Asian Lion: a large, tawny beast that roars at you as you're dyin'.",
+      "The Bengal Tiger: a noble wild beast with black stripes on a yellow ground that eats you.",
+      "The Leopard: a beast whose hide with spots is peppered that leaps and leaps again.",
+      "The Bear: a creature that meets you by your yard and gives you a very, very hard hug.",
+      "The Crocodile and Hyena: the hyena arriving with merry smiles while the weeping crocodile sheds tears."
+    ],
+    "answer": "ordered",
+    "explanation": "Poem sequence: Asian Lion (Stanza 1) -> Bengal Tiger (Stanza 2) -> Leopard (Stanza 3) -> Bear (Stanza 4) -> Crocodile and Hyena (Stanza 5).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-051",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Amanda!",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Robin Klein's poem 'Amanda!', what mythological fairy-tale figure does Amanda imagine herself to be, dwelling alone in a tranquil high tower with never a thought of letting down her bright hair?",
+    "options": [
+      "Rapunzel",
+      "Cinderella",
+      "Snow White",
+      "Sleeping Beauty"
+    ],
+    "answer": 0,
+    "explanation": "Amanda dreams of being Rapunzel living in a peaceful tower where life is tranquil and rare, resolved never to let down her bright hair to preserve her isolation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-052",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Madam Rides the Bus",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Vallikkannan's story 'Madam Rides the Bus', what was the total return bus fare that eight-year-old Valli meticulously saved by resisting peppermint and toy temptations?",
+    "options": [
+      "Sixty paise (thirty paise each way)",
+      "Forty paise",
+      "One rupee",
+      "Fifty paise"
+    ],
+    "answer": 0,
+    "explanation": "The one-way fare from the village to the nearest town was thirty paise, requiring Valli to save a total of sixty paise for her round trip.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-053",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Sermon at Benares",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What condition did Gautama Buddha place upon Kisa Gotami when she begged him to revive her dead child?",
+    "options": [
+      "She must procure a handful of mustard seeds from a house where no child, husband, parent, or friend had ever died",
+      "She must meditate under the Bodhi tree for seven consecutive days",
+      "She must renounce all worldly wealth and donate it to the sangha",
+      "She must fetch sacred water from the holy river Ganges at midnight"
+    ],
+    "answer": 0,
+    "explanation": "Buddha asked for mustard seeds from a home that had never known death, gently guiding her to realize that death is the universal destiny of all living beings.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-054",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Necklace",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Guy de Maupassant's 'The Necklace', how much money did Monsieur and Madame Loisel pay to replace the lost necklace, only to learn a decade later that the original was false?",
+    "options": [
+      "36,000 francs",
+      "18,000 francs",
+      "500 francs",
+      "40,000 francs"
+    ],
+    "answer": 0,
+    "explanation": "The jeweler priced the replacement diamond necklace at 40,000 francs and agreed to sell it for 36,000 francs, plunging the Loisels into ten years of ruinous debt.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-055",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Making of a Scientist",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In 'The Making of a Scientist', which influential science book gifted by his mother opened the fascinating world of scientific inquiry to young Richard Ebright?",
+    "options": [
+      "'The Travels of Monarch X'",
+      "'The Secret Life of Butterflies'",
+      "'The Origin of Species'",
+      "'Adventures of Cell Biology'"
+    ],
+    "answer": 0,
+    "explanation": "'The Travels of Monarch X' by Dr Fredrick A. Urquhart described how monarch butterflies migrate to Central America and invited readers to tag butterflies for research.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-056",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Grammar",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Complete the third conditional hypothetical sentence correctly: 'If the navigator _____ the storm warnings in time, the vessel would not have foundered on the reef.'",
+    "options": [
+      "had heeded",
+      "heeded",
+      "would heed",
+      "has heeded"
+    ],
+    "answer": 0,
+    "explanation": "Third conditional structures follow: 'If + past perfect (had heeded)... would have + past participle'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-057",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Trees",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Adrienne Rich's poem 'The Trees', what do the trees breaking through the veranda glass and moving into the empty forest symbolically represent?",
+    "options": [
+      "Women breaking free from oppressive domestic confinement into the open spaces of equality and society",
+      "The triumph of urban architecture over ecological deforestation",
+      "A literal autumn storm shattering greenhouse windows in a botanical garden",
+      "The migration of forest wildlife into human settlements"
+    ],
+    "answer": 0,
+    "explanation": "The movement of indoor decorative trees toward the natural forest represents women liberating themselves from domestic confinement to reclaim their rightful place in the world.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-058",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Fog",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In Carl Sandburg's poem 'Fog', the silent arrival, observation, and departure of coastal fog is metaphorically compared to a cat sitting on silent haunches.",
+    "answer": true,
+    "explanation": "Sandburg uses an extended metaphor comparing fog to a little cat that arrives silently, sits watching over harbour and city, and then quietly moves on.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-059",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Madam Rides the Bus",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "On her joyful return journey back to the village, Valli's mood was sobered into silence when she saw the same young cow running happily ahead of the bus.",
+    "answer": false,
+    "explanation": "Valli was overcome with sadness because she saw the same playful cow lying dead by the roadside, struck by a fast-moving vehicle, confronting her with the fragility of life.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-060",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Necklace",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Madame Forestier had intentionally deceived Mathilde by falsely claiming that her borrowed necklace was composed of real diamonds worth forty thousand francs.",
+    "answer": false,
+    "explanation": "Madame Forestier never claimed it was real; it was inexpensive costume jewellery made of paste worth at most 500 francs, and she was astonished to learn of the Loisels' sacrifice.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-061",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Amanda!",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In 'Amanda!', Amanda yearns to be an orphan roaming the streets in freedom, declaring: 'The silence is golden, the freedom is _____.'",
+    "answer": "sweet",
+    "acceptedAnswers": [
+      "sweet"
+    ],
+    "explanation": "Amanda retreats into her imagination away from parental reprimands: 'The silence is golden, the freedom is sweet.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-062",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Sermon at Benares",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Gautama Buddha preached his first sermon in the ancient holy city of _____, where the sacred river Ganges flows, setting in motion the wheel of dharma.",
+    "answer": "Benares",
+    "acceptedAnswers": [
+      "Benares",
+      "Varanasi"
+    ],
+    "explanation": "Buddha preached his first sermon at Sarnath near Benares (Varanasi), addressing the impermanence of mortal existence.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-063",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Reported Speech",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The commander commanded the soldiers: 'Do not fire until my signal!' In reported speech: The commander ordered the platoon _____ (not to fire / to not fire) until his signal.",
+    "answer": "not to fire",
+    "acceptedAnswers": [
+      "not to fire"
+    ],
+    "explanation": "Negative imperatives in reported speech are transformed into the infinitive structure 'ordered + object + not to + verb'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-064",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Making of a Scientist",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "Richard Ebright discovered that the twelve tiny golden spots on a monarch butterfly pupa were not merely ornamental, but produced a vital developmental _____ required for its metamorphosis.",
+    "answer": "hormone",
+    "acceptedAnswers": [
+      "hormone"
+    ],
+    "explanation": "Using advanced laboratory equipment, Ebright proved that the spots produced a hormone necessary for the pupa to develop into a mature butterfly.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-065",
+    "class": 10,
+    "subject": "english",
+    "chapter": "First Flight",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each CBSE Class 10 poem with its central figurative device or key motif:",
+    "pairs": [
+      [
+        "Fog",
+        "Extended metaphor comparing mist to a silent cat"
+      ],
+      [
+        "The Trees",
+        "Personification of branches as newly discharged hospital patients"
+      ],
+      [
+        "Amanda!",
+        "Contrasting parent nagging with escapist fantasies (mermaid, orphan, Rapunzel)"
+      ],
+      [
+        "Fire and Ice",
+        "Symbolism comparing destructive human passions to elemental forces"
+      ]
+    ],
+    "explanation": "Poetic techniques: Sandburg uses cat metaphor for fog; Rich personifies confined trees; Klein uses fantasy contrast; Frost uses elemental symbolism.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-066",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each character from 'Footprints without Feet' with their defining narrative conflict:",
+    "pairs": [
+      [
+        "Mathilde Loisel",
+        "Endures ten years of grinding poverty to repay a replaced imitation necklace"
+      ],
+      [
+        "Richard Ebright",
+        "Overcomes science-fair disappointment to decipher the chemical code of DNA"
+      ],
+      [
+        "Horace Danby",
+        "Outwitted by an attractive rival thief posing as the mistress of the mansion"
+      ],
+      [
+        "Griffin",
+        "Brilliant discovery of invisibility corrupted into theft and lawless terror"
+      ]
+    ],
+    "explanation": "Character dilemmas: Mathilde suffers for vanity; Ebright demonstrates scientific tenacity; Horace is deceived by another thief; Griffin misuses scientific genius.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-067",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Sermon at Benares",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the illustrated visual depicting Lord Buddha's parable in 'The Sermon at Benares', which humble agricultural item was Kisa Gotami instructed to procure from a bereavement-free home?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 220\" width=\"100%\" height=\"200\"><rect width=\"340\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><ellipse cx=\"170\" cy=\"150\" rx=\"90\" ry=\"35\" fill=\"#b45309\" stroke=\"#78350f\" stroke-width=\"3\"/><path d=\"M 80,150 C 80,190 260,190 260,150 Z\" fill=\"#d97706\" stroke=\"#78350f\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"140\" r=\"6\" fill=\"#fde047\" stroke=\"#ca8a04\"/><circle cx=\"160\" cy=\"135\" r=\"6\" fill=\"#fde047\" stroke=\"#ca8a04\"/><circle cx=\"180\" cy=\"142\" r=\"6\" fill=\"#fde047\" stroke=\"#ca8a04\"/><circle cx=\"195\" cy=\"138\" r=\"6\" fill=\"#fde047\" stroke=\"#ca8a04\"/><circle cx=\"150\" cy=\"150\" r=\"6\" fill=\"#fde047\" stroke=\"#ca8a04\"/><circle cx=\"170\" cy=\"148\" r=\"6\" fill=\"#fde047\" stroke=\"#ca8a04\"/><circle cx=\"185\" cy=\"152\" r=\"6\" fill=\"#fde047\" stroke=\"#ca8a04\"/><text x=\"110\" y=\"80\" font-size=\"14\" font-weight=\"bold\" fill=\"#78350f\">Earthen Alms Bowl</text></svg>"
+    },
+    "options": [
+      "Mustard seeds",
+      "Wheat grains",
+      "Rice grains",
+      "Sesame seeds"
+    ],
+    "answer": 0,
+    "explanation": "Buddha asked Kisa Gotami to bring a handful of mustard seeds from a house where neither child, spouse, nor parent had passed away.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-068",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Fog",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "How does Carl Sandburg capture the quiet arrival and departure of fog in his poem 'Fog'?",
+    "sampleAnswer": "Sandburg metaphorically describes the fog coming softly 'on little cat feet', sitting silently on its haunches while overlooking the harbour and city, and then moving quietly away without a sound.",
+    "acceptedAnswers": [
+      "He compares the fog to a cat that arrives silently on little cat feet, sits looking over the harbor and city, and moves on.",
+      "The fog comes silently like a cat, watches the city on silent haunches, and then moves away."
+    ],
+    "keywords": [
+      "cat feet",
+      "silent",
+      "harbour",
+      "cat",
+      "haunches"
+    ],
+    "explanation": "Sandburg creates a vivid image of coastal weather by capturing the stealthy, silent, and independent nature of a cat.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-069",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Amanda!",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why does Amanda fantasize about being an orphan roaming barefoot in the street in Robin Klein's poem?",
+    "sampleAnswer": "Amanda is suffocated and exasperated by constant parental nagging, instructions, and reprimands; she craves absolute freedom and peaceful silence, believing that an orphan has the liberty to roam freely and pattern dust with bare feet without supervision.",
+    "acceptedAnswers": [
+      "She is fed up with constant nagging from her mother and wants freedom and silence to roam the streets without interference.",
+      "She craves independence and peace away from constant parental nagging, imagining that an orphan enjoys total freedom."
+    ],
+    "keywords": [
+      "nagging",
+      "freedom",
+      "silence",
+      "orphan",
+      "roam"
+    ],
+    "explanation": "The extreme fantasy of desiring orphanhood underscores how stifling and distressing constant adult nagging feels to an imaginative child.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-070",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Making of a Scientist",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What three essential ingredients are necessary to create a first-rate scientist according to Robert W. Peterson's account of Richard Ebright?",
+    "sampleAnswer": "The author concludes that creating a first-rate scientist requires three crucial ingredients: a first-rate curious mind, keen observation and competitive drive to do one's best for the right reasons, and a persistent scientific curiosity.",
+    "acceptedAnswers": [
+      "A first-rate mind, curiosity, and the will to win for the right reasons.",
+      "Curiosity, intelligence (first-rate mind), and the determination to do the best work for the right reasons."
+    ],
+    "keywords": [
+      "first-rate mind",
+      "curiosity",
+      "will to win",
+      "right reasons"
+    ],
+    "explanation": "Ebright possessed an exceptional intellect, endless curiosity, and a drive to excel not for petty trophies but for scientific truth.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-071",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Necklace",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given the following Assertion (A) and Reason (R), select the correct option:\nAssertion (A): The ten years of ruinous drudgery suffered by Monsieur and Madame Loisel were caused by false pride and lack of frank communication.\nReason (R): If Mathilde had honestly confessed to Madame Forestier that the necklace had been lost, she would have discovered immediately that it was an inexpensive costume necklace worth only 500 francs.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Mathilde's fear of admitting loss and her obsessive vanity prevented a simple conversation that would have saved her and her husband from a decade of misery.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-072",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Madam Rides the Bus",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following character traits accurately portray eight-year-old Valliammai (Valli) during her solo bus excursion? (Select all that apply)",
+    "options": [
+      "Self-respecting and proud, firmly declining the conductor's offer of a free cold drink",
+      "Meticulous planner who calculated bus timings, round-trip fares, and distances with mature precision",
+      "Easily frightened and prone to tears when addressed by elder passengers",
+      "Inquisitive observer captivated by the canal, palm trees, and countryside vistas"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Valli was confident, highly dignified, thoroughly planned her expedition, and enjoyed the scenery. She resented being treated like a child and never showed fear.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-073",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following sentences demonstrate effective academic transitions suitable for synthesizing comparative trends in an Analytical Paragraph? (Select all that apply)",
+    "options": [
+      "'In stark contrast to the sharp decline in coal consumption, solar energy adoption surged substantially.'",
+      "'Whereas demographic cohort A exhibited steady stagnation, cohort B registered exponential expansion.'",
+      "'I personally feel the survey is foolish and everyone should just ignore it.'",
+      "'A noticeable parity is observed between urban and rural literacy rates across the concluding quarter.'"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Analytical paragraphs demand objective, formal comparative language ('in stark contrast', 'whereas', 'noticeable parity'). Subjective personal rants violate formal tone.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-074",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Sermon at Benares",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the spiritual progression of Kisa Gotami's realization about the universality of human mortality in 'The Sermon at Benares':",
+    "orderedItems": [
+      "Kisa Gotami carries her deceased child from house to house in grief, pleading for medicine.",
+      "A neighbour directs her to Sakyamuni Buddha, who promises medicine if she brings mustard seeds from a death-free home.",
+      "She travels to every household in the town, only to discover that every family has lost a parent, child, or friend.",
+      "Weary and hopeless, she sits at the roadside watching the city lights flicker up and extinguish in darkness.",
+      "She realizes that human lives flicker and extinguish like lights, and that death is the universal destiny of all mortals."
+    ],
+    "answer": "ordered",
+    "explanation": "Progression: Bereaved search -> Meeting Buddha -> Quest for seeds -> Watching city lights -> Spiritual awakening on universal mortality.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-075",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Necklace",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequence of fateful events in Guy de Maupassant's 'The Necklace':",
+    "orderedItems": [
+      "Monsieur Loisel brings home an exclusive invitation to the Minister of Public Instruction's evening ball.",
+      "Mathilde borrows an elegant diamond necklace from her wealthy friend Madame Forestier to complement her new gown.",
+      "She is intoxicated with admiration at the ball, but discovers with horror upon arriving home that the necklace is missing.",
+      "The couple exhaust all inheritances and borrow ruinous sums at high interest to buy an identical 36,000-franc replacement.",
+      "After ten years of grueling physical drudgery to pay off debts, Mathilde encounters Madame Forestier and learns the original was false."
+    ],
+    "answer": "ordered",
+    "explanation": "Sequence: Ball invitation -> Borrowing necklace -> Loss -> Thirty-six thousand franc debt -> Revelation of imitation paste ten years later.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-076",
+    "class": 10,
+    "subject": "english",
+    "chapter": "First Flight",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Ogden Nash's humorous ballad 'The Tale of Custard the Dragon', what pet was Custard, and what did he continually cry for while the other household pets boasted of their bravery?",
+    "options": [
+      "A dragon who cried for a nice safe cage",
+      "A kitten who cried for sweet warm cream",
+      "A dog who cried for a beef bone",
+      "A mouse who cried for yellow cheese"
+    ],
+    "answer": 0,
+    "explanation": "Custard was Belinda's pet dragon who was mocked as a coward because he always cried for a nice safe cage away from danger.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-077",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Proposal",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Anton Chekhov's play 'The Proposal', what piece of disputed family property sparks the furious initial quarrel between Lomov and Natalya before he can propose marriage?",
+    "options": [
+      "Oxen Meadows",
+      "Birch Woods",
+      "Green Marshlands",
+      "Burnt Swamp"
+    ],
+    "answer": 0,
+    "explanation": "Lomov innocently refers to his 'Oxen Meadows' wedged between Chubukov's Birchwoods and the Burnt Marsh, igniting a hysterical dispute over ancestral ownership.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-078",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Why did Sulekha, nicknamed 'Bholi' (the simpleton), resolutely refuse to garland the wealthy grocer Bishamber Nath at the wedding ceremony?",
+    "options": [
+      "Because he shamelessly demanded a humiliating dowry of five thousand rupees upon seeing her pockmarked face",
+      "Because she wanted to move to a metropolitan city to study medicine",
+      "Because her father Ramlal forbade the match at the last second",
+      "Because Bishamber had arrived with an unruly, intoxicated party"
+    ],
+    "answer": 0,
+    "explanation": "When Bishamber saw her pockmarks, he threatened to call off the marriage unless Ramlal gave him five thousand rupees. Bholi flung the garland into the sacred fire, refusing to marry a greedy, contemptible coward.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-079",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Claire Boiko's play 'The Book That Saved the Earth', which famous children's nursery rhyme book inadvertently frightens Martian ruler Think-Tank into canceling his invasion of Earth?",
+    "options": [
+      "'Mother Goose'",
+      "'Alice in Wonderland'",
+      "'Aesop's Fables'",
+      "'Peter Pan'"
+    ],
+    "answer": 0,
+    "explanation": "Think-Tank interprets the absurd nursery rhymes in 'Mother Goose' as highly sophisticated Earthling scientific warfare secrets and flees in panic.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-080",
+    "class": 10,
+    "subject": "english",
+    "chapter": "First Flight",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In W.B. Yeats' poem 'For Anne Gregory', what profound spiritual truth did an old religious man declare regarding human love versus divine love?",
+    "options": [
+      "Only God could love Anne for herself alone and not for her enchanting yellow hair",
+      "Human beauty outlasts spiritual devotion across generations",
+      "External physical appearance is the only genuine source of romantic passion",
+      "Youthful vanity cannot be altered by cosmetic hair dyes"
+    ],
+    "answer": 0,
+    "explanation": "The old religious man found a text proving that only God has the capacity to love a human being for their inner spiritual self alone, independent of physical attributes like yellow hair.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-081",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Proposal",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In 'The Proposal', what second explosive argument erupts between Lomov and Natalya immediately after the quarrel over Oxen Meadows is temporarily reconciled?",
+    "options": [
+      "A fierce rivalry over whose hunting dog was superior: Lomov's Guess or Chubukov's Squeezer",
+      "A bitter disagreement over who should pay for the wedding breakfast",
+      "A dispute over the boundaries of the local flour mill",
+      "A quarrel over the ownership of an ancestral carriage"
+    ],
+    "answer": 0,
+    "explanation": "No sooner do they cease fighting over the meadows than they descend into an even more venomous dispute comparing the qualities of their hunting dogs, Guess and Squeezer.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-082",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Grammar",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Identify the sentence containing an error of tense consistency in formal narrative prose:",
+    "options": [
+      "The historian argued that the treaty was signed in 1815 and establishes modern maritime law.",
+      "The historian reported that the treaty had been signed in 1815 and had stabilized European borders.",
+      "The researchers observed that atmospheric pressure drops rapidly as altitude increases.",
+      "The committee concluded that the preliminary trial had failed due to sample contamination."
+    ],
+    "answer": 0,
+    "explanation": "In reporting historic past occurrences, shifting abruptly between past tense ('was signed') and present tense ('establishes') within the same dependent clause creates an ungrammatical tense inconsistency.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-083",
+    "class": 10,
+    "subject": "english",
+    "chapter": "First Flight",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "When a pistol-wielding pirate burst into Belinda's house, her supposedly brave pets fled in terror while cowardly Custard surprised everyone by heroically attacking and devouring the pirate.",
+    "answer": true,
+    "explanation": "Ink, Blink, and Mustard scurried away into hiding while Custard snorted like an engine, clashed his tail like irons, and gobbled up the pirate in one gulp.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-084",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "At the conclusion of the story, Bholi asserts her dignified independence by stating that she will remain unmarried, care for her aging parents in their old age, and teach in the very village school where she acquired her education.",
+    "answer": true,
+    "explanation": "Bholi speaks calmly and clearly without a single stammer, assuring her parents that she will support them and serve as a teacher in the village school that gave her a new life.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-085",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Proposal",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Ivan Vassilevitch Lomov suffers from chronic nervousness, hypochondria, and violent heart palpitations, making him a comical example of a _____.",
+    "answer": "hypochondriac",
+    "acceptedAnswers": [
+      "hypochondriac"
+    ],
+    "explanation": "Lomov is an exaggerated hypochondriac obsessed with phantom illnesses, twitching eyebrows, sleeplessness, and heart palpitations.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-086",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Martian Commander Think-Tank panics after deciphering the Humpty Dumpty nursery rhyme, believing that Earthlings have discovered his balloon-shaped _____ and plan to assassinate him.",
+    "answer": "brain",
+    "acceptedAnswers": [
+      "brain",
+      "head"
+    ],
+    "explanation": "Seeing the egg-shaped illustration of Humpty Dumpty, Think-Tank screams that it is an exact likeness of his colossal brain and that Earthlings are coming to capture Mars.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-087",
+    "class": 10,
+    "subject": "english",
+    "chapter": "First Flight",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In 'For Anne Gregory', Anne declares that she can dye her hair brown, black, or _____, proving that suitors are dazzled by superficial outward colour rather than inner character.",
+    "answer": "carrot",
+    "acceptedAnswers": [
+      "carrot",
+      "carrot-coloured"
+    ],
+    "explanation": "Anne says: 'I can get a hair-dye and set such colour there, brown, or black, or carrot, that young men in despair may love me for myself alone and not my yellow hair.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-088",
+    "class": 10,
+    "subject": "english",
+    "chapter": "First Flight",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match Belinda's animal companions in 'The Tale of Custard the Dragon' with their respective poetic names:",
+    "pairs": [
+      [
+        "Little black kitten",
+        "Ink"
+      ],
+      [
+        "Little grey mouse",
+        "Blink"
+      ],
+      [
+        "Little yellow dog",
+        "Mustard"
+      ],
+      [
+        "Truly cowardly dragon",
+        "Custard"
+      ]
+    ],
+    "explanation": "Belinda named her black kitten Ink, her grey mouse Blink, her sharp yellow dog Mustard, and her cowardly dragon Custard.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-089",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Grammar",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each modal auxiliary sentence with its precise communicative function in formal discourse:",
+    "pairs": [
+      [
+        "'All personnel must display security credentials'",
+        "Compulsory institutional obligation"
+      ],
+      [
+        "'Might I offer an alternative perspective?'",
+        "Polite, tentative formal inquiry"
+      ],
+      [
+        "'He should have verified the invoices yesterday'",
+        "Unfulfilled past responsibility"
+      ],
+      [
+        "'The committee will deliver its verdict on Monday'",
+        "Definite future commitment"
+      ]
+    ],
+    "explanation": "Modal functions: 'Must' conveys mandatory duty; 'Might' expresses polite tentative query; 'Should have' conveys missed past obligation; 'Will' expresses certainty.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-090",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Proposal",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In Anton Chekhov's 'The Proposal', what estimated monetary value (in roubles) did Natalya claim Oxen Meadows were worth, while admitting they were practically useless to both families?",
+    "answer": 300,
+    "tolerance": 0,
+    "unit": "roubles",
+    "explanation": "Natalya exclaims: 'The property isn't worth much to me; they only come to five dessiatins, and they're worth perhaps 300 roubles, but I cannot stand unfairness!'",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-091",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the pie chart illustrating renewable power sources for an Analytical Paragraph question, which clean energy sector commands the single largest percentage share (40%)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 220\" width=\"100%\" height=\"200\"><rect width=\"340\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><circle cx=\"140\" cy=\"110\" r=\"80\" fill=\"#e2e8f0\" stroke=\"#94a3b8\" stroke-width=\"2\"/><path d=\"M 140,110 L 140,30 A 80,80 0 0,1 216,135 Z\" fill=\"#f59e0b\" stroke=\"#b45309\" stroke-width=\"1.5\"/><text x=\"160\" y=\"80\" font-size=\"12\" font-weight=\"bold\" fill=\"white\">40%</text><path d=\"M 140,110 L 216,135 A 80,80 0 0,1 84,166 Z\" fill=\"#3b82f6\" stroke=\"#1d4ed8\" stroke-width=\"1.5\"/><text x=\"135\" y=\"160\" font-size=\"12\" font-weight=\"bold\" fill=\"white\">35%</text><path d=\"M 140,110 L 84,166 A 80,80 0 0,1 140,30 Z\" fill=\"#10b981\" stroke=\"#047857\" stroke-width=\"1.5\"/><text x=\"95\" y=\"90\" font-size=\"12\" font-weight=\"bold\" fill=\"white\">25%</text><rect x=\"240\" y=\"50\" width=\"12\" height=\"12\" fill=\"#f59e0b\"/><text x=\"258\" y=\"60\" font-size=\"10\" fill=\"#334155\">Solar (40%)</text><rect x=\"240\" y=\"80\" width=\"12\" height=\"12\" fill=\"#3b82f6\"/><text x=\"258\" y=\"90\" font-size=\"10\" fill=\"#334155\">Wind (35%)</text><rect x=\"240\" y=\"110\" width=\"12\" height=\"12\" fill=\"#10b981\"/><text x=\"258\" y=\"120\" font-size=\"10\" fill=\"#334155\">Hydro (25%)</text></svg>"
+    },
+    "options": [
+      "Solar energy (40%)",
+      "Wind energy (35%)",
+      "Hydroelectric power (25%)",
+      "Biomass power"
+    ],
+    "answer": 0,
+    "explanation": "Solar energy occupies the largest segment of the pie chart at 40%, followed by wind at 35% and hydro at 25%.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-092",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "In Claire Boiko's sci-fi satire 'The Book That Saved the Earth', which innocent printed artifact pictured on the Martian communications console causes Commander Think-Tank to order an immediate interstellar retreat?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 220\" width=\"100%\" height=\"200\"><rect width=\"340\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><rect x=\"80\" y=\"40\" width=\"180\" height=\"130\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"3\" rx=\"6\"/><rect x=\"90\" y=\"50\" width=\"75\" height=\"110\" fill=\"#fff7ed\" stroke=\"#ea580c\"/><rect x=\"175\" y=\"50\" width=\"75\" height=\"110\" fill=\"#fff7ed\" stroke=\"#ea580c\"/><ellipse cx=\"125\" cy=\"95\" rx=\"20\" ry=\"25\" fill=\"#fde047\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/><text x=\"110\" y=\"140\" font-size=\"9\" font-weight=\"bold\" fill=\"#7c2d12\">Humpty</text><text x=\"190\" y=\"90\" font-size=\"9\" fill=\"#431407\">Nursery</text><text x=\"190\" y=\"110\" font-size=\"9\" fill=\"#431407\">Rhymes</text><text x=\"95\" y=\"200\" font-size=\"12\" font-weight=\"bold\" fill=\"#c2410c\">Book: 'Mother Goose'</text></svg>"
+    },
+    "options": [
+      "The nursery rhyme book 'Mother Goose'",
+      "An atomic weapons handbook",
+      "A planetary invasion map",
+      "A laser communication manual"
+    ],
+    "answer": 0,
+    "explanation": "The nursery rhyme collection 'Mother Goose' is decoded by the Martian crew, and Think-Tank panics upon believing Earthlings possess superior agricultural and biological weapons.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-093",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "How did the sensitive village school teacher transform shy, stammering Bholi into an empowered, confident young woman?",
+    "sampleAnswer": "The teacher treated Bholi with extraordinary kindness, affection, and patient encouragement; she gave Bholi picture books, assured her that education would make her more respected than anyone else in the village, and empowered her to speak without fear or stammering.",
+    "acceptedAnswers": [
+      "She spoke with affection, treated her with kindness, encouraged her patiently, and gave her books to build self-confidence and speech without fear.",
+      "The teacher's kindness, patient guidance, and encouragement helped Bholi overcome her stammer and gave her dignity and education."
+    ],
+    "keywords": [
+      "kindness",
+      "encouragement",
+      "confidence",
+      "stammer",
+      "self-respect"
+    ],
+    "explanation": "The teacher provided the unconditional emotional safety and respect that Bholi had never received at home, fostering her transformation into an articulate, dignified woman.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-094",
+    "class": 10,
+    "subject": "english",
+    "chapter": "The Proposal",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why is Anton Chekhov's one-act dramatic comedy 'The Proposal' classified as a classic farce?",
+    "sampleAnswer": "The play is a farce because it revolves around absurdly exaggerated characters, ridiculous trivial disputes (over swampy meadows and hunting dogs) that derail a marriage proposal, and comic physical hysterics (palpitations, fainting fits, and screaming insults) that resolve abruptly in instant compromise.",
+    "acceptedAnswers": [
+      "It is a farce because it uses exaggerated situations, ridiculous arguments over dogs and meadows, and hysterical characters who quarrel violently right before getting engaged.",
+      "Because of its humorous exaggeration, petty conflicts over Oxen Meadows, and absurd physical comedy of hypochondria and shouting matches."
+    ],
+    "keywords": [
+      "exaggerated",
+      "farce",
+      "arguments",
+      "dogs",
+      "meadows",
+      "absurd"
+    ],
+    "explanation": "Farce relies on heightened caricature, improbable scenarios, rapid quarrelling, and slapstick emotional outbursts over insignificant trifles.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-095",
+    "class": 10,
+    "subject": "english",
+    "chapter": "First Flight",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What central conflict between superficial physical attraction and spiritual love is explored in W.B. Yeats' 'For Anne Gregory'?",
+    "sampleAnswer": "Yeats contrasts transient physical allure (represented by Anne's honey-coloured hair that throws young men into romantic despair) with genuine spiritual love; he emphasizes that mortals are inevitably bewitched by superficial outward beauty, whereas only God possesses the divine grace to love an individual purely for their inner soul.",
+    "acceptedAnswers": [
+      "Human beings are captivated by superficial outward beauty like yellow hair, but only God can love a person truly for their inner self alone.",
+      "The poem contrasts external physical beauty with internal spiritual worth, showing that humans love outer looks while God alone loves the true self."
+    ],
+    "keywords": [
+      "yellow hair",
+      "outer beauty",
+      "inner soul",
+      "only God",
+      "superficial"
+    ],
+    "explanation": "Yeats illustrates that human infatuation remains helplessly fixated on physical charms, while divine love transcends external appearances to embrace the inner spirit.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-096",
+    "class": 10,
+    "subject": "english",
+    "chapter": "First Flight",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given the following Assertion (A) and Reason (R), select the correct option:\nAssertion (A): Belinda, Ink, Blink, and Mustard continually bragged about their ferocious bravery, yet they all fled in terrified panic when the pirate attacked.\nReason (R): True courage is demonstrated through decisive action in moments of genuine danger rather than through hollow, boastful claims in safety.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Ogden Nash satirizes boastful pretension: those who claim to be braver than tigers run away at the first sign of peril, while the humble 'coward' Custard steps forward to save them.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-097",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given the following Assertion (A) and Reason (R), select the correct option:\nAssertion (A): In 'The Book That Saved the Earth', Think-Tank's comical misinterpretation of nursery rhymes highlights the perils of intellectual hubris and cultural ignorance.\nReason (R): Despite considering Earthlings to be primitive 'ugly earthlings with tiny heads', Think-Tank's complete lack of cultural comprehension causes him to mistake innocent nursery jingles for lethal military intelligence.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Think-Tank's supreme arrogance blinds him: he assumes Earthlings must be scheming interplanetary aggressors, causing simple nursery rhymes to trigger his cowardice.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-098",
+    "class": 10,
+    "subject": "english",
+    "chapter": "First Flight",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following physical descriptions accurately portray Custard the dragon in Ogden Nash's ballad? (Select all that apply)",
+    "options": [
+      "He had big sharp teeth, spikes on top of him, and scales underneath",
+      "His mouth was like a fireplace and his nose like a chimney",
+      "He had realio, trulio daggers on his toes",
+      "He had delicate feathered wings and sang like a nightingale"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Nash describes Custard as a formidable-looking beast with sharp teeth, spikes, scales, a chimney nose, and dagger toes, contrasting with his meek desire for a safe cage.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-099",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following tragic misfortunes contributed to Sulekha's (Bholi's) childhood backwardness and social stigma in her village? (Select all that apply)",
+    "options": [
+      "She suffered a brain injury after falling off a cot on her head when ten months old",
+      "She contracted smallpox at two years old, leaving her face and body scarred with permanent pockmarks",
+      "She stammered when speaking, making other children mimic and mock her",
+      "Her father Ramlal was an impoverished destitute who could not provide meals"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Bholi suffered from developmental delays due to head injury, pockmarks from smallpox, and stammering. Her father was a wealthy revenue official (Numberdar) with plenty of food.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-english-100",
+    "class": 10,
+    "subject": "english",
+    "chapter": "Footprints without Feet",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the chronological sequence of events culminating in the Martian retreat in 'The Book That Saved the Earth':",
+    "orderedItems": [
+      "Think-Tank orders Captain Omega and his crew to land on Earth and probe Centerville Public Library.",
+      "The Martian crew is utterly baffled by books, mistaking them for communication sandwiches.",
+      "The crew ingests intelligence vitamins to decode the English nursery rhymes in 'Mother Goose'.",
+      "Think-Tank hears the rhyme of Humpty Dumpty and views an illustration resembling his own massive head.",
+      "Terrified of an impending Earthling invasion of Mars, Think-Tank orders a full planetary evacuation to Alpha Centauri."
+    ],
+    "answer": "ordered",
+    "explanation": "Sequence: Library landing -> Sandwich confusion -> Vitamin translation -> Humpty Dumpty terror -> Interstellar evacuation to Alpha Centauri.",
+    "marks": 2,
+    "volatile": false
+  }
+]

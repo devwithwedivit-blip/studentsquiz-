@@ -1,0 +1,1937 @@
+[
+  {
+    "id": "c10-physics-001",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "A spherical concave mirror has a radius of curvature of 30 cm. According to the Cartesian sign convention, what is its focal length?",
+    "options": [
+      "-15 cm",
+      "-30 cm",
+      "-7.5 cm",
+      "+15 cm"
+    ],
+    "answer": 0,
+    "explanation": "For a spherical mirror, focal length f = R / 2. By Cartesian sign convention, the focus of a concave mirror lies in front of the reflecting surface (negative x-axis), so f = -30 / 2 = -15 cm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-002",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the SI unit of electric potential difference across the terminals of a current-carrying conductor?",
+    "options": [
+      "Volt (V)",
+      "Ampere (A)",
+      "Ohm (Ω)",
+      "Coulomb (C)"
+    ],
+    "answer": 0,
+    "explanation": "Potential difference is defined as work done per unit charge (V = W / Q = Joules / Coulomb = Volt). Ampere is current, Ohm is resistance, and Coulomb is charge.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-003",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "An illuminated object is placed 15 cm in front of a concave mirror of focal length 10 cm. Find the image distance v and the nature of the image formed:",
+    "options": [
+      "-30 cm (real and inverted)",
+      "-6 cm (virtual and erect)",
+      "+30 cm (virtual and erect)",
+      "-15 cm (real and inverted)"
+    ],
+    "answer": 0,
+    "explanation": "Given u = -15 cm, f = -10 cm. Mirror formula: 1/f = 1/v + 1/u => 1/v = 1/f - 1/u = 1/(-10) - 1/(-15) = -1/10 + 1/15 = (-3 + 2)/30 = -1/30 => v = -30 cm. Negative v indicates a real, inverted image formed in front of the mirror.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-004",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Three identical circuit resistors of resistances 2 Ω, 3 Ω, and 6 Ω are connected in a parallel configuration. What is the equivalent resistance of this combination?",
+    "options": [
+      "1 Ω",
+      "11 Ω",
+      "2 Ω",
+      "0.5 Ω"
+    ],
+    "answer": 0,
+    "explanation": "In parallel connection: 1/Rp = 1/R1 + 1/R2 + 1/R3 = 1/2 + 1/3 + 1/6 = (3 + 2 + 1)/6 = 6/6 = 1 Ω⁻¹. Thus Rp = 1 Ω.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-005",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "According to Fleming's Left-Hand Rule, if the forefinger points along the magnetic field and the middle finger indicates the electric current direction, what does the outstretched thumb represent?",
+    "options": [
+      "Direction of the magnetic force (mechanical motion) acting on the conductor",
+      "Direction of induced electromotive force",
+      "Direction of electric field potential gradient",
+      "Direction of magnetic flux lines"
+    ],
+    "answer": 0,
+    "explanation": "In Fleming's Left-Hand Rule for motor action: Forefinger = Magnetic Field (B), Middle finger = Current (I), and Thumb = Motion / Force (F) experienced by the conductor.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-006",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A classroom student seated on the back bench cannot distinctly read letters written on the blackboard, but can effortlessly read her textbook. What refractive visual defect does she possess, and what corrective lens is required?",
+    "options": [
+      "Myopia (nearsightedness), corrected by a concave lens",
+      "Hypermetropia (farsightedness), corrected by a convex lens",
+      "Presbyopia, corrected by a bifocal lens",
+      "Cataract, corrected by surgical membrane replacement"
+    ],
+    "answer": 0,
+    "explanation": "Inability to focus on distant objects while retaining clear near vision is Myopia (nearsightedness). The image forms in front of the retina, and a diverging (concave) lens of appropriate focal length diverges rays back onto the retina.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-007",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Ohm's Law states that the electric current flowing through a metallic wire is directly proportional to the potential difference across its terminals, provided the temperature remains constant.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. George Simon Ohm established that V ∝ I at constant temperature and physical dimensions, leading to V = I R, where R is the constant electrical resistance.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-008",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "When an incident ray of light passes obliquely from an optically denser medium (such as crown glass) into an optically rarer medium (such as air), it bends towards the normal.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "False. As light travels from a denser to a rarer optical medium, its wave propagation speed increases, causing the refracted ray to bend away from the normal.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-009",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The optical power of a converging lens possessing a focal length of exactly 1 metre is defined as 1 __________ (SI unit).",
+    "answer": "dioptre",
+    "acceptedAnswers": [
+      "dioptre",
+      "diopter",
+      "D"
+    ],
+    "explanation": "Power of a lens P = 1 / f(in metres). One dioptre (1 D = 1 m⁻¹) is the optical power of a lens whose focal length is 1 metre.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-010",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The time rate at which electric energy is dissipated or consumed in an electric circuit is known as electric __________.",
+    "answer": "power",
+    "acceptedAnswers": [
+      "power",
+      "electric power"
+    ],
+    "explanation": "Electric power P = W / t = V × I, measured in Watts (1 Watt = 1 Joule per second).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-011",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each physical quantity in electricity on the left with its internationally recognized SI unit on the right:",
+    "pairs": [
+      [
+        "Electric current",
+        "Ampere (A)"
+      ],
+      [
+        "Electric charge",
+        "Coulomb (C)"
+      ],
+      [
+        "Electrical resistivity",
+        "Ohm metre (Ω m)"
+      ],
+      [
+        "Electric power",
+        "Watt (W)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "SI units: Current is measured in Amperes; Charge in Coulombs; Resistivity in Ohm-metres; Power in Watts.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-012",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "A current of 0.5 A is drawn by the tungsten filament of an electric bulb for a duration of 10 minutes. Calculate the total net electric charge (in Coulombs) flowing through the filament:",
+    "answer": 300,
+    "tolerance": 0,
+    "explanation": "Current I = 0.5 A. Time t = 10 minutes = 10 × 60 s = 600 s. Net electric charge Q = I × t = 0.5 A × 600 s = 300 Coulombs.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-013",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A convex lens has a focal length of +20 cm. Find the optical power of this converging lens in dioptres (D):",
+    "answer": 5,
+    "tolerance": 0,
+    "explanation": "Focal length f = +20 cm = +0.20 m. Power P = 1 / f(in metres) = 1 / 0.20 = +5 Dioptres.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-014",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "An electric heating appliance consumes power at a rate of 840 W when connected across a 220 V household power line. Determine the electric current (in Amperes, rounded to 2 decimal places) flowing through the element:",
+    "answer": 3.82,
+    "tolerance": 0.05,
+    "explanation": "Power P = V × I => I = P / V = 840 W / 220 V = 84 / 22 = 42 / 11 ≈ 3.818... ≈ 3.82 Amperes.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-015",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A beam of light travels from vacuum into a crown glass block having an absolute refractive index of n = 1.50. If the speed of light in vacuum is c = 3.0 × 10⁸ m/s, calculate the velocity of light inside the glass in units of 10⁸ m/s:",
+    "answer": 2,
+    "tolerance": 0,
+    "explanation": "Refractive index n = c / v => v = c / n = (3.0 × 10⁸ m/s) / 1.50 = 2.0 × 10⁸ m/s. The factor in units of 10⁸ m/s is 2.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-016",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "An electric coil of resistance 8 Ω draws an electric current of 15 A from the main supply. Calculate the rate at which thermal heat energy is generated in the coil in Watts (Joules per second):",
+    "answer": 1800,
+    "tolerance": 0,
+    "explanation": "Rate of heat production corresponds to dissipated power: P = I² R = (15 A)² × 8 Ω = 225 × 8 = 1800 Watts.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-017",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the convex lens ray diagram, an illuminated object AB is placed upright at distance 2F1 (twice the focal length). What are the exact image coordinates and size characteristics formed on the screen?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#f8fafc' rx='8'/><line x1='20' y1='100' x2='300' y2='100' stroke='#334155' stroke-width='2'/><ellipse cx='160' cy='100' rx='8' ry='70' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/><line x1='60' y1='100' x2='60' y2='50' stroke='#15803d' stroke-width='3'/><polyline points='55,60 60,50 65,60' fill='none' stroke='#15803d' stroke-width='2'/><text x='52' y='42' font-family='sans-serif' font-size='11' font-weight='bold' fill='#15803d'>AB</text><line x1='60' y1='50' x2='160' y2='50' stroke='#dc2626' stroke-width='1.5'/><line x1='160' y1='50' x2='260' y2='150' stroke='#dc2626' stroke-width='1.5'/><line x1='60' y1='50' x2='260' y2='150' stroke='#2563eb' stroke-width='1.5'/><line x1='260' y1='100' x2='260' y2='150' stroke='#b91c1c' stroke-width='3'/><polyline points='255,140 260,150 265,140' fill='none' stroke='#b91c1c' stroke-width='2'/><text x='252' y='168' font-family='sans-serif' font-size='11' font-weight='bold' fill='#b91c1c'>A'B'</text><circle cx='60' cy='100' r='3' fill='#0f172a'/><text x='50' y='118' font-family='sans-serif' font-size='10'>2F1</text><circle cx='110' cy='100' r='3' fill='#0f172a'/><text x='105' y='118' font-family='sans-serif' font-size='10'>F1</text><circle cx='160' cy='100' r='3' fill='#0f172a'/><text x='157' y='118' font-family='sans-serif' font-size='10'>O</text><circle cx='210' cy='100' r='3' fill='#0f172a'/><text x='205' y='118' font-family='sans-serif' font-size='10'>F2</text><circle cx='260' cy='100' r='3' fill='#0f172a'/><text x='252' y='118' font-family='sans-serif' font-size='10'>2F2</text></svg>"
+    },
+    "options": [
+      "Formed at 2F2 on the opposite side, real, inverted, and of the same size",
+      "Formed beyond 2F2, magnified, virtual, and erect",
+      "Formed between F2 and 2F2, diminished, real, and inverted",
+      "Formed at infinity, highly enlarged, and upright"
+    ],
+    "answer": 0,
+    "explanation": "When an object is placed at 2F1 of a convex lens, rays refract and converge precisely at 2F2 on the other side, producing a real, inverted image of magnification m = -1 (same size as object).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-018",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Sources of Energy",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Which flammable hydrocarbon gas makes up approximately 75% of the gaseous fuel mixture produced in an anaerobic bio-gas plant?",
+    "sampleAnswer": "Methane",
+    "acceptedAnswers": [
+      "Methane",
+      "CH4",
+      "Methane gas"
+    ],
+    "keywords": [
+      "Methane",
+      "CH4"
+    ],
+    "explanation": "Bio-gas is an eco-friendly combustible fuel produced by anaerobic bacterial decomposition of animal dung and organic biomass, composed of up to 75% methane (CH4).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-019",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What atmospheric optical phenomenon, caused by continuous refraction across air layers of gradually varying optical density, makes stars appear to twinkle?",
+    "sampleAnswer": "Atmospheric refraction",
+    "acceptedAnswers": [
+      "Atmospheric refraction",
+      "Atmospheric refraction of starlight",
+      "Refraction"
+    ],
+    "keywords": [
+      "Atmospheric",
+      "refraction"
+    ],
+    "explanation": "Because starlight travels through layers of the atmosphere with continuously shifting optical densities and temperatures, the apparent position and intensity fluctuate rapidly, causing twinkling.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-020",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Examine domestic electrical circuitry principles:\nAssertion (A): Household electrical appliances are always connected in parallel across the mains supply rather than in series.\nReason (R): In a parallel circuit, each appliance receives the full rated line voltage (220 V) and operates on an independent switch without disabling other devices if one appliance faults.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct engineering rationale for (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Parallel wiring guarantees equal rated potential difference across all domestic devices and allows independent current drawing according to individual resistance values.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-021",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate magnetic vector field geometry:\nAssertion (A): Two magnetic field lines can never intersect each other at any point in space.\nReason (R): If two field lines were to cross, a compass needle placed at the intersection point would point simultaneously in two distinct directions of the net magnetic field, which is physically impossible.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct physical explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The tangent to a magnetic field line represents the unique direction of the net magnetic vector B. At an intersection, two tangents would exist, implying two divergent net fields at a single point.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-022",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "When white solar light undergoes dispersion upon passing through a glass prism, which of the following visible colors appear in the emergent spectrum band (VIBGYOR)? (Select all 3 that apply)",
+    "options": [
+      "Violet (most deviated color)",
+      "Green (intermediate spectrum color)",
+      "Red (least deviated color)",
+      "Infrared radiation",
+      "Ultraviolet radiation",
+      "Microwave radiation"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The visible spectrum consists of Violet, Indigo, Blue, Green, Yellow, Orange, and Red. Infrared, ultraviolet, and microwaves lie outside the human visible spectrum.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-023",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "On which of the following physical parameters does the electrical resistance R of a uniform cylindrical metallic conductor depend? (Select all 3 that apply)",
+    "options": [
+      "Length of the conductor (R is directly proportional to length L)",
+      "Cross-sectional area of the conductor (R is inversely proportional to area A)",
+      "Nature of the conducting material (represented by resistivity ρ)",
+      "Barometric air pressure surrounding the conductor",
+      "Color pigment of the outer insulation covering",
+      "Altitude above sea level"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Resistance formula R = ρ (L / A). It depends on material resistivity ρ, length L, cross-sectional area A, and operating temperature.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-024",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange these five visible spectrum spectral colors in ascending order of their vacuum wavelength (from shortest to longest wavelength):",
+    "orderedItems": [
+      "Violet (~400 nm, highest optical frequency and maximum refractive deviation)",
+      "Blue (~470 nm)",
+      "Green (~530 nm)",
+      "Yellow (~580 nm)",
+      "Red (~700 nm, lowest optical frequency and minimum refractive deviation)"
+    ],
+    "answer": "ordered",
+    "explanation": "Visible wavelengths increase progressively from Violet (~400 nm) -> Blue (~470 nm) -> Green (~530 nm) -> Yellow (~580 nm) -> Red (~700 nm).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-025",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential physical steps explaining how an electric safety fuse prevents catastrophic fire hazards during a sudden short-circuit:",
+    "orderedItems": [
+      "Direct accidental contact occurs between a live conductor and neutral conductor, causing a near-zero resistance short-circuit.",
+      "An exceptionally massive electric current surges instantly across the closed circuit according to Ohm's law.",
+      "Excessive Joule thermal energy H = I²Rt is generated rapidly inside the high-resistance, low-melting-point fuse wire.",
+      "The local temperature of the alloy fuse wire rapidly exceeds its melting threshold.",
+      "The fuse wire melts completely and breaks the electrical circuit, extinguishing current flow and protecting appliances."
+    ],
+    "answer": "ordered",
+    "explanation": "Fuse protection sequence: Short-circuit -> Current surge -> Rapid Joule heating -> Melting point reached -> Circuit broken.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-026",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which type of spherical mirror is universally installed as a rear-view (wing) mirror in motor vehicles to facilitate safe driving?",
+    "options": [
+      "Concave mirror",
+      "Convex mirror",
+      "Plane mirror",
+      "Parabolic mirror"
+    ],
+    "answer": 1,
+    "explanation": "Convex mirrors always produce an erect though diminished virtual image and curve outward, thereby providing a substantially wider field of view than flat or concave mirrors.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-027",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Three individual resistors of resistances 2 Ω, 3 Ω, and 6 Ω are connected in parallel combination across a circuit. What is the effective equivalent resistance of this parallel network?",
+    "options": [
+      "11.0 Ω",
+      "1.0 Ω",
+      "0.5 Ω",
+      "1.5 Ω"
+    ],
+    "answer": 1,
+    "explanation": "For parallel resistors: 1/R_p = 1/2 + 1/3 + 1/6 = (3 + 2 + 1)/6 = 6/6 = 1 Ω⁻¹. Thus, R_p = 1.0 Ω.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-028",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A student seated at the rear bench of a classroom struggles to read text clearly on the blackboard but has no difficulty reading their textbook at 25 cm. Which eye defect is present and which corrective optical lens is prescribed?",
+    "options": [
+      "Hypermetropia, corrected with a convex lens",
+      "Myopia, corrected with a concave lens",
+      "Presbyopia, corrected with a bifocal lens",
+      "Cataract, corrected with surgical extraction"
+    ],
+    "answer": 1,
+    "explanation": "Inability to focus distant objects while near vision remains intact is myopia (near-sightedness). Parallel rays from distant objects converge in front of the retina; a concave lens of appropriate focal length diverges the rays slightly to form sharp images on the retina.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-029",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which fundamental rule determines the orientation and direction of circular magnetic field lines encircling a straight current-carrying conductor?",
+    "options": [
+      "Fleming's Left-Hand Rule",
+      "Right-Hand Thumb Rule",
+      "Fleming's Right-Hand Rule",
+      "Lenz's Law"
+    ],
+    "answer": 1,
+    "explanation": "Maxwell's Right-Hand Thumb Rule states that if you grasp a current-carrying wire with your right hand such that your thumb points along the conventional current, your curled fingers denote the direction of the magnetic field lines.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-030",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Sources of Energy",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In a nuclear power reactor utilizing uranium-235 fuel, what specific role do heavy water (D₂O) or high-purity reactor-grade graphite play?",
+    "options": [
+      "Coolant to transfer heat away without boiling",
+      "Moderator to slow down high-energy fast neutrons to thermal speeds",
+      "Control rods to absorb surplus neutrons and arrest chain reactions",
+      "Biological radiation shield to contain gamma rays"
+    ],
+    "answer": 1,
+    "explanation": "Heavy water (D₂O) and graphite act as moderators that collide elastically with energetic fast neutrons, slowing them to thermal energies (approx 0.025 eV) where fission cross-section with U-235 is high. Cadmium and boron act as control rods.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-031",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The absolute refractive index of any transparent material medium (such as water, glass, or diamond) is always greater than 1.",
+    "answer": true,
+    "explanation": "Absolute refractive index n = c / v. Because the speed of light in vacuum c is the universal maximum speed (≈ 3 × 10⁸ m/s) and light travels slower in all material media (v < c), n is always strictly greater than 1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-032",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "An ideal ammeter is designed with infinite electrical resistance and is wired in parallel across the circuit branch being monitored.",
+    "answer": false,
+    "explanation": "An ammeter must have near-zero (very low) internal resistance and must be connected in series so all current flows through it without modifying the circuit current. A voltmeter has very high resistance and is connected in parallel.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-033",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The optical power of a converging convex lens having a focal length of +50 cm is _____ dioptres.",
+    "answer": "+2",
+    "acceptedAnswers": [
+      "+2",
+      "2",
+      "+2 D",
+      "2 D",
+      "+2.0"
+    ],
+    "explanation": "Power P = 1 / f (in metres). Since focal length f = +50 cm = +0.5 m, P = 1 / 0.5 = +2 dioptres (D).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-034",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The optical phenomenon wherein composite white light splits into its seven constituent spectral colours when traversing a glass triangular prism is known as _____ of light.",
+    "answer": "dispersion",
+    "acceptedAnswers": [
+      "dispersion",
+      "dispersion of light"
+    ],
+    "explanation": "Dispersion occurs because refractive index varies with wavelength: shorter wavelengths (violet) refract through larger angles than longer wavelengths (red), fanning white light out into its constituent spectrum.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-035",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each fundamental electrical parameter with its standard SI unit and associated relationship:",
+    "pairs": [
+      [
+        "Electric Potential Difference",
+        "Volt (V = W / Q)"
+      ],
+      [
+        "Electric Resistance",
+        "Ohm (R = V / I)"
+      ],
+      [
+        "Electrical Resistivity",
+        "Ohm-metre (ρ = RA / L)"
+      ],
+      [
+        "Electric Power",
+        "Watt (P = V × I)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Potential difference is in Volts (J/C), Resistance in Ohms (V/A), Resistivity in Ohm-metres (Ω·m), and Power in Watts (J/s or V·A).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-036",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "An illuminated object is placed 25 cm in front of a concave mirror of focal length 15 cm. Calculate the image distance v (in cm) from the mirror pole (include the sign according to Cartesian conventions).",
+    "answer": -37.5,
+    "tolerance": 0.2,
+    "unit": "cm",
+    "explanation": "Object distance u = -25 cm, focal length f = -15 cm. Mirror equation: 1/f = 1/v + 1/u => 1/v = 1/f - 1/u = 1/(-15) - 1/(-25) = -1/15 + 1/25 = (-5 + 3)/75 = -2/75. Thus v = -75/2 = -37.5 cm. The negative sign denotes a real image formed 37.5 cm in front of the mirror.",
+    "marks": 3,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-037",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "An electric heating appliance is rated at 880 W when operated on a standard 220 V alternating domestic supply line. Calculate the electric current (in amperes) drawn by this appliance.",
+    "answer": 4,
+    "tolerance": 0.1,
+    "unit": "A",
+    "explanation": "Electric power P = V × I. Rearranging gives I = P / V = 880 W / 220 V = 4.0 A.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-038",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A cylindrical metallic wire of uniform resistivity ρ has length l and initial resistance 16 Ω. If it is uniformly stretched without loss of mass so that its final length becomes double (2l), what is the new resistance of the wire in ohms?",
+    "answer": 64,
+    "tolerance": 0.5,
+    "unit": "Ω",
+    "explanation": "Initial resistance R₁ = ρl/A = 16 Ω. Upon stretching, volume V = A·l remains constant. When length l' = 2l, the new cross-sectional area A' = A/2. The new resistance R' = ρl'/A' = ρ(2l)/(A/2) = 4(ρl/A) = 4 × 16 = 64 Ω.",
+    "marks": 3,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-039",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A convex lens of focal length 20 cm projects a sharp, real inverted image onto a screen positioned at a distance of 60 cm from the lens. Find the magnitude of the object distance (in cm) from the optical centre.",
+    "answer": 30,
+    "tolerance": 0.2,
+    "unit": "cm",
+    "explanation": "Focal length f = +20 cm. Real image on opposite side gives v = +60 cm. Lens formula: 1/f = 1/v - 1/u => 1/u = 1/v - 1/f = 1/60 - 1/20 = (1 - 3)/60 = -2/60 = -1/30. Therefore u = -30 cm, so magnitude is 30 cm.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-040",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "Examine the optical refraction diagram of a light ray traversing a rectangular glass slab. Which labelled dimension identifies the lateral displacement (d) between the incident and emergent ray paths?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 240\" width=\"100%\" height=\"200\"><rect width=\"400\" height=\"240\" fill=\"#f8fafc\" rx=\"8\"/><rect x=\"60\" y=\"60\" width=\"280\" height=\"110\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"70\" y=\"80\" font-size=\"12\" fill=\"#0369a1\" font-weight=\"bold\">Glass Slab (n &gt; 1)</text><line x1=\"50\" y1=\"10\" x2=\"130\" y2=\"60\" stroke=\"#dc2626\" stroke-width=\"2.5\"/><line x1=\"130\" y1=\"60\" x2=\"170\" y2=\"170\" stroke=\"#dc2626\" stroke-width=\"2.5\"/><line x1=\"170\" y1=\"170\" x2=\"250\" y2=\"220\" stroke=\"#dc2626\" stroke-width=\"2.5\"/><line x1=\"130\" y1=\"60\" x2=\"210\" y2=\"110\" stroke=\"#94a3b8\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"60\" x2=\"250\" y2=\"135\" stroke=\"#94a3b8\" stroke-dasharray=\"4\" stroke-width=\"1.5\"/><line x1=\"130\" y1=\"30\" x2=\"130\" y2=\"90\" stroke=\"#64748b\" stroke-dasharray=\"3\"/><line x1=\"170\" y1=\"140\" x2=\"170\" y2=\"200\" stroke=\"#64748b\" stroke-dasharray=\"3\"/><line x1=\"212\" y1=\"111\" x2=\"188\" y2=\"150\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"90\" cy=\"35\" r=\"12\" fill=\"#ef4444\"/><text x=\"86\" y=\"39\" fill=\"white\" font-size=\"11\" font-weight=\"bold\">A</text><circle cx=\"145\" cy=\"50\" r=\"12\" fill=\"#3b82f6\"/><text x=\"141\" y=\"54\" fill=\"white\" font-size=\"11\" font-weight=\"bold\">B</text><circle cx=\"205\" cy=\"135\" r=\"12\" fill=\"#10b981\"/><text x=\"201\" y=\"139\" fill=\"white\" font-size=\"11\" font-weight=\"bold\">C</text><circle cx=\"170\" cy=\"195\" r=\"12\" fill=\"#f59e0b\"/><text x=\"166\" y=\"199\" fill=\"white\" font-size=\"11\" font-weight=\"bold\">D</text></svg>"
+    },
+    "options": [
+      "Label A (Incident Ray)",
+      "Label B (Angle of Incidence)",
+      "Label C (Lateral Displacement)",
+      "Label D (Refracted Normal)"
+    ],
+    "answer": 2,
+    "explanation": "Label C designates lateral displacement: the perpendicular distance between the original incident path projected forward and the parallel emergent ray emerging from the opposing parallel glass slab interface.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-041",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the illustrated electrical circuit, resistor R₁ = 4 Ω is in series with a parallel pair R₂ = 6 Ω and R₃ = 3 Ω, powered by an ideal 12 V cell. What is the total current measured at ammeter A?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" width=\"100%\" height=\"200\"><rect width=\"400\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><line x1=\"50\" y1=\"110\" x2=\"110\" y2=\"110\" stroke=\"#1e293b\" stroke-width=\"2\"/><rect x=\"110\" y=\"98\" width=\"50\" height=\"24\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"2\"/><text x=\"118\" y=\"114\" font-size=\"11\" font-weight=\"bold\" fill=\"#9a3412\">R1=4Ω</text><line x1=\"160\" y1=\"110\" x2=\"200\" y2=\"110\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"200\" y1=\"60\" x2=\"200\" y2=\"160\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"200\" y1=\"60\" x2=\"230\" y2=\"60\" stroke=\"#1e293b\" stroke-width=\"2\"/><rect x=\"230\" y=\"48\" width=\"50\" height=\"24\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"2\"/><text x=\"238\" y=\"64\" font-size=\"11\" font-weight=\"bold\" fill=\"#9a3412\">R2=6Ω</text><line x1=\"280\" y1=\"60\" x2=\"310\" y2=\"60\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"200\" y1=\"160\" x2=\"230\" y2=\"160\" stroke=\"#1e293b\" stroke-width=\"2\"/><rect x=\"230\" y=\"148\" width=\"50\" height=\"24\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"2\"/><text x=\"238\" y=\"164\" font-size=\"11\" font-weight=\"bold\" fill=\"#9a3412\">R3=3Ω</text><line x1=\"280\" y1=\"160\" x2=\"310\" y2=\"160\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"310\" y1=\"60\" x2=\"310\" y2=\"160\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"310\" y1=\"110\" x2=\"350\" y2=\"110\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"350\" y1=\"110\" x2=\"350\" y2=\"200\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"350\" y1=\"200\" x2=\"230\" y2=\"200\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"190\" y1=\"200\" x2=\"50\" y2=\"200\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"50\" y1=\"200\" x2=\"50\" y2=\"110\" stroke=\"#1e293b\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"110\" r=\"14\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"75\" y=\"115\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e40af\">A</text><line x1=\"210\" y1=\"190\" x2=\"210\" y2=\"210\" stroke=\"#1e293b\" stroke-width=\"3\"/><line x1=\"204\" y1=\"195\" x2=\"204\" y2=\"205\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><text x=\"194\" y=\"185\" font-size=\"12\" font-weight=\"bold\" fill=\"#047857\">12 V</text></svg>"
+    },
+    "options": [
+      "1.0 A",
+      "2.0 A",
+      "3.0 A",
+      "4.0 A"
+    ],
+    "answer": 1,
+    "explanation": "Equivalent resistance of R₂ and R₃ in parallel: R_p = (6 × 3) / (6 + 3) = 18 / 9 = 2 Ω. Total equivalent resistance R_eq = R₁ + R_p = 4 + 2 = 6 Ω. Total circuit current recorded by ammeter A is I = V / R_eq = 12 V / 6 Ω = 2.0 A.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-042",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "State the key distinction between an alternating current (AC) and a direct current (DC).",
+    "sampleAnswer": "Direct current (DC) flows continuously in one fixed direction, whereas alternating current (AC) reverses its direction of flow periodically at regular time intervals.",
+    "acceptedAnswers": [
+      "Direct current flows unidirectionally while alternating current reverses periodically.",
+      "DC flows in one direction only; AC periodically reverses direction of flow."
+    ],
+    "keywords": [
+      "direction",
+      "reverses",
+      "periodically",
+      "fixed"
+    ],
+    "explanation": "DC flows unidirectionally from positive to negative terminal without reversing. In contrast, AC reverses direction periodically (e.g. 50 Hz in Indian domestic supplies where direction flips every 1/100 second).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-043",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why do distant stars appear to twinkle when observed from the ground at night?",
+    "sampleAnswer": "Stars twinkle because their light undergoes continuous atmospheric refraction through turbulent layers of air with fluctuating temperatures and optical densities, causing the intensity and apparent position of starlight entering the eye to vary continuously.",
+    "acceptedAnswers": [
+      "Due to atmospheric refraction of starlight through layers of air of varying refractive index.",
+      "Turbulent atmospheric layers cause varying refraction and fluctuations in apparent brightness of point-sized stars."
+    ],
+    "keywords": [
+      "atmospheric refraction",
+      "optical density",
+      "fluctuating",
+      "point source"
+    ],
+    "explanation": "Starlight enters Earth's atmosphere and bends towards the normal. Because atmospheric conditions (temperature, density) drift continuously, the apparent position and amount of starlight reaching the eye fluctuate, causing perceived twinkling.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-044",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Tungsten metal is almost exclusively selected for constructing the filaments of electric incandescent bulbs.\nReason (R): Tungsten possesses an exceptionally high melting point (approx 3380 °C) and high electrical resistivity, enabling it to glow white-hot without melting.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Filament lamps operate by emitting thermal radiation when heated to incandescent temperatures (>2500 °C). Tungsten's ultra-high melting point (3380 °C) and high resistance allow it to retain Joule heat without melting or disintegrating.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-045",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): A ray of light incident perpendicular (normally) onto an optical interface separating two distinct media passes into the second medium without any deviation.\nReason (R): When the angle of incidence i = 0°, according to Snell's law (sin i / sin r = n), the angle of refraction r must also be 0°.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "By Snell's law, sin i / sin r = n₂ / n₁. If the ray is normal to the surface, i = 0° => sin i = 0 => sin r = 0 => r = 0°. Thus the refracted ray travels straight ahead along the normal without deviating.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-046",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following actions will increase the magnetic field strength inside a current-carrying cylindrical solenoid?",
+    "options": [
+      "Increasing the magnitude of electric current flowing through the coil",
+      "Increasing the number of wire turns per unit length",
+      "Inserting a soft iron core rod inside the interior hollow space",
+      "Reversing the polarity of the DC voltage source"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Magnetic field B inside a long solenoid is given by B = μ₀·n·I. Increasing current I, increasing turns density n, or introducing a high-permeability soft iron core (μ_r >> 1) markedly amplifies B. Reversing polarity inverts field direction without changing its magnitude.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-047",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Identify all properties that consistently describe images formed by a flat plane mirror:",
+    "options": [
+      "The image is virtual and erect",
+      "The image exhibits lateral inversion (left-right inversion)",
+      "The image size exactly equals the object size",
+      "The image is real and inverted on a screen"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Images formed by a plane mirror are always virtual, erect, equal in dimensions to the object, situated at the same perpendicular distance behind the mirror, and laterally inverted.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-048",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Sources of Energy",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following represent major operational, environmental, or safety challenges linked directly with nuclear power generation?",
+    "options": [
+      "Safe containment and multi-millennial storage of intensely radioactive spent fuel rods",
+      "Severe ecological consequences in the event of an accidental core meltdown or containment rupture",
+      "Continuous atmospheric emission of greenhouse gases like CO₂ during normal fission operations",
+      "Extremely demanding technical procedures and enormous capital expense for decommissioning ageing nuclear reactors"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Nuclear reactors do not release greenhouse gases such as CO₂ or smog-forming gases during baseline generation. The core problems are radioactive waste disposal, radioactive catastrophe risks, and astronomical decommissioning costs.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-049",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the visible spectral colours emerging from a glass prism in order of increasing angle of deviation (from least deviated to most deviated):",
+    "orderedItems": [
+      "Red (longest wavelength in visible spectrum)",
+      "Yellow",
+      "Green",
+      "Blue",
+      "Violet (shortest wavelength in visible spectrum)"
+    ],
+    "answer": "ordered",
+    "explanation": "Red light has the longest wavelength and highest propagation speed in glass, undergoing minimal deviation. Violet light has the shortest wavelength and slowest speed in glass, undergoing maximal deviation. Angle of deviation increases from Red to Violet (VIBGYOR in reverse).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-050",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following representative substances in order of increasing electrical resistivity at 20 °C (from finest conductor to strongest electrical insulator):",
+    "orderedItems": [
+      "Silver (1.60 × 10⁻⁸ Ω·m)",
+      "Copper (1.62 × 10⁻⁸ Ω·m)",
+      "Nichrome alloy (100 × 10⁻⁶ Ω·m)",
+      "Glass (10¹⁰ to 10¹⁴ Ω·m)",
+      "Hard Rubber / Ebonite (10¹⁵ to 10¹⁷ Ω·m)"
+    ],
+    "answer": "ordered",
+    "explanation": "Sequence of increasing resistivity: Silver < Copper (good conductors) < Nichrome (heating alloy) < Glass (insulator) < Hard Rubber / Ebonite (top insulator).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-051",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The commercial billing unit of electrical energy consumed in households and industries is kilowatt-hour (kWh). Exactly how many joules does 1 kWh equal?",
+    "options": [
+      "3.6 × 10⁵ J",
+      "3.6 × 10⁶ J",
+      "3.6 × 10⁴ J",
+      "1.0 × 10³ J"
+    ],
+    "answer": 1,
+    "explanation": "1 kWh = 1 kW × 1 h = 1000 W × 3600 s = 3.6 × 10⁶ J (joules).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-052",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "According to Fleming's Left-Hand Rule used for electric motors, what do the forefinger, middle finger, and thumb represent respectively when held mutually perpendicular?",
+    "options": [
+      "Magnetic field, electric current, and force (motion)",
+      "Electric current, magnetic field, and force (motion)",
+      "Force (motion), magnetic field, and electric current",
+      "Electric current, induced EMF, and magnetic field"
+    ],
+    "answer": 0,
+    "explanation": "In Fleming's Left-Hand Rule: Forefinger represents the direction of the Magnetic Field, Middle finger represents the direction of Electric Current, and Thumb denotes the direction of Motion / mechanical Force.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-053",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which physical phenomenon is responsible for the Sun being visible to an observer on Earth roughly 2 minutes before actual sunrise and 2 minutes after actual sunset?",
+    "options": [
+      "Total internal reflection in upper stratosphere",
+      "Atmospheric refraction of sunlight through varying air densities",
+      "Rayleigh scattering of shorter solar wavelengths",
+      "Optical dispersion by suspended aerosol droplets"
+    ],
+    "answer": 1,
+    "explanation": "Atmospheric refraction bends sunlight downwards as it enters progressively denser layers of air near Earth's surface, shifting the apparent position of the Sun upward by approx 0.5°, causing early sunrise and delayed sunset.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-054",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Sources of Energy",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the primary combustible fuel constituent that makes up up to 75% of biogas produced in an anaerobic digester?",
+    "options": [
+      "Methane (CH₄)",
+      "Propane (C₃H₈)",
+      "Carbon monoxide (CO)",
+      "Ethane (C₂H₆)"
+    ],
+    "answer": 0,
+    "explanation": "Biogas generated by anaerobic microbial decomposition of cow dung (gobar) and biomass contains up to 75% methane (CH₄). It burns cleanly without producing smoke or particulate soot.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-055",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Light travels from water (absolute refractive index 4/3) into glass (absolute refractive index 3/2). What is the relative refractive index of glass with respect to water (ʷn_g)?",
+    "options": [
+      "8/9",
+      "9/8",
+      "2/1",
+      "5/6"
+    ],
+    "answer": 1,
+    "explanation": "Relative refractive index ʷn_g = n_glass / n_water = (3/2) / (4/3) = (3/2) × (3/4) = 9/8 = 1.125.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-056",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Two continuous magnetic field lines can never cross or intersect one another at any point in space.",
+    "answer": true,
+    "explanation": "At any point on a field line, the tangent gives the direction of the magnetic field. If two lines intersected, a compass placed at that intersection would point in two different directions simultaneously, which is impossible.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-057",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Sources of Energy",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Semiconductor photovoltaic solar cells operate by converting incident solar thermal heat directly into mechanical kinetic energy.",
+    "answer": false,
+    "explanation": "Solar cells (photovoltaic cells) convert solar light energy directly into electrical energy via the photovoltaic effect, not into mechanical energy.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-058",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "According to Joule's law of heating, the thermal energy H generated in a resistor of resistance R carrying a steady current I over duration t is mathematically given by H = _____ (enter formula without spaces).",
+    "answer": "I^2Rt",
+    "acceptedAnswers": [
+      "I^2Rt",
+      "I²Rt",
+      "I^2*R*t",
+      "I*I*R*t"
+    ],
+    "explanation": "Joule's law of heating states that H = I²Rt, meaning heat generated is directly proportional to square of current, resistance, and time.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-059",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The dark, muscular diaphragm behind the cornea that regulates pupil aperture and controls the quantity of light entering the human eye is called the _____.",
+    "answer": "iris",
+    "acceptedAnswers": [
+      "iris",
+      "the iris"
+    ],
+    "explanation": "The iris controls pupil diameter: in bright illumination it contracts the pupil, and in dim illumination it dilates the pupil to admit more light.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-060",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each visual condition with its anatomical cause or pathological basis:",
+    "pairs": [
+      [
+        "Myopia (Near-sightedness)",
+        "Elongation of eyeball or excessive curvature of cornea"
+      ],
+      [
+        "Hypermetropia (Far-sightedness)",
+        "Shortening of eyeball or focal length of lens too long"
+      ],
+      [
+        "Presbyopia (Old-age defect)",
+        "Gradual weakening of ciliary muscles and hardening of eye lens"
+      ],
+      [
+        "Cataract",
+        "Crystalline lens turns cloudy, opaque and milky from protein aggregation"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Myopia stems from elongated eyeball; hypermetropia from shortened eyeball; presbyopia from diminished accommodation with aging; cataract from opacification of the lens.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-061",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Sources of Energy",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each alternative energy resource with its fundamental operating principle:",
+    "pairs": [
+      [
+        "Geothermal Energy",
+        "Extracting subterranean steam from deep hot spots heated by magma"
+      ],
+      [
+        "Ocean Thermal Energy (OTEC)",
+        "Exploiting temperature gradient between warm surface water and cold deep sea"
+      ],
+      [
+        "Nuclear Fission",
+        "Splitting heavy fissile nuclei by low-energy thermal neutrons"
+      ],
+      [
+        "Wind Energy",
+        "Converting atmospheric air kinetic energy into turbine electrical output"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Geothermal utilizes volcanic hot spot heat; OTEC utilizes vertical marine thermoclines; fission splits heavy nuclei; wind harnesses kinetic energy of moving air.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-062",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "An electric water heater is rated at 1500 W. If it is operated for 2 hours daily, compute the total electrical energy consumed (in kWh) during a 30-day month.",
+    "answer": 90,
+    "tolerance": 0.1,
+    "unit": "kWh",
+    "explanation": "Power P = 1.5 kW. Daily energy = 1.5 kW × 2 h = 3.0 kWh. Over 30 days: Total energy = 3.0 kWh/day × 30 days = 90.0 kWh.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-063",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A concave lens has a focal length of 15 cm. At what distance (in cm) from the lens should an object be placed so that it forms an image 10 cm from the lens? (State the magnitude of object distance).",
+    "answer": 30,
+    "tolerance": 0.2,
+    "unit": "cm",
+    "explanation": "For concave lens: f = -15 cm, image distance v = -10 cm (virtual, on same side). Lens formula: 1/f = 1/v - 1/u => 1/u = 1/v - 1/f = 1/(-10) - 1/(-15) = -1/10 + 1/15 = (-3 + 2)/30 = -1/30. Thus u = -30 cm, so magnitude is 30 cm.",
+    "marks": 3,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-064",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "A steady potential difference of 24 V is connected across a series combination of two resistors of resistances 4 Ω and 8 Ω. Determine the potential difference (in volts) across the 8 Ω resistor.",
+    "answer": 16,
+    "tolerance": 0.1,
+    "unit": "V",
+    "explanation": "Total resistance R_total = 4 + 8 = 12 Ω. Circuit current I = V / R_total = 24 V / 12 Ω = 2 A. Voltage across 8 Ω resistor: V₂ = I × R₂ = 2 A × 8 Ω = 16 V.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-065",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Light enters from air into a medium of absolute refractive index 1.50. If the speed of light in vacuum is 3.0 × 10⁸ m/s, determine the speed of light in this medium (express your answer in units of 10⁸ m/s).",
+    "answer": 2,
+    "tolerance": 0.05,
+    "unit": "10⁸ m/s",
+    "explanation": "Refractive index n = c / v => v = c / n = (3.0 × 10⁸ m/s) / 1.50 = 2.0 × 10⁸ m/s.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-066",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram depicts Isaac Newton's classic dual-prism demonstration. White light undergoes dispersion in prism P₁ and then passes through an inverted identical prism P₂. What emerges from the far face of prism P₂?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 220\" width=\"100%\" height=\"200\"><rect width=\"400\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><polygon points=\"80,180 140,50 200,180\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"130\" y=\"150\" font-size=\"12\" font-weight=\"bold\" fill=\"#0369a1\">P1</text><polygon points=\"205,60 265,190 325,60\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"255\" y=\"90\" font-size=\"12\" font-weight=\"bold\" fill=\"#0369a1\">P2</text><line x1=\"20\" y1=\"130\" x2=\"100\" y2=\"110\" stroke=\"#475569\" stroke-width=\"3\"/><text x=\"20\" y=\"100\" font-size=\"11\" font-weight=\"bold\" fill=\"#334155\">White light</text><line x1=\"100\" y1=\"110\" x2=\"235\" y2=\"100\" stroke=\"#dc2626\" stroke-width=\"2\"/><line x1=\"100\" y1=\"110\" x2=\"245\" y2=\"140\" stroke=\"#7c3aed\" stroke-width=\"2\"/><line x1=\"235\" y1=\"100\" x2=\"305\" y2=\"125\" stroke=\"#dc2626\" stroke-width=\"2\"/><line x1=\"245\" y1=\"140\" x2=\"305\" y2=\"125\" stroke=\"#7c3aed\" stroke-width=\"2\"/><line x1=\"305\" y1=\"125\" x2=\"380\" y2=\"125\" stroke=\"#475569\" stroke-width=\"3\"/><circle cx=\"350\" cy=\"125\" r=\"12\" fill=\"#10b981\"/><text x=\"346\" y=\"129\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">R</text><text x=\"310\" y=\"155\" font-size=\"11\" font-weight=\"bold\" fill=\"#047857\">Emergent Beam</text></svg>"
+    },
+    "options": [
+      "A broadened rainbow pattern of 7 distinct separated colours",
+      "A recombined beam of composite white light",
+      "Pure monochromatic green light only",
+      "Infrared and ultraviolet radiation only"
+    ],
+    "answer": 1,
+    "explanation": "Prism P₁ disperses white light into its component spectral colours, while identical inverted prism P₂ refracts all dispersed wavelengths back together by equal and opposite deviations, producing an emergent recombined white light beam.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-067",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the illustrated magnetic field mapping around a permanent bar magnet, which labelled pole corresponds to the North magnetic pole from which external field lines emerge?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 200\" width=\"100%\" height=\"200\"><rect width=\"400\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><rect x=\"130\" y=\"80\" width=\"70\" height=\"40\" fill=\"#ef4444\" stroke=\"#b91c1c\" stroke-width=\"2\"/><text x=\"155\" y=\"105\" font-size=\"16\" font-weight=\"bold\" fill=\"white\">N</text><rect x=\"200\" y=\"80\" width=\"70\" height=\"40\" fill=\"#3b82f6\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"225\" y=\"105\" font-size=\"16\" font-weight=\"bold\" fill=\"white\">S</text><path d=\"M 140,80 C 140,20 260,20 260,80\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"2\"/><path d=\"M 140,120 C 140,180 260,180 260,120\" fill=\"none\" stroke=\"#64748b\" stroke-width=\"2\"/><polygon points=\"200,26 210,30 200,34\" fill=\"#64748b\"/><polygon points=\"200,166 210,170 200,174\" fill=\"#64748b\"/><circle cx=\"140\" cy=\"100\" r=\"12\" fill=\"#10b981\"/><text x=\"136\" y=\"104\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><circle cx=\"260\" cy=\"100\" r=\"12\" fill=\"#f59e0b\"/><text x=\"256\" y=\"104\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">B</text></svg>"
+    },
+    "options": [
+      "Pole A (North Pole)",
+      "Pole B (South Pole)",
+      "Central neutral axis",
+      "Equatorial midpoint"
+    ],
+    "answer": 0,
+    "explanation": "Magnetic field lines outside a bar magnet emerge from the North pole (labelled A) and curve round to enter at the South pole (labelled B).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-068",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why are domestic electrical appliances in a household wired in parallel rather than in series?",
+    "sampleAnswer": "Parallel wiring ensures that every appliance receives the full mains supply voltage (220 V) and operates with an independent switch. If one appliance faults or is switched off, other appliances continue functioning without interruption.",
+    "acceptedAnswers": [
+      "Each appliance receives full line voltage (220 V) and operates independently without failure cascading.",
+      "Parallel connection provides constant 220 V across all appliances and individual switching control."
+    ],
+    "keywords": [
+      "full voltage",
+      "independent switch",
+      "continue functioning",
+      "fails"
+    ],
+    "explanation": "In series, voltage is divided among appliances and a fault in any one device breaks the entire circuit. In parallel, each appliance receives full line voltage (220 V) and can be controlled independently.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-069",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "State the two mandatory physical conditions required for total internal reflection to occur at an optical boundary.",
+    "sampleAnswer": "1) Light must travel from an optically denser medium into an optically rarer medium. 2) The angle of incidence in the denser medium must exceed the critical angle for the two media.",
+    "acceptedAnswers": [
+      "Light travels from denser to rarer medium, and angle of incidence exceeds the critical angle.",
+      "1. Ray moves from denser to rarer medium. 2. Angle of incidence > critical angle."
+    ],
+    "keywords": [
+      "denser to rarer",
+      "angle of incidence",
+      "exceeds",
+      "critical angle"
+    ],
+    "explanation": "Total internal reflection occurs only when light originates in a denser medium heading towards a rarer medium at an angle of incidence greater than the critical angle (i > c), preventing any transmission into the second medium.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-070",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): The clear daytime sky appears predominantly blue to a ground observer on Earth.\nReason (R): Atmospheric molecules of nitrogen and oxygen have particle sizes much smaller than visible wavelengths and scatter shorter blue wavelengths significantly more effectively than longer red wavelengths.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "By Rayleigh scattering, scattered light intensity is inversely proportional to the fourth power of wavelength (I ∝ 1/λ⁴). Fine atmospheric molecules preferentially scatter shorter blue wavelengths, giving the clear sky its blue appearance.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-071",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): A stationary electric charge placed inside a strong uniform magnetic field experiences zero magnetic deflecting force.\nReason (R): The magnetic Lorentz force exerted on a charged particle of charge q is given by F = q·v·B·sin θ, which evaluates identically to zero when velocity v = 0.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Magnetic fields interact only with moving charges (which produce their own magnetic fields). For a charge at rest (v = 0), the magnetic force F = q(v × B) = 0.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-072",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following physical factors directly govern the electrical resistance of a uniform cylindrical metallic conductor at constant temperature?",
+    "options": [
+      "Length of the conductor (directly proportional)",
+      "Cross-sectional area of the conductor (inversely proportional)",
+      "Nature of the metallic material (specific resistivity ρ)",
+      "Atmospheric air pressure surrounding the conductor"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Resistance R = ρL/A. It depends directly on length L, inversely on cross-sectional area A, and on material composition (resistivity ρ) and temperature. It is independent of ambient air pressure.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-073",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Select all optical configurations that produce a virtual, erect, and magnified image of an object:",
+    "options": [
+      "Concave mirror with object positioned between the pole P and principal focus F",
+      "Convex lens with object positioned between optical centre O and principal focus F",
+      "Convex mirror with object placed at infinity",
+      "Concave lens with object placed at 2F"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "A concave mirror magnifies virtual images when the object is between P and F (used as shaving/dentist mirror). A convex lens magnifies virtual images when the object is within the focal length (simple magnifier). Convex mirrors and concave lenses always produce diminished virtual images.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-074",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the anatomical structures through which an incoming ray of light passes in order from the outside of the human eye to the photoreceptors:",
+    "orderedItems": [
+      "Cornea (outermost transparent curved protective membrane)",
+      "Aqueous humour (clear fluid in anterior chamber)",
+      "Pupil (central aperture modulated by the iris)",
+      "Crystalline eye lens (flexible convex lens)",
+      "Vitreous humour (transparent jelly-like posterior fluid)",
+      "Retina (inner sensory membrane with rods and cones)"
+    ],
+    "answer": "ordered",
+    "explanation": "Light progression through eye: Cornea -> Aqueous humour -> Pupil -> Crystalline lens -> Vitreous humour -> Retina.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-075",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the operational sequence of events in an alternating current (AC) generator producing electrical output:",
+    "orderedItems": [
+      "An external mechanical prime mover continuously rotates the armature coil in a permanent magnetic field.",
+      "The magnetic flux linking the revolving coil changes continuously with time.",
+      "Electromagnetic induction induces an alternating electromotive force as governed by Fleming's Right-Hand Rule.",
+      "The ends of the armature maintain continuous rotating contact with two isolated slip rings.",
+      "Stationary carbon brushes conduct the reversing alternating current out to the external load circuit."
+    ],
+    "answer": "ordered",
+    "explanation": "AC Generator sequence: Mechanical shaft rotation -> Flux change -> Induced EMF -> Slip rings rotation -> Brush collection to external circuit.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-076",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the focal length of a spherical mirror whose radius of curvature is 24 cm?",
+    "options": [
+      "12 cm",
+      "48 cm",
+      "6 cm",
+      "24 cm"
+    ],
+    "answer": 0,
+    "explanation": "For any spherical mirror with a small aperture, the focal length is half of its radius of curvature: f = R / 2 = 24 / 2 = 12 cm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-077",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which combination of four identical 4 Ω resistors will yield an equivalent resistance of exactly 4 Ω?",
+    "options": [
+      "Two pairs in series connected in parallel with each other (two parallel branches of 8 Ω each)",
+      "All four connected in series with each other",
+      "All four connected in parallel with each other",
+      "Three in parallel in series with the fourth resistor"
+    ],
+    "answer": 0,
+    "explanation": "Connecting two 4 Ω resistors in series produces 8 Ω per branch. Connecting two such 8 Ω branches in parallel yields R_eq = (8 × 8) / (8 + 8) = 64 / 16 = 4 Ω.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-078",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What standard color insulation is used for the safety earth wire in Indian domestic electrical installations?",
+    "options": [
+      "Green (or green with yellow stripes)",
+      "Red (or brown)",
+      "Black (or light blue)",
+      "Bright yellow"
+    ],
+    "answer": 0,
+    "explanation": "In standard domestic wiring: Earth wire is insulated in green (or green-yellow stripes), Live wire is red (or brown), and Neutral wire is black (or blue).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-079",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Why are optical danger signal lights positioned atop towers and transport junctions consistently illuminated in red color?",
+    "options": [
+      "Red light has the longest visible wavelength and is scattered the least by fog and smoke particles",
+      "Red light is scattered most intensely by atmospheric nitrogen molecules",
+      "Red light undergoes the highest degree of refractive bending through air",
+      "Red light travels significantly faster in air than violet light"
+    ],
+    "answer": 0,
+    "explanation": "By Rayleigh scattering, scattering intensity is inversely proportional to λ⁴. Because red light has the longest wavelength in the visible spectrum, it scatters least through haze, fog, and smoke, remaining clearly visible over large distances.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-080",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Sources of Energy",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "What primary physical constraint has prevented controlled nuclear fusion from being utilized for commercial power generation to date?",
+    "options": [
+      "Sustaining stable plasma confinement at extreme temperatures exceeding 10⁸ K requires formidable engineering and high net energy input",
+      "Hydrogen isotope fuels (deuterium) are nonexistent on Earth",
+      "Fusion generates vastly larger quantities of high-level long-lived radioactive actinide wastes than fission",
+      "The specific energy release per unit mass of fusion reactants is lower than fossil fuels"
+    ],
+    "answer": 0,
+    "explanation": "Fusion requires positively charged hydrogen nuclei to overcome colossal electrostatic Coulomb repulsion, necessitating thermonuclear plasma temperatures exceeding 100 million Kelvin and immense magnetic or inertial confinement that remain difficult to sustain with net energy surplus.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-081",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A piece of uniform metallic wire of resistance R is cut into five equal parts. These five parts are then reconnected in parallel combination. If the effective resistance of this parallel network is R', what is the ratio R / R'?",
+    "options": [
+      "25",
+      "5",
+      "1/5",
+      "1/25"
+    ],
+    "answer": 0,
+    "explanation": "Each of the 5 segments has resistance r = R / 5. When connected in parallel: 1/R' = 5 × (1 / r) = 5 × (5 / R) = 25 / R. Thus R' = R / 25, which gives R / R' = 25.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-082",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The specific electrical resistivity of a metallic material is an intrinsic property that remains independent of the length and cross-sectional thickness of the wire.",
+    "answer": true,
+    "explanation": "Electrical resistivity (ρ) is an intrinsic physical property of the material dependent solely on chemical composition and temperature, whereas resistance (R = ρL/A) depends on length and cross-sectional area.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-083",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "A spherical convex mirror can produce a real, inverted image on a screen if the real object is positioned beyond its centre of curvature.",
+    "answer": false,
+    "explanation": "A convex mirror diverges reflected rays and ALWAYS forms a virtual, erect, and diminished image located behind the mirror, irrespective of where the real object is positioned.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-084",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The physical process of generating an electric current in a closed conductor loop by varying the magnetic field surrounding it is called _____ induction.",
+    "answer": "electromagnetic",
+    "acceptedAnswers": [
+      "electromagnetic",
+      "electromagnetic induction"
+    ],
+    "explanation": "Discovered by Michael Faraday in 1831, electromagnetic induction is the generation of an electromotive force (and current) across an electrical conductor situated in a changing magnetic field.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-085",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The biological capability of the human eye lens to modulate its focal length via ciliary muscle contraction so as to focus both nearby and distant targets sharply is known as the power of _____.",
+    "answer": "accommodation",
+    "acceptedAnswers": [
+      "accommodation",
+      "accommodation of the eye"
+    ],
+    "explanation": "Power of accommodation enables the crystalline lens to become thicker (more curved, shorter focal length) for viewing nearby objects and thinner (less curved, longer focal length) for distant objects.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-086",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each object placement in front of a concave mirror with its corresponding image location and nature:",
+    "pairs": [
+      [
+        "At infinity",
+        "At principal focus F (real, inverted, highly diminished point-sized)"
+      ],
+      [
+        "Beyond centre of curvature C",
+        "Between F and C (real, inverted, diminished)"
+      ],
+      [
+        "At centre of curvature C",
+        "At centre of curvature C (real, inverted, same size as object)"
+      ],
+      [
+        "Between principal focus F and pole P",
+        "Behind the mirror (virtual, erect, magnified)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Concave mirror imaging varies from a point image at F for objects at infinity, to equal size at C, to a magnified virtual image behind the mirror when placed within the focal point.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-087",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "A current of 0.5 A is drawn by an incandescent filament lamp for a continuous duration of 10 minutes. Calculate the total quantity of electric charge (in coulombs) that passes through the circuit.",
+    "answer": 300,
+    "tolerance": 1,
+    "unit": "C",
+    "explanation": "Electric charge Q = I × t. Current I = 0.5 A, time t = 10 minutes = 10 × 60 = 600 s. Q = 0.5 A × 600 s = 300 Coulombs.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-088",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Two electric bulbs rated 220 V; 100 W and 220 V; 60 W are connected in parallel to an electric mains supply of 220 V. Calculate the total current (in amperes) drawn from the mains line (round to two decimal places).",
+    "answer": 0.73,
+    "tolerance": 0.02,
+    "unit": "A",
+    "explanation": "Total power consumed in parallel combination P = 100 W + 60 W = 160 W. Mains supply voltage V = 220 V. Total current drawn I = P / V = 160 W / 220 V = 16 / 22 = 8 / 11 ≈ 0.727 A (rounded to 0.73 A).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-089",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A convex lens produces a real, inverted image of a needle at a distance of 50 cm from the lens. If the image is of the exact same size as the needle, calculate the optical power of the lens in dioptres (D).",
+    "answer": 4,
+    "tolerance": 0.1,
+    "unit": "D",
+    "explanation": "When a real inverted image equals the object size in a convex lens, the object is at 2F₁ and the image is at 2F₂. Therefore 2f = 50 cm => f = 25 cm = +0.25 m. Power P = 1 / f = 1 / 0.25 = +4.0 dioptres.",
+    "marks": 3,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-090",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "100 J of thermal heat is generated each second in a 4 Ω resistor. Calculate the electrical potential difference (in volts) maintained across the terminals of this resistor.",
+    "answer": 20,
+    "tolerance": 0.2,
+    "unit": "V",
+    "explanation": "Rate of heat production (Power) P = V² / R. Here P = 100 J/s = 100 W, and R = 4 Ω. V² = P × R = 100 × 4 = 400 => V = √400 = 20 V.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-091",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "An illuminated object of height 5 cm is placed 20 cm in front of a concave mirror having a focal length of 15 cm. Find the height of the formed image in cm (specify the Cartesian sign: negative for inverted).",
+    "answer": -15,
+    "tolerance": 0.2,
+    "unit": "cm",
+    "explanation": "Object distance u = -20 cm, focal length f = -15 cm. Mirror formula: 1/v = 1/f - 1/u = -1/15 - (-1/20) = -1/15 + 1/20 = (-4 + 3)/60 = -1/60 => v = -60 cm. Magnification m = -v / u = -(-60) / (-20) = -3. Image height h' = m × h = -3 × 5 cm = -15 cm.",
+    "marks": 3,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-092",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the optical diagram of a thin biconvex lens, which letter identifies the optical centre (O) through which an incident ray passes without experiencing any angular deviation?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 200\" width=\"100%\" height=\"200\"><rect width=\"400\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><line x1=\"20\" y1=\"100\" x2=\"380\" y2=\"100\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><path d=\"M 200,30 C 220,60 220,140 200,170 C 180,140 180,60 200,30 Z\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"2\"/><line x1=\"60\" y1=\"30\" x2=\"340\" y2=\"170\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"200\" cy=\"100\" r=\"12\" fill=\"#10b981\"/><text x=\"196\" y=\"104\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><circle cx=\"140\" cy=\"100\" r=\"10\" fill=\"#3b82f6\"/><text x=\"136\" y=\"104\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">B</text><circle cx=\"260\" cy=\"100\" r=\"10\" fill=\"#f59e0b\"/><text x=\"256\" y=\"104\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">C</text><circle cx=\"80\" cy=\"100\" r=\"10\" fill=\"#8b5cf6\"/><text x=\"76\" y=\"104\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">D</text></svg>"
+    },
+    "options": [
+      "Point A (Optical Centre O)",
+      "Point B (Principal Focus F1)",
+      "Point C (Principal Focus F2)",
+      "Point D (Centre of Curvature 2F1)"
+    ],
+    "answer": 0,
+    "explanation": "Point A is the central geometric point of the lens, known as the optical centre (O). A ray of light traversing the optical centre emerges without undergoing any net angular deflection.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-093",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the primary function of earthing the metallic body of heavy domestic electrical appliances?",
+    "sampleAnswer": "Earthing provides an almost zero-resistance return pathway to the Earth for any stray electrical leakage current, ensuring that if a live wire contacts the metallic body, current shunts harmlessly into the ground, triggering the circuit fuse and preventing severe electric shock to users.",
+    "acceptedAnswers": [
+      "Provides low-resistance path to Earth, diverting leakage currents and protecting users from electric shocks.",
+      "Ensures metallic body of appliance remains at zero ground potential, blowing the fuse during faults."
+    ],
+    "keywords": [
+      "low resistance",
+      "ground",
+      "leakage current",
+      "electric shock"
+    ],
+    "explanation": "Earthing bonds the metallic exterior of appliances to a ground buried conductor. If an insulation fault energizes the casing, current flows into the ground rather than through the human body, blowing the fuse or tripping the MCB.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-094",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why do planets not twinkle when observed from the surface of Earth at night, unlike stars?",
+    "sampleAnswer": "Planets are situated much closer to Earth and therefore subtend larger visual angles, acting as extended sources consisting of a collection of many point sources of light. Fluctuations in brightness caused by atmospheric refraction from different points cancel and average out to zero.",
+    "acceptedAnswers": [
+      "Planets are close extended light sources; the variations in refraction from different points average out to zero.",
+      "Due to proximity, planets act as discs of multiple point sources whose atmospheric flickering cancels out."
+    ],
+    "keywords": [
+      "closer to Earth",
+      "extended sources",
+      "average out",
+      "cancel"
+    ],
+    "explanation": "Because planets are relatively close to Earth, they appear as extended discs rather than point sources. The total variation in the amount of light entering the eye from all points averages out to zero, nullifying the twinkling effect.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-095",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): In a series electric circuit, if one incandescent bulb burns out, all other connected light bulbs immediately go out.\nReason (R): In a series circuit, there exists only a single continuous closed conducting loop for electric current; a break at any point stops current flow everywhere in the circuit.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Because all series components share a single common current path, a broken filament in any one lamp creates an open circuit, instantly interrupting current to every other component.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-096",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Sources of Energy",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Box-type solar cookers are enclosed with a transparent glass sheet lid over a blackened inner cooking compartment.\nReason (R): The transparent glass lid allows short-wavelength solar radiation to enter while reflecting back long-wavelength infrared thermal radiation, producing a localized greenhouse effect that elevates interior cooking temperatures.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Glass is transparent to incoming high-frequency solar rays but opaque to lower-frequency thermal infrared re-emitted by the blackened interior, trapping thermal energy via the greenhouse effect and raising temperatures to 100–140 °C.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-097",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Magnetic Effects of Electric Current",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following characteristics accurately describe the magnetic field lines inside the central region of a long current-carrying straight solenoid?",
+    "options": [
+      "The field lines are straight and parallel to the longitudinal axis of the solenoid",
+      "The magnetic field is uniform in strength and direction across the interior cross-section",
+      "The overall external field distribution outside the solenoid strongly resembles that of a permanent bar magnet",
+      "The magnetic field inside the solenoid is identically zero"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Inside a long solenoid, the magnetic field is uniform and aligned with the axis, represented by equidistant parallel straight lines. Externally, the magnetic field loops from the north-seeking end to the south-seeking end, exactly mimicking a bar magnet.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-098",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "The Human Eye and the Colourful World",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Select all essential optical processes and conditions involved in the natural formation of a primary rainbow in the sky:",
+    "options": [
+      "The Sun must be positioned directly behind the observer facing the rain shower",
+      "Suspended spherical raindrops act as miniature dispersing prisms",
+      "Incident sunlight undergoes refraction, dispersion, internal reflection, and emergent refraction inside each raindrop",
+      "The atmospheric air must be completely dry and devoid of water droplets"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Rainbow formation requires rain droplets in front of an observer with the Sun behind. Sunlight enters each droplet, refracts and disperses into colors, undergoes internal reflection at the back droplet surface, and refracts again upon emerging into the air.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-099",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Electricity",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following household electrical appliances in order of increasing typical operational current drawn from an Indian 220 V supply mains (from lowest current to highest current):",
+    "orderedItems": [
+      "LED bulb (11 W, approx 0.05 A)",
+      "Ceiling fan (75 W, approx 0.34 A)",
+      "Television set (150 W, approx 0.68 A)",
+      "Electric toaster (880 W, approx 4.0 A)",
+      "Room Air Conditioner (2200 W, approx 10.0 A)"
+    ],
+    "answer": "ordered",
+    "explanation": "Because I = P / 220 V, operating current increases strictly with rated power: LED bulb (11 W) < Fan (75 W) < TV (150 W) < Toaster (880 W) < AC (2200 W).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-physics-100",
+    "class": 10,
+    "subject": "physics",
+    "chapter": "Light: Reflection and Refraction",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following transparent media in order of increasing absolute optical refractive index at sodium D-line wavelength (from lowest refractive index / highest speed to highest refractive index / lowest speed):",
+    "orderedItems": [
+      "Air (n ≈ 1.0003)",
+      "Water (n ≈ 1.33)",
+      "Kerosene oil (n ≈ 1.44)",
+      "Crown glass (n ≈ 1.52)",
+      "Diamond (n ≈ 2.42)"
+    ],
+    "answer": "ordered",
+    "explanation": "Refractive indices: Air (1.0003) < Water (1.33) < Kerosene (1.44) < Crown glass (1.52) < Diamond (2.42).",
+    "marks": 2,
+    "volatile": false
+  }
+]

@@ -1,0 +1,1996 @@
+[
+  {
+    "id": "c10-biology-001",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which enzyme present in human saliva initiates the chemical digestion of dietary starch into maltose?",
+    "options": [
+      "Salivary amylase (ptyalin)",
+      "Pepsin",
+      "Trypsin",
+      "Pancreatic lipase"
+    ],
+    "answer": 0,
+    "explanation": "Salivary amylase (ptyalin) secreted by the salivary glands hydrolyzes dietary starch polysaccharides into disaccharide maltose at a slightly acidic to neutral pH (~6.8).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-002",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which phytohormone is primarily synthesized at growing shoot tips and stimulates cell elongation on the shaded side, causing the shoot to bend towards sunlight?",
+    "options": [
+      "Auxin",
+      "Gibberellin",
+      "Cytokinin",
+      "Abscisic acid"
+    ],
+    "answer": 0,
+    "explanation": "When light shines from one side, auxin diffuses to the shaded side of the shoot. Elevated auxin concentration on the dark side stimulates faster cell elongation, bending the shoot towards the light source (positive phototropism).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-003",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In the human female reproductive system, at which anatomical site does fertilization between the sperm and ovum normally take place?",
+    "options": [
+      "Fallopian tube (oviduct)",
+      "Uterine cavity",
+      "Ovary",
+      "Cervical canal"
+    ],
+    "answer": 0,
+    "explanation": "Fertilization typically occurs in the ampullary-isthmic junction of the Fallopian tube (oviduct), where the sperm penetrates the secondary oocyte.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-004",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Gregor Mendel's classic monohybrid inheritance cross between homozygous pure tall (TT) and dwarf (tt) pea plants, what phenotypic ratio is observed in the F₂ generation?",
+    "options": [
+      "3 Tall : 1 Dwarf",
+      "1 Tall : 2 Medium : 1 Dwarf",
+      "9 Tall : 3 Medium : 4 Dwarf",
+      "All Tall"
+    ],
+    "answer": 0,
+    "explanation": "Self-pollination of heterozygous F₁ plants (Tt × Tt) produces an F₂ phenotypic ratio of 3 tall : 1 dwarf (comprising genotypic ratio 1 TT : 2 Tt : 1 tt).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-005",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "According to Lindeman's 10% ecological energy transfer law, if green autotrophic plants (producers) assimilate 20,000 J of solar energy, how much energy is transferred to and retained at the tertiary consumer trophic level?",
+    "options": [
+      "20 J",
+      "200 J",
+      "2 J",
+      "2,000 J"
+    ],
+    "answer": 0,
+    "explanation": "Producers assimilate 20,000 J. Herbivores (primary consumers) receive 10% = 2,000 J. Secondary consumers (primary carnivores) receive 10% = 200 J. Tertiary consumers receive 10% of 200 J = 20 J.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-006",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Management of Natural Resources",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The historic Chipko Andolan (Hug the Trees Movement) originated in the early 1970s in Reni village of Garhwal primarily to halt:",
+    "options": [
+      "Commercial logging and deforestation of native Himalayan forests",
+      "Construction of mega-hydroelectric river valley dams",
+      "Discharge of industrial sewage into the Ganga river",
+      "Unregulated open-cast limestone and coal mining"
+    ],
+    "answer": 0,
+    "explanation": "The Chipko Movement started in Reni village, Garhwal (Uttarakhand) in 1974, where indigenous village women clasped tree trunks to prevent commercial contractors from felling local forests.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-007",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The fundamental structural and functional filtration units of the human mammalian kidney are microscopic coiled tubular structures called nephrons.",
+    "answer": true,
+    "explanation": "Each human kidney contains roughly one million microscopic functional units called nephrons, consisting of a renal corpuscle (glomerulus + Bowman's capsule) and renal tubules that filter metabolic wastes from blood.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-008",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The microscopic intercellular gap across which a nerve impulse is chemically transmitted from the axon terminal of one neuron to the dendrite of the next is called a synapse.",
+    "answer": true,
+    "explanation": "A synapse is the microscopic junction between two adjacent neurons where neurotransmitters (e.g. acetylcholine) cross the synaptic cleft to propagate electrical impulses.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-009",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Binary fission in Leishmania, the protozoan pathogen causing Kala-azar, occurs symmetrically in any random plane regardless of cellular orientation.",
+    "answer": false,
+    "explanation": "In Leishmania, binary fission occurs in a definite longitudinal orientation relative to the whip-like flagellar structure anchored at one cellular pole.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-010",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The biochemical anabolic pathway by which green autotrophs convert inorganic carbon dioxide and water into glucose using light absorbed by chlorophyll is called _____.",
+    "answer": "photosynthesis",
+    "acceptedAnswers": [
+      "photosynthesis"
+    ],
+    "explanation": "Photosynthesis is the fundamental autotrophic process represented by: 6CO₂ + 6H₂O + Solar energy -> C₆H₁₂O₆ + 6O₂.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-011",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In humans, sex determination is chromosomal: an embryo inheriting an X chromosome from the mother and a _____ chromosome from the father develops biologically into a male child.",
+    "answer": "Y",
+    "acceptedAnswers": [
+      "Y",
+      "Y chromosome",
+      "y"
+    ],
+    "explanation": "Human females are homogametic (XX) while human males are heterogametic (XY). Paternal inheritance of the Y chromosome triggers male developmental differentiation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-012",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each human endocrine gland with its primary hormone and physiological function:",
+    "pairs": [
+      [
+        "Pancreas (beta cells)",
+        "Insulin (lowers and regulates blood glucose levels)"
+      ],
+      [
+        "Thyroid Gland",
+        "Thyroxine (controls basal carbohydrate, protein, and fat metabolism)"
+      ],
+      [
+        "Adrenal Medulla",
+        "Adrenaline (triggers fight-or-flight emergency responses)"
+      ],
+      [
+        "Anterior Pituitary Gland",
+        "Growth Hormone (stimulates somatic growth and bone elongation)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Insulin controls blood sugar, thyroxine modulates metabolic rate, adrenaline mobilizes energy during stress, and growth hormone governs physical maturation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-013",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In Mendel's dihybrid cross between heterozygous round-yellow pea plants (RrYy × RrYy), out of 1600 progeny plants raised in the F₂ generation, how many plants are statistically expected to display the recombinant phenotype of round-green seeds?",
+    "answer": 300,
+    "tolerance": 5,
+    "unit": "plants",
+    "explanation": "In a dihybrid cross, the F₂ phenotypic ratio is 9 Round-Yellow : 3 Round-Green : 3 Wrinkled-Yellow : 1 Wrinkled-Green out of 16. The expected proportion of round-green recombinant plants is 3/16. In 1600 progeny: (3/16) × 1600 = 300 plants.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-014",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the anatomical diagram of the human gastrointestinal system. Which labelled accessory digestive organ concentrates and stores bile juice prior to its release into the duodenum?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 260\" width=\"100%\" height=\"200\"><rect width=\"380\" height=\"260\" fill=\"#f8fafc\" rx=\"8\"/><path d=\"M 100,50 Q 180,30 200,80 Q 160,110 90,80 Z\" fill=\"#b45309\" stroke=\"#78350f\" stroke-width=\"2\"/><text x=\"110\" y=\"65\" font-size=\"12\" font-weight=\"bold\" fill=\"white\">Liver</text><circle cx=\"145\" cy=\"90\" r=\"12\" fill=\"#16a34a\" stroke=\"#14532d\" stroke-width=\"2\"/><circle cx=\"145\" cy=\"90\" r=\"8\" fill=\"#22c55e\"/><circle cx=\"145\" cy=\"90\" r=\"12\" fill=\"#ef4444\"/><text x=\"141\" y=\"94\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><path d=\"M 180,80 C 230,80 250,140 210,160 C 180,160 170,120 180,80 Z\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"2\"/><circle cx=\"220\" cy=\"120\" r=\"12\" fill=\"#3b82f6\"/><text x=\"216\" y=\"124\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">B</text><rect x=\"160\" y=\"155\" width=\"50\" height=\"20\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"1.5\" rx=\"4\"/><circle cx=\"185\" cy=\"165\" r=\"10\" fill=\"#f59e0b\"/><text x=\"181\" y=\"169\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">C</text><rect x=\"130\" y=\"185\" width=\"120\" height=\"55\" fill=\"#fbcfe8\" stroke=\"#db2777\" stroke-width=\"2\" rx=\"6\"/><circle cx=\"190\" cy=\"210\" r=\"10\" fill=\"#8b5cf6\"/><text x=\"186\" y=\"214\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">D</text></svg>"
+    },
+    "options": [
+      "Organ A (Gall bladder)",
+      "Organ B (Stomach)",
+      "Organ C (Pancreas)",
+      "Organ D (Small intestine)"
+    ],
+    "answer": 0,
+    "explanation": "Organ A is the gall bladder, a small muscular sac nestled under the liver that stores, concentrates, and releases bile juice into the duodenum via the bile duct.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-015",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the illustrated diagram of a human multipolar neuron, which labelled branching cytoplasmic extensions receive incoming nerve impulses from sensory receptors or neighboring axons?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 400 200\" width=\"100%\" height=\"200\"><rect width=\"400\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><polygon points=\"80,100 110,60 130,80 150,60 140,110 160,130 130,140 100,130\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"2\"/><circle cx=\"120\" cy=\"100\" r=\"12\" fill=\"#f97316\"/><line x1=\"60\" y1=\"50\" x2=\"110\" y2=\"60\" stroke=\"#ea580c\" stroke-width=\"2\"/><line x1=\"40\" y1=\"100\" x2=\"80\" y2=\"100\" stroke=\"#ea580c\" stroke-width=\"2\"/><line x1=\"60\" y1=\"150\" x2=\"100\" y2=\"130\" stroke=\"#ea580c\" stroke-width=\"2\"/><circle cx=\"50\" cy=\"80\" r=\"12\" fill=\"#ef4444\"/><text x=\"46\" y=\"84\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><line x1=\"150\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#1e293b\" stroke-width=\"4\"/><circle cx=\"230\" cy=\"100\" r=\"12\" fill=\"#3b82f6\"/><text x=\"226\" y=\"104\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">B</text><rect x=\"170\" y=\"90\" width=\"30\" height=\"20\" fill=\"#fef08a\" stroke=\"#ca8a04\" rx=\"4\"/><rect x=\"210\" y=\"90\" width=\"30\" height=\"20\" fill=\"#fef08a\" stroke=\"#ca8a04\" rx=\"4\"/><rect x=\"250\" y=\"90\" width=\"30\" height=\"20\" fill=\"#fef08a\" stroke=\"#ca8a04\" rx=\"4\"/><line x1=\"320\" y1=\"100\" x2=\"360\" y2=\"70\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"320\" y1=\"100\" x2=\"360\" y2=\"130\" stroke=\"#1e293b\" stroke-width=\"2\"/><circle cx=\"350\" cy=\"100\" r=\"12\" fill=\"#10b981\"/><text x=\"346\" y=\"104\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">C</text></svg>"
+    },
+    "options": [
+      "Label A (Dendrites)",
+      "Label B (Axon)",
+      "Label C (Nerve endings / Axon terminals)",
+      "Cell body nucleus"
+    ],
+    "answer": 0,
+    "explanation": "Label A indicates dendrites: finely branched cytoplasmic projections of the cyton that receive electrical and chemical signals from adjacent neurons and conduct them toward the cell body.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-016",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "In the illustrated longitudinal section of an angiosperm flower, which labelled female reproductive organ ripens and enlarges into a mature fruit following double fertilization?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 240\" width=\"100%\" height=\"200\"><rect width=\"380\" height=\"240\" fill=\"#f8fafc\" rx=\"8\"/><path d=\"M 170,50 L 210,50 L 195,120 L 195,140 Q 150,160 170,200 L 210,200 Q 230,160 185,140 L 185,120 Z\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"50\" r=\"14\" fill=\"#fde047\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/><circle cx=\"190\" cy=\"175\" r=\"20\" fill=\"#86efac\" stroke=\"#15803d\" stroke-width=\"2\"/><circle cx=\"190\" cy=\"175\" r=\"12\" fill=\"#ef4444\"/><text x=\"186\" y=\"179\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><circle cx=\"190\" cy=\"45\" r=\"12\" fill=\"#3b82f6\"/><text x=\"186\" y=\"49\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">B</text><path d=\"M 140,180 Q 90,130 110,80\" fill=\"none\" stroke=\"#b45309\" stroke-width=\"2\"/><ellipse cx=\"110\" cy=\"75\" rx=\"10\" ry=\"6\" fill=\"#f59e0b\" stroke=\"#b45309\" stroke-width=\"1.5\"/><circle cx=\"110\" cy=\"75\" r=\"10\" fill=\"#10b981\"/><text x=\"106\" y=\"79\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">C</text><path d=\"M 140,210 Q 110,230 70,220\" fill=\"none\" stroke=\"#15803d\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"220\" r=\"10\" fill=\"#8b5cf6\"/><text x=\"76\" y=\"224\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">D</text></svg>"
+    },
+    "options": [
+      "Organ A (Ovary)",
+      "Organ B (Stigma)",
+      "Organ C (Anther)",
+      "Organ D (Sepal / Calyx)"
+    ],
+    "answer": 0,
+    "explanation": "Label A designates the ovary at the base of the carpel (pistil). Following double fertilization, the ovules develop into seeds, while the surrounding ovary tissue grows and ripens into a fruit.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-017",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the primary physiological function of the microvilli and villi lining the internal mucosal wall of the human small intestine?",
+    "sampleAnswer": "Villi are microscopic finger-like projections that vastly amplify the internal mucosal surface area available for rapid absorption of digested nutrients, and they contain dense capillary networks and lymphatic lacteals to transport absorbed food.",
+    "acceptedAnswers": [
+      "Villi increase the surface area of the small intestine for efficient absorption of digested food.",
+      "They provide a massive surface area and rich blood supply for absorption of digested nutrients."
+    ],
+    "keywords": [
+      "increase surface area",
+      "finger-like",
+      "absorption",
+      "blood capillaries"
+    ],
+    "explanation": "Millions of villi and microvilli expand the intestinal absorptive surface area exponentially, facilitating quick diffusion of glucose, amino acids, and fatty acids into blood and lymph.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-018",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What is a reflex arc, and why are reflex actions mediated through the spinal cord without initial brain deliberation?",
+    "sampleAnswer": "A reflex arc is the anatomical neural circuit coordinating an involuntary automatic reflex, comprising a sensory receptor, sensory afferent neuron, spinal relay interneuron, motor efferent neuron, and effector muscle. Mediating the impulse directly at the spinal cord bypasses cortical delays, triggering an instantaneous protective withdrawal from noxious stimuli.",
+    "acceptedAnswers": [
+      "The neural pathway of a reflex action mediated via the spinal cord to generate immediate protective responses without brain delay.",
+      "A pathway consisting of receptor, sensory neuron, spinal cord, motor neuron, and effector that triggers instantaneous involuntary actions."
+    ],
+    "keywords": [
+      "neural pathway",
+      "spinal cord",
+      "involuntary",
+      "immediate protective response"
+    ],
+    "explanation": "Spinal reflexes prioritize speed over conscious analysis, enabling instantaneous muscle withdrawal to avoid tissue damage from intense heat or sharp pain.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-019",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Define the ecological phenomenon of biological magnification (biomagnification) within a food chain.",
+    "sampleAnswer": "Biological magnification is the progressive stepwise increase in the concentration of persistent, non-biodegradable toxic substances (such as DDT or heavy metals) in organism tissues at successively higher trophic levels of an ecosystem, culminating in peak toxic toxicity in apex predators.",
+    "acceptedAnswers": [
+      "The progressive increase in concentration of non-biodegradable toxic chemicals at successive trophic levels.",
+      "Accumulation and magnification of non-biodegradable pollutants across higher trophic levels in a food chain."
+    ],
+    "keywords": [
+      "non-biodegradable",
+      "concentration increases",
+      "successive trophic levels",
+      "apex predators"
+    ],
+    "explanation": "Because persistent non-biodegradable chemicals cannot be metabolized or excreted, they accumulate in fatty tissues and multiply in concentration up the food pyramid.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-020",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): The progressive thinning of the stratospheric ozone layer over Earth represents a critical global ecological crisis.\nReason (R): Stratospheric ozone absorbs lethal high-energy solar ultraviolet (UV-B) radiation, preventing solar radiation that causes skin melanoma, cataracts, and marine phytoplankton destruction from reaching the troposphere.",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A.",
+      "Both A and R are true but R is not the correct explanation of A.",
+      "A is true but R is false.",
+      "A is false but R is true."
+    ],
+    "answer": 0,
+    "explanation": "Ozone (O₃) in the stratosphere shields the biosphere from mutagenic UV-B rays. Depletion caused by CFCs increases UV flux at ground level, driving skin cancer, cataract rates, and marine ecological damage.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-021",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following cardiac chambers and vascular channels contain oxygenated blood during standard mammalian cardiovascular circulation?",
+    "options": [
+      "Pulmonary veins emerging from the lungs",
+      "Left atrium",
+      "Left ventricle and systemic aorta",
+      "Right ventricle and pulmonary artery"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Pulmonary veins return oxygenated blood from the lungs to the left atrium, which flows to the thick-walled left ventricle and is pumped through the aorta into systemic circulation. The right side of the heart handles deoxygenated blood.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-022",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following organisms reproduce asexually through either budding or true cellular regeneration?",
+    "options": [
+      "Hydra (exhibiting both budding and regeneration)",
+      "Planaria (exhibiting remarkable morphallactic regeneration)",
+      "Yeast (single-celled fungus reproducing by budding)",
+      "Mammals such as humans and dogs"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Hydra exhibits budding and regeneration; Planaria can regenerate complete organisms from cut fragments; yeast reproduces by budding. Mammals reproduce exclusively through sexual reproduction.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-023",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the anatomical divisions of the human respiratory tract in the sequential order traversed by an inhaled stream of air from the outside atmosphere to the capillaries:",
+    "orderedItems": [
+      "External nostrils leading into nasal passages lined with ciliated epithelium and mucus.",
+      "Pharynx and larynx (guarded by the cartilaginous epiglottis).",
+      "Trachea supported by C-shaped hyaline cartilaginous rings.",
+      "Paired primary bronchi branching into smaller terminal bronchioles.",
+      "Alveoli (thin-walled microscopic air sacs enveloped in extensive capillary networks)."
+    ],
+    "answer": "ordered",
+    "explanation": "Inhalation route: Nostrils -> Pharynx/Larynx -> Trachea -> Bronchi/Bronchioles -> Alveoli.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-024",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential metabolic steps in the anaerobic breakdown of glucose in human striated muscle cells during intense, strenuous exercise:",
+    "orderedItems": [
+      "A 6-carbon glucose molecule enters the muscle cell cytoplasm.",
+      "Cytoplasmic glycolysis cleaves glucose into two 3-carbon pyruvate molecules with production of 2 ATP.",
+      "Vigorous muscular contraction causes cellular oxygen consumption to outstrip respiratory oxygen delivery.",
+      "Pyruvate undergoes anaerobic fermentation in the sarcoplasm due to lack of adequate oxygen.",
+      "Pyruvate is converted into 3-carbon lactic acid, the cellular accumulation of which induces acute muscle fatigue and cramps."
+    ],
+    "answer": "ordered",
+    "explanation": "Anaerobic pathway: Glucose uptake -> Glycolysis to pyruvate -> Oxygen deficiency -> Anaerobic fermentation -> Lactic acid buildup and muscular cramping.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-025",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the sequential events of sexual reproduction and post-fertilization development in flowering plants (angiosperms):",
+    "orderedItems": [
+      "Pollination transfers compatible pollen grains from the anther to the receptive sticky stigma.",
+      "Pollen grain germinates, elongating a pollen tube downward through the style towards the ovary.",
+      "The pollen tube enters the ovule through the micropyle and discharges two male gametes into the embryo sac.",
+      "Double fertilization occurs: syngamy forms the diploid zygote while triple fusion produces the triploid endosperm.",
+      "The zygote matures into an embryo within the protective seed coat, while the surrounding ovary tissue develops into a fruit."
+    ],
+    "answer": "ordered",
+    "explanation": "Plant sexual lifecycle: Pollination -> Pollen tube penetration -> Gamete discharge -> Double fertilization -> Seed and fruit maturation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-026",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The opening and closing of the stomatal pore in plant leaves is primarily regulated by:",
+    "options": [
+      "Change in turgor pressure of water in guard cells",
+      "Temperature variations in the mesophyll tissue",
+      "Atmospheric nitrogen concentration",
+      "Movement of chloroplasts inside epidermal cells"
+    ],
+    "answer": 0,
+    "explanation": "When water flows into guard cells, they swell, become turgid, and curve outward, opening the stoma. When water exits, they become flaccid and close.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-027",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which plant hormone acts as a growth inhibitor and is primarily responsible for the wilting and falling of leaves?",
+    "options": [
+      "Abscisic acid (ABA)",
+      "Auxin",
+      "Gibberellin",
+      "Cytokinin"
+    ],
+    "answer": 0,
+    "explanation": "Abscisic acid (ABA) is a stress hormone and growth inhibitor that promotes dormancy, stomatal closure, and leaf abscission (wilting and dropping).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-028",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In the human female reproductive tract, fertilization of the ovum by a viable sperm typically takes place in the:",
+    "options": [
+      "Fallopian tube (oviduct)",
+      "Uterine cavity (endometrium)",
+      "Cervical canal",
+      "Ovarian cortex"
+    ],
+    "answer": 0,
+    "explanation": "Fertilization occurs in the ampullary region of the fallopian tube (oviduct), after which the developing cleavage embryo migrates to the uterus for implantation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-029",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "When pure tall pea plants (TT) are crossed with pure dwarf pea plants (tt), all F1 plants are tall. Upon self-pollination of F1 plants, the phenotypic ratio in the F2 generation is:",
+    "options": [
+      "3 tall : 1 dwarf",
+      "1 tall : 2 medium : 1 dwarf",
+      "1 tall : 1 dwarf",
+      "9 tall : 3 dwarf"
+    ],
+    "answer": 0,
+    "explanation": "In Mendel's monohybrid cross, the F2 generation produces 1 TT : 2 Tt : 1 tt genotypically, giving a phenotypic ratio of 3 tall (TT, Tt) to 1 dwarf (tt).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-030",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "According to Lindeman's 10% law of trophic energy transfer, if green plants (producers) synthesize organic matter containing 10,000 J of energy, how much energy will reach the tertiary consumers?",
+    "options": [
+      "10 J",
+      "100 J",
+      "1,000 J",
+      "1 J"
+    ],
+    "answer": 0,
+    "explanation": "Producers = 10,000 J; Primary consumers = 1,000 J; Secondary consumers = 100 J; Tertiary consumers = 10 J (each trophic step receives only 10% of the previous).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-031",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Severe physical trauma to the medulla oblongata within the hindbrain of a human will immediately disrupt which of the following life-sustaining functions?",
+    "options": [
+      "Regulation of involuntary cardiac activity, blood pressure, and respiratory rhythm",
+      "Voluntary precision coordination of skeletal muscles and dynamic posture",
+      "Higher cognitive functions such as deductive reasoning, intelligence, and speech memory",
+      "Integration of auditory visual reflexes and thermoregulation"
+    ],
+    "answer": 0,
+    "explanation": "The medulla oblongata controls vital involuntary actions including heartbeat, blood pressure, breathing rhythm, swallowing, and vomiting reflexes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-032",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In the human respiratory system, microscopic balloon-like air sacs providing an extensive surface area for oxygen and carbon dioxide exchange are called alveoli.",
+    "answer": true,
+    "explanation": "Alveoli provide a huge surface area (approx. 80 square metres in humans) lined with an extensive network of blood capillaries for rapid gaseous diffusion.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-033",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Acquired somatic traits such as muscular hypertrophy developed through weightlifting alter germ-cell DNA and are transmitted to biological progeny.",
+    "answer": false,
+    "explanation": "Changes in non-reproductive somatic tissues cannot alter the DNA of germ cells (sperm or egg), so acquired somatic traits are not heritable.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-034",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The double-membraned green plant organelles containing chlorophyll where photosynthesis occurs are called _____.",
+    "answer": "chloroplasts",
+    "acceptedAnswers": [
+      "chloroplasts",
+      "chloroplast"
+    ],
+    "explanation": "Chloroplasts contain chlorophyll pigments and thylakoids where photophosphorylation and Calvin cycle reactions occur.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-035",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The fast, involuntary neural pathway that conducts and executes an automatic protective response without conscious cerebral delay is called a _____ arc.",
+    "answer": "reflex",
+    "acceptedAnswers": [
+      "reflex",
+      "reflex arc"
+    ],
+    "explanation": "A reflex arc coordinates rapid involuntary motor responses directly via the spinal cord relay circuit.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-036",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The permanent surgical sterilization technique in human females involving the transection and ligation of both fallopian tubes is called _____.",
+    "answer": "tubectomy",
+    "acceptedAnswers": [
+      "tubectomy"
+    ],
+    "explanation": "Tubectomy blocks the path of ovum transit and prevents sperm from fertilizing the egg in the oviduct.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-037",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each plant hormone with its primary physiological role in plant development:",
+    "pairs": [
+      [
+        "Auxin",
+        "Promotes cell elongation and shoots phototropic bending"
+      ],
+      [
+        "Gibberellin",
+        "Stimulates stem elongation and breaks seed dormancy"
+      ],
+      [
+        "Cytokinin",
+        "Promotes active cell division in seeds and fruits"
+      ],
+      [
+        "Abscisic acid",
+        "Inhibits vegetative growth and triggers stomatal closure"
+      ]
+    ],
+    "explanation": "Phytohormone functions: Auxin (elongation/phototropism), Gibberellin (stem growth/germination), Cytokinin (mitosis), Abscisic acid (growth inhibition/dormancy).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-038",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each digestive enzyme with its principal digestive substrate and site of action in humans:",
+    "pairs": [
+      [
+        "Salivary amylase",
+        "Converts dietary starch into maltose in the mouth"
+      ],
+      [
+        "Pepsin",
+        "Hydrolyzes proteins into peptones in acidic gastric juice"
+      ],
+      [
+        "Trypsin",
+        "Cleaves proteins into peptides in alkaline pancreatic juice"
+      ],
+      [
+        "Lipase",
+        "Breaks emulsified lipid droplets into fatty acids and glycerol"
+      ]
+    ],
+    "explanation": "Digestive enzymes: Salivary amylase breaks starch in mouth; Pepsin digests proteins in stomach (pH ~1.5-2); Trypsin digests proteins in duodenum (pH ~8); Lipase hydrolyzes emulsified fats.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-039",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In a Mendelian dihybrid cross between heterozygous round-yellow seeded pea plants (RrYy × RrYy), out of 320 total F2 progeny plants harvested, how many plants are expected to exhibit the recombinant phenotype of round-green seeds?",
+    "answer": 60,
+    "tolerance": 0,
+    "unit": "plants",
+    "explanation": "Mendelian dihybrid ratio is 9 Round-Yellow : 3 Round-Green : 3 Wrinkled-Yellow : 1 Wrinkled-Green (total 16). Round-green proportion = 3/16. For 320 total progeny: (3/16) * 320 = 3 * 20 = 60 plants.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-040",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In this schematic diagram of the human urinary system, which labelled organ stores urine prior to micturition?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 260\" width=\"100%\" height=\"200\"><rect width=\"360\" height=\"260\" fill=\"#f8fafc\" rx=\"8\"/><ellipse cx=\"110\" cy=\"90\" rx=\"25\" ry=\"40\" fill=\"#b91c1c\" stroke=\"#7f1d1d\" stroke-width=\"2\"/><circle cx=\"110\" cy=\"90\" r=\"12\" fill=\"#ef4444\"/><text x=\"106\" y=\"94\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><line x1=\"120\" y1=\"120\" x2=\"160\" y2=\"190\" stroke=\"#eab308\" stroke-width=\"4\"/><circle cx=\"145\" cy=\"155\" r=\"10\" fill=\"#3b82f6\"/><text x=\"141\" y=\"159\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">B</text><path d=\"M 140,190 Q 180,180 220,190 Q 220,230 180,240 Q 140,230 140,190 Z\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"210\" r=\"12\" fill=\"#10b981\"/><text x=\"176\" y=\"214\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">C</text><line x1=\"180\" y1=\"240\" x2=\"180\" y2=\"255\" stroke=\"#475569\" stroke-width=\"4\"/><circle cx=\"180\" cy=\"250\" r=\"8\" fill=\"#8b5cf6\"/><text x=\"177\" y=\"253\" font-size=\"9\" font-weight=\"bold\" fill=\"white\">D</text></svg>"
+    },
+    "options": [
+      "Organ C (Urinary bladder)",
+      "Organ A (Left kidney)",
+      "Organ B (Ureter)",
+      "Organ D (Urethra)"
+    ],
+    "answer": 0,
+    "explanation": "Organ C is the urinary bladder, an expandable muscular organ that temporarily accumulates urine transported from the kidneys via ureters.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-041",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the illustrated diagram of an angiosperm carpel (pistil), which labelled structure represents the receptive surface where compatible pollen grains land and germinate?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 240\" width=\"100%\" height=\"200\"><rect width=\"340\" height=\"240\" fill=\"#f8fafc\" rx=\"8\"/><circle cx=\"170\" cy=\"45\" r=\"20\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"45\" r=\"12\" fill=\"#ef4444\"/><text x=\"166\" y=\"49\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><rect x=\"162\" y=\"65\" width=\"16\" height=\"95\" fill=\"#bbf7d0\" stroke=\"#16a34a\" stroke-width=\"1.5\"/><circle cx=\"170\" cy=\"110\" r=\"10\" fill=\"#3b82f6\"/><text x=\"166\" y=\"114\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">B</text><circle cx=\"170\" cy=\"190\" r=\"32\" fill=\"#86efac\" stroke=\"#15803d\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"190\" r=\"12\" fill=\"#10b981\"/><text x=\"166\" y=\"194\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">C</text><circle cx=\"170\" cy=\"190\" r=\"18\" fill=\"none\" stroke=\"#b45309\" stroke-dasharray=\"3,3\"/></svg>"
+    },
+    "options": [
+      "Structure A (Stigma)",
+      "Structure B (Style)",
+      "Structure C (Ovary)",
+      "Structure D (Ovule)"
+    ],
+    "answer": 0,
+    "explanation": "Structure A is the stigma, the sticky terminal surface of the female pistil adapted for trapping pollen grains during pollination.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-042",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "In the schematic sagittal section of the human brain, which labelled hindbrain structure is primarily responsible for precision of voluntary motor movements and maintaining body equilibrium?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 240\" width=\"100%\" height=\"200\"><rect width=\"380\" height=\"240\" fill=\"#f8fafc\" rx=\"8\"/><path d=\"M 80,120 C 60,60 160,30 260,50 C 310,70 320,130 270,140 C 220,150 160,130 80,120 Z\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"2\"/><circle cx=\"180\" cy=\"80\" r=\"12\" fill=\"#3b82f6\"/><text x=\"176\" y=\"84\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><path d=\"M 260,140 C 300,150 310,200 270,210 C 240,210 240,160 260,140 Z\" fill=\"#fbcfe8\" stroke=\"#db2777\" stroke-width=\"2\"/><circle cx=\"275\" cy=\"175\" r=\"12\" fill=\"#ef4444\"/><text x=\"271\" y=\"179\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">B</text><rect x=\"190\" y=\"145\" width=\"30\" height=\"40\" fill=\"#bfdbfe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><circle cx=\"205\" cy=\"165\" r=\"10\" fill=\"#10b981\"/><text x=\"201\" y=\"169\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">C</text><rect x=\"190\" y=\"185\" width=\"25\" height=\"45\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/></svg>"
+    },
+    "options": [
+      "Structure B (Cerebellum)",
+      "Structure A (Cerebrum)",
+      "Structure C (Pons)",
+      "Spinal cord"
+    ],
+    "answer": 0,
+    "explanation": "Structure B is the cerebellum, situated in the hindbrain behind the brainstem. It controls voluntary precision movements, balance, posture, and motor coordination.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-043",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why do the lower muscular chambers (ventricles) of the human heart possess much thicker muscular walls than the upper receiving chambers (atria)?",
+    "sampleAnswer": "Ventricles must generate powerful hydrostatic pressure to pump blood into distant circulatory paths (the lungs and systemic body tissues), whereas atria only receive blood and push it down into adjacent ventricles under low pressure.",
+    "acceptedAnswers": [
+      "Ventricles pump blood to distant body organs and lungs under high pressure, while atria only pump blood into the ventricles.",
+      "Because ventricles have to pump blood with high force to various distant organs, whereas atria pump only to adjacent chambers."
+    ],
+    "keywords": [
+      "high pressure",
+      "pump blood",
+      "distant organs",
+      "ventricles"
+    ],
+    "explanation": "Atria only pump blood into adjacent ventricles under low pressure, while ventricles must contract forcefully against systemic vascular resistance to distribute blood throughout the body.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-044",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Define biological magnification, and explain why top carnivores in an aquatic food chain accumulate the highest concentrations of non-biodegradable pesticides like DDT.",
+    "sampleAnswer": "Biological magnification is the progressive buildup of non-biodegradable toxins across higher trophic levels. Because top predators ingest large quantities of contaminated lower-level organisms and cannot metabolize or excrete fat-soluble toxins, the chemical reaches its maximum concentration in apex consumers.",
+    "acceptedAnswers": [
+      "Biomagnification is the increasing concentration of non-biodegradable toxins at each trophic level because toxins cannot be broken down and accumulate as predators eat many lower organisms.",
+      "It is the accumulation of non-biodegradable chemicals along a food chain, concentrating maximally in top consumers."
+    ],
+    "keywords": [
+      "biomagnification",
+      "non-biodegradable",
+      "trophic levels",
+      "accumulate"
+    ],
+    "explanation": "Non-biodegradable fat-soluble pollutants cannot be excreted or broken down metabolically. They concentrate progressively as energy diminishes up the food web.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-045",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given the following Assertion (A) and Reason (R), select the correct option:\nAssertion (A): All children inherit an X chromosome from their biological mother, so maternal chromosomes do not determine the sex of human offspring.\nReason (R): Human females are homogametic, producing only one type of ovum with 22 autosomes and an X chromosome.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Because women have XX chromosomes, all ova carry an X chromosome. It is the father's heterogametic sperm (carrying either X or Y) that determines whether the offspring becomes male (XY) or female (XX).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-046",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following substances are necessary chemical and physical inputs directly consumed by green plants during the process of autotrophic photosynthesis? (Select all that apply)",
+    "options": [
+      "Carbon dioxide",
+      "Water",
+      "Radiant sunlight energy",
+      "Atmospheric molecular oxygen"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Photosynthesis requires carbon dioxide, water, and radiant light energy trapped by chlorophyll. Molecular oxygen is released as a byproduct of photolysis of water, not consumed as a reactant.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-047",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Management of Natural Resources",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following community practices represent sustainable actions aligned with the 5 R's principle of environmental conservation (Refuse, Reduce, Reuse, Repurpose, Recycle)? (Select all that apply)",
+    "options": [
+      "Refusing single-use plastic carrier bags and choosing reusable jute totes",
+      "Repurposing discarded plastic bottles as hanging planters for herbs",
+      "Constructing check dams and khadins for local rainwater harvesting",
+      "Open dumping and burning of municipal electronic waste"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Refusing disposables, repurposing containers, and traditional water conservation (khadins) conserve natural resources. Open burning of e-waste releases toxic carcinogens and destroys materials.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-048",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the anatomical components in the sequence through which a neural impulse traverses in a spinal reflex arc upon touching a scorching surface:",
+    "orderedItems": [
+      "Thermoreceptors in the dermal tissue detect excessive heat stimulus.",
+      "Sensory (afferent) neuron conducts the electrical impulse towards the spinal cord.",
+      "Relay neuron (interneuron) within the spinal cord grey matter integrates the signal.",
+      "Motor (efferent) neuron carries the rapid motor command out to the arm musculature.",
+      "Effector biceps muscle contracts instantly to withdraw the hand from the hot surface."
+    ],
+    "answer": "ordered",
+    "explanation": "Reflex pathway sequence: Sensory receptor -> Sensory neuron -> Spinal relay neuron -> Motor neuron -> Effector muscle response.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-049",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential stages of digestion and transit of ingested food through the human gastrointestinal tract:",
+    "orderedItems": [
+      "Mastication and salivary amylase action breaking down starch in the buccal cavity.",
+      "Peristaltic muscular waves conveying the lubricated food bolus down the esophagus.",
+      "Acidic churning with hydrochloric acid and pepsin breakdown of proteins in the stomach.",
+      "Complete enzymatic digestion and nutrient absorption across intestinal villi in the small intestine.",
+      "Absorption of water and mineral electrolytes followed by egestion of feces through the rectum and anus."
+    ],
+    "answer": "ordered",
+    "explanation": "Alimentary canal pathway: Mouth -> Esophagus -> Stomach -> Small intestine -> Large intestine and egestion.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-050",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the chronological experimental procedures performed by Gregor Mendel during his classical monohybrid inheritance hybridization in garden peas:",
+    "orderedItems": [
+      "Establishment of pure-breeding true parental lines (TT and tt) through successive self-pollination.",
+      "Emasculation of female parent flowers followed by artificial cross-pollination with pollen from the other parent.",
+      "Cultivation of F1 hybrid seeds, observing 100% expression of the dominant tall trait.",
+      "Permitting the F1 hybrid plants to undergo natural self-pollination.",
+      "Harvesting, counting, and statistical analysis of F2 offspring, revealing the 3:1 phenotypic ratio."
+    ],
+    "answer": "ordered",
+    "explanation": "Mendel's monohybrid sequence: True breeding lines -> Artificial hybridization -> F1 observation -> F1 self-pollination -> F2 numerical analysis.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-051",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which physiological process creates a major suction force that draws water and dissolved minerals upward through xylem vessels from roots to leaves during the daytime?",
+    "options": [
+      "Transpiration pull caused by evaporation of water from stomata",
+      "Positive hydrostatic root pressure alone",
+      "Active transport of starch granules",
+      "Anaerobic cellular respiration in roots"
+    ],
+    "answer": 0,
+    "explanation": "Transpiration pull created by water evaporation from stomatal pores generates continuous negative tension that pulls water and dissolved minerals upward in xylem columns.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-052",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The directional growth movement of a pollen tube towards an ovule in the ovary of an angiosperm flower is an example of:",
+    "options": [
+      "Chemotropism",
+      "Phototropism",
+      "Geotropism",
+      "Hydrotropism"
+    ],
+    "answer": 0,
+    "explanation": "Pollen tubes grow toward the ovule in response to chemical attractants secreted by the female gametophyte, exhibiting chemotropism.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-053",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which specialized disc-shaped vascular tissue embedded in the uterine wall provides a high-surface-area interface for nutrient exchange and metabolic waste removal between the maternal blood and developing human embryo?",
+    "options": [
+      "Placenta",
+      "Amniotic sac",
+      "Umbilical coelom",
+      "Corpus luteum"
+    ],
+    "answer": 0,
+    "explanation": "The placenta contains villi on the embryo's side bathed in maternal blood spaces, providing a massive surface area for glucose, oxygen, and waste exchange.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-054",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "High-energy ultraviolet (UV) radiation splits atmospheric molecular oxygen (O2) into nascent free oxygen atoms (O), which subsequently combine with molecular oxygen to synthesize:",
+    "options": [
+      "Ozone (O3)",
+      "Water vapor (H2O)",
+      "Carbon dioxide (CO2)",
+      "Nitrogen dioxide (NO2)"
+    ],
+    "answer": 0,
+    "explanation": "UV radiation dissociates O₂ into free oxygen atoms: O₂ + UV -> O + O. These atoms combine with molecular oxygen to produce ozone: O + O₂ -> O₃.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-055",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Management of Natural Resources",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In 1972, forest officer A.K. Banerjee pioneered participatory community forestry by involving local villagers to successfully revive 1,272 hectares of severely degraded Sal forests in:",
+    "options": [
+      "Arabari forest range, West Bengal",
+      "Reni village, Chamoli, Uttarakhand",
+      "Khejrali village, Rajasthan",
+      "Silent Valley, Kerala"
+    ],
+    "answer": 0,
+    "explanation": "In Arabari (Midnapore district, West Bengal), villagers were recruited to protect degraded Sal forests in exchange for employment and 25% of the final timber harvest, yielding remarkable forest revival.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-056",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In a clinical dialyzer (artificial kidney hemodialysis apparatus), how does the chemical composition of the dialyzing fluid fundamentally differ from that of normal patient blood plasma?",
+    "options": [
+      "It has the same osmotic pressure as blood plasma but contains zero nitrogenous wastes like urea",
+      "It contains a higher concentration of urea to force outward osmotic diffusion",
+      "It completely lacks glucose, ions, and essential mineral electrolytes",
+      "It contains heparinized red blood cells to stimulate gas exchange"
+    ],
+    "answer": 0,
+    "explanation": "Dialyzing fluid is isotonic with blood plasma in salts and glucose, but is completely devoid of nitrogenous waste products (urea, uric acid), so wastes diffuse down their concentration gradient out of the patient's blood.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-057",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Bryophyllum plants can undergo natural vegetative propagation through adventitious buds arising in the notches along the margins of their mature leaves.",
+    "answer": true,
+    "explanation": "The leaves of Bryophyllum develop vegetative buds along their notched margins that detach and grow into independent plantlets upon contacting moist soil.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-058",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Dietary deficiency of iodine causes goitre because iodine is an essential trace element required by the thyroid gland to synthesize thyroxine hormone.",
+    "answer": true,
+    "explanation": "Iodine is a necessary biochemical component of thyroxine. Lack of iodine prevents thyroxine synthesis and causes compensatory swelling of the thyroid gland (goitre).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-059",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "truefalse",
+    "difficulty": "hard",
+    "question": "In all vertebrate animal species without exception, sex is determined strictly by heteromorphic sex chromosomes inherited at the moment of fertilization.",
+    "answer": false,
+    "explanation": "In some reptiles such as certain turtles and crocodiles, sex determination is environmental, governed by the ambient incubation temperature of the fertilised eggs rather than genetic chromosomes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-060",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The vascular conducting tissue responsible for the bidirectional translocation of soluble organic photosynthetic products (sucrose) in plants is _____.",
+    "answer": "phloem",
+    "acceptedAnswers": [
+      "phloem",
+      "phloem tissue"
+    ],
+    "explanation": "Phloem conducts soluble organic nutrients (photosynthates) bidirectionally using ATP energy to load sieve tubes with assistance from companion cells.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-061",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The asexual fungal reproduction method seen in bread mould (Rhizopus) involves blob-on-a-stick sporangia filled with microscopic resistant reproductive units called _____.",
+    "answer": "spores",
+    "acceptedAnswers": [
+      "spores",
+      "spore"
+    ],
+    "explanation": "Sporangia produce thick-walled spores that survive adverse environmental conditions and germinate upon landing on moist organic substrates.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-062",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Management of Natural Resources",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each traditional indigenous rainwater harvesting structure with the Indian state where it was traditionally developed:",
+    "pairs": [
+      [
+        "Khadins and Nadis",
+        "Rajasthan"
+      ],
+      [
+        "Ahars and Pynes",
+        "Bihar"
+      ],
+      [
+        "Kulhs",
+        "Himachal Pradesh"
+      ],
+      [
+        "Bandharas and Tals",
+        "Maharashtra"
+      ]
+    ],
+    "explanation": "Traditional water harvesting structures: Khadins/Nadis in Rajasthan; Ahars/Pynes in Bihar; Kulhs in Himachal Pradesh; Bandharas/Tals in Maharashtra.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-063",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "In a monohybrid cross between two heterozygous tall pea plants (Tt × Tt), if 400 offspring seeds are germinated, what is the expected theoretical number of homozygous dwarf (tt) plants?",
+    "answer": 100,
+    "tolerance": 0,
+    "unit": "plants",
+    "explanation": "Crossing Tt × Tt yields 1 TT : 2 Tt : 1 tt (1/4 homozygous dwarf). For 400 seeds: (1/4) * 400 = 100 dwarf plants.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-064",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In a grassland ecosystem, photosynthetic producers fix radiant sunlight into 80,000 kJ of biomass energy. According to Lindeman's 10% trophic efficiency rule, calculate the energy (in kJ) available to the secondary carnivore occupying the fourth trophic level:",
+    "answer": 80,
+    "tolerance": 0,
+    "unit": "kJ",
+    "explanation": "T1 (Producers) = 80,000 kJ; T2 (Primary consumers) = 8,000 kJ; T3 (Secondary consumers) = 800 kJ; T4 (Tertiary consumers / secondary carnivores) = 80 kJ.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-065",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the illustrated diagram of asexual budding in freshwater Hydra, which labelled outgrowth develops through repeated mitotic cell division at one specific body location?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 220\" width=\"100%\" height=\"200\"><rect width=\"340\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><path d=\"M 120,40 C 100,20 80,60 110,80 C 130,100 130,160 110,190 L 150,190 C 140,160 140,100 150,80 C 180,60 160,20 140,40 Z\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"2\"/><circle cx=\"130\" cy=\"110\" r=\"12\" fill=\"#3b82f6\"/><text x=\"126\" y=\"114\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><path d=\"M 145,130 C 180,120 190,140 180,160 C 170,170 145,160 145,150 Z\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"2\"/><circle cx=\"175\" cy=\"145\" r=\"12\" fill=\"#ef4444\"/><text x=\"171\" y=\"149\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">B</text><path d=\"M 180,135 Q 200,120 205,130\" stroke=\"#ca8a04\" stroke-width=\"1.5\" fill=\"none\"/></svg>"
+    },
+    "options": [
+      "Structure B (Bud)",
+      "Structure A (Parent body column)",
+      "Basal disc",
+      "Hypostome"
+    ],
+    "answer": 0,
+    "explanation": "Structure B represents a bud: an outgrowth developed by repetitive regenerative cell division at one specific body site in Hydra that eventually matures, forms miniature tentacles, and separates.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-066",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In this microscopic schematic of a renal nephron, which labelled cup-like double-walled sac encloses the dense glomerulus capillary tuft where ultrafiltration occurs?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 240\" width=\"100%\" height=\"200\"><rect width=\"360\" height=\"240\" fill=\"#f8fafc\" rx=\"8\"/><path d=\"M 70,80 C 70,40 130,40 130,80 C 130,110 80,110 70,80 Z\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"2\"/><circle cx=\"100\" cy=\"70\" r=\"15\" fill=\"#ef4444\"/><circle cx=\"100\" cy=\"70\" r=\"10\" fill=\"#b91c1c\"/><circle cx=\"75\" cy=\"55\" r=\"10\" fill=\"#3b82f6\"/><text x=\"71\" y=\"59\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">A</text><path d=\"M 130,80 Q 170,120 200,90 Q 220,70 230,120\" fill=\"none\" stroke=\"#eab308\" stroke-width=\"3\"/><circle cx=\"170\" cy=\"95\" r=\"10\" fill=\"#10b981\"/><text x=\"166\" y=\"99\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">B</text><path d=\"M 230,120 L 230,200 Q 240,220 250,200 L 250,120\" fill=\"none\" stroke=\"#3b82f6\" stroke-width=\"3\"/><circle cx=\"240\" cy=\"180\" r=\"10\" fill=\"#8b5cf6\"/><text x=\"236\" y=\"184\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">C</text><rect x=\"280\" y=\"40\" width=\"15\" height=\"180\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"1.5\"/><circle cx=\"287\" cy=\"110\" r=\"10\" fill=\"#64748b\"/><text x=\"284\" y=\"114\" font-size=\"9\" font-weight=\"bold\" fill=\"white\">D</text></svg>"
+    },
+    "options": [
+      "Structure A (Bowman's capsule)",
+      "Structure B (Proximal convoluted tubule)",
+      "Structure C (Henle's loop)",
+      "Structure D (Collecting duct)"
+    ],
+    "answer": 0,
+    "explanation": "Structure A is Bowman's capsule, a cup-like sac surrounding the glomerular capillary bed where high hydrostatic pressure forces water, glucose, and nitrogenous wastes into the nephron.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-067",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In this ecological pyramid of energy representing an open ecosystem, which trophic level contains the maximum total energy content?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 360 220\" width=\"100%\" height=\"200\"><rect width=\"360\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><polygon points=\"180,30 140,75 220,75\" fill=\"#f87171\" stroke=\"#dc2626\" stroke-width=\"1.5\"/><text x=\"176\" y=\"60\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">T4</text><polygon points=\"140,75 105,120 255,120 220,75\" fill=\"#fbbf24\" stroke=\"#d97706\" stroke-width=\"1.5\"/><text x=\"176\" y=\"102\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">T3</text><polygon points=\"105,120 70,165 290,165 255,120\" fill=\"#60a5fa\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><text x=\"176\" y=\"147\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">T2</text><polygon points=\"70,165 30,210 330,210 290,165\" fill=\"#4ade80\" stroke=\"#16a34a\" stroke-width=\"1.5\"/><text x=\"176\" y=\"192\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">T1</text></svg>"
+    },
+    "options": [
+      "T1 (Producers)",
+      "T2 (Primary consumers / Herbivores)",
+      "T3 (Secondary consumers / Carnivores)",
+      "T4 (Tertiary consumers / Apex predators)"
+    ],
+    "answer": 0,
+    "explanation": "Trophic level T1 (autotrophic producers) sits at the broad base and possesses the largest pool of energy, because ~90% of energy is dissipated as metabolic heat at every successive trophic transition.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-068",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "State two major agricultural advantages of vegetative propagation over sexual seed reproduction in commercial farming.",
+    "sampleAnswer": "Vegetative propagation allows cultivation of seedless crop varieties (such as banana, rose, and sugarcane) and ensures all offspring are genetically uniform clones that retain desirable parental characteristics.",
+    "acceptedAnswers": [
+      "It allows cultivation of seedless plants like banana and yields genetically identical plants with all parental traits.",
+      "Plants bear flowers and fruits much earlier and all daughter plants are genetically identical to the parent."
+    ],
+    "keywords": [
+      "seedless",
+      "genetically identical",
+      "identical",
+      "faster"
+    ],
+    "explanation": "Vegetative reproduction enables propagation of plants that have lost seed viability and guarantees true-to-type clonal uniformity across generations.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-069",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why must insulin be administered via subcutaneous injection rather than orally as a tablet to diabetic patients?",
+    "sampleAnswer": "Insulin is a polypeptide protein hormone. If swallowed orally, gastric hydrochloric acid and pancreatic proteases (pepsin and trypsin) in the stomach and small intestine would hydrolyze it into inactive amino acids before absorption into blood.",
+    "acceptedAnswers": [
+      "Insulin is a protein and would be digested and broken down by stomach enzymes if taken orally.",
+      "Because proteolytic enzymes in the digestive tract would digest the protein hormone insulin, destroying its efficacy."
+    ],
+    "keywords": [
+      "protein",
+      "digested",
+      "stomach",
+      "enzymes"
+    ],
+    "explanation": "Oral proteins undergo rapid enzymatic denaturation and proteolytic hydrolysis in the stomach and duodenum, requiring parenteral injection for hormonal activity.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-070",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Describe the physiological process of selective tubular reabsorption in the human nephron, identifying two valuable threshold solutes reabsorbed into peri-tubular capillary blood.",
+    "sampleAnswer": "During tubular transit, valuable threshold solutes including glucose and amino acids (along with necessary amounts of water and mineral salts) are actively reabsorbed from the glomerular filtrate back into the surrounding peri-tubular blood capillaries.",
+    "acceptedAnswers": [
+      "Useful substances such as glucose, amino acids, salts, and water are selectively reabsorbed from the initial filtrate back into blood capillaries.",
+      "Solutes like glucose and amino acids are reabsorbed from the renal tubule into capillaries so that only urea and excess wastes are eliminated."
+    ],
+    "keywords": [
+      "glucose",
+      "amino acids",
+      "reabsorbed",
+      "capillaries"
+    ],
+    "explanation": "Selective tubular reabsorption conserves vital metabolic nutrients (100% of glucose and amino acids in healthy kidneys) while eliminating concentrated metabolic wastes.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-071",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given the following Assertion (A) and Reason (R), select the correct option:\nAssertion (A): Lactic acid fermentation occurs in human skeletal muscles during strenuous athletic exertion.\nReason (R): Under cellular oxygen deficits, muscle cells metabolize pyruvate anaerobically to regenerate NAD+ for ongoing glycolysis, yielding 3-carbon lactic acid.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "When muscle cells consume oxygen faster than cardiovascular delivery can sustain, pyruvate is converted into lactic acid to maintain anaerobic ATP generation, producing cramping fatigue.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-072",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given the following Assertion (A) and Reason (R), select the correct option:\nAssertion (A): The directional flow of energy through successive trophic levels in an ecosystem is strictly unidirectional and non-cyclic.\nReason (R): Radiant solar energy captured by autotrophs cannot revert to solar radiation, and energy passed to higher consumers is lost as metabolic heat rather than recycled back to producers.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Unlike biogeochemical nutrients (carbon, nitrogen) which cycle continuously, energy moves through ecosystems irreversibly in a one-way flow.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-073",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following sexually transmitted infections (STIs) in humans are caused specifically by pathogenic bacterial organisms? (Select all that apply)",
+    "options": [
+      "Gonorrhoea",
+      "Syphilis",
+      "Genital warts (Human papillomavirus)",
+      "AIDS (Human immunodeficiency virus)"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Gonorrhoea (Neisseria gonorrhoeae) and Syphilis (Treponema pallidum) are bacterial STIs. Genital warts (HPV) and AIDS (HIV) are caused by viral pathogens.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-074",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following involuntary physiological functions in humans are automatic reflexes coordinated by autonomic centres in the brainstem (medulla oblongata and pons)? (Select all that apply)",
+    "options": [
+      "Salivation upon sensing appetizing food aromas",
+      "Gastrointestinal peristaltic smooth muscle contractions",
+      "Vomiting reflex to expel gastric irritants",
+      "Deliberately reading and annotating a textbook"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Salivation, peristalsis, and vomiting are involuntary visceral reflexes mediated by the brainstem. Deliberate textbook reading is a voluntary cognitive action governed by the cerebral cortex.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-075",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential biological stages during the binary fission of a single-celled Amoeba:",
+    "orderedItems": [
+      "Mature parent Amoeba rounds up its body and withdraws extending pseudopodia.",
+      "The nucleus elongates and undergoes karyokinesis (division of genetic material into two).",
+      "A deepening cleavage furrow develops along the equatorial plane of the cytoplasm.",
+      "Cytokinesis completes, partitioning the cell body into two distinct daughter Amoebae.",
+      "Both independent daughter cells feed, assimilate nutrients, and grow to maturity."
+    ],
+    "answer": "ordered",
+    "explanation": "Binary fission in Amoeba: Retraction of pseudopodia -> Karyokinesis -> Cleavage furrow formation -> Cytokinesis -> Daughter cell growth.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-076",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which enzyme present in human gastric juice initiates protein digestion in the stomach in an acidic medium?",
+    "options": [
+      "Pepsin",
+      "Trypsin",
+      "Salivary amylase",
+      "Pancreatic lipase"
+    ],
+    "answer": 0,
+    "explanation": "Gastric glands in the stomach wall secrete pepsinogen, which is converted by hydrochloric acid into active pepsin to hydrolyze dietary proteins into peptones.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-077",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The microscopic intercellular gap between two adjacent neurons across which chemical neurotransmitters transmit nerve impulses is called a:",
+    "options": [
+      "Synapse",
+      "Axon hillock",
+      "Node of Ranvier",
+      "Myelin sheath"
+    ],
+    "answer": 0,
+    "explanation": "A synapse is the functional junction between the terminal arborization of an axon and the dendrite of the adjacent neuron across which neurotransmitters diffuse.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-078",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which contraceptive method not only prevents fertilization but also provides effective dual protection against transmission of sexually transmitted infections like HIV and syphilis?",
+    "options": [
+      "Condom (barrier method)",
+      "Copper-T (intrauterine device)",
+      "Oral hormonal contraceptive pills",
+      "Tubectomy"
+    ],
+    "answer": 0,
+    "explanation": "Condoms are mechanical barrier devices that block direct contact of mucosal surfaces and bodily fluids during intercourse, protecting against both pregnancy and STIs.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-079",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In a cross between homozygous black-furred mice (BB) and homozygous brown-furred mice (bb), all F1 offspring display black fur. This observation directly illustrates Mendel's Law of:",
+    "options": [
+      "Dominance",
+      "Segregation",
+      "Independent Assortment",
+      "Incomplete Dominance"
+    ],
+    "answer": 0,
+    "explanation": "According to Mendel's Law of Dominance, when two contrasting alleles are present in a heterozygous individual (Bb), only the dominant allele (B) expresses its phenotype.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-080",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which class of synthetic industrial chemicals widely used in refrigeration, air conditioning, and fire extinguishers is primarily responsible for damaging the stratospheric ozone layer?",
+    "options": [
+      "Chlorofluorocarbons (CFCs)",
+      "Carbon dioxide (CO2)",
+      "Methane (CH4)",
+      "Nitrous oxide (N2O)"
+    ],
+    "answer": 0,
+    "explanation": "Chlorofluorocarbons (CFCs) release free chlorine atoms upon exposure to stratospheric UV rays, catalytically breaking down ozone molecules (O3) into oxygen (O2).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-081",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In human microcirculation, what primary physical force causes water, glucose, and small electrolytes to filter out of capillaries into interstitial tissue spaces at the arterial end of capillary beds?",
+    "options": [
+      "Capillary hydrostatic blood pressure exceeding the blood colloidal osmotic pressure",
+      "Active pinocytosis mediated by endothelial transport vesicles",
+      "Inward oncotic suction of plasma proteins like albumin",
+      "Elevated partial pressure of carbon dioxide in arterial blood"
+    ],
+    "answer": 0,
+    "explanation": "At the arterial end of capillaries, blood hydrostatic pressure (~35 mm Hg) exceeds plasma colloidal oncotic pressure (~25 mm Hg), driving net ultrafiltration of tissue fluid into extracellular spaces.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-082",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In woody stems of perennial trees where stomata are absent, gaseous exchange occurs through specialized microscopic porous openings in the bark called lenticels.",
+    "answer": true,
+    "explanation": "Lenticels are loosely packed, non-suberized cellular openings in the cork layer of woody stems and roots that permit aeration and respiratory gas exchange.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-083",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In humans, implantation of the developing blastocyst normally occurs into the muscular myometrium rather than the vascular endometrial lining of the uterus.",
+    "answer": false,
+    "explanation": "The blastocyst embeds into the glandular, highly vascularized endometrium lining of the uterine cavity. The myometrium is the thick muscular wall underneath.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-084",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The tropic plant growth movement in response to the directional pull of gravity, where primary roots grow downward into soil, is called positive _____.",
+    "answer": "geotropism",
+    "acceptedAnswers": [
+      "geotropism",
+      "gravitropism"
+    ],
+    "explanation": "Positive geotropism directs root growth downwards in the direction of gravitational pull to secure anchorage and absorb subterranean water.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-085",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The specialized yellow-green alkaline digestive fluid synthesized by the liver containing bile salts to emulsify dietary fat globules is called _____.",
+    "answer": "bile",
+    "acceptedAnswers": [
+      "bile",
+      "bile juice"
+    ],
+    "explanation": "Bile juice contains bile salts that break large hydrophobic fat globules into tiny micelles (emulsification) and neutralizes acidic chyme for pancreatic lipase action.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-086",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Heredity",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "In Mendelian genetics, a diagnostic cross between an individual showing a dominant phenotype of unknown genotype and a homozygous recessive parent is termed a _____ cross.",
+    "answer": "test",
+    "acceptedAnswers": [
+      "test",
+      "test cross"
+    ],
+    "explanation": "A test cross with a homozygous recessive individual reveals whether the dominant organism is homozygous (all progeny dominant) or heterozygous (1:1 dominant to recessive).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-087",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each organism with its primary anatomical respiratory organ for gaseous exchange:",
+    "pairs": [
+      [
+        "Fish",
+        "Gills (filamentous branchial arches)"
+      ],
+      [
+        "Earthworm",
+        "Moist, vascularized cuticle/skin"
+      ],
+      [
+        "Cockroach",
+        "Tracheal tube system with spiracles"
+      ],
+      [
+        "Human",
+        "Alveoli within paired lungs"
+      ]
+    ],
+    "explanation": "Respiratory adaptations: Fish use aquatic gills; earthworms respire cutaneously through moist skin; insects use spiracular tracheal tubes; humans use pulmonary alveoli.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-088",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each asexual reproductive mode with its characteristic representative organism:",
+    "pairs": [
+      [
+        "Regeneration",
+        "Planaria"
+      ],
+      [
+        "Multiple fission",
+        "Plasmodium (malarial parasite)"
+      ],
+      [
+        "Fragmentation",
+        "Spirogyra"
+      ],
+      [
+        "Spore formation",
+        "Rhizopus (bread mould)"
+      ]
+    ],
+    "explanation": "Modes of asexual reproduction: Planaria regenerates entire bodies from fragments; Plasmodium undergoes multiple fission inside cyst walls; Spirogyra breaks into fragments upon maturity; Rhizopus reproduces via sporangiospores.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-089",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In an aquatic food chain: Phytoplankton -> Zooplankton -> Small fish -> Fish eagle, if the phytoplankton synthesize 25,000 kJ of solar chemical energy, calculate the energy (in kJ) transferred to the fish eagle under Lindeman's 10% ecological law:",
+    "answer": 25,
+    "tolerance": 0,
+    "unit": "kJ",
+    "explanation": "Phytoplankton (T1) = 25,000 kJ; Zooplankton (T2) = 2,500 kJ; Small fish (T3) = 250 kJ; Fish eagle (T4) = 25 kJ.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-090",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the illustrated diagram of an opened dicot seed embryo, which labelled structure develops into the future shoot system upon germination?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 220\" width=\"100%\" height=\"200\"><rect width=\"340\" height=\"220\" fill=\"#f8fafc\" rx=\"8\"/><path d=\"M 100,50 C 60,80 60,160 120,180 C 160,190 200,160 200,120 C 200,70 150,40 100,50 Z\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"140\" r=\"12\" fill=\"#3b82f6\"/><text x=\"136\" y=\"144\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">C</text><path d=\"M 170,90 Q 200,70 210,50\" stroke=\"#16a34a\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"210\" cy=\"50\" r=\"12\" fill=\"#ef4444\"/><text x=\"206\" y=\"54\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><path d=\"M 170,100 Q 200,120 210,140\" stroke=\"#ea580c\" stroke-width=\"3\" fill=\"none\"/><circle cx=\"210\" cy=\"140\" r=\"10\" fill=\"#10b981\"/><text x=\"206\" y=\"144\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">B</text></svg>"
+    },
+    "options": [
+      "Structure A (Plumule)",
+      "Structure B (Radicle)",
+      "Structure C (Cotyledon)",
+      "Seed coat"
+    ],
+    "answer": 0,
+    "explanation": "Structure A is the plumule, the embryonic shoot that gives rise to aerial stems and leaves, while B is the radicle (future root) and C is the food-storing cotyledon.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-091",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the accompanying diagram of a human motor neuron, which labelled insulating fatty sheath accelerates the conduction speed of nerve action potentials?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 380 200\" width=\"100%\" height=\"200\"><rect width=\"380\" height=\"200\" fill=\"#f8fafc\" rx=\"8\"/><polygon points=\"70,100 90,60 120,80 130,120 100,130\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"2\"/><circle cx=\"95\" cy=\"95\" r=\"10\" fill=\"#f97316\"/><circle cx=\"95\" cy=\"95\" r=\"12\" fill=\"#3b82f6\"/><text x=\"91\" y=\"99\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><line x1=\"130\" y1=\"100\" x2=\"320\" y2=\"100\" stroke=\"#1e293b\" stroke-width=\"3\"/><rect x=\"150\" y=\"88\" width=\"35\" height=\"24\" fill=\"#fde047\" stroke=\"#ca8a04\" stroke-width=\"1.5\" rx=\"4\"/><rect x=\"200\" y=\"88\" width=\"35\" height=\"24\" fill=\"#fde047\" stroke=\"#ca8a04\" stroke-width=\"1.5\" rx=\"4\"/><rect x=\"250\" y=\"88\" width=\"35\" height=\"24\" fill=\"#fde047\" stroke=\"#ca8a04\" stroke-width=\"1.5\" rx=\"4\"/><circle cx=\"217\" cy=\"100\" r=\"12\" fill=\"#ef4444\"/><text x=\"213\" y=\"104\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">B</text><line x1=\"320\" y1=\"100\" x2=\"350\" y2=\"80\" stroke=\"#1e293b\" stroke-width=\"2\"/><line x1=\"320\" y1=\"100\" x2=\"350\" y2=\"120\" stroke=\"#1e293b\" stroke-width=\"2\"/><circle cx=\"345\" cy=\"100\" r=\"10\" fill=\"#10b981\"/><text x=\"341\" y=\"104\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">D</text></svg>"
+    },
+    "options": [
+      "Structure B (Myelin sheath)",
+      "Structure A (Cyton / Cell body)",
+      "Structure D (Axon terminals)",
+      "Dendrite receptor"
+    ],
+    "answer": 0,
+    "explanation": "Structure B represents myelin sheath segments produced by Schwann cells that insulate the axon and permit fast saltatory conduction of nerve impulses across Nodes of Ranvier.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-092",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "In this anatomical diagram of the human respiratory tract, which labelled structures represent C-shaped cartilaginous rings that prevent the trachea from collapsing when air pressure drops during inhalation?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 340 240\" width=\"100%\" height=\"200\"><rect width=\"340\" height=\"240\" fill=\"#f8fafc\" rx=\"8\"/><rect x=\"150\" y=\"30\" width=\"40\" height=\"30\" fill=\"#bfdbfe\" stroke=\"#2563eb\" stroke-width=\"1.5\"/><rect x=\"155\" y=\"60\" width=\"30\" height=\"80\" fill=\"#fed7aa\" stroke=\"#ea580c\" stroke-width=\"2\"/><line x1=\"155\" y1=\"75\" x2=\"185\" y2=\"75\" stroke=\"#0284c7\" stroke-width=\"4\"/><line x1=\"155\" y1=\"95\" x2=\"185\" y2=\"95\" stroke=\"#0284c7\" stroke-width=\"4\"/><line x1=\"155\" y1=\"115\" x2=\"185\" y2=\"115\" stroke=\"#0284c7\" stroke-width=\"4\"/><circle cx=\"140\" cy=\"95\" r=\"12\" fill=\"#ef4444\"/><text x=\"136\" y=\"99\" font-size=\"11\" font-weight=\"bold\" fill=\"white\">A</text><line x1=\"170\" y1=\"140\" x2=\"130\" y2=\"180\" stroke=\"#ea580c\" stroke-width=\"3\"/><circle cx=\"130\" cy=\"170\" r=\"10\" fill=\"#3b82f6\"/><text x=\"126\" y=\"174\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">B</text><line x1=\"170\" y1=\"140\" x2=\"210\" y2=\"180\" stroke=\"#ea580c\" stroke-width=\"3\"/><circle cx=\"210\" cy=\"180\" r=\"20\" fill=\"#fecdd3\" stroke=\"#e11d48\" stroke-width=\"1.5\"/><circle cx=\"210\" cy=\"180\" r=\"10\" fill=\"#10b981\"/><text x=\"206\" y=\"184\" font-size=\"10\" font-weight=\"bold\" fill=\"white\">D</text></svg>"
+    },
+    "options": [
+      "Structure A (Cartilaginous rings of trachea)",
+      "Structure B (Bronchus)",
+      "Structure D (Alveolar sac)",
+      "Larynx"
+    ],
+    "answer": 0,
+    "explanation": "Structure A denotes the rings of cartilage supporting the trachea. They keep the airway permanently open, ensuring that the windpipe does not collapse during intense respiratory inhalation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-093",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Explain why aquatic animals like fish exhibit a much faster rate of breathing than terrestrial mammals like humans.",
+    "sampleAnswer": "The solubility of oxygen in water is very low compared to the high concentration of oxygen in atmospheric air (~21%). Consequently, aquatic animals must pump water over their respiratory gills much more rapidly to satisfy their metabolic oxygen requirements.",
+    "acceptedAnswers": [
+      "Because the concentration of dissolved oxygen in water is very low compared to oxygen in air, aquatic animals must breathe much faster to take in sufficient oxygen.",
+      "The amount of dissolved oxygen in water is fairly small compared to air, so aquatic organisms breathe rapidly to extract enough oxygen."
+    ],
+    "keywords": [
+      "dissolved oxygen",
+      "low",
+      "faster",
+      "water"
+    ],
+    "explanation": "Air contains ~210 ml of oxygen per litre, whereas fresh water holds only ~7-10 ml of dissolved oxygen per litre, necessitating rapid respiratory ventilation in aquatic species.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-094",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Management of Natural Resources",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "State two major environmental controversies and socio-ecological problems associated with the construction of mega-hydroelectric dams like Tehri and Sardar Sarovar.",
+    "sampleAnswer": "Large dams submerge immense tracts of biodiversity-rich forests and fertile agricultural lands, leading to irreversible ecological destruction and greenhouse emissions from rotting submerged biomass, while simultaneously displacing thousands of indigenous communities without just rehabilitation.",
+    "acceptedAnswers": [
+      "Submergence of extensive forest ecosystems causing loss of biodiversity, and displacement of large local populations without adequate compensation and rehabilitation.",
+      "Destruction of flora and fauna due to forest submergence, and social displacement of tribal communities without proper resettlement."
+    ],
+    "keywords": [
+      "submergence",
+      "displacement",
+      "rehabilitation",
+      "biodiversity"
+    ],
+    "explanation": "Mega-dam construction leads to widespread forest submergence, severe loss of biodiversity, soil degradation, and involuntary displacement of local rural populations.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-095",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Control and Coordination",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given the following Assertion (A) and Reason (R), select the correct option:\nAssertion (A): Plant shoot tips bend directionally towards a unilateral source of light (positive phototropism).\nReason (R): Auxin synthesized at the shoot apical meristem migrates towards the shaded side of the stem, stimulating faster cell elongation on that side.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Auxin diffuses away from light toward the dark side of the shoot, where higher auxin concentrations trigger increased cell lengthening, causing the stem to curve towards the light source.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-096",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following blood vessels in the human cardiovascular system transport oxygenated (oxygen-rich) blood under normal resting circulation? (Select all that apply)",
+    "options": [
+      "Systemic aorta",
+      "Pulmonary veins",
+      "Superior vena cava",
+      "Pulmonary artery"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "The aorta distributes oxygenated blood from the left ventricle to systemic tissues, while pulmonary veins deliver freshly oxygenated blood from the lungs into the left atrium. Vena cava and pulmonary artery carry deoxygenated blood.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-097",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following common household waste materials are classified as non-biodegradable pollutants that persist without biological decomposition in natural ecosystems? (Select all that apply)",
+    "options": [
+      "Polyethylene plastic carry bags",
+      "Polystyrene (thermocol) cups",
+      "Empty glass beverage bottles",
+      "Fruit and vegetable peelings"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Plastics, polystyrene, and glass cannot be broken down by saprophytic microbial enzymes and remain persistent pollutants. Vegetable peelings are readily decomposed by bacteria and fungi.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-098",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Life Processes",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the anatomical passage of atmospheric oxygen as it travels through the human respiratory tract into blood circulation:",
+    "orderedItems": [
+      "External nostrils filter incoming air through fine nasal hairs and mucus membranes.",
+      "Inhaled air traverses the pharynx and larynx past the epiglottis into the trachea.",
+      "Air branches into primary bronchi and progressively narrower bronchiole networks.",
+      "Air fills microscopic balloon-like alveoli surrounded by dense capillary meshworks.",
+      "Oxygen diffuses across the ultra-thin alveolar-capillary barrier and binds to hemoglobin in red blood cells."
+    ],
+    "answer": "ordered",
+    "explanation": "Airway pathway: Nostrils -> Pharynx/Larynx/Trachea -> Bronchi and Bronchioles -> Alveoli -> Capillary diffusion.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-099",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "How do Organisms Reproduce?",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the chronological developmental stages in human prenatal reproduction from conception to birth:",
+    "orderedItems": [
+      "Fertilization of ovum by sperm in the fallopian tube produces a single diploid zygote.",
+      "Zygote undergoes repeated cleavage divisions while traveling toward the uterus, forming a blastocyst.",
+      "The blastocyst embeds securely into the thickened endometrium of the uterine wall (implantation).",
+      "Embryo develops organs and receives nourishment through the placenta during the 9-month gestation period.",
+      "Coordinated uterine muscular contractions induce labour, culminating in parturition (childbirth)."
+    ],
+    "answer": "ordered",
+    "explanation": "Developmental sequence: Fertilization -> Cleavage to blastocyst -> Implantation -> Gestation with placenta -> Parturition.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-biology-100",
+    "class": 10,
+    "subject": "biology",
+    "chapter": "Our Environment",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the sequential events in the catalytic destruction of the stratospheric ozone layer initiated by anthropogenic halocarbon emissions:",
+    "orderedItems": [
+      "Volatile chlorofluorocarbons (CFCs) are released from refrigeration equipment into the troposphere.",
+      "Unreactive CFC molecules gradually diffuse upward across the tropopause into the stratosphere.",
+      "High-energy solar ultraviolet (UV) radiation breaks carbon-chlorine bonds, releasing free chlorine radicals (Cl·).",
+      "Chlorine radicals react with ozone (O3), breaking it into chlorine monoxide and diatomic oxygen (O2).",
+      "Continuous catalytic ozone destruction creates a thinned ozone hole, allowing harmful UVB radiation to penetrate Earth's surface."
+    ],
+    "answer": "ordered",
+    "explanation": "Ozone destruction cycle: Release of CFCs -> Diffusion to stratosphere -> Photodissociation by UV -> Catalytic ozone breakdown -> Increased surface UVB penetration.",
+    "marks": 2,
+    "volatile": false
+  }
+]

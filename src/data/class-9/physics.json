@@ -1,0 +1,1896 @@
+[
+  {
+    "id": "c9-physics-001",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The SI unit of acceleration is:",
+    "options": [
+      "m/s",
+      "m/s²",
+      "km/h",
+      "m·s"
+    ],
+    "answer": 1,
+    "explanation": "Acceleration is the rate of change of velocity with respect to time: a = (v - u)/t. Unit = (m/s) / s = m/s².",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-002",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A car travelling at 20 m/s applies brakes and comes to rest in 5 seconds. What is the magnitude of its retardation?",
+    "options": [
+      "2 m/s²",
+      "4 m/s²",
+      "5 m/s²",
+      "10 m/s²"
+    ],
+    "answer": 1,
+    "explanation": "Initial velocity u = 20 m/s, final velocity v = 0 m/s, time t = 5 s. a = (0 - 20)/5 = -4 m/s². The magnitude of retardation is 4 m/s².",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-003",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of Newton's laws of motion provides the qualitative definition of force as an agent that changes or tends to change the state of rest or motion?",
+    "options": [
+      "First law of motion",
+      "Second law of motion",
+      "Third law of motion",
+      "Universal law of gravitation"
+    ],
+    "answer": 0,
+    "explanation": "Newton's first law defines force qualitatively: an object remains in a state of rest or uniform motion unless acted upon by an unbalanced external force.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-004",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The universal gravitational constant G has an accepted value of approximately:",
+    "options": [
+      "9.8 m/s²",
+      "6.67 × 10⁻¹¹ N·m²/kg²",
+      "6.67 × 10¹¹ N·m²/kg²",
+      "9.8 × 10⁻¹¹ N·m²/kg²"
+    ],
+    "answer": 1,
+    "explanation": "Henry Cavendish measured the universal gravitational constant G = 6.673 × 10⁻¹¹ N·m²/kg². 9.8 m/s² is the acceleration due to gravity g at Earth's surface.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-005",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "One Joule of work is done when a force of 1 Newton moves an object through a distance of:",
+    "options": [
+      "1 centimetre",
+      "1 metre",
+      "10 metres",
+      "1 kilometre"
+    ],
+    "answer": 1,
+    "explanation": "Work W = Force × displacement = 1 N × 1 m = 1 N·m = 1 Joule.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-006",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Sound waves travelling through air are fundamentally classified as:",
+    "options": [
+      "Transverse electromagnetic waves",
+      "Longitudinal mechanical waves",
+      "Stationary light waves",
+      "Surface water waves"
+    ],
+    "answer": 1,
+    "explanation": "Sound requires a material medium to propagate and particles vibrate parallel to the direction of propagation, forming compressions and rarefactions (longitudinal mechanical waves).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-007",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Displacement of an object can be zero even if the total distance travelled by it is non-zero.",
+    "answer": true,
+    "explanation": "Displacement is the shortest distance between initial and final positions. If an object completes a circular path or returns to its starting point, displacement is zero while distance travelled is non-zero.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-008",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The mass of an object changes when it is taken from the surface of the Earth to the surface of the Moon.",
+    "answer": false,
+    "explanation": "Mass is the measure of the quantity of matter contained in an object and remains constant everywhere. It is weight (W = mg) that changes due to varying gravity.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-009",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The natural tendency of an object to resist a change in its state of rest or uniform motion is called ____.",
+    "acceptedAnswers": [
+      "inertia",
+      "Inertia"
+    ],
+    "explanation": "Inertia is the inherent property of a body by virtue of which it resists any change in its velocity or state of rest.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-010",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The rate of doing work or transferring energy per unit time is defined as ____.",
+    "acceptedAnswers": [
+      "power",
+      "Power"
+    ],
+    "explanation": "Power P = Work done / Time taken = W / t. Its SI unit is the Watt (W).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-011",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each physical quantity with its correct standard SI unit:",
+    "pairs": [
+      [
+        "Force",
+        "Newton (N)"
+      ],
+      [
+        "Work / Energy",
+        "Joule (J)"
+      ],
+      [
+        "Power",
+        "Watt (W)"
+      ],
+      [
+        "Frequency",
+        "Hertz (Hz)"
+      ]
+    ],
+    "explanation": "SI unit of force is Newton, work/energy is Joule, power is Watt, and frequency is Hertz.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-012",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "A vehicle accelerates uniformly from an initial velocity of 10 m/s to 30 m/s in 5 seconds. Calculate its acceleration in m/s².",
+    "answer": 4,
+    "tolerance": 0.1,
+    "explanation": "Acceleration a = (v - u) / t = (30 - 10) / 5 = 20 / 5 = 4 m/s².",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-013",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A constant force acts on an object of mass 5 kg, changing its velocity from 4 m/s to 10 m/s in 3 seconds. Find the magnitude of this force in Newtons.",
+    "answer": 10,
+    "tolerance": 0.1,
+    "explanation": "Acceleration a = (10 - 4)/3 = 6/3 = 2 m/s². Force F = m × a = 5 kg × 2 m/s² = 10 N.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-014",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "An astronaut weighs 600 N on the surface of Earth. What is the weight of this astronaut on the surface of the Moon in Newtons (taking g_moon = g_earth / 6)?",
+    "answer": 100,
+    "tolerance": 0.5,
+    "explanation": "Weight on the Moon W_m = W_e / 6 = 600 / 6 = 100 N.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-015",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A body of mass 2 kg is dropped from a height of 10 m above the ground. Calculate its kinetic energy just before striking the ground in Joules (take g = 9.8 m/s²).",
+    "answer": 196,
+    "tolerance": 1,
+    "explanation": "By law of conservation of mechanical energy, Kinetic Energy at bottom = Potential Energy at top = mgh = 2 × 9.8 × 10 = 196 J.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-016",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A ship transmits an ultrasound pulse towards the seabed and receives its echo after 1.6 seconds. If the speed of sound in seawater is 1500 m/s, calculate the depth of the seabed in metres.",
+    "answer": 1200,
+    "tolerance": 5,
+    "explanation": "Total distance 2d = speed × time = 1500 × 1.6 = 2400 m. Depth d = 2400 / 2 = 1200 m.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-017",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "What type of motion is represented by the straight line distance-time graph passing through origin in the given diagram?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><line x1='50' y1='200' x2='350' y2='200' stroke='#1e293b' stroke-width='3'/><line x1='50' y1='200' x2='50' y2='30' stroke='#1e293b' stroke-width='3'/><text x='355' y='205' font-family='sans-serif' font-size='13' font-weight='bold' fill='#1e293b'>Time (t)</text><text x='20' y='35' font-family='sans-serif' font-size='13' font-weight='bold' fill='#1e293b'>Distance (s)</text><line x1='50' y1='200' x2='320' y2='50' stroke='#2563eb' stroke-width='4'/><circle cx='50' cy='200' r='5' fill='#2563eb'/><text x='40' y='215' font-family='sans-serif' font-size='12' fill='#64748b'>O</text><circle cx='185' cy='125' r='4' fill='#2563eb'/><circle cx='320' cy='50' r='4' fill='#2563eb'/><text x='190' y='115' font-family='sans-serif' font-size='14' font-weight='bold' fill='#2563eb'>Linear slope</text></svg>"
+    },
+    "options": [
+      "Uniform speed",
+      "Non-uniform speed",
+      "Object at rest",
+      "Decreasing velocity"
+    ],
+    "answer": 0,
+    "explanation": "A straight-line distance-time graph indicates that the object covers equal distances in equal intervals of time, which corresponds to uniform speed.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-018",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the audible frequency range of hearing for an average healthy human ear?",
+    "acceptedAnswers": [
+      "20 Hz to 20000 Hz",
+      "20 Hz - 20000 Hz",
+      "20 to 20000 Hz",
+      "20 Hz to 20 kHz"
+    ],
+    "keywords": [
+      "20",
+      "20000",
+      "Hz"
+    ],
+    "explanation": "Human audible sound frequencies range from approximately 20 Hz to 20,000 Hz (20 kHz).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-019",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the force of attraction exerted by the Earth on any object called?",
+    "acceptedAnswers": [
+      "gravity",
+      "gravitational force",
+      "Gravity"
+    ],
+    "keywords": [
+      "gravity"
+    ],
+    "explanation": "The gravitational force exerted by the Earth on objects near its surface is commonly called gravity.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-020",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): When a bullet is fired from a rifle, the rifle recoils backwards.\nReason (R): According to Newton's third law of motion, every action has an equal and opposite reaction.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "The forward force exerted on the bullet results in an equal and opposite reaction force exerted on the rifle, causing recoil.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-021",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): When a satellite moves in a circular orbit around the Earth, the work done by the gravitational force on the satellite in one complete revolution is zero.\nReason (R): The gravitational force acting towards the Earth's centre is perpendicular to the displacement at every point on the circular orbit.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Work W = F · s · cos(θ). Since the force is centripetal and directed along the radius, θ = 90° and cos(90°) = 0, so work done is zero.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-022",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following physical quantities are VECTOR quantities? (Select all that apply)",
+    "options": [
+      "Velocity",
+      "Speed",
+      "Displacement",
+      "Distance",
+      "Acceleration"
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Velocity, displacement, and acceleration require both magnitude and direction, so they are vectors. Speed and distance are scalar quantities.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-023",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following forms of energy are classified as MECHANICAL ENERGY? (Select all that apply)",
+    "options": [
+      "Kinetic energy of motion",
+      "Chemical bond energy",
+      "Gravitational potential energy",
+      "Nuclear binding energy",
+      "Elastic potential energy of a stretched spring"
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Mechanical energy is the sum of kinetic energy and potential energy (gravitational and elastic). Chemical and nuclear energies are non-mechanical forms of energy.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-024",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following media in INCREASING order of the speed of sound through them at room temperature (from slowest to fastest):",
+    "orderedItems": [
+      "Air / Gas (approx 344 m/s)",
+      "Water / Liquid (approx 1500 m/s)",
+      "Iron / Steel solid (approx 5100 m/s)",
+      "Aluminium solid (approx 6420 m/s)"
+    ],
+    "answer": "ordered",
+    "explanation": "Sound travels slowest in gases, faster in liquids, and fastest in dense, elastic solids: Air < Water < Steel < Aluminium.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-025",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following speed values in INCREASING order of magnitude:",
+    "orderedItems": [
+      "0.5 m/s",
+      "18 km/h (= 5 m/s)",
+      "36 km/h (= 10 m/s)",
+      "20 m/s"
+    ],
+    "answer": "ordered",
+    "explanation": "Converting all to m/s: 0.5 m/s < 18 × 5/18 = 5 m/s < 36 × 5/18 = 10 m/s < 20 m/s.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-026",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The slope of a velocity-time graph for a moving object gives its:",
+    "options": [
+      "Distance covered",
+      "Acceleration",
+      "Displacement",
+      "Instantaneous speed"
+    ],
+    "answer": 1,
+    "explanation": "Slope of velocity-time graph = Change in velocity / Change in time = Δv / Δt = acceleration.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-027",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A passenger standing in a moving bus falls forward when the bus driver suddenly applies brakes. This phenomenon is explained by:",
+    "options": [
+      "Inertia of motion",
+      "Inertia of rest",
+      "Inertia of direction",
+      "Conservation of momentum"
+    ],
+    "answer": 0,
+    "explanation": "When brakes are applied, the passenger's feet come to rest along with the bus, while the upper body continues moving forward due to inertia of motion.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-028",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The acceleration due to gravity 'g' on the surface of the Earth is maximum at the:",
+    "options": [
+      "Equator",
+      "Poles",
+      "Tropic of Cancer",
+      "Centre of the Earth"
+    ],
+    "answer": 1,
+    "explanation": "Earth is flattened at poles and bulges at equator, so polar radius is smaller than equatorial radius. Since g = GM/R², g is maximum at the poles.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-029",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The commercial unit of electrical energy is kilowatt-hour (kWh). 1 kWh is equal to:",
+    "options": [
+      "3.6 × 10⁵ J",
+      "3.6 × 10⁶ J",
+      "3600 J",
+      "1000 J"
+    ],
+    "answer": 1,
+    "explanation": "1 kWh = 1 kW × 1 hour = 1000 W × 3600 s = 3,600,000 Joules = 3.6 × 10⁶ J.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-030",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "The sensation of sound persists in the human brain for approximately what duration?",
+    "options": [
+      "1/2 second",
+      "1/5 second",
+      "1/10 second",
+      "1/20 second"
+    ],
+    "answer": 2,
+    "explanation": "Persistence of hearing in humans is 0.1 second (1/10th of a second). To hear an echo distinctly, the reflected sound must reach the ear after at least 0.1 s.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-031",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Action and reaction forces always act on two different bodies simultaneously and in opposite directions.",
+    "answer": true,
+    "explanation": "According to Newton's third law, forces always occur in matched pairs acting on two mutually interacting bodies, never on the same single body.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-032",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "A porter carrying a heavy luggage load on his head and standing stationary at a railway platform does no physical work on the luggage.",
+    "answer": true,
+    "explanation": "Physical work done requires displacement (W = F · s · cos θ). Since the porter remains stationary, displacement s = 0, so work done is zero.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-033",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The buoyant force exerted by a fluid on an immersed body always acts in the vertically ____ direction.",
+    "acceptedAnswers": [
+      "upward",
+      "upwards",
+      "Upward",
+      "vertically upward"
+    ],
+    "explanation": "Archimedes' principle states that the buoyant force (upthrust) exerted by a fluid acts vertically upward on any submerged or partially submerged body.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-034",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The distance between two consecutive compressions or two consecutive rarefactions of a sound wave is called its ____.",
+    "acceptedAnswers": [
+      "wavelength",
+      "Wavelength"
+    ],
+    "explanation": "Wavelength (λ) is defined as the distance between two consecutive regions of maximum density (compressions) or minimum density (rarefactions).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-035",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the kinematic relation with its standard identity for motion under uniform acceleration:",
+    "pairs": [
+      [
+        "v = u + at",
+        "First equation of motion"
+      ],
+      [
+        "s = ut + (1/2)at²",
+        "Second equation of motion"
+      ],
+      [
+        "v² - u² = 2as",
+        "Third equation of motion"
+      ],
+      [
+        "s / t",
+        "Average speed"
+      ]
+    ],
+    "explanation": "v = u + at is 1st equation, s = ut + 0.5at² is 2nd equation, v² - u² = 2as is 3rd equation, and s / t is average speed.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-036",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "An electric train starts from rest and attains a speed of 72 km/h in 5 minutes with uniform acceleration. Calculate the distance travelled in metres.",
+    "answer": 3000,
+    "tolerance": 10,
+    "explanation": "u = 0, v = 72 km/h = 20 m/s, t = 5 min = 300 s. Acceleration a = (20 - 0)/300 = 1/15 m/s². Distance s = ut + 0.5at² = 0.5 × (1/15) × (300)² = 3000 m.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-037",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A bullet of mass 20 g travelling with a velocity of 150 m/s strikes a wooden target and comes to rest in 0.03 s. Calculate the magnitude of the resistive force exerted by the wood in Newtons.",
+    "answer": 100,
+    "tolerance": 1,
+    "explanation": "Mass m = 0.02 kg, u = 150 m/s, v = 0 m/s, t = 0.03 s. Acceleration a = (0 - 150)/0.03 = -5000 m/s². Force magnitude F = m × |a| = 0.02 × 5000 = 100 N.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-038",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A ball is thrown vertically upwards with a velocity of 49 m/s. Calculate the maximum height it reaches in metres (take g = 9.8 m/s²).",
+    "answer": 122.5,
+    "tolerance": 0.5,
+    "explanation": "At maximum height v = 0. Using v² = u² - 2gh: 0 = 49² - 2(9.8)h => 19.6h = 2401 => h = 122.5 m.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-039",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "An electric lamp of power 60 W is used for 5 hours per day. How many Joules of electrical energy does it consume in one day?",
+    "answer": 1080000,
+    "tolerance": 1000,
+    "explanation": "Energy = Power × time = 60 W × (5 × 3600 s) = 60 × 18000 = 1,080,000 Joules.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-040",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A sound wave has a frequency of 2000 Hz and a wavelength of 35 cm. How long will it take in seconds for this wave to travel a distance of 1.4 km?",
+    "answer": 2,
+    "tolerance": 0.05,
+    "explanation": "Wavelength λ = 0.35 m, f = 2000 Hz. Speed v = f × λ = 2000 × 0.35 = 700 m/s. Time t = Distance / speed = 1400 m / 700 m/s = 2 s.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-041",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the wave displacement profile shown, which letter marked in the diagram represents the wavelength (λ) between two consecutive crests?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><line x1='30' y1='120' x2='370' y2='120' stroke='#94a3b8' stroke-width='2' stroke-dasharray='4'/><path d='M 30 120 Q 75 40 120 120 T 210 120 T 300 120 T 370 120' fill='none' stroke='#2563eb' stroke-width='3'/><line x1='75' y1='30' x2='75' y2='45' stroke='#1e293b' stroke-width='1.5'/><line x1='255' y1='30' x2='255' y2='45' stroke='#1e293b' stroke-width='1.5'/><line x1='75' y1='35' x2='255' y2='35' stroke='#dc2626' stroke-width='2'/><text x='155' y='28' font-family='sans-serif' font-size='14' font-weight='bold' fill='#dc2626'>A (Wavelength λ)</text><line x1='120' y1='60' x2='120' y2='120' stroke='#16a34a' stroke-width='2'/><text x='125' y='95' font-family='sans-serif' font-size='13' font-weight='bold' fill='#16a34a'>B (Amplitude)</text><text x='70' y='60' font-family='sans-serif' font-size='12' fill='#1e293b'>C (Crest)</text><text x='160' y='180' font-family='sans-serif' font-size='12' fill='#1e293b'>D (Trough)</text></svg>"
+    },
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "answer": 0,
+    "explanation": "Dimension A marks the distance between two consecutive crests, which is defined as the wavelength (λ).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-042",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the free-body diagram of a block being pulled to the right across a rough horizontal surface, which labeled arrow represents the frictional force opposing its motion?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><line x1='40' y1='170' x2='360' y2='170' stroke='#334155' stroke-width='3'/><rect x='150' y='110' width='100' height='60' fill='#cbd5e1' stroke='#1e293b' stroke-width='2'/><text x='180' y='145' font-family='sans-serif' font-size='14' font-weight='bold' fill='#1e293b'>Mass m</text><line x1='250' y1='140' x2='340' y2='140' stroke='#2563eb' stroke-width='3'/><polygon points='340,135 350,140 340,145' fill='#2563eb'/><text x='290' y='130' font-family='sans-serif' font-size='13' font-weight='bold' fill='#2563eb'>A (Pull F)</text><line x1='150' y1='168' x2='60' y2='168' stroke='#dc2626' stroke-width='3'/><polygon points='60,163 50,168 60,173' fill='#dc2626'/><text x='70' y='160' font-family='sans-serif' font-size='13' font-weight='bold' fill='#dc2626'>B (Friction f)</text><line x1='200' y1='110' x2='200' y2='40' stroke='#16a34a' stroke-width='3'/><polygon points='195,40 200,30 205,40' fill='#16a34a'/><text x='210' y='50' font-family='sans-serif' font-size='13' font-weight='bold' fill='#16a34a'>C (Normal N)</text><line x1='200' y1='170' x2='200' y2='230' stroke='#7c3aed' stroke-width='3'/><polygon points='195,230 200,240 205,230' fill='#7c3aed'/><text x='210' y='225' font-family='sans-serif' font-size='13' font-weight='bold' fill='#7c3aed'>D (Weight W)</text></svg>"
+    },
+    "options": [
+      "Arrow A",
+      "Arrow B",
+      "Arrow C",
+      "Arrow D"
+    ],
+    "answer": 1,
+    "explanation": "Arrow B acts opposite to the direction of impending/relative motion along the contact surface, representing the force of friction.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-043",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the phenomenon of periodic rise and fall of ocean water levels due to the gravitational pull of the Moon called?",
+    "acceptedAnswers": [
+      "tides",
+      "Tides",
+      "ocean tides",
+      "ocean tide"
+    ],
+    "keywords": [
+      "tides"
+    ],
+    "explanation": "Tides are periodic sea water rises and falls primarily caused by the differential gravitational attraction of the Moon and the Sun.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-044",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What physical quantity is determined by calculating the area enclosed under a velocity-time graph?",
+    "acceptedAnswers": [
+      "displacement",
+      "distance",
+      "Displacement"
+    ],
+    "keywords": [
+      "displacement"
+    ],
+    "explanation": "The definite integral or geometric area under a velocity-time curve represents the displacement of the moving body.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-045",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): We cannot hear the sound of meteorite explosions occurring on the surface of the Moon from the Earth.\nReason (R): Sound waves are mechanical longitudinal waves that require a material medium to propagate, whereas the space between Earth and Moon is vacuum.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Sound cannot propagate through vacuum because there are no material particles to compress and rarefy.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-046",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): A flat sheet of paper falls noticeably slower through room air than the same sheet crumpled tightly into a small ball.\nReason (R): A crumpled paper ball has more mass than the original flat sheet of paper.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 2,
+    "explanation": "Mass is identical in both forms. The flat sheet experiences much higher air resistance (drag) due to its larger surface area, slowing its fall.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-047",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "According to the Law of Conservation of Momentum, which of the following statements are TRUE for an isolated colliding system? (Select all that apply)",
+    "options": [
+      "No unbalanced external force acts on the system",
+      "Total momentum before collision equals total momentum after collision",
+      "The colliding objects must possess identical masses",
+      "The velocities of both bodies must remain unchanged",
+      "The interaction forces between the bodies are internal action-reaction pairs"
+    ],
+    "answer": [
+      0,
+      1,
+      4
+    ],
+    "explanation": "In an isolated system with no net external force, internal action-reaction forces conserve total momentum, regardless of whether masses are identical.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-048",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following devices or acoustic structures operate based on MULTIPLE REFLECTION OF SOUND? (Select all that apply)",
+    "options": [
+      "Doctor's Stethoscope",
+      "Megaphone / Horn",
+      "Curved Soundboard in an auditorium",
+      "Convex rear-view mirror",
+      "Mercury barometer"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Stethoscopes, megaphones, and auditorium soundboards utilize multiple reflection of sound waves. Mirrors reflect light, and barometers measure atmospheric pressure.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-049",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following celestial bodies in INCREASING order of their surface gravitational acceleration (g) from lowest to highest:",
+    "orderedItems": [
+      "Earth's Moon (approx 1.62 m/s²)",
+      "Mars (approx 3.72 m/s²)",
+      "Earth (approx 9.8 m/s²)",
+      "Jupiter (approx 24.79 m/s²)"
+    ],
+    "answer": "ordered",
+    "explanation": "Surface gravity: Moon (1.62 m/s²) < Mars (3.72 m/s²) < Earth (9.8 m/s²) < Jupiter (24.79 m/s²).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-050",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "A ball is released from rest from a tall tower. Arrange the sequential energy transformations as it falls to the ground:",
+    "orderedItems": [
+      "Pure maximum gravitational potential energy at release",
+      "Potential energy continuously decreases while kinetic energy increases",
+      "Maximum kinetic energy just before striking the ground",
+      "Conversion of mechanical energy into heat, sound, and deformation upon impact"
+    ],
+    "answer": "ordered",
+    "explanation": "As it drops, potential energy transforms into kinetic energy, reaching maximum speed at the bottom, before dissipating as thermal and acoustic energy.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-051",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the weight of an object having a mass of 10 kg on the surface of the Earth? (take g = 9.8 m/s²)",
+    "options": [
+      "9.8 N",
+      "98 N",
+      "10 N",
+      "980 N"
+    ],
+    "answer": 1,
+    "explanation": "Weight W = m × g = 10 kg × 9.8 m/s² = 98 N.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-052",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The pitch or shrillness of a musical sound note depends primarily upon its:",
+    "options": [
+      "Frequency of vibration",
+      "Amplitude of vibration",
+      "Speed of propagation",
+      "Wave shape"
+    ],
+    "answer": 0,
+    "explanation": "The frequency of vibration determines the pitch of the sound. Higher frequency corresponds to a higher pitch or shriller note.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-053",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A cyclist travels on a circular track of radius 70 m. What is the magnitude of the displacement of the cyclist after completing half a revolution?",
+    "options": [
+      "70 m",
+      "140 m",
+      "220 m",
+      "440 m"
+    ],
+    "answer": 1,
+    "explanation": "After half a revolution, the cyclist reaches the diametrically opposite point on the circular track. Magnitude of displacement = diameter = 2r = 2 × 70 m = 140 m.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-054",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "An object of mass 1 kg moving with a velocity of 10 m/s collides with and sticks to a stationary object of mass 4 kg. What is the common velocity of the combined object after collision?",
+    "options": [
+      "2 m/s",
+      "2.5 m/s",
+      "5 m/s",
+      "10 m/s"
+    ],
+    "answer": 0,
+    "explanation": "By conservation of momentum: m1 u1 + m2 u2 = (m1 + m2) v => 1(10) + 4(0) = (1 + 4) v => 10 = 5v => v = 2 m/s.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-055",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "When an object of mass m is raised to a vertical height h against gravity, the work done on it is stored as:",
+    "options": [
+      "Elastic potential energy",
+      "Gravitational potential energy",
+      "Kinetic energy",
+      "Thermal energy"
+    ],
+    "answer": 1,
+    "explanation": "The work done against gravitational force (W = mgh) is stored in the object as gravitational potential energy.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-056",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In uniform circular motion, the speed of the body remains constant while its velocity continuously changes.",
+    "answer": true,
+    "explanation": "Since velocity is a vector, its direction changes at every instant along the tangent to the circle, creating continuous centripetal acceleration even when speed is constant.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-057",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Sound waves with frequencies below 20 Hz are termed ultrasonic sounds.",
+    "answer": false,
+    "explanation": "Sounds of frequency below 20 Hz are called infrasonic sounds. Ultrasonic sounds are those having frequencies higher than 20,000 Hz (20 kHz).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-058",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The kinetic energy of an object of mass m moving with speed v is given by the algebraic expression (1/2)m____.",
+    "acceptedAnswers": [
+      "v^2",
+      "v²",
+      "v2",
+      "velocity squared"
+    ],
+    "explanation": "Kinetic Energy = (1/2) m v², where m is mass and v is velocity.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-059",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The relative density of any substance is defined as the ratio of its density to the density of pure ____ at 4°C.",
+    "acceptedAnswers": [
+      "water",
+      "Water"
+    ],
+    "explanation": "Relative density = Density of substance / Density of water at 4°C. Being a ratio of two identical quantities, it has no units.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-060",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the gravitational parameter with its standard value:",
+    "pairs": [
+      [
+        "g at Earth's surface",
+        "Approx 9.8 m/s²"
+      ],
+      [
+        "g at Moon's surface",
+        "Approx 1.63 m/s²"
+      ],
+      [
+        "g at Earth's centre",
+        "Zero (0 m/s²)"
+      ],
+      [
+        "Universal Constant G",
+        "6.67 × 10⁻¹¹ N·m²/kg²"
+      ]
+    ],
+    "explanation": "g at Earth's surface is 9.8 m/s², Moon's surface is 1.63 m/s², Earth's centre is 0, and universal G is 6.67 × 10⁻¹¹ N·m²/kg².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-061",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A girl of mass 40 kg climbs a staircase consisting of 50 steps, each 15 cm high, in 20 seconds. Calculate the power delivered by the girl in Watts (take g = 10 m/s²).",
+    "answer": 150,
+    "tolerance": 1,
+    "explanation": "Total height h = 50 × 0.15 m = 7.5 m. Work done W = mgh = 40 × 10 × 7.5 = 3000 J. Power P = W / t = 3000 / 20 = 150 Watts.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-062",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A vehicle starts from rest and accelerates with a uniform acceleration of 0.1 m/s² for a duration of 2 minutes. Calculate the speed acquired in m/s.",
+    "answer": 12,
+    "tolerance": 0.1,
+    "explanation": "u = 0, a = 0.1 m/s², t = 2 min = 120 s. Using v = u + at: v = 0 + (0.1 × 120) = 12 m/s.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-063",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "An object weighs 10 N when measured on the surface of the Earth. What would be its weight in Newtons when measured on the surface of the Moon (take g_moon = g_earth / 6, rounded to two decimal places)?",
+    "answer": 1.67,
+    "tolerance": 0.05,
+    "explanation": "Weight on Moon = Weight on Earth / 6 = 10 N / 6 ≈ 1.6667 N ≈ 1.67 N.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-064",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A person claps his hands near a high cliff and hears the distinct echo after 5 seconds. If the speed of sound in air is 346 m/s, what is the distance between the person and the cliff in metres?",
+    "answer": 865,
+    "tolerance": 1,
+    "explanation": "Total distance 2d = speed × time = 346 × 5 = 1730 m. Distance d = 1730 / 2 = 865 m.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-065",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the oscillating simple pendulum shown, at which position is the kinetic energy of the bob at its MAXIMUM?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><line x1='150' y1='20' x2='250' y2='20' stroke='#1e293b' stroke-width='4'/><line x1='200' y1='20' x2='200' y2='180' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='4'/><line x1='200' y1='20' x2='100' y2='140' stroke='#1e293b' stroke-width='2'/><circle cx='100' cy='140' r='14' fill='#ef4444'/><text x='70' y='145' font-family='sans-serif' font-size='14' font-weight='bold' fill='#ef4444'>Point A</text><line x1='200' y1='20' x2='300' y2='140' stroke='#1e293b' stroke-width='2'/><circle cx='300' cy='140' r='14' fill='#ef4444'/><text x='320' y='145' font-family='sans-serif' font-size='14' font-weight='bold' fill='#ef4444'>Point C</text><circle cx='200' cy='180' r='16' fill='#10b981'/><text x='170' y='215' font-family='sans-serif' font-size='14' font-weight='bold' fill='#10b981'>Point B (Lowest)</text></svg>"
+    },
+    "options": [
+      "Point A (Extreme)",
+      "Point B (Lowest / Mean)",
+      "Point C (Extreme)",
+      "Equal at all points"
+    ],
+    "answer": 1,
+    "explanation": "At the lowest (mean) position B, the gravitational potential energy is minimum, and by conservation of mechanical energy, the kinetic energy is at its maximum.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-066",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "If the separation distance r between masses m1 and m2 shown is DOUBLED to 2r, how does the magnitude of the mutual gravitational force change?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><circle cx='100' cy='120' r='35' fill='#3b82f6'/><text x='90' y='125' font-family='sans-serif' font-size='14' font-weight='bold' fill='#ffffff'>m1</text><circle cx='300' cy='120' r='45' fill='#8b5cf6'/><text x='290' y='125' font-family='sans-serif' font-size='14' font-weight='bold' fill='#ffffff'>m2</text><line x1='100' y1='120' x2='300' y2='120' stroke='#64748b' stroke-width='2' stroke-dasharray='4'/><line x1='135' y1='120' x2='190' y2='120' stroke='#e11d48' stroke-width='3'/><polygon points='190,115 200,120 190,125' fill='#e11d48'/><text x='155' y='110' font-family='sans-serif' font-size='13' font-weight='bold' fill='#e11d48'>F</text><line x1='255' y1='120' x2='200' y2='120' stroke='#e11d48' stroke-width='3'/><polygon points='200,115 190,120 200,125' fill='#e11d48'/><text x='230' y='110' font-family='sans-serif' font-size='13' font-weight='bold' fill='#e11d48'>F</text><text x='190' y='150' font-family='sans-serif' font-size='14' font-weight='bold' fill='#1e293b'>distance r</text></svg>"
+    },
+    "options": [
+      "Becomes half (F/2)",
+      "Becomes one-fourth (F/4)",
+      "Doubles (2F)",
+      "Remains unchanged"
+    ],
+    "answer": 1,
+    "explanation": "According to the inverse square law F = G m1 m2 / r², if r is doubled, F' = G m1 m2 / (2r)² = F / 4 (one-fourth of original).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-067",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the medical imaging technique called that uses ultrasonic sound waves to visualize internal organs?",
+    "acceptedAnswers": [
+      "ultrasonography",
+      "ultrasound",
+      "Ultrasonography",
+      "USG"
+    ],
+    "keywords": [
+      "ultrasound",
+      "ultrasonography"
+    ],
+    "explanation": "Ultrasonography uses high-frequency ultrasonic waves that reflect off internal organ boundaries to generate diagnostic images.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-068",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the physical product of an object's mass and its velocity called?",
+    "acceptedAnswers": [
+      "momentum",
+      "linear momentum",
+      "Momentum"
+    ],
+    "keywords": [
+      "momentum"
+    ],
+    "explanation": "Linear momentum p is defined as the product of mass m and velocity v: p = mv.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-069",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): An object can move with a constant speed and still possess non-zero acceleration.\nReason (R): In uniform circular motion, the direction of velocity continuously changes, creating centripetal acceleration.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Because velocity is a vector, any change in its direction results in an acceleration, even if speed remains uniform.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-070",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): When an ideal spring is compressed or stretched by an external agent, positive work is done on the spring.\nReason (R): In both compression and extension, the displacement is in the direction of the applied external force.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "To compress or stretch a spring, the external applied force acts in the direction of displacement, performing positive work that is stored as elastic potential energy.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-071",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following animals communicate or navigate using INFRASOUND or ULTRASOUND? (Select all that apply)",
+    "options": [
+      "Bats (use ultrasound echolocation)",
+      "Dolphins (use ultrasound clicks for navigation)",
+      "Elephants (use infrasound rumbles)",
+      "Rhinoceroses (use infrasound calls below 6 Hz)",
+      "Normal adult human conversation"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Bats and dolphins use ultrasound (>20 kHz), while elephants and rhinos communicate using infrasound (<20 Hz). Normal human conversation occurs within the audible range (20 Hz - 20 kHz).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-072",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following natural phenomena are explained by Newton's UNIVERSAL LAW OF GRAVITATION? (Select all that apply)",
+    "options": [
+      "The force that binds us to the surface of the Earth",
+      "The orbital motion of the Moon around the Earth",
+      "The motion of planets revolving around the Sun",
+      "Ocean tides caused by the gravitational attraction of the Moon and Sun",
+      "The flow of electric current through an electrical conductor"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Gravitation explains binding to Earth, Moon's orbit, planetary revolutions, and ocean tides. Electric current flow is governed by electromagnetic forces.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-073",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following safety measures or techniques are direct applications of increasing impact time (Δt) to reduce impact force (F = Δp/Δt)? (Select all that apply)",
+    "options": [
+      "A cricket fielder pulls his hands backward while catching a ball",
+      "Athletes in high jump land on thick foam cushions or loose sand",
+      "Automobile seatbelts and airbags cushion passenger deceleration",
+      "A gun recoils backwards when a bullet is fired",
+      "Fragile glass items are packed with straw or bubble wrap"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Options 0, 1, 2, and 4 reduce force by lengthening impact duration Δt. Gun recoil is an example of Newton's third law and momentum conservation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-074",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the anatomical components of the human ear in the sequence through which acoustic vibrations pass:",
+    "orderedItems": [
+      "Pinna (outer ear funnel collecting sound)",
+      "Auditory canal (ear canal)",
+      "Tympanic membrane (eardrum vibrating with sound waves)",
+      "Middle ear ossicles (hammer, anvil, and stirrup amplifying vibrations)",
+      "Cochlea (converting vibrations into electrical nerve signals)"
+    ],
+    "answer": "ordered",
+    "explanation": "Sound is gathered by the pinna, passes down the auditory canal, vibrates the eardrum, is amplified by the three bones, and is converted into nerve impulses in the cochlea.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-075",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following stages of a skydiver's descent in chronological order from jump to landing:",
+    "orderedItems": [
+      "Skydiver exits aircraft with zero initial vertical velocity",
+      "Accelerating downwards under gravity with increasing air drag",
+      "Downward gravitational pull balances upward air resistance (terminal velocity)",
+      "Parachute deployment creates large drag, causing sharp deceleration",
+      "Steady, slow descent at safe terminal velocity until touching the ground"
+    ],
+    "answer": "ordered",
+    "explanation": "The descent begins with free fall, acceleration, terminal velocity, parachute deployment deceleration, and safe steady touchdown.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-076",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The weight of an object measured at the geometric centre of the Earth is:",
+    "options": [
+      "Zero",
+      "Infinite",
+      "Same as on the Earth's surface",
+      "Twice its surface weight"
+    ],
+    "answer": 0,
+    "explanation": "At the centre of the Earth, acceleration due to gravity g is zero, therefore the weight W = mg = 0.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-077",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following graphical representations corresponds to an object moving with CONSTANT acceleration starting from rest?",
+    "options": [
+      "A straight line parallel to the time axis on a distance-time graph",
+      "A straight line inclined to the time axis passing through origin on a velocity-time graph",
+      "A curved line with decreasing slope on a velocity-time graph",
+      "A vertical line on a velocity-time graph"
+    ],
+    "answer": 1,
+    "explanation": "A straight line inclined to the time axis on a v-t graph indicates constant rate of change of velocity, i.e., constant acceleration.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-078",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "When a body falls freely towards the Earth in the absence of air resistance, its total mechanical energy (potential + kinetic):",
+    "options": [
+      "Increases continuously",
+      "Decreases continuously",
+      "Remains constant",
+      "First increases then decreases"
+    ],
+    "answer": 2,
+    "explanation": "According to the law of conservation of mechanical energy, the sum of kinetic and potential energy remains constant throughout the free fall.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-079",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "To hear a distinct echo, what is the minimum distance between the source of sound and the reflecting obstacle in air at 22°C (speed of sound = 344 m/s)?",
+    "options": [
+      "11.2 m",
+      "17.2 m",
+      "34.4 m",
+      "8.6 m"
+    ],
+    "answer": 1,
+    "explanation": "Persistence of hearing is 0.1 s. Total round trip distance = 344 × 0.1 = 34.4 m. Obstacle distance d = 34.4 / 2 = 17.2 m.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-080",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If an unbalanced net force of 20 N acts on an object of mass 4 kg, what is the acceleration produced?",
+    "options": [
+      "2 m/s²",
+      "5 m/s²",
+      "16 m/s²",
+      "80 m/s²"
+    ],
+    "answer": 1,
+    "explanation": "Using Newton's second law F = ma: a = F / m = 20 N / 4 kg = 5 m/s².",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-081",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "If the separation distance between two point masses is reduced to one-third (r/3) of its initial distance, the gravitational attraction force becomes:",
+    "options": [
+      "3 times",
+      "6 times",
+      "9 times",
+      "1/9 times"
+    ],
+    "answer": 2,
+    "explanation": "Gravitational force F is inversely proportional to r². If r becomes r/3, F' = G m1 m2 / (r/3)² = 9 × (G m1 m2 / r²) = 9F.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-082",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Work done by a force is negative when the direction of the force is opposite to the direction of displacement.",
+    "answer": true,
+    "explanation": "Work W = F · s · cos(180°) = -F · s. Friction opposing motion is a classic example of negative work.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-083",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "An automobile's odometer records the instantaneous speed of the vehicle.",
+    "answer": false,
+    "explanation": "An odometer measures total distance travelled by the vehicle, whereas a speedometer measures instantaneous speed.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-084",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The number of complete oscillations or cycles produced per second by a vibrating source is called its ____.",
+    "acceptedAnswers": [
+      "frequency",
+      "Frequency"
+    ],
+    "explanation": "Frequency is measured in Hertz (Hz) and represents the number of complete waves passing a point in one second.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-085",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The SI unit of linear momentum is ____.",
+    "acceptedAnswers": [
+      "kg m/s",
+      "kg·m/s",
+      "kg m s^-1",
+      "kg m/s^1",
+      "N s",
+      "N·s"
+    ],
+    "explanation": "Momentum p = mv. Mass is in kg and velocity is in m/s, giving SI unit kg·m/s (or Newton-second, N·s).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-086",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each acoustic category with its characteristic frequency range or function:",
+    "pairs": [
+      [
+        "Infrasound",
+        "Frequency below 20 Hz"
+      ],
+      [
+        "Audible sound",
+        "Frequency between 20 Hz and 20 kHz"
+      ],
+      [
+        "Ultrasound",
+        "Frequency above 20 kHz"
+      ],
+      [
+        "SONAR",
+        "Sound Navigation and Ranging underwater"
+      ]
+    ],
+    "explanation": "Infrasound is <20 Hz, audible sound is 20 Hz to 20 kHz, ultrasound is >20 kHz, and SONAR is sound navigation and ranging.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-087",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match Newton's laws with their defining descriptions:",
+    "pairs": [
+      [
+        "Newton's 1st Law",
+        "Law of Inertia (resisting change in state)"
+      ],
+      [
+        "Newton's 2nd Law",
+        "F = ma (rate of change of momentum)"
+      ],
+      [
+        "Newton's 3rd Law",
+        "Action and Reaction are equal and opposite"
+      ],
+      [
+        "Conservation of Momentum",
+        "Total momentum remains constant in isolated collision"
+      ]
+    ],
+    "explanation": "1st law is inertia, 2nd law relates force to mass times acceleration, 3rd law gives action-reaction pairs, and momentum conservation applies to isolated systems.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-088",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the work done in Joules by a force of 15 N in moving a trolley through a distance of 8 m along the direction of the force.",
+    "answer": 120,
+    "tolerance": 0,
+    "explanation": "Work W = Force × distance = 15 N × 8 m = 120 Joules.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-089",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A bus accelerates uniformly from 36 km/h to 72 km/h in 10 seconds. Calculate its acceleration in m/s².",
+    "answer": 1,
+    "tolerance": 0.05,
+    "explanation": "u = 36 × (5/18) = 10 m/s; v = 72 × (5/18) = 20 m/s. Acceleration a = (v - u) / t = (20 - 10) / 10 = 1 m/s².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-090",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A stone is thrown vertically upwards with a speed of 20 m/s. How much time in seconds will it take to reach its highest point (take g = 10 m/s²)?",
+    "answer": 2,
+    "tolerance": 0.1,
+    "explanation": "At highest point v = 0. Using v = u - gt: 0 = 20 - 10t => 10t = 20 => t = 2 seconds.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-091",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "An electric pump lifts a mass of 50 kg through a vertical height of 20 m in 10 seconds. Find the useful power output of the pump in Watts (take g = 10 m/s²).",
+    "answer": 1000,
+    "tolerance": 1,
+    "explanation": "Work done W = mgh = 50 kg × 10 m/s² × 20 m = 10,000 J. Power P = W / t = 10,000 / 10 = 1,000 Watts.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-092",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the marine depth-sounding technique known as SONAR, what type of waves are transmitted by device A and detected by receiver B?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><rect x='0' y='50' width='400' height='190' fill='#e0f2fe'/><polygon points='120,20 280,20 250,55 150,55' fill='#475569'/><text x='170' y='42' font-family='sans-serif' font-size='13' font-weight='bold' fill='#ffffff'>Research Vessel</text><circle cx='180' cy='60' r='6' fill='#e11d48'/><text x='140' y='75' font-family='sans-serif' font-size='11' font-weight='bold' fill='#e11d48'>A (Transmitter)</text><circle cx='220' cy='60' r='6' fill='#16a34a'/><text x='230' y='75' font-family='sans-serif' font-size='11' font-weight='bold' fill='#16a34a'>B (Receiver)</text><path d='M 180 70 L 195 210' stroke='#e11d48' stroke-width='2' stroke-dasharray='4'/><path d='M 205 210 L 220 70' stroke='#16a34a' stroke-width='2' stroke-dasharray='4'/><rect x='0' y='210' width='400' height='30' fill='#ca8a04'/><text x='160' y='230' font-family='sans-serif' font-size='12' font-weight='bold' fill='#ffffff'>Ocean Seabed</text></svg>"
+    },
+    "options": [
+      "Radio waves",
+      "Ultrasonic sound waves",
+      "Infrasonic sound waves",
+      "Visible laser pulses"
+    ],
+    "answer": 1,
+    "explanation": "SONAR relies on high-frequency ultrasonic waves because they can penetrate deep water along well-defined directional beams.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-093",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the rate of change of position of an object in a specific given direction called?",
+    "acceptedAnswers": [
+      "velocity",
+      "Velocity"
+    ],
+    "keywords": [
+      "velocity"
+    ],
+    "explanation": "Velocity is the speed of an object moving in a definite direction (displacement per unit time).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-094",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the commercial electrical energy unit commonly referred to as 1 'unit' on domestic electricity bills?",
+    "acceptedAnswers": [
+      "kilowatt hour",
+      "kWh",
+      "kilowatt-hour",
+      "Kilowatt hour",
+      "unit"
+    ],
+    "keywords": [
+      "kwh",
+      "kilowatt"
+    ],
+    "explanation": "1 commercial unit of electrical energy is equal to 1 kilowatt-hour (kWh).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-095",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Force and Laws of Motion",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Heavy commercial trucks are fitted with multiple wide double-wheels rather than narrow single wheels.\nReason (R): Increasing the surface contact area reduces the pressure exerted by the truck's heavy load on the roadway (Pressure = Force / Area).\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Pressure is inversely proportional to surface area. Wider and multiple tires distribute the weight over a larger area, protecting the road from excessive damage.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-096",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Sound",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Sound travels noticeably faster through air on a hot summer afternoon than on a cold winter night.\nReason (R): The speed of sound in a gas increases directly with the square root of the absolute temperature of the medium.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "The speed of sound in air is proportional to the square root of temperature (v ∝ √T). As temperature increases, air molecules move faster, transmitting sound vibrations more rapidly.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-097",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following statements comparing MASS and WEIGHT are CORRECT? (Select all that apply)",
+    "options": [
+      "Mass is a scalar quantity while weight is a vector quantity",
+      "Mass is measured in kilograms (kg) while weight is measured in Newtons (N)",
+      "The mass of an object remains constant throughout the universe",
+      "The weight of an object is zero at the centre of the Earth",
+      "Weight is measured using an ordinary balance while mass is measured with a spring balance"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Mass is scalar (kg), constant everywhere, and measured by a beam balance. Weight is vector (N), varies with gravity (zero at Earth's centre), and is measured by a spring balance.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-098",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Motion",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following formulas are VALID equations for motion under UNIFORM acceleration? (Select all that apply)",
+    "options": [
+      "v = u + at",
+      "s = ut + (1/2)at²",
+      "v² - u² = 2as",
+      "s = ((u + v)/2) × t",
+      "v = u + (1/2)at²"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "v = u + at, s = ut + 0.5at², v² - u² = 2as, and s = (u + v)t/2 are standard valid kinematic equations. v = u + 0.5at² is dimensionally inconsistent.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-099",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Work and Energy",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following electrical appliances in INCREASING order of their typical power consumption ratings (from lowest to highest):",
+    "orderedItems": [
+      "LED night bulb (approx 5 W to 10 W)",
+      "Ceiling fan (approx 60 W to 75 W)",
+      "Electric room heater / toaster (approx 1000 W to 1500 W)",
+      "Electric instantaneous geyser / AC unit (approx 2000 W to 3000 W)"
+    ],
+    "answer": "ordered",
+    "explanation": "Typical power ratings: LED lamp (10 W) < Ceiling fan (75 W) < Room heater (1200 W) < Water geyser (2500 W).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-physics-100",
+    "class": 9,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the chronological experimental steps to demonstrate Archimedes' principle using an overflow can and a spring balance:",
+    "orderedItems": [
+      "Weigh the solid object in air using a calibrated spring balance (W1)",
+      "Fill an overflow eureka can with water until water just overflows through the spout",
+      "Immerse the solid object completely into the water while noting the apparent weight (W2)",
+      "Collect and weigh the displaced water in a measuring beaker (W_displaced)",
+      "Verify that the apparent weight loss (W1 - W2) equals the weight of displaced water"
+    ],
+    "answer": "ordered",
+    "explanation": "The experimental procedure starts by measuring weight in air, preparing the overflow can, submerging the object to note apparent weight, collecting displaced fluid, and verifying equality.",
+    "marks": 2,
+    "volatile": false
+  }
+]

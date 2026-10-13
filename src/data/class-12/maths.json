@@ -1,0 +1,1928 @@
+[
+  {
+    "id": "c12-maths-001",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Relations and Functions",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Let R be a relation on the set A = {1, 2, 3} defined by R = {(1, 1), (2, 2), (3, 3), (1, 2), (2, 1)}. What is the formal classification of the relation R?",
+    "options": [
+      "Equivalence relation",
+      "Reflexive and transitive but not symmetric",
+      "Reflexive and symmetric but not transitive",
+      "Symmetric only"
+    ],
+    "answer": 0,
+    "explanation": "R contains (a, a) for all a in A (reflexive). If (a, b) in R, (b, a) in R (symmetric). For (1, 2) and (2, 1), (1, 1) is in R; for (2, 1) and (1, 2), (2, 2) is in R (transitive). Hence, R is an equivalence relation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-002",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Inverse Trigonometric Functions",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the principal value of the expression cos⁻¹(-1/2) + sin⁻¹(-1/2)?",
+    "options": [
+      "π / 2",
+      "π",
+      "2π / 3",
+      "π / 3"
+    ],
+    "answer": 0,
+    "explanation": "Using the standard identity sin⁻¹(x) + cos⁻¹(x) = π/2 for all x ∈ [-1, 1], since x = -1/2 lies in [-1, 1], the value is identically π/2.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-003",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Matrices",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "If A is a square matrix of order 3 × 3 such that |A| = 4, evaluate the determinant value |adj(2A)|.",
+    "options": [
+      "1024",
+      "256",
+      "512",
+      "64"
+    ],
+    "answer": 0,
+    "explanation": "For a 3×3 matrix, |2A| = 2³ |A| = 8 × 4 = 32. Then |adj(M)| = |M|^(n-1) = |M|² for n = 3. Therefore, |adj(2A)| = (32)² = 1024.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-004",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Determinants",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If A is an invertible square matrix of order 3 such that |A| = 5, what is the value of |A⁻¹|?",
+    "options": [
+      "1 / 5",
+      "5",
+      "25",
+      "1 / 25"
+    ],
+    "answer": 0,
+    "explanation": "Since A · A⁻¹ = I, taking determinants gives |A| · |A⁻¹| = |I| = 1. Thus |A⁻¹| = 1 / |A| = 1 / 5.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-005",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Matrices",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "If matrix A has dimension 2 × 3 and matrix B has dimension 3 × 4, what is the order of the product matrix AB?",
+    "options": [
+      "2 × 4",
+      "3 × 3",
+      "4 × 2",
+      "Cannot be multiplied"
+    ],
+    "answer": 0,
+    "explanation": "Multiplying an (m × k) matrix by a (k × n) matrix yields a product matrix of dimension (m × n). Here, (2 × 3) × (3 × 4) = 2 × 4.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-006",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Relations and Functions",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Let f: R → R be a bijective function defined by f(x) = 3x - 4. What is the expression for the inverse function f⁻¹(x)?",
+    "options": [
+      "(x + 4) / 3",
+      "(x - 4) / 3",
+      "3x + 4",
+      "(4 - x) / 3"
+    ],
+    "answer": 0,
+    "explanation": "Let y = 3x - 4. Solving for x in terms of y: y + 4 = 3x ⇒ x = (y + 4)/3. Hence, f⁻¹(x) = (x + 4)/3.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-007",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Inverse Trigonometric Functions",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The principal value branch of the inverse sine function y = sin⁻¹(x) is strictly [-π/2, π/2].",
+    "answer": true,
+    "explanation": "True. The principal branch of sin⁻¹(x) is defined as the closed interval [-π/2, π/2] with domain [-1, 1].",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-008",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Matrices",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "For any square matrix A with real entries, the matrix (A - Aᵀ) is always a skew-symmetric matrix.",
+    "answer": true,
+    "explanation": "True. Taking the transpose: (A - Aᵀ)ᵀ = Aᵀ - (Aᵀ)ᵀ = Aᵀ - A = -(A - Aᵀ). Since the transpose equals its negative, it is skew-symmetric.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-009",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Matrices",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "A square matrix A is called a ______ matrix if it satisfies the condition Aᵀ = A.",
+    "answer": "symmetric",
+    "acceptedAnswers": [
+      "symmetric",
+      "Symmetric"
+    ],
+    "explanation": "A matrix is symmetric if it is equal to its transpose (Aᵀ = A).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-010",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Inverse Trigonometric Functions",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In radians, the principal value of tan⁻¹(√3) is π / ______.",
+    "answer": "3",
+    "acceptedAnswers": [
+      "3"
+    ],
+    "explanation": "tan(π/3) = √3. Since π/3 lies within the principal range (-π/2, π/2), tan⁻¹(√3) = π/3.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-011",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Matrices",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following special square matrices with their governing algebraic definitions:",
+    "pairs": [
+      [
+        "Idempotent Matrix",
+        "A² = A"
+      ],
+      [
+        "Involutory Matrix",
+        "A² = I"
+      ],
+      [
+        "Nilpotent Matrix",
+        "Aᵏ = O for some positive integer k"
+      ],
+      [
+        "Orthogonal Matrix",
+        "A · Aᵀ = I"
+      ]
+    ],
+    "explanation": "Idempotent satisfies A²=A; Involutory satisfies A²=I; Nilpotent satisfies A^k=O; Orthogonal satisfies AAᵀ=I.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-012",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Determinants",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "If |[x, 2], [3, x]| = |[5, 2], [3, 5]|, find the positive real value of x.",
+    "answer": 5,
+    "tolerance": 0,
+    "unit": "value",
+    "explanation": "Evaluating LHS determinant: x² - 6. Evaluating RHS determinant: 5(5) - 2(3) = 25 - 6 = 19. Setting x² - 6 = 19 ⇒ x² = 25 ⇒ positive x = 5.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-013",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Determinants",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "If A is a square matrix of order 3 × 3 such that |A| = 3, calculate the value of the determinant |adj(A)|.",
+    "answer": 9,
+    "tolerance": 0,
+    "unit": "determinant",
+    "explanation": "For any square matrix of order n, |adj(A)| = |A|^(n - 1). For n = 3 and |A| = 3: |adj(A)| = 3^(3 - 1) = 3² = 9.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-014",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Matrices",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Find the total number of all possible distinct matrices of order 3 × 3 where each entry is either 0 or 1.",
+    "answer": 512,
+    "tolerance": 0,
+    "unit": "matrices",
+    "explanation": "A 3 × 3 matrix contains 3 × 3 = 9 individual element positions. Since each position has 2 choices (0 or 1), total matrices = 2⁹ = 512.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-015",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Relations and Functions",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "For the function f(x) = (k · cos x) / (π - 2x) for x ≠ π/2, and f(π/2) = 3, find the value of k that makes f continuous at x = π/2.",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "constant",
+    "explanation": "Using L'Hôpital's Rule: lim(x→π/2) (-k sin x) / (-2) = (k sin(π/2)) / 2 = k/2. For continuity, k/2 = f(π/2) = 3 ⇒ k = 6.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-016",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Relations and Functions",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many distinct binary operations can be defined on a set containing exactly 2 elements?",
+    "answer": 16,
+    "tolerance": 0,
+    "unit": "operations",
+    "explanation": "A binary operation on a set A of n elements is a function from A × A to A. Total operations = n^(n²) = 2^(2²) = 2⁴ = 16.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-017",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Relations and Functions",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Observe the function mapping diagram below between domain X = {1, 2, 3} and codomain Y = {a, b, c}. What is the correct classification of this function f?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Function Mapping Diagram: f : X → Y</text><ellipse cx=\"120\" cy=\"120\" rx=\"50\" ry=\"70\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"120\" y=\"42\" font-size=\"14\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Domain X</text><circle cx=\"120\" cy=\"80\" r=\"4\" fill=\"#1e40af\"/><text x=\"100\" y=\"85\" font-size=\"13\" fill=\"#1e293b\">1</text><circle cx=\"120\" cy=\"120\" r=\"4\" fill=\"#1e40af\"/><text x=\"100\" y=\"125\" font-size=\"13\" fill=\"#1e293b\">2</text><circle cx=\"120\" cy=\"160\" r=\"4\" fill=\"#1e40af\"/><text x=\"100\" y=\"165\" font-size=\"13\" fill=\"#1e293b\">3</text><ellipse cx=\"400\" cy=\"120\" rx=\"50\" ry=\"70\" fill=\"#f0fdf4\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"400\" y=\"42\" font-size=\"14\" font-weight=\"bold\" fill=\"#15803d\" text-anchor=\"middle\">Codomain Y</text><circle cx=\"400\" cy=\"80\" r=\"4\" fill=\"#15803d\"/><text x=\"420\" y=\"85\" font-size=\"13\" fill=\"#1e293b\">a</text><circle cx=\"400\" cy=\"120\" r=\"4\" fill=\"#15803d\"/><text x=\"420\" y=\"125\" font-size=\"13\" fill=\"#1e293b\">b</text><circle cx=\"400\" cy=\"160\" r=\"4\" fill=\"#15803d\"/><text x=\"420\" y=\"165\" font-size=\"13\" fill=\"#1e293b\">c</text><line x=\"124\" y=\"80\" x=\"396\" y=\"120\" stroke=\"#475569\" stroke-width=\"1.5\"/><polygon points=\"396,120 388,115 388,125\" fill=\"#475569\"/><line x=\"124\" y=\"120\" x=\"396\" y=\"160\" stroke=\"#475569\" stroke-width=\"1.5\"/><polygon points=\"396,160 388,155 388,165\" fill=\"#475569\"/><line x=\"124\" y=\"160\" x=\"396\" y=\"80\" stroke=\"#475569\" stroke-width=\"1.5\"/><polygon points=\"396,80 388,75 388,85\" fill=\"#475569\"/><text x=\"260\" y=\"200\" font-size=\"13\" font-weight=\"bold\" fill=\"#334155\" text-anchor=\"middle\">Every element in X maps to a distinct element in Y and Range = Codomain</text></svg>"
+    },
+    "options": [
+      "Bijective (both One-One and Onto)",
+      "Injective (One-One) but not Surjective (Onto)",
+      "Surjective (Onto) but not Injective (One-One)",
+      "Neither One-One nor Onto"
+    ],
+    "answer": 0,
+    "explanation": "Each distinct domain element has a unique image (one-one/injective), and every element of codomain Y has a pre-image in X (onto/surjective). Hence f is bijective.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-018",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Relations and Functions",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What three formal properties must a binary relation R on a non-empty set A satisfy to be classified as an equivalence relation?",
+    "sampleAnswer": "A relation R is an equivalence relation if and only if it is reflexive (aRa for all a in A), symmetric (aRb implies bRa), and transitive (aRb and bRc implies aRc).",
+    "acceptedAnswers": [
+      "Reflexive, symmetric, and transitive",
+      "It must be reflexive, symmetric, and transitive",
+      "Reflexivity, symmetry, transitivity"
+    ],
+    "keywords": [
+      "reflexive",
+      "symmetric",
+      "transitive"
+    ],
+    "explanation": "By definition, an equivalence relation must satisfy reflexivity, symmetry, and transitivity simultaneously.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-019",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Matrices",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Prove that the inverse of an invertible square matrix A is unique.",
+    "sampleAnswer": "Assume B and C are two inverses of A. Then AB = BA = I and AC = CA = I. Now, B = B · I = B · (AC) = (BA) · C = I · C = C. Hence, the inverse is unique.",
+    "acceptedAnswers": [
+      "Assume B and C are inverses; B = B(AC) = (BA)C = C proves uniqueness",
+      "B = B(AC) = (BA)C = C",
+      "If B and C are inverses of A, B = B(AC) = (BA)C = IC = C"
+    ],
+    "keywords": [
+      "B = B(AC)",
+      "(BA)C",
+      "unique",
+      "associative"
+    ],
+    "explanation": "Using matrix associativity: B = B·I = B·(AC) = (BA)·C = I·C = C, proving the inverse is uniquely defined.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-020",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Determinants",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): A system of linear equations represented by AX = B has a unique solution if and only if |A| ≠ 0.\nReason (R): When |A| ≠ 0, the matrix A is non-singular and its inverse A⁻¹ exists, yielding the unique solution vector X = A⁻¹B.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "If |A| ≠ 0, A⁻¹ exists uniquely, and pre-multiplying AX = B by A⁻¹ gives the unique solution vector X = A⁻¹B.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-021",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Determinants",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): If A is an n × n square matrix and k is a scalar constant, then |kA| = kⁿ |A|.\nReason (R): Multiplying a matrix A by a scalar k multiplies every entry in each of its n individual rows by k, and factoring k out of each row yields a factor of kⁿ.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "In a determinant, factoring a common scalar k from each of the n rows pulls out kⁿ, proving |kA| = kⁿ |A|.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-022",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Matrices",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following algebraic properties hold true for matrix addition among square matrices of the identical order? (Select all that apply)",
+    "options": [
+      "Commutative property: A + B = B + A",
+      "Associative property: (A + B) + C = A + (B + C)",
+      "Existence of additive identity: A + O = A",
+      "Anti-commutative property: A + B = -(B + A)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Matrix addition is commutative, associative, and admits the zero matrix as its additive identity. Matrix addition is not anti-commutative.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-023",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Determinants",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following properties regarding determinants of square matrices of the same order are mathematically correct? (Select all that apply)",
+    "options": [
+      "|Aᵀ| = |A|",
+      "|AB| = |A| · |B|",
+      "If any two rows or columns are interchanged, the sign of the determinant changes.",
+      "|A + B| = |A| + |B|"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The determinant of a transpose equals the original determinant, the determinant of a product equals the product of determinants, and swapping two rows flips the sign. |A + B| ≠ |A| + |B| in general.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-024",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Matrices",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the steps to find the inverse of an invertible square matrix A using the adjoint method in proper sequential order:",
+    "orderedItems": [
+      "Calculate the determinant |A| of the matrix",
+      "Verify that |A| ≠ 0 to confirm non-singularity",
+      "Calculate the cofactor C_ij for every element",
+      "Form the cofactor matrix and transpose it to obtain adj(A)",
+      "Multiply adj(A) by the scalar 1/|A| to obtain A⁻¹"
+    ],
+    "answer": "ordered",
+    "explanation": "Standard adjoint method: Compute |A| -> check |A| ≠ 0 -> calculate cofactors -> transpose to get adj(A) -> divide by |A|.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-025",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Determinants",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the procedural steps to solve a system of non-homogeneous linear equations AX = B using the Matrix Inversion Method:",
+    "orderedItems": [
+      "Express the linear system in matrix form AX = B",
+      "Compute the determinant |A| of the coefficient matrix",
+      "Confirm |A| ≠ 0 to establish the existence of a unique solution",
+      "Determine the adjoint matrix adj(A)",
+      "Formulate the inverse matrix A⁻¹ = (1/|A|) · adj(A)",
+      "Evaluate the matrix product X = A⁻¹ · B to solve for variables"
+    ],
+    "answer": "ordered",
+    "explanation": "Matrix method sequence: Matrix formulation -> determinant calculation -> non-singularity test -> adjoint computation -> inverse formulation -> multiply by constant vector B.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-026",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Continuity and Differentiability",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following functions is continuous everywhere on the real number line R but fails to be differentiable at x = 0?",
+    "options": [
+      "f(x) = |x|",
+      "f(x) = x²",
+      "f(x) = eˣ",
+      "f(x) = sin x"
+    ],
+    "answer": 0,
+    "explanation": "f(x) = |x| is continuous at x = 0 since lim(x→0) |x| = 0 = f(0). However, the left-hand derivative is -1 while the right-hand derivative is +1, so it is not differentiable at x = 0.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-027",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Continuity and Differentiability",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If y = xˣ for x > 0, what is the first derivative dy/dx?",
+    "options": [
+      "xˣ(1 + ln x)",
+      "x · xˣ⁻¹",
+      "xˣ ln x",
+      "xˣ / (1 + ln x)"
+    ],
+    "answer": 0,
+    "explanation": "Taking natural logs: ln y = x ln x. Differentiating implicitly: (1/y)(dy/dx) = 1 · ln x + x · (1/x) = ln x + 1. Multiplying by y = xˣ gives dy/dx = xˣ(1 + ln x).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-028",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Continuity and Differentiability",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Given parametric equations x = a(θ - sin θ) and y = a(1 - cos θ), evaluate the second derivative d²y/dx² at θ = π/2.",
+    "options": [
+      "-1 / a",
+      "1 / a",
+      "-2 / a",
+      "0"
+    ],
+    "answer": 0,
+    "explanation": "dx/dθ = a(1 - cos θ), dy/dθ = a sin θ. dy/dx = (a sin θ) / [a(1 - cos θ)] = cot(θ/2). Then d²y/dx² = [d/dθ(cot(θ/2))] · (dθ/dx) = [-1/2 csc²(θ/2)] / [a(1 - cos θ)]. At θ = π/2: θ/2 = π/4, csc²(π/4) = 2, 1 - cos(π/2) = 1. d²y/dx² = [-1/2 (2)] / [a(1)] = -1/a.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-029",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In which interval is the polynomial function f(x) = 2x³ - 9x² + 12x + 5 strictly increasing?",
+    "options": [
+      "(-∞, 1) ∪ (2, ∞)",
+      "(1, 2)",
+      "(-∞, 2)",
+      "(1, ∞)"
+    ],
+    "answer": 0,
+    "explanation": "f'(x) = 6x² - 18x + 12 = 6(x² - 3x + 2) = 6(x - 1)(x - 2). For f(x) to be strictly increasing, f'(x) > 0, which occurs when x < 1 or x > 2, i.e., (-∞, 1) ∪ (2, ∞).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-030",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the slope of the tangent line to the curve y = x³ - x at the point where x = 2?",
+    "options": [
+      "11",
+      "12",
+      "10",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "dy/dx = d/dx(x³ - x) = 3x² - 1. At x = 2, the slope m = 3(2)² - 1 = 3(4) - 1 = 11.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-031",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Continuity and Differentiability",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "If a real-valued function f is differentiable at a point x = c, then it is necessarily continuous at x = c.",
+    "answer": true,
+    "explanation": "True. Differentiability implies continuity: f(x) - f(c) = [(f(x) - f(c))/(x - c)] · (x - c). Taking the limit as x→c yields f'(c) · 0 = 0, so lim(x→c) f(x) = f(c).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-032",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The trigonometric function f(x) = tan x is strictly increasing throughout the open interval (-π/2, π/2).",
+    "answer": true,
+    "explanation": "True. f'(x) = sec² x. Since sec² x > 0 for all x in (-π/2, π/2), the function is strictly increasing on this interval.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-033",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "A point on a smooth curve where the concavity changes (and the second derivative changes sign) is known as a point of ______.",
+    "answer": "inflection",
+    "acceptedAnswers": [
+      "inflection",
+      "Inflection"
+    ],
+    "explanation": "A point of inflection is a point on a curve at which the concavity changes from concave up to concave down, or vice versa.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-034",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Continuity and Differentiability",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "According to Rolle's Theorem applied to f(x) = x² - 4x + 3 on the closed interval [1, 3], the value of c in (1, 3) satisfying f'(c) = 0 is ______.",
+    "answer": "2",
+    "acceptedAnswers": [
+      "2"
+    ],
+    "explanation": "f(1) = 0, f(3) = 0. f'(x) = 2x - 4. Setting f'(c) = 0 ⇒ 2c - 4 = 0 ⇒ c = 2, which lies in the open interval (1, 3).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-035",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following foundational differential calculus theorems with their mathematical assertions:",
+    "pairs": [
+      [
+        "Rolle's Theorem",
+        "If f(a) = f(b) on [a, b], then f'(c) = 0 for some c in (a, b)"
+      ],
+      [
+        "Lagrange's Mean Value Theorem",
+        "f'(c) = [f(b) - f(a)] / (b - a) for some c in (a, b)"
+      ],
+      [
+        "Chain Rule",
+        "d/dx[f(g(x))] = f'(g(x)) · g'(x)"
+      ],
+      [
+        "First Derivative Test",
+        "f'(x) changes sign from positive to negative at a local maximum"
+      ]
+    ],
+    "explanation": "Rolle's states f'(c)=0; LMVT states f'(c) equals average slope; Chain Rule differentiates composite functions; First Derivative test identifies local extrema.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-036",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Continuity and Differentiability",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Evaluate the numerical value of the derivative dy/dx at x = 0 for the function y = sin(x²).",
+    "answer": 0,
+    "tolerance": 0,
+    "unit": "value",
+    "explanation": "Using the chain rule: dy/dx = cos(x²) · d/dx(x²) = 2x cos(x²). At x = 0, dy/dx = 2(0) · cos(0) = 0.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-037",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A spherical balloon is inflated so that its radius increases at a constant rate of 0.5 cm/s. At what rate is its volume increasing when radius r = 10 cm? (Express in terms of kπ cm³/s and find k).",
+    "answer": 200,
+    "tolerance": 0,
+    "unit": "coefficient k",
+    "explanation": "Volume V = (4/3)π r³. dV/dt = 4π r² (dr/dt). For r = 10 and dr/dt = 0.5: dV/dt = 4π (100) (0.5) = 200π. Hence, k = 200.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-038",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Find the absolute maximum value of the function f(x) = x³ - 3x + 2 on the closed interval [0, 2].",
+    "answer": 4,
+    "tolerance": 0,
+    "unit": "maximum value",
+    "explanation": "f'(x) = 3x² - 3 = 0 ⇒ x = 1 (since x ∈ [0, 2]). Testing values: f(0) = 2, f(1) = 1 - 3 + 2 = 0, f(2) = 2³ - 3(2) + 2 = 8 - 6 + 2 = 4. The absolute maximum value is 4.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-039",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Find the slope of the normal to the curve y = x² - 5x + 6 at the point where x = 2.",
+    "answer": 1,
+    "tolerance": 0,
+    "unit": "slope",
+    "explanation": "dy/dx = 2x - 5. At x = 2, slope of tangent m_t = 2(2) - 5 = -1. Slope of normal m_n = -1 / m_t = -1 / (-1) = 1.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-040",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Find the absolute minimum value attained by the function f(x) = 2x³ - 15x² + 36x + 11 on the closed interval [1, 5].",
+    "answer": 34,
+    "tolerance": 0,
+    "unit": "minimum value",
+    "explanation": "f'(x) = 6x² - 30x + 36 = 6(x - 2)(x - 3) = 0 ⇒ critical points x = 2, 3. Testing: f(1) = 2 - 15 + 36 + 11 = 34; f(2) = 16 - 60 + 72 + 11 = 39; f(3) = 54 - 135 + 108 + 11 = 38; f(5) = 250 - 375 + 180 + 11 = 66. The absolute minimum value is 34.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-041",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the continuous differentiable curve diagram below with local maximum at x = a and local minimum at x = b. What is the value of the first derivative f'(x) at both stationary points x = a and x = b?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Local Extrema and Stationary Points</text><line x=\"40\" y=\"180\" x=\"480\" y=\"180\" stroke=\"#64748b\" stroke-width=\"1.5\"/><line x=\"60\" y=\"30\" x=\"60\" y=\"190\" stroke=\"#64748b\" stroke-width=\"1.5\"/><path d=\"M 80,160 Q 150,20 220,70 T 360,170 Q 420,160 460,90\" fill=\"none\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><line x=\"130\" y=\"58\" x=\"210\" y=\"58\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"4\"/><circle cx=\"170\" cy=\"58\" r=\"4\" fill=\"#dc2626\"/><text x=\"170\" y=\"48\" font-size=\"12\" font-weight=\"bold\" fill=\"#dc2626\" text-anchor=\"middle\">Local Max at x = a</text><line x=\"320\" y=\"160\" x=\"400\" y=\"160\" stroke=\"#16a34a\" stroke-width=\"2\" stroke-dasharray=\"4\"/><circle cx=\"360\" cy=\"160\" r=\"4\" fill=\"#16a34a\"/><text x=\"360\" y=\"178\" font-size=\"12\" font-weight=\"bold\" fill=\"#16a34a\" text-anchor=\"middle\">Local Min at x = b</text><text x=\"260\" y=\"205\" font-size=\"13\" fill=\"#334155\" text-anchor=\"middle\">Horizontal Tangents at Critical Points: Slope = ?</text></svg>"
+    },
+    "options": [
+      "0",
+      "1",
+      "-1",
+      "Undefined"
+    ],
+    "answer": 0,
+    "explanation": "At any smooth local maximum or minimum, the tangent line to the curve is horizontal, which means the first derivative f'(x) equals 0.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-042",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "Observe the cubic curve y = x³ - 3x below showing concavity transition. At which specific point does the curve switch from concave downward to concave upward (point of inflection)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Inflection Point &amp; Concavity Change: y = x³ - 3x</text><line x=\"50\" y=\"110\" x=\"470\" y=\"110\" stroke=\"#94a3b8\" stroke-width=\"1\"/><line x=\"260\" y=\"30\" x=\"260\" y=\"190\" stroke=\"#94a3b8\" stroke-width=\"1\"/><path d=\"M 100,190 C 180,30 230,60 260,110 C 290,160 340,190 420,30\" fill=\"none\" stroke=\"#4f46e5\" stroke-width=\"2.5\"/><circle cx=\"260\" cy=\"110\" r=\"5\" fill=\"#ef4444\"/><text x=\"275\" y=\"105\" font-size=\"13\" font-weight=\"bold\" fill=\"#ef4444\">(0, 0)</text><text x=\"160\" y=\"80\" font-size=\"12\" fill=\"#b45309\">Concave Down: f''(x) &lt; 0</text><text x=\"340\" y=\"140\" font-size=\"12\" fill=\"#15803d\">Concave Up: f''(x) &gt; 0</text></svg>"
+    },
+    "options": [
+      "(0, 0)",
+      "(1, -2)",
+      "(-1, 2)",
+      "(√3, 0)"
+    ],
+    "answer": 0,
+    "explanation": "y = x³ - 3x ⇒ y' = 3x² - 3 ⇒ y'' = 6x. Setting y'' = 0 gives x = 0. For x < 0, y'' < 0 (concave down); for x > 0, y'' > 0 (concave up). Thus (0, 0) is the inflection point.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-043",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Continuity and Differentiability",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "State the hypotheses and conclusion of Lagrange's Mean Value Theorem for a function f on an interval [a, b].",
+    "sampleAnswer": "If f is continuous on [a, b] and differentiable on (a, b), then there exists at least one c in (a, b) such that f'(c) = [f(b) - f(a)] / (b - a).",
+    "acceptedAnswers": [
+      "Continuous on [a, b], differentiable on (a, b), then f'(c) = [f(b) - f(a)] / (b - a)",
+      "If f is continuous on [a, b] and differentiable on (a, b), f'(c) = (f(b)-f(a))/(b-a) for some c in (a, b)",
+      "f'(c) = [f(b) - f(a)] / (b - a) for some c in (a, b)"
+    ],
+    "keywords": [
+      "continuous",
+      "differentiable",
+      "f'(c)",
+      "[f(b) - f(a)] / (b - a)"
+    ],
+    "explanation": "Lagrange's MVT guarantees that the instantaneous slope equals the average secant slope at some intermediate point in the open interval.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-044",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Continuity and Differentiability",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why is logarithmic differentiation specifically required when differentiating functions of the form y = [u(x)]^[v(x)]?",
+    "sampleAnswer": "Because both the base u(x) and the exponent v(x) are variable functions, neither the standard power rule (constant exponent) nor the exponential rule (constant base) applies directly.",
+    "acceptedAnswers": [
+      "Both base and exponent are variables so neither power rule nor exponential rule applies",
+      "Standard power and exponential rules do not apply when both base and power vary",
+      "Taking logarithms transforms variable exponent into a product of functions"
+    ],
+    "keywords": [
+      "variable base",
+      "variable exponent",
+      "power rule",
+      "exponential rule",
+      "logarithms"
+    ],
+    "explanation": "Taking logarithms converts the variable power into a product: ln y = v(x) ln u(x), allowing differentiation via product and chain rules.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-045",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Continuity and Differentiability",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): The modulus function f(x) = |x| is continuous at x = 0, but is not differentiable at x = 0.\nReason (R): For f(x) = |x|, the left-hand derivative at x = 0 is -1, while the right-hand derivative is +1.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Since LHD = -1 ≠ RHD = +1, the two-sided derivative does not exist at x = 0, making Reason (R) the exact mathematical proof for Assertion (A).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-046",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): If f'(c) = 0 and f''(c) < 0 for a twice-differentiable function f, then x = c is a point of local maximum.\nReason (R): When f''(c) < 0, the first derivative f'(x) is strictly decreasing through x = c, changing its sign from positive to negative.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "A negative second derivative implies f'(x) decreases through 0, meaning f'(x) shifts from positive to negative, satisfying the first derivative test for a local maximum.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-047",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Continuity and Differentiability",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following functions are continuous everywhere on the entire real number line R? (Select all that apply)",
+    "options": [
+      "f(x) = sin x",
+      "f(x) = eˣ",
+      "f(x) = x³ - 5x + 2",
+      "f(x) = 1 / x"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Sine, exponential, and polynomial functions are continuous everywhere on R. The reciprocal function 1/x has an essential discontinuity at x = 0.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-048",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following conditions correctly identify a local extremum for a function f at an interior point x = c? (Select all that apply)",
+    "options": [
+      "f'(c) = 0 and f''(c) > 0 implies a local minimum.",
+      "f'(c) = 0 and f''(c) < 0 implies a local maximum.",
+      "f'(x) changes sign from positive to negative as x increases through c implies a local maximum.",
+      "f'(c) = 0 and f''(c) = 0 always guarantees a local extremum."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The Second Derivative test gives a minimum when f''>0 and a maximum when f''<0; the First Derivative test confirms a max when f' changes from + to -. If f''=0, the test is inconclusive (e.g. f(x)=x³).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-049",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Derivatives",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the steps to find the absolute maximum and minimum values of a continuous function f on a closed interval [a, b]:",
+    "orderedItems": [
+      "Find all critical points of f in (a, b) where f'(x) = 0 or f' does not exist",
+      "Evaluate the function value f(x) at all identified critical points",
+      "Evaluate the function values at the boundary endpoints f(a) and f(b)",
+      "Compare all calculated values to identify the absolute maximum and absolute minimum"
+    ],
+    "answer": "ordered",
+    "explanation": "Standard closed interval method: Find critical points -> evaluate at critical points -> evaluate at endpoints -> compare all values.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-050",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Continuity and Differentiability",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the procedure for differentiating an implicit equation F(x, y) = 0 with respect to x:",
+    "orderedItems": [
+      "Differentiate both sides of the equation with respect to x term by term",
+      "Apply the Chain Rule to y-dependent terms by appending the factor dy/dx",
+      "Collect all terms containing dy/dx on one side of the equation",
+      "Move all terms without dy/dx to the opposite side of the equation",
+      "Factor out dy/dx and isolate it algebraically"
+    ],
+    "answer": "ordered",
+    "explanation": "Implicit differentiation steps: Differentiate both sides -> apply chain rule to y-terms -> collect dy/dx terms -> transpose non-dy/dx terms -> factor and isolate dy/dx.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-051",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Integrals",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Evaluate the indefinite integral ∫ eˣ(sin x + cos x) dx:",
+    "options": [
+      "eˣ sin x + C",
+      "eˣ cos x + C",
+      "-eˣ cos x + C",
+      "eˣ(sin x - cos x) + C"
+    ],
+    "answer": 0,
+    "explanation": "Using the standard formula ∫ eˣ[f(x) + f'(x)] dx = eˣ f(x) + C. Here f(x) = sin x and f'(x) = cos x, so the integral is eˣ sin x + C.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-052",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Integrals",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Evaluate the definite integral I = ∫₀^(π/2) [sin⁴ x / (sin⁴ x + cos⁴ x)] dx:",
+    "options": [
+      "π / 4",
+      "π / 2",
+      "π",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "Using the property ∫₀ᵃ f(x) dx = ∫₀ᵃ f(a - x) dx, we get I = ∫₀^(π/2) [cos⁴ x / (cos⁴ x + sin⁴ x)] dx. Adding the two expressions: 2I = ∫₀^(π/2) 1 dx = π/2 ⇒ I = π/4.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-053",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "What is the Integrating Factor (I.F.) for the linear differential equation dy/dx + y · sec x = tan x?",
+    "options": [
+      "sec x + tan x",
+      "sec x - tan x",
+      "ln|sec x + tan x|",
+      "sec x"
+    ],
+    "answer": 0,
+    "explanation": "Here P(x) = sec x. ∫ P dx = ∫ sec x dx = ln|sec x + tan x|. I.F. = e^(∫ P dx) = e^(ln|sec x + tan x|) = sec x + tan x.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-054",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Integrals",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the total area of the region bounded by the standard ellipse x²/a² + y²/b² = 1?",
+    "options": [
+      "π ab",
+      "2π ab",
+      "4π ab",
+      "(1/2)π ab"
+    ],
+    "answer": 0,
+    "explanation": "The total area is 4 times the area in the first quadrant: Area = 4 ∫₀ᵃ (b/a)√(a² - x²) dx = 4(b/a) · [πa²/4] = π ab.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-055",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Differential Equations",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Determine the order and degree of the differential equation (d²y/dx²)³ + (dy/dx)² + sin(dy/dx) = 0:",
+    "options": [
+      "Order 2, degree is not defined",
+      "Order 2, degree 3",
+      "Order 1, degree 2",
+      "Order 2, degree 1"
+    ],
+    "answer": 0,
+    "explanation": "The highest order derivative present is d²y/dx², so the order is 2. Because the equation cannot be written as a polynomial in its derivatives due to sin(dy/dx), the degree is not defined.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-056",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Integrals",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "For any continuous odd function f(x) satisfying f(-x) = -f(x), the definite integral ∫₋ₐᵃ f(x) dx is identically equal to 0.",
+    "answer": true,
+    "explanation": "True. For an odd function, ∫₋ₐᵃ f(x) dx = ∫₀ᵃ f(x) dx + ∫₀ᵃ f(-x) dx = ∫₀ᵃ [f(x) - f(x)] dx = 0.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-057",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Differential Equations",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The general solution of a differential equation of order n contains exactly n independent arbitrary constants.",
+    "answer": true,
+    "explanation": "True. By definition, the general solution of an n-th order ordinary differential equation involves exactly n essential arbitrary constants.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-058",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Integrals",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The integration technique derived from the product rule of differentiation, ∫ u v dx = u ∫ v dx - ∫ [u' ∫ v dx] dx, is known as integration by ______.",
+    "answer": "parts",
+    "acceptedAnswers": [
+      "parts",
+      "Parts"
+    ],
+    "explanation": "Integration by parts is the method of integrating the product of two functions using the product rule formula.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-059",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Differential Equations",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "For the linear differential equation dy/dx + (2/x)y = x (where x > 0), the integrating factor I.F. simplifies to x raised to the power of ______.",
+    "answer": "2",
+    "acceptedAnswers": [
+      "2"
+    ],
+    "explanation": "P(x) = 2/x. ∫ P dx = 2 ln x = ln(x²). I.F. = e^(ln(x²)) = x². The exponent power is 2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-060",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Differential Equations",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following first-order differential equations with their standard classification:",
+    "pairs": [
+      [
+        "dy/dx = (x² + y²) / (2xy)",
+        "Homogeneous differential equation"
+      ],
+      [
+        "dy/dx + P(x)y = Q(x)",
+        "Linear differential equation"
+      ],
+      [
+        "dy/dx = f(x) · g(y)",
+        "Variable separable differential equation"
+      ],
+      [
+        "y = x(dy/dx) + f(dy/dx)",
+        "Clairaut's differential equation"
+      ]
+    ],
+    "explanation": "Homogeneous has degree 0 in x and y; dy/dx + Py = Q is linear; f(x)g(y) is variable separable; y = xp + f(p) is Clairaut's form.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-061",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Integrals",
+    "type": "match",
+    "difficulty": "hard",
+    "question": "Match the following standard definite integrals with their evaluated mathematical values:",
+    "pairs": [
+      [
+        "∫₀^(π/2) ln(sin x) dx",
+        "-(π/2) ln 2"
+      ],
+      [
+        "∫₀^π x sin x dx",
+        "π"
+      ],
+      [
+        "∫₀¹ [1 / (1 + x²)] dx",
+        "π / 4"
+      ],
+      [
+        "∫₋₁¹ x³ √(1 - x²) dx",
+        "0"
+      ]
+    ],
+    "explanation": "∫₀^(π/2) ln(sin x) dx = -(π/2)ln 2; ∫₀^π x sin x dx = π; ∫₀¹ 1/(1+x²)dx = [tan⁻¹ x]₀¹ = π/4; the last integrand is odd, so it integrates to 0.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-062",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Integrals",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Evaluate the definite integral ∫₀³ (2x + 1) dx.",
+    "answer": 12,
+    "tolerance": 0,
+    "unit": "value",
+    "explanation": "Antiderivative is x² + x. Evaluating from 0 to 3: (3² + 3) - (0) = 9 + 3 = 12.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-063",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Integrals",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Evaluate the definite integral ∫₀¹ x · eˣ dx.",
+    "answer": 1,
+    "tolerance": 0,
+    "unit": "value",
+    "explanation": "Integrating by parts: [x eˣ - eˣ]₀¹ = (1·e¹ - e¹) - (0·e⁰ - e⁰) = 0 - (-1) = 1.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-064",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Integrals",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Find the area enclosed by the line y = 2x, the x-axis, and the vertical ordinates x = 1 and x = 5.",
+    "answer": 24,
+    "tolerance": 0,
+    "unit": "square units",
+    "explanation": "Area = ∫₁⁵ 2x dx = [x²]₁⁵ = 5² - 1² = 25 - 1 = 24 square units.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-065",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Differential Equations",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Find the degree of the differential equation (d²y/dx²)² + (dy/dx)³ + y = 0.",
+    "answer": 2,
+    "tolerance": 0,
+    "unit": "degree",
+    "explanation": "The highest order derivative is d²y/dx² (order 2), and its power in this polynomial differential equation is 2. Hence, degree is 2.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-066",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Integrals",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the shaded region under the line y = x + 1 bounded by the x-axis from x = 0 to x = 4. What is the exact area of this trapezoidal region?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Definite Integral as Area Under Curve: y = x + 1</text><line x=\"50\" y=\"180\" x=\"470\" y=\"180\" stroke=\"#64748b\" stroke-width=\"1.5\"/><line x=\"80\" y=\"30\" x=\"80\" y=\"190\" stroke=\"#64748b\" stroke-width=\"1.5\"/><polygon points=\"80,180 80,150 400,30 400,180\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2\"/><line x=\"80\" y=\"150\" x=\"400\" y=\"30\" stroke=\"#1d4ed8\" stroke-width=\"2.5\"/><text x=\"80\" y=\"195\" font-size=\"12\" fill=\"#475569\" text-anchor=\"middle\">x = 0</text><text x=\"400\" y=\"195\" font-size=\"12\" fill=\"#475569\" text-anchor=\"middle\">x = 4</text><text x=\"70\" y=\"150\" font-size=\"11\" fill=\"#1e40af\" text-anchor=\"end\">(0, 1)</text><text x=\"410\" y=\"30\" font-size=\"11\" fill=\"#1e40af\" text-anchor=\"start\">(4, 5)</text><text x=\"240\" y=\"120\" font-size=\"14\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Area = ∫₀⁴ (x + 1) dx = ?</text></svg>"
+    },
+    "options": [
+      "12",
+      "16",
+      "10",
+      "14"
+    ],
+    "answer": 0,
+    "explanation": "Area = ∫₀⁴ (x + 1) dx = [x²/2 + x]₀⁴ = (4²/2 + 4) - 0 = (16/2 + 4) = 8 + 4 = 12 square units.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-067",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Application of Integrals",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "Observe the symmetric shaded region between the parabola y = x² and the horizontal line y = 4. Which definite integral correctly represents the total bounded area?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Area Between Curves: y = 4 and y = x²</text><line x=\"50\" y=\"170\" x=\"470\" y=\"170\" stroke=\"#64748b\" stroke-width=\"1\"/><line x=\"260\" y=\"30\" x=\"260\" y=\"190\" stroke=\"#64748b\" stroke-width=\"1\"/><line x=\"120\" y=\"70\" x=\"400\" y=\"70\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"410\" y=\"75\" font-size=\"12\" font-weight=\"bold\" fill=\"#dc2626\">y = 4</text><path d=\"M 140,70 Q 260,170 380,70 Z\" fill=\"#fee2e2\" stroke=\"#b91c1c\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"70\" r=\"4\" fill=\"#1e293b\"/><text x=\"130\" y=\"60\" font-size=\"11\" fill=\"#1e293b\">(-2, 4)</text><circle cx=\"380\" cy=\"70\" r=\"4\" fill=\"#1e293b\"/><text x=\"390\" y=\"60\" font-size=\"11\" fill=\"#1e293b\">(2, 4)</text><text x=\"260\" y=\"115\" font-size=\"13\" font-weight=\"bold\" fill=\"#991b1b\" text-anchor=\"middle\">Shaded Area Setup</text></svg>"
+    },
+    "options": [
+      "∫₋₂² (4 - x²) dx",
+      "∫₋₂² (x² - 4) dx",
+      "∫₀⁴ (4 - x²) dx",
+      "∫₀² (4 - x) dx"
+    ],
+    "answer": 0,
+    "explanation": "Intersection occurs where x² = 4 ⇒ x = ±2. The upper curve is y = 4 and the lower curve is y = x². Area = ∫₋₂² (y_upper - y_lower) dx = ∫₋₂² (4 - x²) dx.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-068",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Integrals",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "State the Fundamental Theorem of Calculus (Evaluation Part) for a continuous function f on [a, b].",
+    "sampleAnswer": "If f is continuous on [a, b] and F is any antiderivative of f such that F'(x) = f(x), then ∫ₐᵇ f(x) dx = F(b) - F(a).",
+    "acceptedAnswers": [
+      "∫ₐᵇ f(x) dx = F(b) - F(a) where F'(x) = f(x)",
+      "If F'(x) = f(x), then ∫ₐᵇ f(x) dx = F(b) - F(a)",
+      "Definite integral equals F(b) - F(a) where F is antiderivative of f"
+    ],
+    "keywords": [
+      "antiderivative",
+      "continuous",
+      "F(b) - F(a)",
+      "F'(x) = f(x)"
+    ],
+    "explanation": "The Fundamental Theorem establishes the core connection between differentiation and integration: ∫ₐᵇ f(x) dx = F(b) - F(a).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-069",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Differential Equations",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "How do you verify whether a first-order differential equation dy/dx = F(x, y) is homogeneous, and what algebraic substitution is used to solve it?",
+    "sampleAnswer": "F(x, y) is homogeneous if F(λx, λy) = λ⁰ F(x, y) for any non-zero λ. It is solved by substituting y = v·x, which converts it to a separable differential equation in v and x.",
+    "acceptedAnswers": [
+      "Check F(λx, λy) = F(x, y) and substitute y = vx",
+      "F(λx, λy) = λ⁰ F(x, y) and substitute y = vx",
+      "Substitute y = vx after verifying F(tx, ty) = F(x, y)"
+    ],
+    "keywords": [
+      "homogeneous",
+      "F(λx, λy)",
+      "y = vx",
+      "separable"
+    ],
+    "explanation": "A homogeneous function of degree 0 satisfies F(tx, ty) = F(x, y). Substituting y = vx transforms it into a variable-separable equation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-070",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Integrals",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): For any continuous function f, ∫₀ᵃ f(x) dx = ∫₀ᵃ f(a - x) dx.\nReason (R): Substituting t = a - x transforms the integral limits from [0, a] to [a, 0] with dx = -dt, which upon reversing limits yields ∫₀ᵃ f(a - t) dt.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Substituting t = a - x gives dx = -dt; limits change from x=0→t=a and x=a→t=0. Thus -∫ₐ⁰ f(a - t) dt = ∫₀ᵃ f(a - t) dt = ∫₀ᵃ f(a - x) dx.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-071",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Differential Equations",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): The differential equation (d²y/dx²) + cos(dy/dx) = 0 has an order of 2, but its degree is not defined.\nReason (R): The degree of a differential equation is defined only when it can be expressed as a polynomial equation in its derivatives, which is violated by the transcendental term cos(dy/dx).",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Order is 2 (highest derivative). Because cos(dy/dx) cannot be expanded into a finite polynomial of derivatives, the degree is not defined.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-072",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Integrals",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following standard indefinite integration formulas are mathematically correct? (Select all that apply)",
+    "options": [
+      "∫ (1 / x) dx = ln|x| + C",
+      "∫ sec² x dx = tan x + C",
+      "∫ [1 / (1 + x²)] dx = tan⁻¹ x + C",
+      "∫ sin x dx = cos x + C"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "∫(1/x)dx = ln|x| + C, ∫sec²x dx = tan x + C, and ∫1/(1+x²)dx = tan⁻¹ x + C are correct. ∫sin x dx = -cos x + C (not +cos x).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-073",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Differential Equations",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following differential equations are classified as first-order linear differential equations in standard form dy/dx + P(x)y = Q(x)? (Select all that apply)",
+    "options": [
+      "dy/dx + y = eˣ",
+      "dy/dx + y · cot x = 2x",
+      "x(dy/dx) + 2y = x²",
+      "dy/dx + y² = x"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The first three are linear in y (third can be divided by x to give dy/dx + (2/x)y = x). The fourth contains y², making it non-linear.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-074",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Integrals",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the steps to evaluate an indefinite integral by substitution ∫ f(g(x)) · g'(x) dx:",
+    "orderedItems": [
+      "Identify the inner composite function and set u = g(x)",
+      "Differentiate to compute the differential du = g'(x) dx",
+      "Substitute u and du to express the integral as ∫ f(u) du",
+      "Evaluate the integral of f(u) with respect to u",
+      "Substitute back u = g(x) and append the constant of integration C"
+    ],
+    "answer": "ordered",
+    "explanation": "Standard substitution sequence: Identify u = g(x) -> compute du -> substitute -> integrate -> substitute back u = g(x) + C.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-075",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Differential Equations",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the steps to solve a first-order linear differential equation dy/dx + P(x)y = Q(x):",
+    "orderedItems": [
+      "Identify P(x) and Q(x) in standard linear form",
+      "Calculate the integrating factor I.F. = e^(∫ P(x) dx)",
+      "Multiply both sides of the differential equation by the I.F.",
+      "Rewrite the left-hand side as d/dx [y · I.F.]",
+      "Integrate both sides with respect to x: y · I.F. = ∫ [Q(x) · I.F.] dx + C",
+      "Divide by I.F. to express the explicit general solution for y"
+    ],
+    "answer": "ordered",
+    "explanation": "Integrating factor method: Identify P and Q -> compute I.F. -> multiply equation -> write LHS as derivative -> integrate both sides -> isolate y.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-076",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Vector Algebra",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the magnitude of the three-dimensional vector a = 2i - 3j + 6k?",
+    "options": [
+      "7",
+      "√11",
+      "49",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "|a| = √(2² + (-3)² + 6²) = √(4 + 9 + 36) = √49 = 7.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-077",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Three-Dimensional Geometry",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What are the direction cosines of a straight line that makes equal angles with the positive directions of all three coordinate axes?",
+    "options": [
+      "1/√3, 1/√3, 1/√3",
+      "1/3, 1/3, 1/3",
+      "1/√2, 1/√2, 1/√2",
+      "1, 1, 1"
+    ],
+    "answer": 0,
+    "explanation": "If α = β = γ, then l = m = n = cos α. Using l² + m² + n² = 1 ⇒ 3 cos² α = 1 ⇒ cos α = 1/√3. Hence direction cosines are 1/√3, 1/√3, 1/√3.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-078",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "An urn contains 5 red and 5 black balls. A ball is drawn at random, its colour noted and returned. In addition, 2 additional balls of the colour drawn are put into the urn. What is the probability that a second ball drawn is red?",
+    "options": [
+      "1 / 2",
+      "7 / 12",
+      "5 / 12",
+      "1 / 3"
+    ],
+    "answer": 0,
+    "explanation": "P(R₂) = P(R₁)P(R₂|R₁) + P(B₁)P(R₂|B₁) = (5/10)(7/12) + (5/10)(5/12) = (1/2)(7/12) + (1/2)(5/12) = (1/2)(12/12) = 1/2.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-079",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Linear Programming",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In a linear programming problem with a bounded feasible region, the optimal (maximum or minimum) value of the linear objective function Z = ax + by always occurs at:",
+    "options": [
+      "At least one corner point (vertex) of the feasible region",
+      "The exact geometric centroid of the feasible region",
+      "Any arbitrary interior point of the feasible region",
+      "The origin (0, 0) exclusively"
+    ],
+    "answer": 0,
+    "explanation": "By the Fundamental Theorem of Linear Programming, any optimal value of the objective function occurs at one of the extreme (corner) points of the convex feasible region.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-080",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Vector Algebra",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If a and b are two unit vectors such that their sum (a + b) is also a unit vector, what is the angle θ between vectors a and b?",
+    "options": [
+      "2π / 3",
+      "π / 3",
+      "π / 2",
+      "5π / 6"
+    ],
+    "answer": 0,
+    "explanation": "|a + b|² = |a|² + |b|² + 2(a · b) = 1² + 1² + 2(1)(1) cos θ = 1. Thus 2 + 2 cos θ = 1 ⇒ 2 cos θ = -1 ⇒ cos θ = -1/2 ⇒ θ = 2π/3 (120°).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-081",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Three-Dimensional Geometry",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "What is the formula for the shortest distance d between two skew lines r = a₁ + λ b₁ and r = a₂ + μ b₂ in space?",
+    "options": [
+      "| (a₂ - a₁) · (b₁ × b₂) | / | b₁ × b₂ |",
+      "| (a₂ + a₁) · (b₁ × b₂) | / | b₁ · b₂ |",
+      "| (a₂ - a₁) × (b₁ × b₂) | / | b₁ × b₂ |",
+      "| (b₁ × b₂) | / | a₂ - a₁ |"
+    ],
+    "answer": 0,
+    "explanation": "The shortest distance between skew lines is the projection of (a₂ - a₁) along the common perpendicular unit vector (b₁ × b₂)/|b₁ × b₂|, giving |(a₂ - a₁) · (b₁ × b₂)| / |b₁ × b₂|.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-082",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Vector Algebra",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Two non-zero vectors a and b are orthogonal (mutually perpendicular) if and only if their scalar dot product a · b = 0.",
+    "answer": true,
+    "explanation": "True. a · b = |a||b| cos θ. Since |a| ≠ 0 and |b| ≠ 0, a · b = 0 if and only if cos θ = 0, which corresponds to θ = 90°.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-083",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "If two events A and B are statistically independent with non-zero probabilities, then P(A ∩ B) = P(A) · P(B) and P(A|B) = P(A).",
+    "answer": true,
+    "explanation": "True. Independence means the occurrence of B has no effect on the probability of A, so P(A|B) = P(A) and P(A ∩ B) = P(A) · P(B).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-084",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Vector Algebra",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The scalar projection of vector a on vector b is given by the algebraic expression (a · b) / |______ |.",
+    "answer": "b",
+    "acceptedAnswers": [
+      "b",
+      "vector b",
+      "|b|"
+    ],
+    "explanation": "Projection of a on b = a · (b / |b|) = (a · b) / |b|.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-085",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "If P(A) = 0.6, P(B) = 0.5, and P(A ∩ B) = 0.3, then the conditional probability P(A|B) in decimal form is equal to ______.",
+    "answer": "0.6",
+    "acceptedAnswers": [
+      "0.6",
+      "0.60"
+    ],
+    "explanation": "P(A|B) = P(A ∩ B) / P(B) = 0.3 / 0.5 = 3/5 = 0.6.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-086",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Three-Dimensional Geometry",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following 3D spatial equations with their geometric entities:",
+    "pairs": [
+      [
+        "(x - x₁)/a = (y - y₁)/b = (z - z₁)/c",
+        "Cartesian equation of a straight line through (x₁, y₁, z₁)"
+      ],
+      [
+        "Ax + By + Cz + D = 0",
+        "General Cartesian equation of a plane"
+      ],
+      [
+        "l² + m² + n² = 1",
+        "Fundamental identity for direction cosines"
+      ],
+      [
+        "r · n̂ = d",
+        "Vector equation of a plane in normal form"
+      ]
+    ],
+    "explanation": "Standard 3D geometry formulations for lines, general planes, direction cosines identity, and normal vector planes.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-087",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Vector Algebra",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the scalar product a · b for vectors a = 3i + 2j - k and b = 2i - j + 4k.",
+    "answer": 0,
+    "tolerance": 0,
+    "unit": "scalar value",
+    "explanation": "a · b = (3)(2) + (2)(-1) + (-1)(4) = 6 - 2 - 4 = 0. (The vectors are orthogonal).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-088",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Vector Algebra",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "If |a| = 10, |b| = 2, and a · b = 12, calculate the magnitude of the cross product |a × b|.",
+    "answer": 16,
+    "tolerance": 0,
+    "unit": "magnitude",
+    "explanation": "Using Lagrange's identity: |a × b|² + (a · b)² = |a|² |b|². |a × b|² + 12² = 10² · 2² ⇒ |a × b|² + 144 = 400 ⇒ |a × b|² = 256 ⇒ |a × b| = 16.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-089",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Linear Programming",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "The corner points of the feasible region determined by a system of linear constraints are (0, 0), (0, 4), (3, 2), and (4, 0). What is the maximum value of the objective function Z = 5x + 3y?",
+    "answer": 21,
+    "tolerance": 0,
+    "unit": "maximum value",
+    "explanation": "Evaluating Z at vertices: Z(0, 0) = 0; Z(0, 4) = 12; Z(3, 2) = 5(3) + 3(2) = 15 + 6 = 21; Z(4, 0) = 5(4) + 0 = 20. The maximum value is 21 at (3, 2).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-090",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Two cards are drawn successively without replacement from a standard pack of 52 cards. If the probability of both being aces is k / 221, find the integer value of k.",
+    "answer": 1,
+    "tolerance": 0,
+    "unit": "integer k",
+    "explanation": "P(both aces) = (4/52) × (3/51) = (1/13) × (1/17) = 1/221. Therefore, k = 1.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-091",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Linear Programming",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the bounded convex feasible region diagram below with vertices at (0, 0), (4, 0), (2, 3), and (0, 4). For the objective function Z = 4x + 3y, at which corner point is Z maximized?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">LPP Feasible Region &amp; Corner Points</text><line x=\"50\" y=\"180\" x=\"470\" y=\"180\" stroke=\"#64748b\" stroke-width=\"1.5\"/><line x=\"80\" y=\"30\" x=\"80\" y=\"190\" stroke=\"#64748b\" stroke-width=\"1.5\"/><polygon points=\"80,180 320,180 200,80 80,60\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"80\" cy=\"180\" r=\"4\" fill=\"#15803d\"/><text x=\"60\" y=\"195\" font-size=\"11\" fill=\"#1e293b\">(0, 0)</text><circle cx=\"320\" cy=\"180\" r=\"4\" fill=\"#15803d\"/><text x=\"320\" y=\"195\" font-size=\"11\" fill=\"#1e293b\">(4, 0)</text><circle cx=\"200\" cy=\"80\" r=\"4\" fill=\"#15803d\"/><text x=\"215\" y=\"75\" font-size=\"12\" font-weight=\"bold\" fill=\"#166534\">(2, 3)</text><circle cx=\"80\" cy=\"60\" r=\"4\" fill=\"#15803d\"/><text x=\"55\" y=\"60\" font-size=\"11\" fill=\"#1e293b\">(0, 4)</text><text x=\"260\" y=\"135\" font-size=\"13\" font-weight=\"bold\" fill=\"#15803d\" text-anchor=\"middle\">Feasible Region</text></svg>"
+    },
+    "options": [
+      "(2, 3)",
+      "(4, 0)",
+      "(0, 4)",
+      "(0, 0)"
+    ],
+    "answer": 0,
+    "explanation": "Evaluating Z = 4x + 3y: At (0, 0) Z = 0; at (4, 0) Z = 16; at (0, 4) Z = 12; at (2, 3) Z = 4(2) + 3(3) = 8 + 9 = 17. Maximum value 17 occurs at (2, 3).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-092",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the mathematical condition for two events A and B to be statistically independent in terms of their joint probability?",
+    "sampleAnswer": "Two events A and B are independent if and only if P(A ∩ B) = P(A) · P(B).",
+    "acceptedAnswers": [
+      "P(A ∩ B) = P(A) · P(B)",
+      "P(A ∩ B) = P(A)P(B)",
+      "Joint probability equals the product of their individual probabilities"
+    ],
+    "keywords": [
+      "P(A ∩ B)",
+      "P(A) · P(B)",
+      "product",
+      "independent"
+    ],
+    "explanation": "By definition, events A and B are independent when the joint probability of their intersection equals the product of their marginal probabilities.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-093",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "State Bayes' Theorem for finding the posterior probability P(E_i|A) given a set of mutually exclusive and exhaustive events E_1, E_2, ..., E_n and an event A of non-zero probability.",
+    "sampleAnswer": "P(E_i|A) = [P(E_i) · P(A|E_i)] / [∑_{j=1}^n P(E_j) · P(A|E_j)] for each i = 1, 2, ..., n.",
+    "acceptedAnswers": [
+      "P(E_i|A) = [P(E_i)P(A|E_i)] / [∑ P(E_j)P(A|E_j)]",
+      "P(E_i|A) = P(E_i)P(A|E_i) / sum of P(E_j)P(A|E_j)",
+      "Posterior probability equals prior times likelihood divided by total probability"
+    ],
+    "keywords": [
+      "P(E_i) · P(A|E_i)",
+      "total probability",
+      "posterior",
+      "exhaustive"
+    ],
+    "explanation": "Bayes' formula calculates posterior probability by weighting the prior probability with the conditional likelihood divided by the total probability.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-094",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Vector Algebra",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): Three vectors a, b, and c are coplanar if and only if their scalar triple product [a b c] = a · (b × c) = 0.\nReason (R): The scalar triple product a · (b × c) represents the volume of the parallelepiped formed by coterminous edges a, b, and c, which collapses to zero when all three vectors lie in the same geometric plane.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The geometric interpretation of the scalar triple product is the volume of a parallelepiped. Zero volume corresponds to coplanarity, fully explaining the assertion.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-095",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): If events A and B are independent, then their complements A' and B' are also statistically independent.\nReason (R): P(A' ∩ B') = 1 - P(A ∪ B) = 1 - [P(A) + P(B) - P(A)P(B)] = (1 - P(A))(1 - P(B)) = P(A')P(B').",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Reason (R) provides the complete algebraic proof showing that P(A' ∩ B') factors into P(A')P(B'), proving independence of the complements.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-096",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Vector Algebra",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following vector cross products involving standard Cartesian unit vectors i, j, k are mathematically correct? (Select all that apply)",
+    "options": [
+      "i × j = k",
+      "j × k = i",
+      "k × i = j",
+      "i × i = 1"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "In a right-handed system: i × j = k, j × k = i, and k × i = j. However, i × i = 0 (the cross product of any vector with itself is the zero vector, not 1).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-097",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Linear Programming",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding Linear Programming Problems (LPP) are correct? (Select all that apply)",
+    "options": [
+      "The feasible region determined by a set of linear inequalities is always a convex polygonal set.",
+      "If an optimal solution exists, it is always attained at one of the corner points of the feasible region.",
+      "If the feasible region is unbounded, a maximum or minimum value may or may not exist.",
+      "The objective function in a standard linear programming problem can be quadratic."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Feasible regions are convex; optimal solutions occur at extreme points; unbounded regions require ray-testing because extrema may not exist. LPP objective functions must be linear, not quadratic.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-098",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "If A and B are two independent events with non-zero probabilities, which of the following pairs of events are also necessarily independent? (Select all that apply)",
+    "options": [
+      "A and B'",
+      "A' and B",
+      "A' and B'",
+      "A and A'"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "If A and B are independent, then (A, B'), (A', B), and (A', B') are all independent. A and A' are mutually exclusive and dependent (P(A ∩ A') = 0 ≠ P(A)P(A')).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-099",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Linear Programming",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the steps to solve a Linear Programming Problem using the Corner Point Method in correct sequential order:",
+    "orderedItems": [
+      "Formulate the linear constraints and graph their corresponding lines",
+      "Shade the common region to identify the feasible region",
+      "Determine the coordinates of all corner points (vertices) of the feasible region",
+      "Evaluate the objective function Z = ax + by at each corner point",
+      "Compare all values to identify the optimal maximum or minimum value"
+    ],
+    "answer": "ordered",
+    "explanation": "Sequential method: Graph constraints -> identify feasible region -> find corner points -> evaluate objective function -> determine optimal value.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-maths-100",
+    "class": 12,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequence of steps to compute a posterior probability P(E_i|A) using Bayes' Theorem:",
+    "orderedItems": [
+      "Identify the mutually exclusive and exhaustive partition events E₁, E₂, ..., Eₙ",
+      "Assign prior probabilities P(E₁) to each hypothesis event",
+      "Determine the conditional likelihoods P(A|E_i) of the observed event A",
+      "Calculate the total probability P(A) = ∑ P(E_i) · P(A|E_i)",
+      "Apply Bayes' formula to compute the posterior probability P(E_i|A)"
+    ],
+    "answer": "ordered",
+    "explanation": "Bayes' sequence: Define hypotheses -> assign priors -> determine likelihoods -> calculate total probability -> evaluate posterior probability.",
+    "marks": 2,
+    "volatile": false
+  }
+]

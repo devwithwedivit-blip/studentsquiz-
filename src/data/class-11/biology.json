@@ -1,0 +1,1967 @@
+[
+  {
+    "id": "c11-biology-001",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biological Classification",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The rigid cell wall of true eubacteria is primarily composed of which macromolecular polymer?",
+    "options": [
+      "Peptidoglycan (murein)",
+      "Cellulose",
+      "Chitin",
+      "Silica"
+    ],
+    "answer": 0,
+    "explanation": "True bacteria (Eubacteria) possess a rigid cell wall composed of peptidoglycan, consisting of alternating N-acetylglucosamine (NAG) and N-acetylmuramic acid (NAM) cross-linked by short peptide chains. Plant walls contain cellulose and fungi contain chitin.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-002",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Plant Kingdom",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "How does the dominant generation differ between the life cycles of bryophytes and pteridophytes?",
+    "options": [
+      "Bryophytes have a free-living haploid gametophyte as the dominant phase, whereas pteridophytes have an independent diploid sporophyte",
+      "Both bryophytes and pteridophytes have a dominant diploid sporophyte dependent on the gametophyte",
+      "Bryophytes have a dominant diploid sporophyte, while pteridophytes have a dominant haploid gametophyte",
+      "Both groups have identical diplontic life cycles with no alternation of generations"
+    ],
+    "answer": 0,
+    "explanation": "In bryophytes (mosses and liverworts), the dominant photosynthetic, independent plant body is the haploid gametophyte; the diploid sporophyte is parasitic or partially dependent on it. In pteridophytes (ferns), the dominant independent plant body is the vascular diploid sporophyte, while the gametophyte (prothallus) is small and short-lived.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-003",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Animal Kingdom",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Which of the following combinations of animal phyla exclusively possess enterocoelous coelom formation and deuterostome embryonic development (where the blastopore develops into the anus)?",
+    "options": [
+      "Echinodermata, Hemichordata, and Chordata",
+      "Annelida, Arthropoda, and Mollusca",
+      "Aschelminthes, Platyhelminthes, and Porifera",
+      "Cnidaria, Ctenophora, and Annelida"
+    ],
+    "answer": 0,
+    "explanation": "Echinoderms, Hemichordates, and Chordates are deuterostomes in which the blastopore becomes the anus, and the true coelom arises by outpocketing of the embryonic archenteron (enterocoely). Annelids, molluscs, and arthropods are protostomes with schizocoelous coelom.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-004",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biological Classification",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which landmark discovery was made by T.O. Diener in 1971 regarding infectious sub-viral biological agents known as viroids?",
+    "options": [
+      "They consist of free, low molecular weight single-stranded RNA lacking any protein coat (capsid)",
+      "They are infectious abnormally folded protein particles devoid of nucleic acids",
+      "They are giant viruses with double-stranded DNA genomes surrounded by a lipid membrane",
+      "They are bacterial endospores capable of surviving autoclaving"
+    ],
+    "answer": 0,
+    "explanation": "In 1971, T.O. Diener discovered viroids, which cause potato spindle tuber disease. Viroids are smaller than viruses, consist of free, circular single-stranded RNA of low molecular weight, and completely lack the protein coat (capsid) found in viruses.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-005",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "The Living World",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "According to the universal rules of binomial nomenclature formulated by Carolus Linnaeus, how is the scientific name of an organism correctly printed?",
+    "options": [
+      "The genus name begins with a capital letter, species epithet starts with a small letter, and both are printed in italics",
+      "Both genus and species names are capitalized and printed in normal upright font",
+      "The species name comes first followed by genus, written in bold letters",
+      "Both names are written entirely in lowercase without italics or underlining"
+    ],
+    "answer": 0,
+    "explanation": "Under the International Code of Botanical/Zoological Nomenclature, binomial names are Latinized; the first word denoting genus begins with a capital letter, the specific epithet begins with a small letter, and both words are printed in italics (or separately underlined when handwritten).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-006",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Animal Kingdom",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Which of the following sets of four fundamental morphological features strictly defines all members of the phylum Chordata at some stage of their development?",
+    "options": [
+      "Notochord, dorsal hollow nerve cord, paired pharyngeal gill slits, and post-anal tail",
+      "Ventral solid nerve cord, closed circulation, exoskeleton, and radial cleavage",
+      "Notochord, ventral double nerve cord, open circulation, and segmented antennae",
+      "Vertebral column, mammary glands, four-chambered heart, and hair"
+    ],
+    "answer": 0,
+    "explanation": "The four diagnostic chordate characteristics present at some stage during life history are: (1) a dorsal rod-like notochord, (2) a dorsal hollow tubular nerve cord, (3) paired pharyngeal slits or pouches, and (4) a post-anal tail.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-007",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biological Classification",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Methanogens are obligate anaerobic archaebacteria present in the gut of ruminant animals that produce methane gas from animal dung.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Methanogens are archaebacteria found in the rumen of several ruminant animals like cows and buffaloes, capable of converting fermentation byproducts into biogas (methane) under strictly anaerobic conditions.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-008",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Plant Kingdom",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Gymnosperms are termed 'naked-seeded plants' because their ovules are not enclosed by any ovary wall and remain exposed both before and after fertilization.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "In gymnosperms (Greek: gymnos = naked, sperma = seed), ovules are borne naked on the surface of megasporophylls without an ovary wall; hence, seeds are not enclosed in fruits.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-009",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Animal Kingdom",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Flatworms (Platyhelminthes) are pseudocoelomate animals possessing a fluid-filled body cavity that is not lined by mesoderm.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "Platyhelminthes are acoelomate animals with solid mesenchyme filling the space between gut and body wall. Aschelminthes (roundworms) are the pseudocoelomates.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-010",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "The Living World",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In the traditional Linnaean obligate taxonomic hierarchy, the highest and most broad category is _______.",
+    "answer": "Kingdom",
+    "acceptedAnswers": [
+      "Kingdom",
+      "kingdom"
+    ],
+    "explanation": "In the standard seven obligate Linnaean taxonomic categories, Kingdom is the highest category, followed downward by Phylum/Division, Class, Order, Family, Genus, and Species.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-011",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Plant Kingdom",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The distinctive red coloration of members of Rhodophyceae (red algae) is due to the predominance of the accessory phycobilin pigment r-_______.",
+    "answer": "phycoerythrin",
+    "acceptedAnswers": [
+      "phycoerythrin",
+      "r-phycoerythrin",
+      "Phycoerythrin"
+    ],
+    "explanation": "Rhodophyceae contain chlorophyll a, d, and carotenoids, but the red pigment r-phycoerythrin predominates, absorbing blue-green light that penetrates deep ocean waters.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-012",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Animal Kingdom",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each invertebrate animal phylum with its characteristic specialized cellular or anatomical structure:",
+    "pairs": [
+      [
+        "Porifera",
+        "Choanocytes (collar cells) lining the central spongocoel"
+      ],
+      [
+        "Cnidaria",
+        "Cnidocytes containing stinging capsule nematocysts"
+      ],
+      [
+        "Ctenophora",
+        "Eight external rows of ciliated comb plates for locomotion"
+      ],
+      [
+        "Annelida",
+        "Nephridia for osmoregulation and excretion"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Choanocytes generate water currents in sponges; cnidocytes capture prey in cnidarians; ciliated comb plates propel ctenophores; nephridia perform excretion in annelids.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-013",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "The Living World",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In the standard Linnaean hierarchy consisting of 7 obligate taxonomic categories (Kingdom, Phylum, Class, Order, Family, Genus, Species), how many intermediate categories exist strictly between Kingdom and Species?",
+    "answer": 5,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "The obligate categories in sequence are: Kingdom, Phylum, Class, Order, Family, Genus, Species. Excluding Kingdom and Species, there are exactly 5 intermediate categories: Phylum, Class, Order, Family, and Genus.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-014",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biological Classification",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram depicts the morphology of a T4 bacteriophage. Which labeled component is responsible for specifically binding to bacterial surface receptors during adsorption?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 300' width='100%' height='300'><rect width='360' height='300' fill='#0f172a' rx='8'/><text x='180' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Structure of T4 Bacteriophage</text><polygon points='180,45 225,75 225,120 180,150 135,120 135,75' fill='none' stroke='#38bdf8' stroke-width='3'/><text x='250' y='95' fill='#38bdf8' font-size='12'>Icosahedral Head (DNA)</text><rect x='170' y='150' width='20' height='8' fill='#94a3b8'/><text x='220' y='158' fill='#94a3b8' font-size='11'>Collar</text><rect x='172' y='158' width='16' height='70' fill='#f59e0b'/><text x='225' y='195' fill='#f59e0b' font-size='12'>Contractile Sheath</text><polygon points='180,228 200,238 160,238' fill='#e2e8f0'/><text x='230' y='238' fill='#e2e8f0' font-size='11'>Base Plate</text><path d='M 165 238 L 130 275 M 195 238 L 230 275 M 175 238 L 150 280 M 185 238 L 210 280' stroke='#10b981' stroke-width='3'/><text x='270' y='275' fill='#10b981' font-size='12' font-weight='bold'>Tail Fibers (Structure X)</text></svg>"
+    },
+    "options": [
+      "Tail fibers (Structure X)",
+      "Icosahedral protein capsid head",
+      "Contractile cylindrical sheath",
+      "Collar ring"
+    ],
+    "answer": 0,
+    "explanation": "The tail fibers recognize and attach with high specificity to lipopolysaccharide or protein receptor molecules on the host bacterial outer cell surface during adsorption.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-015",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Plant Kingdom",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "The diagram shows the haplodiplontic life cycle of a fern (pteridophyte). Which labeled structure represents the independent, photosynthetic, cordate (heart-shaped) gametophyte bearing antheridia and archegonia?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 260' width='100%' height='260'><rect width='400' height='260' fill='#0f172a' rx='8'/><text x='200' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Pteridophyte (Fern) Life Cycle</text><ellipse cx='200' cy='140' rx='140' ry='75' fill='none' stroke='#334155' stroke-width='2' stroke-dasharray='4'/><rect x='40' y='110' width='100' height='60' rx='6' fill='#047857'/><text x='90' y='135' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>Leafy Sporophyte</text><text x='90' y='152' fill='#a7f3d0' font-size='10' text-anchor='middle'>(2n, Dominant)</text><rect x='260' y='110' width='100' height='60' rx='6' fill='#0284c7'/><text x='310' y='135' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>Structure Y</text><text x='310' y='152' fill='#bae6fd' font-size='10' text-anchor='middle'>(n, Heart-shaped)</text><text x='200' y='75' fill='#f59e0b' font-size='12' text-anchor='middle'>Meiosis &rarr; Spores (n)</text><text x='200' y='225' fill='#f59e0b' font-size='12' text-anchor='middle'>Syngamy &rarr; Zygote (2n)</text></svg>"
+    },
+    "options": [
+      "Prothallus (Structure Y)",
+      "Protonema",
+      "Strobilus",
+      "Megasporangium"
+    ],
+    "answer": 0,
+    "explanation": "In ferns, haploid spores germinate to produce a small, monoecious, photosynthetic, heart-shaped free-living thalloid gametophyte known as the prothallus (Structure Y), which bears antheridia and archegonia.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-016",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Animal Kingdom",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "The diagram contrasts two primary patterns of animal body symmetry across organisms. Which organism displays bilateral symmetry (divisible into identical left and right halves along only one single sagittal plane)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 220' width='100%' height='220'><rect width='400' height='220' fill='#0f172a' rx='8'/><text x='200' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Patterns of Animal Symmetry</text><g transform='translate(100, 120)'><polygon points='0,-45 13,-12 45,-12 18,10 28,42 0,22 -28,42 -18,10 -45,-12 -13,-12' fill='#f59e0b'/><line x1='-50' y1='0' x2='50' y2='0' stroke='#ef4444' stroke-width='2' stroke-dasharray='2'/><line x1='0' y1='-50' x2='0' y2='50' stroke='#ef4444' stroke-width='2' stroke-dasharray='2'/><text x='0' y='65' fill='#f59e0b' font-size='12' text-anchor='middle' font-weight='bold'>Organism A (Starfish)</text></g><g transform='translate(300, 120)'><ellipse cx='-25' cy='-15' rx='25' ry='30' fill='#38bdf8'/><ellipse cx='25' cy='-15' rx='25' ry='30' fill='#38bdf8'/><ellipse cx='-18' cy='20' rx='18' ry='22' fill='#38bdf8'/><ellipse cx='18' cy='20' rx='18' ry='22' fill='#38bdf8'/><rect x='-4' y='-40' width='8' height='75' rx='4' fill='#e2e8f0'/><line x1='0' y1='-45' x2='0' y2='45' stroke='#10b981' stroke-width='3'/><text x='0' y='65' fill='#38bdf8' font-size='12' text-anchor='middle' font-weight='bold'>Organism B (Butterfly)</text></g></svg>"
+    },
+    "options": [
+      "Organism B (Butterfly, Bilateral symmetry)",
+      "Organism A (Starfish, Radial symmetry)",
+      "Both organisms display spherical symmetry",
+      "Neither organism possesses body symmetry"
+    ],
+    "answer": 0,
+    "explanation": "Bilateral symmetry is present when the body can be divided into identical right and left halves in only one plane (the median sagittal plane), as seen in arthropods like the butterfly (Organism B). Adult echinoderms like starfish (Organism A) exhibit pentamerous radial symmetry.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-017",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "The Living World",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Define the biological term 'biodiversity'.",
+    "sampleAnswer": "Biodiversity refers to the variety and variability of all life forms, including the number and types of organisms present on Earth.",
+    "acceptedAnswers": [
+      "number and types of organisms present on earth",
+      "variety and variability of living organisms on earth",
+      "totality of genes, species and ecosystems of a region",
+      "diversity of plant and animal life on earth"
+    ],
+    "keywords": [
+      "variety",
+      "organisms",
+      "Earth",
+      "number",
+      "types"
+    ],
+    "explanation": "Biodiversity denotes the totality of genes, species, and ecosystems in a defined region or the entire biosphere, typically encompassing the estimated 1.7 to 1.8 million species currently described.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-018",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biological Classification",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Why are Mycoplasma organisms insensitive to beta-lactam antibiotics such as penicillin?",
+    "sampleAnswer": "Mycoplasma completely lack a peptidoglycan cell wall, and penicillin targets cell wall synthesis by inhibiting transpeptidase enzymes.",
+    "acceptedAnswers": [
+      "they completely lack a cell wall, whereas penicillin acts by inhibiting bacterial cell wall synthesis",
+      "penicillin targets peptidoglycan cell wall synthesis which Mycoplasma lacks",
+      "they have no cell wall for penicillin to target"
+    ],
+    "keywords": [
+      "lack",
+      "cell wall",
+      "penicillin",
+      "peptidoglycan",
+      "synthesis"
+    ],
+    "explanation": "Mycoplasma (PPLO) are the smallest known living cells and completely lack a cell wall. Because beta-lactam antibiotics like penicillin inhibit bacterial cell wall cross-linking, they have no target in Mycoplasma and are ineffective.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-019",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Plant Kingdom",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Bryophytes are widely referred to as the 'amphibians of the plant kingdom'.\nReason (R): Bryophytes live in terrestrial moist soil environments but require an external film of water for flagellated antherozoids to swim and fertilize archegonia.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "Like biological amphibians that live on land but return to water to breed, bryophytes inhabit moist shady terrestrial banks but require liquid water for swimming biflagellate male gametes (antherozoids) to reach the egg inside the archegonium.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-020",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Animal Kingdom",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): All vertebrates are chordates, but all chordates are not vertebrates.\nReason (R): The embryonic notochord is replaced by a cartilaginous or bony vertebral column in adult vertebrates, whereas it persists or remains restricted in protochordates.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "Chordata includes Protochordata (Urochordata and Cephalochordata) and Vertebrata. In Vertebrata alone, the embryonic notochord is replaced by a segmented vertebral column in adults. Hence all vertebrates belong to phylum Chordata, but protochordates are chordates without a vertebral column.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-021",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biological Classification",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following kingdoms are part of R.H. Whittaker's Five Kingdom Classification system (1969)? (Select all that apply)",
+    "options": [
+      "Monera",
+      "Protista",
+      "Fungi",
+      "Archaea"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Whittaker's five kingdoms are Monera, Protista, Fungi, Plantae, and Animalia. Archaea was introduced as a domain in Carl Woese's Three Domain system, not Whittaker's classification.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-022",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Animal Kingdom",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following animal phyla exhibit both bilateral symmetry and a true coelom (eucoelomate condition)? (Select all that apply)",
+    "options": [
+      "Annelida",
+      "Arthropoda",
+      "Mollusca",
+      "Aschelminthes"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Annelids, arthropods, and molluscs are bilateral, triploblastic eucoelomates with a true body cavity completely lined by mesoderm. Aschelminthes are pseudocoelomates where the cavity is not lined by mesoderm.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-023",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "The Living World",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the standard obligate taxonomic categories in ascending order of hierarchy (from lowest rank to highest rank):",
+    "orderedItems": [
+      "Species",
+      "Genus",
+      "Family",
+      "Order",
+      "Class",
+      "Phylum",
+      "Kingdom"
+    ],
+    "answer": "ordered",
+    "explanation": "Ascending Linnaean hierarchy: Species → Genus → Family → Order → Class → Phylum (or Division) → Kingdom.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-024",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Plant Kingdom",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the major plant groups in the order of their evolutionary appearance on Earth (from most primitive to most advanced):",
+    "orderedItems": [
+      "Thallophyta (Algae)",
+      "Bryophyta (Amphibians of plant kingdom)",
+      "Pteridophyta (Seedless vascular plants)",
+      "Gymnosperms (Naked-seeded vascular plants)",
+      "Angiosperms (Flowering plants)"
+    ],
+    "answer": "ordered",
+    "explanation": "Plant evolution proceeded from aquatic thalloid algae → non-vascular land bryophytes → vascular seedless pteridophytes → non-flowering seed plants (gymnosperms) → flowering fruiting plants (angiosperms).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-025",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biological Classification",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the successive steps of the lytic reproductive cycle of a virulent bacteriophage in correct chronological order:",
+    "orderedItems": [
+      "Attachment (Adsorption to host bacterial cell wall)",
+      "Penetration (Injection of viral nucleic acid into host cytoplasm)",
+      "Biosynthesis (Replication of viral genome and synthesis of viral proteins)",
+      "Assembly (Packaging of viral genomes into new protein capsids)",
+      "Lysis (Enzymatic rupture of host cell wall and release of virions)"
+    ],
+    "answer": "ordered",
+    "explanation": "The lytic cycle proceeds sequentially through adsorption/attachment → genome injection/penetration → biosynthesis of viral macromolecular components → maturation/assembly of progeny virions → cell lysis and release.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-026",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Who proposed the widely accepted Fluid Mosaic Model of the biological cell membrane in 1972?",
+    "options": [
+      "S.J. Singer and G.L. Nicolson",
+      "Robert Brown and Rudolf Virchow",
+      "Matthias Schleiden and Theodor Schwann",
+      "Camillo Golgi and Christian de Duve"
+    ],
+    "answer": 0,
+    "explanation": "In 1972, S.J. Singer and G.L. Nicolson proposed the Fluid Mosaic Model, describing the cell membrane as a quasi-fluid lipid bilayer in which proteins are embedded like mosaics, allowing lateral movement.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-027",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which anatomical feature distinguishes the vascular bundles of a typical dicotyledonous stem from those of a monocotyledonous stem?",
+    "options": [
+      "Dicot stem vascular bundles are open with intrafascicular cambium and arranged in a ring; monocot bundles are closed and scattered",
+      "Dicot stem vascular bundles are closed and scattered; monocot bundles are open and arranged in a ring",
+      "Dicot stem vascular bundles are radial; monocot stem bundles are conjoint and collateral",
+      "Dicot stem vascular bundles lack phloem parenchyma; monocot bundles possess extensive phloem parenchyma"
+    ],
+    "answer": 0,
+    "explanation": "In dicot stems, vascular bundles are conjoint, collateral, open (cambium present between xylem and phloem, enabling secondary growth), and arranged in a distinct concentric ring. Monocot stems have conjoint, collateral, closed (cambium absent) vascular bundles scattered in ground tissue.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-028",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "During which substage of Prophase I of meiosis does reciprocal genetic recombination (crossing over) occur between non-sister chromatids of homologous chromosomes, mediated by the enzyme recombinase?",
+    "options": [
+      "Pachytene",
+      "Zygotene",
+      "Diplotene",
+      "Leptotene"
+    ],
+    "answer": 0,
+    "explanation": "In the Pachytene stage, four chromatids of each bivalent chromosome become distinct as tetrads, and recombination nodules appear where crossing over occurs between non-sister chromatids, catalyzed by the enzyme complex recombinase.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-029",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biomolecules",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In classical enzyme kinetics, how does a competitive inhibitor (such as malonate competing with succinate for succinate dehydrogenase) alter the kinetic parameters Km and Vmax?",
+    "options": [
+      "Apparent Km increases while Vmax remains unchanged",
+      "Apparent Km decreases while Vmax decreases",
+      "Apparent Km remains unchanged while Vmax decreases",
+      "Both Km and Vmax decrease by the same factor"
+    ],
+    "answer": 0,
+    "explanation": "A competitive inhibitor structurally resembles the substrate and competes for the active site. Increasing substrate concentration overcomes inhibition; thus, the maximum velocity (Vmax) remains unaltered, but higher substrate concentration is needed to reach half-Vmax, increasing the apparent Michaelis constant (Km).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-030",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What type of modified adventitious roots arise from the lower nodes of the stem to provide mechanical anchorage in plants like maize and sugarcane?",
+    "options": [
+      "Stilt roots",
+      "Prop roots",
+      "Pneumatophores",
+      "Climbing roots"
+    ],
+    "answer": 0,
+    "explanation": "Stilt roots are supporting roots that emerge obliquely downward from the lower stem nodes into the soil in maize and sugarcane. Prop roots are pillar-like aerial hanging roots seen in banyan trees.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-031",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Structural Organisation in Animals",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Which specialized intercellular junction in animal tissues facilitates rapid cell-to-cell communication by establishing direct cytoplasmic channels for the transit of ions, second messengers, and small metabolites?",
+    "options": [
+      "Gap junctions",
+      "Tight junctions",
+      "Adhering junctions (desmosomes)",
+      "Intercalated discs"
+    ],
+    "answer": 0,
+    "explanation": "Gap junctions (composed of connexon hemichannels) connect the cytoplasm of adjacent cells, allowing rapid electrochemical communication and diffusion of ions and small molecules. Tight junctions stop substance leakage across epithelial sheets, and adhering junctions cement neighboring cells together.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-032",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Mitochondria and chloroplasts are semi-autonomous double-membrane organelles that possess their own circular DNA and 70S ribosomes.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Both mitochondria and chloroplasts contain closed circular double-stranded DNA molecules, RNA, and 70S ribosomes capable of synthesizing some of their own proteins, supporting their endosymbiotic bacterial origin.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-033",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biomolecules",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "All biological enzymes are strictly globular proteins composed entirely of polypeptide chains.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "While almost all enzymes are proteins, certain catalytic RNA molecules known as ribozymes (such as the 23S rRNA peptidyl transferase in ribosomes and ribonuclease P) act as enzymes without possessing a polypeptide structure.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-034",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The pattern of arrangement of leaves on the stem or branch is biologically termed _______.",
+    "answer": "phyllotaxy",
+    "acceptedAnswers": [
+      "phyllotaxy",
+      "phyllotaxis",
+      "Phyllotaxy"
+    ],
+    "explanation": "Phyllotaxy is the pattern of arrangement of leaves on a stem or branch, categorized as alternate, opposite, or whorled.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-035",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "During mitosis, all the replicated chromosomes align along the equatorial plane of the spindle apparatus during the _______ stage.",
+    "answer": "metaphase",
+    "acceptedAnswers": [
+      "metaphase",
+      "Metaphase"
+    ],
+    "explanation": "In metaphase, spindle fibers attach to the kinetochores of chromosomes, and all chromosomes congregate at the spindle equator, forming the metaphase plate.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-036",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "In plant roots, the radial and tangential walls of the endodermal cells possess band-like suberin thickenings known as _______ strips.",
+    "answer": "Casparian",
+    "acceptedAnswers": [
+      "Casparian",
+      "casparian",
+      "Casparian strip",
+      "casparian strips"
+    ],
+    "explanation": "Casparian strips are band-like suberin deposits in root endodermal cell walls that block apoplastic water flow, forcing water and dissolved solutes to enter the symplast.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-037",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each botanical structure with its characteristic developmental or morphological feature:",
+    "pairs": [
+      [
+        "Racemose inflorescence",
+        "Indeterminate main axis continues growth; flowers in acropetal succession"
+      ],
+      [
+        "Cymose inflorescence",
+        "Determinate main axis terminates in a flower; flowers in basipetal succession"
+      ],
+      [
+        "Xylem vessels",
+        "Tubular syncytial dead lignified water-conducting elements in angiosperms"
+      ],
+      [
+        "Sieve tube elements",
+        "Living enucleated food-conducting elements associated with companion cells"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Racemose has acropetal flowers on an unstopped axis; cymose terminates in a flower; xylem vessels conduct water; sieve tubes transport phloem sap.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-038",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each eukaryotic organelle with its primary biological function:",
+    "pairs": [
+      [
+        "Rough Endoplasmic Reticulum",
+        "Synthesis, folding, and sorting of secretory and membrane proteins"
+      ],
+      [
+        "Smooth Endoplasmic Reticulum",
+        "Biosynthesis of lipids, phospholipids, and steroid hormones"
+      ],
+      [
+        "Golgi apparatus",
+        "Post-translational modification, glycosylation, and packaging of proteins"
+      ],
+      [
+        "Lysosomes",
+        "Intracellular digestion via acid hydrolases active at acidic pH (~5)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "RER synthesizes secretory proteins; SER synthesizes lipids and steroids; Golgi apparatus glycosylates and packages molecules; lysosomes digest cellular debris using acid hydrolases.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-039",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A normal human somatic cell contains 46 chromosomes in the G1 phase. How many total sister chromatids are present in this single cell during mitotic metaphase?",
+    "answer": 92,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "During the S phase, each of the 46 chromosomes undergoes DNA replication to form two identical sister chromatids joined at a common centromere. Thus, at mitotic metaphase, there are 46 chromosomes consisting of 46 × 2 = 92 sister chromatids.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-040",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram shows a cross-section of a mitochondrion. Which labeled structural feature represents the infoldings of the inner membrane that increase surface area for ATP synthase complexes?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 240' width='100%' height='240'><rect width='380' height='240' fill='#0f172a' rx='8'/><text x='190' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Mitochondrial Internal Architecture</text><ellipse cx='190' cy='135' rx='150' ry='80' fill='#1e293b' stroke='#38bdf8' stroke-width='4'/><text x='190' y='48' fill='#38bdf8' font-size='11' text-anchor='middle'>Outer Membrane</text><path d='M 60 135 C 60 85 320 85 320 135 C 320 185 60 185 60 135' fill='#0f766e' stroke='#2dd4bf' stroke-width='3'/><path d='M 100 85 L 100 130 M 150 80 L 150 145 M 200 80 L 200 150 M 250 85 L 250 140 M 125 185 L 125 130 M 175 190 L 175 125 M 225 190 L 225 120 M 275 185 L 275 130' stroke='#f59e0b' stroke-width='4'/><text x='290' y='95' fill='#f59e0b' font-size='12' font-weight='bold'>Cristae (Infoldings X)</text><text x='190' y='170' fill='#ffffff' font-size='12' text-anchor='middle'>Mitochondrial Matrix</text></svg>"
+    },
+    "options": [
+      "Cristae (Infoldings X)",
+      "Outer porous membrane",
+      "Perimitochondrial intermembrane space",
+      "Thylakoid lamellae"
+    ],
+    "answer": 0,
+    "explanation": "Cristae are deep invaginations of the mitochondrial inner membrane that vastly expand the membrane surface area available for the electron transport chain complexes and F₀-F₁ ATP synthases.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-041",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram depicts the five sequential substages of Prophase I in meiosis. In which stage do homologous chromosomes begin to separate except at the points of crossing over, revealing X-shaped chiasmata?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#0f172a' rx='8'/><text x='200' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Substages of Meiotic Prophase I</text><g transform='translate(40, 50)'><rect width='60' height='150' rx='6' fill='#1e293b' stroke='#94a3b8'/><text x='30' y='30' fill='#94a3b8' font-size='11' text-anchor='middle'>1. Lepto</text><text x='30' y='80' fill='#cbd5e1' font-size='10' text-anchor='middle'>Threads</text></g><g transform='translate(110, 50)'><rect width='60' height='150' rx='6' fill='#1e293b' stroke='#94a3b8'/><text x='30' y='30' fill='#94a3b8' font-size='11' text-anchor='middle'>2. Zygo</text><text x='30' y='80' fill='#cbd5e1' font-size='10' text-anchor='middle'>Synapsis</text></g><g transform='translate(180, 50)'><rect width='60' height='150' rx='6' fill='#1e293b' stroke='#94a3b8'/><text x='30' y='30' fill='#94a3b8' font-size='11' text-anchor='middle'>3. Pachy</text><text x='30' y='80' fill='#cbd5e1' font-size='10' text-anchor='middle'>Crossing</text><text x='30' y='95' fill='#cbd5e1' font-size='10' text-anchor='middle'>over</text></g><g transform='translate(250, 50)'><rect width='60' height='150' rx='6' fill='#0369a1' stroke='#38bdf8' stroke-width='2'/><text x='30' y='30' fill='#38bdf8' font-size='11' text-anchor='middle' font-weight='bold'>4. Diplo</text><text x='30' y='80' fill='#ffffff' font-size='10' text-anchor='middle' font-weight='bold'>Stage Z</text><text x='30' y='95' fill='#fde047' font-size='10' text-anchor='middle'>Chiasmata</text></g><g transform='translate(320, 50)'><rect width='60' height='150' rx='6' fill='#1e293b' stroke='#94a3b8'/><text x='30' y='30' fill='#94a3b8' font-size='11' text-anchor='middle'>5. Diakin</text><text x='30' y='80' fill='#cbd5e1' font-size='10' text-anchor='middle'>Terminal-</text><text x='30' y='95' fill='#cbd5e1' font-size='10' text-anchor='middle'>isation</text></g></svg>"
+    },
+    "options": [
+      "Diplotene (Stage Z)",
+      "Zygotene",
+      "Pachytene",
+      "Diakinesis"
+    ],
+    "answer": 0,
+    "explanation": "In Diplotene (Stage Z), the synaptonemal complex dissolves and homologous chromosomes separate from one another except at cross-over sites, forming visible X-shaped configurations known as chiasmata.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-042",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biomolecules",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The graph compares the velocity of an enzymatic reaction against substrate concentration [S] in the absence (Curve A) and presence (Curve B) of a competitive inhibitor. What key feature demonstrates competitive inhibition?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 240' width='100%' height='240'><rect width='380' height='240' fill='#0f172a' rx='8'/><text x='190' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Enzyme Kinetics: Competitive Inhibition</text><line x1='60' y1='200' x2='350' y2='200' stroke='#94a3b8' stroke-width='2'/><polygon points='350,200 340,195 340,205' fill='#94a3b8'/><text x='355' y='205' fill='#94a3b8' font-size='11'>[S]</text><line x1='60' y1='200' x2='60' y2='40' stroke='#94a3b8' stroke-width='2'/><polygon points='60,40 55,50 65,50' fill='#94a3b8'/><text x='50' y='35' fill='#94a3b8' font-size='11'>V</text><line x1='55' y1='70' x2='340' y2='70' stroke='#64748b' stroke-width='2' stroke-dasharray='4'/><text x='345' y='75' fill='#64748b' font-size='11'>Vmax</text><path d='M 60 200 Q 110 75 340 70' fill='none' stroke='#22c55e' stroke-width='3'/><text x='160' y='95' fill='#22c55e' font-size='11' font-weight='bold'>Curve A (No inhibitor)</text><path d='M 60 200 Q 200 130 340 72' fill='none' stroke='#ef4444' stroke-width='3'/><text x='250' y='140' fill='#ef4444' font-size='11' font-weight='bold'>Curve B (+ Inhibitor)</text></svg>"
+    },
+    "options": [
+      "Curve B reaches the same Vmax as Curve A at high [S], but requires higher [S] (Km increases)",
+      "Curve B has a reduced Vmax that cannot be restored even at high [S]",
+      "Both Km and Vmax are decreased in Curve B",
+      "Curve B shows irreversible denaturation of the enzyme"
+    ],
+    "answer": 0,
+    "explanation": "In competitive inhibition, excess substrate displaces the inhibitor from active sites. As a result, Curve B eventually reaches the uninhibited Vmax at high [S], but reaches half-Vmax at a higher [S], indicating an increased apparent Km.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-043",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Morphology of Flowering Plants",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Define 'placentation' in angiospermic flowers.",
+    "sampleAnswer": "Placentation is the mode of arrangement of ovules within the ovary of a flower.",
+    "acceptedAnswers": [
+      "mode of arrangement of ovules within the ovary",
+      "arrangement of ovules inside the ovary",
+      "manner in which ovules are attached to the placenta inside the ovary"
+    ],
+    "keywords": [
+      "arrangement",
+      "ovules",
+      "ovary"
+    ],
+    "explanation": "Placentation refers to the pattern of distribution and attachment of ovules to the ovarian placenta (e.g. marginal, axile, parietal, free central, and basal).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-044",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biomolecules",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Distinguish between primary metabolites and secondary metabolites in plants with one example of each.",
+    "sampleAnswer": "Primary metabolites have identifiable roles in normal physiological processes (e.g. glucose, amino acids); secondary metabolites are non-essential for primary growth, often functioning in ecological defense or pigments (e.g. alkaloids like morphine, rubber).",
+    "acceptedAnswers": [
+      "primary metabolites have direct physiological roles like glucose and amino acids; secondary metabolites have ecological roles like alkaloids and flavonoids",
+      "primary metabolites participate in growth and metabolism (glucose, proteins); secondary metabolites do not have direct physiological functions (morphine, carotenoids)"
+    ],
+    "keywords": [
+      "primary metabolites",
+      "secondary metabolites",
+      "physiological",
+      "alkaloids",
+      "glucose"
+    ],
+    "explanation": "Primary metabolites (sugars, amino acids, lipids) are directly involved in intrinsic growth, development, and respiration. Secondary metabolites (alkaloids, tannins, essential oils) are specialized compounds with defense or ecological adaptations.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-045",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Anatomy of Flowering Plants",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Why does the presence of the Casparian strip in the root endodermis force water to follow the symplastic pathway rather than the apoplastic pathway?",
+    "sampleAnswer": "The Casparian strip contains hydrophobic suberin deposits in the radial and tangential cell walls that are impermeable to water, blocking the apoplast and forcing water across the plasma membrane into the living symplast.",
+    "acceptedAnswers": [
+      "suberin in Casparian strip is impermeable to water, blocking the apoplastic route and forcing water to enter the symplast",
+      "waxy suberin band prevents apoplastic movement, directing water through endodermal protoplasts"
+    ],
+    "keywords": [
+      "suberin",
+      "impermeable",
+      "apoplastic",
+      "symplastic",
+      "endodermis"
+    ],
+    "explanation": "Because suberin is a hydrophobic matrix in endodermal walls, it creates a physical checkpoint that halts apoplastic diffusion through intercellular spaces, ensuring selective uptake across plasma membranes into the symplast.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-046",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell: The Unit of Life",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Ribosomes are universally present non-membrane-bound cellular structures found in both prokaryotic and eukaryotic cells.\nReason (R): Ribosomes are supramolecular ribonucleoprotein assemblies composed of ribosomal RNA (rRNA) and proteins, completely devoid of a surrounding phospholipid bilayer membrane.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "Ribosomes consist of ribonucleoprotein complexes (rRNA + proteins) and lack any limiting phospholipid membrane. Because of this non-membranous architecture, they are present in all living cells, including membrane-poor prokaryotes.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-047",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Biomolecules",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following nitrogenous bases are purines characterized by a double-ring structure containing nine atoms? (Select all that apply)",
+    "options": [
+      "Adenine",
+      "Guanine",
+      "Cytosine",
+      "Thymine"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Adenine and Guanine are bicyclic purines possessing a fused pyrimidine-imidazole 9-membered ring system. Cytosine, Thymine, and Uracil are monocyclic six-membered pyrimidines.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-048",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following cellular events occur specifically during the S (Synthesis) phase of the eukaryotic interphase cell cycle? (Select all that apply)",
+    "options": [
+      "Replication of nuclear DNA (DNA content doubles from 2C to 4C)",
+      "Duplication of the centrosome / centriole pair in the cytoplasm of animal cells",
+      "Separation of sister chromatids towards opposite poles",
+      "Reformation of the nucleolus and nuclear envelope"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "During S phase, nuclear DNA replication takes place (doubling DNA content while keeping chromosome number constant), and in animal cells, the centriole duplicates in the cytoplasm. Separation of sister chromatids occurs in anaphase, and envelope reformation occurs in telophase.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-049",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the four successive phases of the eukaryotic cell cycle in the order of their occurrence:",
+    "orderedItems": [
+      "G1 phase (Gap 1)",
+      "S phase (Synthesis of DNA)",
+      "G2 phase (Gap 2)",
+      "M phase (Mitosis / Cytokinesis)"
+    ],
+    "answer": "ordered",
+    "explanation": "The eukaryotic cell cycle progresses sequentially through: G1 (post-mitotic gap) → S (DNA synthesis) → G2 (pre-mitotic gap) → M phase (mitosis and cell division).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-050",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Cell Cycle and Cell Division",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the five sequential substages of Prophase I of Meiosis in correct chronological order:",
+    "orderedItems": [
+      "Leptotene",
+      "Zygotene",
+      "Pachytene",
+      "Diplotene",
+      "Diakinesis"
+    ],
+    "answer": "ordered",
+    "explanation": "Prophase I of meiosis progresses in order: Leptotene (chromatin condenses) → Zygotene (synapsis of homologues) → Pachytene (crossing over) → Diplotene (chiasmata formation) → Diakinesis (terminalisation of chiasmata).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-051",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the primary atmospheric CO₂ acceptor molecule in the Calvin cycle (C₃ pathway) of photosynthesis?",
+    "options": [
+      "Ribulose-1,5-bisphosphate (RuBP)",
+      "Phosphoenolpyruvate (PEP)",
+      "Oxaloacetate (OAA)",
+      "3-Phosphoglyceric acid (PGA)"
+    ],
+    "answer": 0,
+    "explanation": "In C₃ plants, the primary carbon dioxide acceptor is a 5-carbon ketose sugar, Ribulose-1,5-bisphosphate (RuBP), catalyzed by the enzyme RuBisCO to form two molecules of 3-phosphoglycerate.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-052",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which anatomical and biochemical adaptation is characteristic of Kranz anatomy in C₄ plants such as maize and sugarcane?",
+    "options": [
+      "Bundle sheath cells have large agranal chloroplasts and thick suberized walls impermeable to gases; mesophyll cells contain PEP carboxylase",
+      "Mesophyll cells contain RuBisCO and lack grana; bundle sheath cells lack chloroplasts",
+      "Leaves lack vascular bundles and have stomata open only during the night",
+      "Bundle sheath cells possess thin walls with intercellular spaces for rapid O₂ diffusion"
+    ],
+    "answer": 0,
+    "explanation": "In C₄ plants, Kranz anatomy features large bundle sheath cells with thick, gas-tight walls, no intercellular spaces, and large agranal chloroplasts rich in RuBisCO. Atmospheric CO₂ is initially fixed by PEP carboxylase in mesophyll cells, which lack RuBisCO.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-053",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Respiration in Plants",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In mitochondrial electron transport, which protein complex transfers electrons directly to molecular oxygen (O₂), reducing it to form water while pumping protons into the intermembrane space?",
+    "options": [
+      "Complex IV (Cytochrome c oxidase containing cytochromes a and a₃ with two copper centers)",
+      "Complex III (Cytochrome bc₁ complex)",
+      "Complex II (Succinate dehydrogenase)",
+      "Complex I (NADH:ubiquinone oxidoreductase)"
+    ],
+    "answer": 0,
+    "explanation": "Complex IV (Cytochrome c oxidase) contains cytochromes a and a₃ along with two copper centers (CuA and CuB). It receives electrons from cytochrome c and catalyzes the four-electron reduction of molecular oxygen to two water molecules.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-054",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Respiration in Plants",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Under standard NCERT calculations, what is the net yield of ATP molecules synthesized per molecule of glucose completely oxidized during eukaryotic aerobic respiration?",
+    "options": [
+      "36 to 38 ATP",
+      "2 ATP",
+      "8 ATP",
+      "12 ATP"
+    ],
+    "answer": 0,
+    "explanation": "Complete aerobic respiration yields 2 net ATP from glycolysis, 2 GTP/ATP from Krebs cycle, and 32 to 34 ATP via oxidative phosphorylation (depending on whether the glycerol phosphate or malate-aspartate shuttle is utilized), giving an overall theoretical yield of 36 to 38 ATP.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-055",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Plant Growth and Development",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which phytohormone is primarily responsible for apical dominance, where the apical bud suppresses the outgrowth of lateral axillary buds?",
+    "options": [
+      "Auxin (IAA)",
+      "Gibberellin (GA₃)",
+      "Abscisic acid (ABA)",
+      "Ethylene"
+    ],
+    "answer": 0,
+    "explanation": "Auxin produced at the shoot apex is transported basipetally and suppresses the growth of lateral (axillary) buds. Removing the shoot apex (decapitation) eliminates auxin supply and promotes lateral branching.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-056",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Plant Growth and Development",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In the photoperiodic induction of flowering, which photoreceptor pigment interconverts between a red-light-absorbing form (Pr) and a far-red-light-absorbing active form (Pfr)?",
+    "options": [
+      "Phytochrome",
+      "Cryptochrome",
+      "Phototropin",
+      "Carotenoid"
+    ],
+    "answer": 0,
+    "explanation": "Phytochrome is a chromoprotein photoreceptor existing in two interconvertible forms: Pr (absorbs red light at 660 nm, inactive) and Pfr (absorbs far-red light at 730 nm, active form that triggers photoperiodic flowering responses).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-057",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The oxygen-evolving water-splitting complex is physically associated with Photosystem II (PS II) on the luminal (inner) side of the thylakoid membrane.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "The water-splitting complex (oxygen-evolving complex) contains manganese and is located on the inner side (lumen) of the thylakoid membrane, bound to Photosystem II, where it oxidizes 2H₂O to O₂ + 4H⁺ + 4e⁻.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-058",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Respiration in Plants",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Glycolysis is a metabolic pathway that occurs inside the mitochondrial matrix and strictly requires molecular oxygen.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "Glycolysis (EMP pathway) takes place in the cytoplasm of all living cells and does not require oxygen, occurring in both aerobic and anaerobic organisms.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-059",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Plant Growth and Development",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Ethylene is a natural gaseous plant growth regulator that accelerates fruit ripening and promotes abscission and senescence of leaves and flowers.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Ethylene (C₂H₄) is a volatile hydrocarbon gas synthesized in ripening fruits and aging tissues that induces the respiratory climacteric, speeds up fruit ripening, and promotes abscission and senescence.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-060",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In C₄ plants, the primary carboxylation of phosphoenolpyruvate (PEP) in mesophyll cells is catalyzed by the enzyme _______ carboxylase.",
+    "answer": "PEP",
+    "acceptedAnswers": [
+      "PEP",
+      "PEPcase",
+      "phosphoenolpyruvate",
+      "PEP carboxylase"
+    ],
+    "explanation": "PEP carboxylase (PEPcase) fixes atmospheric HCO₃⁻ into phosphoenolpyruvate to produce the 4-carbon organic acid oxaloacetate in the mesophyll cytoplasm of C₄ plants.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-061",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Respiration in Plants",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The oxidative decarboxylation of pyruvate to acetyl-CoA that links glycolysis to the Krebs cycle is catalyzed by the multi-enzyme complex _______ dehydrogenase.",
+    "answer": "pyruvate",
+    "acceptedAnswers": [
+      "pyruvate",
+      "Pyruvate",
+      "pyruvate dehydrogenase"
+    ],
+    "explanation": "Pyruvate dehydrogenase complex in the mitochondrial matrix catalyzes the oxidative decarboxylation of pyruvate: Pyruvate + CoA + NAD⁺ → Acetyl-CoA + CO₂ + NADH + H⁺.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-062",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Plant Growth and Development",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each plant growth regulator with its principal physiological role in plant development:",
+    "pairs": [
+      [
+        "Auxin",
+        "Apical dominance and initiation of root development in stem cuttings"
+      ],
+      [
+        "Gibberellins",
+        "Internode elongation and induction of bolting in rosette plants"
+      ],
+      [
+        "Cytokinins",
+        "Promotion of cell division and delay of leaf senescence (Richmond-Lang effect)"
+      ],
+      [
+        "Abscisic acid (ABA)",
+        "Stomatal closure during water stress and induction of seed dormancy"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Auxin mediates apical dominance; gibberellins stimulate bolting and internode elongation; cytokinins delay senescence; abscisic acid acts as the stress hormone inducing stomatal closure.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-063",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many turns of the Calvin cycle (carbon fixation cycles) are required to produce one net molecule of hexose sugar (glucose, C₆H₁₂O₆)?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Each turn of the Calvin cycle fixes one molecule of CO₂. Since glucose has 6 carbon atoms, exactly 6 turns of the Calvin cycle are required to incorporate 6 CO₂ molecules into one net molecule of glucose.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-064",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Respiration in Plants",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "What is the respiratory quotient (RQ) for the complete aerobic oxidation of carbohydrates such as glucose (C₆H₁₂O₆ + 6O₂ → 6CO₂ + 6H₂O)?",
+    "answer": 1,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "Respiratory Quotient (RQ) = Volume of CO₂ evolved / Volume of O₂ consumed = 6 CO₂ / 6 O₂ = 1.0 for carbohydrates.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-065",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram depicts the Z-scheme of non-cyclic photophosphorylation. Which reaction center complex is labeled as P680 and initiates electron transfer upon absorbing 680 nm light?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 260' width='100%' height='260'><rect width='380' height='260' fill='#0f172a' rx='8'/><text x='190' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Z-Scheme of Photophosphorylation</text><rect x='40' y='180' width='80' height='40' rx='6' fill='#059669'/><text x='80' y='205' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>Complex P (P680)</text><text x='80' y='240' fill='#a7f3d0' font-size='10' text-anchor='middle'>H2O &rarr; 2H+ + 1/2 O2</text><line x1='80' y1='180' x2='80' y2='60' stroke='#38bdf8' stroke-width='3' stroke-dasharray='4'/><polygon points='80,55 75,65 85,65' fill='#38bdf8'/><circle cx='80' cy='50' r='14' fill='#0284c7'/><text x='80' y='54' fill='#ffffff' font-size='10' text-anchor='middle'>Pheo</text><path d='M 80 50 L 180 130' stroke='#f59e0b' stroke-width='3'/><text x='130' y='85' fill='#f59e0b' font-size='10'>ETC (Cyt b6f)</text><rect x='180' y='130' width='80' height='40' rx='6' fill='#0d9488'/><text x='220' y='155' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>PS I (P700)</text><line x1='220' y1='130' x2='220' y2='45' stroke='#38bdf8' stroke-width='3' stroke-dasharray='4'/><polygon points='220,40 215,50 225,50' fill='#38bdf8'/><path d='M 220 40 L 320 70' stroke='#a855f7' stroke-width='3'/><text x='330' y='75' fill='#a855f7' font-size='10'>NADP+ &rarr; NADPH</text></svg>"
+    },
+    "options": [
+      "Photosystem II (PS II, Complex P)",
+      "Photosystem I (PS I)",
+      "Cytochrome b6f complex",
+      "ATP synthase"
+    ],
+    "answer": 0,
+    "explanation": "Complex P is Photosystem II (PS II) with reaction center chlorophyll P680. It absorbs 680 nm light, becomes excited, ejects electrons to pheophytin, and replenishes its electrons via photolysis of water.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-066",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "The diagram illustrates the C₄ pathway (Hatch-Slack pathway). Which 4-carbon dicarboxylic acid (Acid M) is formed in mesophyll cells and transported to bundle sheath cells for decarboxylation?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 250' width='100%' height='250'><rect width='380' height='250' fill='#0f172a' rx='8'/><text x='190' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Hatch-Slack (C₄) Pathway</text><rect x='30' y='50' width='150' height='170' rx='6' fill='#064e3b' stroke='#059669'/><text x='105' y='75' fill='#a7f3d0' font-size='11' text-anchor='middle' font-weight='bold'>Mesophyll Cell</text><text x='105' y='105' fill='#ffffff' font-size='11' text-anchor='middle'>PEP (3C) + CO₂</text><text x='105' y='125' fill='#facc15' font-size='10' text-anchor='middle'>&darr; PEPcase</text><text x='105' y='150' fill='#ffffff' font-size='11' text-anchor='middle'>OAA (4C) &rarr; Acid M</text><rect x='200' y='50' width='150' height='170' rx='6' fill='#1e3a8a' stroke='#2563eb'/><text x='275' y='75' fill='#93c5fd' font-size='11' text-anchor='middle' font-weight='bold'>Bundle Sheath Cell</text><text x='275' y='120' fill='#ffffff' font-size='11' text-anchor='middle'>Decarboxylation</text><text x='275' y='140' fill='#4ade80' font-size='11' text-anchor='middle'>CO₂ &rarr; Calvin Cycle</text><text x='275' y='160' fill='#ffffff' font-size='11' text-anchor='middle'>3C Acid &rarr; Transport</text><line x1='150' y1='155' x2='220' y2='155' stroke='#f59e0b' stroke-width='3'/><polygon points='220,155 210,150 210,160' fill='#f59e0b'/><text x='185' y='145' fill='#f59e0b' font-size='10' text-anchor='middle'>Acid M (4C)</text></svg>"
+    },
+    "options": [
+      "Malic acid (or Aspartic acid)",
+      "Citric acid",
+      "Phosphoglyceric acid (PGA)",
+      "Pyruvic acid"
+    ],
+    "answer": 0,
+    "explanation": "In C₄ plants, oxaloacetate (OAA) formed in mesophyll is reduced to 4-carbon malic acid (or transaminated to aspartic acid), which is transported via plasmodesmata into bundle sheath cells where it is decarboxylated to release CO₂ and pyruvate.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-067",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Respiration in Plants",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram shows the cleavage step in glycolysis where Fructose-1,6-bisphosphate (6C) is split by aldolase into two triose phosphate isomers. What are the identities of Triose X and Triose Y?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 240' width='100%' height='240'><rect width='380' height='240' fill='#0f172a' rx='8'/><text x='190' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Glycolysis: Cleavage of Hexose Bisphosphate</text><rect x='110' y='50' width='160' height='40' rx='6' fill='#0284c7'/><text x='190' y='75' fill='#ffffff' font-size='12' text-anchor='middle' font-weight='bold'>Fructose-1,6-bisphosphate (6C)</text><path d='M 150 90 L 100 135' stroke='#94a3b8' stroke-width='2'/><polygon points='100,135 105,126 112,132' fill='#94a3b8'/><path d='M 230 90 L 280 135' stroke='#94a3b8' stroke-width='2'/><polygon points='280,135 268,132 275,126' fill='#94a3b8'/><text x='190' y='110' fill='#f59e0b' font-size='11' text-anchor='middle'>Aldolase</text><rect x='30' y='145' width='140' height='45' rx='6' fill='#0f766e'/><text x='100' y='172' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>Triose X (PGAL, 3C)</text><rect x='210' y='145' width='140' height='45' rx='6' fill='#0f766e'/><text x='280' y='172' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>Triose Y (DHAP, 3C)</text><path d='M 175 160 L 205 160 M 205 170 L 175 170' stroke='#38bdf8' stroke-width='2'/><text x='190' y='195' fill='#38bdf8' font-size='10' text-anchor='middle'>Triose phosphate isomerase</text></svg>"
+    },
+    "options": [
+      "Glyceraldehyde-3-phosphate (PGAL) and Dihydroxyacetone phosphate (DHAP)",
+      "Pyruvate and Lactate",
+      "Phosphoenolpyruvate (PEP) and Malate",
+      "Citrate and Isocitrate"
+    ],
+    "answer": 0,
+    "explanation": "Aldolase cleaves Fructose-1,6-bisphosphate into two interconvertible 3-carbon isomers: Glyceraldehyde-3-phosphate (PGAL, Triose X) and Dihydroxyacetone phosphate (DHAP, Triose Y).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-068",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "State Blackman's Law of Limiting Factors.",
+    "sampleAnswer": "If a chemical process is affected by more than one factor, its rate will be determined by the factor which is nearest to its minimal value.",
+    "acceptedAnswers": [
+      "rate of a physiological process is limited by the factor present in the least or slowest amount",
+      "when a process is governed by several factors, the rate is determined by the factor nearest to its minimal value",
+      "the factor which is closest to its minimum value determines the overall rate of the process"
+    ],
+    "keywords": [
+      "factor",
+      "rate",
+      "minimal value",
+      "determined"
+    ],
+    "explanation": "F.F. Blackman (1905) proposed that when a multi-factor physiological process occurs, the pace of the overall reaction is limited by the slowest factor (the factor closest to its minimum value).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-069",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Why does wasteful photorespiration (C₂ cycle) occur in C₃ plants under high O₂ and high temperature, but is completely absent in C₄ plants?",
+    "sampleAnswer": "In C₃ plants, RuBisCO exhibits oxygenase activity at high temperature/O₂, binding O₂ to produce phosphoglycolate. C₄ plants pump CO₂ into bundle sheath cells, maintaining high [CO₂] around RuBisCO that completely outcompetes O₂.",
+    "acceptedAnswers": [
+      "C4 plants maintain a very high CO2 concentration around RuBisCO in bundle sheath cells, suppressing its oxygenase activity",
+      "C4 plants have a CO2-concentrating mechanism in bundle sheath cells that ensures RuBisCO functions only as a carboxylase"
+    ],
+    "keywords": [
+      "RuBisCO",
+      "oxygenase",
+      "bundle sheath",
+      "CO2 concentration",
+      "C4"
+    ],
+    "explanation": "RuBisCO has active sites for both CO₂ and O₂. In C₃ plants, high temperature and O₂ favor oxygenase activity, wasting ATP. C₄ plants avoid this by concentrating CO₂ in bundle sheath cells via C₄ dicarboxylic acid decarboxylation, ensuring 100% carboxylation.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-070",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Respiration in Plants",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): The Respiratory Quotient (RQ) for the complete oxidation of fats like tripalmitin is approximately 0.7.\nReason (R): Fat molecules contain a much lower ratio of oxygen to carbon and hydrogen compared to carbohydrates, requiring more oxygen for complete combustion.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "Tripalmitin oxidation: 2(C₅₁H₉₈O₆) + 145 O₂ → 102 CO₂ + 98 H₂O + energy. RQ = 102 CO₂ / 145 O₂ = 0.70. Because fats are oxygen-poor, substantial amounts of molecular O₂ are consumed relative to the CO₂ evolved.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-071",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following pigments function as accessory photosynthetic pigments in higher plants? (Select all that apply)",
+    "options": [
+      "Chlorophyll b",
+      "Carotenoids",
+      "Xanthophylls",
+      "Chlorophyll a"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Chlorophyll a is the essential reaction center pigment. Chlorophyll b, carotenoids, and xanthophylls are accessory pigments that broaden the spectrum of light absorption and protect chlorophyll a from photo-oxidation.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-072",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Respiration in Plants",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "During which enzymatic conversion steps in the Krebs (TCA) cycle is NAD⁺ reduced to NADH + H⁺? (Select all that apply)",
+    "options": [
+      "Conversion of Isocitrate to α-Ketoglutarate",
+      "Conversion of α-Ketoglutarate to Succinyl-CoA",
+      "Conversion of Malate to Oxaloacetate",
+      "Conversion of Succinate to Fumarate"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Three steps in the citric acid cycle reduce NAD⁺ to NADH + H⁺: isocitrate to α-ketoglutarate, α-ketoglutarate to succinyl-CoA, and malate to oxaloacetate. Succinate to fumarate reduces FAD to FADH₂ (catalyzed by succinate dehydrogenase).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-073",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Respiration in Plants",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the four major sequential stages of complete aerobic cellular respiration in chronological order:",
+    "orderedItems": [
+      "Glycolysis (EMP pathway in cytoplasm)",
+      "Link Reaction (Oxidative decarboxylation of pyruvate to Acetyl-CoA)",
+      "Krebs cycle (Citric acid cycle in mitochondrial matrix)",
+      "Electron Transport System and Oxidative Phosphorylation"
+    ],
+    "answer": "ordered",
+    "explanation": "Glucose oxidation proceeds through: Glycolysis (cytosol) → Link reaction (mitochondrial matrix) → Krebs cycle (matrix) → ETS & Oxidative Phosphorylation (inner mitochondrial membrane).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-074",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Photosynthesis in Higher Plants",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential enzymatic stages of the Calvin cycle (C₃ pathway) in order of their occurrence:",
+    "orderedItems": [
+      "Carboxylation of RuBP catalyzed by RuBisCO to form 3-PGA",
+      "Phosphorylation of 3-PGA utilizing ATP",
+      "Reduction of 1,3-bisphosphoglycerate by NADPH to form Triose phosphate",
+      "Regeneration of the CO₂ acceptor RuBP consuming ATP"
+    ],
+    "answer": "ordered",
+    "explanation": "The Calvin cycle operates in three sequential phases: Carboxylation of RuBP → Reduction (phosphorylation followed by NADPH reduction) → Regeneration of the RuBP acceptor molecule.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-075",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Respiration in Plants",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following metabolic intermediates of the Citric Acid (Krebs) cycle in the order in which they appear:",
+    "orderedItems": [
+      "Citrate (6C)",
+      "Isocitrate (6C)",
+      "α-Ketoglutarate (5C)",
+      "Succinyl-CoA (4C)",
+      "Malate (4C)"
+    ],
+    "answer": "ordered",
+    "explanation": "Krebs cycle intermediate sequence: Oxaloacetate + Acetyl-CoA → Citrate → Isocitrate → α-Ketoglutarate → Succinyl-CoA → Succinate → Fumarate → Malate → Oxaloacetate.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-076",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the approximate Tidal Volume (TV)—the volume of air inspired or expired during a normal relaxed respiration—in a healthy adult human?",
+    "options": [
+      "500 mL",
+      "1000 mL",
+      "2500 mL",
+      "6000 mL"
+    ],
+    "answer": 0,
+    "explanation": "Tidal Volume (TV) is approximately 500 mL per breath in a healthy adult human (equivalent to 6000 to 8000 mL per minute at 12 to 16 breaths per minute).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-077",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Why is the sinoatrial node (SAN) designated as the natural physiological pacemaker of the human heart?",
+    "options": [
+      "It generates the highest frequency of spontaneous action potentials (70–75 per minute) and sets the cardiac rhythm",
+      "It contains the thickest muscular tissue in the atrial wall",
+      "It is the only part of the heart receiving parasympathetic vagal innervation",
+      "It pumps oxygenated blood directly into the systemic aorta"
+    ],
+    "answer": 0,
+    "explanation": "The SAN possesses the highest intrinsic rate of autorhythmicity (70-75 action potentials/min) among all nodal tissues, pacing the contraction of atria and triggering the atrioventricular node and bundle of His.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-078",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Excretory Products and their Elimination",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In the countercurrent multiplier mechanism of the mammalian kidney, which segment of Henle's loop is permeable to water but virtually impermeable to electrolytes?",
+    "options": [
+      "Thin descending limb of Henle's loop",
+      "Thick ascending limb of Henle's loop",
+      "Distal convoluted tubule (DCT)",
+      "Proximal convoluted tubule (PCT)"
+    ],
+    "answer": 0,
+    "explanation": "The descending limb of the loop of Henle is permeable to water via aquaporins but almost impermeable to electrolytes, concentrating the tubular fluid as it descends into the hyperosmotic medullary interstitium. The ascending limb is impermeable to water but actively transports NaCl.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-079",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Locomotion and Movement",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "According to the sliding filament theory of skeletal muscle contraction, what immediate event triggers the exposure of active binding sites on actin filaments?",
+    "options": [
+      "Binding of calcium ions (Ca²⁺) to troponin C, causing a conformational change that shifts tropomyosin",
+      "Hydrolysis of ATP by the myosin head in the absence of actin",
+      "Efflux of potassium ions across the sarcolemma",
+      "Binding of acetylcholine directly to actin filaments"
+    ],
+    "answer": 0,
+    "explanation": "When an action potential releases Ca²⁺ from the sarcoplasmic reticulum, Ca²⁺ binds to troponin C on the thin filament. This removes the inhibitory masking position of tropomyosin, exposing the myosin-binding sites on actin monomers.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-080",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "During the generation of a nerve impulse (action potential) along an unmyelinated axon, the rapid reversal of membrane polarity (depolarization) is directly caused by:",
+    "options": [
+      "Rapid inward influx of sodium ions (Na⁺) through voltage-gated Na⁺ channels",
+      "Rapid outward efflux of potassium ions (K⁺) through leakage channels",
+      "Activation of the Na⁺/K⁺ ATPase pump",
+      "Influx of negatively charged chloride ions (Cl⁻)"
+    ],
+    "answer": 0,
+    "explanation": "When a stimulus reaches threshold, voltage-gated Na⁺ channels open rapidly, allowing a surge of Na⁺ to enter the axoplasm down electrochemical gradients, reversing the membrane potential from -70 mV to +30 mV (depolarization).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-081",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Deficiency or hyposecretion of Antidiuretic Hormone (ADH / Vasopressin) from the posterior pituitary causes which endocrine disorder characterized by excessive excretion of dilute urine?",
+    "options": [
+      "Diabetes insipidus",
+      "Diabetes mellitus",
+      "Addison's disease",
+      "Grave's disease"
+    ],
+    "answer": 0,
+    "explanation": "ADH promotes water reabsorption in the distal tubules and collecting ducts. Its deficiency reduces water reabsorption, leading to excessive urination (polyuria) and intense thirst (polydipsia), known as diabetes insipidus.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-082",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Mature human red blood cells (erythrocytes) are biconcave discs devoid of a nucleus and mitochondria, which maximizes internal volume for hemoglobin and gas exchange.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Mature mammalian erythrocytes lack a nucleus, Golgi, and mitochondria, which provides maximum space for hemoglobin packaging and gives them a flexible biconcave disc shape optimized for oxygen diffusion through capillaries.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-083",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Water-soluble peptide hormones such as insulin and glucagon cannot cross the lipid bilayer of target cell membranes and must act via membrane-bound receptors and intracellular second messengers like cyclic AMP (cAMP).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Hydrophilic peptide and protein hormones cannot diffuse through hydrophobic membrane lipids; they bind to cell-surface transmembrane receptors that generate intracellular second messengers (e.g. cAMP, IP₃, Ca²⁺) to elicit biochemical cascades.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-084",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The respiratory rhythm center located in the medulla oblongata is primarily stimulated and regulated by an increase in arterial blood concentration of _______ and hydrogen ions.",
+    "answer": "carbon dioxide",
+    "acceptedAnswers": [
+      "carbon dioxide",
+      "CO2",
+      "CO₂",
+      "pCO2"
+    ],
+    "explanation": "A specialized chemosensitive area adjacent to the respiratory rhythm center is highly sensitive to increases in CO₂ and H⁺ concentrations, signaling the rhythm center to increase rate and depth of breathing.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-085",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Excretory Products and their Elimination",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Each human kidney contains approximately one million complex tubular structural and functional units called _______.",
+    "answer": "nephrons",
+    "acceptedAnswers": [
+      "nephrons",
+      "nephron",
+      "Nephrons"
+    ],
+    "explanation": "The nephron is the microscopic structural and functional unit of the kidney, consisting of a renal corpuscle (glomerulus and Bowman's capsule) and a renal tubule.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-086",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "The resting axonal membrane potential (-70 mV) is actively maintained by the sodium-potassium pump, which transports 3 Na⁺ ions outwards for every _______ K⁺ ions transported inwards across the axolemma.",
+    "answer": "2",
+    "acceptedAnswers": [
+      "2",
+      "two"
+    ],
+    "explanation": "The electrogenic Na⁺/K⁺ ATPase actively transports 3 Na⁺ outward and 2 K⁺ inward per molecule of ATP hydrolyzed, contributing to the negative resting intracellular potential.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-087",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Locomotion and Movement",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each specialized synovial joint in the human skeletal system with its representative anatomical example:",
+    "pairs": [
+      [
+        "Ball and socket joint",
+        "Between head of humerus and glenoid cavity of pectoral girdle"
+      ],
+      [
+        "Hinge joint",
+        "Elbow joint allowing movement in a single uniaxial plane"
+      ],
+      [
+        "Pivot joint",
+        "Between the first cervical vertebra (atlas) and second (axis)"
+      ],
+      [
+        "Gliding joint",
+        "Between the adjacent flat articulating carpal bones of the wrist"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Synovial joints: Ball and socket joint is found at the shoulder/hip; hinge joint is found at the elbow/knee; pivot joint permits rotation between atlas and axis; gliding joint is present between carpals.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-088",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each cardiovascular and renal regulatory mechanism with its defining action:",
+    "pairs": [
+      [
+        "Renin-Angiotensin System",
+        "Juxtaglomerular apparatus activates angiotensin II to increase blood pressure and GFR"
+      ],
+      [
+        "Hepatic Portal System",
+        "Venous vascular connection carrying nutrient-rich blood from intestine to liver"
+      ],
+      [
+        "Hemodialysis",
+        "Artificial dialyzer machine removing accumulated urea and toxins from blood in uremia"
+      ],
+      [
+        "Atrial Natriuretic Peptide (ANP)",
+        "Atrial hormone causing vasodilation and excretion of Na⁺ to reduce blood pressure"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Renin-angiotensin raises blood pressure; hepatic portal vein links gut to liver; hemodialysis cleanses blood in renal failure; ANP acts as a vasodilator counteracting renin.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-089",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In a resting human adult with a heart rate of 72 beats per minute and a stroke volume of 70 mL per ventricular contraction, calculate the cardiac output in liters per minute (to one decimal place).",
+    "answer": 5,
+    "tolerance": 0.1,
+    "unit": "L/min",
+    "explanation": "Cardiac Output = Heart Rate × Stroke Volume = 72 beats/min × 70 mL/beat = 5040 mL/min ≈ 5.0 L/min.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-090",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The graph shows the sigmoidal oxygen-hemoglobin dissociation curve. Which factor causes the curve to shift to the right (Bohr effect), decreasing hemoglobin's affinity for oxygen and promoting O₂ unloading in active tissues?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 240' width='100%' height='240'><rect width='380' height='240' fill='#0f172a' rx='8'/><text x='190' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Oxygen-Hemoglobin Dissociation Curve</text><line x1='60' y1='200' x2='350' y2='200' stroke='#94a3b8' stroke-width='2'/><polygon points='350,200 340,195 340,205' fill='#94a3b8'/><text x='355' y='205' fill='#94a3b8' font-size='11'>pO₂ (mm Hg)</text><line x1='60' y1='200' x2='60' y2='40' stroke='#94a3b8' stroke-width='2'/><polygon points='60,40 55,50 65,50' fill='#94a3b8'/><text x='50' y='35' fill='#94a3b8' font-size='11'>% Saturation</text><path d='M 60 200 Q 140 180 180 100 T 330 60' fill='none' stroke='#38bdf8' stroke-width='3'/><text x='150' y='80' fill='#38bdf8' font-size='11' font-weight='bold'>Standard Curve</text><path d='M 60 200 Q 170 190 210 120 T 340 70' fill='none' stroke='#ef4444' stroke-width='3' stroke-dasharray='4'/><text x='250' y='140' fill='#ef4444' font-size='11' font-weight='bold'>Right Shift (Curve R)</text></svg>"
+    },
+    "options": [
+      "High pCO₂, high H⁺ concentration (low pH), and elevated temperature",
+      "Low pCO₂, low H⁺ concentration (high pH), and cold temperature",
+      "High pO₂ and high pH in pulmonary capillaries",
+      "Absence of 2,3-bisphosphoglycerate"
+    ],
+    "answer": 0,
+    "explanation": "A shift of the dissociation curve to the right (Bohr effect) occurs in metabolizing tissues due to elevated pCO₂, high H⁺ (acidosis), and increased temperature, lowering O₂ affinity and facilitating oxygen delivery.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-091",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram shows a normal human Electrocardiogram (ECG) trace. Which wave complex corresponds to the electrical depolarization of the ventricles, triggering ventricular contraction (systole)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 220' width='100%' height='220'><rect width='400' height='220' fill='#0f172a' rx='8'/><text x='200' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Normal Electrocardiogram (ECG) Waves</text><line x1='30' y1='140' x2='370' y2='140' stroke='#334155' stroke-width='1' stroke-dasharray='4'/><path d='M 40 140 L 70 140 Q 90 105 110 140 L 140 140 L 150 160 L 175 45 L 200 175 L 210 140 L 250 140 Q 280 90 310 140 L 360 140' fill='none' stroke='#10b981' stroke-width='3'/><circle cx='90' cy='115' r='5' fill='#38bdf8'/><text x='90' y='95' fill='#38bdf8' font-size='12' text-anchor='middle' font-weight='bold'>P</text><circle cx='175' cy='45' r='5' fill='#f59e0b'/><text x='175' y='35' fill='#f59e0b' font-size='12' text-anchor='middle' font-weight='bold'>QRS Complex</text><circle cx='280' cy='105' r='5' fill='#a855f7'/><text x='280' y='85' fill='#a855f7' font-size='12' text-anchor='middle' font-weight='bold'>T</text></svg>"
+    },
+    "options": [
+      "QRS complex (Ventricular depolarization)",
+      "P wave (Atrial depolarization)",
+      "T wave (Ventricular repolarization)",
+      "ST segment"
+    ],
+    "answer": 0,
+    "explanation": "The QRS complex represents the rapid spread of depolarization through ventricular myocardium, initiating ventricular systole. The P wave represents atrial depolarization, and the T wave represents ventricular repolarization.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-092",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Locomotion and Movement",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram depicts the microscopic sarcomere organization of skeletal myofibrils. Which region is the central H-zone containing only thick myosin filaments without overlapping thin actin filaments?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 220' width='100%' height='220'><rect width='380' height='220' fill='#0f172a' rx='8'/><text x='190' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Sarcomere Microscopic Architecture</text><line x1='50' y1='45' x2='50' y2='175' stroke='#38bdf8' stroke-width='3'/><text x='50' y='195' fill='#38bdf8' font-size='11' text-anchor='middle'>Z-disc</text><line x1='330' y1='45' x2='330' y2='175' stroke='#38bdf8' stroke-width='3'/><text x='330' y='195' fill='#38bdf8' font-size='11' text-anchor='middle'>Z-disc</text><line x1='190' y1='45' x2='190' y2='175' stroke='#94a3b8' stroke-width='2' stroke-dasharray='2'/><text x='190' y='195' fill='#94a3b8' font-size='11' text-anchor='middle'>M-line</text><line x1='50' y1='80' x2='150' y2='80' stroke='#4ade80' stroke-width='3'/><line x1='50' y1='140' x2='150' y2='140' stroke='#4ade80' stroke-width='3'/><line x1='230' y1='80' x2='330' y2='80' stroke='#4ade80' stroke-width='3'/><line x1='230' y1='140' x2='330' y2='140' stroke='#4ade80' stroke-width='3'/><rect x='110' y='100' width='160' height='20' fill='#f59e0b' rx='3'/><text x='190' y='115' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>Thick Filament (Myosin)</text><rect x='150' y='55' width='80' height='15' fill='rgba(239,68,68,0.3)' stroke='#ef4444' stroke-width='2'/><text x='190' y='67' fill='#fca5a5' font-size='10' text-anchor='middle' font-weight='bold'>Zone H (No actin)</text></svg>"
+    },
+    "options": [
+      "Zone H (Central region of A-band without actin overlap)",
+      "I-band (Isotropic band)",
+      "A-band (Anisotropic band)",
+      "Z-disc"
+    ],
+    "answer": 0,
+    "explanation": "The H-zone is the central portion of the thick filament (A-band) that is not overlapped by thin filaments in relaxed muscle. During contraction, actin filaments slide toward the M-line, causing the H-zone to narrow or disappear.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-093",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Locomotion and Movement",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Distinguish between tendons and ligaments in the skeletal system.",
+    "sampleAnswer": "Tendons attach skeletal muscles to bones; ligaments connect one bone to another bone at joints.",
+    "acceptedAnswers": [
+      "tendons connect muscle to bone; ligaments connect bone to bone",
+      "tendons join muscle to bone, while ligaments join bone to bone",
+      "tendon connects muscle to bone; ligament connects two bones"
+    ],
+    "keywords": [
+      "tendons",
+      "muscle to bone",
+      "ligaments",
+      "bone to bone"
+    ],
+    "explanation": "Tendons are tough, non-elastic dense fibrous cords connecting skeletal muscles to bones. Ligaments are elastic, flexible connective tissue bands connecting bones together at articular joints.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-094",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Excretory Products and their Elimination",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Explain how the Juxtaglomerular Apparatus (JGA) restores a fall in Glomerular Filtration Rate (GFR).",
+    "sampleAnswer": "A fall in GFR activates juxtaglomerular cells to release the enzyme renin, which converts angiotensinogen to angiotensin II. Angiotensin II constricts efferent arterioles and stimulates aldosterone release, restoring systemic blood pressure and GFR.",
+    "acceptedAnswers": [
+      "JG cells release renin which produces angiotensin II, causing vasoconstriction and aldosterone release to raise blood pressure and restore GFR",
+      "fall in GFR stimulates JG cells to secrete renin, activating the RAAS pathway to normalize GFR"
+    ],
+    "keywords": [
+      "renin",
+      "JG cells",
+      "angiotensin",
+      "blood pressure",
+      "GFR"
+    ],
+    "explanation": "A decrease in renal blood flow or GFR triggers juxtaglomerular cells to secrete renin into the bloodstream. Renin cleaves angiotensinogen to angiotensin I, converted by ACE to angiotensin II, which elevates glomerular capillary hydrostatic pressure and restores GFR.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-095",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Chemical Coordination and Integration",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Differentiate between the cellular mechanism of action of steroid hormones versus peptide hormones.",
+    "sampleAnswer": "Lipid-soluble steroid hormones diffuse across the plasma membrane and bind to intracellular/nuclear receptors to directly regulate gene transcription; peptide hormones bind cell-surface receptors and act via second messengers like cAMP.",
+    "acceptedAnswers": [
+      "steroid hormones cross the cell membrane and bind intracellular receptors to alter gene expression; peptide hormones bind surface receptors and generate second messengers",
+      "steroid hormones act via intracellular receptors and regulate transcription; peptide hormones act via membrane receptors and second messengers like cAMP"
+    ],
+    "keywords": [
+      "steroid",
+      "intracellular receptors",
+      "gene expression",
+      "peptide",
+      "membrane receptors",
+      "second messengers"
+    ],
+    "explanation": "Steroid hormones (estrogen, cortisol) are lipophilic and cross membranes to bind nuclear receptor proteins that interact with hormone response elements on DNA. Peptide hormones are hydrophilic and rely on membrane receptor activation coupled to second messenger cascades.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-096",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Carbon monoxide (CO) inhalation is toxic and potentially fatal even at relatively low atmospheric concentrations.\nReason (R): Hemoglobin has an affinity for carbon monoxide that is approximately 200 to 250 times greater than its affinity for molecular oxygen, forming stable carboxyhemoglobin.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "Hemoglobin's affinity for CO is 200–250 times higher than for O₂, readily displacing O₂ to form carboxyhemoglobin. This locks the remaining oxygen in hemoglobin and starves peripheral tissues of oxygen (cellular hypoxia).",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-097",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Body Fluids and Circulation",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following blood donor groups can safely donate packed red blood cells to an AB-positive (AB⁺) recipient in an emergency transfusion? (Select all that apply)",
+    "options": [
+      "O-negative (O⁻)",
+      "A-positive (A⁺)",
+      "B-positive (B⁺)",
+      "AB-positive (AB⁺)"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "An AB-positive individual is the universal recipient: they possess both A and B antigens on their RBCs and have neither anti-A nor anti-B antibodies in plasma, along with the Rh factor. Consequently, they can receive packed red cells from O⁻, A⁺, B⁺, and AB⁺ donors without hemolytic reaction.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-098",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Neural Control and Coordination",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following brain structures constitute key components of the human limbic system involved in emotional responses, motivation, and memory consolidation? (Select all that apply)",
+    "options": [
+      "Amygdala",
+      "Hippocampus",
+      "Hypothalamus",
+      "Pons Varolii"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The limbic system (emotional brain) comprises interconnected subcortical structures including the amygdala, hippocampus, and parts of the hypothalamus and thalamus. The pons varolii is part of the hindbrain brainstem that regulates respiratory pneumotaxic centers.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-099",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Breathing and Exchange of Gases",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the sequential anatomical passages through which inhaled air travels from the external environment to the respiratory exchange surfaces:",
+    "orderedItems": [
+      "External nostrils",
+      "Pharynx",
+      "Larynx",
+      "Trachea",
+      "Primary bronchi",
+      "Terminal bronchioles",
+      "Alveoli"
+    ],
+    "answer": "ordered",
+    "explanation": "Pathway of inspired air: External nostrils → Nasal cavity → Pharynx → Larynx → Trachea → Primary bronchi → Secondary/tertiary bronchi → Terminal bronchioles → Respiratory bronchioles → Alveoli.",
+    "volatile": false
+  },
+  {
+    "id": "c11-biology-100",
+    "class": 11,
+    "subject": "biology",
+    "chapter": "Locomotion and Movement",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the sequential events of skeletal muscle contraction according to the sliding filament theory:",
+    "orderedItems": [
+      "Nerve impulse triggers acetylcholine release at neuromuscular junction",
+      "Action potential travels down T-tubules triggering Ca²⁺ release from sarcoplasmic reticulum",
+      "Ca²⁺ binds to troponin C, shifting tropomyosin away from actin binding sites",
+      "Myosin cross-bridges bind actin and execute the power stroke pulling actin toward the M-line",
+      "ATP binds to myosin head causing cross-bridge detachment"
+    ],
+    "answer": "ordered",
+    "explanation": "Sequence of excitation-contraction coupling: ACh release → Action potential along T-tubules → Ca²⁺ release from sarcoplasmic reticulum → Ca²⁺ binds troponin unmasking actin → Cross-bridge power stroke → ATP binding and detachment.",
+    "volatile": false
+  }
+]

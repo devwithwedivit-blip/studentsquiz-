@@ -1,0 +1,2004 @@
+[
+  {
+    "id": "c9-gk-001",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Who is universally recognized as the 'Father of the Indian Constitution' and served as the Chairman of the Drafting Committee in the Constituent Assembly?",
+    "options": [
+      "Dr. B. R. Ambedkar",
+      "Dr. Rajendra Prasad",
+      "Jawaharlal Nehru",
+      "Sardar Vallabhbhai Patel"
+    ],
+    "answer": 0,
+    "explanation": "Dr. Bhimrao Ramji Ambedkar headed the Drafting Committee appointed on 29 August 1947 and guided the preparation of the final constitutional text.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-002",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "National Symbols",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The national motto of India, 'Satyameva Jayate' (Truth Alone Triumphs), inscribed in Devanagari script below the National Emblem, is taken from which ancient text?",
+    "options": [
+      "Mundaka Upanishad",
+      "Katha Upanishad",
+      "Chandogya Upanishad",
+      "Rigveda"
+    ],
+    "answer": 0,
+    "explanation": "'Satyameva Jayate' is a mantra from the ancient Hindu scripture Mundaka Upanishad (Mundaka III, Khanda 1, Mantra 6).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-003",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Rivers",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which major trans-Himalayan river originates in the Angsi glacier near Lake Manasarovar in Tibet (where it is called the Yarlung Tsangpo) before entering India through Arunachal Pradesh?",
+    "options": [
+      "Brahmaputra",
+      "Indus",
+      "Ganga",
+      "Teesta"
+    ],
+    "answer": 0,
+    "explanation": "The Brahmaputra flows eastward through southern Tibet as the Tsangpo, cuts through the Himalayas at Namcha Barwa as the Dihang/Siang, and enters Assam.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-004",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "States and Capitals",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the capital city of the northeastern Indian state of Meghalaya, known as the 'Scotland of the East' for its rolling green hills?",
+    "options": [
+      "Shillong",
+      "Aizawl",
+      "Kohima",
+      "Itanagar"
+    ],
+    "answer": 0,
+    "explanation": "Shillong is the capital of Meghalaya. Aizawl is the capital of Mizoram, Kohima of Nagaland, and Itanagar of Arunachal Pradesh.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-005",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Mountains",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which peak, with an elevation of 8,586 metres on the border between Sikkim and Nepal, is the highest mountain peak in India and the third-highest in the world?",
+    "options": [
+      "Kangchenjunga",
+      "Nanda Devi",
+      "Kamet",
+      "Anamudi"
+    ],
+    "answer": 0,
+    "explanation": "Kangchenjunga (8,586 m) in Sikkim is the highest peak in India. Nanda Devi (7,816 m in Uttarakhand) is the highest peak located entirely within Indian borders.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-006",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Freedom Struggle",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "At which historic session held on the banks of the Ravi River in December 1929 did the Indian National Congress pass the 'Poorna Swaraj' (Complete Independence) resolution?",
+    "options": [
+      "Lahore Session",
+      "Nagpur Session",
+      "Karachi Session",
+      "Belgaum Session"
+    ],
+    "answer": 0,
+    "explanation": "The Lahore Session of December 1929 presided by Jawaharlal Nehru promulgated the Poorna Swaraj resolution, declaring 26 January 1930 as Independence Day.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-007",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The Constitution of India came into full legal effect on 26 January 1950, which is celebrated across the nation every year as Republic Day.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. Although the Constituent Assembly adopted the Constitution on 26 November 1949, it was brought into force on 26 January 1950 to commemorate the 1930 Poorna Swaraj declaration.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-008",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Rivers",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Unlike most major peninsular rivers that flow east into the Bay of Bengal, both the Narmada and Tapi flow west through rift valleys into the Arabian Sea.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. The Narmada and Tapi flow westward through fault depressions / rift valleys between the Satpura and Vindhya ranges and drain into the Arabian Sea via estuaries.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-009",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Scientists and Inventions",
+    "type": "truefalse",
+    "difficulty": "hard",
+    "question": "Sir Chandrasekhara Venkata Raman was awarded the Nobel Prize in Physics in 1930 for his discovery of the artificial transmutation of chemical elements.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "False. Sir C. V. Raman received the 1930 Nobel Prize for his work on the scattering of light and the discovery of the Raman Effect, announced on 28 February 1928.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-010",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "National Symbols",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The National Song of India, 'Vande Mataram', was originally composed in Sanskrit by the renowned Bengali author __________ in his 1882 novel Anandamath.",
+    "answer": "Bankim Chandra Chatterjee",
+    "acceptedAnswers": [
+      "Bankim Chandra Chatterjee",
+      "Bankim Chandra Chattopadhyay",
+      "Bankimchandra",
+      "Bankim Chandra"
+    ],
+    "explanation": "Bankim Chandra Chattopadhyay wrote 'Vande Mataram' in the 1870s and included it in his patriotic novel Anandamath published in 1882.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-011",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Environment",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The world's largest contiguous mangrove delta forest, shared between India and Bangladesh and famous as the habitat of the Royal Bengal Tiger, is the __________.",
+    "answer": "Sundarbans",
+    "acceptedAnswers": [
+      "Sundarbans",
+      "Sundarban",
+      "Sundarbans Delta",
+      "Sunderbans"
+    ],
+    "explanation": "The Sundarbans delta formed by the confluence of the Padma, Brahmaputra, and Meghna rivers across the Bay of Bengal comprises over 10,000 sq km of mangrove wetland.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-012",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "States and Capitals",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each Indian state on the left with its official administrative capital on the right:",
+    "pairs": [
+      [
+        "Kerala",
+        "Thiruvananthapuram"
+      ],
+      [
+        "Nagaland",
+        "Kohima"
+      ],
+      [
+        "Jharkhand",
+        "Ranchi"
+      ],
+      [
+        "Chhattisgarh",
+        "Raipur"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Kerala's capital is Thiruvananthapuram; Nagaland's capital is Kohima; Jharkhand's capital is Ranchi; Chhattisgarh's capital is Raipur.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-013",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Scientists and Inventions",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each pioneering Indian scientist on the left with their seminal scientific contribution on the right:",
+    "pairs": [
+      [
+        "Jagadish Chandra Bose",
+        "Millimeter microwave radio optics and Crescograph plant physiology"
+      ],
+      [
+        "Homi Jehangir Bhabha",
+        "Architecture of India's three-stage nuclear power programme"
+      ],
+      [
+        "Satyendra Nath Bose",
+        "Quantum gas statistics leading to the Bose-Einstein condensate"
+      ],
+      [
+        "Vikram Sarabhai",
+        "Founding the Indian Space Research Organisation (ISRO)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "J.C. Bose pioneered microwave communication; H.J. Bhabha steered atomic research; S.N. Bose formulated boson statistics; Vikram Sarabhai led India's space program.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-014",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "How many Fundamental Rights were originally guaranteed to Indian citizens under Part III of the Constitution when it was adopted in 1949, before the 44th Amendment Act of 1978?",
+    "answer": 7,
+    "tolerance": 0,
+    "explanation": "The original Constitution had 7 Fundamental Rights. The 44th Constitutional Amendment Act (1978) omitted the Right to Property (Article 31), leaving 6 fundamental rights.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-015",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Freedom Struggle",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "In which calendar year did Mahatma Gandhi lead the historic 240-mile Salt March from Sabarmati Ashram to Dandi to break the British salt tax monopoly?",
+    "answer": 1930,
+    "tolerance": 0,
+    "explanation": "The Dandi March took place between 12 March and 6 April 1930, inaugurating the nationwide Civil Disobedience Movement.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-016",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "National Symbols",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the State Emblem of India adapted from the Sarnath Lion Capital of Ashoka, which animal is sculpted on the circular abacus to the immediate right of the central Ashoka Chakra?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220' width='100%' height='200'><rect width='320' height='220' fill='#f8fafc' rx='8'/><circle cx='160' cy='60' r='38' fill='#fef08a' stroke='#b45309' stroke-width='3'/><path d='M140 38 Q160 20 180 38 Q170 55 160 55 Q150 55 140 38 Z' fill='#d97706'/><circle cx='152' cy='48' r='3' fill='#78350f'/><circle cx='168' cy='48' r='3' fill='#78350f'/><ellipse cx='160' cy='62' rx='10' ry='6' fill='#b45309'/><rect x='80' y='105' width='160' height='36' rx='6' fill='#e2e8f0' stroke='#475569' stroke-width='2'/><circle cx='160' cy='123' r='14' fill='none' stroke='#1e3a8a' stroke-width='2.5'/><circle cx='160' cy='123' r='3' fill='#1e3a8a'/><line x1='160' y1='109' x2='160' y2='137' stroke='#1e3a8a' stroke-width='1.5'/><line x1='146' y1='123' x2='174' y2='123' stroke='#1e3a8a' stroke-width='1.5'/><text x='105' y='127' font-family='sans-serif' font-size='11' font-weight='bold' fill='#047857'>Horse (Left)</text><text x='188' y='127' font-family='sans-serif' font-size='11' font-weight='bold' fill='#b91c1c'>[X] (Right)</text><path d='M70 148 L250 148 L240 162 L80 162 Z' fill='#cbd5e1'/><text x='84' y='185' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>सत्यमेव जयते (Satyameva Jayate)</text><text x='70' y='210' font-family='sans-serif' font-size='11' fill='#475569'>State Emblem abacus: Left = Horse, Right = [X]</text></svg>"
+    },
+    "options": [
+      "Bull",
+      "Elephant",
+      "Tiger",
+      "Rhinoceros"
+    ],
+    "answer": 0,
+    "explanation": "On the circular abacus of the National Emblem, the Ashoka Chakra is flanked by a galloping horse on the left (energy and speed) and a bull on the right (steadfast hard work).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-017",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Mountains",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram displays a north-to-south elevation cross-section of the Himalayan ranges. Which longitudinal division corresponds to region [C], the southernmost sub-Himalayan outer foothills?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#f1f5f9' rx='8'/><polyline points='20,180 60,40 90,130 140,80 170,140 210,120 250,165 300,180' fill='none' stroke='#0f172a' stroke-width='2.5'/><polygon points='20,180 60,40 90,130 140,80 170,140 210,120 250,165 300,180 300,195 20,195' fill='#e2e8f0' opacity='0.7'/><polygon points='48,65 60,40 72,65' fill='#ffffff'/><rect x='42' y='22' width='36' height='18' rx='4' fill='#2563eb'/><text x='54' y='35' fill='#ffffff' font-family='sans-serif' font-size='11' font-weight='bold'>[A]</text><rect x='125' y='60' width='36' height='18' rx='4' fill='#059669'/><text x='137' y='73' fill='#ffffff' font-family='sans-serif' font-size='11' font-weight='bold'>[B]</text><rect x='225' y='105' width='36' height='18' rx='4' fill='#d97706'/><text x='237' y='118' fill='#ffffff' font-family='sans-serif' font-size='11' font-weight='bold'>[C]</text><text x='15' y='193' font-family='sans-serif' font-size='10' fill='#64748b'>Tibetan Plateau (North)</text><text x='200' y='193' font-family='sans-serif' font-size='10' fill='#64748b'>Indo-Gangetic Plain (South)</text></svg>"
+    },
+    "options": [
+      "Shiwalik Range (Outer Himalayas)",
+      "Himadri (Greater Himalayas)",
+      "Himachal (Lesser Himalayas)",
+      "Trans-Himalayan Karakoram Range"
+    ],
+    "answer": 0,
+    "explanation": "From north to south: [A] is the Himadri / Great Himalayas (highest crest), [B] is Himachal / Lesser Himalayas, and [C] is the southernmost Shiwalik range (outer foothills).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-018",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "National Symbols",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the official National Aquatic Animal of India, declared in 2009 to protect the critically endangered freshwater mammal inhabiting the Ganga-Brahmaputra river system?",
+    "sampleAnswer": "Ganges River Dolphin",
+    "acceptedAnswers": [
+      "Ganges River Dolphin",
+      "Gangetic Dolphin",
+      "Ganga River Dolphin",
+      "River Dolphin",
+      "Platanista gangetica"
+    ],
+    "keywords": [
+      "Ganges",
+      "Gangetic",
+      "Dolphin"
+    ],
+    "explanation": "The Ganges River Dolphin (Platanista gangetica) was declared India's National Aquatic Animal in October 2009 to highlight freshwater ecosystem conservation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-019",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "World Geography Basics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Which major imaginary circle of latitude, located at approximately 23°26′ N of the Equator, passes through eight Indian states and divides the country into roughly equal climatic halves?",
+    "sampleAnswer": "Tropic of Cancer",
+    "acceptedAnswers": [
+      "Tropic of Cancer",
+      "The Tropic of Cancer",
+      "23.5 N"
+    ],
+    "keywords": [
+      "Tropic",
+      "Cancer"
+    ],
+    "explanation": "The Tropic of Cancer passes through Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-020",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "Evaluate the constitutional relationship between the head of state and government in India:\nAssertion (A): The President is the constitutional executive head of the Union of India.\nReason (R): Under Article 74, the President exercises all executive functions with the binding aid and advice of the Council of Ministers headed by the Prime Minister.",
+    "options": [
+      "Both (A) and (R) are true, and (R) correctly explains why the President acts as a constitutional figurehead.",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "India has a parliamentary democracy: the President is the de jure titular head of state who acts on the advice of the elected Council of Ministers (the de facto executive).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-021",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Rivers",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "An environmental analyst studies four major peninsular rivers: Mahanadi, Godavari, Krishna, and Kaveri. Which common geological and drainage feature uniquely unites all four rivers?",
+    "options": [
+      "All four originate on the western highlands or plateau, flow eastwards due to the regional slope, and deposit extensive fertile deltas along the Bay of Bengal coast.",
+      "All four flow westwards into the Arabian Sea via deeply eroded rift valleys between mountain fault-lines.",
+      "All four originate in snow-fed Himalayan glaciers and maintain peak perennial water flow throughout the dry summer months.",
+      "All four flow into landlocked salt basins in Rajasthan without discharging into any ocean."
+    ],
+    "answer": 0,
+    "explanation": "The peninsular plateau tilts gently eastward from the Western Ghats; hence Godavari, Krishna, Mahanadi, and Kaveri flow east, build extensive delta plains, and enter the Bay of Bengal.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-022",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "National Symbols",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following flora, fauna, and emblems are officially designated National Symbols of the Republic of India? (Select all 3 that apply)",
+    "options": [
+      "Royal Bengal Tiger (Panthera tigris) as the National Animal",
+      "Indian Peacock (Pavo cristatus) as the National Bird",
+      "Sacred Lotus (Nelumbo nucifera) as the National Flower",
+      "Asiatic Cheetah as the National Mammal",
+      "Indian Cobra as the National Reptile",
+      "Red Rose as the National Floral Crest"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "India's official national symbols include the Royal Bengal Tiger (National Animal), Indian Peacock (National Bird), and Indian Lotus (National Flower). King Cobra is the National Reptile, not Indian Cobra.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-023",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which foundational democratic commitments are explicitly proclaimed in the Preamble to the Constitution of India? (Select all 3 that apply)",
+    "options": [
+      "Justice — social, economic, and political",
+      "Liberty — of thought, expression, belief, faith, and worship",
+      "Fraternity — assuring the dignity of the individual and unity of the nation",
+      "Aristocracy — governance restricted to hereditary elite lineages",
+      "Totalitarian rule — state monopoly over all personal property",
+      "Unilateral monarchical decree"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The Preamble solemnly resolves to secure to all Indian citizens Justice, Liberty, Equality, and to promote Fraternity assuring individual dignity and national integrity.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-024",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Freedom Struggle",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange these five milestone events of the Indian Freedom Movement in chronological order from earliest to latest:",
+    "orderedItems": [
+      "Revolt of 1857 (Sepoy Mutiny / First War of Independence)",
+      "Partition of Bengal enacted under Viceroy Lord Curzon (1905)",
+      "Jallianwala Bagh Massacre in Amritsar under General Dyer (1919)",
+      "Dandi Salt March initiating the Civil Disobedience Movement (1930)",
+      "Quit India Movement launched with the slogan 'Do or Die' (1942)"
+    ],
+    "answer": "ordered",
+    "explanation": "Chronology: Revolt of 1857 -> Bengal Partition 1905 -> Jallianwala Bagh 1919 -> Dandi March 1930 -> Quit India Movement August 1942.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-025",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the chronological phases leading to the framing and enactment of the Constitution of India from first to last:",
+    "orderedItems": [
+      "First meeting and formal convening of the Constituent Assembly in December 1946",
+      "Appointment of the Drafting Committee under the Chairmanship of Dr. B. R. Ambedkar in August 1947",
+      "Introduction and comprehensive clause-by-clause clause reading of the Draft Constitution in 1948-1949",
+      "Adoption and formal signing of the Constitution by Assembly members on 26 November 1949",
+      "Full commencement and constitutional implementation of the Republic on 26 January 1950"
+    ],
+    "answer": "ordered",
+    "explanation": "Convened 9 Dec 1946 -> Drafting Committee 29 Aug 1947 -> Draft readings 1948-49 -> Adoption 26 Nov 1949 -> Commencement 26 Jan 1950.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-026",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "States and Capitals",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which planned city serves as the shared joint capital of both Punjab and Haryana, while also functioning as a Union Territory of India?",
+    "options": [
+      "Chandigarh",
+      "Ludhiana",
+      "Ambala",
+      "Shimla"
+    ],
+    "answer": 0,
+    "explanation": "Chandigarh, master-planned by Swiss-French architect Le Corbusier, serves as the capital for both Punjab and Haryana and is centrally administered as a Union Territory.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-027",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Rivers",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "At which holy confluence (Prayag) in Uttarakhand do the Alaknanda and Bhagirathi rivers unite to officially flow onwards as the Ganga?",
+    "options": [
+      "Devprayag",
+      "Rudraprayag",
+      "Karnaprayag",
+      "Vishnuprayag"
+    ],
+    "answer": 0,
+    "explanation": "At Devprayag, the Bhagirathi from Gangotri glacier meets the Alaknanda from Satopanth glacier to form the sacred river Ganga.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-028",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Freedom Struggle",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Who founded the reformist Hindu social organization 'Arya Samaj' in Bombay in 1875 with the rallying call 'Go back to the Vedas'?",
+    "options": [
+      "Swami Dayanand Saraswati",
+      "Swami Vivekananda",
+      "Raja Ram Mohan Roy",
+      "Ishwar Chandra Vidyasagar"
+    ],
+    "answer": 0,
+    "explanation": "Swami Dayanand Saraswati established the Arya Samaj in 1875, rejecting idol worship, caste rigidity, and superstitious ritualism in favour of Vedic teachings.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-029",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Books and Authors",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which ancient scholar and royal advisor authored the famous Sanskrit treatise 'Arthashastra', analyzing statecraft, fiscal policy, taxation, and espionage during the Mauryan Empire?",
+    "options": [
+      "Kautilya (Chanakya)",
+      "Megasthenes",
+      "Kalidasa",
+      "Banabhatta"
+    ],
+    "answer": 0,
+    "explanation": "Kautilya (also known as Chanakya or Vishnugupta), chief advisor to Chandragupta Maurya, authored the comprehensive treatise Arthashastra.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-030",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Sports Basics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "National Sports Day is celebrated annually in India on August 29 to commemorate the birth anniversary of Major Dhyan Chand, a legendary icon in which sport?",
+    "options": [
+      "Field Hockey",
+      "Cricket",
+      "Football",
+      "Badminton"
+    ],
+    "answer": 0,
+    "explanation": "Major Dhyan Chand ('The Wizard' of hockey) led India to consecutive Olympic gold medals in field hockey in 1928, 1932, and 1936.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-031",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Which Constitutional Amendment Act of 1976 amended the Preamble of the Constitution of India by inserting the words 'Socialist', 'Secular', and 'Integrity'?",
+    "options": [
+      "42nd Constitutional Amendment Act",
+      "44th Constitutional Amendment Act",
+      "73rd Constitutional Amendment Act",
+      "86th Constitutional Amendment Act"
+    ],
+    "answer": 0,
+    "explanation": "The 42nd Amendment Act (1976), known as the 'Mini-Constitution', added 'Socialist', 'Secular', and 'Integrity' to the Preamble.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-032",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "National Symbols",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The Flag Code of India stipulates that the official ratio of the length to the height (width) of the National Flag of India must always be 3 : 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. The National Flag must be rectangular with a fixed proportion of 3:2 (three units long by two units wide) with three equal horizontal stripes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-033",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Environment",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Project Tiger, one of India's most successful wildlife conservation initiatives, was launched in 1973 from Jim Corbett National Park in Uttarakhand.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. Project Tiger was inaugurated in April 1973 under Prime Minister Indira Gandhi to stem the steep decline in Royal Bengal Tiger numbers.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-034",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Mountains",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The oldest eroded fold mountain system in India, extending southwest-to-northeast across Gujarat, Rajasthan, Haryana, and Delhi, is the __________ range.",
+    "answer": "Aravalli",
+    "acceptedAnswers": [
+      "Aravalli",
+      "Aravali",
+      "Aravalli Range",
+      "Aravali Range",
+      "Aravallis"
+    ],
+    "explanation": "The Aravalli Range is among the world's oldest geological fold belts, originating in the Proterozoic eon, with its highest peak at Guru Shikhar (1,722 m).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-035",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "World Geography Basics",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The deepest oceanic depression on Earth, descending nearly 11,000 metres below sea level in the western Pacific Ocean at Challenger Deep, is the __________.",
+    "answer": "Mariana Trench",
+    "acceptedAnswers": [
+      "Mariana Trench",
+      "Mariana",
+      "The Mariana Trench"
+    ],
+    "explanation": "The Mariana Trench is a convergent tectonic subduction trench in the Pacific Ocean containing Challenger Deep (~10,994 m depth).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-036",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Scientists and Inventions",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "The self-taught Indian mathematical genius whose pioneering work on infinite series, continued fractions, and partitions is celebrated on National Mathematics Day (December 22) was __________.",
+    "answer": "Srinivasa Ramanujan",
+    "acceptedAnswers": [
+      "Srinivasa Ramanujan",
+      "Ramanujan",
+      "S. Ramanujan"
+    ],
+    "explanation": "Srinivasa Ramanujan (1887-1920) made legendary discoveries in number theory and mock theta functions in collaboration with G. H. Hardy at Cambridge.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-037",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Books and Authors",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each distinguished Indian author on the left with their seminal literary work on the right:",
+    "pairs": [
+      [
+        "Rabindranath Tagore",
+        "Gitanjali (Song Offerings)"
+      ],
+      [
+        "R. K. Narayan",
+        "Malgudi Days"
+      ],
+      [
+        "Munshi Premchand",
+        "Godan (The Gift of a Cow)"
+      ],
+      [
+        "Jawaharlal Nehru",
+        "The Discovery of India"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Tagore wrote Gitanjali (1913 Nobel Prize); R.K. Narayan created Malgudi; Premchand authored Godan; Nehru wrote The Discovery of India while imprisoned at Ahmednagar Fort.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-038",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "National Symbols",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many spokes are rendered in the navy-blue Dharma Chakra (Wheel of the Law) located in the center of the white band of the Indian National Flag?",
+    "answer": 24,
+    "tolerance": 0,
+    "explanation": "The Ashoka Chakra has 24 spokes representing the 24 continuous hours of the day and 24 virtues in Buddhist and Vedic philosophy.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-039",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Freedom Struggle",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In which calendar year did British Brigadier-General Reginald Dyer order troops to fire without warning upon an unarmed crowd trapped at Jallianwala Bagh in Amritsar?",
+    "answer": 1919,
+    "tolerance": 0,
+    "explanation": "The Jallianwala Bagh massacre occurred on 13 April 1919 (Baisakhi day), galvanizing the nationwide Non-Cooperation Movement.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-040",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Mountains",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "What is the officially recognized elevation of Mount Everest (Sagarmatha) above sea level in whole metres, rounded to the nearest integer?",
+    "answer": 8849,
+    "tolerance": 1,
+    "explanation": "In December 2020, Nepal and China officially remeasured Mount Everest at 8,848.86 metres (rounding to 8,849 m; 8,848 m accepted).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-041",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "World Geography Basics",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "The cross-section diagram illustrates the concentric internal structure of the Earth. Which layer corresponds to the deepest, high-pressure solid sphere labeled [D]?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#0f172a' rx='8'/><circle cx='160' cy='100' r='90' fill='#7c2d12' stroke='#f97316' stroke-width='3'/><circle cx='160' cy='100' r='68' fill='#ea580c'/><circle cx='160' cy='100' r='46' fill='#facc15'/><circle cx='160' cy='100' r='22' fill='#ffffff'/><rect x='250' y='20' width='60' height='20' rx='4' fill='#7c2d12'/><text x='258' y='34' fill='#ffffff' font-family='sans-serif' font-size='10' font-weight='bold'>[A] Crust</text><rect x='250' y='50' width='60' height='20' rx='4' fill='#ea580c'/><text x='258' y='64' fill='#ffffff' font-family='sans-serif' font-size='10' font-weight='bold'>[B] Mantle</text><rect x='250' y='80' width='65' height='20' rx='4' fill='#ca8a04'/><text x='255' y='94' fill='#ffffff' font-family='sans-serif' font-size='10' font-weight='bold'>[C] Outer Core</text><rect x='250' y='110' width='65' height='20' rx='4' fill='#ffffff'/><text x='255' y='124' fill='#0f172a' font-family='sans-serif' font-size='10' font-weight='bold'>[D] ?</text><line x1='160' y1='100' x2='248' y2='120' stroke='#38bdf8' stroke-width='1.5' stroke-dasharray='3,3'/><circle cx='160' cy='100' r='3' fill='#0f172a'/><text x='20' y='185' fill='#94a3b8' font-family='sans-serif' font-size='11'>Concentric Earth Layers: [A] -> [B] -> [C] -> [D]</text></svg>"
+    },
+    "options": [
+      "Inner Core",
+      "Asthenosphere",
+      "Oceanic Lithosphere",
+      "Continental Crust"
+    ],
+    "answer": 0,
+    "explanation": "From outside to inside: [A] Crust, [B] Mantle, [C] Liquid Outer Core, and [D] Solid Inner Core (composed mostly of nickel-iron, Nife).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-042",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "States and Capitals",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Which prominent southern Indian metropolitan capital is famously nicknamed the 'Silicon Valley of India' due to its position as the country's primary information technology hub?",
+    "sampleAnswer": "Bengaluru",
+    "acceptedAnswers": [
+      "Bengaluru",
+      "Bangalore"
+    ],
+    "keywords": [
+      "Bengaluru",
+      "Bangalore"
+    ],
+    "explanation": "Bengaluru, capital of Karnataka, hosts the headquarters of major software corporations (Infosys, Wipro, ISRO) earning the moniker 'Silicon Valley of India'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-043",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Environment",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Which historic international treaty agreed in 1987 successfully phased out the global production and use of chlorofluorocarbons (CFCs) to protect the stratospheric ozone layer?",
+    "sampleAnswer": "Montreal Protocol",
+    "acceptedAnswers": [
+      "Montreal Protocol",
+      "The Montreal Protocol"
+    ],
+    "keywords": [
+      "Montreal",
+      "Protocol"
+    ],
+    "explanation": "The Montreal Protocol on Substances that Deplete the Ozone Layer, signed on 16 September 1987, is one of the most successful environmental treaties.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-044",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Under which specific Article of the Constitution of India can a citizen move the Supreme Court directly for the enforcement of Fundamental Rights via constitutional writs?",
+    "sampleAnswer": "Article 32",
+    "acceptedAnswers": [
+      "Article 32",
+      "32"
+    ],
+    "keywords": [
+      "Article",
+      "32"
+    ],
+    "explanation": "Article 32 provides the 'Right to Constitutional Remedies'. Dr. Ambedkar famously described Article 32 as the 'heart and soul' of the Indian Constitution.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-045",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Environment",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Consider the following statements regarding the stratospheric ozone shield:\nAssertion (A): The ozone layer in the stratosphere is essential for protecting terrestrial life from severe biological damage.\nReason (R): Ozone molecules efficiently absorb shortwave ultraviolet-B (UV-B) solar radiation that would otherwise cause skin carcinomas, cataracts, and crop mutations.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct scientific explanation of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Stratospheric ozone (O3) absorbs high-energy ultraviolet radiation (wavelengths 280-315 nm), shielding biological DNA from photochemical destruction.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-046",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "World Geography Basics",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "A meteorologist observes that while coastal Mumbai receives over 2,200 mm of monsoon rainfall annually, Pune (situated barely 150 km eastward beyond the Western Ghats) receives only about 700 mm. What physical principle explains this sharp contrast?",
+    "options": [
+      "The elevated Western Ghats act as a barrier forcing moisture-laden Arabian Sea winds to ascend and precipitate on the windward coast, leaving the leeward eastern plateau in a dry rain-shadow zone.",
+      "The Arabian Sea monsoon winds lose all temperature and freeze into dry glacial frost upon encountering the coast.",
+      "Pune is situated below sea level, which prevents atmospheric moisture from condensing into rainfall.",
+      "The eastward flowing rivers create localized anticyclones that repel monsoon cloud formations."
+    ],
+    "answer": 0,
+    "explanation": "Orographic rainfall occurs when moisture-laden winds hit mountain barriers. The windward western slope gets torrential rain; descending air on the leeward eastern slope warms and dries, producing a rain-shadow.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-047",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Sports Basics",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following tournaments and championship trophies are historically associated with the sport of Cricket? (Select all 3 that apply)",
+    "options": [
+      "ICC Men's Cricket World Cup",
+      "Ranji Trophy (India's premier first-class championship)",
+      "The Ashes (historic Test series between England and Australia)",
+      "Santosh Trophy (national championship)",
+      "Thomas Cup (international championship)",
+      "Davis Cup (international men's championship)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The ICC Cricket World Cup, Ranji Trophy, and The Ashes belong to Cricket. Santosh Trophy is Football, Thomas Cup is Badminton, and Davis Cup is Tennis.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-048",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Freedom Struggle",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which three nationalist leaders formed the famous assertive trio known as 'Lal-Bal-Pal' during the anti-partition Swadeshi movement? (Select all 3 that apply)",
+    "options": [
+      "Lala Lajpat Rai (Punjab)",
+      "Bal Gangadhar Tilak (Maharashtra)",
+      "Bipin Chandra Pal (Bengal)",
+      "Gopal Krishna Gokhale",
+      "Dadabhai Naoroji",
+      "Pherozeshah Mehta"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "'Lal-Bal-Pal' refers to Lala Lajpat Rai of Punjab, Bal Gangadhar Tilak of Maharashtra, and Bipin Chandra Pal of Bengal, who championed Swadeshi and boycott.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-049",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Sports Basics",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange these five popular sports in ascending order of the number of active players per side on the field or court during regulation play:",
+    "orderedItems": [
+      "Table Tennis (Singles match: 1 player per side)",
+      "Badminton (Doubles match: 2 players per side)",
+      "Basketball (Standard court: 5 players per team)",
+      "Volleyball (Standard court: 6 players per team)",
+      "Field Hockey / Association Football / Cricket (11 players per side on the pitch)"
+    ],
+    "answer": "ordered",
+    "explanation": "Player count per team: Table Tennis singles = 1 -> Badminton doubles = 2 -> Basketball = 5 -> Volleyball = 6 -> Football / Hockey / Cricket = 11.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-050",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "World Geography Basics",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the five principal oceans of Earth in descending order of surface area, from largest to smallest:",
+    "orderedItems": [
+      "Pacific Ocean (largest ocean covering ~165 million sq km)",
+      "Atlantic Ocean (second-largest ocean with distinctive S-shaped basin)",
+      "Indian Ocean (third-largest ocean bounded by the Indian subcontinent to the north)",
+      "Southern Ocean (Antarctic Ocean encircling the continent of Antarctica)",
+      "Arctic Ocean (smallest and shallowest ocean surrounding the North Pole)"
+    ],
+    "answer": "ordered",
+    "explanation": "Surface areas: Pacific Ocean (~165M km²) -> Atlantic Ocean (~85M km²) -> Indian Ocean (~70M km²) -> Southern Ocean (~20M km²) -> Arctic Ocean (~14M km²).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-051",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Scientists and Inventions",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which prolific American inventor developed the commercially practical incandescent electric light bulb, phonograph, and motion picture camera at his Menlo Park laboratory?",
+    "options": [
+      "Thomas Alva Edison",
+      "Alexander Graham Bell",
+      "Nikola Tesla",
+      "Guglielmo Marconi"
+    ],
+    "answer": 0,
+    "explanation": "Thomas Edison patented the carbon filament incandescent lamp in 1879 and established the world's first industrial research laboratory at Menlo Park, New Jersey.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-052",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Environment",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "On which calendar date is World Environment Day commemorated globally every year under the auspices of the United Nations Environment Programme (UNEP)?",
+    "options": [
+      "June 5",
+      "April 22",
+      "September 16",
+      "March 21"
+    ],
+    "answer": 0,
+    "explanation": "World Environment Day was established by the UN General Assembly at the 1972 Stockholm Conference on the Human Environment and is celebrated every year on June 5.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-053",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "World Geography Basics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which is the longest continental mountain range on Earth, extending approximately 7,000 kilometres through seven South American nations along the Pacific coast?",
+    "options": [
+      "The Andes",
+      "The Rocky Mountains",
+      "The Alps",
+      "The Great Dividing Range"
+    ],
+    "answer": 0,
+    "explanation": "The Andes mountain chain spans seven South American countries (Venezuela, Colombia, Ecuador, Peru, Bolivia, Chile, and Argentina) with Mount Aconcagua as its highest peak.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-054",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the minimum statutory age required under Article 84 of the Indian Constitution for a citizen to contest elections to the Lok Sabha (House of the People)?",
+    "options": [
+      "25 years",
+      "30 years",
+      "35 years",
+      "21 years"
+    ],
+    "answer": 0,
+    "explanation": "The minimum qualifying age is 25 years for the Lok Sabha (and State Legislative Assemblies) and 30 years for the Rajya Sabha (and State Legislative Councils).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-055",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Rivers",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which perennial peninsular river is popularly known as 'Dakshin Ganga' (or Vriddha Ganga) owing to its massive catchment basin and religious significance across central India?",
+    "options": [
+      "Godavari",
+      "Krishna",
+      "Kaveri",
+      "Mahanadi"
+    ],
+    "answer": 0,
+    "explanation": "The Godavari (1,465 km), originating near Trimbakeshwar in Maharashtra, is the longest peninsular river and is traditionally termed Dakshin Ganga.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-056",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Books and Authors",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Who became the first resident Indian citizen to win the Man Booker Prize for Fiction in 1997 for the internationally acclaimed debut novel 'The God of Small Things'?",
+    "options": [
+      "Arundhati Roy",
+      "Salman Rushdie",
+      "Kiran Desai",
+      "Aravind Adiga"
+    ],
+    "answer": 0,
+    "explanation": "Arundhati Roy won the 1997 Booker Prize for 'The God of Small Things', set in Ayemenem, Kerala.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-057",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "World Geography Basics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The Sahara Desert in North Africa is the largest hot subtropical desert in the world, covering an area comparable in size to the entire continent of the United States or China.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. Covering over 9 million square kilometres across North Africa, the Sahara is the world's largest hot desert (only the polar ice deserts of Antarctica and the Arctic are larger).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-058",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The Fundamental Duties of Indian citizens were incorporated into Article 51A under Part IVA of the Constitution upon the recommendations of the Swaran Singh Committee.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. The 42nd Amendment Act (1976) introduced 10 Fundamental Duties under Article 51A based on the Swaran Singh Committee report (an 11th duty was added by the 86th Amendment in 2002).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-059",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Freedom Struggle",
+    "type": "truefalse",
+    "difficulty": "hard",
+    "question": "The Indian National Army (Azad Hind Fauj) was originally founded in Singapore by Subhas Chandra Bose in 1939 before Mohan Singh was involved.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "False. The INA was first formed in 1942 by Captain Mohan Singh with Indian prisoners-of-war captured by Japan in Malaya. Netaji Subhas Chandra Bose took over its leadership later in July 1943.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-060",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "States and Capitals",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The UNESCO World Heritage historic 'Pink City' of Jaipur serves as the state capital of __________.",
+    "answer": "Rajasthan",
+    "acceptedAnswers": [
+      "Rajasthan"
+    ],
+    "explanation": "Jaipur was founded in 1727 by Maharaja Sawai Jai Singh II and is the capital of Rajasthan.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-061",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Scientists and Inventions",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Scottish bacteriologist Sir Alexander Fleming discovered the world's first natural miracle antibiotic, __________, from a Penicillium notatum mould culture in 1928.",
+    "answer": "Penicillin",
+    "acceptedAnswers": [
+      "Penicillin"
+    ],
+    "explanation": "Fleming noticed a halo of bacterial clearance around Penicillium fungus in St. Mary's Hospital, London, paving the way for mass production of penicillin.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-062",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "National Symbols",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each biological or artistic emblem on the left with its designated National Symbol category in India on the right:",
+    "pairs": [
+      [
+        "Mango (Mangifera indica)",
+        "National Fruit of India"
+      ],
+      [
+        "Banyan (Ficus benghalensis)",
+        "National Tree of India"
+      ],
+      [
+        "King Cobra (Ophiophagus hannah)",
+        "National Reptile of India"
+      ],
+      [
+        "Indian Rupee symbol (₹)",
+        "National Currency Emblem"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Official Indian symbols: Mango is the National Fruit; Banyan is the National Tree; King Cobra is the National Reptile; ₹ is the National Currency symbol designed by D. Udaya Kumar.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-063",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Rivers",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each perennial Indian river on the left with its primary geographic source or glacial origin on the right:",
+    "pairs": [
+      [
+        "Ganga (Bhagirathi stream)",
+        "Gaumukh at the snout of the Gangotri Glacier"
+      ],
+      [
+        "Yamuna",
+        "Yamunotri Glacier on the Banderpooch peak"
+      ],
+      [
+        "Indus",
+        "Glacial springs near Lake Manasarovar in Tibet"
+      ],
+      [
+        "Godavari",
+        "Trimbakeshwar hills in the Western Ghats (Nashik)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Ganga stems from Gangotri; Yamuna from Yamunotri; Indus from glaciers near Kailash/Manasarovar; Godavari from Trimbakeshwar in Nashik.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-064",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "States and Capitals",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many sovereign States currently constitute the federal Union of India (excluding the eight Union Territories)?",
+    "answer": 28,
+    "tolerance": 0,
+    "explanation": "India has 28 States and 8 Union Territories following the bifurcation of Jammu and Kashmir and the merger of Daman & Diu and Dadra & Nagar Haveli.",
+    "marks": 1,
+    "volatile": true
+  },
+  {
+    "id": "c9-gk-065",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "How many scheduled languages are presently listed and officially recognized in the Eighth Schedule of the Constitution of India?",
+    "answer": 22,
+    "tolerance": 0,
+    "explanation": "The Eighth Schedule currently recognizes 22 languages (originally 14; Sindhi added in 1967; Konkani, Manipuri, Nepali in 1992; Bodo, Dogri, Maithili, Santhali in 2003).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-066",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "World Geography Basics",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "How many sovereign nations share a contiguous international land border with mainland India (Pakistan, Afghanistan, China, Nepal, Bhutan, Bangladesh, and Myanmar)?",
+    "answer": 7,
+    "tolerance": 0,
+    "explanation": "India shares international land boundaries with 7 countries: Bangladesh (longest), China, Pakistan, Nepal, Myanmar, Bhutan, and Afghanistan (in northern Ladakh / PoK).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-067",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Environment",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram illustrates the natural atmospheric radiation balance of Earth. What critical phenomenon is represented by the thermal absorption and re-radiation mechanism at [GHG Layer]?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#0284c7' rx='8'/><circle cx='40' cy='40' r='24' fill='#facc15' stroke='#eab308' stroke-width='2'/><path d='M40 70 L70 140' stroke='#fde047' stroke-width='4' marker-end='url(#arrow)'/><rect x='10' y='150' width='300' height='45' fill='#15803d'/><path d='M80 145 L130 90' stroke='#f87171' stroke-width='3'/><rect x='110' y='75' width='180' height='30' rx='6' fill='#ffffff' opacity='0.85' stroke='#334155' stroke-width='1.5'/><text x='125' y='94' fill='#0f172a' font-family='sans-serif' font-size='11' font-weight='bold'>[GHG Blanket: CO2, CH4]</text><path d='M180 105 L160 145' stroke='#ef4444' stroke-width='2.5'/><path d='M230 75 L250 35' stroke='#ef4444' stroke-width='2.5'/><text x='15' y='180' fill='#ffffff' font-family='sans-serif' font-size='11' font-weight='bold'>Earth's Surface Absorbs Solar Heat</text></svg>"
+    },
+    "options": [
+      "Natural Greenhouse Effect",
+      "Stratospheric Ozone Layer Depletion",
+      "Atmospheric Thermal Inversion",
+      "Tropospheric Jet Stream Condensation"
+    ],
+    "answer": 0,
+    "explanation": "Greenhouse gases (CO2, CH4, water vapor) allow incoming solar shortwave radiation through, but absorb and re-emit outgoing terrestrial longwave infrared radiation, warming the surface.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-068",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Mountains",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Which peak, with an elevation of 2,695 metres in the Anaimalai Hills of Kerala, is the highest mountain peak in Peninsular India and the Western Ghats?",
+    "sampleAnswer": "Anamudi",
+    "acceptedAnswers": [
+      "Anamudi",
+      "Ana Mudi",
+      "Anamudi Peak"
+    ],
+    "keywords": [
+      "Anamudi"
+    ],
+    "explanation": "Anamudi (literally 'elephant's forehead') in Eravikulam National Park, Kerala, is the highest peak in south India and the Western Ghats.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-069",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Sports Basics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What universally recognized symbol of the Olympic Games consists of five interlocking rings of blue, yellow, black, green, and red on a white field?",
+    "sampleAnswer": "Olympic Rings",
+    "acceptedAnswers": [
+      "Olympic Rings",
+      "The Olympic Rings",
+      "Olympic Rings Symbol"
+    ],
+    "keywords": [
+      "Olympic",
+      "Rings"
+    ],
+    "explanation": "Designed by Pierre de Coubertin in 1913, the five interlocking Olympic Rings symbolize the union of the five inhabited continents and the meeting of worldwide athletes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-070",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "States and Capitals",
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "Evaluate the administrative framework of Union Territories in India:\nAssertion (A): The Union Territory of Ladakh does not have an elected legislative assembly.\nReason (R): Under the Jammu and Kashmir Reorganisation Act 2019, Ladakh was constituted as a Union Territory without a legislature, administered directly by the President through a Lieutenant Governor.",
+    "options": [
+      "Both (A) and (R) are true, and (R) correctly explains why Ladakh does not have an assembly.",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The 2019 Act bifurcated the state into two Union Territories: Jammu & Kashmir (with a legislative assembly) and Ladakh (without a legislature).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-071",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Freedom Struggle",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Analyze the strategic decision taken by the Indian National Congress in 1922:\nAssertion (A): Mahatma Gandhi unilaterally suspended the nationwide Non-Cooperation Movement in February 1922.\nReason (R): At Chauri Chaura in Gorakhpur district, an agitated crowd set a police station on fire, killing 22 policemen, which convinced Gandhi that the masses were not yet adequately trained for non-violent resistance.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the exact historical cause and justification for (A).",
+      "Both (A) and (R) are true, but (R) is unrelated to (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Following the Chauri Chaura incident on 4 February 1922, Gandhi felt non-violence had been violated and passed the Bardoli resolution calling off the movement.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-072",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Environment",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following atmospheric gases are potent greenhouse gases capable of trapping longwave terrestrial thermal radiation? (Select all 3 that apply)",
+    "options": [
+      "Carbon dioxide (CO2)",
+      "Methane (CH4)",
+      "Nitrous oxide (N2O)",
+      "Diatomic Nitrogen (N2)",
+      "Diatomic Oxygen (O2)",
+      "Argon gas (Ar)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "CO2, CH4, and N2O possess asymmetric vibrational dipole moments that absorb infrared radiation. Homonuclear diatomic gases (N2, O2) and noble gases (Ar) do not.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-073",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "World Geography Basics",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following sovereign Asian nations are landlocked, possessing no direct territorial access or coastline to any ocean or open sea? (Select all 3 that apply)",
+    "options": [
+      "Nepal (Himalayan landlocked nation)",
+      "Bhutan (Himalayan landlocked nation)",
+      "Mongolia (landlocked between Russia and China)",
+      "Sri Lanka (island nation)",
+      "Japan (archipelagic nation)",
+      "Philippines (island nation)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Nepal, Bhutan, and Mongolia are completely landlocked nations surrounded by other landmasses. Sri Lanka, Japan, and the Philippines are surrounded by oceans.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-074",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Scientists and Inventions",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange these five revolutionary communication and information inventions in chronological order from earliest to latest:",
+    "orderedItems": [
+      "Johannes Gutenberg's movable metal type printing press (c. 1440)",
+      "Samuel Morse's electromagnetic telegraph system (1837-1844)",
+      "Alexander Graham Bell's acoustic electric telephone (1876)",
+      "Guglielmo Marconi's commercial wireless radio telegraphy (1895-1901)",
+      "Tim Berners-Lee's invention of the World Wide Web at CERN (1989-1991)"
+    ],
+    "answer": "ordered",
+    "explanation": "Printing press (~1440) -> Electric telegraph (~1844) -> Telephone (1876) -> Wireless radio (~1895) -> World Wide Web (1989).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-075",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange these constitutional functionaries in descending order of precedence according to the official Table of Precedence of India from highest to lowest rank:",
+    "orderedItems": [
+      "President of India (Rank 1)",
+      "Vice-President of India (Rank 2)",
+      "Prime Minister of India (Rank 3)",
+      "Governors of States within their respective states (Rank 4)",
+      "Chief Justice of India and Speaker of Lok Sabha (Rank 6)"
+    ],
+    "answer": "ordered",
+    "explanation": "Table of Precedence: 1 = President, 2 = Vice-President, 3 = Prime Minister, 4 = State Governors in their states, 6 = Chief Justice of India / Lok Sabha Speaker.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-076",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Sports Basics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which nation has won the FIFA Men's Football World Cup the highest number of times, claiming five championship titles (1958, 1962, 1970, 1994, and 2002)?",
+    "options": [
+      "Brazil",
+      "Germany",
+      "Italy",
+      "Argentina"
+    ],
+    "answer": 0,
+    "explanation": "Brazil has won 5 FIFA World Cups, followed by Germany and Italy with 4 titles each, and Argentina with 3 titles.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-077",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Books and Authors",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Who authored the classic Victorian children's fantasy novel 'Alice's Adventures in Wonderland' (1865) under the famous pen name Lewis Carroll?",
+    "options": [
+      "Charles Lutwidge Dodgson",
+      "Jonathan Swift",
+      "Arthur Conan Doyle",
+      "Robert Louis Stevenson"
+    ],
+    "answer": 0,
+    "explanation": "Charles Lutwidge Dodgson, an Oxford mathematician, wrote Alice's Adventures in Wonderland and Through the Looking-Glass under the pseudonym Lewis Carroll.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-078",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "States and Capitals",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which Indian state shares international land borders with three distinct foreign nations: Nepal to the west, China (Tibet) to the north, and Bhutan to the east?",
+    "options": [
+      "Sikkim",
+      "Arunachal Pradesh",
+      "Uttarakhand",
+      "West Bengal"
+    ],
+    "answer": 0,
+    "explanation": "Sikkim is wedged in the eastern Himalayas between Nepal, China (Tibet Autonomous Region), and Bhutan, connected to the rest of India via West Bengal.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-079",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Freedom Struggle",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Who was the Viceroy of India when the controversial Partition of Bengal was enacted in October 1905, triggering the anti-partition Swadeshi and Boycott movements?",
+    "options": [
+      "Lord Curzon",
+      "Lord Ripon",
+      "Lord Dalhousie",
+      "Lord Chelmsford"
+    ],
+    "answer": 0,
+    "explanation": "Lord Curzon partitioned the Bengal Presidency on 16 October 1905 under the guise of administrative efficiency, provoking nationwide nationalist agitation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-080",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Environment",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Kaziranga National Park in the floodplains of the Brahmaputra in Assam is globally celebrated as the primary sanctuary for which vulnerable mammalian species?",
+    "options": [
+      "Great Indian One-Horned Rhinoceros",
+      "Asiatic Lion",
+      "Snow Leopard",
+      "Royal Bengal Tiger"
+    ],
+    "answer": 0,
+    "explanation": "Kaziranga National Park hosts roughly two-thirds of the world's remaining population of the Great Indian One-Horned Rhinoceros (Rhinoceros unicornis).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-081",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Under Article 254 of the Constitution of India, if an irreconcilable conflict arises between a parliamentary Union law and a State law on a Concurrent List subject, which principle applies?",
+    "options": [
+      "The Union law prevails and the State law becomes void to the extent of the repugnancy.",
+      "The State law supersedes the Union law within that state's territory.",
+      "Both laws are struck down and referred to the Chief Minister.",
+      "The legislative matter is indefinitely suspended."
+    ],
+    "answer": 0,
+    "explanation": "Article 254 establishes parliamentary supremacy in Concurrent List subjects: the Central law prevails over the conflicting State law (unless the State law received Presidential assent).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-082",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Scientists and Inventions",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Who is the only scientist in history to be awarded two Nobel Prizes in two different scientific disciplines (Physics in 1903 and Chemistry in 1911)?",
+    "options": [
+      "Marie Curie",
+      "Lise Meitner",
+      "Irene Joliot-Curie",
+      "Dorothy Hodgkin"
+    ],
+    "answer": 0,
+    "explanation": "Marie Curie won the 1903 Nobel Prize in Physics (for radioactivity research with Pierre Curie and Henri Becquerel) and the 1911 Nobel Prize in Chemistry (for discovering radium and polonium).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-083",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "National Symbols",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The National Calendar of India, adopted on 22 March 1957, is based on the historic Saka Era with Chaitra as its first month.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. The Indian National Calendar uses the Saka Era (beginning 78 CE), starts on 1 Chaitra (matching 22 March in normal years, 21 March in leap years), and has 365 days.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-084",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Mountains",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The Nilgiri Hills, which form the geographical junction where the Eastern Ghats and Western Ghats meet in southern India, are popularly termed the 'Blue Mountains'.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. Nilgiri means 'Blue Mountains' in Sanskrit and local Dravidian languages, named after the mass blue blossoming of the Kurinji flower (Strobilanthes kunthiana) every 12 years.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-085",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Rivers",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Flowing over 6,650 kilometres northward through northeastern Africa into the Mediterranean Sea, the longest river on Earth is the __________.",
+    "answer": "Nile",
+    "acceptedAnswers": [
+      "Nile",
+      "River Nile",
+      "The Nile"
+    ],
+    "explanation": "The Nile, fed by the White Nile (originating near Lake Victoria) and the Blue Nile (from Lake Tana in Ethiopia), is the world's longest river.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-086",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Scientists and Inventions",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The universal law of gravitation and the three foundational laws of classical mechanics were published in 1687 in the 'Principia Mathematica' by Sir __________.",
+    "answer": "Isaac Newton",
+    "acceptedAnswers": [
+      "Isaac Newton",
+      "Newton",
+      "Sir Isaac Newton"
+    ],
+    "explanation": "Sir Isaac Newton formulated the laws of motion and universal gravitational attraction F = G(m1*m2)/r^2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-087",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Freedom Struggle",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "On 23 March 1931, revolutionary patriots Bhagat Singh, Sukhdev Thapar, and __________ were executed by hanging in Lahore Central Jail for their role in the Lahore Conspiracy Case.",
+    "answer": "Shivaram Rajguru",
+    "acceptedAnswers": [
+      "Shivaram Rajguru",
+      "Rajguru",
+      "Hari Shivaram Rajguru"
+    ],
+    "explanation": "Bhagat Singh, Rajguru, and Sukhdev were executed on 23 March 1931, observed across India as Shaheed Diwas (Martyrs' Day).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-088",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "States and Capitals",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each Indian state on the left with its notable geographical identity or title on the right:",
+    "pairs": [
+      [
+        "Kerala",
+        "Known as 'God's Own Country' and famous for backwaters"
+      ],
+      [
+        "Punjab",
+        "Known as the 'Land of Five Rivers' (Sutlej, Beas, Ravi, Chenab, Jhelum)"
+      ],
+      [
+        "Sikkim",
+        "Designated as the first 100% fully organic farming state of India"
+      ],
+      [
+        "Gujarat",
+        "Possesses the longest mainland sea coastline among Indian states (~1,600 km)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Kerala is famed for backwaters; Punjab represents the historic five rivers; Sikkim became 100% organic in 2016; Gujarat has India's longest mainland coastline.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-089",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Sports Basics",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "In standard association football (soccer), how many total minutes of regular regulation play are scheduled in a full match (consisting of two equal 45-minute halves, excluding stoppage time)?",
+    "answer": 90,
+    "tolerance": 0,
+    "explanation": "A regulation football match lasts 90 minutes (two 45-minute halves separated by a 15-minute half-time interval).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-090",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "What is the maximum permissible total membership of the Rajya Sabha (Council of States) authorized by Article 80 of the Constitution of India?",
+    "answer": 250,
+    "tolerance": 0,
+    "explanation": "Article 80 caps Rajya Sabha membership at 250 (up to 238 representatives from States and Union Territories + 12 members nominated by the President for literature, science, art, and social service).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-091",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Sports Basics",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "The diagram illustrates the standard layout of a cricket pitch. What is the official regulation distance between the two sets of wickets, indicated by the span [L]?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#15803d' rx='8'/><rect x='40' y='60' width='240' height='80' fill='#d4a373' stroke='#fefae0' stroke-width='2'/><line x1='70' y1='60' x2='70' y2='140' stroke='#ffffff' stroke-width='3'/><line x1='60' y1='80' x2='60' y2='120' stroke='#78350f' stroke-width='4'/><line x1='250' y1='60' x2='250' y2='140' stroke='#ffffff' stroke-width='3'/><line x1='260' y1='80' x2='260' y2='120' stroke='#78350f' stroke-width='4'/><line x1='60' y1='165' x2='260' y2='165' stroke='#facc15' stroke-width='2'/><polyline points='66,161 60,165 66,169' fill='none' stroke='#facc15' stroke-width='2'/><polyline points='254,161 260,165 254,169' fill='none' stroke='#facc15' stroke-width='2'/><rect x='125' y='152' width='70' height='24' rx='4' fill='#0f172a'/><text x='132' y='168' fill='#ffffff' font-family='sans-serif' font-size='12' font-weight='bold'>Pitch [L] = ?</text><text x='45' y='45' fill='#ffffff' font-family='sans-serif' font-size='11'>Bowling Crease</text><text x='200' y='45' fill='#ffffff' font-family='sans-serif' font-size='11'>Popping Crease</text></svg>"
+    },
+    "options": [
+      "22 yards (20.12 metres)",
+      "20 yards (18.28 metres)",
+      "24 yards (21.94 metres)",
+      "18 yards (16.45 metres)"
+    ],
+    "answer": 0,
+    "explanation": "Law 6 of the Laws of Cricket establishes that the pitch is a rectangular area of the ground 22 yards (20.12 m / 66 feet) in length between the two bowling creases.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-092",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "World Geography Basics",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The globe diagram marks key parallels of latitude. Which parallel corresponds to line [T], situated at approximately 23.5° South of the Equator?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#0f172a' rx='8'/><circle cx='130' cy='100' r='80' fill='#0284c7' stroke='#38bdf8' stroke-width='2'/><line x1='50' y1='100' x2='210' y2='100' stroke='#f8fafc' stroke-width='2'/><text x='218' y='104' fill='#f8fafc' font-family='sans-serif' font-size='10'>Equator (0°)</text><line x1='63' y1='68' x2='197' y2='68' stroke='#fde047' stroke-width='1.5' stroke-dasharray='4,3'/><text x='218' y='72' fill='#fde047' font-family='sans-serif' font-size='10'>Tropic of Cancer (23.5° N)</text><line x1='63' y1='132' x2='197' y2='132' stroke='#f87171' stroke-width='2.5'/><rect x='215' y='122' width='98' height='20' rx='4' fill='#ef4444'/><text x='220' y='136' fill='#ffffff' font-family='sans-serif' font-size='10' font-weight='bold'>[T] 23.5° S = ?</text><circle cx='130' cy='20' r='3' fill='#ffffff'/><text x='112' y='16' fill='#94a3b8' font-family='sans-serif' font-size='10'>North Pole</text></svg>"
+    },
+    "options": [
+      "Tropic of Capricorn",
+      "Tropic of Cancer",
+      "Antarctic Circle",
+      "Prime Meridian"
+    ],
+    "answer": 0,
+    "explanation": "The Tropic of Capricorn is the southern parallel of latitude at ~23°26′ S where the sun can be directly overhead at noon during the December solstice.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-093",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Environment",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What international global observance, celebrated worldwide on April 22 since its founding in 1970, mobilizes public action for ecological protection and conservation?",
+    "sampleAnswer": "Earth Day",
+    "acceptedAnswers": [
+      "Earth Day",
+      "World Earth Day",
+      "International Earth Day"
+    ],
+    "keywords": [
+      "Earth",
+      "Day"
+    ],
+    "explanation": "Earth Day was first organized on 22 April 1970 by Senator Gaylord Nelson and Denis Hayes, engaging 20 million Americans and launching the modern environmental movement.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-094",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Books and Authors",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Which historic volume, comprising 196 letters on world civilizations written from British prison to his young daughter Indira Gandhi, was penned by Jawaharlal Nehru?",
+    "sampleAnswer": "Glimpses of World History",
+    "acceptedAnswers": [
+      "Glimpses of World History",
+      "Glimpses of world history"
+    ],
+    "keywords": [
+      "Glimpses",
+      "World",
+      "History"
+    ],
+    "explanation": "Jawaharlal Nehru wrote 'Glimpses of World History' between 1930 and 1933 during his imprisonment in various British jails, presenting a panoramic global view of human civilizations.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-095",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Freedom Struggle",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Which prominent Indian freedom fighter and nationalist leader proclaimed the immortal slogan 'Swaraj is my birthright and I shall have it'?",
+    "sampleAnswer": "Bal Gangadhar Tilak",
+    "acceptedAnswers": [
+      "Bal Gangadhar Tilak",
+      "Lokmanya Tilak",
+      "Tilak",
+      "Lokmanya Bal Gangadhar Tilak"
+    ],
+    "keywords": [
+      "Tilak",
+      "Bal",
+      "Gangadhar"
+    ],
+    "explanation": "Lokmanya Bal Gangadhar Tilak declared 'Swaraj is my birthright and I shall have it' during the Home Rule movement, inspiring millions across India.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-096",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Environment",
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "Consider the following statements regarding climate change mitigation:\nAssertion (A): Massive afforestation and preservation of existing forests are vital strategies for slowing global warming.\nReason (R): Photosynthetic vegetation acts as a biological carbon sink, sequestering atmospheric carbon dioxide (CO2) into woody plant tissues and soil organic matter.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the accurate scientific rationale for (A).",
+      "Both (A) and (R) are true, but (R) does not explain (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Trees take in carbon dioxide during photosynthesis and lock it into cellulose and lignin, making forest biomes the principal terrestrial carbon sinks on Earth.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-097",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Analyze the constitutional tenure of the upper chamber of the Indian Parliament:\nAssertion (A): The Rajya Sabha (Council of States) is a permanent house and is never subject to total dissolution.\nReason (R): Under Article 83(1), approximately one-third of Rajya Sabha members retire every second year upon completing six-year terms, providing continuous legislative succession.",
+    "options": [
+      "Both (A) and (R) are true, and (R) correctly explains why the Rajya Sabha never dissolves.",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Unlike the Lok Sabha which has a 5-year maximum term, the Rajya Sabha is a permanent continuing body with staggered biennial retirements.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-098",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "World Geography Basics",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following sovereign island nations are geographically located in the Indian Ocean? (Select all 3 that apply)",
+    "options": [
+      "Sri Lanka (separated from India by Palk Strait)",
+      "Maldives (archipelago southwest of Sri Lanka)",
+      "Madagascar (large island nation off the East African coast)",
+      "Iceland (island nation in the North Atlantic)",
+      "New Zealand (island nation in the southwestern Pacific)",
+      "Cuba (island nation in the Caribbean Sea)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Sri Lanka, Maldives, and Madagascar are island nations in the Indian Ocean. Iceland is in the Atlantic, New Zealand in the Pacific, and Cuba in the Caribbean.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-099",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Famous Scientists and Inventions",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following breakthroughs and theoretical formulations were authored by theoretical physicist Albert Einstein? (Select all 3 that apply)",
+    "options": [
+      "Explanation of the Photoelectric Effect based on light quanta (1905)",
+      "Special Theory of Relativity establishing the mass-energy equivalence E = mc²",
+      "General Theory of Relativity formulating gravitation as spacetime curvature (1915)",
+      "Invention of the alternating current induction motor",
+      "Formulation of the three laws of planetary elliptical orbits",
+      "Discovery of the bacterial cause of tuberculosis and cholera"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Einstein proposed the photoelectric effect (1921 Nobel Prize), special relativity (E=mc²), and general relativity. AC motor was Tesla, planetary laws Kepler, and bacteriology Koch.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-gk-100",
+    "class": 9,
+    "subject": "gk",
+    "chapter": "Indian Constitution Basics",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the standard sequential stages through which an ordinary legislative bill passes to become an Act of Parliament in India from first to last:",
+    "orderedItems": [
+      "Introduction and First Reading in either House of Parliament",
+      "Second Reading comprising general discussion, committee report, and clause-by-clause voting",
+      "Third Reading with formal voting on the passage of the bill as a whole",
+      "Transmission to the other House for consideration and concurrence",
+      "Presentation to the President of India for formal Presidential Assent"
+    ],
+    "answer": "ordered",
+    "explanation": "Legislative process: First Reading (Introduction) -> Second Reading (Clause scrutiny) -> Third Reading (Passage) -> Second House -> Presidential Assent.",
+    "marks": 2,
+    "volatile": false
+  }
+]

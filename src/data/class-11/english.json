@@ -1,0 +1,1972 @@
+[
+  {
+    "id": "c11-english-001",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Portrait of a Lady",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Who is the author of the poignant biographical chapter 'The Portrait of a Lady'?",
+    "options": [
+      "Khushwant Singh",
+      "R.K. Narayan",
+      "Mulk Raj Anand",
+      "Ruskin Bond"
+    ],
+    "answer": 0,
+    "explanation": "'The Portrait of a Lady' is an autobiographical pen-portrait written by renowned Indian author and journalist Khushwant Singh, depicting his deep bond with his grandmother.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-002",
+    "class": 11,
+    "subject": "english",
+    "chapter": "We're Not Afraid to Die... if We Can All Be Together",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What was the name of the professionally built 23-metre, 30-ton wooden-hulled vessel in which Gordon Cook and his family set sail to duplicate Captain James Cook's round-the-world voyage?",
+    "options": [
+      "Wavewalker",
+      "Seafarer",
+      "Sea Hawk",
+      "Explorer"
+    ],
+    "answer": 0,
+    "explanation": "Their boat, 'Wavewalker', was a 23-metre, 30-ton wooden-hulled beauty that had been professionally built and tested for months in the roughest seas before embarking on the voyage.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-003",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Discovering Tut: the Saga Continues",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "When an anatomy professor X-rayed King Tutankhamun's mummified body in 1968, what startling revelation came to light?",
+    "options": [
+      "Beneath the resin that caked his chest, his breastbone and front ribs were missing",
+      "His skull was fractured at the temple by a heavy bronze weapon",
+      "He had suffered from advanced bone cancer in his spine",
+      "His heart was replaced by a solid gold scarab amulet"
+    ],
+    "answer": 0,
+    "explanation": "In 1968, more than 40 years after Howard Carter's discovery, an anatomy professor X-rayed the mummy and revealed that beneath the hardened resin that caked his chest, Tut's breastbone and front ribs were missing.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-004",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Laburnum Top",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Ted Hughes's poem 'The Laburnum Top', what metaphor does the poet use to describe the sudden burst of chitterings and tremor of wings when the mother goldfinch enters the thickness of the foliage?",
+    "options": [
+      "\"It is the engine of her family\"",
+      "\"A river of golden feathers\"",
+      "\"A thunderstorm of music\"",
+      "\"The burning bush of autumn\""
+    ],
+    "answer": 0,
+    "explanation": "Ted Hughes writes, 'It is the engine of her family. She stokes it full, then flirts out to a branch-end,' using the metaphor of an engine to represent the bird family brought to energetic life by food and parental presence.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-005",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Voice of the Rain",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Walt Whitman's poem 'The Voice of the Rain', what answer does the falling shower give when the poet asks, 'And who art thou?'",
+    "options": [
+      "\"I am the Poem of Earth\"",
+      "\"I am the Tears of Heaven\"",
+      "\"I am the Voice of the Sea\"",
+      "\"I am the Spirit of Nature\""
+    ],
+    "answer": 0,
+    "explanation": "The rain mysteriously speaks and replies: 'I am the Poem of Earth, said the voice of the rain, / Eternal I rise impalpable out of the land and the bottomless sea.'",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-006",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Childhood",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Markus Natten's poem 'Childhood', what psychological realization marks the transition from childish innocence to independent individuality?",
+    "options": [
+      "Realizing that his mind was entirely his own, capable of producing thoughts not borrowed from others",
+      "Realizing that adults were always hypocritical and preached love they never practiced",
+      "Discovering that Hell and Heaven could not be found in Geography textbooks",
+      "Accepting that childhood is hidden in an infant's face and never returns"
+    ],
+    "answer": 0,
+    "explanation": "The poet reflects on individuality: 'Was it when I found my mind was really mine, / To use whichever way I choose, / Producing thoughts that were not those of other people / But my own, and mine alone / Was that the day!'",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-007",
+    "class": 11,
+    "subject": "english",
+    "chapter": "A Photograph",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Shirley Toulson's poem 'A Photograph', which poetic device is prominently employed in the line 'And the sea, which appears to have changed less, / Washed their terribly transient feet'?",
+    "options": [
+      "Transferred epithet and alliteration",
+      "Oxymoron and hyperbole",
+      "Personification and simile",
+      "Metonymy and onomatopoeia"
+    ],
+    "answer": 0,
+    "explanation": "'Terribly transient' uses alliteration (repetition of 't'). Moreover, 'transient' is a transferred epithet: human life and youth are transient and brief, while the sea remains immortal and unchanging.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-008",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Portrait of a Lady",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The author's grandmother was delighted when Khushwant Singh started receiving western education and music lessons at the city English school.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "The grandmother was deeply distressed. She did not believe in the things taught at the English school (science, law of gravity) and was disturbed that there was no teaching about God and scriptures. To her, music had lewd associations suitable only for harlots and beggars.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-009",
+    "class": 11,
+    "subject": "english",
+    "chapter": "We're Not Afraid to Die... if We Can All Be Together",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "When the author went to comfort the children after the devastating wave hit the vessel, six-year-old Jonathan bravely stated, 'We aren't afraid of dying if we can all be together.'",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Little Jonathan displayed exemplary courage in the face of imminent catastrophe, uttering the immortal words that gave the narrator newfound determination to fight the sea.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-010",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Voice of the Rain",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In 'The Voice of the Rain', Walt Whitman draws a parallel between the cyclical journey of the rain and the creation of a poem or song.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "In the bracketed concluding lines, Whitman explicitly compares rain to a song: issuing from its birthplace, wandering fulfilled or unfulfilled, and duly returning with love to its maker.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-011",
+    "class": 11,
+    "subject": "english",
+    "chapter": "A Photograph",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In Shirley Toulson's poem 'A Photograph', the poet's mother was around _______ years old when the beach snapshot was taken.",
+    "answer": "twelve",
+    "acceptedAnswers": [
+      "twelve",
+      "12",
+      "twelve years old",
+      "12 years old"
+    ],
+    "explanation": "The poet writes: 'The big girl, some twelve years or so. / All three stood still to smile through their hair / At the uncle with the camera.'",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-012",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Laburnum Top",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In Ted Hughes's poem, the laburnum tree stands silent and still in the yellow September sunlight, with its leaves yellowing and all its seeds _______.",
+    "answer": "fallen",
+    "acceptedAnswers": [
+      "fallen",
+      "all fallen"
+    ],
+    "explanation": "The poem begins: 'The Laburnum top is silent, quite still / In the afternoon yellow September sunlight, / A few leaves yellowing, all its seeds fallen.'",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-013",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Discovering Tut: the Saga Continues",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "Tutankhamun's rock-cut tomb in the Valley of the Kings was discovered after years of futile searching by the British archaeologist Howard Carter in the year _______.",
+    "answer": "1922",
+    "acceptedAnswers": [
+      "1922"
+    ],
+    "explanation": "Howard Carter discovered Tutankhamun's nearly intact tomb in 1922, unearthing the fabulous golden treasures that captivated the world.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-014",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Portrait of a Lady",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each literary work from Hornbill with its respective author or poet:",
+    "pairs": [
+      [
+        "The Portrait of a Lady",
+        "Khushwant Singh"
+      ],
+      [
+        "A Photograph",
+        "Shirley Toulson"
+      ],
+      [
+        "The Laburnum Top",
+        "Ted Hughes"
+      ],
+      [
+        "The Voice of the Rain",
+        "Walt Whitman"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Khushwant Singh wrote 'The Portrait of a Lady'; Shirley Toulson wrote 'A Photograph'; Ted Hughes composed 'The Laburnum Top'; Walt Whitman authored 'The Voice of the Rain'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-015",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Discovering Tut: the Saga Continues",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each character or concept with its contextual significance in the text:",
+    "pairs": [
+      [
+        "Akhenaten",
+        "Promoted the worship of Aten (the sun disc) and moved royal capital to Amarna"
+      ],
+      [
+        "Zahi Hawass",
+        "Secretary General of Egypt's Supreme Council of Antiquities who oversaw Tut's CT scan"
+      ],
+      [
+        "Larry Vigil and Herb Seigler",
+        "American and Swiss crewmen taken aboard Wavewalker to help tackle the Southern Ocean"
+      ],
+      [
+        "Markus Natten",
+        "Reflected on the loss of innocent childhood and emergence of personal individuality"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Akhenaten instituted radical religious reform; Zahi Hawass led modern CT evaluation of Tut; Larry and Herb were crewmen aboard Wavewalker; Markus Natten wrote 'Childhood'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-016",
+    "class": 11,
+    "subject": "english",
+    "chapter": "A Photograph",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many young girls are captured paddling together in the sea beach snapshot described in Shirley Toulson's poem 'A Photograph'?",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "There are 3 girls in the photograph: the poet's mother (the big girl, around twelve) and her two younger cousins, Betty and Dolly, each holding one of her hands.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-017",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Voice of the Rain",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram illustrates the perpetual hydrologic cycle depicted in 'The Voice of the Rain'. Which labeled phase represents the downward descent of rain to lave (bathe) the droughts, atomies, and dust layers of the globe?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 250' width='100%' height='250'><rect width='380' height='250' fill='#0f172a' rx='8'/><text x='190' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Cycle of the Poem of Earth</text><rect x='30' y='180' width='140' height='45' rx='6' fill='#0369a1'/><text x='100' y='207' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>Land &amp; Bottomless Sea</text><path d='M 100 180 L 100 90' stroke='#38bdf8' stroke-width='3' stroke-dasharray='4'/><polygon points='100,85 95,95 105,95' fill='#38bdf8'/><text x='55' y='135' fill='#38bdf8' font-size='10'>Impalpable Rise</text><ellipse cx='260' cy='80' rx='60' ry='30' fill='#475569'/><text x='260' y='85' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>Clouds (Heaven)</text><path d='M 260 110 L 260 180' stroke='#f59e0b' stroke-width='3'/><polygon points='260,185 255,175 265,175' fill='#f59e0b'/><text x='310' y='145' fill='#f59e0b' font-size='11' font-weight='bold'>Phase D (Descent)</text><rect x='200' y='185' width='140' height='45' rx='6' fill='#065f46'/><text x='270' y='205' fill='#a7f3d0' font-size='10' text-anchor='middle'>Germinating Seeds</text><text x='270' y='218' fill='#ffffff' font-size='10' text-anchor='middle'>&amp; Drought Cleansing</text></svg>"
+    },
+    "options": [
+      "Phase D (Descent to lave the droughts)",
+      "Impalpable vapor rise from the sea",
+      "Vaguely formed clouds in heaven",
+      "Perpetual oceanic evaporation"
+    ],
+    "answer": 0,
+    "explanation": "Phase D represents the descent of the rain: 'I descend to lave the droughts, atomies, dust-layers of the globe, / And all that in them without me were seeds only, latent, unborn.'",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-018",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Portrait of a Lady",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "How did the hundreds of sparrows pay their silent homage to the author's grandmother when she passed away?",
+    "sampleAnswer": "The sparrows sat scattered quietly on the floor around her shrouded body without chirping, and completely ignored the bread crumbs thrown to them before flying away silently.",
+    "acceptedAnswers": [
+      "sparrows sat silently around her body without chirping and ignored the bread crumbs",
+      "they gathered in silence around her corpse without making any chirruping and flew away quietly",
+      "they sat quietly without chirping and did not eat any bread crumbs"
+    ],
+    "keywords": [
+      "sparrows",
+      "silently",
+      "without chirping",
+      "bread crumbs",
+      "flew away"
+    ],
+    "explanation": "Thousands of sparrows gathered quietly around her corpse in mourning. They did not chirrup and refused to touch the bread crumbs thrown by the author's mother, flying away in absolute silence once her bier was carried off.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-019",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Laburnum Top",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "How does the laburnum tree appear before the arrival of the goldfinch, and what happens to it after the bird flies away into the infinite?",
+    "sampleAnswer": "Before the goldfinch arrives, the tree is silent and still; after the bird launches away into the sky, the tree subsides back into complete emptiness and silence.",
+    "acceptedAnswers": [
+      "before the goldfinch arrives it is quiet and still, and after she flies away it subsides to empty silence",
+      "the tree starts silent and still and ends silent and empty again"
+    ],
+    "keywords": [
+      "silent",
+      "still",
+      "empty",
+      "emptiness",
+      "subsides"
+    ],
+    "explanation": "At the beginning, the laburnum top is silent and still. The goldfinch brings a sudden burst of life, tremors, and song. Once she departs into the infinite, 'the laburnum subsides to empty.'",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-020",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Discovering Tut: the Saga Continues",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Why was Howard Carter's handling of King Tutankhamun's mummy heavily criticized by later scientists and historians?",
+    "sampleAnswer": "Carter used chisels and hammers to hack away the hardened ritual resins, severing major joints and separating the skull to remove the golden funerary ornaments, severely damaging the mummy.",
+    "acceptedAnswers": [
+      "he damaged the mummy by chiseling away the hardened resins and severing almost every major joint to remove the gold",
+      "Carter hacked away the body with chisels and cut off joints to steal or preserve gold ornaments, ruining the mummy"
+    ],
+    "keywords": [
+      "chiseled",
+      "resins",
+      "severed",
+      "joints",
+      "damaged",
+      "mummy",
+      "gold"
+    ],
+    "explanation": "Because ritual resins had cemented Tut's body to the bottom of the solid gold coffin, Carter tried unsuccessfully to melt it under the blistering sun, then ordered his men to chisel away the resins and sever nearly every major joint to take away the gold.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-021",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Portrait of a Lady",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): When the author went to university, the common link of friendship between him and his grandmother was permanently snapped.\nReason (R): The author was allocated a separate room of his own, and the grandmother accepted her loneliness and seclusion with quiet resignation.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "When Khushwant Singh entered university, he was given a room of his own, ending their shared room. The grandmother rarely talked to anyone and spent her time spinning the wheel, reciting prayers, and feeding sparrows.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-022",
+    "class": 11,
+    "subject": "english",
+    "chapter": "We're Not Afraid to Die... if We Can All Be Together",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): The battered voyagers described the French scientific research outpost of Île Amsterdam as the 'most beautiful island in the world'.\nReason (R): Though it was merely a barren volcanic rock with sparse vegetation, it offered solid dry ground and salvation from certain death in the stormy Southern Indian Ocean.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "Objectively, Île Amsterdam was just a bleak piece of volcanic rock with little vegetation. However, to the exhausted, traumatized crew of the leaking Wavewalker, it was the most beautiful island on Earth because it represented life, safety, and survival.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-023",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Portrait of a Lady",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following activities formed the core of the grandmother's daily routine after moving to the city? (Select all that apply)",
+    "options": [
+      "Spinning thread on her wheel (charkha) from sunrise to sunset",
+      "Reciting silent prayers while telling the beads of her rosary",
+      "Feeding hundreds of sparrows in the verandah in the afternoon",
+      "Accompanying the author to his English school and waiting inside the temple"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "In the city, she rarely left her spinning wheel, constantly whispered prayers telling beads of her rosary, and fed sparrows in the afternoon. Accompanying the author to school happened in the village, not in the city.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-024",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Discovering Tut: the Saga Continues",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following priceless royal artifacts and provisions were discovered buried alongside King Tutankhamun in his tomb? (Select all that apply)",
+    "options": [
+      "Collars, necklaces, bracelets, and rings of pure gold",
+      "Cases of food, bread, and wine for the afterlife",
+      "Board games and bronze razors",
+      "Iron machinery and steam engines"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The tomb contained golden funerary ornaments, inlaid amulets, board games, bronze razors, linen undergarments, and cases of food and wine to guarantee sustenance in the afterlife. Iron machinery is from the industrial era.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-025",
+    "class": 11,
+    "subject": "english",
+    "chapter": "We're Not Afraid to Die... if We Can All Be Together",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the dramatic events of the sea voyage in 'We're Not Afraid to Die...' in chronological order:",
+    "orderedItems": [
+      "Setting sail from Plymouth, England, heading south down the coast of Africa",
+      "Encountering gigantic waves and alarming weather in the Southern Indian Ocean on January 2",
+      "A colossal wave smashes into Wavewalker, throwing the captain overboard and injuring the crew",
+      "Jonathan gives courageous encouragement: 'We aren't afraid of dying if we can all be together'",
+      "Sighting and safely anchoring at the tiny French scientific outpost of Île Amsterdam"
+    ],
+    "answer": "ordered",
+    "explanation": "Chronological sequence: Voyage starts from Plymouth → Monstrous waves on Jan 2 → Giant wave breaks the ship and injures crew → Jonathan's brave words inspire father → Safe arrival at Île Amsterdam.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-026",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Summer of the Beautiful White Horse",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "To which impoverished Armenian community did Aram and Mourad belong, famed for centuries for their uncompromising integrity and honesty?",
+    "options": [
+      "The Garoghlanian tribe",
+      "The Assyrian clan",
+      "The Bedouin tribe",
+      "The Caucasian clan"
+    ],
+    "answer": 0,
+    "explanation": "Aram and Mourad belonged to the Garoghlanian tribe, whose hallmark for eleven centuries had been an unshakeable adherence to honesty and truth, even amidst extreme poverty.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-027",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Address",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What exact house number and street in Holland had the narrator's mother instructed her to remember to reclaim their stored family heirlooms after the war?",
+    "options": [
+      "Number 46, Marconi Street",
+      "Number 24, Baker Street",
+      "Number 12, Rembrandt Avenue",
+      "Number 50, Prinsengracht"
+    ],
+    "answer": 0,
+    "explanation": "The narrator's mother had given her the address: 'Number 46, Marconi Street', belonging to Mrs. Dorling, who had taken away their antique silver, crockery, and furnishings during wartime.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-028",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Mother's Day",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In J.B. Priestley's play 'Mother's Day', through what mysterious occult technique do Mrs. Fitzgerald and Mrs. Pearson exchange bodies and personalities?",
+    "options": [
+      "They hold each other's hands, gaze into each other's eyes, and mutter an Eastern incantation",
+      "They drink a magical potion brewed from fortune-telling tea leaves",
+      "They hypnotize one another using a crystal pendant",
+      "They invoke a psychological trance through tarot cards"
+    ],
+    "answer": 0,
+    "explanation": "Mrs. Fitzgerald, who had lived in the East for twelve years, holds Mrs. Pearson's hands and mutters the incantation: 'Jhtst... Arshtatta... dum...'. After a brief trance, their personalities exchange bodies.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-029",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Birth",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In A.J. Cronin's excerpt 'Birth', what clinical condition afflicted Susan Morgan's newborn baby, who lay limp, white, and seemingly stillborn beneath the bed?",
+    "options": [
+      "Asphyxia pallida (suffocation and oxygen deprivation)",
+      "Congenital heart defect",
+      "Severe hypothermia",
+      "Neonatal jaundice"
+    ],
+    "answer": 0,
+    "explanation": "The child was born white and limp, with a collapsed cord. Dr. Andrew Manson instantly recognized the condition as asphyxia pallida—severe lack of oxygen resulting in pale, limp unconsciousness.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-030",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Tale of Melon City",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Vikram Seth's biting political satire 'The Tale of Melon City', who is ultimately crowned as the new ruler of the state according to ancient custom?",
+    "options": [
+      "A melon",
+      "The architect",
+      "The oldest wise man",
+      "The chief guard"
+    ],
+    "answer": 0,
+    "explanation": "According to custom, the next person to pass the City Gate chose the ruler. The passer-by was an idiot who loved melons and declared 'A melon'. A melon was solemnly crowned and sat upon the throne.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-031",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Ailing Planet: the Green Movement's Role",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Nani Palkhivala's landmark article 'The Ailing Planet', which zoo displays a mirror inside a cage bearing the notice: 'The world's most dangerous animal'?",
+    "options": [
+      "The zoo at Lusaka, Zambia",
+      "The London Zoo, England",
+      "The Bronx Zoo, New York",
+      "The Nairobi Game Reserve, Kenya"
+    ],
+    "answer": 0,
+    "explanation": "Palkhivala highlights: 'At the zoo in Lusaka, Zambia, there is a cage where the notice reads, \"The world's most dangerous animal\". Inside the cage there is no animal but a mirror where you see yourself.'",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-032",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Browning Version",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Terence Rattigan's play 'The Browning Version', what disrespectful nickname do schoolboys give behind the back of the classical master Mr. Crocker-Harris?",
+    "options": [
+      "The Crock",
+      "Old Timber",
+      "The Sphinx",
+      "Iron Mask"
+    ],
+    "answer": 0,
+    "explanation": "Taplow addresses him as 'The Crock' when conversing with science master Frank, before instantly catching himself and feeling guilty for the disrespect.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-033",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Silk Road",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Nick Middleton undertook his arduous journey along the Silk Road to Mount Kailash in order to complete the sacred pilgrimage known as 'kora'.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "The author traveled to Mount Kailash to perform the sacred circumambulation (kora) as an academic travel experience and pilgrimage.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-034",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Father to Son",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In Elizabeth Jennings's poem 'Father to Son', the father and son share common interests and maintain a warm, communicative relationship.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "The poem laments an agonizing generational divide: though they have lived under the same roof for years, they speak like strangers and a sorrowful silence surrounds them.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-035",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Summer of the Beautiful White Horse",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In the Garoghlanian family, Mourad was considered the natural inheritor of the crazy streak, previously embodied by Uncle _______.",
+    "answer": "Khosrove",
+    "acceptedAnswers": [
+      "Khosrove",
+      "khosrove",
+      "Uncle Khosrove"
+    ],
+    "explanation": "Uncle Khosrove was an enormous, furious man with a fierce mustache who stopped all talk with his bellow: 'It is no harm; pay no attention to it!' Mourad inherited his eccentric spirit.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-036",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Browning Version",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Sixteen-year-old Taplow was detained for extra work on the final day of term because he had missed one class earlier that week due to _______.",
+    "answer": "illness",
+    "acceptedAnswers": [
+      "illness",
+      "being ill",
+      "sickness",
+      "being sick"
+    ],
+    "explanation": "Taplow missed a day the previous week because he was ill, so Mr. Crocker-Harris ordered him to do extra work on the last afternoon of the term.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-037",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Ailing Planet: the Green Movement's Role",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "According to Mr. Lester R. Brown in 'The Global Economic Prospect', the four principal biological systems that support human existence are fisheries, forests, grasslands, and _______.",
+    "answer": "croplands",
+    "acceptedAnswers": [
+      "croplands",
+      "cropland"
+    ],
+    "explanation": "Lester R. Brown pointed out that the earth's four principal biological systems are fisheries, forests, grasslands, and croplands, providing virtually all human food and industrial raw materials.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-038",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Address",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The cold, calculating acquaintance who exploited wartime persecution to take away all the antique belongings of the narrator's mother was Mrs. _______.",
+    "answer": "Dorling",
+    "acceptedAnswers": [
+      "Dorling",
+      "dorling"
+    ],
+    "explanation": "Mrs. Dorling, living at Number 46, Marconi Street, systematically carried away their silver, cutlery, antique plates, and tablecloths on the pretext of keeping them safe.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-039",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Summer of the Beautiful White Horse",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each story from Snapshots with its respective author:",
+    "pairs": [
+      [
+        "The Summer of the Beautiful White Horse",
+        "William Saroyan"
+      ],
+      [
+        "The Address",
+        "Marga Minco"
+      ],
+      [
+        "Mother's Day",
+        "J.B. Priestley"
+      ],
+      [
+        "Birth",
+        "A.J. Cronin"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "William Saroyan wrote 'The Summer of the Beautiful White Horse'; Marga Minco wrote 'The Address'; J.B. Priestley authored 'Mother's Day'; A.J. Cronin wrote 'Birth'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-040",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Mother's Day",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each memorable quote with its character or thematic context:",
+    "pairs": [
+      [
+        "\"It is no harm; pay no attention to it!\"",
+        "Uncle Khosrove roaring to dismiss any catastrophic news"
+      ],
+      [
+        "\"I have a way with a horse.\"",
+        "Mourad asserting his instinctive mastery over animals"
+      ],
+      [
+        "\"Husbands, sons, daughters should be taking care of wives and mothers\"",
+        "Mrs. Fitzgerald counseling the submissive Mrs. Pearson"
+      ],
+      [
+        "\"I have done something; oh, God! I've done something real at last.\"",
+        "Dr. Andrew Manson after resuscitating the stillborn baby"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Uncle Khosrove roars his catchphrase; Mourad speaks of his animal rapport; Mrs. Fitzgerald champions maternal respect; Andrew Manson feels professional triumph.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-041",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Ailing Planet: the Green Movement's Role",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The conceptual diagram depicts the paradigm shift from a mechanistic view to a holistic ecological view of planet Earth. Which statement summarizes this vision advocated by the Green Movement?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 240' width='100%' height='240'><rect width='380' height='240' fill='#0f172a' rx='8'/><text x='190' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Paradigm Shift: The Ailing Planet</text><rect x='30' y='60' width='140' height='130' rx='6' fill='#334155'/><text x='100' y='85' fill='#94a3b8' font-size='11' text-anchor='middle' font-weight='bold'>Old Mechanistic View</text><text x='100' y='115' fill='#cbd5e1' font-size='10' text-anchor='middle'>Earth as raw resource</text><text x='100' y='135' fill='#cbd5e1' font-size='10' text-anchor='middle'>Limitless exploitation</text><text x='100' y='155' fill='#f87171' font-size='10' text-anchor='middle'>Depletion of systems</text><line x1='180' y1='125' x2='200' y2='125' stroke='#38bdf8' stroke-width='3'/><polygon points='205,125 197,120 197,130' fill='#38bdf8'/><rect x='210' y='60' width='140' height='130' rx='6' fill='#064e3b' stroke='#10b981' stroke-width='2'/><text x='280' y='85' fill='#34d399' font-size='11' text-anchor='middle' font-weight='bold'>New Ecological View</text><text x='280' y='115' fill='#ffffff' font-size='10' text-anchor='middle'>Earth as living organism</text><text x='280' y='135' fill='#ffffff' font-size='10' text-anchor='middle'>Metabolic vital signs</text><text x='280' y='155' fill='#a7f3d0' font-size='10' text-anchor='middle'>Sustainable stewardship</text><text x='190' y='220' fill='#fde047' font-size='11' text-anchor='middle'>Green Movement Vision</text></svg>"
+    },
+    "options": [
+      "The Earth is recognized as a living organism with its own metabolic needs and vital signs that must be preserved",
+      "The Earth is viewed purely as an inexhaustible industrial quarry for human consumption",
+      "Technological dominance will permanently eradicate environmental limits",
+      "Only mineral resources need conservation while biological systems regenerate freely"
+    ],
+    "answer": 0,
+    "explanation": "Palkhivala emphasizes that the Green Movement ushered in a holistic, ecological view seeing the Earth as a living entity—an enormous organism of which we are parts—having metabolic needs and vital processes that demand our ethical stewardship.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-042",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Tale of Melon City",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "The satirical illustration depicts the low triumphal arch that knocked off the king's crown. In Vikram Seth's poem, when the architect is brought to be hanged, how does he clever-mindedly turn the blame back onto the King?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 240' width='100%' height='240'><rect width='380' height='240' fill='#0f172a' rx='8'/><text x='190' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Satire of the Royal Arch</text><path d='M 110 200 L 110 90 Q 190 40 270 90 L 270 200' fill='none' stroke='#f59e0b' stroke-width='6'/><text x='190' y='115' fill='#ef4444' font-size='12' text-anchor='middle' font-weight='bold'>Arch Built Too Low!</text><circle cx='190' cy='150' r='16' fill='#38bdf8'/><polygon points='180,136 185,124 190,130 195,124 200,136' fill='#facc15'/><text x='190' y='185' fill='#38bdf8' font-size='11' text-anchor='middle'>King's Crown Knocked Off</text><line x1='190' y1='135' x2='190' y2='100' stroke='#ef4444' stroke-width='2' stroke-dasharray='3'/><text x='190' y='220' fill='#94a3b8' font-size='11' text-anchor='middle'>Cascade of Blame: King &rarr; Builders &rarr; Masons &rarr; Architect</text></svg>"
+    },
+    "options": [
+      "He points out that the King himself had made amendments to the original architectural plans",
+      "He argues that the stone masons used inferior mortar imported from abroad",
+      "He claims that the ground settled due to torrential subterranean rain",
+      "He insists that the King's royal horse was abnormally tall"
+    ],
+    "answer": 0,
+    "explanation": "The architect reminds the King: 'O King, you have forgotten one small thing: / You made certain amendments to the plans when I showed them to you!' This turns the blame directly on the monarch.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-043",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Summer of the Beautiful White Horse",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Why could nine-year-old Aram scarcely believe his eyes when Mourad invited him for a horse ride at dawn?",
+    "sampleAnswer": "Aram knew their entire Garoghlanian tribe was poverty-stricken and could not afford a horse, yet their legendary honesty meant Mourad could not have stolen it.",
+    "acceptedAnswers": [
+      "they were too poor to afford a horse and their family was too honest to steal",
+      "his family was extremely poor so Mourad could not have bought it, yet their tribe was famous for honesty",
+      "because they were dirt poor and could not buy a horse, and no Garoghlanian could be a thief"
+    ],
+    "keywords": [
+      "poor",
+      "poverty",
+      "horse",
+      "afford",
+      "stolen",
+      "honesty",
+      "Garoghlanian"
+    ],
+    "explanation": "The entire Garoghlanian tribe lived in comical poverty without money for basic food, so Mourad could not have purchased the horse. Yet the tribe's eleventh-century hallmark was pride in honesty, making theft unthinkable.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-044",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Birth",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "How did Dr. Andrew Manson miraculously revive Susan Morgan's stillborn baby in the mining hamlet of Blaenelly?",
+    "sampleAnswer": "He immersed the baby alternately into basins of boiling-hot and ice-cold water, rubbed its limp body vigorously with a rough towel, and applied rhythmic compressions to its chest until it gasped.",
+    "acceptedAnswers": [
+      "by plunging the baby alternately into hot and cold water basins, rubbing with a towel, and applying rhythmic chest compression",
+      "he used contrast baths of hot and cold water, towel massage, and artificial respiration to induce breathing"
+    ],
+    "keywords": [
+      "hot and cold water",
+      "basins",
+      "rubbed",
+      "towel",
+      "compression",
+      "chest",
+      "breathed"
+    ],
+    "explanation": "Dr. Manson ordered two basins of hot and cold water, plunging the asphyxiated infant alternately into both. He then rubbed the slippery white body vigorously with a rough towel, pressing and releasing the tiny chest until the child drew breath and cried.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-045",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Address",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Why did the narrator in 'The Address' decide to abandon all her mother's stored antique possessions and resolve to forget Number 46, Marconi Street?",
+    "sampleAnswer": "The familiar objects had lost their emotional value when severed from her mother's presence and displayed tasteless and cluttered in an alien, gloomy environment.",
+    "acceptedAnswers": [
+      "the objects had lost their charm and value because they were kept in strange, tasteless surroundings without their true owners",
+      "seeing her mother's possessions in Mrs. Dorling's ugly, cluttered room pained her, so she chose to let them go"
+    ],
+    "keywords": [
+      "lost their value",
+      "strange surroundings",
+      "tasteless",
+      "mother",
+      "memories",
+      "painful"
+    ],
+    "explanation": "The narrator realized that physical objects associated with loved ones lose their soul and sanctity when displayed in strange, tasteless, cluttered surroundings. Living in a small rented room, she had no space for them and chose to sever the painful memory.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-046",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Browning Version",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Taplow confesses to Frank that in spite of everything, he actually likes Mr. Crocker-Harris.\nReason (R): Mr. Crocker-Harris is completely unlike ordinary sadistic masters; he is shriveled inside like a nut, does not pretend, and has an aloof dignity that commands genuine respect.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "Taplow observes that Mr. Crocker-Harris is not a sadist who enjoys inflicting pain. Rather, he is entirely unemotional, hates being liked, and follows rules with absolute impartiality, earning Taplow's involuntary admiration.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-047",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Mother's Day",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which members of the Pearson household routinely treated Mrs. Annie Pearson like an unpaid servant before Mrs. Fitzgerald intervened? (Select all that apply)",
+    "options": [
+      "George Pearson (her husband)",
+      "Doris Pearson (her daughter)",
+      "Cyril Pearson (her son)",
+      "Mrs. Fitzgerald (her neighbor)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "George, Doris, and Cyril treated Mrs. Pearson like a domestic servant, expecting their clothes ironed, tea ready, and orders obeyed without gratitude. Mrs. Fitzgerald was the sympathetic neighbor who empowered her.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-048",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Silk Road",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following geographical obstacles and cultural sights were encountered by Nick Middleton on his expedition across the Tibetan plateau to Mount Kailash? (Select all that apply)",
+    "options": [
+      "Ferocious black Tibetan mastiffs guarding nomad encampments",
+      "Treacherous icy snowdrifts blocking high mountain passes",
+      "Grim, wind-swept town of Hor on the shores of Lake Manasarovar",
+      "Dense tropical rainforests and mangrove swamps"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Nick Middleton encountered savage Tibetan mastiffs that chased their vehicle, heavy snowdrifts on mountain passes that forced them to toss dirt on ice, and the bleak, dusty town of Hor. Tibet is an arid high-altitude cold desert, lacking tropical rainforests.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-049",
+    "class": 11,
+    "subject": "english",
+    "chapter": "The Tale of Melon City",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the absurd chain of blame in Vikram Seth's 'The Tale of Melon City' in the order in which each party is accused:",
+    "orderedItems": [
+      "The King orders the builders to be hanged for building the low arch",
+      "The builders accuse the workmen of laying the bricks poorly",
+      "The workmen blame the masons for mixing the wrong sized bricks",
+      "The masons blame the architect for drafting the faulty design",
+      "The architect turns the blame onto the King for modifying the original plans"
+    ],
+    "answer": "ordered",
+    "explanation": "Accusation sequence: King blames builders → Builders blame workmen → Workmen blame masons → Masons blame architect → Architect blames King's own modifications.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-050",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Birth",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the desperate resuscitation measures undertaken by Dr. Andrew Manson to revive the seemingly stillborn infant:",
+    "orderedItems": [
+      "Clearing the mucous secretions from the infant's mouth and respiratory passages",
+      "Plunging the limp white body alternately into basins of steaming-hot and freezing-cold water",
+      "Rubbing the child's chest and limbs vigorously with a coarse dry towel",
+      "Applying rhythmic manual compressions to the tiny ribcage until the first gasp of life is drawn"
+    ],
+    "answer": "ordered",
+    "explanation": "Manson's medical procedure: Cleared airway mucus → Administered contrast immersion into hot and cold water → Rubbed vigorously with rough towel → Executed rhythmic chest compressions until respiration started.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-051",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Choose the correct determiner to complete the sentence: 'There is _______ milk left in the pitcher, enough to prepare a single cup of tea.'",
+    "options": [
+      "a little",
+      "little",
+      "few",
+      "a few"
+    ],
+    "answer": 0,
+    "explanation": "'A little' denotes a positive, small quantity of an uncountable noun (milk), sufficient for a cup. 'Little' means almost none (negative connotation), while 'few' / 'a few' apply to countable nouns.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-052",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Complete the Type 3 conditional sentence correctly: 'If the mountaineers _______ earlier, they would have escaped the deadly avalanche.'",
+    "options": [
+      "had departed",
+      "departed",
+      "have departed",
+      "would depart"
+    ],
+    "answer": 0,
+    "explanation": "Type 3 unreal past conditionals follow the structure: 'If + past perfect (had departed), ... would have + past participle (would have escaped)'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-053",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Select the grammatically correct inverted structure: 'Scarcely _______ the auditorium when the keynote address commenced.'",
+    "options": [
+      "had the delegates entered",
+      "the delegates had entered",
+      "did the delegates entered",
+      "have the delegates entered"
+    ],
+    "answer": 0,
+    "explanation": "When a sentence begins with negative or restrictive adverbs like 'Scarcely', 'Hardly', or 'Barely', subject-auxiliary inversion is mandatory: 'Scarcely had + subject + past participle ... when ...'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-054",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Convert the direct speech into correct indirect speech: The teacher said to the students, 'Do not write on both sides of the examination answer sheet.'",
+    "options": [
+      "The teacher instructed the students not to write on both sides of the examination answer sheet.",
+      "The teacher told the students that they must not write on both sides of the examination answer sheet.",
+      "The teacher requested the students to not write on both sides of the examination answer sheet.",
+      "The teacher ordered the students that do not write on both sides of the examination answer sheet."
+    ],
+    "answer": 0,
+    "explanation": "Negative imperative sentences in direct speech convert to reported speech using the infinitive construction: 'instructed/ordered/told + object + not to + verb base form'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-055",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Vocabulary in Context",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In academic literature, what is the precise meaning of the adjective 'ephemeral'?",
+    "options": [
+      "Lasting for a very short time; fleeting",
+      "Enduring for generations; timeless",
+      "Difficult to comprehend; enigmatic",
+      "Vast in physical scale; immense"
+    ],
+    "answer": 0,
+    "explanation": "'Ephemeral' means transitory, transient, or lasting for only a brief period (e.g., ephemeral fashion trends or ephemeral blossoms).",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-056",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Identify the grammatical nature and syntactic function of the italicized clause: 'What the archaeologist unearthed in the desert tomb astonished the scientific community.'",
+    "options": [
+      "Noun clause functioning as the grammatical subject of the sentence",
+      "Adverbial clause of condition modifying the verb 'astonished'",
+      "Relative adjective clause modifying the noun 'tomb'",
+      "Independent coordinate clause"
+    ],
+    "answer": 0,
+    "explanation": "The clause 'What the archaeologist unearthed in the desert tomb' is a nominal relative clause (noun clause) acting as the complete grammatical subject of the main finite verb 'astonished'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-057",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Vocabulary in Context",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Choose the appropriate phrasal verb: 'Due to severe torrential rain, the inter-school athletics meet was _______ until further notice.'",
+    "options": [
+      "called off",
+      "put across",
+      "brought about",
+      "given away"
+    ],
+    "answer": 0,
+    "explanation": "'Called off' means canceled. 'Put across' means communicated effectively; 'brought about' means caused; 'given away' means distributed or revealed.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-058",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In standard formal English grammar, the relative pronouns 'who' and 'whom' refer strictly to human persons, while 'which' refers to non-human animals and inanimate objects.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "'Who' and 'whom' are personal relative pronouns used exclusively for human beings (and occasionally named pets). 'Which' is used for animals, ideas, and inanimate objects.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-059",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The sentence 'Neither the principal nor the teachers was present at the annual sports meet' is grammatically correct.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "When two subjects are connected by 'neither... nor', the verb must agree in number with the subject closest to it. Here, 'teachers' is plural and adjacent to the verb, requiring the plural verb 'were', not 'was'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-060",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In the hypothetical sentence 'If I were the minister of education, I would abolish standardized testing', the use of 'were' with the first-person singular subject 'I' is grammatically correct under the subjunctive mood.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "The past subjunctive form 'were' is used with all subjects (I, he, she, it) in contrary-to-fact conditional clauses expressing unreal wishes or hypothetical conditions.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-061",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Fill in the blank with the appropriate preposition: 'After a comprehensive judicial trial, the court acquitted the defendant _______ all criminal charges.'",
+    "answer": "of",
+    "acceptedAnswers": [
+      "of"
+    ],
+    "explanation": "The verb 'acquit' collogues with the preposition 'of' (to acquit someone of a crime/charge).",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-062",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Fill in the blank with the correct past perfect form: 'By the time the search-and-rescue team arrived at the summit, the blizzard _______ (subside).'",
+    "answer": "had subsided",
+    "acceptedAnswers": [
+      "had subsided"
+    ],
+    "explanation": "When two actions happened in the past, the earlier completed action is expressed in the past perfect ('had subsided'), while the subsequent action uses the simple past ('arrived').",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-063",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "Fill in the blank with the correct base form under the formal mandative subjunctive: 'The board of directors insisted that the chief executive _______ (step) down immediately.'",
+    "answer": "step",
+    "acceptedAnswers": [
+      "step"
+    ],
+    "explanation": "In formal mandative subjunctive clauses following verbs of demand, insistence, or proposal ('insisted that'), the base form of the verb without inflections ('step', not 'steps' or 'stepped') is used.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-064",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Vocabulary in Context",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each English idiom with its accepted figurative meaning:",
+    "pairs": [
+      [
+        "Break the ice",
+        "To initiate friendly conversation and dispel social stiffness"
+      ],
+      [
+        "Burn the midnight oil",
+        "To work or study diligently late into the night"
+      ],
+      [
+        "Bite the bullet",
+        "To face an inevitable harsh situation with courage"
+      ],
+      [
+        "Spill the beans",
+        "To disclose confidential information indiscreetly"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Break the ice relieves tension; burn midnight oil denotes working late; bite the bullet means facing adversity bravely; spill the beans means leaking secrets.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-065",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each syntactic construction with its illustrative sentence:",
+    "pairs": [
+      [
+        "Participle clause",
+        "Having concluded his speech, the diplomat received a standing ovation"
+      ],
+      [
+        "Gerund phrase",
+        "Reading extensively expands analytical vocabulary"
+      ],
+      [
+        "Infinitive of purpose",
+        "She trained rigorously to qualify for the Olympic squad"
+      ],
+      [
+        "Correlative conjunctions",
+        "Not only was the manuscript rare, but it was also remarkably well-preserved"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Having concluded is a participle clause; Reading extensively is a gerund phrase subject; to qualify expresses purpose; Not only... but also are correlative conjunctions.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-066",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many independent (main) clauses are present in the following compound sentence: 'The ferocious gale battered the coastline throughout the night, yet the ancient lighthouse stood resilient.'?",
+    "answer": 2,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "A compound sentence joined by a coordinating conjunction ('yet') contains exactly 2 independent clauses: (1) 'The ferocious gale battered the coastline throughout the night' and (2) 'the ancient lighthouse stood resilient'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-067",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The reference chart summarizes the four primary classes of English conditional sentences. Which category represents an impossible, unfulfilled past condition and its hypothetical past outcome?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 250' width='100%' height='250'><rect width='380' height='250' fill='#0f172a' rx='8'/><text x='190' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>English Conditional Classification</text><g transform='translate(30, 45)'><rect width='150' height='85' rx='6' fill='#1e293b' stroke='#475569'/><text x='75' y='22' fill='#38bdf8' font-size='11' text-anchor='middle' font-weight='bold'>Zero Conditional</text><text x='75' y='45' fill='#cbd5e1' font-size='10' text-anchor='middle'>If + Present &rarr; Present</text><text x='75' y='65' fill='#94a3b8' font-size='9' text-anchor='middle'>Universal facts / truths</text></g><g transform='translate(200, 45)'><rect width='150' height='85' rx='6' fill='#1e293b' stroke='#475569'/><text x='75' y='22' fill='#38bdf8' font-size='11' text-anchor='middle' font-weight='bold'>First Conditional</text><text x='75' y='45' fill='#cbd5e1' font-size='10' text-anchor='middle'>If + Present &rarr; will + base</text><text x='75' y='65' fill='#94a3b8' font-size='9' text-anchor='middle'>Real / probable future</text></g><g transform='translate(30, 145)'><rect width='150' height='85' rx='6' fill='#1e293b' stroke='#475569'/><text x='75' y='22' fill='#38bdf8' font-size='11' text-anchor='middle' font-weight='bold'>Second Conditional</text><text x='75' y='45' fill='#cbd5e1' font-size='10' text-anchor='middle'>If + Past &rarr; would + base</text><text x='75' y='65' fill='#94a3b8' font-size='9' text-anchor='middle'>Hypothetical present</text></g><g transform='translate(200, 145)'><rect width='150' height='85' rx='6' fill='#047857' stroke='#10b981' stroke-width='2'/><text x='75' y='22' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>Third Conditional</text><text x='75' y='45' fill='#ffffff' font-size='10' text-anchor='middle'>If + had V3 &rarr; would have V3</text><text x='75' y='65' fill='#a7f3d0' font-size='9' text-anchor='middle'>Unfulfilled past regret</text></g></svg>"
+    },
+    "options": [
+      "Third Conditional (If + Past Perfect, would have + Past Participle)",
+      "Zero Conditional (If + Present, Present)",
+      "First Conditional (If + Present, will + base)",
+      "Second Conditional (If + Past Simple, would + base)"
+    ],
+    "answer": 0,
+    "explanation": "The Third Conditional expresses counterfactual situations in the past—events that did not occur and whose outcomes are impossible to change: 'If you had warned me, I would have intervened.'",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-068",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Define a transitive verb and provide one short illustrative example.",
+    "sampleAnswer": "A transitive verb is an action verb that requires a direct object to complete its meaning (e.g. 'She solved the puzzle').",
+    "acceptedAnswers": [
+      "a verb that requires a direct object to receive its action",
+      "a verb that takes a direct object, such as 'He read the book'",
+      "transitive verb demands an object to complete its sense"
+    ],
+    "keywords": [
+      "transitive",
+      "direct object",
+      "action",
+      "object"
+    ],
+    "explanation": "A transitive verb expresses an action directed toward a person, place, or thing that receives the action (the direct object), in contrast to intransitive verbs that take no object.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-069",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Identify the grammatical error in the following sentence and state the correct replacement: 'Each of the shortlisted candidates were awarded a certificate of commendation.'",
+    "sampleAnswer": "Error: 'were' | Correction: 'was' (the distributive pronoun 'Each' is singular and requires a singular verb).",
+    "acceptedAnswers": [
+      "were should be was",
+      "error is were, correction is was",
+      "were is replaced by was",
+      "was instead of were"
+    ],
+    "keywords": [
+      "were",
+      "was"
+    ],
+    "explanation": "'Each' is an indefinite distributive pronoun that takes a singular verb. The prepositional phrase 'of the shortlisted candidates' does not alter the singular subject, so 'were' must be corrected to 'was'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-070",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Transform the sentence by removing the adverb 'too': 'The scientific treatise was too esoteric for the undergraduate students to comprehend.'",
+    "sampleAnswer": "The scientific treatise was so esoteric that the undergraduate students could not comprehend it.",
+    "acceptedAnswers": [
+      "The scientific treatise was so esoteric that the undergraduate students could not comprehend it.",
+      "The scientific treatise was so esoteric that the undergraduate students were unable to comprehend it."
+    ],
+    "keywords": [
+      "so esoteric that",
+      "could not comprehend"
+    ],
+    "explanation": "Sentences with 'too... to' transform into complex sentences using 'so... that + cannot / could not'. Because the sentence is in the past tense ('was'), 'could not' is mandatory.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-071",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): The sentence 'No sooner had the curtain risen than the audience erupted in thunderous applause' is grammatically correct.\nReason (R): 'No sooner' is obligatorily paired with the correlative conjunction 'than' and triggers inversion of the auxiliary verb before the subject.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "'No sooner' mandates the conjunction 'than' (never 'when'), and when placed at the head of a clause, demands inverted word order ('had the curtain risen'). Both Assertion and Reason are true, and Reason explains the syntax.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-072",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): In standard formal writing, the sentence 'Walking down the foggy lane, the old cathedral bells began to chime' contains a serious syntactical fault known as a dangling modifier.\nReason (R): An introductory participial phrase must be followed immediately by a grammatical subject that can logically perform the action of the participle.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "In 'Walking down the foggy lane, the old cathedral bells...', the participle 'Walking' erroneously modifies 'bells' (as though bells were walking). To correct it, the logical human subject must follow the comma: 'Walking down the foggy lane, I heard the cathedral bells chime.'",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-073",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following sentences display correct subject-verb agreement? (Select all that apply)",
+    "options": [
+      "The quality of these imported fabrics is remarkable.",
+      "Bread and butter is a wholesome traditional breakfast.",
+      "A large bouquet of yellow roses were presented to the chief guest.",
+      "The committee has submitted its unanimous recommendations."
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "In (A), subject is 'quality' (singular: is). In (B), 'Bread and butter' represents a unified dish (singular: is). In (D), collective noun 'committee' acts as a unit with singular pronoun 'its' (singular: has). (C) is erroneous because 'bouquet' is singular, requiring 'was presented'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-074",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Vocabulary in Context",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following words are antonyms of the adjective 'meticulous' (showing great attention to detail and thorough precision)? (Select all that apply)",
+    "options": [
+      "Careless",
+      "Slapdash",
+      "Negligent",
+      "Punctilious"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "'Careless', 'slapdash', and 'negligent' mean hasty, untidy, and lacking care (antonyms of meticulous). 'Punctilious' is a synonym meaning strictly attentive to proper detail.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-075",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the jumbled sentence fragments in logical and grammatically coherent sequence to construct a meaningful sentence:",
+    "orderedItems": [
+      "The rapid proliferation of digital technologies",
+      "has fundamentally revolutionized",
+      "contemporary pedagogical methodologies",
+      "across educational institutions globally"
+    ],
+    "answer": "ordered",
+    "explanation": "Coherent syntax: Subject ('The rapid proliferation of digital technologies') → Verb ('has fundamentally revolutionized') → Object ('contemporary pedagogical methodologies') → Adverbial adjunct ('across educational institutions globally').",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-076",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the standard prescribed word limit for drafting a formal school notice according to CBSE examination guidelines?",
+    "options": [
+      "50 words",
+      "100 words",
+      "150 words",
+      "200 words"
+    ],
+    "answer": 0,
+    "explanation": "Under CBSE guidelines, a formal notice must be concise, precise, and adhere strictly to a limit of approximately 50 words to communicate essential information without unnecessary elaboration.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-077",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Under which specific classified advertisement column should a homeowner advertise an independent floor available for rental accommodation?",
+    "options": [
+      "To Let",
+      "Situation Vacant",
+      "Accommodation Wanted",
+      "Sale and Purchase"
+    ],
+    "answer": 0,
+    "explanation": "'To Let' is the standard classified heading used when residential or commercial property is offered for rent. 'Accommodation Wanted' is used when a prospective tenant seeks property.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-078",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "What is the primary editorial convention and objective when drafting a formal Letter to the Editor regarding a civic crisis?",
+    "options": [
+      "To use the esteemed columns of the newspaper to voice public concern and alert municipal authorities, concluding with 'Yours truly' or 'Yours sincerely'",
+      "To demand that the newspaper editor personally dispatch a repair crew to rectify the crisis",
+      "To express personal emotional vendetta using informal colloquial language",
+      "To advertise commercial products under the guise of an open community letter"
+    ],
+    "answer": 0,
+    "explanation": "A Letter to the Editor aims to highlight public issues through the newspaper's platform to draw the urgent attention of relevant government authorities and create public awareness, using formal decorum and concluding with 'Yours truly' or 'Yours sincerely'.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-079",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "How should a student formal speech addressing a school morning assembly appropriately begin?",
+    "options": [
+      "With a respectful salutation to the Principal, esteemed teachers, and fellow students, followed by introducing the speech topic",
+      "With a direct blunt statement of demands without any greeting",
+      "With the speaker's home address and date in the top left corner",
+      "With an informal greeting like 'Hey guys, listen up!'"
+    ],
+    "answer": 0,
+    "explanation": "A formal speech begins with a polite, respectful greeting addressing the audience (Principal, teachers, students) followed immediately by stating the speaker's name and introducing the topic.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-080",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Unseen Passages",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In analyzing an analytical discursive reading comprehension passage, how does an 'inference' differ fundamentally from an 'explicit fact'?",
+    "options": [
+      "An inference is a logical conclusion deduced from contextual clues and authorial tone, whereas a fact is directly and overtly stated in the text",
+      "An inference is always a personal opinion unsupported by the passage",
+      "An explicit fact is inferred through metaphorical subtext while an inference is quoted verbatim",
+      "There is no difference; both terms are interchangeable in reading analysis"
+    ],
+    "answer": 0,
+    "explanation": "Explicit facts are directly stated and verifiable on the page. An inference requires the reader to connect textual clues, synthesize underlying arguments, and deduce implied meanings that are not directly worded.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-081",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following elements is essential to include at the bottom of a public awareness poster designed for social campaigning?",
+    "options": [
+      "Name or title of the issuing authority / organization",
+      "Personal telephone number of the student artist",
+      "Price of the poster in Indian Rupees",
+      "Signature of the school principal in ink"
+    ],
+    "answer": 0,
+    "explanation": "All public interest posters must prominently state the issuing authority (e.g. 'Issued in public interest by Ministry of Health & Family Welfare') at the bottom to lend credibility and official validity.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-082",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A formal school magazine report detailing a completed cultural festival should primarily be written in which grammatical tense and perspective?",
+    "options": [
+      "Past tense, third-person perspective, with objective factual tone",
+      "Present continuous tense, first-person subjective perspective",
+      "Future tense, second-person imperative voice",
+      "Subjunctive mood, informal conversational dialogue"
+    ],
+    "answer": 0,
+    "explanation": "Because a report documents an event that has already occurred, it is written in the past tense, using third-person passive/objective constructions ('The event was inaugurated by...', 'Merit certificates were awarded...').",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-083",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In CBSE English examinations, a formal Notice must always be drafted inside a neatly drawn rectangular box.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Enclosing a notice within a rectangular frame/box is a mandatory formatting requirement in CBSE evaluation criteria.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-084",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In competitive debate writing, a contestant is permitted to present arguments supporting both 'for' and 'against' the motion in the same speech to display balanced thinking.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "A debate requires taking an unambiguous stand—either strictly 'FOR' or strictly 'AGAINST' the motion. Supporting both sides undermines the argument and results in loss of marks.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-085",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In the format of a school notice, the designation of the issuing authority is written immediately _______ the signature and full name.",
+    "answer": "below",
+    "acceptedAnswers": [
+      "below",
+      "under",
+      "underneath"
+    ],
+    "explanation": "The standard concluding format at the bottom left is: Signature, followed by Full Name in brackets, followed by Official Designation below it (e.g. Head Girl / Sports Secretary).",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-086",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In a classified advertisement under 'Situation Vacant', the essential criteria detailing academic degrees and past professional experience are termed _______.",
+    "answer": "qualifications",
+    "acceptedAnswers": [
+      "qualifications",
+      "qualification",
+      "educational qualifications",
+      "eligibility"
+    ],
+    "explanation": "A 'Situation Vacant' advertisement must clearly specify the essential qualifications (e.g., Post-Graduate with B.Ed., minimum 3 years experience) required for the advertised post.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-087",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In formal article writing, the line containing the name and designation of the writer, placed directly below the title, is called the _______.",
+    "answer": "byline",
+    "acceptedAnswers": [
+      "byline",
+      "by-line",
+      "by line"
+    ],
+    "explanation": "The by-line (e.g., 'By Ankita Sharma, Class XI-B') appears immediately beneath the headline/title to credit the author.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-088",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In a formal business or official letter, the brief line that immediately summarizes the core objective of the communication is the _______ line.",
+    "answer": "subject",
+    "acceptedAnswers": [
+      "subject",
+      "Subject",
+      "subject line"
+    ],
+    "explanation": "The subject line gives a succinct, one-line summary of the letter's purpose, enabling busy officials to route and process the correspondence quickly.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-089",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each short writing task with its defining format characteristic:",
+    "pairs": [
+      [
+        "Notice",
+        "Brief 50-word official announcement enclosed strictly in a box"
+      ],
+      [
+        "Classified Advertisement",
+        "Crisp telegraphic text without graphics, organized under standardized columns"
+      ],
+      [
+        "Poster",
+        "Visually impactful combination of bold slogans, graphics, and issuing authority"
+      ],
+      [
+        "Formal Letter",
+        "Structured layout including sender's address, date, receiver's address, subject, and sign-off"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Notices are framed 50-word alerts; classified ads use telegraphic text; posters blend visual art and slogans; formal letters adhere to strict institutional formatting.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-090",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each structural component of a formal article with its core rhetorical function:",
+    "pairs": [
+      [
+        "Headline / Title",
+        "Eye-catching phrase that captures the central theme succinctly"
+      ],
+      [
+        "By-line",
+        "Identification of the writer or student journalist"
+      ],
+      [
+        "Introductory Paragraph",
+        "Hooking reader interest, defining the topic, and setting context"
+      ],
+      [
+        "Concluding Paragraph",
+        "Summarizing arguments, offering constructive solutions, and appealing for action"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Title grabs attention; by-line credits writer; introduction frames the thesis; conclusion synthesizes solutions and calls for change.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-091",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In the CBSE Class 11 evaluation rubric for a 5-mark formal Letter to the Editor, what is the maximum mark allocated strictly for 'Format' (addresses, date, subject, salutation, complimentary close)?",
+    "answer": 1,
+    "tolerance": 0,
+    "unit": "mark",
+    "explanation": "In the 5-mark rubric for formal letters, marks are partitioned into: Format = 1 mark, Content = 2 marks, and Expression (grammatical accuracy, coherence, vocabulary) = 2 marks.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-092",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram outlines the structural skeleton of a CBSE formal notice. Which component is designated by Section H and gives the specific topic of the notice in bold font?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 250' width='100%' height='250'><rect width='380' height='250' fill='#0f172a' rx='8'/><text x='190' y='22' fill='#e2e8f0' font-size='13' text-anchor='middle' font-weight='bold'>Standard CBSE Notice Layout</text><rect x='40' y='35' width='300' height='200' fill='#1e293b' stroke='#38bdf8' stroke-width='2'/><text x='190' y='55' fill='#cbd5e1' font-size='11' text-anchor='middle'>[NAME OF ISSUING INSTITUTION / SCHOOL]</text><rect x='140' y='65' width='100' height='20' rx='4' fill='#0284c7'/><text x='190' y='79' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>NOTICE</text><text x='60' y='100' fill='#94a3b8' font-size='10'>Date: DD Month YYYY</text><rect x='80' y='110' width='220' height='22' rx='4' fill='#f59e0b'/><text x='190' y='125' fill='#ffffff' font-size='11' text-anchor='middle' font-weight='bold'>Section H (Headline / Subject)</text><text x='190' y='155' fill='#cbd5e1' font-size='10' text-anchor='middle'>Body of Notice (Date, Time, Venue, Target Group)</text><text x='60' y='195' fill='#94a3b8' font-size='9'>Signature &amp; Name</text><text x='60' y='210' fill='#94a3b8' font-size='9'>Designation</text></svg>"
+    },
+    "options": [
+      "Section H (Headline / Catchy Subject Line)",
+      "Name of Issuing School",
+      "Date of issue",
+      "Official Signature and Designation"
+    ],
+    "answer": 0,
+    "explanation": "Section H represents the Headline or Subject of the notice, which must be brief, clear, and centered to inform the reader of the announcement's purpose.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-093",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "The diagram depicts a public awareness poster on water conservation. Which critical formatting component is positioned at the base of the poster (Section B)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 380 250' width='100%' height='250'><rect width='380' height='250' fill='#0f172a' rx='8'/><text x='190' y='22' fill='#e2e8f0' font-size='13' text-anchor='middle' font-weight='bold'>Public Awareness Poster Architecture</text><rect x='50' y='35' width='280' height='200' fill='#1e293b' stroke='#10b981' stroke-width='2'/><text x='190' y='60' fill='#34d399' font-size='14' text-anchor='middle' font-weight='bold'>SAVE EVERY DROP!</text><circle cx='190' cy='105' r='25' fill='#0284c7'/><text x='190' y='110' fill='#ffffff' font-size='10' text-anchor='middle'>Water Icon</text><text x='190' y='150' fill='#facc15' font-size='11' text-anchor='middle'>Every Drop Conserved Secures Tomorrow</text><rect x='65' y='190' width='250' height='30' rx='4' fill='#064e3b' stroke='#059669'/><text x='190' y='210' fill='#ffffff' font-size='10' text-anchor='middle' font-weight='bold'>Section B: Issued by Jal Shakti Mission</text></svg>"
+    },
+    "options": [
+      "Section B: Issuing authority and sponsoring body",
+      "Commercial pricing and retail barcode",
+      "Personal signature of the graphic designer",
+      "List of references and footnotes"
+    ],
+    "answer": 0,
+    "explanation": "Section B contains the issuing authority ('Issued in public interest by Jal Shakti Mission'), an indispensable feature of public service posters ensuring institutional accountability.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-094",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Name any two mandatory details that must be clearly mentioned in the body of a formal Notice announcing an upcoming school competition.",
+    "sampleAnswer": "The date and time of the event, and the venue (or target group / last date for registration).",
+    "acceptedAnswers": [
+      "date and time of the event, and venue",
+      "date, time, venue, and eligibility criteria",
+      "venue and time of the event",
+      "date and venue"
+    ],
+    "keywords": [
+      "date",
+      "time",
+      "venue"
+    ],
+    "explanation": "A functional notice must answer the 5 Ws: What the event is, When it takes place (date and time), Where it is hosted (venue), and Who is eligible or whom to contact.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-095",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "State one primary difference in style and presentation between a classified advertisement and a commercial/display advertisement.",
+    "sampleAnswer": "Classified advertisements use concise, telegraphic, point-form words without graphics and are charged per word; commercial display advertisements occupy larger space, featuring catchy slogans, varying font sizes, and illustrations.",
+    "acceptedAnswers": [
+      "classified ads are brief, text-only and charged per word; display ads use graphics, illustrations and varied fonts",
+      "classified ads use telegraphic text without graphics; display ads use pictures, slogans and artistic formatting"
+    ],
+    "keywords": [
+      "classified",
+      "display",
+      "graphics",
+      "text-only",
+      "illustrations",
+      "telegraphic"
+    ],
+    "explanation": "Classified ads are cost-effective, text-only listings arranged under columns (e.g. For Sale, To Let) without borders or pictures. Display ads use artistic layouts, images, and creative copy to attract customers.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-096",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Unseen Passages",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "In reading comprehension, what tone is an author said to employ when they use dry humor, mockery, and irony to expose and criticize human foolishness or societal vices?",
+    "sampleAnswer": "A satirical (or sarcastic / ironic) tone.",
+    "acceptedAnswers": [
+      "satirical tone",
+      "satirical or sarcastic tone",
+      "ironic and satirical",
+      "satire"
+    ],
+    "keywords": [
+      "satirical",
+      "satire",
+      "sarcastic",
+      "ironic"
+    ],
+    "explanation": "When an author wields wit, irony, exaggeration, or ridicule to expose and critique human vices, follies, or abuses, the tone is defined as satirical.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-097",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): In a formal Letter to the Editor regarding overflowing municipal garbage, the writer must never ask the Editor to personally clean the street or send municipal workers.\nReason (R): The newspaper editor is an independent journalist who provides a public platform for discourse, not an executive municipal officer with authority to enforce civic works.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "Common student errors include urging the editor to take administrative action. The editor's sole power is publishing the letter to stimulate public dialogue and compel concerned government departments to intervene.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-098",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following essential details must be incorporated into a classified advertisement under the 'Lost and Found' column? (Select all that apply)",
+    "options": [
+      "Precise identification details and physical description of the lost item",
+      "Probable location and date/time when the item went missing",
+      "Contact telephone number or address for returning the item",
+      "Author's resume and school examination grades"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "A Lost and Found classified ad must specify: description of article, date/time/place lost or found, promise of reward (optional), and contact information. School grades are irrelevant.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-099",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following stylistic practices should be strictly avoided when compiling an objective formal report for a school journal? (Select all that apply)",
+    "options": [
+      "Overusing first-person subjective pronouns ('I think', 'In my personal view')",
+      "Using slang, informal colloquial expressions, and casual abbreviations",
+      "Injecting emotional hyperbole and unsubstantiated personal bias",
+      "Organizing information in clear chronological sequence with headings"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "A formal report requires third-person objectivity, factual reporting, formal vocabulary, and chronological organization. First-person personal bias, slang, and emotional exaggeration must be rigorously excluded.",
+    "volatile": false
+  },
+  {
+    "id": "c11-english-100",
+    "class": 11,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the sequential top-to-bottom layout of a formal official letter in accordance with the modern left-aligned CBSE format:",
+    "orderedItems": [
+      "Sender's Address (top left without name)",
+      "Date of writing (e.g. 15 October 2026)",
+      "Receiver's Designation and Official Address",
+      "Subject line (concise summary of letter's purpose)",
+      "Formal Salutation (Sir / Madam)",
+      "Body of the letter (Introduction, Content, Conclusion)",
+      "Complimentary Close (Yours faithfully / sincerely) followed by Sender's Name"
+    ],
+    "answer": "ordered",
+    "explanation": "Standard modern CBSE formal letter format: Sender's Address → Date → Receiver's Designation & Address → Subject → Salutation → Body → Complimentary Close & Name.",
+    "volatile": false
+  }
+]

@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="6" y="8" width="52" height="48" rx="4" fill="#fef9c3" stroke="#1b2a4a" stroke-width="3"/>
+  <!-- Notebook binder rings -->
+  <line x1="6" y1="16" x2="16" y2="16" stroke="#b91c1c" stroke-width="2.5"/>
+  <line x1="6" y1="28" x2="16" y2="28" stroke="#b91c1c" stroke-width="2.5"/>
+  <line x1="6" y1="40" x2="16" y2="40" stroke="#b91c1c" stroke-width="2.5"/>
+  <!-- Ruled lines -->
+  <line x1="20" y1="20" x2="52" y2="20" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <line x1="20" y1="28" x2="52" y2="28" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <line x1="20" y1="36" x2="52" y2="36" stroke="#94a3b8" stroke-width="1.5" stroke-dasharray="2,2"/>
+  <!-- Nib pen stamp -->
+  <path d="M 44 48 L 54 38 L 48 32 L 38 42 Z" fill="#1b2a4a"/>
+  <polygon points="38,42 34,48 40,46" fill="#fde047" stroke="#1b2a4a" stroke-width="1"/>
+  <!-- Green tick -->
+  <path d="M 24 44 L 28 48 L 36 38" fill="none" stroke="#15803d" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

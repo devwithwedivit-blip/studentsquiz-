@@ -1,0 +1,1951 @@
+[
+  {
+    "id": "c12-phy-001",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electric Charges and Fields",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the SI unit of electric flux?",
+    "options": [
+      "N / C",
+      "V · m",
+      "N · m² / C²",
+      "C / m²"
+    ],
+    "answer": 1,
+    "explanation": "Electric flux Φ = E · A = (V/m) × m² = V·m (or N·m²/C).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-002",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A uniform metallic wire of resistance 4 Ω is stretched so that its length becomes doubled without changing its mass. What is its new resistance?",
+    "options": [
+      "4 Ω",
+      "8 Ω",
+      "16 Ω",
+      "2 Ω"
+    ],
+    "answer": 2,
+    "explanation": "Since mass and density remain constant, volume V = A·L is constant. When length doubles (L' = 2L), cross-sectional area halves (A' = A/2). New resistance R' = ρ(2L)/(A/2) = 4(ρL/A) = 4R = 4(4) = 16 Ω.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-003",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Moving Charges and Magnetism",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "A charged particle of mass m and charge q enters a uniform magnetic field B perpendicular to its velocity v. What is the radius of its circular trajectory?",
+    "options": [
+      "m·v / (q·B)",
+      "q·B / (m·v)",
+      "m / (q·v·B)",
+      "q·v / (m·B)"
+    ],
+    "answer": 0,
+    "explanation": "Magnetic Lorentz force provides the necessary centripetal force: q·v·B = m·v² / r => r = m·v / (q·B).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-004",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electromagnetic Induction",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Lenz's law of electromagnetic induction is a direct consequence of which fundamental conservation law?",
+    "options": [
+      "Conservation of electric charge",
+      "Conservation of linear momentum",
+      "Conservation of energy",
+      "Conservation of angular momentum"
+    ],
+    "answer": 2,
+    "explanation": "Lenz's law is a consequence of conservation of energy: mechanical work done against opposing induced magnetic forces is converted into electrical energy in the circuit.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-005",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If the frequency of radiation incident on a photosensitive metal surface is doubled, what happens to the maximum kinetic energy (K_max) of the emitted photoelectrons?",
+    "options": [
+      "It becomes exactly double",
+      "It remains unchanged",
+      "It becomes more than double",
+      "It becomes half"
+    ],
+    "answer": 2,
+    "explanation": "By Einstein's photoelectric equation, K_max = hν - Φ. When frequency doubles, K'_max = h(2ν) - Φ = 2(hν - Φ) + Φ = 2·K_max + Φ. Since work function Φ > 0, K'_max > 2·K_max.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-006",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electric Charges and Fields",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Electrostatic field lines produced by stationary charges can form closed loops.",
+    "answer": false,
+    "explanation": "Electrostatic fields are conservative (∮ E · dl = 0). If field lines formed closed loops, a charge transported along that loop would gain or lose net energy, violating the conservative nature of static electric fields.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-007",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Magnetism and Matter",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Isolated magnetic monopoles have been experimentally observed and isolated in nature.",
+    "answer": false,
+    "explanation": "By Gauss's law for magnetism (∮ B · dS = 0), magnetic field lines are always continuous closed loops, implying magnetic poles always exist in equal and opposite dipoles with no isolated monopoles.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-008",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Alternating Current",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The average electrical power dissipated by an ideal capacitor over one complete AC cycle is zero.",
+    "answer": true,
+    "explanation": "In an ideal capacitor, alternating current leads alternating voltage by a phase angle of π/2 (90°). Hence, power factor cos(π/2) = 0, giving average dissipated power P_avg = V_rms · I_rms · cos(π/2) = 0.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-009",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The focal length of a glass convex lens increases when it is immersed in water compared to its focal length in air.",
+    "answer": true,
+    "explanation": "By the Lens Maker's formula, 1/f = ((n_lens / n_medium) - 1)(1/R1 - 1/R2). Since n_water (1.33) > n_air (1.0), the relative refractive index (n_glass / n_water) is smaller than in air, which makes 1/f smaller and increases focal length f.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-010",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In an intrinsic semiconductor at thermal equilibrium, the number density of free electrons equals the number density of holes.",
+    "answer": true,
+    "explanation": "In pure (intrinsic) semiconductors, free electrons and holes are generated only in pairs due to thermal breaking of covalent bonds. Hence n_e = n_h = n_i.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-011",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electric Charges and Fields",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "By Gauss's theorem, the net electric flux passing through any closed surface enclosing no net charge is ____.",
+    "answer": "zero",
+    "acceptedAnswers": [
+      "zero",
+      "0"
+    ],
+    "explanation": "Gauss's law states Φ = q_enclosed / ε₀. When q_enclosed = 0, net electric flux Φ is identically zero.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-012",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Wave Optics",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "According to Brewster's law, when unpolarized light is incident at Brewster's angle, the reflected ray and refracted ray are ____ to each other.",
+    "answer": "perpendicular",
+    "acceptedAnswers": [
+      "perpendicular",
+      "at 90 degrees",
+      "90 degrees",
+      "mutually perpendicular"
+    ],
+    "explanation": "At Brewster's angle of incidence i_p, Brewster's condition gives i_p + r = 90°, proving that the reflected and refracted rays are mutually perpendicular.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-013",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Atoms",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In Bohr's atomic model, the orbital angular momentum of an electron in any stationary orbit is an integral multiple of ____.",
+    "answer": "h / (2π)",
+    "acceptedAnswers": [
+      "h / (2π)",
+      "h/2pi",
+      "h/(2pi)",
+      "h / 2π",
+      "h/2π"
+    ],
+    "explanation": "Bohr's quantization postulate states L = mvr = n(h / 2π), where n is the principal quantum number.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-014",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Alternating Current",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "At electrical resonance in a series LCR alternating circuit, the power factor of the circuit is ____.",
+    "answer": "1",
+    "acceptedAnswers": [
+      "1",
+      "unity",
+      "one"
+    ],
+    "explanation": "At resonance, X_L = X_C, so the net reactance is zero. The impedance Z equals pure resistance R, making phase difference φ = 0 and power factor cos φ = 1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-015",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "A p-type extrinsic semiconductor is formed by doping pure silicon crystal with a ____ impurity like boron, aluminum, or indium.",
+    "answer": "trivalent",
+    "acceptedAnswers": [
+      "trivalent",
+      "trivalent impurity"
+    ],
+    "explanation": "Trivalent impurity atoms possess three valence electrons, creating electron deficiency (holes) in the tetravalent silicon lattice.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-016",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electromagnetic Waves",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each electromagnetic wave spectrum band with its prominent technological application:",
+    "pairs": [
+      [
+        "Microwaves",
+        "Aircraft radar tracking and microwave ovens"
+      ],
+      [
+        "Infrared rays",
+        "Night vision devices and TV remote controls"
+      ],
+      [
+        "Ultraviolet rays",
+        "Water purifiers and eye LASIK surgery"
+      ],
+      [
+        "X-rays",
+        "Medical diagnostic bone radiography"
+      ],
+      [
+        "Gamma rays",
+        "Radiotherapy for destroying cancerous tumours"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Each wave band is utilized based on its photon energy and penetration capability in medical, telecommunication, and domestic engineering.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-017",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Current Electricity",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each electric circuit device with its operational principle:",
+    "pairs": [
+      [
+        "Potentiometer",
+        "Null deflection method measuring EMF without drawing current"
+      ],
+      [
+        "Wheatstone Bridge",
+        "Balanced bridge condition P/Q = R/S producing zero galvanometer deflection"
+      ],
+      [
+        "Meter Bridge",
+        "Slide wire practical application of Wheatstone bridge for unknown resistance"
+      ],
+      [
+        "Moving Coil Galvanometer",
+        "Deflecting magnetic torque proportional to current (τ = NIAB)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These precision instruments rely on balancing opposing potential drops or null magnetic deflections for high experimental accuracy.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-018",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each optical instrument with its standard magnifying power expression or feature:",
+    "pairs": [
+      [
+        "Simple Microscope",
+        "m = 1 + D/f (when image is at near point D = 25 cm)"
+      ],
+      [
+        "Astronomical Telescope",
+        "m = f_o / f_e (in normal adjustment at infinity)"
+      ],
+      [
+        "Compound Microscope",
+        "m = (L/f_o) × (D/f_e) for high linear magnification"
+      ],
+      [
+        "Cassegrain Telescope",
+        "Parabolic primary concave mirror avoiding chromatic aberration"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Formulae represent standard CBSE Class 12 angular magnification expressions for optical instruments.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-019",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each physicist with their milestone quantum discovery:",
+    "pairs": [
+      [
+        "Albert Einstein",
+        "Photoelectric effect explanation via light quanta (photons)"
+      ],
+      [
+        "Niels Bohr",
+        "Quantum model of hydrogen atom with quantized orbits"
+      ],
+      [
+        "Louis de Broglie",
+        "Wave-particle duality hypothesis for matter (λ = h/p)"
+      ],
+      [
+        "J.J. Thomson",
+        "Discovery of electron and measurement of specific charge e/m"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Foundational quantum physics discoveries introduced in NCERT Class 12 chapters 11 and 12.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-020",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each semiconductor optoelectronic device with its typical biasing mode:",
+    "pairs": [
+      [
+        "Light Emitting Diode (LED)",
+        "Forward biased junction emitting spontaneous radiation"
+      ],
+      [
+        "Photodiode",
+        "Operated in reverse bias to detect optical power changes"
+      ],
+      [
+        "Solar Cell",
+        "Unbiased p-n junction converting photon flux into voltage"
+      ],
+      [
+        "Zener Diode",
+        "Operated in reverse breakdown region as voltage stabilizer"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "LED requires forward bias to recombine carriers; photodiode and Zener require reverse bias; solar cells operate under zero external bias.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-021",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A parallel plate capacitor with air between plates has a capacitance of 8 pF. What will be the capacitance in pF if the distance between plates is halved and the space between them is completely filled with a dielectric substance of dielectric constant K = 6?",
+    "answer": 96,
+    "tolerance": 0.5,
+    "unit": "pF",
+    "explanation": "Initial capacitance C₀ = ε₀A / d = 8 pF. With new distance d' = d/2 and dielectric K = 6: C' = K · ε₀A / (d/2) = 2K · (ε₀A/d) = 2 × 6 × 8 = 96 pF.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-022",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Moving Charges and Magnetism",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A long straight wire carries a steady electric current of 10 A. Calculate the magnitude of the magnetic field at a perpendicular distance of 5 cm from the wire in microteslas (μT). (Use μ₀ = 4π × 10⁻⁷ T·m/A).",
+    "answer": 40,
+    "tolerance": 0.5,
+    "unit": "μT",
+    "explanation": "B = (μ₀ · I) / (2π · r) = (4π × 10⁻⁷ × 10) / (2π × 0.05) = (2 × 10⁻⁶) / 0.05 = 40 × 10⁻⁶ T = 40 μT.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-023",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Alternating Current",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "A series LCR circuit has resistance R = 20 Ω. At resonance, the peak voltage supplied across the circuit is 200 V. What is the peak current flowing through the circuit in amperes (A)?",
+    "answer": 10,
+    "tolerance": 0.1,
+    "unit": "A",
+    "explanation": "At resonance, X_L = X_C, so total circuit impedance Z = R = 20 Ω. Peak current I₀ = V₀ / Z = 200 / 20 = 10 A.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-024",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Two thin lenses of focal lengths +25 cm and -50 cm are placed in coaxial contact with each other. Calculate the net optical power of this combination in dioptres (D).",
+    "answer": 2,
+    "tolerance": 0.05,
+    "unit": "D",
+    "explanation": "Power of first lens P₁ = 1 / +0.25 m = +4 D. Power of second lens P₂ = 1 / -0.50 m = -2 D. Total power of the coaxial combination in contact P = P₁ + P₂ = +4 - 2 = +2 D.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-025",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the de Broglie wavelength in nanometres (nm) associated with an electron accelerated from rest across an electric potential difference of 100 V. (Use de Broglie formula λ = 1.227 / √V nm).",
+    "answer": 0.1227,
+    "tolerance": 0.005,
+    "unit": "nm",
+    "explanation": "For an electron accelerated through potential V: λ = 1.227 / √V nm. For V = 100 V: λ = 1.227 / √100 = 1.227 / 10 = 0.1227 nm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-026",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the convex lens ray diagram shown, an object AB of height h is placed at distance 2f (at 2F₁) from the optical centre. Where is the real inverted image A'B' formed?",
+    "options": [
+      "At 2F₂ on the opposite side",
+      "At F₂ on the opposite side",
+      "Between F₂ and 2F₂",
+      "Beyond 2F₂"
+    ],
+    "answer": 0,
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"10\" y1=\"90\" x2=\"330\" y2=\"90\" stroke=\"#1b2a4a\" stroke-width=\"1.5\"/><ellipse cx=\"170\" cy=\"90\" rx=\"10\" ry=\"70\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"2\"/><line x1=\"70\" y1=\"90\" x2=\"70\" y2=\"40\" stroke=\"#dc2626\" stroke-width=\"2.5\"/><polygon points=\"67,42 70,35 73,42\" fill=\"#dc2626\"/><text x=\"55\" y=\"35\" font-size=\"12\" font-weight=\"bold\" fill=\"#dc2626\">AB (at 2F₁)</text><line x1=\"70\" y1=\"40\" x2=\"170\" y2=\"40\" stroke=\"#dc2626\" stroke-dasharray=\"3,3\"/><line x1=\"170\" y1=\"40\" x2=\"270\" y2=\"140\" stroke=\"#dc2626\"/><line x1=\"70\" y1=\"40\" x2=\"270\" y2=\"140\" stroke=\"#0284c7\"/><line x1=\"270\" y1=\"90\" x2=\"270\" y2=\"140\" stroke=\"#16a34a\" stroke-width=\"2.5\"/><polygon points=\"267,138 270,145 273,138\" fill=\"#16a34a\"/><text x=\"255\" y=\"160\" font-size=\"12\" font-weight=\"bold\" fill=\"#16a34a\">A'B' (at 2F₂)</text><text x=\"165\" y=\"105\" font-size=\"12\" font-weight=\"bold\" fill=\"#1b2a4a\">O</text></svg>"
+    },
+    "explanation": "When an object is placed at 2F₁ (u = -2f) in front of a convex lens, by lens formula 1/v - 1/u = 1/f, the image is formed at v = +2f (at 2F₂), having the same size and real-inverted.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-027",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Current Electricity",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Consider the Wheatstone bridge circuit shown with four resistances P = 2 Ω, Q = 4 Ω, R = 3 Ω, and S = 6 Ω. Is the bridge balanced, and what current passes through the central galvanometer G?",
+    "options": [
+      "Balanced; galvanometer current = 0 A",
+      "Unbalanced; galvanometer current = 1 A",
+      "Unbalanced; galvanometer current = 2 A",
+      "Short-circuited; galvanometer current is infinite"
+    ],
+    "answer": 0,
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 300 200\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"150,20 260,100 150,180 40,100\" fill=\"none\" stroke=\"#1b2a4a\" stroke-width=\"2.5\"/><line x1=\"150\" y1=\"20\" x2=\"150\" y2=\"180\" stroke=\"#dc2626\" stroke-dasharray=\"4,3\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"100\" r=\"16\" fill=\"#fff\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"144\" y=\"105\" font-size=\"14\" font-weight=\"bold\" fill=\"#dc2626\">G</text><text x=\"75\" y=\"50\" font-size=\"13\" font-weight=\"bold\" fill=\"#0284c7\">P = 2 Ω</text><text x=\"205\" y=\"50\" font-size=\"13\" font-weight=\"bold\" fill=\"#0284c7\">Q = 4 Ω</text><text x=\"75\" y=\"155\" font-size=\"13\" font-weight=\"bold\" fill=\"#16a34a\">R = 3 Ω</text><text x=\"205\" y=\"155\" font-size=\"13\" font-weight=\"bold\" fill=\"#16a34a\">S = 6 Ω</text></svg>"
+    },
+    "explanation": "Condition for balanced Wheatstone bridge is P / Q = R / S. Here 2 / 4 = 1/2 and 3 / 6 = 1/2. Since the ratio is identical, potentials at the two bridge junctions are equal and current through galvanometer is zero.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-028",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Moving Charges and Magnetism",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "A circular wire loop in the horizontal plane carries electric current I circulating anticlockwise when viewed from above. According to the right-hand thumb rule, in which direction does the magnetic field B point at the centre of the loop?",
+    "options": [
+      "Vertically upwards (out of the page)",
+      "Vertically downwards (into the page)",
+      "Towards the right in the plane",
+      "Towards the left in the plane"
+    ],
+    "answer": 0,
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 240 200\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"120\" cy=\"110\" rx=\"80\" ry=\"35\" fill=\"#f8fafc\" stroke=\"#0284c7\" stroke-width=\"3\"/><polygon points=\"120,70 110,75 120,80\" fill=\"#0284c7\"/><text x=\"130\" y=\"65\" font-size=\"13\" font-weight=\"bold\" fill=\"#0284c7\">Current I (anticlockwise)</text><line x1=\"120\" y1=\"110\" x2=\"120\" y2=\"30\" stroke=\"#dc2626\" stroke-width=\"3\"/><polygon points=\"115,35 120,20 125,35\" fill=\"#dc2626\"/><text x=\"130\" y=\"35\" font-size=\"14\" font-weight=\"bold\" fill=\"#dc2626\">B (Field at centre)</text></svg>"
+    },
+    "explanation": "By curling the fingers of the right hand in the anticlockwise direction of current, the outstretched thumb points vertically upward (out of the page).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-029",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Wave Optics",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In Young's Double Slit experiment shown, monochromatic light of wavelength λ passes through two slits S₁ and S₂ separated by distance d. What is the optical path difference Δx = S₂P - S₁P for constructive interference producing the central bright fringe at O?",
+    "options": [
+      "0",
+      "λ / 2",
+      "λ",
+      "3λ / 2"
+    ],
+    "answer": 0,
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"60\" y1=\"20\" x2=\"60\" y2=\"160\" stroke=\"#1b2a4a\" stroke-width=\"3\"/><circle cx=\"60\" cy=\"65\" r=\"4\" fill=\"#0284c7\"/><text x=\"40\" y=\"65\" font-size=\"12\" font-weight=\"bold\" fill=\"#0284c7\">S₁</text><circle cx=\"60\" cy=\"115\" r=\"4\" fill=\"#0284c7\"/><text x=\"40\" y=\"120\" font-size=\"12\" font-weight=\"bold\" fill=\"#0284c7\">S₂</text><line x1=\"280\" y1=\"20\" x2=\"280\" y2=\"160\" stroke=\"#1b2a4a\" stroke-width=\"3\"/><line x1=\"60\" y1=\"65\" x2=\"280\" y2=\"90\" stroke=\"#dc2626\" stroke-width=\"1.5\"/><line x1=\"60\" y1=\"115\" x2=\"280\" y2=\"90\" stroke=\"#dc2626\" stroke-width=\"1.5\"/><circle cx=\"280\" cy=\"90\" r=\"5\" fill=\"#dc2626\"/><text x=\"290\" y=\"95\" font-size=\"13\" font-weight=\"bold\" fill=\"#dc2626\">O (Central Maxima)</text><text x=\"130\" y=\"145\" font-size=\"12\" font-weight=\"bold\" fill=\"#1b2a4a\">Slit-to-Screen D</text></svg>"
+    },
+    "explanation": "At the central point O on the screen symmetric to slits S₁ and S₂, path lengths S₁O and S₂O are equal. Thus path difference Δx = 0, giving the central zero-order bright maximum.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-030",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "The energy band diagram depicts an electrical insulator. Which characteristic energy band gap E_g value correctly distinguishes an insulator from a semiconductor?",
+    "options": [
+      "E_g > 3 eV",
+      "E_g < 0.1 eV",
+      "E_g = 0 eV (overlapping)",
+      "E_g ≈ 1 eV"
+    ],
+    "answer": 0,
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 260 200\" width=\"100%\" height=\"170\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"20\" width=\"180\" height=\"40\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"75\" y=\"45\" font-size=\"13\" font-weight=\"bold\" fill=\"#0284c7\">Conduction Band</text><rect x=\"40\" y=\"130\" width=\"180\" height=\"45\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"80\" y=\"158\" font-size=\"13\" font-weight=\"bold\" fill=\"#b45309\">Valence Band</text><line x1=\"130\" y1=\"65\" x2=\"130\" y2=\"125\" stroke=\"#dc2626\" stroke-width=\"2.5\"/><polygon points=\"126,70 130,62 134,70\" fill=\"#dc2626\"/><polygon points=\"126,120 130,128 134,120\" fill=\"#dc2626\"/><text x=\"140\" y=\"98\" font-size=\"14\" font-weight=\"bold\" fill=\"#dc2626\">E_g > 3 eV</text></svg>"
+    },
+    "explanation": "Insulators have a large forbidden energy gap E_g > 3 eV (e.g., diamond has E_g ≈ 5.4 eV), preventing thermal electrons from reaching the conduction band at ordinary temperatures.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-031",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electric Charges and Fields",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "State Gauss's Law in electrostatics relating total electric flux through a closed surface to the enclosed charge.",
+    "answer": "The total electric flux through any closed surface is equal to 1/ε₀ times the net charge enclosed by the surface.",
+    "acceptedAnswers": [
+      "The total electric flux through any closed surface is equal to 1/ε₀ times the net charge enclosed by the surface",
+      "Total electric flux through a closed surface equals net charge enclosed divided by permittivity of free space",
+      "flux is q/epsilon_0",
+      "Phi = q / epsilon0"
+    ],
+    "keywords": [
+      "flux",
+      "closed surface",
+      "charge",
+      "epsilon"
+    ],
+    "explanation": "Gauss's law states that the surface integral of the electric field over any closed surface is ∮ E · dS = q_enclosed / ε₀.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-032",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Current Electricity",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Kirchhoff's Junction Rule (First Rule) states that the algebraic sum of currents meeting at a junction is zero. Which conservation law does it represent?",
+    "answer": "Conservation of charge",
+    "acceptedAnswers": [
+      "Conservation of charge",
+      "conservation of electric charge",
+      "law of conservation of charge"
+    ],
+    "keywords": [
+      "conservation",
+      "charge"
+    ],
+    "explanation": "Because charge cannot accumulate at or disappear from a circuit junction, ∑ I = 0 directly expresses conservation of electric charge.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-033",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electromagnetic Induction",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What is the SI unit of coefficient of self-inductance (L)?",
+    "answer": "Henry",
+    "acceptedAnswers": [
+      "Henry",
+      "henry",
+      "H"
+    ],
+    "keywords": [
+      "henry",
+      "H"
+    ],
+    "explanation": "The SI unit of self-inductance and mutual inductance is Henry (H), where 1 H = 1 V·s / A = 1 Wb / A.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-034",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Wave Optics",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "According to wave optics, what is the locus of all adjacent points vibrating in the same phase called?",
+    "answer": "Wavefront",
+    "acceptedAnswers": [
+      "Wavefront",
+      "wavefront",
+      "Wave front",
+      "wave front"
+    ],
+    "keywords": [
+      "wavefront"
+    ],
+    "explanation": "A wavefront is defined as the continuous locus of all particles of the medium vibrating in the same phase.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-035",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What is the region on either side of a p-n junction that is devoid of free mobile charge carriers called?",
+    "answer": "Depletion region",
+    "acceptedAnswers": [
+      "Depletion region",
+      "depletion region",
+      "depletion layer",
+      "Depletion layer"
+    ],
+    "keywords": [
+      "depletion"
+    ],
+    "explanation": "Diffusion of majority carriers across the junction leaves behind fixed immobile donor and acceptor ions, creating the depletion region.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-036",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Current Electricity",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Three identical electric bulbs B₁, B₂, and B₃ are connected in parallel across an ideal battery of negligible internal resistance. If bulb B₂ burns out and stops working, what happens to the brightness of bulb B₁?",
+    "options": [
+      "Brightness of B₁ remains unchanged",
+      "Brightness of B₁ decreases",
+      "Brightness of B₁ increases",
+      "Bulb B₁ also stops glowing"
+    ],
+    "answer": 0,
+    "hint": "Check the potential difference across parallel branches connected to an ideal battery.",
+    "explanation": "In a parallel combination across an ideal battery with zero internal resistance, the voltage across branch B₁ remains constant at battery EMF V. Its power dissipation P = V² / R is unchanged, so brightness remains the same.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-037",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electric Charges and Fields",
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "Consider Coulomb's electrostatic force law F_e = (1 / 4πε₀) · (q₁q₂ / r²) and Newton's gravitational force law F_g = G · (m₁m₂ / r²). What is the exact physical electrostatic analogue of gravitational mass?",
+    "options": [
+      "Electric charge",
+      "Electric potential",
+      "Electric current",
+      "Electric field intensity"
+    ],
+    "answer": 0,
+    "hint": "Identify the fundamental source property producing each inverse-square field.",
+    "explanation": "In the mathematical isomorphism between electrostatics and gravitation, electric charge q acts as the source parameter analogous to inertial/gravitational mass m.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-038",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "A digital circuit connects a 2-input NAND gate whose output is fed directly into a NOT gate. If inputs to the NAND gate are A = 1 and B = 1, what is the final logic output Y?",
+    "options": [
+      "1",
+      "0",
+      "Undefined",
+      "Alternating pulse"
+    ],
+    "answer": 0,
+    "hint": "Evaluate the NAND gate output first: NAND(1, 1) = NOT(1 AND 1), then invert with the NOT gate.",
+    "explanation": "Inputs A=1, B=1 to NAND gate produce output = NOT(1 · 1) = 0. Feeding 0 into the NOT gate gives Y = NOT(0) = 1. (This composite gate behaves as an AND gate).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-039",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Nuclei",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "A radioactive parent nucleus ₉₂U²³⁸ undergoes one alpha (α) decay followed by two successive beta-minus (β⁻) decays. What is the nuclear relationship between the parent and the final granddaughter nucleus?",
+    "options": [
+      "They are isotopes of each other",
+      "They are isobars of each other",
+      "They are isotones of each other",
+      "They are identical nuclei"
+    ],
+    "answer": 0,
+    "hint": "Track atomic number Z: α decay subtracts 2 from Z, each β⁻ decay adds 1 to Z.",
+    "explanation": "Initial Z = 92. After 1 α decay: Z' = 92 - 2 = 90. After 2 β⁻ decays: Z'' = 90 + 1 + 1 = 92. Since the final nucleus has the same atomic number Z = 92 but different mass number A = 234, they are isotopes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-040",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "An equiconvex glass lens of focal length f is cut horizontally into two equal upper and lower halves along its principal axis. What is the focal length of each individual half-lens?",
+    "options": [
+      "f",
+      "2f",
+      "f / 2",
+      "4f"
+    ],
+    "answer": 0,
+    "hint": "Check whether radii of curvature R₁ and R₂ or refractive index n change when cut along the axis.",
+    "explanation": "By Lens Maker's formula, focal length depends only on refractive index n and radii of curvature R₁ and R₂. Cutting along the principal axis leaves both curvatures unaltered, so focal length remains f (though image brightness halves due to reduced aperture area).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-041",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electromagnetic Waves",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following physical properties are TRUE for all electromagnetic waves propagating in vacuum? (Select all that apply)",
+    "options": [
+      "They propagate at speed c = 3 × 10⁸ m/s in vacuum",
+      "They are transverse in nature with oscillating E and B vectors perpendicular to direction of propagation",
+      "Electric and magnetic field energy densities in the wave are equal (u_E = u_B)",
+      "They require a material elastic medium for their propagation",
+      "They can be deflected by static electric and magnetic fields"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "EM waves travel at c, are transverse, and store equal energy in electric and magnetic fields. They do not require a medium and carry no electric charge, so they cannot be deflected by static fields.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-042",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electric Charges and Fields",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following electrostatic properties hold TRUE for a solid charged metallic conductor in electrostatic equilibrium? (Select all that apply)",
+    "options": [
+      "Electric field inside the bulk of the conductor is zero",
+      "Excess net electric charge resides entirely on the outer surface",
+      "Electric field just outside the surface is normal to the surface at every point",
+      "Electrostatic potential is constant throughout the volume and surface of the conductor",
+      "Electric field inside a cavity in the conductor is always non-zero"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "For an electrostatic conductor: internal E = 0, charge resides on outer surface, field is normal to surface (E = σ/ε₀), and potential is equipotential throughout. In an empty cavity, E = 0 (electrostatic shielding).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-043",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following experimental observations directly supported the Einstein photon theory over classical wave theory of light? (Select all that apply)",
+    "options": [
+      "Existence of a threshold frequency ν₀ below which no emission occurs regardless of intensity",
+      "Instantaneous emission of photoelectrons without measurable time lag (~10⁻⁹ s)",
+      "Maximum kinetic energy of photoelectrons depends linearly on frequency, independent of intensity",
+      "Number of photoelectrons emitted per second is independent of radiation intensity",
+      "Light behaves as an continuous wave when transmitting energy"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Threshold frequency, zero time lag, and frequency-dependent kinetic energy could only be explained by particle-like photon collisions, proving Einstein's quantum model.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-044",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Alternating Current",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following phenomena occur at resonance in a series LCR AC circuit? (Select all that apply)",
+    "options": [
+      "Inductive reactance equals capacitive reactance (X_L = X_C)",
+      "Total circuit impedance reaches its minimum value (Z = R)",
+      "Circuit current reaches its maximum amplitude",
+      "Current and voltage are in phase (phase difference φ = 0)",
+      "Power factor drops to zero"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "At series resonance, X_L = X_C cancels reactive impedance, minimizing Z to R, maximizing current I = V/R, and making power factor cos φ = 1 (not zero).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-045",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following statements regarding a forward-biased p-n junction diode are CORRECT? (Select all that apply)",
+    "options": [
+      "Positive terminal of battery is connected to p-side and negative to n-side",
+      "Width of the depletion layer decreases",
+      "Barrier potential across the junction decreases",
+      "Diffusion current increases significantly",
+      "Current is due entirely to minority charge carriers"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Forward bias reduces barrier potential and depletion width, allowing majority carriers to diffuse freely, causing large forward current. Minority carrier current characterizes reverse bias.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-046",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electromagnetic Waves",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following bands of the electromagnetic spectrum in INCREASING order of frequency (from lowest frequency to highest frequency):",
+    "orderedItems": [
+      "Radio waves",
+      "Microwaves",
+      "Infrared rays",
+      "Visible light",
+      "Ultraviolet rays",
+      "X-rays",
+      "Gamma rays"
+    ],
+    "answer": "ordered",
+    "explanation": "In order of increasing frequency: Radio (~10⁴-10⁸ Hz) < Microwaves < Infrared < Visible < Ultraviolet < X-rays < Gamma rays (>10¹⁹ Hz).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-047",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Atoms",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the spectral series of the hydrogen atom in order of transitions to higher principal quantum numbers n₁ (from lowest ground level n₁ = 1 upwards):",
+    "orderedItems": [
+      "Lyman series (n₁ = 1, Ultraviolet)",
+      "Balmer series (n₁ = 2, Visible)",
+      "Paschen series (n₁ = 3, Infrared)",
+      "Brackett series (n₁ = 4, Infrared)",
+      "Pfund series (n₁ = 5, Far Infrared)"
+    ],
+    "answer": "ordered",
+    "explanation": "The hydrogen spectral series correspond to transitions down to lower levels: Lyman (n₁=1), Balmer (n₁=2), Paschen (n₁=3), Brackett (n₁=4), and Pfund (n₁=5).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-048",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the chronological sequence of processes occurring during the formation of an unbiased p-n junction:",
+    "orderedItems": [
+      "Majority carriers diffuse across junction (holes p→n, electrons n→p)",
+      "Recombination leaves unneutralized immobile ionized donor and acceptor cores",
+      "Depletion layer devoid of mobile charge carriers develops around junction",
+      "Internal electric field builds up pointing from n-side to p-side",
+      "Drift current balances diffusion current reaching dynamic thermal equilibrium"
+    ],
+    "answer": "ordered",
+    "explanation": "Diffusion initiates the process, leaving exposed space charge ions, which establishes the internal electric field and barrier potential until diffusion and drift currents balance in equilibrium.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-049",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the optical events undergone by a sunlight ray inside a suspended spherical raindrop during the formation of a primary rainbow:",
+    "orderedItems": [
+      "Sunlight enters raindrop and undergoes refraction with dispersion",
+      "Dispersed light travels to the back inner surface of the raindrop",
+      "Total internal reflection occurs at the back surface of the drop",
+      "Reflected rays strike the front surface of the raindrop",
+      "Rays undergo a second refraction emerging towards the observer's eye"
+    ],
+    "answer": "ordered",
+    "explanation": "A primary rainbow involves refraction with dispersion on entry, one internal reflection at the back boundary, and refraction on exit.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-050",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Nuclei",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the four fundamental forces of nature in INCREASING order of their relative strength (from weakest to strongest):",
+    "orderedItems": [
+      "Gravitational force (relative strength ~10⁻³⁹)",
+      "Weak nuclear force (relative strength ~10⁻¹³)",
+      "Electromagnetic force (relative strength ~10⁻²)",
+      "Strong nuclear force (relative strength 1)"
+    ],
+    "answer": "ordered",
+    "explanation": "Gravitational force is the weakest, followed by weak nuclear force, electromagnetic force, and strong nuclear force as the strongest interaction in nature.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-051",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electric Charges and Fields",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "An electric dipole of moment p is placed in a uniform electric field E at an angle theta with the field. What is the work done in rotating the dipole from stable equilibrium (theta = 0) to unstable equilibrium (theta = 180 degrees)?",
+    "options": [
+      "pE",
+      "2pE",
+      "-2pE",
+      "Zero"
+    ],
+    "answer": 1,
+    "explanation": "Potential energy of dipole is U(theta) = -pE cos(theta). At stable equilibrium (theta = 0), U(0) = -pE. At unstable equilibrium (theta = 180°), U(180°) = -pE cos(180°) = +pE. Work done W = U(180°) - U(0) = pE - (-pE) = 2pE.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-052",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A parallel plate capacitor with air between the plates has capacitance C0. It is charged to a potential V0 and then disconnected from the battery. A dielectric slab of dielectric constant K is then completely inserted between the plates. What are the new capacitance C, potential difference V, and stored energy U compared to original values C0, V0, U0?",
+    "options": [
+      "C = K C0, V = V0/K, U = U0/K",
+      "C = K C0, V = K V0, U = K U0",
+      "C = C0/K, V = V0/K, U = U0",
+      "C = K C0, V = V0, U = U0/K"
+    ],
+    "answer": 0,
+    "explanation": "When battery is disconnected, charge Q remains constant (Q = C0 V0). On inserting dielectric, capacitance becomes C = K C0. The potential difference becomes V = Q/C = (C0 V0)/(K C0) = V0/K. The stored energy becomes U = Q^2 / (2C) = Q^2 / (2 K C0) = U0/K.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-053",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Current Electricity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A potentiometer wire of length 10 m and resistance 20 ohms is connected in series with a battery of emf 3 V (negligible internal resistance) and a series resistance of 10 ohms. What is the potential gradient along the potentiometer wire?",
+    "options": [
+      "0.20 V/m",
+      "0.15 V/m",
+      "0.30 V/m",
+      "0.10 V/m"
+    ],
+    "answer": 0,
+    "explanation": "Total circuit resistance = R_wire + R_series = 20 + 10 = 30 ohms. Current I = E / R_total = 3 V / 30 ohms = 0.1 A. Potential drop across the 10 m wire V_wire = I * R_wire = 0.1 A * 20 ohms = 2.0 V. Potential gradient k = V_wire / L = 2.0 V / 10 m = 0.20 V/m.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-054",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Moving Charges and Magnetism",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A circular current-carrying coil of radius R has a magnetic field B0 at its centre. At what distance x along the axis of the coil from its centre does the magnetic field become B0 / 8?",
+    "options": [
+      "R",
+      "sqrt(2) R",
+      "sqrt(3) R",
+      "2 R"
+    ],
+    "answer": 2,
+    "explanation": "On the axis of circular coil: B(x) = (mu0 * I * R^2) / [2 * (R^2 + x^2)^(3/2)]. At centre (x = 0): B0 = (mu0 * I) / (2 R). Therefore, B(x)/B0 = R^3 / (R^2 + x^2)^(3/2) = 1/8. Taking cube root: R / sqrt(R^2 + x^2) = 1/2, so sqrt(R^2 + x^2) = 2R, R^2 + x^2 = 4R^2 => x^2 = 3R^2 => x = sqrt(3) R.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-055",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electromagnetic Induction",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A copper rod of length L rotates with an angular speed omega in a uniform magnetic field B perpendicular to the plane of rotation about one of its ends. What is the electromotive force induced across its ends?",
+    "options": [
+      "(1/2) B omega L^2",
+      "B omega L^2",
+      "(1/4) B omega L^2",
+      "2 B omega L^2"
+    ],
+    "answer": 0,
+    "explanation": "Induced emf across the rotating rod = integral from 0 to L of (v * B) dr = integral from 0 to L of (omega * r * B) dr = B * omega * [r^2 / 2] from 0 to L = (1/2) B omega L^2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-056",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Alternating Current",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In a series LCR AC circuit, resonance occurs when:",
+    "options": [
+      "Inductive reactance equals capacitive reactance (X_L = X_C)",
+      "Impedance Z is maximum",
+      "Current lags voltage by 90 degrees",
+      "Resistive component is zero"
+    ],
+    "answer": 0,
+    "explanation": "At electrical resonance in a series LCR circuit, inductive reactance equals capacitive reactance: omega L = 1 / (omega C). Impedance Z = sqrt(R^2 + (X_L - X_C)^2) becomes minimum (Z = R) and current is in phase with voltage.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-057",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A compound microscope has an objective of focal length 1.25 cm and an eyepiece of focal length 5.0 cm. A small object is kept at 1.5 cm from the objective. If the final image is formed at the near point (D = 25 cm), what is the total magnifying power?",
+    "options": [
+      "20",
+      "25",
+      "30",
+      "15"
+    ],
+    "answer": 2,
+    "explanation": "Magnification by objective: 1/v_o - 1/u_o = 1/f_o => 1/v_o - 1/(-1.5) = 1/1.25 => 1/v_o = 1/1.25 - 1/1.5 = 0.8 - 0.6667 = 0.1333 => v_o = 7.5 cm. Linear magnification m_o = |v_o / u_o| = 7.5 / 1.5 = 5. Magnification by eyepiece at near point m_e = (1 + D / f_e) = (1 + 25 / 5) = 6. Total magnification M = m_o * m_e = 5 * 6 = 30.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-058",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Wave Optics",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Young's double slit experiment, yellow light of wavelength 600 nm produces fringes of width 2.0 mm on a screen. If a thin transparent mica sheet of refractive index 1.6 is placed in front of one of the slits, the central bright fringe shifts by a distance equal to 4 fringe widths. What is the thickness of the mica sheet?",
+    "options": [
+      "4.0 micrometres",
+      "2.4 micrometres",
+      "6.0 micrometres",
+      "8.0 micrometres"
+    ],
+    "answer": 0,
+    "explanation": "Path difference introduced by sheet of thickness t and refractive index mu is (mu - 1) t. Fringe shift Delta y = [D / d] * (mu - 1) t. Since fringe width beta = lambda * D / d, shift Delta y = [(mu - 1) t / lambda] * beta. We are given Delta y = 4 beta. Therefore, (mu - 1) t / lambda = 4 => t = 4 * lambda / (mu - 1) = 4 * 600 nm / (1.6 - 1) = 2400 nm / 0.6 = 4000 nm = 4.0 micrometres.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-059",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The work function of cesium metal is 2.14 eV. If Planck's constant is 6.63 x 10^-34 J s and 1 eV = 1.6 x 10^-19 J, what is the threshold frequency of cesium?",
+    "options": [
+      "5.16 x 10^14 Hz",
+      "3.24 x 10^14 Hz",
+      "6.82 x 10^14 Hz",
+      "4.12 x 10^14 Hz"
+    ],
+    "answer": 0,
+    "explanation": "Work function phi_0 = h * nu_0. Therefore, threshold frequency nu_0 = phi_0 / h = (2.14 * 1.6 * 10^-19 J) / (6.63 * 10^-34 J s) = 3.424 * 10^-19 / 6.63 * 10^-34 = 5.16 x 10^14 Hz.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-060",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electromagnetic Waves",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In a plane electromagnetic wave propagating through vacuum along the z-axis, the electric and magnetic fields are perpendicular to each other, perpendicular to the direction of wave propagation, and oscillate in the same phase.",
+    "answer": true,
+    "explanation": "Electromagnetic waves are transverse waves in which electric vector E and magnetic vector B oscillate mutually perpendicular to each other and to the propagation direction k, and their peaks and troughs occur simultaneously (in phase).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-061",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In a reverse-biased p-n junction diode, the barrier potential increases and the current flowing through the junction is primarily due to the drift of minority charge carriers.",
+    "answer": true,
+    "explanation": "Under reverse bias, the applied voltage reinforces the built-in potential barrier, preventing majority carrier diffusion. The tiny current that flows (reverse saturation current) is due to the drift of thermally generated minority carriers across the depletion layer.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-062",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Atoms",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In the hydrogen atom emission spectrum, the only spectral series whose transition lines fall completely or partially in the visible region is the _____ series.",
+    "answer": "Balmer",
+    "acceptedAnswers": [
+      "Balmer",
+      "Balmer series"
+    ],
+    "explanation": "The Balmer series corresponds to electron transitions from higher orbits (n >= 3) to the n = 2 level and falls in the visible range of the electromagnetic spectrum.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-063",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electric Charges and Fields",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Two point charges +4 microC and +1 microC are separated by a distance of 30 cm in air. At what distance (in cm) from the +4 microC charge along the line segment joining the two charges is the net electric field zero?",
+    "answer": 20,
+    "tolerance": 0.5,
+    "unit": "cm",
+    "explanation": "Let the null point be at distance x from +4 microC charge and (30 - x) from +1 microC charge. Setting E1 = E2: (1 / 4 pi eps0) * (4 / x^2) = (1 / 4 pi eps0) * (1 / (30 - x)^2). Taking square roots: 2 / x = 1 / (30 - x) => 2(30 - x) = x => 60 - 2x = x => 3x = 60 => x = 20 cm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-064",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A 12 pF parallel plate capacitor is connected to a 50 V battery. Calculate the electrostatic potential energy stored in the capacitor in nanojoules (nJ).",
+    "answer": 15,
+    "tolerance": 0.2,
+    "unit": "nJ",
+    "explanation": "Stored electrostatic energy U = (1/2) * C * V^2 = 0.5 * (12 x 10^-12 F) * (50 V)^2 = 0.5 * 12 x 10^-12 * 2500 = 15,000 x 10^-12 J = 1.5 x 10^-8 J = 15 nJ.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-065",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Current Electricity",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A storage battery of emf 10 V and internal resistance 3 ohms is connected to an external resistor R. If the current flowing through the circuit is 0.5 A, what is the resistance of the external resistor in ohms?",
+    "answer": 17,
+    "tolerance": 0.1,
+    "unit": "ohms",
+    "explanation": "According to Ohm's law for a complete circuit: I = E / (R + r). Given E = 10 V, r = 3 ohms, I = 0.5 A: 0.5 = 10 / (R + 3) => R + 3 = 10 / 0.5 = 20 ohms => R = 20 - 3 = 17 ohms.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-066",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Moving Charges and Magnetism",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A galvanometer of resistance 50 ohms gives a full-scale deflection for a current of 2 mA. What shunt resistance in ohms (to three decimal places) must be connected in parallel with it to convert it into an ammeter of range 0 to 5 A?",
+    "answer": 0.02,
+    "tolerance": 0.005,
+    "unit": "ohms",
+    "explanation": "Shunt resistance S = (I_g * G) / (I - I_g). Given G = 50 ohms, I_g = 2 mA = 0.002 A, I = 5 A. S = (0.002 * 50) / (5 - 0.002) = 0.1 / 4.998 = 0.0200 ohms.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-067",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Alternating Current",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In a series LCR circuit, L = 2.0 H, C = 32 microfarads, and R = 10 ohms. Calculate the resonant angular frequency omega_r of the circuit in radians per second (rad/s).",
+    "answer": 125,
+    "tolerance": 0.5,
+    "unit": "rad/s",
+    "explanation": "Resonant angular frequency omega_r = 1 / sqrt(L * C) = 1 / sqrt(2.0 * 32 x 10^-6) = 1 / sqrt(64 x 10^-6) = 1 / (8 x 10^-3) = 1000 / 8 = 125 rad/s.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-068",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "A full-wave bridge rectifier is supplied by an AC mains power line having a frequency of 50 Hz. What is the fundamental ripple frequency of the rectified output in Hz?",
+    "answer": 100,
+    "tolerance": 0,
+    "unit": "Hz",
+    "explanation": "In a full-wave rectifier, both positive and negative half-cycles of the AC input conduct through the load in the same direction. Hence, output ripple frequency f_out = 2 * f_in = 2 * 50 Hz = 100 Hz.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-069",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the optical path of light rays passing symmetrically through an equilateral glass prism of apex angle A = 60 degrees. If the angle of minimum deviation D_m is measured to be 30 degrees, what is the refractive index of the prism material?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 200\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"160,30 60,170 260,170\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2.5\"/><line x1=\"20\" y1=\"130\" x2=\"110\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"110\" y1=\"105\" x2=\"210\" y2=\"105\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"210\" y1=\"105\" x2=\"300\" y2=\"130\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"110\" y1=\"105\" x2=\"260\" y2=\"70\" stroke=\"#94a3b8\" stroke-dasharray=\"3,3\"/><line x1=\"210\" y1=\"105\" x2=\"60\" y2=\"70\" stroke=\"#94a3b8\" stroke-dasharray=\"3,3\"/><text x=\"150\" y=\"25\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">A = 60°</text><text x=\"145\" y=\"80\" font-size=\"12\" fill=\"#ef4444\">r₁ = r₂</text><text x=\"160\" y=\"190\" font-size=\"13\" font-weight=\"bold\" fill=\"#1b2a4a\">Equilateral Prism</text></svg>"
+    },
+    "options": [
+      "sqrt(2) approx 1.414",
+      "1.500",
+      "sqrt(3) approx 1.732",
+      "1.333"
+    ],
+    "answer": 0,
+    "explanation": "By prism formula: mu = sin[(A + D_m)/2] / sin(A/2) = sin[(60° + 30°)/2] / sin(60°/2) = sin(45°) / sin(30°) = (1 / sqrt(2)) / (1 / 2) = 2 / sqrt(2) = sqrt(2) approx 1.414.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-070",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Nuclei",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Define the mass defect of a nucleus and state Einstein's mass-energy equivalence equation.",
+    "answer": "Mass defect is the difference between the total mass of the individual constituent nucleons (protons and neutrons) and the actual rest mass of the bound nucleus: Delta m = [Z*m_p + (A - Z)*m_n] - M. According to Einstein's mass-energy equivalence, this mass difference is converted into nuclear binding energy: E = (Delta m) * c^2.",
+    "acceptedAnswers": [
+      "Mass defect is the difference between the total mass of the individual constituent nucleons and the actual rest mass of the bound nucleus",
+      "Difference between mass of nucleons and actual mass of nucleus",
+      "Delta m = Z*mp + (A-Z)*mn - M and E = mc^2",
+      "Mass defect is the mass lost when nucleons bind together into a nucleus, related by E = mc^2"
+    ],
+    "keywords": [
+      "mass defect",
+      "nucleons",
+      "rest mass",
+      "binding energy",
+      "Delta m",
+      "E = mc^2"
+    ],
+    "explanation": "Mass defect represents the mass converted into binding energy during nucleus formation from separate protons and neutrons according to Einstein's relation E = Delta m * c^2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-071",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): The maximum kinetic energy of photoelectrons emitted from a metallic surface depends on the frequency of incident radiation and is independent of its intensity.\nReason (R): The intensity of incident radiation determines the number of photons incident per second, while the energy of each individual photon is determined solely by its frequency.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "According to Einstein's photoelectric equation: K_max = h*nu - phi_0. One photon interacts with one electron. More intensity means more photons per unit time, resulting in a higher photocurrent, but the energy of each photon depends only on frequency nu.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-072",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Magnetism and Matter",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): Diamagnetic materials tend to move from stronger parts to weaker parts of a non-uniform external magnetic field.\nReason (R): In a diamagnetic material, the magnetic susceptibility chi is small and positive, causing internal magnetic induction to exceed external field B0.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 2,
+    "explanation": "Assertion (A) is true because diamagnetic substances develop feeble magnetization opposing the external magnetic field, thus being repelled towards regions of lower field strength. Reason (R) is false because diamagnetic susceptibility is small and negative (-1 <= chi < 0), and relative permeability mu_r < 1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-073",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electromagnetic Induction",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following statements regarding Faraday's law, Lenz's law, and self-inductance are scientifically CORRECT? (Select all that apply)",
+    "options": [
+      "Lenz's law is a direct consequence of the principle of conservation of energy.",
+      "The self-inductance of a long air-core solenoid is directly proportional to the square of its number of turns per unit length.",
+      "The SI unit of magnetic flux is the weber (Wb), where 1 Wb = 1 Tesla * m^2.",
+      "A closed circuit with zero resistance in a changing magnetic field will support an infinite induced current without any back-emf."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Options A, B, and C are correct: (A) Mechanical work done against the opposing induced force converts into electrical energy, satisfying conservation of energy; (B) For a solenoid, L = mu0 * n^2 * A * l; (C) Magnetic flux phi = B * A, so 1 Wb = 1 T m^2. Option D is incorrect because back-emf and flux conservation constrain superconductors to maintain constant flux rather than infinite current.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-074",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following statements are TRUE for an intrinsic semiconductor like pure silicon as its absolute temperature increases? (Select all that apply)",
+    "options": [
+      "The concentration of thermally generated electron-hole pairs increases exponentially.",
+      "The electrical conductivity of the semiconductor increases.",
+      "The Fermi energy level shifts into the conduction band.",
+      "Its temperature coefficient of resistance is negative."
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "In intrinsic semiconductors: as temperature increases, more covalent bonds break, generating more electron-hole pairs (n_i increases exponentially with T). Therefore, conductivity sigma increases and resistivity rho decreases, giving a negative temperature coefficient of resistance (alpha < 0). The Fermi level remains near the center of the band gap.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-075",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electromagnetic Waves",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following regions of the electromagnetic spectrum in strictly ascending order of their frequency (from lowest frequency to highest frequency):",
+    "orderedItems": [
+      "Radio waves",
+      "Microwaves",
+      "Infrared radiation",
+      "Visible light",
+      "Ultraviolet radiation",
+      "X-rays",
+      "Gamma rays"
+    ],
+    "explanation": "In order of increasing frequency (and decreasing wavelength): Radio waves (~10^4 - 10^8 Hz) < Microwaves (~10^9 - 10^11 Hz) < Infrared (~10^11 - 4x10^14 Hz) < Visible (~4x10^14 - 7.5x10^14 Hz) < Ultraviolet (~7.5x10^14 - 10^16 Hz) < X-rays (~10^16 - 10^19 Hz) < Gamma rays (>10^19 Hz).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-076",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Nuclei",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "From the binding energy per nucleon (E_bn) versus mass number (A) curve, what can be deduced about nuclear stability?",
+    "options": [
+      "E_bn is maximum around A = 56 (Iron) with a value of about 8.75 MeV/nucleon, making intermediate nuclei most stable",
+      "E_bn increases monotonically with mass number A, making super-heavy nuclei the most stable",
+      "Very light nuclei (A < 20) have higher binding energy per nucleon than intermediate nuclei",
+      "Heavy nuclei with A > 200 undergo spontaneous fusion rather than fission"
+    ],
+    "answer": 0,
+    "explanation": "The binding energy curve peaks around mass number A = 56 (Iron-56) at approximately 8.75 MeV/nucleon. For intermediate nuclei (30 < A < 170), E_bn is nearly constant (~8.5 MeV). Very heavy nuclei have lower E_bn (~7.6 MeV for Uranium) and can undergo fission to release energy, while very light nuclei can undergo fusion.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-077",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "An electron (charge e, mass m) and an alpha particle (charge 2e, mass 4m_p where m_p approx 1836 m) are accelerated from rest through potential differences of V and 4V respectively. What is the ratio of the de Broglie wavelength of the electron to that of the alpha particle?",
+    "options": [
+      "sqrt(32 m_p / m)",
+      "sqrt(8 m_p / m)",
+      "2 * sqrt(m_p / m)",
+      "sqrt(m_p / (8 m))"
+    ],
+    "answer": 0,
+    "explanation": "de Broglie wavelength lambda = h / sqrt(2 * m * q * V). For electron: lambda_e = h / sqrt(2 * m * e * V). For alpha particle: lambda_alpha = h / sqrt(2 * (4 m_p) * (2e) * (4V)) = h / sqrt(64 * m_p * e * V). Ratio lambda_e / lambda_alpha = sqrt(64 * m_p * e * V / (2 * m * e * V)) = sqrt(32 * m_p / m).",
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-078",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Atoms",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In the Bohr model of the hydrogen atom, what is the relation between the kinetic energy K, potential energy U, and total energy E of an orbiting electron?",
+    "options": [
+      "U = -2K, and E = -K",
+      "U = 2K, and E = +K",
+      "U = -K, and E = -2K",
+      "U = K, and E = 0"
+    ],
+    "answer": 0,
+    "explanation": "For an inverse-square central electrostatic field (Virial theorem): Potential energy U = -e^2 / (4 pi eps0 r), Kinetic energy K = e^2 / (8 pi eps0 r) = -U / 2. Total energy E = K + U = K - 2K = -K = U / 2.",
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-079",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In a centre-tapped full-wave rectifier, if the maximum peak voltage across each half of the secondary transformer winding is Vm, what is the Peak Inverse Voltage (PIV) rating required for each diode?",
+    "options": [
+      "2 Vm",
+      "Vm",
+      "Vm / sqrt(2)",
+      "Vm / 2"
+    ],
+    "answer": 0,
+    "explanation": "In a center-tapped full-wave rectifier, when one diode conducts, the non-conducting diode faces the peak voltage of the conducting half plus the peak voltage of its own half winding. Therefore, PIV = 2 Vm. In contrast, for a bridge rectifier PIV = Vm.",
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-080",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Wave Optics",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Light of wavelength 500 nm falls perpendicularly on a single slit of width 0.1 mm. What is the linear width of the central diffraction maximum on a screen placed 2.0 m away from the slit?",
+    "options": [
+      "20 mm",
+      "10 mm",
+      "40 mm",
+      "5 mm"
+    ],
+    "answer": 0,
+    "explanation": "The central maximum in Fraunhofer single-slit diffraction extends from the first minimum on one side (theta = -lambda/a) to the first minimum on the other side (theta = +lambda/a). Angular width 2 theta = 2 * lambda / a. Linear width w = 2 * lambda * D / a = 2 * (500 x 10^-9 m) * (2.0 m) / (0.1 x 10^-3 m) = 2000 x 10^-9 / 10^-4 = 2 x 10^-2 m = 20 mm.",
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-081",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Moving Charges and Magnetism",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A charged particle of mass m and charge q enters a uniform magnetic field B with a velocity v inclined at an angle theta to the direction of B. What is the pitch of the resulting helical path?",
+    "options": [
+      "(2 pi m v cos theta) / (q B)",
+      "(2 pi m v sin theta) / (q B)",
+      "(2 pi m v) / (q B)",
+      "(pi m v cos theta) / (2 q B)"
+    ],
+    "answer": 0,
+    "explanation": "The velocity component perpendicular to the field v_perp = v sin theta produces circular motion with time period T = 2 pi m / (q B). The component parallel to the field v_parallel = v cos theta remains unaffected and produces linear translation along B. The pitch is the distance traveled along B in one time period: Pitch = v_parallel * T = (v cos theta) * (2 pi m / (q B)) = (2 pi m v cos theta) / (q B).",
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-082",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Magnetism and Matter",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Curie's law states that for a paramagnetic material at temperature T well above absolute zero, its magnetic susceptibility chi is:",
+    "options": [
+      "Inversely proportional to its absolute temperature T (chi = C / T)",
+      "Directly proportional to its absolute temperature T (chi = C * T)",
+      "Independent of temperature T",
+      "Inversely proportional to the square of absolute temperature T (chi = C / T^2)"
+    ],
+    "answer": 0,
+    "explanation": "Curie's law for paramagnetic substances states that magnetization M is directly proportional to applied magnetic field B and inversely proportional to absolute temperature T: chi = M / H = C / T, where C is Curie's constant.",
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-083",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "An optical fibre consists of a core of refractive index n1 surrounded by a cladding of refractive index n2 (n1 > n2). What is the numerical aperture (NA) of the fibre for light incident from air (n0 = 1)?",
+    "options": [
+      "sqrt(n1^2 - n2^2)",
+      "sqrt(n1^2 + n2^2)",
+      "n1 / n2",
+      "n1 - n2"
+    ],
+    "answer": 0,
+    "explanation": "At the core-cladding boundary, total internal reflection requires critical angle sin(theta_c) = n2 / n1. Using Snell's law at the fibre entrance: sin(theta_max) = n1 * sin(90° - theta_c) = n1 * cos(theta_c) = n1 * sqrt(1 - (n2/n1)^2) = sqrt(n1^2 - n2^2). This maximum sine of acceptance angle is defined as Numerical Aperture NA = sqrt(n1^2 - n2^2).",
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-084",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electric Charges and Fields",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The electrostatic force between two stationary point charges obeys Newton's third law of motion: the force exerted by charge q1 on charge q2 is equal in magnitude and opposite in direction to the force exerted by q2 on q1.",
+    "answer": true,
+    "explanation": "Coulomb's law in vector form shows that F_12 = -F_21 along the line joining the two point charges, satisfying Newton's third law (action-reaction pair).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-085",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Current Electricity",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Kirchhoff's junction rule (first law), stating that the sum of currents entering a node equals the sum of currents leaving the node, is an expression of the law of conservation of _____.",
+    "answer": "charge",
+    "acceptedAnswers": [
+      "charge",
+      "electric charge"
+    ],
+    "explanation": "At any electrical junction, electric charge cannot accumulate or vanish; therefore, the algebraic sum of currents meeting at a junction is zero (conservation of charge).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-086",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electromagnetic Induction",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The direction of an induced electromotive force or current in a closed loop opposing the change in magnetic flux that produces it is governed by _____ law.",
+    "answer": "Lenz's",
+    "acceptedAnswers": [
+      "Lenz's",
+      "Lenz",
+      "Lenz's law",
+      "Lenz law"
+    ],
+    "explanation": "Lenz's law states that the polarity of induced emf is such that it tends to produce a current which opposes the change in magnetic flux that produced it.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-087",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electric Charges and Fields",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "An electric dipole with dipole moment 4.0 x 10^-9 C m is aligned at an angle of 30 degrees with the direction of a uniform electric field of magnitude 5.0 x 10^4 N/C. Calculate the magnitude of the torque acting on the dipole in micro-newton-metres (microN m).",
+    "answer": 100,
+    "tolerance": 1,
+    "unit": "microN m",
+    "explanation": "Torque tau = p * E * sin(theta) = (4.0 x 10^-9 C m) * (5.0 x 10^4 N/C) * sin(30°) = 20.0 x 10^-5 * 0.5 = 10^-4 N m = 100 x 10^-6 N m = 100 microN m.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-088",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electrostatic Potential and Capacitance",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Three capacitors each of capacitance 9 pF are connected in series. What is the total equivalent capacitance of the combination in picofarads (pF)?",
+    "answer": 3,
+    "tolerance": 0.1,
+    "unit": "pF",
+    "explanation": "For three identical capacitors C in series, 1/C_eq = 1/C + 1/C + 1/C = 3/C => C_eq = C / 3 = 9 pF / 3 = 3 pF.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-089",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Current Electricity",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In a metre bridge experiment, the null point is obtained at a distance of 39.5 cm from the left end A when an unknown resistor X is in the left gap and a standard resistor Y = 12.5 ohms is in the right gap. Determine the value of resistance X in ohms (to two decimal places).",
+    "answer": 8.16,
+    "tolerance": 0.05,
+    "unit": "ohms",
+    "explanation": "For a balanced metre bridge: X / Y = l / (100 - l). Given l = 39.5 cm and Y = 12.5 ohms: X = Y * [l / (100 - l)] = 12.5 * [39.5 / (100 - 39.5)] = 12.5 * [39.5 / 60.5] = 12.5 * 0.65289 = 8.16 ohms.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-090",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Moving Charges and Magnetism",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A long straight horizontal wire carries a steady current of 50 A flowing from south to north. What is the magnitude of the magnetic field in microtesla (microT) at a point located 2.5 m east of the wire?",
+    "answer": 4,
+    "tolerance": 0.1,
+    "unit": "microT",
+    "explanation": "Magnetic field due to a long straight current wire: B = (mu0 * I) / (2 * pi * r) = (4 pi x 10^-7 * 50) / (2 * pi * 2.5) = (2 x 10^-7 * 50) / 2.5 = 100 x 10^-7 / 2.5 = 40 x 10^-7 T = 4 x 10^-6 T = 4 microT.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-091",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Alternating Current",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A 100 microfarad capacitor in series with a 40 ohm resistor is connected across a 110 V (rms), 60 Hz AC supply. Calculate the peak (maximum) current I_0 in the circuit in amperes (to two decimal places).",
+    "answer": 3.24,
+    "tolerance": 0.08,
+    "unit": "A",
+    "explanation": "Capacitive reactance X_C = 1 / (2 * pi * f * C) = 1 / (2 * 3.1416 * 60 * 100 x 10^-6) = 1 / 0.0377 = 26.53 ohms. Impedance Z = sqrt(R^2 + X_C^2) = sqrt(40^2 + 26.53^2) = sqrt(1600 + 703.8) = sqrt(2303.8) = 48.0 ohms. RMS current I_rms = V_rms / Z = 110 V / 48.0 ohms = 2.292 A. Peak current I_0 = sqrt(2) * I_rms = 1.414 * 2.292 A = 3.24 A.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-092",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A candle is placed at a distance of 27 cm in front of a concave mirror having a radius of curvature of 36 cm. At what distance (in cm) from the mirror should a screen be placed to capture a sharp focused image?",
+    "answer": 54,
+    "tolerance": 0.5,
+    "unit": "cm",
+    "explanation": "Focal length of concave mirror f = R / 2 = -36 / 2 = -18 cm. Object distance u = -27 cm. Mirror formula: 1/v + 1/u = 1/f => 1/v = 1/f - 1/u = -1/18 - (-1/27) = -1/18 + 1/27 = (-3 + 2) / 54 = -1/54 => v = -54 cm. The screen must be placed 54 cm in front of the mirror.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-093",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Dual Nature of Radiation and Matter",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Calculate the de Broglie wavelength in picometres (pm, to one decimal place) associated with an electron accelerated from rest through a potential difference of 100 volts.",
+    "answer": 122.7,
+    "tolerance": 1,
+    "unit": "pm",
+    "explanation": "de Broglie wavelength of an electron: lambda = 1.227 / sqrt(V) nm = 1.227 / sqrt(100) nm = 1.227 / 10 nm = 0.1227 nm = 122.7 pm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-094",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Semiconductor Electronics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "State two principal physical reasons why silicon is preferred over germanium in the fabrication of solid-state semiconductor devices.",
+    "answer": "Silicon is preferred because it has a wider energy band gap (1.1 eV vs 0.72 eV for Ge), resulting in substantially lower reverse saturation leakage current, and it operates reliably at higher temperatures with higher breakdown voltages.",
+    "acceptedAnswers": [
+      "Silicon has a larger band gap (1.1 eV) resulting in smaller reverse leakage current and higher temperature stability",
+      "Larger energy band gap and higher operating temperature capability with lower reverse leakage current",
+      "Higher band gap and lower reverse saturation current",
+      "Silicon can operate at higher temperatures and has smaller leakage current than germanium"
+    ],
+    "keywords": [
+      "band gap",
+      "reverse saturation",
+      "leakage current",
+      "temperature",
+      "silicon"
+    ],
+    "explanation": "Silicon's wider band gap (1.1 eV) drastically reduces thermally generated minority carrier leakage current and allows stable operation up to 150°C-200°C compared to germanium's limit of ~75°C.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-095",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Wave Optics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "State two essential conditions required to obtain sustained and clearly visible interference fringes from two light sources.",
+    "answer": "The two light sources must be coherent (maintaining a constant phase difference over time), must emit light of identical wavelength (monochromatic), and should have narrow slit widths close to each other.",
+    "acceptedAnswers": [
+      "The two sources must be coherent and monochromatic",
+      "Constant phase difference (coherent sources) and same wavelength (monochromatic light)",
+      "Coherent sources and equal or nearly equal amplitudes",
+      "Monochromatic light and coherent sources"
+    ],
+    "keywords": [
+      "coherent",
+      "monochromatic",
+      "constant phase difference",
+      "wavelength"
+    ],
+    "explanation": "Sustained interference requires coherent sources that maintain a time-independent phase difference, and monochromatic light to prevent overlapping colour fringes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-096",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Electromagnetic Waves",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): During the charging of a parallel-plate capacitor, a magnetic field is produced in the space between the plates even though no conduction current passes through the dielectric gap.\nReason (R): A time-varying electric field between the capacitor plates generates a displacement current I_d = eps0 * (d Phi_E / dt), which acts as a source of magnetic field according to Maxwell-Ampere law.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "According to the Maxwell-Ampere circuital law: oint B · dl = mu0 * (I_c + I_d). In the gap between plates, conduction current I_c = 0, but the changing electric flux produces displacement current I_d = eps0 * (d Phi_E / dt), producing a magnetic field identical to that produced by conduction current.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-097",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Atoms",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following statements regarding Bohr's model of the hydrogen atom and atomic energy levels are CORRECT? (Select all that apply)",
+    "options": [
+      "The orbital angular momentum of an electron in stationary orbit is quantized: L = n * h / (2 pi).",
+      "The radius of the nth orbit is directly proportional to n^2 (r_n proportional to n^2).",
+      "The total energy of an electron in the nth orbit is inversely proportional to n^2 (E_n = -13.6 eV / n^2).",
+      "The speed of an electron in orbit increases linearly with the principal quantum number n."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Statements A, B, and C are correct: (A) Bohr quantization condition L = m v r = n h / (2 pi); (B) Radius r_n = (eps0 h^2 n^2) / (pi m e^2) proportional to n^2; (C) Energy E_n = -13.6 eV / n^2. Statement D is false because orbital velocity v_n = e^2 / (2 eps0 h n) is inversely proportional to n (decreases as n increases).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-098",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Nuclei",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following properties are TRUE regarding the nuclear force operating between nucleons? (Select all that apply)",
+    "options": [
+      "It is strongly attractive at distances around 1 fm, but becomes strongly repulsive at separations less than 0.8 fm.",
+      "It is charge-independent (nearly identical for p-p, p-n, and n-n pairs).",
+      "It is a central force obeying the inverse square law like gravitational and electrostatic forces.",
+      "It exhibits saturation property, interacting only with nearest-neighbor nucleons."
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "The nuclear force is: (A) strongly attractive at ~1 fm and repulsive at < 0.8 fm (preventing nuclear collapse); (B) charge-independent; and (D) a short-range force exhibiting saturation. Statement C is incorrect because nuclear forces are non-central (spin-dependent and tensor in nature) and do not follow an inverse-square law.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-099",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Atoms",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following spectral emission series of atomic hydrogen in order of increasing lower principal quantum number n1:",
+    "orderedItems": [
+      "Lyman series (n1 = 1)",
+      "Balmer series (n1 = 2)",
+      "Paschen series (n1 = 3)",
+      "Brackett series (n1 = 4)",
+      "Pfund series (n1 = 5)"
+    ],
+    "explanation": "The spectral series of hydrogen correspond to electron transitions ending on lower quantum numbers: Lyman (n1 = 1, ultraviolet), Balmer (n1 = 2, visible), Paschen (n1 = 3, infrared), Brackett (n1 = 4, infrared), and Pfund (n1 = 5, far-infrared).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-phy-100",
+    "class": 12,
+    "subject": "physics",
+    "chapter": "Ray Optics and Optical Instruments",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the chronological steps for tracing image formation by a thin convex lens for a real object positioned between F and 2F:",
+    "orderedItems": [
+      "Place object perpendicular to the principal axis between F and 2F",
+      "Draw an incident ray parallel to principal axis from object tip to the lens",
+      "Refract this parallel ray through the principal focus on the other side",
+      "Draw a second ray from object tip straight through the optical centre undeviated",
+      "Locate the intersection of refracted rays beyond 2F to draw the real inverted image"
+    ],
+    "explanation": "Standard geometric ray tracing: First place the object, send a parallel ray which refracts through focal point F, send a central ray through optical centre O without deviation, and find their intersection beyond 2F to construct the enlarged real inverted image.",
+    "marks": 1,
+    "volatile": false
+  }
+]

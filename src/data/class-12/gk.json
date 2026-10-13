@@ -1,0 +1,1845 @@
+[
+  {
+    "id": "c12-gk-001",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which Article of the Indian Constitution, guaranteeing the Right to Constitutional Remedies, was described by Dr. B.R. Ambedkar as the 'Heart and Soul of the Constitution'?",
+    "options": [
+      "Article 32",
+      "Article 21",
+      "Article 14",
+      "Article 19"
+    ],
+    "answer": 0,
+    "explanation": "Dr. B.R. Ambedkar termed Article 32 the 'heart and soul' of the Constitution because it empowers citizens to directly petition the Supreme Court for the enforcement of fundamental rights via prerogative writs.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-002",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which three words were added to the Preamble of the Indian Constitution by the 42nd Constitutional Amendment Act of 1976?",
+    "options": [
+      "Socialist, Secular, and Integrity",
+      "Sovereign, Democratic, and Republic",
+      "Liberty, Equality, and Fraternity",
+      "Justice, Unity, and Federalism"
+    ],
+    "answer": 0,
+    "explanation": "The 42nd Constitutional Amendment Act, 1976 amended the Preamble by inserting the terms 'Socialist', 'Secular', and 'Integrity'.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-003",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In which landmark Supreme Court judgement of 1973 was the 'Basic Structure Doctrine' formulated, restricting Parliament's amending power under Article 368?",
+    "options": [
+      "Kesavananda Bharati v. State of Kerala",
+      "Golaknath v. State of Punjab",
+      "Minerva Mills v. Union of India",
+      "Maneka Gandhi v. Union of India"
+    ],
+    "answer": 0,
+    "explanation": "In Kesavananda Bharati (1973), a 13-judge constitutional bench ruled that while Parliament can amend any part of the Constitution under Article 368, it cannot alter or destroy its 'basic structure'.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-004",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Under Article 360 of the Indian Constitution, how many times has a Financial Emergency been declared in India since independence?",
+    "options": [
+      "Zero times (never declared)",
+      "Once (during the 1991 economic crisis)",
+      "Twice",
+      "Three times"
+    ],
+    "answer": 0,
+    "explanation": "A Financial Emergency under Article 360 has never been declared in India so far.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-005",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The Comptroller and Auditor General (CAG) of India submits audit reports relating to the accounts of the Union to which constitutional authority under Article 151?",
+    "options": [
+      "The President of India (who causes them to be laid before Parliament)",
+      "The Speaker of the Lok Sabha directly",
+      "The Prime Minister of India",
+      "The Union Minister of Finance"
+    ],
+    "answer": 0,
+    "explanation": "Under Article 151(1), the CAG submits reports relating to the accounts of the Union to the President, who causes them to be laid before each House of Parliament for examination by the Public Accounts Committee.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-006",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Under the Tenth Schedule (Anti-Defection Law) added by the 52nd Constitutional Amendment Act, who holds the final authority to decide disqualification questions of a Lok Sabha Member?",
+    "options": [
+      "The Speaker of the Lok Sabha (subject to judicial review)",
+      "The President of India acting on the advice of Election Commission",
+      "The Chief Justice of India",
+      "A Parliamentary Ethics Committee"
+    ],
+    "answer": 0,
+    "explanation": "Paragraph 6 of the Tenth Schedule vests disqualification decision-making in the Chairman or Speaker of the respective House, and in Kihoto Hollohan (1992), the Supreme Court ruled that this decision is subject to judicial review.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-007",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "A Money Bill defined under Article 110 of the Indian Constitution can only be introduced in the Lok Sabha and cannot be introduced in the Rajya Sabha.",
+    "answer": true,
+    "explanation": "Under Article 109, a Money Bill can only originate in the Lok Sabha upon the prior recommendation of the President. The Rajya Sabha has only 14 days to make non-binding recommendations.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-008",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The Directive Principles of State Policy contained in Part IV of the Indian Constitution are enforceable by courts of law just like Fundamental Rights.",
+    "answer": false,
+    "explanation": "Article 37 explicitly declares that the Directive Principles of State Policy are fundamental in the governance of the country, but are non-justiciable (not enforceable by any court).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-009",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Article 21A of the Indian Constitution provides the Right to Free and Compulsory Education for all children in the age group of _____ to 14 years.",
+    "answer": "6",
+    "acceptedAnswers": [
+      "6",
+      "six",
+      "6 years",
+      "six years"
+    ],
+    "explanation": "Article 21A, inserted by the 86th Constitutional Amendment Act 2002, guarantees free and compulsory education to all children aged 6 to 14 years as a Fundamental Right.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-010",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The division of legislative powers between the Union and the States into Union List, State List, and Concurrent List is specified in the _____ Schedule of the Constitution.",
+    "answer": "Seventh",
+    "acceptedAnswers": [
+      "Seventh",
+      "7th",
+      "seventh",
+      "7"
+    ],
+    "explanation": "The Seventh Schedule (Article 246) enumerates the legislative competencies across List I (Union List), List II (State List), and List III (Concurrent List).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-011",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "Under Article _____ of the Indian Constitution, the President can establish an Inter-State Council to inquire into and advise upon disputes between States.",
+    "answer": "263",
+    "acceptedAnswers": [
+      "263",
+      "Article 263"
+    ],
+    "explanation": "Article 263 authorizes the President to establish an Inter-State Council for coordinating policy and resolving inter-state disputes.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-012",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each Article of the Indian Constitution with its key subject matter:",
+    "pairs": [
+      [
+        "Article 76",
+        "Attorney General for India"
+      ],
+      [
+        "Article 112",
+        "Annual Financial Statement (Union Budget)"
+      ],
+      [
+        "Article 280",
+        "Finance Commission"
+      ],
+      [
+        "Article 324",
+        "Election Commission of India"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Article 76 establishes the Attorney General; Article 112 mandates the Annual Financial Statement; Article 280 provisions the Finance Commission; Article 324 superintends elections.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-013",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "What is the minimum age (in years) prescribed by Article 58 of the Indian Constitution for a citizen to be eligible for election as the President of India?",
+    "answer": 35,
+    "tolerance": 0,
+    "explanation": "Under Article 58(1)(b), a candidate for the office of President of India must have completed the age of 35 years.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-014",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many Schedules were originally present in the Indian Constitution when it was adopted on 26th November 1949 and enacted on 26th January 1950?",
+    "answer": 8,
+    "tolerance": 0,
+    "explanation": "The original 1950 Constitution contained 395 Articles divided into 22 Parts and exactly 8 Schedules (later expanded to 12 Schedules).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-015",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Prior to the 104th Constitutional Amendment Act which discontinued Anglo-Indian nomination, what was the maximum constitutionally sanctioned elective plus nominated strength of the Lok Sabha?",
+    "answer": 552,
+    "tolerance": 0,
+    "explanation": "Under Article 81 and Article 331, the maximum sanctioned strength was 552 (up to 530 from States, up to 20 from Union Territories, and 2 nominated Anglo-Indians).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-016",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the three-tier Panchayati Raj administrative pyramid established by the 73rd Constitutional Amendment Act, which rural local governance body occupies tier [ ? ] at the intermediate block level?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 240' width='100%' height='240'><rect width='500' height='240' fill='#f8fafc'/><polygon points='250,20 80,220 420,220' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><line x1='195' y1='85' x2='305' y2='85' stroke='#334155' stroke-width='2'/><line x1='140' y1='150' x2='360' y2='150' stroke='#334155' stroke-width='2'/><text x='250' y='60' font-size='13' font-weight='bold' text-anchor='middle' fill='#1e293b'>Zilla Parishad (District)</text><text x='250' y='125' font-size='15' font-weight='bold' text-anchor='middle' fill='#b91c1c'>[ ? ] (Block / Intermediate)</text><text x='250' y='190' font-size='14' font-weight='bold' text-anchor='middle' fill='#1e293b'>Gram Panchayat (Village)</text></svg>"
+    },
+    "options": [
+      "Panchayat Samiti (Panchayat Union / Mandal Parishad)",
+      "Gram Sabha",
+      "Nyaya Panchayat",
+      "Municipal Corporation"
+    ],
+    "answer": 0,
+    "explanation": "Under the 73rd Amendment, the intermediate tier between the village Gram Panchayat and district Zilla Parishad is the Panchayat Samiti (Block Panchayat).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-017",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Which prerogative writ, literally meaning 'to have the body of', is issued by higher courts to order the release of a person unlawfully or arbitrarily detained?",
+    "answer": "Habeas Corpus",
+    "acceptedAnswers": [
+      "Habeas Corpus",
+      "habeas corpus",
+      "Writ of Habeas Corpus"
+    ],
+    "keywords": [
+      "Habeas",
+      "Corpus"
+    ],
+    "explanation": "Habeas Corpus is the premier bulwark of personal liberty, directing a detaining authority to produce the prisoner in court to justify legal grounds for detention.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-018",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Which committee appointed in 1957 recommended the establishment of a three-tier Panchayati Raj system of democratic decentralization in India?",
+    "answer": "Balwant Rai Mehta Committee",
+    "acceptedAnswers": [
+      "Balwant Rai Mehta Committee",
+      "Balwant Rai Mehta",
+      "Balwantrai Mehta Committee"
+    ],
+    "keywords": [
+      "Balwant",
+      "Mehta"
+    ],
+    "explanation": "The Balwant Rai Mehta Committee submitted its report in November 1957 recommending 'democratic decentralization' structured as a three-tier Panchayati Raj system.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-019",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Under Article 100(3) of the Indian Constitution, what fraction of the total membership of a House of Parliament constitutes the mandatory quorum to hold a valid meeting?",
+    "answer": "1/10",
+    "acceptedAnswers": [
+      "1/10",
+      "one-tenth",
+      "one tenth",
+      "10%",
+      "10 percent"
+    ],
+    "keywords": [
+      "1/10",
+      "tenth"
+    ],
+    "explanation": "Article 100(3) specifies that the quorum to constitute a meeting of either House of Parliament shall be one-tenth (10%) of the total number of members of the House.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-020",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): The Preamble is an integral part of the Constitution of India and serves as a guiding key to constitutional interpretation.\nReason (R): Provisions in the Preamble are directly enforceable in courts of law to strike down ordinary legislative enactments.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 2,
+    "explanation": "Assertion (A) is true per the Kesavananda Bharati ruling. Reason (R) is false because the Preamble is non-justiciable and cannot independently override constitutional provisions.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-021",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Under Article 13 of the Indian Constitution, any law enacted by Parliament that takes away or abridges Fundamental Rights is void to the extent of the inconsistency.\nReason (R): Article 13 provides the constitutional foundation for the power of Judicial Review vested in the Supreme Court and High Courts.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Article 13(2) prohibits the State from making laws abridging Part III rights and declares them void, serving as the explicit bedrock for judicial review in India.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-022",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are Fundamental Duties of Indian citizens enumerated under Article 51A? (Select all correct options)",
+    "options": [
+      "To abide by the Constitution and respect its ideals, the National Flag, and the National Anthem",
+      "To cherish and follow the noble ideals that inspired the national struggle for freedom",
+      "To protect and improve the natural environment, including forests, lakes, rivers, and wildlife",
+      "To pay personal income taxes promptly and participate in military service involuntarily"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Options A, B, and C are clauses (a), (b), and (g) of Article 51A. Compulsory payment of taxes was recommended by Swaran Singh Committee but was NOT included in Article 51A.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-023",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following institutions are CONSTITUTIONAL BODIES (created by specific constitutional articles) in India? (Select all correct options)",
+    "options": [
+      "Union Public Service Commission (Article 315)",
+      "Finance Commission of India (Article 280)",
+      "Election Commission of India (Article 324)",
+      "NITI Aayog (National Institution for Transforming India)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "UPSC (Art 315), Finance Commission (Art 280), and Election Commission (Art 324) are constitutional bodies. NITI Aayog is a non-statutory, extra-constitutional body created by a Cabinet resolution in 2015.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-024",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange these landmark Constitutional Amendment Acts of India in their correct chronological sequence of enactment:",
+    "orderedItems": [
+      "42nd Amendment Act ('Mini Constitution' during Emergency, 1976)",
+      "44th Amendment Act (restoring civil liberties and right to property deletion, 1978)",
+      "52nd Amendment Act (introducing Anti-Defection Tenth Schedule, 1985)",
+      "73rd Amendment Act (constitutional status to Panchayati Raj, 1992)",
+      "86th Amendment Act (inserting Article 21A Right to Education, 2002)"
+    ],
+    "explanation": "Chronological sequence: 42nd (1976) -> 44th (1978) -> 52nd (1985) -> 73rd (1992) -> 86th (2002).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-025",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Polity",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following top constitutional dignitaries according to the official Warrant of Precedence of the Republic of India:",
+    "orderedItems": [
+      "President of India (Rank 1)",
+      "Vice-President of India (Rank 2)",
+      "Prime Minister of India (Rank 3)",
+      "Governors of States within their respective States (Rank 4)",
+      "Chief Justice of India and Speaker of Lok Sabha (Rank 6)"
+    ],
+    "explanation": "Official Order of Precedence: 1. President -> 2. Vice-President -> 3. Prime Minister -> 4. Governors of States within their States -> 6. Chief Justice of India & Speaker of Lok Sabha.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-026",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The Reserve Bank of India (RBI) commenced its operations on 1st April 1935 in accordance with the provisions of which statute?",
+    "options": [
+      "Reserve Bank of India Act, 1934",
+      "Banking Regulation Act, 1949",
+      "Government of India Act, 1919",
+      "Companies Act, 1956"
+    ],
+    "answer": 0,
+    "explanation": "The RBI was established on April 1, 1935 under the Reserve Bank of India Act, 1934 on the recommendations of the Hilton Young Commission.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-027",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Indian monetary policy, what is the 'Repo Rate'?",
+    "options": [
+      "The rate at which the RBI lends short-term funds to commercial banks against government securities",
+      "The rate at which commercial banks deposit their surplus liquidity with the RBI",
+      "The rate at which commercial banks lend funds to prime corporate borrowers",
+      "The interest rate paid on small savings schemes and public provident funds"
+    ],
+    "answer": 0,
+    "explanation": "The Repo (Repurchase Option) Rate is the benchmark policy rate at which the Reserve Bank of India lends short-term liquidity to commercial banks against approved government securities.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-028",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In the Union Budget of India, how is 'Fiscal Deficit' precisely defined?",
+    "options": [
+      "Total Expenditure minus Total Receipts excluding Borrowings",
+      "Total Revenue Expenditure minus Total Revenue Receipts",
+      "Fiscal Deficit minus Net Interest Payments",
+      "Budget Deficit minus Capital Expenditure"
+    ],
+    "answer": 0,
+    "explanation": "Fiscal Deficit measures the government's total borrowing requirements: Total Budget Expenditure - (Revenue Receipts + Non-debt Capital Receipts).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-029",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Who serves as the ex-officio Chairperson of NITI Aayog (National Institution for Transforming India)?",
+    "options": [
+      "The Prime Minister of India",
+      "The Union Minister of Finance",
+      "The Governor of the Reserve Bank of India",
+      "The Chief Economic Adviser"
+    ],
+    "answer": 0,
+    "explanation": "The Prime Minister of India is the ex-officio Chairperson of NITI Aayog, heading its Governing Council.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-030",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "India's Second Five-Year Plan (1956–1961), which laid foundational emphasis on rapid industrialization and heavy capital goods industries, was based on which economic development model?",
+    "options": [
+      "PC Mahalanobis Model (Four-sector model)",
+      "Harrod-Domar Model",
+      "Gadgil Formula Model",
+      "Chakravarty Model"
+    ],
+    "answer": 0,
+    "explanation": "The Second Five-Year Plan was formulated by Prof. P.C. Mahalanobis and prioritized the rapid development of basic and heavy capital goods industries.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-031",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Under Article 279A, how are voting powers distributed between the Central Government and State Governments in the Goods and Services Tax (GST) Council?",
+    "options": [
+      "Central Government has one-third (1/3) of total votes; State Governments collectively have two-thirds (2/3) of total votes",
+      "Central Government has 50% and State Governments collectively have 50%",
+      "Central Government has two-thirds (2/3) and State Governments have one-third (1/3)",
+      "All States and Centre have strictly 1 equal vote each"
+    ],
+    "answer": 0,
+    "explanation": "Under Article 279A(9), the vote of the Central Government carries a weight of 1/3 of the total votes cast, and the votes of all State Governments taken together carry a weight of 2/3 of the total votes cast. Every decision requires a 3/4 (75%) majority.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-032",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The Cash Reserve Ratio (CRR) requires commercial banks to maintain a specified percentage of their Net Demand and Time Liabilities (NDTL) as liquid cash balances with the Reserve Bank of India.",
+    "answer": true,
+    "explanation": "CRR is the statutory percentage of deposits that commercial banks must maintain as cash reserves directly with the RBI, on which the RBI does not pay interest.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-033",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Primary Deficit is calculated by subtracting interest payments on past borrowings from the current Fiscal Deficit.",
+    "answer": true,
+    "explanation": "Primary Deficit = Fiscal Deficit - Interest Payments. It reflects the government's current-year fiscal imbalance excluding the legacy burden of past debt interest.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-034",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Real Gross Domestic Product (Real GDP) evaluates economic output at constant base-year prices, thereby filtering out the distorting effects of price inflation.",
+    "answer": true,
+    "explanation": "Real GDP measures physical volume of output adjusted for price changes using constant base-year prices, whereas Nominal GDP measures output at current market prices.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-035",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Under the Flexible Inflation Targeting framework, the RBI uses the headline Consumer Price Index (_____ Combined) as the key nominal anchor for measuring retail inflation.",
+    "answer": "CPI",
+    "acceptedAnswers": [
+      "CPI",
+      "cpi",
+      "CPI-C",
+      "Consumer Price Index"
+    ],
+    "explanation": "Following the Urjit Patel Committee recommendations in 2014, the RBI officially adopted CPI (Combined) with a target of 4% (+/- 2%) as its monetary policy headline anchor.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-036",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The reserve requirement under which banks must maintain a minimum percentage of NDTL in the form of gold, cash, or unencumbered approved government securities is called the Statutory _____ Ratio.",
+    "answer": "Liquidity",
+    "acceptedAnswers": [
+      "Liquidity",
+      "liquidity",
+      "Liquidity Ratio"
+    ],
+    "explanation": "SLR stands for Statutory Liquidity Ratio, stipulated under Section 24 of the Banking Regulation Act, 1949.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-037",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each Five-Year Plan of India with its central economic objective or theme:",
+    "pairs": [
+      [
+        "First Plan (1951–56)",
+        "Agricultural development and irrigation (Harrod-Domar)"
+      ],
+      [
+        "Second Plan (1956–61)",
+        "Rapid heavy industrialization (Mahalanobis Model)"
+      ],
+      [
+        "Fifth Plan (1974–79)",
+        "Poverty eradication (Garibi Hatao) and self-reliance"
+      ],
+      [
+        "Twelfth Plan (2012–17)",
+        "Faster, sustainable, and more inclusive growth"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "First focused on agriculture; Second on heavy industry; Fifth on Garibi Hatao; Twelfth was India's last Five-Year Plan focusing on sustainable, inclusive growth.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-038",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each tax category with its prominent representative in the Indian fiscal system:",
+    "pairs": [
+      [
+        "Corporation Tax",
+        "Direct tax levied on net profits of domestic and foreign companies"
+      ],
+      [
+        "Personal Income Tax",
+        "Direct progressive tax levied on individuals and Hindu Undivided Families"
+      ],
+      [
+        "Goods and Services Tax",
+        "Comprehensive indirect value-added destination tax on supply of goods/services"
+      ],
+      [
+        "Customs Duty",
+        "Indirect tax levied on international import and export of merchandise"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Corporation Tax and Personal Income Tax are direct taxes. GST and Customs Duty are indirect taxes.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-039",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many total members constitute India's Monetary Policy Committee (MPC) that sets benchmark policy interest rates?",
+    "answer": 6,
+    "tolerance": 0,
+    "explanation": "The MPC consists of 6 members: 3 from the Reserve Bank of India (including the RBI Governor as ex-officio Chairperson) and 3 external members appointed by the Central Government.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-040",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "How many major private commercial banks with deposits exceeding Rs 50 crore were nationalized by the Government of India in the historic first wave of bank nationalization in July 1969?",
+    "answer": 14,
+    "tolerance": 0,
+    "explanation": "On 19th July 1969, Prime Minister Indira Gandhi nationalized 14 major commercial banks holding 85% of bank deposits in India. A second tranche of 6 banks was nationalized in 1980.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-041",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the Union Budget classification diagram shown below, which category belongs at label [ ? ] under Capital Receipts?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 240' width='100%' height='240'><rect width='500' height='240' fill='#f8fafc'/><rect x='175' y='15' width='150' height='40' rx='6' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><text x='250' y='40' font-size='14' font-weight='bold' text-anchor='middle'>Union Budget</text><line x1='250' y1='55' x2='250' y2='80' stroke='#64748b' stroke-width='2'/><line x1='120' y1='80' x2='380' y2='80' stroke='#64748b' stroke-width='2'/><line x1='120' y1='80' x2='120' y2='105' stroke='#64748b' stroke-width='2'/><line x1='380' y1='80' x2='380' y2='105' stroke='#64748b' stroke-width='2'/><rect x='45' y='105' width='150' height='35' rx='6' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/><text x='120' y='128' font-size='13' font-weight='bold' text-anchor='middle'>Revenue Account</text><rect x='305' y='105' width='150' height='35' rx='6' fill='#fef3c7' stroke='#d97706' stroke-width='2'/><text x='380' y='128' font-size='13' font-weight='bold' text-anchor='middle'>Capital Account</text><rect x='305' y='160' width='150' height='55' rx='6' fill='#ffffff' stroke='#d97706' stroke-width='1.5'/><text x='380' y='180' font-size='11' text-anchor='middle'>- Capital Expenditure</text><text x='380' y='200' font-size='12' font-weight='bold' text-anchor='middle' fill='#b45309'>- [ ? ] (Receipts)</text></svg>"
+    },
+    "options": [
+      "Borrowings and Recovery of Loans / Disinvestment",
+      "Corporate Income Tax",
+      "Customs Duty on Imported Electronics",
+      "Interest received on public debt"
+    ],
+    "answer": 0,
+    "explanation": "Capital Receipts create liabilities or reduce financial assets; they consist of debt receipts (market borrowings) and non-debt capital receipts (loan recoveries, disinvestment).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-042",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "Under the RBI's Flexible Inflation Targeting (FIT) statutory framework shown below, what is the Upper Tolerance Limit (percentage) represented by [ ? ]?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 200' width='100%' height='200'><rect width='500' height='200' fill='#f1f5f9'/><line x1='50' y1='100' x2='450' y2='100' stroke='#334155' stroke-width='4'/><circle cx='100' cy='100' r='16' fill='#22c55e'/><text x='100' y='140' font-size='12' font-weight='bold' text-anchor='middle'>2% (Lower)</text><circle cx='250' cy='100' r='18' fill='#3b82f6'/><text x='250' y='140' font-size='14' font-weight='bold' text-anchor='middle'>4% (Target)</text><circle cx='400' cy='100' r='16' fill='#ef4444'/><text x='400' y='140' font-size='14' font-weight='bold' text-anchor='middle' fill='#dc2626'>[ ? ]</text><text x='250' y='45' font-size='14' font-weight='bold' text-anchor='middle' fill='#1e293b'>RBI Inflation Tolerance Band (4% +/- 2%)</text></svg>"
+    },
+    "options": [
+      "6%",
+      "8%",
+      "5%",
+      "7.5%"
+    ],
+    "answer": 0,
+    "explanation": "The statutory inflation target set by the Government in consultation with RBI is 4% with a tolerance band of +/- 2%, meaning the lower limit is 2% and the upper tolerance limit is 6%.",
+    "volatile": true
+  },
+  {
+    "id": "c12-gk-043",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "In which year did the Government of India establish NITI Aayog by replacing the 65-year-old Planning Commission?",
+    "answer": "2015",
+    "acceptedAnswers": [
+      "2015",
+      "1 Jan 2015",
+      "January 2015"
+    ],
+    "keywords": [
+      "2015"
+    ],
+    "explanation": "NITI Aayog was established on 1st January 2015 via a Cabinet resolution to foster cooperative federalism and bottom-up strategic planning.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-044",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Which parliamentary Act of 2003 institutionalized fiscal discipline by legally mandating reduction in India's fiscal deficit and revenue deficit?",
+    "answer": "FRBM Act",
+    "acceptedAnswers": [
+      "FRBM Act",
+      "FRBM",
+      "Fiscal Responsibility and Budget Management Act",
+      "Fiscal Responsibility and Budget Management Act, 2003"
+    ],
+    "keywords": [
+      "FRBM"
+    ],
+    "explanation": "The Fiscal Responsibility and Budget Management (FRBM) Act was enacted in 2003 to introduce fiscal prudence and eliminate revenue deficit.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-045",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): When the RBI increases the policy Repo Rate, commercial banks generally hike their lending interest rates, causing a contraction in credit and money supply.\nReason (R): A higher Repo Rate makes borrowing funds from the central bank more expensive for commercial banks, discouraging credit creation.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Higher repo rate increases the cost of short-term borrowing for banks, who pass higher borrowing costs to consumers and businesses, reducing credit demand and slowing inflation.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-046",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Persistent and excessively high fiscal deficit in an economy can trigger demand-pull inflation and crowd out private investment.\nReason (R): When government borrows heavily from the market, it increases aggregate demand and drives up sovereign bond yields, leaving less loanable capital available for private entrepreneurs at affordable interest rates.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Excess government borrowing increases competing demand for loanable funds, pushing interest rates up (crowding out effect) and boosting aggregate spending ahead of productive capacity.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-047",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following are QUALITATIVE (selective) credit control instruments used by the Reserve Bank of India? (Select all correct options)",
+    "options": [
+      "Fixing margin requirements on collateral loans",
+      "Consumer credit regulation",
+      "Moral suasion (persuasion and informal directives)",
+      "Cash Reserve Ratio (CRR)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Margin requirements, consumer credit regulation, and moral suasion are qualitative (selective) instruments directing credit to specific sectors. CRR and SLR are quantitative instruments controlling overall volume.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-048",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following taxes are DIRECT TAXES levied in India? (Select all correct options)",
+    "options": [
+      "Personal Income Tax",
+      "Corporation Tax",
+      "Securities Transaction Tax (STT)",
+      "Goods and Services Tax (GST)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Income Tax, Corporation Tax, and STT are direct taxes whose incidence and impact fall on the same taxpayer. GST is an indirect tax passed to end-consumers.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-049",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following major milestones in Indian banking history in their correct chronological sequence:",
+    "orderedItems": [
+      "Establishment of the Reserve Bank of India (1935)",
+      "Nationalization of the Reserve Bank of India (1949)",
+      "First major wave of nationalization of 14 commercial banks (1969)",
+      "Narasimham Committee I report initiating financial sector liberalization (1991)",
+      "Enactment of the Insolvency and Bankruptcy Code (IBC, 2016)"
+    ],
+    "explanation": "Chronological order: RBI established (1935) -> RBI nationalized (1949) -> 14 banks nationalized (1969) -> Narasimham Committee (1991) -> IBC enacted (2016).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-050",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Indian Economy",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the sequential constitutional stages through which the Union Budget passes in the Indian Parliament:",
+    "orderedItems": [
+      "Presentation of Budget by the Finance Minister",
+      "General Discussion on budget principles in both Houses",
+      "Scrutiny and reporting by Departmentally Related Standing Committees",
+      "Voting on Demands for Grants in the Lok Sabha",
+      "Passage of the Appropriation Bill (authorizing withdrawal from Consolidated Fund)",
+      "Passage of the Finance Bill (giving legal effect to taxation proposals)"
+    ],
+    "explanation": "Constitutional budget stages: Presentation -> General Discussion -> Committee Scrutiny -> Voting on Demands for Grants -> Appropriation Bill -> Finance Bill.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-051",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "United Nations Day is officially commemorated worldwide every year on which date, marking the entry into force of the UN Charter in 1945?",
+    "options": [
+      "24th October",
+      "15th August",
+      "10th December",
+      "5th June"
+    ],
+    "answer": 0,
+    "explanation": "United Nations Day is celebrated annually on October 24 to commemorate the anniversary of the UN Charter entering into force in 1945.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-052",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Where is the permanent seat and headquarters of the International Court of Justice (ICJ) located?",
+    "options": [
+      "Peace Palace, The Hague (Netherlands)",
+      "United Nations Headquarters, New York (USA)",
+      "Palais des Nations, Geneva (Switzerland)",
+      "Vienna International Centre (Austria)"
+    ],
+    "answer": 0,
+    "explanation": "The International Court of Justice (ICJ) is the only one of the six principal UN organs not located in New York; its seat is at the Peace Palace in The Hague, Netherlands.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-053",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The World Trade Organization (WTO) officially commenced operations on 1st January 1995 pursuant to which historic multilateral agreement that replaced GATT?",
+    "options": [
+      "Marrakesh Agreement (concluding Uruguay Round)",
+      "Bretton Woods Agreement",
+      "Maastricht Treaty",
+      "Geneva Accord"
+    ],
+    "answer": 0,
+    "explanation": "The WTO was established on January 1, 1995 under the 1994 Marrakesh Agreement signed in Morocco, replacing the General Agreement on Tariffs and Trade (GATT).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-054",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Environment & Treaties",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The Montreal Protocol agreed upon in 1987 is a landmark international treaty designed to phase out the production of substances that cause:",
+    "options": [
+      "Depletion of the stratospheric Ozone Layer (e.g., CFCs and Halons)",
+      "Acid rain from industrial sulfur emissions",
+      "Maritime oil spill pollution in international waters",
+      "Deforestation in tropical rainforests"
+    ],
+    "answer": 0,
+    "explanation": "The Montreal Protocol on Substances that Deplete the Ozone Layer successfully mandated the global phase-out of chlorofluorocarbons (CFCs) and other ozone-depleting substances.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-055",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The International Monetary Fund's Special Drawing Rights (SDR) valuation basket currently comprises five major world currencies. Which group correctly lists all five?",
+    "options": [
+      "US Dollar, Euro, Chinese Renminbi, Japanese Yen, British Pound",
+      "US Dollar, Euro, Japanese Yen, British Pound, Indian Rupee",
+      "US Dollar, Euro, Swiss Franc, Japanese Yen, Canadian Dollar",
+      "US Dollar, Russian Ruble, Chinese Renminbi, Euro, British Pound"
+    ],
+    "answer": 0,
+    "explanation": "The SDR basket determined by the IMF consists of five reserve currencies: US Dollar, Euro, Chinese Renminbi (added in 2016), Japanese Yen, and British Pound Sterling.",
+    "volatile": true
+  },
+  {
+    "id": "c12-gk-056",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Environment & Treaties",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Signed in an Iranian city in 1971, the Ramsar Convention is an intergovernmental treaty that provides the framework for national action and international cooperation for the conservation of:",
+    "options": [
+      "Wetlands of international importance, especially as waterfowl habitat",
+      "Endangered mountain gorilla populations",
+      "Coral reefs threatened by ocean acidification",
+      "Polar ice caps and permafrost tundras"
+    ],
+    "answer": 0,
+    "explanation": "The Ramsar Convention on Wetlands of International Importance was signed in Ramsar, Iran, in 1971, providing guidelines for wetland ecology conservation and sustainable 'wise use'.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-057",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Under the UN Charter, a negative vote (veto) cast by any one of the five permanent members (P5) of the Security Council defeats any substantive non-procedural draft resolution.",
+    "answer": true,
+    "explanation": "Under Article 27(3) of the UN Charter, substantive resolutions require 9 affirmative votes including the concurring votes of the permanent members; a negative vote by any P5 member blocks passage.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-058",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Environment & Treaties",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The 1997 Kyoto Protocol operationalized the principle of 'Common But Differentiated Responsibilities' (CBDR) by placing legally binding emission reduction targets exclusively on developed (Annex I) countries.",
+    "answer": true,
+    "explanation": "The Kyoto Protocol legally obligated industrialized nations (Annex I parties) to cut greenhouse gas emissions because of their historical responsibility for atmospheric emissions accumulation.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-059",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The United Nations Educational, Scientific and Cultural Organization (UNESCO) maintains its global headquarters in Paris, France.",
+    "answer": true,
+    "explanation": "UNESCO was founded in 1945 and has its global headquarters located at Place de Fontenoy in Paris, France.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-060",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Among the six principal organs of the United Nations, the only one not located at the UN headquarters in New York is the International Court of _____.",
+    "answer": "Justice",
+    "acceptedAnswers": [
+      "Justice",
+      "justice"
+    ],
+    "explanation": "The International Court of Justice (ICJ) is seated at The Hague in the Netherlands, while the other five organs are located in New York City.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-061",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Environment & Treaties",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The 2015 Paris Climate Agreement aims to hold global warming well below 2°C above pre-industrial levels and to pursue efforts to limit the temperature increase to _____°C.",
+    "answer": "1.5",
+    "acceptedAnswers": [
+      "1.5",
+      "1.5°C",
+      "one point five"
+    ],
+    "explanation": "Article 2(1)(a) of the Paris Agreement commits parties to holding temperature increase well below 2°C and pursuing efforts to limit the increase to 1.5°C.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-062",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The permanent Secretariat and headquarters of the Association of Southeast Asian Nations (ASEAN) is situated in the city of _____.",
+    "answer": "Jakarta",
+    "acceptedAnswers": [
+      "Jakarta",
+      "jakarta"
+    ],
+    "explanation": "The ASEAN Secretariat was established in 1976 and is headquartered in Jakarta, Indonesia.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-063",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each specialized international agency with its headquarters city:",
+    "pairs": [
+      [
+        "World Health Organization (WHO)",
+        "Geneva, Switzerland"
+      ],
+      [
+        "Food and Agriculture Organization (FAO)",
+        "Rome, Italy"
+      ],
+      [
+        "International Atomic Energy Agency (IAEA)",
+        "Vienna, Austria"
+      ],
+      [
+        "International Maritime Organization (IMO)",
+        "London, United Kingdom"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "WHO is in Geneva, FAO in Rome, IAEA in Vienna, and IMO in London.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-064",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "How many judges serve on the bench of the International Court of Justice (ICJ), elected simultaneously by the UN General Assembly and the UN Security Council?",
+    "answer": 15,
+    "tolerance": 0,
+    "explanation": "The ICJ is composed of 15 judges elected to nine-year terms of office by the UN General Assembly and the Security Council.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-065",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In addition to the 5 permanent members, how many non-permanent members serve on the United Nations Security Council (elected for two-year terms)?",
+    "answer": 10,
+    "tolerance": 0,
+    "explanation": "The UN Security Council consists of 15 members in total: 5 permanent members (USA, UK, France, Russia, China) and 10 non-permanent members elected for two-year terms by the General Assembly.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-066",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Environment & Treaties",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the international climate policy timeline shown below, which landmark climate treaty signed in Japan in 1997 is represented at milestone [ ? ]?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 200' width='100%' height='200'><rect width='500' height='200' fill='#f8fafc'/><line x1='50' y1='100' x2='450' y2='100' stroke='#334155' stroke-width='3'/><circle cx='90' cy='100' r='12' fill='#3b82f6'/><text x='90' y='75' font-size='12' font-weight='bold' text-anchor='middle'>1992</text><text x='90' y='135' font-size='11' text-anchor='middle' fill='#334155'>Rio Earth Summit (UNFCCC)</text><circle cx='250' cy='100' r='14' fill='#ef4444'/><text x='250' y='75' font-size='12' font-weight='bold' text-anchor='middle'>1997</text><text x='250' y='135' font-size='13' font-weight='bold' text-anchor='middle' fill='#b91c1c'>[ ? ]</text><circle cx='410' cy='100' r='12' fill='#10b981'/><text x='410' y='75' font-size='12' font-weight='bold' text-anchor='middle'>2015</text><text x='410' y='135' font-size='11' text-anchor='middle' fill='#334155'>Paris Agreement (COP21)</text></svg>"
+    },
+    "options": [
+      "Kyoto Protocol",
+      "Montreal Protocol",
+      "Copenhagen Accord",
+      "Geneva Convention"
+    ],
+    "answer": 0,
+    "explanation": "The Kyoto Protocol was adopted in Kyoto, Japan, in December 1997 and entered into force in 2005 as an extension of the UNFCCC.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-067",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "In the United Nations system hierarchy diagram shown below, which judicial principal organ is indicated by label [ ? ]?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 240' width='100%' height='240'><rect width='500' height='240' fill='#f1f5f9'/><rect x='175' y='15' width='150' height='40' rx='6' fill='#0284c7'/><text x='250' y='40' font-size='13' font-weight='bold' text-anchor='middle' fill='#ffffff'>General Assembly</text><rect x='30' y='85' width='130' height='45' rx='6' fill='#ffffff' stroke='#0284c7' stroke-width='2'/><text x='95' y='112' font-size='12' font-weight='bold' text-anchor='middle'>Security Council</text><rect x='185' y='85' width='130' height='45' rx='6' fill='#ffffff' stroke='#0284c7' stroke-width='2'/><text x='250' y='112' font-size='12' font-weight='bold' text-anchor='middle'>ECOSOC</text><rect x='340' y='85' width='130' height='45' rx='6' fill='#ffffff' stroke='#0284c7' stroke-width='2'/><text x='405' y='112' font-size='12' font-weight='bold' text-anchor='middle'>Secretariat</text><rect x='175' y='165' width='150' height='45' rx='6' fill='#fef08a' stroke='#ca8a04' stroke-width='2'/><text x='250' y='192' font-size='13' font-weight='bold' text-anchor='middle' fill='#854d0e'>[ ? ] (The Hague)</text></svg>"
+    },
+    "options": [
+      "International Court of Justice (ICJ)",
+      "International Criminal Court (ICC)",
+      "Permanent Court of Arbitration",
+      "Human Rights Council"
+    ],
+    "answer": 0,
+    "explanation": "The International Court of Justice (ICJ) is the principal judicial organ of the UN, established in 1945 by the UN Charter and seated at The Hague.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-068",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "For how many years does an elected judge of the International Court of Justice (ICJ) serve in a single full term of office?",
+    "answer": "9 years",
+    "acceptedAnswers": [
+      "9",
+      "9 years",
+      "nine years",
+      "nine"
+    ],
+    "keywords": [
+      "9"
+    ],
+    "explanation": "Judges of the ICJ serve nine-year terms and may be re-elected. One-third of the court (5 judges) is elected every three years.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-069",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Environment & Treaties",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Which multilateral wildlife treaty, known colloquially as the Washington Convention, regulates international commercial trade in specimens of wild animals and plants?",
+    "answer": "CITES",
+    "acceptedAnswers": [
+      "CITES",
+      "cites",
+      "Convention on International Trade in Endangered Species"
+    ],
+    "keywords": [
+      "CITES"
+    ],
+    "explanation": "CITES (Convention on International Trade in Endangered Species of Wild Fauna and Flora) was drafted in 1973 in Washington, D.C. to safeguard species against over-exploitation.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-070",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Name the landmark 1944 monetary and financial conference held in New Hampshire, USA, that led to the founding of both the IMF and the World Bank.",
+    "answer": "Bretton Woods Conference",
+    "acceptedAnswers": [
+      "Bretton Woods",
+      "Bretton Woods Conference",
+      "United Nations Monetary and Financial Conference"
+    ],
+    "keywords": [
+      "Bretton",
+      "Woods"
+    ],
+    "explanation": "The Bretton Woods Conference (July 1944) established the post-WWII international monetary architecture, creating the International Monetary Fund (IMF) and the IBRD (World Bank).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-071",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Environment & Treaties",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): The 1987 Montreal Protocol is universally recognized as the most successful multilateral environmental agreement in history.\nReason (R): It successfully facilitated the phase-out of over 98% of controlled ozone-depleting substances through universal ratification, clear timetables, and dedicated multilateral financial support.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The Montreal Protocol achieved universal ratification (198 parties) and enabled the recovery of the ozone layer by providing financial and technical assistance to developing countries through the Multilateral Fund.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-072",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Abstention by a Permanent Member in the UN Security Council does not constitute a veto against a draft resolution.\nReason (R): Under established UN jurisprudence and practice since 1946, an affirmative resolution passes if it secures 9 votes including no negative votes from any permanent member.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "A permanent member must cast an explicit negative vote to exercise a veto. Voluntary abstention or absence is not construed as a veto, allowing a resolution with 9 affirmative votes to pass.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-073",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "World Organizations",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are official working languages of the United Nations? (Select all correct options)",
+    "options": [
+      "Arabic",
+      "Chinese (Mandarin)",
+      "French",
+      "German"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The six official languages of the United Nations are Arabic, Chinese, English, French, Russian, and Spanish. German is not an official UN language.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-074",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Environment & Treaties",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following international conventions specifically regulate hazardous waste, persistent organic pollutants, and chemicals? (Select all correct options)",
+    "options": [
+      "Basel Convention (transboundary movements of hazardous wastes)",
+      "Stockholm Convention (Persistent Organic Pollutants - POPs)",
+      "Rotterdam Convention (Prior Informed Consent for hazardous chemicals)",
+      "Antarctic Treaty System"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The 'BRS' conventions (Basel, Rotterdam, Stockholm) collectively protect human health and the environment from hazardous chemicals and toxic wastes. The Antarctic Treaty preserves Antarctica for peaceful scientific research.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-075",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Environment & Treaties",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange these international environmental milestones in correct chronological order of their adoption:",
+    "orderedItems": [
+      "Ramsar Convention on Wetlands (1971)",
+      "Stockholm UN Conference on the Human Environment (1972)",
+      "Montreal Protocol on Ozone Depleting Substances (1987)",
+      "Rio de Janeiro Earth Summit adopting the UNFCCC (1992)",
+      "Kyoto Protocol on Greenhouse Gas Reductions (1997)",
+      "Paris Climate Agreement (2015)"
+    ],
+    "explanation": "Chronological sequence: Ramsar (1971) -> Stockholm (1972) -> Montreal (1987) -> Rio (1992) -> Kyoto (1997) -> Paris (2015).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-076",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Modern History",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Mahatma Gandhi inaugurated the Civil Disobedience Movement in March-April 1930 by undertaking the famous historic Salt March from Sabarmati Ashram to which coastal village?",
+    "options": [
+      "Dandi (Navsari district, Gujarat)",
+      "Porbandar",
+      "Bardoli",
+      "Champaran"
+    ],
+    "answer": 0,
+    "explanation": "Mahatma Gandhi and 78 chosen satyagrahis marched 240 miles from Sabarmati Ashram to Dandi from 12 March to 6 April 1930, breaking the British salt monopoly law.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-077",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Art & Culture",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Sattriya, one of the eight classical dance traditions of India, originated in the monasteries (Sattras) of Assam and was founded by which 15th-century Vaishnavite saint-reformer?",
+    "options": [
+      "Mahapurusha Srimanta Sankardev",
+      "Chaitanya Mahaprabhu",
+      "Kabir Das",
+      "Guru Nanak Dev"
+    ],
+    "answer": 0,
+    "explanation": "Sattriya classical dance was created in the 15th century by Srimanta Sankardev as an accompaniment to the Ankiya Nat (one-act plays) in the monastic Sattras of Assam.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-078",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Modern History",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which landmark constitutional statute introduced 'Provincial Autonomy' by abolishing dyarchy in the provinces while proposing an All-India Federation and dyarchy at the Centre?",
+    "options": [
+      "Government of India Act, 1935",
+      "Government of India Act, 1919 (Montagu-Chelmsford)",
+      "Indian Councils Act, 1909 (Morley-Minto)",
+      "Indian Independence Act, 1947"
+    ],
+    "answer": 0,
+    "explanation": "The Government of India Act 1935 abolished provincial dyarchy, granted autonomy to provinces with responsible governments, and provided for an All-India Federation and a Federal Court.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-079",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Science & Technology",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What official name was bestowed upon the touchdown site of the Chandrayaan-3 Vikram lander near the lunar south pole following its historic soft landing on 23rd August 2023?",
+    "options": [
+      "Shiv Shakti Point",
+      "Tiranga Point",
+      "Jawahar Point",
+      "Atal Point"
+    ],
+    "answer": 0,
+    "explanation": "Prime Minister Narendra Modi announced that the Chandrayaan-3 landing site on the Moon is named 'Shiv Shakti Point', while Chandrayaan-2's impact point is named 'Tiranga Point'.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-080",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Art & Culture",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In classical South Indian Dravidian temple architecture, what is the monumental, ornate entrance gateway tower known as?",
+    "options": [
+      "Gopuram",
+      "Vimana",
+      "Shikhara",
+      "Mandapa"
+    ],
+    "answer": 0,
+    "explanation": "In Dravidian architecture, the imposing towering gateway into the temple complex is called a Gopuram, while the tower directly over the inner sanctum (garbhagriha) is called the Vimana.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-081",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Science & Technology",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Dr. Homi J. Bhabha's three-stage nuclear power programme designed to achieve long-term energy self-sufficiency, which abundant domestic mineral resource is targeted for fuel in Stage 3?",
+    "options": [
+      "Thorium-232 (utilized in Advanced Heavy Water Reactors to breed U-233)",
+      "Enriched Uranium-235",
+      "Plutonium-239",
+      "Natural Deuterium"
+    ],
+    "answer": 0,
+    "explanation": "India holds ~25% of the world's Thorium deposits in monazite sands. The 3-stage plan breeds fissile Uranium-233 from Thorium-232 in Stage 3 using Plutonium bred in Stage 2 Fast Breeder Reactors.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-082",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Modern History",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "The Indian Councils Act 1909 (Morley-Minto Reforms) institutionalized communal representation in Indian politics by introducing separate electorates for which community?",
+    "options": [
+      "Muslims",
+      "Sikhs",
+      "Anglo-Indians",
+      "Depressed Classes"
+    ],
+    "answer": 0,
+    "explanation": "The 1909 Act introduced separate electorates for Muslims for the first time, earning Lord Minto the epithet 'Father of Communal Electorates in India'.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-083",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Sports History",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Abhinav Bindra won India's first-ever individual Olympic gold medal in the men's 10-meter air rifle event at the 2008 Beijing Olympic Games.",
+    "answer": true,
+    "explanation": "On 11 August 2008 in Beijing, Abhinav Bindra clinched gold in the 10m Air Rifle event, becoming the first individual Olympic gold medalist in independent Indian history.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-084",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Modern History",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Mahatma Gandhi abruptly called off the nationwide Non-Cooperation Movement in February 1922 following the violent Chauri Chaura police station burning incident in Gorakhpur district.",
+    "answer": true,
+    "explanation": "Distressed by the violent burning of 22 policemen at Chauri Chaura on 4 February 1922 which violated the core tenet of non-violence, Gandhi withdrew the Non-Cooperation Movement via the Bardoli Resolution.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-085",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Science & Technology",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "ISRO's first dedicated solar observatory mission, Aditya-L1, is positioned in a halo orbit around the Sun-Earth Lagrangian point _____ approximately 1.5 million km from Earth.",
+    "answer": "L1",
+    "acceptedAnswers": [
+      "L1",
+      "Lagrangian Point 1",
+      "Lagrange point 1",
+      "L-1"
+    ],
+    "explanation": "Aditya-L1 orbits the First Lagrangian Point (L1), providing an uninterrupted view of the Sun without eclipses or occultation.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-086",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Art & Culture",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The Sangeet Natak Akademi, India's national academy for music, dance and drama, officially recognizes _____ Indian classical dance forms.",
+    "answer": "8",
+    "acceptedAnswers": [
+      "8",
+      "eight",
+      "Eight"
+    ],
+    "explanation": "The 8 recognized classical dances are: Bharatanatyam, Kathak, Kathakali, Mohiniyattam, Kuchipudi, Odissi, Manipuri, and Sattriya.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-087",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Art & Culture",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each classical dance style of India with its state of origin:",
+    "pairs": [
+      [
+        "Bharatanatyam",
+        "Tamil Nadu"
+      ],
+      [
+        "Kathakali",
+        "Kerala"
+      ],
+      [
+        "Kuchipudi",
+        "Andhra Pradesh"
+      ],
+      [
+        "Odissi",
+        "Odisha"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Bharatanatyam originated in Tamil Nadu, Kathakali in Kerala, Kuchipudi in Andhra Pradesh, and Odissi in Odisha.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-088",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Modern History",
+    "type": "match",
+    "difficulty": "hard",
+    "question": "Match each British colonial constitutional enactment with its principal institutional reform:",
+    "pairs": [
+      [
+        "Indian Councils Act, 1909",
+        "Introduction of communal representation and separate electorates for Muslims"
+      ],
+      [
+        "Government of India Act, 1919",
+        "Establishment of Dyarchy (transferred and reserved subjects) in Provinces"
+      ],
+      [
+        "Government of India Act, 1935",
+        "Abolition of provincial dyarchy and introduction of Provincial Autonomy"
+      ],
+      [
+        "Indian Independence Act, 1947",
+        "Partition of British India into two independent dominions (India & Pakistan)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "1909: separate electorates; 1919: provincial dyarchy; 1935: provincial autonomy & federal court; 1947: partition into two dominions.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-089",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Sports History",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "In which year did the Indian cricket team under captain Kapil Dev defeat the two-time champion West Indies at Lord's to win India's first-ever Prudential World Cup?",
+    "answer": 1983,
+    "tolerance": 0,
+    "explanation": "On 25 June 1983, India famously defeated the West Indies by 43 runs at Lord's Cricket Ground in London to lift the Prudential World Cup.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-090",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Modern History",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In which year was the Quit India Movement ('Bharat Chhodo Andolan') launched by Mahatma Gandhi at the Gowalia Tank Maidan in Bombay with the call 'Do or Die'?",
+    "answer": 1942,
+    "tolerance": 0,
+    "explanation": "The All India Congress Committee passed the Quit India Resolution on 8th August 1942 at Gowalia Tank Maidan, Bombay.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-091",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Modern History",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "How many miles (approx. 385 km) did Mahatma Gandhi and his 78 volunteers walk on foot during the 24-day Dandi Salt March from Sabarmati to the Arabian Sea?",
+    "answer": 240,
+    "tolerance": 0,
+    "explanation": "The Salt March spanned 240 miles (approx. 385 km) over 24 days, averaging roughly 10 miles per day.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-092",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Art & Culture",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "In the comparative Hindu temple architecture diagram shown below, which regional architectural style is represented by Structure A with its curvilinear beehive-shaped Shikhara and Amalaka?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 240' width='100%' height='240'><rect width='500' height='240' fill='#f8fafc'/><text x='130' y='25' font-size='13' font-weight='bold' text-anchor='middle'>Structure A (Curvilinear)</text><path d='M80 180 Q 130 50 130 50 Q 130 50 180 180 Z' fill='#fed7aa' stroke='#ea580c' stroke-width='2'/><circle cx='130' cy='46' r='12' fill='#fbbf24'/><line x1='130' y1='34' x2='130' y2='20' stroke='#ea580c' stroke-width='2'/><rect x='60' y='180' width='140' height='30' fill='#cbd5e1' stroke='#475569'/><text x='130' y='140' font-size='11' text-anchor='middle'>Curvilinear Shikhara</text><line x1='250' y1='20' x2='250' y2='220' stroke='#cbd5e1' stroke-width='2' stroke-dasharray='4'/><text x='370' y='25' font-size='13' font-weight='bold' text-anchor='middle'>Structure B (Pyramidal)</text><polygon points='370,60 300,180 440,180' fill='#bfdbfe' stroke='#2563eb' stroke-width='2'/><rect x='300' y='180' width='140' height='30' fill='#cbd5e1' stroke='#475569'/><text x='370' y='140' font-size='11' text-anchor='middle'>Pyramidal Vimana</text></svg>"
+    },
+    "options": [
+      "Nagara Style (North Indian temple style)",
+      "Dravida Style (South Indian temple style)",
+      "Vesara Style (Hoysala hybrid style)",
+      "Kalinga Style (Pida Deula only)"
+    ],
+    "answer": 0,
+    "explanation": "Structure A represents the Nagara style of North India, characterized by a curvilinear beehive-shaped tower (latina/shikhara) topped with a circular ribbed stone disk (Amalaka) and Kalasha.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-093",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Sports History",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Who was the first recipient of the Rajiv Gandhi / Major Dhyan Chand Khel Ratna Award, India's highest sporting honour, awarded in 1991–92?",
+    "answer": "Viswanathan Anand",
+    "acceptedAnswers": [
+      "Viswanathan Anand",
+      "V. Anand",
+      "Viswanathan Anand (Chess)"
+    ],
+    "keywords": [
+      "Viswanathan",
+      "Anand"
+    ],
+    "explanation": "Chess Grandmaster Viswanathan Anand was honored as the inaugural recipient of the prestigious Khel Ratna award in 1991–92.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-094",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Science & Technology",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "On which calendar date has the Government of India declared 'National Space Day' to celebrate the successful soft-landing of Chandrayaan-3 on the Moon?",
+    "answer": "August 23",
+    "acceptedAnswers": [
+      "August 23",
+      "23 August",
+      "23rd August",
+      "August 23rd"
+    ],
+    "keywords": [
+      "August",
+      "23"
+    ],
+    "explanation": "August 23 was declared as National Space Day to commemorate India becoming the fourth country to soft-land on the Moon and the first near the lunar south polar region.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-095",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Modern History",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Under the Gandhi-Irwin Pact signed in March 1931, the Indian National Congress agreed to suspend the Civil Disobedience Movement and participate in the Second Round Table Conference.\nReason (R): The British Viceroy Lord Irwin agreed to release political prisoners not convicted of violent crimes and permitted peaceful picketing of liquor and foreign cloth shops.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The Gandhi-Irwin Pact was an agreement on equal footing where the Congress agreed to join the London Round Table Conference in return for government concessions including the release of non-violent political prisoners.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-096",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Science & Technology",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Naturally occurring Thorium-232 cannot directly sustain a nuclear chain reaction in a commercial nuclear reactor by itself.\nReason (R): Thorium-232 is a 'fertile' material rather than a 'fissile' material and must first absorb neutrons in a reactor core to transmute into fissile Uranium-233.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Th-232 cannot undergo spontaneous fission by thermal neutrons. It must be irradiated in Stage 2 Fast Breeder Reactors where it captures a neutron, beta-decays into Pa-233 and then into fissile U-233.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-097",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Art & Culture",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following languages hold official 'Classical Language' status in India? (Select all correct options)",
+    "options": [
+      "Tamil (declared 2004)",
+      "Sanskrit (declared 2005)",
+      "Telugu (declared 2008)",
+      "English"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Tamil, Sanskrit, Telugu, Kannada, Malayalam, and Odia are classical languages of India fulfilling criteria of high antiquity, early texts, and distinct literary tradition. English is not an Indian classical language.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-098",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Modern History",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which world leaders formed the founding core leadership of the Non-Aligned Movement (NAM) at the historic 1961 Belgrade Summit? (Select all correct options)",
+    "options": [
+      "Jawaharlal Nehru (India)",
+      "Josip Broz Tito (Yugoslavia)",
+      "Gamal Abdel Nasser (Egypt)",
+      "Winston Churchill (United Kingdom)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The foundational leaders of NAM were Jawaharlal Nehru of India, Josip Broz Tito of Yugoslavia, Gamal Abdel Nasser of Egypt, Kwame Nkrumah of Ghana, and Sukarno of Indonesia.",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-099",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Modern History",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange Mahatma Gandhi's early satyagrahas in India in their correct chronological sequence:",
+    "orderedItems": [
+      "Champaran Satyagraha (Bihar - Indigo farmers, 1917)",
+      "Ahmedabad Mill Strike (Gujarat - cotton mill workers' hunger strike, 1918)",
+      "Kheda Satyagraha (Gujarat - revenue remission for peasants, 1918)",
+      "Rowlatt Satyagraha against the Anarchical and Revolutionary Crimes Act (1919)",
+      "Non-Cooperation Movement (1920)"
+    ],
+    "explanation": "Chronological sequence: Champaran (April 1917) -> Ahmedabad Mill Strike (March 1918) -> Kheda Satyagraha (June 1918) -> Rowlatt Satyagraha (April 1919) -> Non-Cooperation (September 1920).",
+    "volatile": false
+  },
+  {
+    "id": "c12-gk-100",
+    "class": 12,
+    "subject": "gk",
+    "chapter": "Science & Technology",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange these major ISRO deep-space and planetary exploration missions in their chronological order of launch:",
+    "orderedItems": [
+      "Chandrayaan-1 (India's first lunar orbiter mission, 2008)",
+      "Mars Orbiter Mission / Mangalyaan (MOM to Mars, 2013)",
+      "AstroSat (India's first dedicated multi-wavelength space telescope, 2015)",
+      "Chandrayaan-2 (lunar orbiter, lander and rover mission, 2019)",
+      "Chandrayaan-3 (successful lunar soft-landing mission, 2023)",
+      "Aditya-L1 (India's first solar space observatory, 2023)"
+    ],
+    "explanation": "Chronological order: Chandrayaan-1 (Oct 2008) -> Mangalyaan (Nov 2013) -> AstroSat (Sept 2015) -> Chandrayaan-2 (July 2019) -> Chandrayaan-3 (July 2023) -> Aditya-L1 (Sept 2023).",
+    "volatile": false
+  }
+]

@@ -1,0 +1,309 @@
+:root {
+  /* Paper & Notebook Palette */
+  --bg-paper: #fbf8f1;
+  --bg-paper-subtle: #f6f0e2;
+  --bg-card: #ffffff;
+  --bg-card-hover: #fefdfa;
+  --ruled-line: rgba(148, 163, 184, 0.22);
+  --margin-line: #f43f5e;
+  --margin-line-subtle: rgba(244, 63, 94, 0.25);
+
+  /* Fountain Pen Ink Colors */
+  --ink-primary: #1b2a4a;
+  --ink-secondary: #334155;
+  --ink-muted: #64748b;
+  --ink-border: #cbd5e1;
+  --ink-border-focus: #1b2a4a;
+
+  /* Stationery Accents */
+  --highlighter-yellow: #fde047;
+  --highlighter-bg: #fef08a;
+  --highlighter-soft: #fef9c3;
+  --red-pen: #dc2626;
+  --red-pen-bg: #fef2f2;
+  --red-pen-border: #fca5a5;
+  --green-tick: #15803d;
+  --green-tick-bg: #f0fdf4;
+  --green-tick-border: #86efac;
+  --pencil-lead: #475569;
+  --eraser-pink: #fbcfe8;
+
+  /* Shadows - Tactile paper elevation */
+  --shadow-paper-flat: 1px 1px 0px rgba(27, 42, 74, 0.15), 0 1px 2px rgba(27, 42, 74, 0.05);
+  --shadow-paper: 2px 3px 0px rgba(27, 42, 74, 0.18), 0 2px 4px rgba(27, 42, 74, 0.06);
+  --shadow-paper-elevated: 4px 6px 0px rgba(27, 42, 74, 0.2), 0 8px 16px rgba(27, 42, 74, 0.08);
+  --shadow-pressed: 0px 1px 0px rgba(27, 42, 74, 0.15) inset;
+
+  /* Fonts */
+  --font-heading: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-hindi: 'Noto Sans Devanagari', 'Plus Jakarta Sans', sans-serif;
+  --font-handwritten: 'Caveat', cursive, sans-serif;
+
+  /* Touch & Radius */
+  --min-touch-target: 44px;
+  --radius-subtle: 4px;
+  --radius-card: 6px;
+  --radius-pill: 9999px;
+}
+
+[data-theme='dark'] {
+  --bg-paper: #121620;
+  --bg-paper-subtle: #181f2c;
+  --bg-card: #1c2434;
+  --bg-card-hover: #222c3f;
+  --ruled-line: rgba(203, 213, 225, 0.08);
+  --margin-line: #fb7185;
+  --margin-line-subtle: rgba(251, 113, 133, 0.2);
+
+  --ink-primary: #f1f5f9;
+  --ink-secondary: #cbd5e1;
+  --ink-muted: #94a3b8;
+  --ink-border: #334155;
+  --ink-border-focus: #fde047;
+
+  --highlighter-yellow: #ca8a04;
+  --highlighter-bg: #854d0e;
+  --highlighter-soft: #3f2c00;
+  --red-pen: #f87171;
+  --red-pen-bg: #450a0a;
+  --red-pen-border: #991b1b;
+  --green-tick: #4ade80;
+  --green-tick-bg: #052e16;
+  --green-tick-border: #166534;
+  --pencil-lead: #94a3b8;
+  --eraser-pink: #831843;
+
+  --shadow-paper-flat: 1px 1px 0px rgba(0, 0, 0, 0.4);
+  --shadow-paper: 2px 3px 0px rgba(0, 0, 0, 0.5);
+  --shadow-paper-elevated: 4px 6px 0px rgba(0, 0, 0, 0.6);
+}
+
+/* Reset & Base */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--ink-primary);
+  background-color: var(--bg-paper);
+  background-image: 
+    linear-gradient(to right, transparent 58px, var(--margin-line-subtle) 59px, transparent 61px),
+    linear-gradient(to bottom, var(--ruled-line) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 28px;
+  background-position: 0 0, 0 14px;
+  background-repeat: no-repeat, repeat-y;
+  line-height: 1.6;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Focus outline for keyboard navigation */
+:focus-visible {
+  outline: 2px solid var(--ink-border-focus);
+  outline-offset: 2px;
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  color: var(--ink-primary);
+  line-height: 1.25;
+  font-weight: 700;
+}
+
+p, li, span, div {
+  font-family: var(--font-body);
+}
+
+/* Hindi text class */
+.devanagari-text {
+  font-family: var(--font-hindi) !important;
+  line-height: 1.7;
+}
+
+/* Characterful Handwritten notes & annotations */
+.handwritten-note {
+  font-family: var(--font-handwritten);
+  font-size: 1.15rem;
+  color: var(--ink-secondary);
+  transform: rotate(-1.5deg);
+  display: inline-block;
+}
+
+/* Highlighter mark effect */
+.highlight-pen {
+  background: linear-gradient(104deg, rgba(253, 224, 71, 0) 0%, var(--highlighter-yellow) 4%, var(--highlighter-yellow) 94%, rgba(253, 224, 71, 0) 100%);
+  padding: 0.1em 0.35em;
+  border-radius: 2px;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  color: #0f172a;
+}
+
+[data-theme='dark'] .highlight-pen {
+  background: linear-gradient(104deg, rgba(202, 138, 4, 0) 0%, var(--highlighter-yellow) 4%, var(--highlighter-yellow) 94%, rgba(202, 138, 4, 0) 100%);
+  color: #ffffff;
+}
+
+/* Custom interactive buttons with tactile notebook feel */
+button {
+  font-family: inherit;
+  font-size: inherit;
+  border: none;
+  cursor: pointer;
+  background: none;
+}
+
+.paper-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  min-height: var(--min-touch-target);
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  border-radius: var(--radius-subtle);
+  border: 1.5px solid var(--ink-primary);
+  background-color: var(--bg-card);
+  color: var(--ink-primary);
+  box-shadow: var(--shadow-paper);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  user-select: none;
+}
+
+.paper-btn:hover {
+  transform: translate(-1px, -1px);
+  box-shadow: var(--shadow-paper-elevated);
+}
+
+.paper-btn:active {
+  transform: translate(1px, 2px);
+  box-shadow: var(--shadow-paper-flat);
+}
+
+.paper-btn-primary {
+  background-color: var(--ink-primary);
+  color: #ffffff;
+  border-color: var(--ink-primary);
+}
+
+.paper-btn-primary:hover {
+  background-color: #293d66;
+  color: #ffffff;
+}
+
+.paper-btn-accent {
+  background-color: var(--highlighter-yellow);
+  color: #1e293b;
+  border-color: #1e293b;
+}
+
+.paper-btn-danger {
+  background-color: var(--red-pen-bg);
+  color: var(--red-pen);
+  border-color: var(--red-pen);
+}
+
+/* Ruled paper cards */
+.notebook-sheet {
+  background-color: var(--bg-card);
+  border: 1.5px solid var(--ink-border);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-paper);
+  padding: 1.5rem;
+  position: relative;
+  transition: box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+/* Red margin indicator */
+.notebook-sheet::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 28px;
+  width: 1px;
+  background-color: var(--margin-line-subtle);
+  pointer-events: none;
+}
+
+@media (max-width: 640px) {
+  body {
+    background-image: linear-gradient(to bottom, var(--ruled-line) 1px, transparent 1px);
+    background-size: 100% 28px;
+  }
+  .notebook-sheet::before {
+    display: none;
+  }
+}
+
+/* Rubber Stamp animations for correct / incorrect grading */
+@keyframes stampIn {
+  0% {
+    transform: scale(2.2) rotate(-15deg);
+    opacity: 0;
+  }
+  70% {
+    transform: scale(0.95) rotate(-3deg);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1) rotate(-4deg);
+    opacity: 1;
+  }
+}
+
+.stamp-correct {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.8rem;
+  border: 2px dashed var(--green-tick);
+  border-radius: 4px;
+  color: var(--green-tick);
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: var(--green-tick-bg);
+  animation: stampIn 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+.stamp-wrong {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.3rem 0.8rem;
+  border: 2px dashed var(--red-pen);
+  border-radius: 4px;
+  color: var(--red-pen);
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background-color: var(--red-pen-bg);
+  animation: stampIn 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

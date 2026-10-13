@@ -1,0 +1,1992 @@
+[
+  {
+    "id": "c10-cs-001",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which HTML tag and attribute combination is used to define a hyperlink linking to an external website?",
+    "options": [
+      "<a href=\"https://www.example.com\">Visit Site</a>",
+      "<link src=\"https://www.example.com\">Visit Site</link>",
+      "<href link=\"https://www.example.com\">Visit Site</href>",
+      "<url target=\"https://www.example.com\">Visit Site</url>"
+    ],
+    "answer": 0,
+    "explanation": "In HTML, the anchor tag <a> paired with the 'href' (hypertext reference) attribute defines a hyperlink pointing to an external or internal destination URL.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-002",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In an HTML table, which attribute is used on a <td> or <th> tag to merge a single cell horizontally across multiple adjacent columns?",
+    "options": [
+      "colspan",
+      "rowspan",
+      "cellpadding",
+      "cellspacing"
+    ],
+    "answer": 0,
+    "explanation": "The 'colspan' attribute specifies how many columns a table cell should span horizontally, whereas 'rowspan' merges cells vertically across rows.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-003",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Spreadsheet Functions and Formulas",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If cell range A1:A5 contains the values {12, \"Computer\", 45, \"\", 8}, what is the exact numerical result returned by the formula =COUNT(A1:A5)?",
+    "options": [
+      "3",
+      "4",
+      "5",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "The COUNT function counts only cells containing numeric values. The numbers are 12, 45, and 8 (3 values). The text string \"Computer\" and empty cell are ignored.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-004",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Spreadsheet Functions and Formulas",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Cell C1 contains the mixed reference formula =A$2 + $B1. If this formula is copied and pasted into cell D3, what does the formula become in cell D3?",
+    "options": [
+      "=B$2 + $B3",
+      "=B$4 + $C3",
+      "=A$2 + $B1",
+      "=B$2 + $C3"
+    ],
+    "answer": 0,
+    "explanation": "C1 to D3 moves 1 column right and 2 rows down. In A$2: column A is relative (becomes B), row 2 is absolute ($2 stays $2) -> B$2. In $B1: column B is absolute ($B stays $B), row 1 is relative (1 + 2 = 3) -> $B3. Thus =B$2 + $B3.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-005",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In an HTML web form, how do radio buttons (<input type=\"radio\">) differ from checkboxes (<input type=\"checkbox\">)?",
+    "options": [
+      "Radio buttons with identical 'name' attributes allow only one choice from a group, whereas checkboxes permit multiple independent selections",
+      "Checkboxes allow only a single choice from a list, while radio buttons permit multiple selections",
+      "Radio buttons cannot be submitted to a server via forms",
+      "Checkboxes require CSS JavaScript handlers to operate, whereas radio buttons are native"
+    ],
+    "answer": 0,
+    "explanation": "Radio buttons sharing the same 'name' attribute form a mutually exclusive group where only one option can be chosen. Checkboxes permit choosing any combination of choices.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-006",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Number Systems",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the octal (base-8) representation of the decimal integer 45?",
+    "options": [
+      "55",
+      "51",
+      "45",
+      "65"
+    ],
+    "answer": 0,
+    "explanation": "Dividing 45 by 8: 45 = 5 × 8 + 5. The quotient is 5 and the remainder is 5, giving 55 in octal (55₈ = 5×8¹ + 5×8⁰ = 40 + 5 = 45).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-007",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In HTML, the 'src' (source) attribute is mandatory in the <img> tag to specify the file path or URL of the image to be displayed.",
+    "answer": true,
+    "explanation": "Without the 'src' attribute, the <img> tag cannot identify or fetch the target graphic file to render on the webpage.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-008",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Spreadsheet Functions and Formulas",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In a spreadsheet formula, an absolute cell reference written as $C$5 will maintain both its column C and row 5 fixed regardless of where the formula is copied.",
+    "answer": true,
+    "explanation": "The dollar signs before both column ($C) and row ($5) lock both coordinates, preventing them from shifting during copy or autofill operations.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-009",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In HTML, the <ol> tag renders an ordered (numbered) list by default, using arabic numerals (1, 2, 3...) for its list items (<li>).",
+    "answer": true,
+    "explanation": "The <ol> element represents an ordered list where items are sequentially numbered starting at 1 unless configured otherwise with attributes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-010",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In HTML table construction, the container tag used to define an individual horizontal row of cells is <______>.",
+    "answer": "tr",
+    "acceptedAnswers": [
+      "tr",
+      "TR"
+    ],
+    "explanation": "The <tr> (table row) tag is used inside <table> to enclose header cells (<th>) or data cells (<td>).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-011",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Spreadsheet Functions and Formulas",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In spreadsheet applications like MS Excel or LibreOffice Calc, all calculation formulas and built-in function calls must begin with the ______ symbol.",
+    "answer": "=",
+    "acceptedAnswers": [
+      "=",
+      "equal",
+      "equals",
+      "equal to",
+      "equal sign"
+    ],
+    "explanation": "The '=' prefix instructs the spreadsheet parser to treat cell contents as an executable mathematical expression or function call rather than plain literal text.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-012",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Number Systems",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "Convert the 8-bit binary byte 11011010 into its equivalent 2-digit Hexadecimal representation (write digits in uppercase, e.g., 3F): ______.",
+    "answer": "DA",
+    "acceptedAnswers": [
+      "DA",
+      "0xDA",
+      "da"
+    ],
+    "explanation": "Split into 4-bit nibbles: 1101_2 = 13_10 = 'D', and 1010_2 = 10_10 = 'A'. Thus 11011010_2 = DA_16.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-013",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match the following foundational HTML tags with their core document functions:",
+    "pairs": [
+      [
+        "<h1>",
+        "Topmost major section heading"
+      ],
+      [
+        "<p>",
+        "Paragraph text block"
+      ],
+      [
+        "<a>",
+        "Hyperlink anchor element"
+      ],
+      [
+        "<ul>",
+        "Unordered bulleted list container"
+      ]
+    ],
+    "explanation": "<h1> defines the highest level heading; <p> formats text paragraphs; <a> produces clickable hyperlinks; <ul> creates bulleted lists.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-014",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Spreadsheet Functions and Formulas",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following spreadsheet function calls with their evaluated outputs:",
+    "pairs": [
+      [
+        "=SUM(10, 20, 30)",
+        "60"
+      ],
+      [
+        "=MAX(12, 45, 23)",
+        "45"
+      ],
+      [
+        "=AVERAGE(10, 20, 30)",
+        "20"
+      ],
+      [
+        "=COUNT(5, \"cat\", 15)",
+        "2"
+      ]
+    ],
+    "explanation": "SUM adds values (60); MAX returns highest (45); AVERAGE calculates arithmetic mean (20); COUNT ignores string \"cat\" and tallies the two numbers (2).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-015",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Number Systems",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Convert the 6-bit binary integer 111001_2 into its decimal equivalent.",
+    "answer": 57,
+    "tolerance": 0,
+    "unit": "decimal",
+    "explanation": "111001_2 = (1×32) + (1×16) + (1×8) + (0×4) + (0×2) + (1×1) = 32 + 16 + 8 + 1 = 57.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-016",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Number Systems",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Convert the octal numeral 75_8 into its decimal base-10 equivalent.",
+    "answer": 61,
+    "tolerance": 0,
+    "unit": "decimal",
+    "explanation": "In octal, 75_8 = (7 × 8^1) + (5 × 8^0) = 56 + 5 = 61 in decimal.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-017",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Observe the rendered HTML table diagram below. Which attribute was applied to the top-left cell ('Student Data') to merge it vertically across two rows?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 220\" width=\"100%\" height=\"220\"><rect width=\"500\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"250\" y=\"30\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Rendered HTML Table</text><rect x=\"50\" y=\"55\" width=\"130\" height=\"100\" fill=\"#dbeafe\" stroke=\"#2563eb\" stroke-width=\"2\" rx=\"4\"/><text x=\"115\" y=\"110\" font-size=\"14\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Student Data</text><text x=\"115\" y=\"130\" font-size=\"11\" fill=\"#3b82f6\" text-anchor=\"middle\">[Spans 2 Rows]</text><rect x=\"180\" y=\"55\" width=\"130\" height=\"50\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"1\"/><text x=\"245\" y=\"85\" font-size=\"13\" fill=\"#334155\" text-anchor=\"middle\">Roll No</text><rect x=\"310\" y=\"55\" width=\"140\" height=\"50\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"1\"/><text x=\"380\" y=\"85\" font-size=\"13\" fill=\"#334155\" text-anchor=\"middle\">Name</text><rect x=\"180\" y=\"105\" width=\"130\" height=\"50\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1\"/><text x=\"245\" y=\"135\" font-size=\"13\" fill=\"#475569\" text-anchor=\"middle\">101</text><rect x=\"310\" y=\"105\" width=\"140\" height=\"50\" fill=\"#ffffff\" stroke=\"#cbd5e1\" stroke-width=\"1\"/><text x=\"380\" y=\"135\" font-size=\"13\" fill=\"#475569\" text-anchor=\"middle\">Aarav Sharma</text><text x=\"250\" y=\"190\" font-size=\"12\" fill=\"#64748b\" text-anchor=\"middle\">Table Cell Merging Demonstration</text></svg>"
+    },
+    "options": [
+      "rowspan=\"2\"",
+      "colspan=\"2\"",
+      "cellpadding=\"2\"",
+      "border=\"2\""
+    ],
+    "answer": 0,
+    "explanation": "The 'rowspan=\"2\"' attribute instructs the browser to expand a <td> or <th> vertically across two consecutive table rows.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-018",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Why is it considered essential web practice to include the 'alt' attribute whenever using the <img> tag in an HTML document?",
+    "sampleAnswer": "The 'alt' attribute provides alternative descriptive text if the image fails to load and serves screen readers to ensure web accessibility for visually impaired users.",
+    "acceptedAnswers": [
+      "Provides alternative text if image fails to load",
+      "Screen readers and accessibility",
+      "Web accessibility"
+    ],
+    "keywords": [
+      "alternative text",
+      "fails to load",
+      "screen reader",
+      "accessibility",
+      "visually impaired"
+    ],
+    "explanation": "The alt attribute conveys textual information if image loading fails and provides assistive descriptions for accessibility screen-reading tools.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-019",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Spreadsheet Functions and Formulas",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Explain the behavioral difference between relative cell referencing (e.g., A1) and absolute cell referencing (e.g., $A$1) when copying formulas in a spreadsheet.",
+    "sampleAnswer": "Relative cell references (A1) adjust automatically based on the relative distance to the new position when copied, whereas absolute cell references ($A$1) remain locked to the exact specified cell regardless of destination.",
+    "acceptedAnswers": [
+      "Relative shifts while absolute remains locked",
+      "Relative adjusts automatically while absolute stays fixed",
+      "Relative changes position while absolute is locked"
+    ],
+    "keywords": [
+      "relative",
+      "absolute",
+      "adjusts",
+      "fixed",
+      "locked",
+      "copied"
+    ],
+    "explanation": "Relative references shift rows and columns proportionally to destination offset; absolute references lock column and row coordinates using the dollar symbol ($).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-020",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): In an HTML form, all radio buttons within a question offering mutually exclusive choices must have the same 'name' attribute value.\nReason (R): The web browser utilizes the 'name' attribute to group radio buttons together so that selecting any one option automatically deselects all others in that group.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Sharing the identical 'name' attribute allows the browser to form a mutually exclusive toggle group, ensuring only one radio option is chosen at a time.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-021",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Spreadsheet Functions and Formulas",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): Entering the formula =A1+B1 directly into cell A1 triggers a 'Circular Reference' warning in spreadsheet programs.\nReason (R): A circular reference occurs when a formula directly or indirectly refers to its own cell, causing an infinite calculation loop that the spreadsheet cannot resolve deterministically.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "A cell formula that refers to its own container cell creates a recurring dependency loop termed a circular reference, preventing standard single-pass calculation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-022",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are container (paired) tags in HTML that strictly require both an opening tag and a closing tag? (Select all that apply)",
+    "options": [
+      "<html>...</html>",
+      "<head>...</head>",
+      "<body>...</body>",
+      "<br> (line break)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "<html>, <head>, and <body> are container elements that enclose other content and require closing tags. <br> is an empty (void) tag requiring no closing tag.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-023",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Spreadsheet Functions and Formulas",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following built-in spreadsheet functions operate on numeric data and ignore non-numeric text labels and blank cells in a range? (Select all that apply)",
+    "options": [
+      "SUM",
+      "AVERAGE",
+      "MAX",
+      "CONCATENATE"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "SUM, AVERAGE, and MAX process numeric values while bypassing empty cells and text strings. CONCATENATE is specifically designed to join text strings.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-024",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "HTML",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the foundational tags of a valid HTML5 web document in their proper top-to-bottom document skeleton order:",
+    "orderedItems": [
+      "<!DOCTYPE html>",
+      "<html>",
+      "<head>",
+      "<title>",
+      "<body>"
+    ],
+    "answer": "ordered",
+    "explanation": "Standard HTML5 structure: Document type declaration -> html root -> head metadata section -> title tag -> body display section.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-025",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Number Systems",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following binary numbers in strictly ascending order of their decimal numerical values:",
+    "orderedItems": [
+      "1010_2 (Decimal 10)",
+      "1100_2 (Decimal 12)",
+      "1111_2 (Decimal 15)",
+      "10001_2 (Decimal 17)",
+      "10110_2 (Decimal 22)"
+    ],
+    "answer": "ordered",
+    "explanation": "Decimal values: 1010_2 = 10, 1100_2 = 12, 1111_2 = 15, 10001_2 = 17, 10110_2 = 22. In ascending order: 10 < 12 < 15 < 17 < 22.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-026",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In a relational database (RDBMS), what is a Primary Key?",
+    "options": [
+      "A column or set of columns that uniquely identifies every tuple (row) in a table without containing any NULL values",
+      "A key used exclusively for encrypting sensitive user passwords",
+      "The first column physically positioned in a table layout",
+      "A column that allows duplicate values to index records quickly"
+    ],
+    "answer": 0,
+    "explanation": "A Primary Key enforces entity integrity: it uniquely identifies each record in a table, and its values must be non-null and unique.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-027",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A database table named 'STUDENT' contains 6 columns (attributes) and currently holds 25 student records (tuples). What are the Degree and Cardinality of this table respectively?",
+    "options": [
+      "Degree = 6, Cardinality = 25",
+      "Degree = 25, Cardinality = 6",
+      "Degree = 31, Cardinality = 150",
+      "Degree = 6, Cardinality = 6"
+    ],
+    "answer": 0,
+    "explanation": "In relational database theory, 'Degree' is the number of attributes (columns), and 'Cardinality' is the number of tuples (rows). Thus Degree = 6 and Cardinality = 25.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-028",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which type of relational database key is used in a child table to establish a link referencing the Primary Key of a parent table, thereby enforcing referential integrity?",
+    "options": [
+      "Foreign Key",
+      "Candidate Key",
+      "Alternate Key",
+      "Super Key"
+    ],
+    "answer": 0,
+    "explanation": "A Foreign Key is an attribute in one table whose values match the Primary Key of another table, maintaining referential integrity between related entities.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-029",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Which SQL statement correctly retrieves the 'Name' and 'Marks' of all students from table 'STUDENT' who scored at least 75 marks, sorted in descending order of marks?",
+    "options": [
+      "SELECT Name, Marks FROM STUDENT WHERE Marks >= 75 ORDER BY Marks DESC;",
+      "SELECT Name, Marks IN STUDENT WHERE Marks > 75 SORT BY Marks DESCENDING;",
+      "FETCH Name, Marks FROM STUDENT FILTER Marks >= 75 ORDER BY Marks ASC;",
+      "SELECT * FROM STUDENT WHERE Marks >= 75 GROUP BY Marks DESC;"
+    ],
+    "answer": 0,
+    "explanation": "The standard SQL syntax uses 'SELECT columns FROM table WHERE condition ORDER BY column DESC;' for descending sorting.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-030",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Basic Programming Logic and Flowcharts",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which standard geometric shape is used in an algorithm flowchart to represent input and output operations (such as reading user input or displaying a result)?",
+    "options": [
+      "Parallelogram",
+      "Rectangle",
+      "Diamond",
+      "Oval"
+    ],
+    "answer": 0,
+    "explanation": "In standard flowchart notation, a parallelogram denotes Input/Output actions (e.g., 'Input A', 'Print Sum').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-031",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Basic Programming Logic and Flowcharts",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In a flowchart, what is the primary role of the Diamond (Rhombus) symbol?",
+    "options": [
+      "To evaluate a conditional decision with multiple outward branching paths (True/False or Yes/No)",
+      "To execute an internal calculation or variable assignment",
+      "To mark the start and end of the algorithm",
+      "To connect flowchart pages together without lines"
+    ],
+    "answer": 0,
+    "explanation": "A diamond symbol tests a logical condition (e.g., 'Is X > 0?') and provides alternate directional flow lines based on the outcome.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-032",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In a relational database table, there can be at most one Primary Key constraint defined.",
+    "answer": true,
+    "explanation": "A table can have multiple Candidate Keys, but only one can be selected and designated as the Primary Key.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-033",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In SQL, executing 'DELETE FROM Students;' removes all data rows from the table while retaining the table's structure, whereas 'DROP TABLE Students;' permanently removes both the data and the table definition from the database schema.",
+    "answer": true,
+    "explanation": "DELETE is a DML statement deleting rows while preserving the schema structure. DROP TABLE is a DDL command deleting the table entity completely.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-034",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In formal relational database terminology, an individual horizontal row containing data for a single entity is known as a record or a ______.",
+    "answer": "tuple",
+    "acceptedAnswers": [
+      "tuple",
+      "Tuple"
+    ],
+    "explanation": "In relational model theory, tables are relations, columns are attributes, and individual rows are called tuples.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-035",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Basic Programming Logic and Flowcharts",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In a flowchart diagram, the Oval or rounded-capsule shape placed at the very beginning and ending of an algorithm is formally called a ______ symbol.",
+    "answer": "terminator",
+    "acceptedAnswers": [
+      "terminator",
+      "terminal",
+      "Terminator",
+      "Terminal"
+    ],
+    "explanation": "The oval shape is designated as a Terminator (or Terminal) symbol because it signifies the starting entry point and the termination exit of the process flow.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-036",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Basic Programming Logic and Flowcharts",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match the following standard flowchart symbols with their designated computational functions:",
+    "pairs": [
+      [
+        "Oval",
+        "Start or End of the program flow (Terminator)"
+      ],
+      [
+        "Parallelogram",
+        "Input or Output operation (I/O)"
+      ],
+      [
+        "Rectangle",
+        "Process, calculation, or assignment step"
+      ],
+      [
+        "Diamond",
+        "Decision or conditional branching check"
+      ]
+    ],
+    "explanation": "Oval = Start/End; Parallelogram = Input/Output; Rectangle = Process/Calculation; Diamond = Decision/Branching.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-037",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Number Systems",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Perform binary addition on the two 4-bit numbers: 1011_2 and 0110_2. What is the equivalent decimal value of their sum?",
+    "answer": 17,
+    "tolerance": 0,
+    "unit": "decimal",
+    "explanation": "1011_2 = 11 in decimal, and 0110_2 = 6 in decimal. Their sum in binary is 10001_2, which equals 11 + 6 = 17 in decimal.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-038",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A school database table 'EXAM_SCORES' is created with 7 distinct attribute columns (RollNo, StudentName, English, Math, Science, SSt, Total) and contains rows for 150 students. What is the Degree of this table?",
+    "answer": 7,
+    "tolerance": 0,
+    "unit": "columns",
+    "explanation": "Degree of a relation is defined as the total number of attributes (columns) present in the table schema. Here there are 7 columns, so Degree = 7.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-039",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Basic Programming Logic and Flowcharts",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Trace the execution of this iterative algorithm snippet:\nsum = 0\nfor i from 1 to 5 inclusive:\n    sum = sum + (i * 2)\nWhat is the final integer value stored in variable 'sum' upon loop termination?",
+    "answer": 30,
+    "tolerance": 0,
+    "unit": "integer",
+    "explanation": "Iteration trace: i=1: sum=2; i=2: sum=2+4=6; i=3: sum=6+6=12; i=4: sum=12+8=20; i=5: sum=20+10=30.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-040",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the relational database table schema diagram below. What is the formal database term for the total count of horizontal rows (tuples) present in a relation?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"28\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Relational Database Structure (STUDENT Table)</text><rect x=\"40\" y=\"50\" width=\"100\" height=\"35\" fill=\"#bfdbfe\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"90\" y=\"72\" font-size=\"12\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">RollNo (PK)</text><rect x=\"140\" y=\"50\" width=\"110\" height=\"35\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><text x=\"195\" y=\"72\" font-size=\"12\" fill=\"#334155\" text-anchor=\"middle\">Name</text><rect x=\"250\" y=\"50\" width=\"90\" height=\"35\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><text x=\"295\" y=\"72\" font-size=\"12\" fill=\"#334155\" text-anchor=\"middle\">Class</text><rect x=\"340\" y=\"50\" width=\"100\" height=\"35\" fill=\"#e2e8f0\" stroke=\"#64748b\" stroke-width=\"1\"/><text x=\"390\" y=\"72\" font-size=\"12\" fill=\"#334155\" text-anchor=\"middle\">City</text><rect x=\"40\" y=\"85\" width=\"400\" height=\"30\" fill=\"#ffffff\" stroke=\"#cbd5e1\"/><text x=\"50\" y=\"105\" font-size=\"12\" fill=\"#475569\">Row 1: 101 | Ananya | 10A | Delhi</text><rect x=\"40\" y=\"115\" width=\"400\" height=\"30\" fill=\"#ffffff\" stroke=\"#cbd5e1\"/><text x=\"50\" y=\"135\" font-size=\"12\" fill=\"#475569\">Row 2: 102 | Rohan  | 10B | Mumbai</text><rect x=\"40\" y=\"145\" width=\"400\" height=\"30\" fill=\"#ffffff\" stroke=\"#cbd5e1\"/><text x=\"50\" y=\"165\" font-size=\"12\" fill=\"#475569\">Row 3: 103 | Kavya  | 10A | Kolkata</text><text x=\"240\" y=\"200\" font-size=\"13\" font-weight=\"bold\" fill=\"#d97706\" text-anchor=\"middle\">Number of Rows = 3 [? Term]</text></svg>"
+    },
+    "options": [
+      "Cardinality",
+      "Degree",
+      "Domain",
+      "Foreign Key"
+    ],
+    "answer": 0,
+    "explanation": "Cardinality is the total number of records/rows (tuples) contained in a relation. Degree is the count of columns (attributes).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-041",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Basic Programming Logic and Flowcharts",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "Identify which geometric symbol in the decision-making flowchart below evaluates the boolean condition 'Is N > 0?':",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 240\" width=\"100%\" height=\"240\"><rect width=\"500\" height=\"240\" fill=\"#f8fafc\" rx=\"10\"/><rect x=\"210\" y=\"15\" width=\"80\" height=\"30\" rx=\"15\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"250\" y=\"35\" font-size=\"12\" font-weight=\"bold\" fill=\"#15803d\" text-anchor=\"middle\">Start</text><path d=\"M250 45 L250 65\" stroke=\"#64748b\" stroke-width=\"2\"/><polygon points=\"210,65 300,65 280,95 190,95\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"245\" y=\"84\" font-size=\"11\" fill=\"#0369a1\" text-anchor=\"middle\">Input N</text><path d=\"M245 95 L245 115\" stroke=\"#64748b\" stroke-width=\"2\"/><polygon points=\"245,115 315,145 245,175 175,145\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"245\" y=\"149\" font-size=\"11\" font-weight=\"bold\" fill=\"#b45309\" text-anchor=\"middle\">Is N &gt; 0?</text><path d=\"M315 145 L380 145\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"345\" y=\"138\" font-size=\"11\" fill=\"#16a34a\">Yes</text><rect x=\"380\" y=\"130\" width=\"90\" height=\"30\" rx=\"4\" fill=\"#f1f5f9\" stroke=\"#475569\"/><text x=\"425\" y=\"150\" font-size=\"10\" fill=\"#334155\" text-anchor=\"middle\">Print Positive</text></svg>"
+    },
+    "options": [
+      "Diamond (Rhombus)",
+      "Rectangle",
+      "Parallelogram",
+      "Oval"
+    ],
+    "answer": 0,
+    "explanation": "The condition 'Is N > 0?' is represented inside a Diamond symbol, which branches flow based on whether the condition evaluates to Yes or No.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-042",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is meant by a 'Candidate Key' in relational database management systems?",
+    "sampleAnswer": "A Candidate Key is any minimal set of attributes (columns) capable of uniquely identifying every tuple in a table without redundancy, eligible to be selected as the Primary Key.",
+    "acceptedAnswers": [
+      "A column eligible to be the primary key",
+      "A minimal superkey uniquely identifying rows",
+      "A set of attributes uniquely identifying records"
+    ],
+    "keywords": [
+      "candidate key",
+      "uniquely",
+      "primary key",
+      "minimal",
+      "eligible",
+      "tuple"
+    ],
+    "explanation": "Candidate keys are all candidate column sets that uniquely identify rows; one is chosen as primary key, and the rest become alternate keys.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-043",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why is a NULL value in an SQL database column fundamentally different from a numeric zero (0) or an empty space string (\" \")?",
+    "sampleAnswer": "NULL signifies missing, unknown, unassigned, or not applicable data, whereas 0 is an actual integer value and an empty space is a valid character string.",
+    "acceptedAnswers": [
+      "NULL means missing or unknown value whereas zero is a number",
+      "NULL represents unassigned or unknown data",
+      "NULL is absence of value not zero"
+    ],
+    "keywords": [
+      "NULL",
+      "missing",
+      "unknown",
+      "unassigned",
+      "zero",
+      "absence"
+    ],
+    "explanation": "NULL is a state indicator of missing or unknown information, distinct from numeric zero or blank text characters.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-044",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Basic Programming Logic and Flowcharts",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What is an 'infinite loop' in programming, and what logical defect in loop control structures causes it to occur?",
+    "sampleAnswer": "An infinite loop is a sequence of instructions that repeats endlessly because the loop termination condition never evaluates to false, typically because the loop control variable is never updated within the loop body.",
+    "acceptedAnswers": [
+      "A loop that never terminates because condition never becomes false",
+      "Loop that runs forever because variable is not updated",
+      "Loop running continuously without exit condition"
+    ],
+    "keywords": [
+      "infinite loop",
+      "never terminates",
+      "condition",
+      "false",
+      "control variable",
+      "updated"
+    ],
+    "explanation": "An infinite loop occurs when the loop condition remains perpetually true, freezing execution due to missing counter increments or incorrect boolean logic.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-045",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): A table can have multiple Candidate Keys, but only one of them can be designated as the Primary Key.\nReason (R): The candidate keys that are not selected as the Primary Key are referred to as Alternate Keys.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Every candidate key satisfies uniqueness; database administrators select one as the Primary Key, and all remaining candidate keys are termed Alternate Keys.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-046",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): Unlike a Primary Key, a Foreign Key column in a child table can accept duplicate values and NULL values (unless configured with NOT NULL).\nReason (R): In a one-to-many relationship, multiple records in a child table can refer to the same parent entity, and an entity may not yet be associated with any parent record.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Foreign keys represent relationships where multiple child rows may reference one parent row (duplicates allowed) or have no assignment yet (NULL allowed).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-047",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are Data Manipulation Language (DML) commands in SQL used to query or manipulate table records? (Select all that apply)",
+    "options": [
+      "SELECT",
+      "INSERT INTO",
+      "UPDATE",
+      "CREATE TABLE"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "SELECT, INSERT INTO, and UPDATE manipulate data records (DML). CREATE TABLE creates schemas and is a Data Definition Language (DDL) command.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-048",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Basic Programming Logic and Flowcharts",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following are the three fundamental algorithmic control structures required to construct any computer program logic? (Select all that apply)",
+    "options": [
+      "Sequential execution (Sequence)",
+      "Conditional decision branching (Selection / Branching)",
+      "Iteration / Looping (Repetition)",
+      "Overclocking processor frequencies"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "According to structured programming theorems, any computable algorithm can be expressed using Sequence, Selection, and Iteration. Processor overclocking is hardware tuning.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-049",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Basic Programming Logic and Flowcharts",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the chronological phases of the classic computer software problem-solving lifecycle in order:",
+    "orderedItems": [
+      "Problem Definition and Requirement Analysis",
+      "Algorithm Formulation and Flowchart Design",
+      "Source Code Implementation in a Programming Language",
+      "Testing, Verification, and Debugging",
+      "Deployment, Documentation, and Maintenance"
+    ],
+    "answer": "ordered",
+    "explanation": "Standard development methodology: Analyze requirements -> Design algorithm/flowchart -> Write code -> Test and debug -> Deploy and maintain.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-050",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Database Basics",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the standard clauses of an SQL data retrieval query in their required syntactical clause order:",
+    "orderedItems": [
+      "SELECT column_names",
+      "FROM table_name",
+      "WHERE filter_condition",
+      "ORDER BY sort_column ASC/DESC"
+    ],
+    "answer": "ordered",
+    "explanation": "Proper SQL query clause syntax: SELECT ... FROM ... WHERE ... ORDER BY ...",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-051",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which type of computer network is typically confined to a localized physical area such as a single room, school laboratory, or office building?",
+    "options": [
+      "Local Area Network (LAN)",
+      "Wide Area Network (WAN)",
+      "Metropolitan Area Network (MAN)",
+      "Global Area Network (GAN)"
+    ],
+    "answer": 0,
+    "explanation": "A Local Area Network (LAN) covers a restricted geographic scale such as a residence, classroom, laboratory, or office building.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-052",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In a Star network topology, what happens if the central connection hub or switch experiences a total hardware failure?",
+    "options": [
+      "The entire network fails and all inter-device communications cease",
+      "Only the server shuts down while peripheral workstations communicate directly",
+      "The network automatically rearranges into a Ring topology",
+      "Data transmission continues uninterrupted at reduced bandwidth"
+    ],
+    "answer": 0,
+    "explanation": "In a star topology, all network nodes depend directly on the central hub/switch. If the central device fails, the whole network becomes non-functional.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-053",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Internet Services",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Why is HTTPS preferred over plain HTTP for e-commerce transactions and online banking websites?",
+    "options": [
+      "HTTPS encrypts data transfers using SSL/TLS, preventing eavesdropping and tampering by attackers",
+      "HTTPS increases web page loading speeds by compressing video streams",
+      "HTTPS operates without requiring web browser internet connections",
+      "HTTPS eliminates the requirement for IP addresses"
+    ],
+    "answer": 0,
+    "explanation": "HTTPS (Hypertext Transfer Protocol Secure) encrypts client-server communication using cryptographic protocols (SSL/TLS), ensuring privacy and data integrity.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-054",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "How does an intelligent network Switch fundamentally differ from a standard network Hub when routing network traffic?",
+    "options": [
+      "A switch inspects MAC addresses to direct frames specifically to the destination port, whereas a hub broadcasts data to all connected ports",
+      "A switch operates only on analog signals, whereas a hub converts digital signals to wireless waves",
+      "A switch cannot connect more than two computers simultaneously, whereas a hub connects thousands",
+      "A switch is an unguided wireless antenna, whereas a hub is a physical cable"
+    ],
+    "answer": 0,
+    "explanation": "A switch maintains an internal MAC address table to forward frames directly to the intended destination device (unicast), reducing collisions, unlike a hub which broadcasts to all ports.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-055",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Internet Services",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which internet application protocol is specifically responsible for transmitting outgoing electronic mail (email) from an email client to a mail server?",
+    "options": [
+      "Simple Mail Transfer Protocol (SMTP)",
+      "Post Office Protocol (POP3)",
+      "File Transfer Protocol (FTP)",
+      "Internet Message Access Protocol (IMAP)"
+    ],
+    "answer": 0,
+    "explanation": "SMTP is the standard protocol for sending emails from clients to servers and relaying mail between mail transfer agents across the Internet.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-056",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Internet Services",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the primary function of the Domain Name System (DNS) on the Internet?",
+    "options": [
+      "Translating human-friendly alphanumeric domain names into machine-readable numeric IP addresses",
+      "Compressing multimedia images on websites to save mobile bandwidth",
+      "Assigning physical MAC hardware addresses to network interface cards",
+      "Scanning incoming emails for virus payloads and spam links"
+    ],
+    "answer": 0,
+    "explanation": "DNS acts as the phonebook of the Internet, translating human-friendly names (e.g., www.cbse.gov.in) into numeric IP addresses (e.g., 164.100.128.45) required for routing.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-057",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In optical fiber communication cables, data signals are transmitted as light pulses through glass or plastic cores utilizing the physical principle of total internal reflection.",
+    "answer": true,
+    "explanation": "Fiber optic cables carry digital information encoded as pulses of light through transparent silica glass or plastic cores via repeated total internal reflection.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-058",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Internet Services",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "IPv4 addresses use a 32-bit format typically written as 4 decimal octets separated by dots, whereas IPv6 addresses use 128 bits represented in 8 groups of hexadecimal digits separated by colons.",
+    "answer": true,
+    "explanation": "IPv4 is 32 bits (e.g., 192.168.1.1) yielding ~4.3 billion addresses, while IPv6 expands the address space to 128 bits (e.g., 2001:0db8:85a3::8a2e:0370:7334) to accommodate global growth.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-059",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Bluetooth is a short-range wireless radio frequency technology designed for exchanging data within a Personal Area Network (PAN) spanning roughly 10 meters.",
+    "answer": true,
+    "explanation": "Bluetooth operates on 2.4 GHz UHF radio waves for short-range personal device interconnection (PAN) between mobile phones, headsets, mice, and computers.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-060",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Internet Services",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The networking hardware device that converts digital computer data into analog signals for telephone transmission and converts incoming analog signals back to digital data is called a ______.",
+    "answer": "modem",
+    "acceptedAnswers": [
+      "modem",
+      "Modem"
+    ],
+    "explanation": "The term 'modem' is an acronym for MOdulator-DEModulator, describing its role in converting between digital computer signals and analog transmission waveforms.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-061",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Internet Services",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In email client configuration, the protocol that keeps email messages synchronized directly on the mail server across multiple user devices without downloading and deleting them is ______.",
+    "answer": "IMAP",
+    "acceptedAnswers": [
+      "IMAP",
+      "imap"
+    ],
+    "explanation": "IMAP (Internet Message Access Protocol) stores email messages on the server and synchronizes folder states across multiple devices simultaneously.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-062",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "A network device or node that serves as an entry and exit junction connecting two dissimilar networks utilizing completely different communication protocols is called a ______.",
+    "answer": "gateway",
+    "acceptedAnswers": [
+      "gateway",
+      "Gateway"
+    ],
+    "explanation": "A gateway acts as a protocol converter enabling inter-network communication between completely distinct architectures (e.g., connecting a local enterprise network to the public Internet).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-063",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Internet Services",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match the following internet protocols with their primary communication responsibilities:",
+    "pairs": [
+      [
+        "HTTP",
+        "Transferring unencrypted hypertext web pages"
+      ],
+      [
+        "FTP",
+        "Uploading and downloading files between client and server"
+      ],
+      [
+        "SMTP",
+        "Sending outgoing electronic mail messages"
+      ],
+      [
+        "DNS",
+        "Resolving human-readable domain names to IP addresses"
+      ]
+    ],
+    "explanation": "HTTP transfers web content; FTP transfers files; SMTP transmits outbound emails; DNS maps domain names to numerical IP addresses.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-064",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following transmission media with their physical construction and characteristics:",
+    "pairs": [
+      [
+        "Twisted Pair Cable",
+        "Inexpensive copper wire pairs twisted to reduce electromagnetic interference"
+      ],
+      [
+        "Coaxial Cable",
+        "Central copper core surrounded by dielectric insulator and braided metallic shield"
+      ],
+      [
+        "Optical Fiber Cable",
+        "Glass or plastic core carrying light pulses immune to electrical noise"
+      ],
+      [
+        "Radio Waves",
+        "Omnidirectional wireless signals propagating through atmosphere"
+      ]
+    ],
+    "explanation": "Twisted pair consists of twisted copper pairs; Coaxial has central core with braided shielding; Optical fiber carries light pulses; Radio waves provide wireless atmospheric transmission.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-065",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A broadband internet subscription provides a transmission speed of 64 Megabits per second (Mbps). Assuming ideal conditions with zero protocol overhead, what is the theoretical maximum file download rate in Megabytes per second (MB/s)?",
+    "answer": 8,
+    "tolerance": 0,
+    "unit": "MB/s",
+    "explanation": "1 Byte = 8 bits. Therefore, 64 Megabits per second (Mbps) ÷ 8 = 8 Megabytes per second (MB/s).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-066",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In a fully connected Mesh topology network containing N = 6 computer workstations, how many physical point-to-point duplex link cables are required to interconnect every workstation directly to every other workstation?",
+    "answer": 15,
+    "tolerance": 0,
+    "unit": "links",
+    "explanation": "For a fully connected mesh topology with N nodes, the number of required physical duplex links is N × (N - 1) / 2 = 6 × 5 / 2 = 15 cables.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-067",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the network topology diagrams below. In which topology is every node linked to a single central concentration device (hub or switch), making the central device a single point of network failure?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"26\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Common Network Topologies</text><rect x=\"20\" y=\"45\" width=\"230\" height=\"160\" rx=\"8\" fill=\"#ffffff\" stroke=\"#cbd5e1\"/><text x=\"135\" y=\"68\" font-size=\"14\" font-weight=\"bold\" fill=\"#2563eb\" text-anchor=\"middle\">Topology A (Star) [?]</text><rect x=\"110\" y=\"110\" width=\"50\" height=\"30\" rx=\"4\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"135\" y=\"130\" font-size=\"11\" font-weight=\"bold\" fill=\"#b45309\" text-anchor=\"middle\">HUB</text><circle cx=\"60\" cy=\"90\" r=\"16\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"60\" y=\"94\" font-size=\"10\" text-anchor=\"middle\">PC1</text><line x1=\"76\" y1=\"95\" x2=\"110\" y2=\"115\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"60\" cy=\"160\" r=\"16\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"60\" y=\"164\" font-size=\"10\" text-anchor=\"middle\">PC2</text><line x1=\"76\" y1=\"155\" x2=\"110\" y2=\"135\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"90\" r=\"16\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"210\" y=\"94\" font-size=\"10\" text-anchor=\"middle\">PC3</text><line x1=\"194\" y1=\"95\" x2=\"160\" y2=\"115\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"210\" cy=\"160\" r=\"16\" fill=\"#dbeafe\" stroke=\"#2563eb\"/><text x=\"210\" y=\"164\" font-size=\"10\" text-anchor=\"middle\">PC4</text><line x1=\"194\" y1=\"155\" x2=\"160\" y2=\"135\" stroke=\"#64748b\" stroke-width=\"2\"/><rect x=\"270\" y=\"45\" width=\"230\" height=\"160\" rx=\"8\" fill=\"#ffffff\" stroke=\"#cbd5e1\"/><text x=\"385\" y=\"68\" font-size=\"14\" font-weight=\"bold\" fill=\"#059669\" text-anchor=\"middle\">Topology B (Bus)</text><line x1=\"290\" y1=\"125\" x2=\"480\" y2=\"125\" stroke=\"#0f172a\" stroke-width=\"4\"/><circle cx=\"320\" cy=\"90\" r=\"14\" fill=\"#d1fae5\" stroke=\"#059669\"/><line x1=\"320\" y1=\"104\" x2=\"320\" y2=\"125\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"380\" cy=\"160\" r=\"14\" fill=\"#d1fae5\" stroke=\"#059669\"/><line x1=\"380\" y1=\"125\" x2=\"380\" y2=\"146\" stroke=\"#64748b\" stroke-width=\"2\"/><circle cx=\"440\" cy=\"90\" r=\"14\" fill=\"#d1fae5\" stroke=\"#059669\"/><line x1=\"440\" y1=\"104\" x2=\"440\" y2=\"125\" stroke=\"#64748b\" stroke-width=\"2\"/></svg>"
+    },
+    "options": [
+      "Star Topology",
+      "Bus Topology",
+      "Ring Topology",
+      "Mesh Topology"
+    ],
+    "answer": 0,
+    "explanation": "In a Star topology, every host computer connects via a dedicated point-to-point cable to a central hub or switch. If the hub malfunctions, the whole network goes down.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-068",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Distinguish between a Local Area Network (LAN) and a Wide Area Network (WAN) in terms of geographical span and ownership.",
+    "sampleAnswer": "A LAN spans a small geographical area such as a room, office, or school campus and is typically privately owned, whereas a WAN spans large geographic distances across cities, countries, or the globe (like the Internet) and is distributed across multiple organizations.",
+    "acceptedAnswers": [
+      "LAN is localized within a building while WAN spans countries or global distances",
+      "LAN covers a room or campus while WAN spans cities or countries",
+      "LAN is small area while WAN is worldwide"
+    ],
+    "keywords": [
+      "LAN",
+      "WAN",
+      "geographical",
+      "building",
+      "campus",
+      "city",
+      "country",
+      "Internet"
+    ],
+    "explanation": "LANs are confined to single buildings or campuses with high data rates; WANs span wide territorial or global scales connecting multiple smaller networks.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-069",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Internet Services",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What is the critical behavioral difference between POP3 and IMAP email retrieval protocols when accessing an email account from multiple devices (e.g., smartphone and laptop)?",
+    "sampleAnswer": "POP3 downloads emails to a single local device and deletes them from the mail server by default, making them inaccessible from other devices, whereas IMAP leaves messages on the central server and synchronizes message states (read, deleted, folders) across all devices in real time.",
+    "acceptedAnswers": [
+      "POP3 downloads and deletes from server while IMAP synchronizes on the server across devices",
+      "IMAP synchronizes across multiple devices while POP3 stores on one device",
+      "POP3 deletes from server whereas IMAP keeps messages on server"
+    ],
+    "keywords": [
+      "POP3",
+      "IMAP",
+      "downloads",
+      "deletes",
+      "server",
+      "synchronizes",
+      "multiple devices"
+    ],
+    "explanation": "POP3 operates on an offline download-and-delete model, whereas IMAP provides multi-device real-time folder synchronization on the remote server.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-070",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): Optical fiber cables provide substantially higher transmission bandwidth and greater signal reach than copper twisted-pair cables.\nReason (R): Optical fiber transmits data using light pulses through dielectric glass strands, rendering the signal immune to electrical resistance and electromagnetic interference (EMI).",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Because light pulses in silica glass suffer negligible attenuation and zero electromagnetic induction, fiber cables achieve gigabit speeds over long distances without distortion.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-071",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): A network Switch is classified as an active, intelligent device, whereas a traditional network Hub is classified as a passive or shared broadcast device.\nReason (R): A Switch learns device hardware MAC addresses and directs data frames exclusively to the intended recipient's port, preventing collisions that occur when a Hub broadcasts every packet to all ports.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "A switch reads MAC headers to unicast traffic on dedicated circuits, eliminating collision domains and optimizing bandwidth relative to broadcast hubs.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-072",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are examples of unguided (wireless) transmission media? (Select all that apply)",
+    "options": [
+      "Infrared",
+      "Bluetooth",
+      "Wi-Fi (Radio Waves)",
+      "Shielded Twisted Pair (STP)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Infrared, Bluetooth, and Wi-Fi propagate through the air without physical conductors (unguided). Shielded Twisted Pair is a physical copper wire (guided).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-073",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Internet Services",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following components are constituent parts of a complete Uniform Resource Locator (URL) such as 'https://www.cbse.gov.in/newsite/index.html'? (Select all that apply)",
+    "options": [
+      "Protocol scheme (e.g., https://)",
+      "Domain name / Hostname (e.g., www.cbse.gov.in)",
+      "Directory path and resource filename (e.g., /newsite/index.html)",
+      "Local client CPU serial number"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "A complete URL specifies the communication protocol, the target domain hostname, and the specific directory path/file resource on the web server.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-074",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Networking Basics",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following computer network classifications in ascending order of their geographical coverage scope:",
+    "orderedItems": [
+      "Personal Area Network (PAN)",
+      "Local Area Network (LAN)",
+      "Metropolitan Area Network (MAN)",
+      "Wide Area Network (WAN)"
+    ],
+    "answer": "ordered",
+    "explanation": "Geographical scope hierarchy: PAN (~10 m) < LAN (~single building/campus) < MAN (~citywide) < WAN (nationwide or worldwide).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-075",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Internet Services",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the chronological sequence of network operations that take place when a user types a web address (e.g., 'https://www.example.com') into a browser address bar:",
+    "orderedItems": [
+      "User enters URL into browser and triggers navigation.",
+      "Browser sends a query to a DNS server to resolve the domain name into an IP address.",
+      "Browser establishes a secure TCP/TLS connection with the server IP.",
+      "Browser transmits an HTTP/HTTPS GET request for the web document.",
+      "Web server transmits HTML, CSS, and script resources which the browser renders on screen."
+    ],
+    "answer": "ordered",
+    "explanation": "Web navigation flow: URL input -> DNS resolution -> TCP/TLS handshake -> HTTP GET request -> Server HTTP response and page rendering.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-076",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which cyber threat involves sending fraudulent emails masquerading as reputable financial institutions or service providers to trick victims into revealing sensitive passwords and credit card numbers?",
+    "options": [
+      "Phishing",
+      "Denial of Service (DoS)",
+      "Trojan Horse",
+      "Eavesdropping"
+    ],
+    "answer": 0,
+    "explanation": "Phishing is a deceptive social engineering attack using spoofed communications to lure individuals into disclosing confidential personal and financial credentials.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-077",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A type of malicious software that locks or encrypts the victim's personal files, demanding an extortion fee in exchange for the decryption key, is known as:",
+    "options": [
+      "Ransomware",
+      "Adware",
+      "Spyware",
+      "Keylogger"
+    ],
+    "answer": 0,
+    "explanation": "Ransomware encrypts critical data on a victim's storage drive and demands extortion payment (often in cryptocurrency) before releasing the decryption key.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-078",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which of the following activities contributes specifically to a user's 'Passive Digital Footprint'?",
+    "options": [
+      "Web servers logging the user's IP address and browsing duration via tracking cookies without user interaction",
+      "Publishing a photo album on a public social media profile",
+      "Sending an email to a school teacher with an attached assignment",
+      "Filling out an online registration form with personal details"
+    ],
+    "answer": 0,
+    "explanation": "A passive digital footprint is created without active user consent or awareness (e.g., server IP logs, analytics cookies), whereas active footprints stem from deliberate actions (posts, emails).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-079",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Introduction to AI/ML Concepts",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In machine learning paradigm classifications, what distinguishes Supervised Learning from Unsupervised Learning?",
+    "options": [
+      "Supervised learning trains models on labeled data with known target ground truth, whereas unsupervised learning discovers hidden patterns in unlabeled data",
+      "Supervised learning does not use algorithms or mathematics",
+      "Unsupervised learning requires humans to hand-label every single training sample",
+      "Supervised learning only operates on voice signals, while unsupervised operates on images"
+    ],
+    "answer": 0,
+    "explanation": "Supervised learning algorithms map input features to known target outputs using labeled training sets. Unsupervised algorithms cluster or discover structure in unlabeled data without guidance.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-080",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Introduction to AI/ML Concepts",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which major subfield of Artificial Intelligence focuses on enabling computing systems to acquire, process, analyze, and understand digital images and videos from the physical world?",
+    "options": [
+      "Computer Vision (CV)",
+      "Natural Language Processing (NLP)",
+      "Automated Speech Synthesis",
+      "Relational Database Querying"
+    ],
+    "answer": 0,
+    "explanation": "Computer Vision equips computer systems with the capability to perceive, interpret, and extract meaningful features from visual inputs such as photos and video streams.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-081",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Taking another author's written words, research findings, or ideas and submitting them as one's own original creation without citation or attribution is ethically termed:",
+    "options": [
+      "Plagiarism",
+      "Open Source Licensing",
+      "Pharming",
+      "Fair Use Exemption"
+    ],
+    "answer": 0,
+    "explanation": "Plagiarism is the wrongful appropriation, copying, or publication of another author's language, thoughts, or expressions and presenting them as one's own original work.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-082",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Introduction to AI/ML Concepts",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the primary underlying cause of 'Algorithmic Bias' in an Artificial Intelligence model (such as a facial recognition system having higher error rates for certain demographics)?",
+    "options": [
+      "The model was trained on historical datasets that were imbalanced or unrepresentative of real-world demographic diversity",
+      "The computer running the model had insufficient physical RAM",
+      "The program was written in an interpreted scripting language",
+      "The graphics card had low display resolution"
+    ],
+    "answer": 0,
+    "explanation": "AI models reflect the statistical patterns of their training data. When training datasets lack diverse representation or contain historical prejudices, the model learns and perpetuates biased outcomes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-083",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "A network Firewall inspects incoming and outgoing packet traffic against pre-configured security filtering rules to prevent unauthorized access to or from private networks.",
+    "answer": true,
+    "explanation": "Firewalls act as protective barriers between trusted internal networks and untrusted external networks (such as the Internet), blocking malicious or unauthorized connections.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-084",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Introduction to AI/ML Concepts",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In Natural Language Processing (NLP), tokenization is the fundamental pre-processing step of dividing a continuous passage of text into smaller discrete linguistic units called tokens.",
+    "answer": true,
+    "explanation": "Tokenization parses raw unstructured text sentences into individual constituent words, subwords, or punctuation symbols (tokens) ready for vectorization and algorithmic analysis.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-085",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "A deceptive malware program that disguises itself as legitimate or harmless software to mislead users into downloading and executing it is named a ______ horse.",
+    "answer": "Trojan",
+    "acceptedAnswers": [
+      "Trojan",
+      "trojan"
+    ],
+    "explanation": "Named after the historic wooden horse of ancient Troy, a Trojan horse disguises its malicious payload inside an apparently useful program.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-086",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Introduction to AI/ML Concepts",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In machine learning workflows, the portion of data reserved strictly for evaluating how accurately a trained model generalizes to unseen real-world inputs is called the ______ set.",
+    "answer": "test",
+    "acceptedAnswers": [
+      "test",
+      "testing",
+      "validation",
+      "test set"
+    ],
+    "explanation": "Datasets are partitioned into training sets (used by algorithms to adjust parameters) and test sets (used strictly to benchmark generalization performance).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-087",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match the following malicious software categories with their harmful operational behaviors:",
+    "pairs": [
+      [
+        "Spyware",
+        "Secretly tracks user keystrokes, browsing history, and personal passwords"
+      ],
+      [
+        "Ransomware",
+        "Encrypts storage data and extorts monetary payment for the decryption key"
+      ],
+      [
+        "Worm",
+        "Self-replicating program that spreads autonomously through network vulnerabilities"
+      ],
+      [
+        "Adware",
+        "Aggressively floods screens with intrusive advertisements and pop-ups"
+      ]
+    ],
+    "explanation": "Spyware covertly spies; Ransomware locks files for extortion; Worms spread autonomously over networks; Adware bombards users with unwanted advertisements.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-088",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Number Systems",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In 8-bit computer signed integer arithmetic, what is the two's complement representation of the negative integer -5? Convert this 8-bit binary pattern (11111011_2) into its unsigned decimal equivalent.",
+    "answer": 251,
+    "tolerance": 0,
+    "unit": "unsigned decimal",
+    "explanation": "+5 in 8 bits is 00000101_2. One's complement is 11111010_2. Adding 1 yields Two's complement 11111011_2. As an unsigned byte, 11111011_2 = 128 + 64 + 32 + 16 + 8 + 2 + 1 = 251.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-089",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A network administrator archives a secure school database backup file that measures exactly 4 Gigabytes (GB). Using binary computing storage conventions (where 1 GB = 1024 MB), how many Megabytes (MB) does this backup file consume?",
+    "answer": 4096,
+    "tolerance": 0,
+    "unit": "MB",
+    "explanation": "In binary digital memory measurement, 1 GB = 1024 Megabytes (MB). Therefore, 4 GB = 4 × 1024 MB = 4096 MB.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-090",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Introduction to AI/ML Concepts",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A machine learning spam-filter model is evaluated on a test dataset containing 200 emails. The model correctly classifies 170 emails as spam or legitimate. What is the classification Accuracy percentage of this model?",
+    "answer": 85,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Accuracy = (Correct Predictions ÷ Total Predictions) × 100 = (170 ÷ 200) × 100 = 85%.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-091",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Analyze the social engineering attack workflow illustrated below. Which specific cyber attack is being carried out to illicitly capture the victim's banking credentials?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"26\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Cyber Attack Workflow Diagram</text><rect x=\"20\" y=\"55\" width=\"130\" height=\"70\" rx=\"6\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"85\" y=\"80\" font-size=\"12\" font-weight=\"bold\" fill=\"#b91c1c\" text-anchor=\"middle\">1. Attacker</text><text x=\"85\" y=\"102\" font-size=\"10\" fill=\"#7f1d1d\" text-anchor=\"middle\">Sends Fake Bank Email</text><line x1=\"150\" y1=\"90\" x2=\"185\" y2=\"90\" stroke=\"#64748b\" stroke-width=\"2\"/><polygon points=\"185,86 195,90 185,94\" fill=\"#64748b\"/><rect x=\"195\" y=\"55\" width=\"130\" height=\"70\" rx=\"6\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"260\" y=\"80\" font-size=\"12\" font-weight=\"bold\" fill=\"#b45309\" text-anchor=\"middle\">2. Victim</text><text x=\"260\" y=\"102\" font-size=\"10\" fill=\"#78350f\" text-anchor=\"middle\">Clicks Malicious Link</text><line x1=\"325\" y1=\"90\" x2=\"360\" y2=\"90\" stroke=\"#64748b\" stroke-width=\"2\"/><polygon points=\"360,86 370,90 360,94\" fill=\"#64748b\"/><rect x=\"370\" y=\"55\" width=\"130\" height=\"70\" rx=\"6\" fill=\"#fee2e2\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"435\" y=\"80\" font-size=\"12\" font-weight=\"bold\" fill=\"#b91c1c\" text-anchor=\"middle\">3. Spoofed Portal</text><text x=\"435\" y=\"102\" font-size=\"10\" fill=\"#7f1d1d\" text-anchor=\"middle\">Harvests Login Credentials</text><text x=\"260\" y=\"175\" font-size=\"13\" font-weight=\"bold\" fill=\"#dc2626\" text-anchor=\"middle\">Deceptive credential-harvesting scheme: [?]</text></svg>"
+    },
+    "options": [
+      "Phishing Attack",
+      "Denial of Service (DoS)",
+      "SQL Injection",
+      "Spyware Infection"
+    ],
+    "answer": 0,
+    "explanation": "This diagram illustrates Phishing: sending deceptive messages imitating trusted institutions to direct users to spoofed web portals that steal credentials.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-092",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Introduction to AI/ML Concepts",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "Observe the nested hierarchy of artificial intelligence domains below. Which sub-discipline occupies the innermost specialized core that relies on multi-layered artificial neural networks?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 500 240\" width=\"100%\" height=\"240\"><rect width=\"500\" height=\"240\" fill=\"#f8fafc\" rx=\"10\"/><circle cx=\"250\" cy=\"125\" r=\"105\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"250\" y=\"45\" font-size=\"14\" font-weight=\"bold\" fill=\"#1d4ed8\" text-anchor=\"middle\">Artificial Intelligence (AI)</text><circle cx=\"250\" cy=\"135\" r=\"70\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"250\" y=\"88\" font-size=\"13\" font-weight=\"bold\" fill=\"#15803d\" text-anchor=\"middle\">Machine Learning (ML)</text><circle cx=\"250\" cy=\"150\" r=\"38\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"250\" y=\"148\" font-size=\"11\" font-weight=\"bold\" fill=\"#b45309\" text-anchor=\"middle\">Deep</text><text x=\"250\" y=\"163\" font-size=\"11\" font-weight=\"bold\" fill=\"#b45309\" text-anchor=\"middle\">Learning [?]</text></svg>"
+    },
+    "options": [
+      "Deep Learning",
+      "Machine Learning",
+      "Expert Systems",
+      "Relational Databases"
+    ],
+    "answer": 0,
+    "explanation": "Deep Learning is a subset of Machine Learning that uses deep neural networks with multiple hidden layers, which in turn is a subset of the broader field of Artificial Intelligence.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-093",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is a 'Digital Footprint', and what is one common example of an active digital footprint left by a student online?",
+    "sampleAnswer": "A digital footprint is the permanent trail of data left by a user's activities on the Internet. An example of an active digital footprint is posting a message or photograph on a social media platform.",
+    "acceptedAnswers": [
+      "Trail of data left by internet activities such as posting on social media",
+      "Record of online activities such as sending emails or posting online",
+      "Digital trail created by using the internet"
+    ],
+    "keywords": [
+      "digital footprint",
+      "trail",
+      "online activities",
+      "social media",
+      "post",
+      "email"
+    ],
+    "explanation": "A digital footprint is the trail of identifiable data left behind when using the web. Active footprints result from conscious actions like social media posts, comments, or emails.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-094",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why is Two-Factor Authentication (2FA) significantly more secure than relying solely on a password for protecting online student accounts?",
+    "sampleAnswer": "2FA combines two distinct verification factors: something you know (password) and something you have (an OTP sent to a physical phone or authenticator app). If an attacker steals the password, they still cannot access the account without the second factor.",
+    "acceptedAnswers": [
+      "Requires two factors so stolen password alone is not enough to breach the account",
+      "Combines password with OTP on a physical phone for two layers of security",
+      "Prevents unauthorized access even if password is compromised"
+    ],
+    "keywords": [
+      "two-factor",
+      "2FA",
+      "password",
+      "OTP",
+      "device",
+      "compromised",
+      "layers",
+      "security"
+    ],
+    "explanation": "2FA requires both knowledge factors (password) and possession factors (OTP on mobile), mitigating the threat of password theft and credential stuffing.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-095",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Introduction to AI/ML Concepts",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Explain how historical prejudice or unrepresentative sampling in training data leads to 'Algorithmic Bias' in Artificial Intelligence predictions.",
+    "sampleAnswer": "Machine learning models learn patterns directly from their training data. If the historical data contains human biases or underrepresents specific groups, the algorithm learns these skewed correlations as truth, resulting in discriminatory or unfair predictions for those demographics.",
+    "acceptedAnswers": [
+      "The model learns skewed patterns from biased or unrepresentative training data leading to unfair predictions",
+      "Underrepresented or biased data causes the model to learn and reproduce discrimination",
+      "Algorithms reproduce the biases present in historical training datasets"
+    ],
+    "keywords": [
+      "training data",
+      "bias",
+      "underrepresented",
+      "patterns",
+      "skewed",
+      "discriminatory",
+      "predictions"
+    ],
+    "explanation": "AI algorithms generalize correlations from data. If training samples are skewed or reflect societal prejudices, the model outputs systematically biased and unfair decisions.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-096",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): Browsing the web using 'Incognito' or private browsing mode does not guarantee total anonymity across the Internet.\nReason (R): Private browsing mode only prevents the local browser from storing cookies, history, and search logs on that specific computer, but internet service providers (ISPs), school network administrators, and destination websites can still monitor user traffic and IP addresses.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Private browsing is a local privacy tool that clears local device history, but it does not encrypt or conceal network IP traffic from ISPs, routers, or visited web servers.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-097",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Introduction to AI/ML Concepts",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): In machine learning, a model exhibiting severe 'Overfitting' achieves near-perfect prediction scores on its training data but performs very poorly on fresh, unseen test data.\nReason (R): Overfitting occurs because the model has memorized the exact noise, idiosyncrasies, and specific samples of the training set rather than learning generalized, underlying structural relationships.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Overfitting happens when a model fits training data too closely, learning random noise rather than generalizable relationships, which destroys its out-of-sample generalization accuracy.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-098",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Cyber Safety and Ethics",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following practices reflect responsible and secure cyber hygiene for safeguarding digital accounts and devices? (Select all that apply)",
+    "options": [
+      "Creating complex, unique passwords paired with two-factor authentication (2FA)",
+      "Verifying website SSL padlock icons and HTTPS before entering login or payment credentials",
+      "Regularly updating software operating systems and antivirus security definitions",
+      "Disabling local firewall protections to boost download speeds"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Strong unique passwords, HTTPS verification, and regular software patches protect against unauthorized access and malware. Disabling firewalls compromises network perimeter defense.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-099",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Introduction to AI/ML Concepts",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following domains are recognized core subfields or primary application areas of Artificial Intelligence? (Select all that apply)",
+    "options": [
+      "Natural Language Processing (NLP)",
+      "Computer Vision (CV)",
+      "Machine Learning (ML)",
+      "Liquid nitrogen cryogenic plumbing"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "NLP, Computer Vision, and Machine Learning are fundamental domains of Artificial Intelligence. Cryogenic plumbing is mechanical/chemical engineering.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-cs-100",
+    "class": 10,
+    "subject": "cs",
+    "chapter": "Introduction to AI/ML Concepts",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the standard phases of an end-to-end Machine Learning project pipeline in their logical execution order:",
+    "orderedItems": [
+      "Problem Definition and Raw Data Gathering",
+      "Data Cleaning, Pre-processing, and Feature Engineering",
+      "Partitioning Dataset into Training and Testing Sets",
+      "Model Training and Parameter Optimization using an ML Algorithm",
+      "Model Evaluation on Test Data and Production Deployment"
+    ],
+    "answer": "ordered",
+    "explanation": "Proper ML pipeline workflow: Data collection -> Data pre-processing -> Train/test split -> Model training -> Model evaluation and deployment.",
+    "marks": 2,
+    "volatile": false
+  }
+]

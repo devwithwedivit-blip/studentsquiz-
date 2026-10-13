@@ -1,0 +1,1973 @@
+[
+  {
+    "id": "c11-cs-001",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following correctly lists the base (radix) for Binary, Octal, Decimal, and Hexadecimal number systems respectively?",
+    "options": [
+      "2, 8, 10, 16",
+      "2, 8, 10, 12",
+      "1, 8, 10, 16",
+      "2, 4, 8, 16"
+    ],
+    "answer": 0,
+    "explanation": "Binary has base 2, Octal has base 8, Decimal has base 10, and Hexadecimal has base 16.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-002",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Simplify the Boolean expression F = (A + B)(A + B') using the basic laws of Boolean algebra:",
+    "options": [
+      "A",
+      "B",
+      "A + B",
+      "A · B"
+    ],
+    "answer": 0,
+    "explanation": "Using distributive law: (A + B)(A + B') = A + (B · B'). Since B · B' = 0, F = A + 0 = A.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-003",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "What is the minimum number of 2-input NAND gates required to construct a 2-input XOR (Exclusive-OR) logic gate?",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "6"
+    ],
+    "answer": 0,
+    "explanation": "A standard 2-input XOR gate requires a minimum of 4 two-input NAND gates configured in 3 logic stages.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-004",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In standard binary prefixes, exactly how many Terabytes (TB) of data constitute 1 Petabyte (PB)?",
+    "options": [
+      "1024 TB",
+      "1000 TB",
+      "2048 TB",
+      "512 TB"
+    ],
+    "answer": 0,
+    "explanation": "In computing binary prefixes, 1 PB = 1024 TB (2^50 bytes = 1024 × 2^40 bytes).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-005",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Standard 7-bit ASCII code can represent a total of how many distinct printable and control characters?",
+    "options": [
+      "128",
+      "256",
+      "64",
+      "512"
+    ],
+    "answer": 0,
+    "explanation": "7-bit ASCII encodes 2^7 = 128 unique code points, spanning indices 0 through 127.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-006",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the 8-bit two's complement representation of the decimal integer -25?",
+    "options": [
+      "11100111",
+      "11100110",
+      "11011001",
+      "10011001"
+    ],
+    "answer": 0,
+    "explanation": "+25 in 8-bit binary is 00011001. Its 1's complement is 11100110. Adding 1 gives 11100111.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-007",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "NAND and NOR gates are termed universal gates because any combinational logic circuit can be designed using only NAND or only NOR gates.",
+    "answer": true,
+    "explanation": "True. Both NAND and NOR can synthesize NOT, AND, and OR operations, making them functional complete universal gates.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-008",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In n-bit two's complement signed integer representation, the representable numerical range is strictly from -2^(n-1) to 2^(n-1) - 1.",
+    "answer": true,
+    "explanation": "True. For n bits, the range is -2^(n-1) to 2^(n-1) - 1. For example, for 8 bits, the range is -128 to +127.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-009",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A system has a cache access time of 2 ns and main memory access time of 50 ns. If the cache hit ratio is 0.90, calculate the effective memory access time (T_eff):",
+    "options": [
+      "7.0 ns",
+      "6.8 ns",
+      "5.2 ns",
+      "8.5 ns"
+    ],
+    "answer": 0,
+    "explanation": "T_eff = Hit_ratio × T_cache + (1 - Hit_ratio) × (T_cache + T_main) = 0.90 × 2 + 0.10 × (2 + 50) = 1.8 + 5.2 = 7.0 ns.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-010",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The system bus that carries memory addresses from the CPU to main memory and peripheral devices in a strictly unidirectional manner is the ______ bus.",
+    "answer": "address",
+    "acceptedAnswers": [
+      "address",
+      "Address",
+      "address bus",
+      "Address bus"
+    ],
+    "explanation": "The address bus is unidirectional, routing memory address locations generated by the processor to memory and I/O units.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-011",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "truefalse",
+    "difficulty": "hard",
+    "question": "According to the Principle of Duality in Boolean algebra, the dual of an expression is obtained by changing every AND to OR and OR to AND, while leaving 0 and 1 unchanged.",
+    "answer": false,
+    "explanation": "False. The principle of duality requires interchanging AND with OR, OR with AND, AND also interchanging all 0s with 1s and 1s with 0s.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-012",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In ASCII encoding, the decimal code for character 'A' is 65; therefore, the decimal ASCII code for character 'E' is ______.",
+    "answer": "69",
+    "acceptedAnswers": [
+      "69"
+    ],
+    "explanation": "'A'=65, 'B'=66, 'C'=67, 'D'=68, 'E'=69. The codes are sequentially indexed.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-013",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the internal computer memory types with their architectural characteristics:",
+    "pairs": [
+      [
+        "CPU Registers",
+        "Fastest temporary storage units located directly inside ALU/CU"
+      ],
+      [
+        "Cache Memory",
+        "High-speed SRAM placed between processor and DRAM"
+      ],
+      [
+        "DRAM",
+        "Main volatile memory requiring periodic electric refresh cycles"
+      ],
+      [
+        "EEPROM",
+        "Non-volatile ROM reprogrammable using electrical charge"
+      ]
+    ],
+    "explanation": "Registers reside in the processor; Cache utilizes high-speed SRAM; DRAM requires refreshing; EEPROM is electrically erasable ROM.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-014",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In Boolean algebra, the Absorption Law states that for any variable X, the expression X + (X · Y) simplifies to ______.",
+    "answer": "X",
+    "acceptedAnswers": [
+      "X",
+      "x"
+    ],
+    "explanation": "By factoring: X + (X · Y) = X · (1 + Y) = X · 1 = X. This is the Boolean absorption theorem.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-015",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Convert the octal integer 357_8 into its equivalent decimal integer value.",
+    "answer": 239,
+    "tolerance": 0,
+    "unit": "decimal",
+    "explanation": "357_8 = (3 × 8^2) + (5 × 8^1) + (7 × 8^0) = (3 × 64) + (5 × 8) + (7 × 1) = 192 + 40 + 7 = 239.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-016",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Calculate the decimal sum obtained by adding the hexadecimal integer 2F_16 and the binary integer 1011_2.",
+    "answer": 58,
+    "tolerance": 0,
+    "unit": "decimal",
+    "explanation": "2F_16 = (2 × 16) + 15 = 47. 1011_2 = (1 × 8) + (0 × 4) + (1 × 2) + (1 × 1) = 11. Sum = 47 + 11 = 58.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-017",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Observe the combinational logic gate circuit diagram below. For digital inputs A = 1, B = 0, and C = 1, what is the output bit at Z?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"28\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Combinational Logic Circuit</text><line x=\"50\" y=\"70\" x=\"150\" y=\"70\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"40\" y=\"75\" font-size=\"14\" font-weight=\"bold\" fill=\"#1e40af\">A=1</text><line x=\"50\" y=\"110\" x=\"150\" y=\"110\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"40\" y=\"115\" font-size=\"14\" font-weight=\"bold\" fill=\"#1e40af\">B=0</text><rect x=\"150\" y=\"60\" width=\"80\" height=\"60\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\" rx=\"6\"/><text x=\"190\" y=\"95\" font-size=\"14\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">XOR</text><line x=\"230\" y=\"90\" x=\"330\" y=\"90\" stroke=\"#2563eb\" stroke-width=\"2\"/><text x=\"280\" y=\"80\" font-size=\"12\" fill=\"#3b82f6\">W = A ⊕ B</text><line x=\"50\" y=\"160\" x=\"330\" y=\"160\" stroke=\"#059669\" stroke-width=\"2\"/><text x=\"40\" y=\"165\" font-size=\"14\" font-weight=\"bold\" fill=\"#065f46\">C=1</text><rect x=\"330\" y=\"70\" width=\"80\" height=\"110\" fill=\"#d1fae5\" stroke=\"#059669\" stroke-width=\"2\" rx=\"6\"/><text x=\"370\" y=\"130\" font-size=\"14\" font-weight=\"bold\" fill=\"#065f46\" text-anchor=\"middle\">NAND</text><line x=\"410\" y=\"125\" x=\"480\" y=\"125\" stroke=\"#dc2626\" stroke-width=\"2\"/><circle cx=\"485\" cy=\"125\" r=\"4\" fill=\"#dc2626\"/><text x=\"495\" y=\"130\" font-size=\"15\" font-weight=\"bold\" fill=\"#dc2626\">Z = ?</text></svg>"
+    },
+    "options": [
+      "0",
+      "1"
+    ],
+    "answer": 0,
+    "explanation": "W = A ⊕ B = 1 ⊕ 0 = 1. Inputs to the NAND gate are W = 1 and C = 1. Output Z = (W · C)' = (1 · 1)' = 0.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-018",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the primary role of the Program Counter (PC) register in the CPU instruction execution cycle?",
+    "sampleAnswer": "The Program Counter holds the memory address of the next instruction to be fetched and executed by the CPU.",
+    "acceptedAnswers": [
+      "Holds address of next instruction",
+      "Stores memory address of next instruction",
+      "Points to next instruction to execute"
+    ],
+    "keywords": [
+      "memory address",
+      "next instruction",
+      "fetch",
+      "execute"
+    ],
+    "explanation": "The Program Counter automatically increments after fetching an instruction to store the memory location of the subsequent instruction.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-019",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "State the key technological difference between Static RAM (SRAM) and Dynamic RAM (DRAM) regarding data retention.",
+    "sampleAnswer": "SRAM uses flip-flops and does not require periodic refreshing, whereas DRAM uses capacitors that leak charge and require continuous electrical refreshing.",
+    "acceptedAnswers": [
+      "SRAM uses flip-flops and DRAM uses capacitors",
+      "DRAM needs refresh cycles while SRAM does not",
+      "Capacitors need refreshing in DRAM"
+    ],
+    "keywords": [
+      "flip-flops",
+      "capacitors",
+      "refresh",
+      "refreshing",
+      "leak"
+    ],
+    "explanation": "DRAM stores data in capacitors that lose charge over milliseconds and must be refreshed periodically, while SRAM stores data in latching flip-flops.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-020",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): Increasing the width of the CPU address bus from 32 bits to 64 bits expands the maximum directly addressable physical memory space.\nReason (R): An address bus of n bits can uniquely reference up to 2^n distinct byte memory locations.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Address bus width directly determines the number of addressable locations: 2^n bytes. 32 bits address 4 GB, whereas 64 bits address 16 Exabytes.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-021",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): Two's complement representation is universally preferred over one's complement representation for signed integers in modern digital hardware.\nReason (R): Two's complement provides a single, unambiguous representation for zero (00000000) and simplifies addition and subtraction hardware circuits.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "In 1's complement, there are two representations of zero (+0 and -0), which complicates logic design. 2's complement resolves this and simplifies arithmetic.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-022",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following constitute the three primary sub-buses that make up the system bus in von Neumann computer architecture? (Select all that apply)",
+    "options": [
+      "Address Bus",
+      "Data Bus",
+      "Control Bus",
+      "Cache Bus"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The system bus consists of the Address Bus, Data Bus, and Control Bus. Cache bus is not one of the three primary architectural system buses.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-023",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding the UTF-8 text encoding standard are correct? (Select all that apply)",
+    "options": [
+      "UTF-8 is a variable-length character encoding that uses between 1 and 4 bytes per character.",
+      "UTF-8 is strictly backward-compatible with 7-bit ASCII.",
+      "The ASCII range (0–127) occupies exactly 1 byte in UTF-8.",
+      "UTF-8 always uses fixed 16 bits (2 bytes) for every Unicode code point."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "UTF-8 is variable-width (1 to 4 bytes) and maintains full backward compatibility with ASCII (using 1 byte for 0-127). UTF-16, not UTF-8, uses 2 or 4 bytes.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-024",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following computer memory data units in strictly ascending order of storage size (smallest to largest):",
+    "orderedItems": [
+      "Nibble",
+      "Byte",
+      "Kilobyte",
+      "Megabyte",
+      "Gigabyte",
+      "Terabyte"
+    ],
+    "answer": "ordered",
+    "explanation": "Ascending order: Nibble (4 bits) < Byte (8 bits) < Kilobyte (1024 B) < Megabyte (1024 KB) < Gigabyte (1024 MB) < Terabyte (1024 GB).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-025",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computer Systems and Organisation",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the total number of binary bits present in 64 Kilobytes (KB) of memory, where 1 KB = 1024 bytes and 1 byte = 8 bits.",
+    "answer": 524288,
+    "tolerance": 0,
+    "unit": "bits",
+    "explanation": "64 KB = 64 × 1024 bytes = 65,536 bytes. Total bits = 65,536 × 8 = 524,288 bits.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-026",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Given two lists in Python: a = [10, 20] and b = [10, 20]. What are the evaluated boolean results of (a == b) and (a is b) respectively?",
+    "options": [
+      "True, False",
+      "True, True",
+      "False, True",
+      "False, False"
+    ],
+    "answer": 0,
+    "explanation": "a == b checks value equality (True since elements match), whereas a is b checks object identity (False because they are distinct list objects in memory).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-027",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the exact output of the Python expression print(2 ** 3 ** 2)?",
+    "options": [
+      "512",
+      "64",
+      "36",
+      "256"
+    ],
+    "answer": 0,
+    "explanation": "The exponentiation operator (**) in Python associates right-to-left: 2 ** (3 ** 2) = 2 ** 9 = 512.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-028",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "What is the output produced by the following Python snippet?\nx = 12\ny = 10\nprint(x ^ y, ~x)",
+    "options": [
+      "6 -13",
+      "6 -12",
+      "2 -13",
+      "14 -11"
+    ],
+    "answer": 0,
+    "explanation": "x = 12 (1100_2) and y = 10 (1010_2). Bitwise XOR: 1100 ^ 1010 = 0110_2 = 6. Bitwise NOT: ~x = -(x + 1) = -(12 + 1) = -13.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-029",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Predict the output of the following Python loop structure:\nfor num in range(1, 5):\n    if num == 6:\n        break\nelse:\n    print('Completed', end=' ')\nprint(num)",
+    "options": [
+      "Completed 4",
+      "Completed 5",
+      "4",
+      "Completed Completed"
+    ],
+    "answer": 0,
+    "explanation": "The loop finishes normally without encountering a break statement, so the loop's 'else' clause executes, printing 'Completed '. Then print(num) prints 4.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-030",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following built-in collection data types in Python is strictly immutable?",
+    "options": [
+      "tuple",
+      "list",
+      "set",
+      "dict"
+    ],
+    "answer": 0,
+    "explanation": "Tuples are immutable; their elements cannot be modified, added, or deleted once defined. Lists, dictionaries, and sets are mutable.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-031",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Analyze the following nested loop code:\ns = 0\nfor i in range(1, 4):\n    for j in range(i, 4):\n        s += i * j\nprint(s)\nWhat integer is printed?",
+    "options": [
+      "25",
+      "24",
+      "30",
+      "18"
+    ],
+    "answer": 0,
+    "explanation": "For i=1: j in [1,2,3] -> 1(1)+1(2)+1(3)=6. For i=2: j in [2,3] -> 2(2)+2(3)=10. For i=3: j in [3] -> 3(3)=9. Total s = 6 + 10 + 9 = 25.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-032",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In Python, identifiers are case-sensitive, cannot begin with a numeric digit, and cannot be identical to any reserved Python keyword.",
+    "answer": true,
+    "explanation": "True. Identifiers must begin with an alphabet or underscore, cannot begin with digits, are case-sensitive, and cannot be keywords.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-033",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "When a break statement is triggered inside a Python loop, the optional else clause associated with that loop is completely skipped.",
+    "answer": true,
+    "explanation": "True. The loop's else block executes only when the loop terminates naturally without hitting a break statement.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-034",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In Python, the binary arithmetic operator used to perform floor division (returning the greatest integer quotient) is ______.",
+    "answer": "//",
+    "acceptedAnswers": [
+      "//",
+      "//"
+    ],
+    "explanation": "The // operator performs floor division, truncating fractional decimal parts (e.g., 7 // 2 = 3).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-035",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The built-in Python function that returns the unique integer identity (representing the memory address) of an object is ______().",
+    "answer": "id",
+    "acceptedAnswers": [
+      "id",
+      "id()"
+    ],
+    "explanation": "id(object) returns the identity of an object, which is guaranteed to be unique and constant for this object during its lifetime.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-036",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following Python operators with their specific operator categories:",
+    "pairs": [
+      [
+        "**",
+        "Arithmetic Exponentiation"
+      ],
+      [
+        "is",
+        "Object Identity check"
+      ],
+      [
+        "in",
+        "Sequence Membership check"
+      ],
+      [
+        "^",
+        "Bitwise Exclusive-OR"
+      ]
+    ],
+    "explanation": "** is exponentiation; 'is' verifies memory identity; 'in' checks membership in containers; '^' computes bitwise XOR.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-037",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "match",
+    "difficulty": "hard",
+    "question": "Match the following Python literals/expressions with their exact evaluated data type:",
+    "pairs": [
+      [
+        "(5,)",
+        "tuple"
+      ],
+      [
+        "{5}",
+        "set"
+      ],
+      [
+        "{5: 'five'}",
+        "dict"
+      ],
+      [
+        "(5)",
+        "int"
+      ]
+    ],
+    "explanation": "(5,) is a single-element tuple due to the trailing comma; {5} is a set; {5: 'five'} is a dictionary; (5) without a comma is just a parenthesized integer.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-038",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the exact integer output produced by evaluating the Python expression: print(17 // 3 + 15 % 4 * 2)",
+    "answer": 11,
+    "tolerance": 0,
+    "unit": "integer",
+    "explanation": "17 // 3 = 5. 15 % 4 = 3. 3 * 2 = 6. 5 + 6 = 11. (//, %, and * have higher precedence than +).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-039",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Calculate the final integer output printed by this Python code:\ntotal = 0\nfor k in range(2, 11, 3):\n    total += k\nprint(total)",
+    "answer": 15,
+    "tolerance": 0,
+    "unit": "integer",
+    "explanation": "range(2, 11, 3) generates the sequence: 2, 5, 8. total = 2 + 5 + 8 = 15.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-040",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Trace the control flow chart diagram shown below. If the program starts with initial input x = 7, what is the final value printed by print(x)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 230\" width=\"100%\" height=\"230\"><rect width=\"520\" height=\"230\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Decision Flowchart Execution Trace</text><rect x=\"210\" y=\"40\" width=\"100\" height=\"30\" fill=\"#e2e8f0\" stroke=\"#475569\" rx=\"15\"/><text x=\"260\" y=\"60\" font-size=\"13\" fill=\"#1e293b\" text-anchor=\"middle\">Start: x = 7</text><line x=\"260\" y=\"70\" x=\"260\" y=\"90\" stroke=\"#475569\" stroke-width=\"2\"/><polygon points=\"260,90 320,120 260,150 200,120\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"260\" y=\"125\" font-size=\"13\" font-weight=\"bold\" fill=\"#b45309\" text-anchor=\"middle\">x &gt; 10 ?</text><line x=\"320\" y=\"120\" x=\"400\" y=\"120\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"350\" y=\"112\" font-size=\"11\" fill=\"#15803d\">True</text><rect x=\"400\" y=\"105\" width=\"90\" height=\"30\" fill=\"#dcfce7\" stroke=\"#16a34a\" rx=\"4\"/><text x=\"445\" y=\"125\" font-size=\"12\" fill=\"#166534\" text-anchor=\"middle\">x = x * 2</text><line x=\"200\" y=\"120\" x=\"120\" y=\"120\" stroke=\"#dc2626\" stroke-width=\"2\"/><text x=\"165\" y=\"112\" font-size=\"11\" fill=\"#b91c1c\">False</text><rect x=\"30\" y=\"105\" width=\"90\" height=\"30\" fill=\"#fee2e2\" stroke=\"#dc2626\" rx=\"4\"/><text x=\"75\" y=\"125\" font-size=\"12\" fill=\"#991b1b\" text-anchor=\"middle\">x = x + 5</text><line x=\"75\" y=\"135\" x=\"75\" y=\"180\" stroke=\"#475569\" stroke-width=\"2\"/><line x=\"445\" y=\"135\" x=\"445\" y=\"180\" stroke=\"#475569\" stroke-width=\"2\"/><line x=\"75\" y=\"180\" x=\"445\" y=\"180\" stroke=\"#475569\" stroke-width=\"2\"/><line x=\"260\" y=\"180\" x=\"260\" y=\"200\" stroke=\"#475569\" stroke-width=\"2\"/><rect x=\"210\" y=\"200\" width=\"100\" height=\"25\" fill=\"#e0e7ff\" stroke=\"#4338ca\" rx=\"4\"/><text x=\"260\" y=\"217\" font-size=\"12\" font-weight=\"bold\" fill=\"#3730a3\" text-anchor=\"middle\">print(x)</text></svg>"
+    },
+    "options": [
+      "12",
+      "14",
+      "7",
+      "24"
+    ],
+    "answer": 0,
+    "explanation": "Initial x = 7. The condition x > 10 evaluates to 7 > 10 (False). Control takes the False branch: x = 7 + 5 = 12. print(x) outputs 12.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-041",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "Examine the Python object reference and memory diagram below. Variable 'A' references list [10, 20], variable 'B' is assigned as B = A, and then A.append(30) is executed. What does len(B) evaluate to?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Python Object Reference in Memory</text><rect x=\"50\" y=\"60\" width=\"90\" height=\"40\" fill=\"#e2e8f0\" stroke=\"#475569\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"95\" y=\"85\" font-size=\"14\" font-weight=\"bold\" fill=\"#1e293b\" text-anchor=\"middle\">A</text><rect x=\"50\" y=\"130\" width=\"90\" height=\"40\" fill=\"#e2e8f0\" stroke=\"#475569\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"95\" y=\"155\" font-size=\"14\" font-weight=\"bold\" fill=\"#1e293b\" text-anchor=\"middle\">B = A</text><line x=\"140\" y=\"80\" x=\"260\" y=\"105\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><polygon points=\"260,105 250,100 250,110\" fill=\"#2563eb\"/><line x=\"140\" y=\"150\" x=\"260\" y=\"115\" stroke=\"#2563eb\" stroke-width=\"2.5\"/><polygon points=\"260,115 250,110 250,120\" fill=\"#2563eb\"/><rect x=\"260\" y=\"75\" width=\"210\" height=\"70\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"2\" rx=\"8\"/><text x=\"365\" y=\"100\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">List Object at id: 0x7FA9</text><text x=\"365\" y=\"125\" font-size=\"14\" fill=\"#1d4ed8\" text-anchor=\"middle\">[10, 20, 30]</text><text x=\"260\" y=\"195\" font-size=\"13\" fill=\"#475569\" text-anchor=\"middle\">Both identifiers bind to the same mutable heap object</text></svg>"
+    },
+    "options": [
+      "3",
+      "2",
+      "1",
+      "TypeError"
+    ],
+    "answer": 0,
+    "explanation": "In Python, variable assignment (B = A) copies the object reference, not the list itself. Mutating the list via A.append(30) modifies the shared list; thus len(B) is 3.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-042",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Why does Python raise a TypeError when executing the statement: text = 'Python'; text[0] = 'J'?",
+    "sampleAnswer": "Python strings are immutable, meaning individual characters cannot be reassigned or modified in-place using item assignment.",
+    "acceptedAnswers": [
+      "Strings are immutable in Python",
+      "String objects do not support item assignment",
+      "Strings cannot be modified in place"
+    ],
+    "keywords": [
+      "immutable",
+      "item assignment",
+      "modified",
+      "string"
+    ],
+    "explanation": "Strings are immutable data types in Python. Modifying a character at an index raises: TypeError: 'str' object does not support item assignment.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-043",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Explain the operational distinction between the equality operator (==) and the identity operator (is) in Python.",
+    "sampleAnswer": "The equality operator (==) checks whether the values of two operands are equal, whereas the identity operator (is) checks whether both operands refer to the exact same memory address.",
+    "acceptedAnswers": [
+      "== checks values while is checks memory location",
+      "== compares values and is compares object identity",
+      "== is value equality and is is memory identity"
+    ],
+    "keywords": [
+      "values",
+      "equality",
+      "memory address",
+      "identity",
+      "same object"
+    ],
+    "explanation": "== compares values using __eq__, while 'is' evaluates id(a) == id(b) to verify if both variables bind to the identical memory object.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-044",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What is the syntactic purpose of the 'pass' statement in Python, and why is it termed a null operation?",
+    "sampleAnswer": "The pass statement is a null operation placeholder used when a statement is syntactically required by Python indentation rules but no code action is needed.",
+    "acceptedAnswers": [
+      "Null operation placeholder for empty code blocks",
+      "Placeholder when syntactically required but no action needed",
+      "Does nothing, used as placeholder"
+    ],
+    "keywords": [
+      "null operation",
+      "placeholder",
+      "syntactically required",
+      "empty block"
+    ],
+    "explanation": "The 'pass' statement serves as an executable placeholder in empty function definitions, loops, or conditionals without triggering IndentationError.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-045",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): In Python, a list cannot be used as a key in a dictionary, whereas a tuple of integers can be used as a key.\nReason (R): Dictionary keys in Python must be hashable and immutable, and lists are mutable objects that lack a fixed hash value.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Dictionary keys must be hashable (hash() must return a constant integer across the object's lifetime). Lists are unhashable and mutable.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-046",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): In the Python expression (x != 0) and (y / x > 2), if x is 0, Python will not raise a ZeroDivisionError.\nReason (R): Python uses short-circuit evaluation for logical 'and', terminating evaluation immediately as False if the first operand evaluates to False.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Due to short-circuit evaluation, when (x != 0) evaluates to False, the remaining operand (y / x > 2) is never executed, safely avoiding ZeroDivisionError.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-047",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are syntactically valid variable identifiers according to Python lexical naming rules? (Select all that apply)",
+    "options": [
+      "_total_marks",
+      "student_1",
+      "TotalPrice",
+      "2nd_rank"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "_total_marks, student_1, and TotalPrice follow Python identifier rules. '2nd_rank' is invalid because an identifier cannot start with a digit.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-048",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following statements about Python loops and iteration control are correct? (Select all that apply)",
+    "options": [
+      "range(5) generates the sequence of integers 0, 1, 2, 3, 4.",
+      "The continue statement skips the remaining statements of the current iteration and advances to the next loop cycle.",
+      "A while loop tests its condition before executing any statements in its loop body.",
+      "The break statement restarts the loop from the initial iteration counter."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "range(5) yields 0 to 4; continue skips to the next cycle; while is an entry-controlled loop. break terminates the loop, it does not restart it.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-049",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following Python operators in strictly descending order of evaluation precedence (highest precedence first):",
+    "orderedItems": [
+      "** (Exponentiation)",
+      "* (Multiplication)",
+      "+ (Addition)",
+      "> (Relational Comparison)",
+      "not (Logical NOT)",
+      "and (Logical AND)"
+    ],
+    "answer": "ordered",
+    "explanation": "Operator precedence from highest to lowest: Exponentiation (**) > Multiplication (*) > Addition (+) > Comparison (>) > not > and.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-050",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the execution sequence of statements in a standard Python while ... else loop when the condition terminates naturally without break:",
+    "orderedItems": [
+      "Evaluate while loop condition as True",
+      "Execute loop body statements",
+      "Update loop control variable",
+      "Re-evaluate while condition as False",
+      "Execute the associated else suite",
+      "Proceed to following program statements"
+    ],
+    "answer": "ordered",
+    "explanation": "The loop checks condition (True) -> executes body -> updates variable -> condition becomes False -> executes else suite -> proceeds to next statements.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-051",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the result of evaluating the slice s[3:8] on the Python string s = 'COMPUTER SCIENCE'?",
+    "options": [
+      "'PUTER'",
+      "'PUTE'",
+      "'MPUTE'",
+      "'PUTER '"
+    ],
+    "answer": 0,
+    "explanation": "Indices 3 through 7 (stop index 8 is non-inclusive): s[3]='P', s[4]='U', s[5]='T', s[6]='E', s[7]='R'. The slice yields 'PUTER'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-052",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What string is returned by the Python slicing expression: text = 'KNOWLEDGE'; print(text[::-2])?",
+    "options": [
+      "'EDLOK'",
+      "'EGELW'",
+      "'EGWON'",
+      "'EDLNK'"
+    ],
+    "answer": 0,
+    "explanation": "text[::-2] steps backward from the end with step -2: index 8 ('E'), index 6 ('D'), index 4 ('L'), index 2 ('O'), index 0 ('K'). Result is 'EDLOK'.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-053",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Predict the output of the following Python list operations:\nlst = [10, 20, 30]\nlst.append([40, 50])\nlst.extend([60, 70])\nprint(len(lst), lst[3][1])",
+    "options": [
+      "6 50",
+      "7 50",
+      "5 40",
+      "6 40"
+    ],
+    "answer": 0,
+    "explanation": "lst.append([40, 50]) adds 1 element (the sublist). lst.extend([60, 70]) adds 2 elements. Total length = 3 + 1 + 2 = 6. lst[3] is [40, 50], so lst[3][1] is 50.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-054",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the output of the following Python dictionary operations?\nd = {'a': 1, 'b': 2}\nprint(d.get('c', 10) + d.get('b', 5))",
+    "options": [
+      "12",
+      "7",
+      "15",
+      "KeyError"
+    ],
+    "answer": 0,
+    "explanation": "d.get('c', 10) returns default value 10 since 'c' is not in d. d.get('b', 5) returns the existing value 2. 10 + 2 = 12.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-055",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In a Python function header, which of the following is a strict syntactic constraint regarding default parameter values?",
+    "options": [
+      "Non-default parameters cannot follow default parameters.",
+      "Default parameters cannot follow non-default parameters.",
+      "A function can possess at most one default parameter.",
+      "Default parameters must be integer constants only."
+    ],
+    "answer": 0,
+    "explanation": "In Python, all positional/non-default arguments must precede any default arguments in the function definition header; otherwise, a SyntaxError occurs.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-056",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Analyze the following Python program regarding parameter passing and scope:\ndef modify(data):\n    data = data + [4]\n    data.append(5)\n\nvals = [1, 2, 3]\nmodify(vals)\nprint(vals)",
+    "options": [
+      "[1, 2, 3]",
+      "[1, 2, 3, 4, 5]",
+      "[1, 2, 3, 5]",
+      "[1, 2, 3, 4]"
+    ],
+    "answer": 0,
+    "explanation": "Inside modify, 'data = data + [4]' creates a new local list object bound to 'data'. Subsequent append(5) mutates the local copy. 'vals' remains [1, 2, 3].",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-057",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In Python, the split() method on strings separates a string based on whitespace (by default) and returns the tokens as a list of strings.",
+    "answer": true,
+    "explanation": "True. The split() method splits a string by the specified delimiter (defaulting to consecutive whitespace) and returns a list.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-058",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Dictionary keys in Python must be strictly unique; assigning a new value to an existing key replaces its previous value rather than creating a duplicate key.",
+    "answer": true,
+    "explanation": "True. Dictionaries do not allow duplicate keys. Assigning to an existing key updates its value.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-059",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "truefalse",
+    "difficulty": "hard",
+    "question": "In Python, an integer variable defined at the global module level can be reassigned directly inside a function body without using the 'global' keyword.",
+    "answer": false,
+    "explanation": "False. Reassigning a global variable inside a function without declaring 'global' creates a local variable of the same name instead of altering the global variable.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-060",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The built-in list method that removes and returns the element at a specified index (or removes the last element if no index is passed) is ______().",
+    "answer": "pop",
+    "acceptedAnswers": [
+      "pop",
+      "pop()"
+    ],
+    "explanation": "list.pop([i]) removes and returns the element at index i (defaulting to the last element, index -1).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-061",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The string validation method in Python that returns True only if every character in the non-empty string is either an alphabet letter or numeric digit is ______().",
+    "answer": "isalnum",
+    "acceptedAnswers": [
+      "isalnum",
+      "isalnum()"
+    ],
+    "explanation": "str.isalnum() returns True if all characters in the string are alphanumeric (a-z, A-Z, 0-9) and there is at least one character.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-062",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following Python list manipulation methods with their exact behavior:",
+    "pairs": [
+      [
+        "lst.append(x)",
+        "Adds x as a single element to the end of the list"
+      ],
+      [
+        "lst.extend(iterable)",
+        "Appends all individual elements of iterable to the list"
+      ],
+      [
+        "lst.insert(i, x)",
+        "Inserts element x at index position i"
+      ],
+      [
+        "lst.remove(x)",
+        "Removes first occurrence of element x from the list"
+      ]
+    ],
+    "explanation": "append adds an object as a single item; extend unrolls an iterable; insert places an item at an index; remove deletes by value.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-063",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "match",
+    "difficulty": "hard",
+    "question": "Match the following Python dictionary methods with their respective returned view or effect:",
+    "pairs": [
+      [
+        "d.keys()",
+        "Dynamic view object displaying all dictionary keys"
+      ],
+      [
+        "d.values()",
+        "Dynamic view object displaying all dictionary values"
+      ],
+      [
+        "d.items()",
+        "Dynamic view object of (key, value) tuple pairs"
+      ],
+      [
+        "d.clear()",
+        "Removes all elements leaving the dictionary completely empty"
+      ]
+    ],
+    "explanation": "keys(), values(), and items() provide dynamic view objects; clear() empties the dictionary in-place.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-064",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the integer sum printed by the following Python code:\nnums = [x * 2 for x in range(1, 6) if x % 2 != 0]\nprint(sum(nums))",
+    "answer": 18,
+    "tolerance": 0,
+    "unit": "integer",
+    "explanation": "range(1, 6) yields 1, 2, 3, 4, 5. The odd numbers are 1, 3, 5. nums = [1*2, 3*2, 5*2] = [2, 6, 10]. sum(nums) = 2 + 6 + 10 = 18.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-065",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Calculate the integer output returned by this Python program:\ndef calc(a, b=3, c=2):\n    return a * b - c\n\nres = calc(5, c=4)\nprint(res)",
+    "answer": 11,
+    "tolerance": 0,
+    "unit": "integer",
+    "explanation": "In calc(5, c=4), a = 5 (positional), b = 3 (default), c = 4 (keyword argument). Result = (5 * 3) - 4 = 15 - 4 = 11.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-066",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the Python string indexing diagram below for word = 'PROGRAMMING'. What substring is generated by the slice word[-7:-3]?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Python String Indexing: 'PROGRAMMING'</text><g font-size=\"11\" fill=\"#2563eb\" text-anchor=\"middle\"><text x=\"50\" y=\"65\">0</text><text x=\"85\" y=\"65\">1</text><text x=\"120\" y=\"65\">2</text><text x=\"155\" y=\"65\">3</text><text x=\"190\" y=\"65\">4</text><text x=\"225\" y=\"65\">5</text><text x=\"260\" y=\"65\">6</text><text x=\"295\" y=\"65\">7</text><text x=\"330\" y=\"65\">8</text><text x=\"365\" y=\"65\">9</text><text x=\"400\" y=\"65\">10</text></g><g font-size=\"14\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\"><rect x=\"35\" y=\"80\" width=\"30\" height=\"35\" fill=\"#e2e8f0\" stroke=\"#64748b\"/><text x=\"50\" y=\"103\">P</text><rect x=\"70\" y=\"80\" width=\"30\" height=\"35\" fill=\"#e2e8f0\" stroke=\"#64748b\"/><text x=\"85\" y=\"103\">R</text><rect x=\"105\" y=\"80\" width=\"30\" height=\"35\" fill=\"#e2e8f0\" stroke=\"#64748b\"/><text x=\"120\" y=\"103\">O</text><rect x=\"140\" y=\"80\" width=\"30\" height=\"35\" fill=\"#e2e8f0\" stroke=\"#64748b\"/><text x=\"155\" y=\"103\">G</text><rect x=\"175\" y=\"80\" width=\"30\" height=\"35\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"2\"/><text x=\"190\" y=\"103\">R</text><rect x=\"210\" y=\"80\" width=\"30\" height=\"35\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"2\"/><text x=\"225\" y=\"103\">A</text><rect x=\"245\" y=\"80\" width=\"30\" height=\"35\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"2\"/><text x=\"260\" y=\"103\">M</text><rect x=\"280\" y=\"80\" width=\"30\" height=\"35\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"2\"/><text x=\"295\" y=\"103\">M</text><rect x=\"315\" y=\"80\" width=\"30\" height=\"35\" fill=\"#e2e8f0\" stroke=\"#64748b\"/><text x=\"330\" y=\"103\">I</text><rect x=\"350\" y=\"80\" width=\"30\" height=\"35\" fill=\"#e2e8f0\" stroke=\"#64748b\"/><text x=\"365\" y=\"103\">N</text><rect x=\"385\" y=\"80\" width=\"30\" height=\"35\" fill=\"#e2e8f0\" stroke=\"#64748b\"/><text x=\"400\" y=\"103\">G</text></g><g font-size=\"11\" fill=\"#dc2626\" text-anchor=\"middle\"><text x=\"50\" y=\"135\">-11</text><text x=\"85\" y=\"135\">-10</text><text x=\"120\" y=\"135\">-9</text><text x=\"155\" y=\"135\">-8</text><text x=\"190\" y=\"135\">-7</text><text x=\"225\" y=\"135\">-6</text><text x=\"260\" y=\"135\">-5</text><text x=\"295\" y=\"135\">-4</text><text x=\"330\" y=\"135\">-3</text><text x=\"365\" y=\"135\">-2</text><text x=\"400\" y=\"135\">-1</text></g><text x=\"260\" y=\"185\" font-size=\"14\" font-weight=\"bold\" fill=\"#16a34a\" text-anchor=\"middle\">Target Slice: word[-7:-3] = ?</text></svg>"
+    },
+    "options": [
+      "'RAMM'",
+      "'RAMMI'",
+      "'GRAM'",
+      "'AMMI'"
+    ],
+    "answer": 0,
+    "explanation": "Negative indexing: index -7 is 'R', -6 is 'A', -5 is 'M', -4 is 'M'. Stop index -3 ('I') is non-inclusive. The slice evaluates to 'RAMM'.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-067",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "Observe the Python dictionary key-value mapping structure below. What is the output of len(grades.items()) after executing grades['MATH'] = 98?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Python Dictionary Key-Value Mapping</text><rect x=\"60\" y=\"55\" width=\"180\" height=\"40\" fill=\"#e0e7ff\" stroke=\"#4338ca\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"150\" y=\"80\" font-size=\"13\" font-weight=\"bold\" fill=\"#3730a3\" text-anchor=\"middle\">'CS' : 95</text><rect x=\"60\" y=\"105\" width=\"180\" height=\"40\" fill=\"#e0e7ff\" stroke=\"#4338ca\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"150\" y=\"130\" font-size=\"13\" font-weight=\"bold\" fill=\"#3730a3\" text-anchor=\"middle\">'PHY' : 92</text><rect x=\"60\" y=\"155\" width=\"180\" height=\"40\" fill=\"#e0e7ff\" stroke=\"#4338ca\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"150\" y=\"180\" font-size=\"13\" font-weight=\"bold\" fill=\"#3730a3\" text-anchor=\"middle\">'CHEM' : 90</text><line x=\"260\" y=\"115\" x=\"330\" y=\"115\" stroke=\"#16a34a\" stroke-width=\"2.5\"/><polygon points=\"330,115 320,110 320,120\" fill=\"#16a34a\"/><text x=\"295\" y=\"105\" font-size=\"11\" fill=\"#16a34a\" text-anchor=\"middle\">Add Key</text><rect x=\"330\" y=\"95\" width=\"150\" height=\"50\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"2\" rx=\"6\"/><text x=\"405\" y=\"125\" font-size=\"13\" font-weight=\"bold\" fill=\"#15803d\" text-anchor=\"middle\">'MATH' : 98</text></svg>"
+    },
+    "options": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "The original dictionary contains 3 key-value pairs ('CS', 'PHY', 'CHEM'). Assigning grades['MATH'] = 98 inserts a new 4th entry. len(grades.items()) is 4.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-068",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What integer value is returned by the Python expression 'hello world'.find('l') and why?",
+    "sampleAnswer": "It returns 2, because the find() method returns the lowest index of the first occurrence of the specified substring.",
+    "acceptedAnswers": [
+      "2, because it returns index of first occurrence",
+      "2, lowest index of substring",
+      "2"
+    ],
+    "keywords": [
+      "2",
+      "index",
+      "first occurrence",
+      "lowest index"
+    ],
+    "explanation": "'hello world'.find('l') finds the first occurrence of character 'l' at index 2 ('h'=0, 'e'=1, 'l'=2).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-069",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Explain why calling lst.append(10) inside a function modifies the original caller list, while assigning n = 10 to an integer parameter does not alter the caller's integer variable.",
+    "sampleAnswer": "Lists are mutable objects passed by object reference, so mutating operations affect the same heap object, whereas integers are immutable and reassigning creates a new local reference.",
+    "acceptedAnswers": [
+      "Lists are mutable while integers are immutable",
+      "Mutable objects reflect in-place changes while immutable types do not",
+      "List mutation affects same object in memory while integer is immutable"
+    ],
+    "keywords": [
+      "mutable",
+      "immutable",
+      "reference",
+      "in-place",
+      "heap"
+    ],
+    "explanation": "Python uses pass-by-object-reference. Mutating operations on mutable types alter the original object; rebinding an immutable integer binds a new local reference.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-070",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): Attempting to execute tup[1] = 50 on a tuple tup = (10, 20, 30) raises a TypeError.\nReason (R): Tuples in Python are immutable sequence objects that do not support item assignment after creation.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Tuples are immutable; attempting item assignment generates TypeError: 'tuple' object does not support item assignment.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-071",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): In Python, when a variable name is referenced inside a function, the Python interpreter searches for the name in the Local scope first, then Enclosing, then Global, and finally Built-in.\nReason (R): The LEGB rule defines the standard hierarchical resolution order for variable namespace lookups in Python.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "LEGB represents Local -> Enclosing -> Global -> Built-in, establishing the precedence of namespace resolution in Python.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-072",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following built-in Python string methods return a Boolean value (True or False)? (Select all that apply)",
+    "options": [
+      "startswith()",
+      "isdigit()",
+      "isupper()",
+      "upper()"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "startswith(), isdigit(), and isupper() test string properties and return boolean values. upper() returns a new uppercase string.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-073",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following operations on Python lists modify the original list in-place without creating a new list object? (Select all that apply)",
+    "options": [
+      "lst.sort()",
+      "lst.reverse()",
+      "lst.append(50)",
+      "sorted(lst)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "lst.sort(), lst.reverse(), and lst.append() are in-place mutating list methods. sorted(lst) is a built-in function that creates and returns a new sorted list.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-074",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the lifecycle stages of executing a user-defined Python function in chronological order:",
+    "orderedItems": [
+      "Function header and body defined with def keyword",
+      "Function call encountered with actual arguments",
+      "Actual arguments bound to formal parameters",
+      "Function body statements execute in local scope",
+      "Return statement sends computed value back to caller",
+      "Control resumes at the caller's statement"
+    ],
+    "answer": "ordered",
+    "explanation": "Chronological order: Define function -> call with arguments -> bind parameters -> execute body -> return value -> resume caller.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-075",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the Python namespace scopes according to the LEGB rule in order of search priority (highest priority searched first to lowest searched last):",
+    "orderedItems": [
+      "Local (L) namespace inside the current function",
+      "Enclosing (E) namespace of outer nested functions",
+      "Global (G) namespace of the module file",
+      "Built-in (B) namespace containing standard Python built-ins"
+    ],
+    "answer": "ordered",
+    "explanation": "LEGB resolution order is strictly: Local first, then Enclosing nested scopes, then Global module scope, and finally Built-in.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-076",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the exact range of possible integer values returned by calling random.randint(1, 6) in Python?",
+    "options": [
+      "Any integer from 1 to 6, inclusive of both endpoints",
+      "Any integer from 1 to 5, excluding 6",
+      "Any integer from 0 to 5",
+      "Any floating-point number between 1.0 and 6.0"
+    ],
+    "answer": 0,
+    "explanation": "random.randint(a, b) returns a random integer N such that a <= N <= b, including both endpoints.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-077",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the output printed by the following Python snippet using the math module?\nimport math\nprint(math.ceil(4.2) + math.floor(4.8))",
+    "options": [
+      "9",
+      "8",
+      "10",
+      "9.0"
+    ],
+    "answer": 0,
+    "explanation": "math.ceil(4.2) returns the smallest integer >= 4.2, which is 5. math.floor(4.8) returns the largest integer <= 4.8, which is 4. 5 + 4 = 9.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-078",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Which specific built-in Python exception is raised when executing int('12.5A') or int('hello')?",
+    "options": [
+      "ValueError",
+      "TypeError",
+      "SyntaxError",
+      "NameError"
+    ],
+    "answer": 0,
+    "explanation": "int() receives an argument of the correct data type (str) but an invalid literal value for integer parsing, raising a ValueError.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-079",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which category of cyber crime involves sending deceptive emails masquerading as reputable financial institutions to trick victims into revealing login passwords and credit card credentials?",
+    "options": [
+      "Phishing",
+      "Plagiarism",
+      "Cyber Stalking",
+      "Eavesdropping"
+    ],
+    "answer": 0,
+    "explanation": "Phishing is the fraudulent practice of sending emails or messages purporting to be from legitimate entities to extract confidential personal credentials.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-080",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Browsing activity data gathered involuntarily through tracking cookies, IP address logging, and browser fingerprints without the user's explicit interactive knowledge constitutes a:",
+    "options": [
+      "Passive digital footprint",
+      "Active digital footprint",
+      "Public domain record",
+      "Creative commons trace"
+    ],
+    "answer": 0,
+    "explanation": "A passive digital footprint is created unconsciously whenever browsing metadata, cookies, geolocation, and IP addresses are recorded in the background.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-081",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the primary copyleft requirement mandated by the GNU General Public License (GPL) for derivative software?",
+    "options": [
+      "Any modified version or derivative work must also be licensed as open source under the same GPL license terms.",
+      "Derivative works must be closed source and commercialized exclusively.",
+      "Authors must pay a recurring licensing royalty to the Free Software Foundation.",
+      "The source code cannot be run on commercial computer servers."
+    ],
+    "answer": 0,
+    "explanation": "The GNU GPL copyleft clause requires any derived software incorporating GPL code to release its full source code under the identical GPL terms.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-082",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "A trademark provides legal protection for distinctive symbols, logos, names, and slogans used in commerce to distinguish goods or services of one enterprise from competitors.",
+    "answer": true,
+    "explanation": "True. Trademarks protect brand identifiers (brand names, emblems, logos) from unauthorized use by competitors in trade.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-083",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In Python, calling random.random() returns a pseudo-random floating-point value strictly within the semi-open range [0.0, 1.0).",
+    "answer": true,
+    "explanation": "True. random.random() returns a floating point number in the interval 0.0 <= x < 1.0 (1.0 is excluded).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-084",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In India, the primary legislation enacted in the year 2000 to provide legal recognition for electronic transactions, digital records, and cybersecurity offenses is the ______ Act.",
+    "answer": "Information Technology",
+    "acceptedAnswers": [
+      "Information Technology",
+      "IT",
+      "Information Technology Act",
+      "IT Act"
+    ],
+    "explanation": "The Information Technology Act, 2000 (IT Act 2000) is India's principal cyber law framework.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-085",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The unethical practice of presenting another author's written programming code, research work, or literary content as one's own without appropriate citation or attribution is known as ______.",
+    "answer": "plagiarism",
+    "acceptedAnswers": [
+      "plagiarism",
+      "Plagiarism"
+    ],
+    "explanation": "Plagiarism is the appropriation of another person's ideas, processes, results, or words without giving credit.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-086",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "In Python's built-in statistics module, the function that computes the most frequently occurring value in a discrete numeric or categorical dataset is statistics.______().",
+    "answer": "mode",
+    "acceptedAnswers": [
+      "mode",
+      "mode()"
+    ],
+    "explanation": "statistics.mode(data) returns the single most common data point from discrete or nominal data.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-087",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following cyber threats with their distinguishing malicious operation:",
+    "pairs": [
+      [
+        "Phishing",
+        "Fraudulent messages designed to trick users into revealing confidential credentials"
+      ],
+      [
+        "Ransomware",
+        "Malware that encrypts files and demands payment for the decryption key"
+      ],
+      [
+        "Trojan Horse",
+        "Malware disguised as useful software that opens unauthorized system backdoors"
+      ],
+      [
+        "Cyber Stalking",
+        "Systematic and repeated online surveillance or harassment directed at an individual"
+      ]
+    ],
+    "explanation": "Phishing steals credentials via impersonation; Ransomware encrypts user data for ransom; Trojan masquerades as legitimate software; Cyber Stalking harasses targets online.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-088",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Using Python's math module, calculate the integer returned by math.gcd(48, 18).",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "integer",
+    "explanation": "The greatest common divisor of 48 and 18 is 6 (divisors of 48: 1, 2, 3, 4, 6, 8, 12, 16, 24, 48; divisors of 18: 1, 2, 3, 6, 9, 18).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-089",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "What is the maximum integer value that can possibly be generated by calling random.randrange(10, 30, 5) in Python?",
+    "answer": 25,
+    "tolerance": 0,
+    "unit": "integer",
+    "explanation": "random.randrange(10, 30, 5) generates elements from the sequence: 10, 15, 20, 25 (stop value 30 is strictly excluded). The maximum value is 25.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-090",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Computational Thinking and Programming in Python",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Evaluate the integer output produced by executing this Python expression:\nimport math\nval = int(math.pow(2, 5) - math.sqrt(144) + math.factorial(4))\nprint(val)",
+    "answer": 44,
+    "tolerance": 0,
+    "unit": "integer",
+    "explanation": "math.pow(2, 5) = 32.0. math.sqrt(144) = 12.0. math.factorial(4) = 24. val = int(32.0 - 12.0 + 24) = int(44.0) = 44.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-091",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the e-waste hazardous material breakdown diagram below. Which toxic heavy metal, predominantly found in cathode ray tube (CRT) monitor glass and lead-acid batteries, poses severe groundwater neurotoxicity if dumped in unlined landfills?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">E-Waste Hazardous Elements Breakdown</text><rect x=\"40\" y=\"60\" width=\"100\" height=\"80\" fill=\"#fee2e2\" stroke=\"#dc2626\" stroke-width=\"2\" rx=\"6\"/><text x=\"90\" y=\"90\" font-size=\"14\" font-weight=\"bold\" fill=\"#991b1b\" text-anchor=\"middle\">Lead (Pb)</text><text x=\"90\" y=\"115\" font-size=\"11\" fill=\"#b91c1c\" text-anchor=\"middle\">CRTs / Solder</text><rect x=\"160\" y=\"60\" width=\"100\" height=\"80\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"210\" y=\"90\" font-size=\"14\" font-weight=\"bold\" fill=\"#92400e\" text-anchor=\"middle\">Mercury (Hg)</text><text x=\"210\" y=\"115\" font-size=\"11\" fill=\"#b45309\" text-anchor=\"middle\">Switches / Backlights</text><rect x=\"280\" y=\"60\" width=\"100\" height=\"80\" fill=\"#e0e7ff\" stroke=\"#4338ca\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"330\" y=\"90\" font-size=\"14\" font-weight=\"bold\" fill=\"#3730a3\" text-anchor=\"middle\">Cadmium (Cd)</text><text x=\"330\" y=\"115\" font-size=\"11\" fill=\"#4338ca\" text-anchor=\"middle\">Ni-Cd Batteries</text><rect x=\"400\" y=\"60\" width=\"90\" height=\"80\" fill=\"#f1f5f9\" stroke=\"#64748b\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"445\" y=\"90\" font-size=\"14\" font-weight=\"bold\" fill=\"#334155\" text-anchor=\"middle\">Arsenic (As)</text><text x=\"445\" y=\"115\" font-size=\"11\" fill=\"#475569\" text-anchor=\"middle\">Semiconductors</text><text x=\"260\" y=\"185\" font-size=\"13\" font-weight=\"bold\" fill=\"#dc2626\" text-anchor=\"middle\">Primary CRT Neurotoxin Identified</text></svg>"
+    },
+    "options": [
+      "Lead",
+      "Sodium",
+      "Argon",
+      "Helium"
+    ],
+    "answer": 0,
+    "explanation": "Lead (Pb) is a potent neurotoxic heavy metal found extensively in CRT funnel glass and solder, which leaches into soil and groundwater if disposed of improperly.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-092",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the key difference between an active digital footprint and a passive digital footprint?",
+    "sampleAnswer": "An active digital footprint is created when a user deliberately shares data online (such as social media posts), whereas a passive digital footprint is created involuntarily through tracking cookies and server logs.",
+    "acceptedAnswers": [
+      "Active is deliberately shared while passive is collected without user direct intent",
+      "Active is intentional data while passive is background collected data",
+      "Active footprint is intentional and passive footprint is unintentional"
+    ],
+    "keywords": [
+      "active",
+      "passive",
+      "deliberate",
+      "intentional",
+      "cookies",
+      "unintentional"
+    ],
+    "explanation": "Active footprints arise from voluntary user activity (posts, form fills); passive footprints are logged silently in the background (browsing history, IP logs).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-093",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why is copyright protection legally significant for software developers and computer programmers?",
+    "sampleAnswer": "Copyright grants software creators the exclusive legal right to copy, distribute, modify, and license their original source code and software, preventing unauthorized piracy.",
+    "acceptedAnswers": [
+      "Grants exclusive legal right to copy, distribute, and license software",
+      "Protects source code from unauthorized copying and piracy",
+      "Prevents unauthorized distribution and duplication of code"
+    ],
+    "keywords": [
+      "copyright",
+      "exclusive legal right",
+      "source code",
+      "distribute",
+      "piracy"
+    ],
+    "explanation": "Copyright automatically protects original literary and artistic works—including computer code—granting authors exclusive rights over distribution and duplication.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-094",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Contrast the software distribution models of Freeware and Free and Open Source Software (FOSS).",
+    "sampleAnswer": "Freeware is free of monetary cost but its source code remains closed and cannot be modified, whereas FOSS grants users the freedom to view, modify, and redistribute the underlying source code.",
+    "acceptedAnswers": [
+      "Freeware is free of cost but closed source; FOSS provides source code and modification rights",
+      "Freeware cannot be modified; FOSS allows source code access and modification",
+      "Freeware has closed source code while FOSS is open source"
+    ],
+    "keywords": [
+      "freeware",
+      "FOSS",
+      "closed source",
+      "source code",
+      "modify",
+      "freedom"
+    ],
+    "explanation": "Freeware provides zero-cost binary software without source code rights; FOSS (Free/Open Source) guarantees freedom to inspect, adapt, and share source code.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-095",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): Digital signatures provide non-repudiation and authentication in electronic transactions under the IT Act 2000.\nReason (R): Digital signatures use asymmetric public-key cryptography and hash functions to ensure that the document has not been tampered with and verifies the sender's identity.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Asymmetric cryptography binds the document to the sender's private key and cryptographic hash, ensuring tamper-evidence and legal non-repudiation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-096",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): Open burning of discarded computer circuit boards in unscientific recycling settings releases toxic dioxins and furans into the atmosphere.\nReason (R): Printed circuit boards (PCBs) contain brominated flame retardants (BFRs) and chlorinated plastics that emit hazardous halogenated dioxins during incomplete combustion.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "PCBs are coated with brominated flame retardants; uncontrolled burning produces carcinogenic halogenated persistent organic pollutants.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-097",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following actions are recognized as harmful forms of cyber bullying? (Select all that apply)",
+    "options": [
+      "Sending threatening or intimidating instant messages online",
+      "Posting humiliating or altered photographs of someone without their consent",
+      "Spreading malicious rumors or defamatory content about an individual on social networks",
+      "Changing your own computer password periodically to maintain security"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Threatening messages, non-consensual humiliating posts, and spreading defamatory rumors online are forms of cyberbullying. Changing your own password is good security practice.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-098",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following are recognized condition clauses used in Creative Commons (CC) public copyright licenses? (Select all that apply)",
+    "options": [
+      "Attribution (BY)",
+      "NonCommercial (NC)",
+      "ShareAlike (SA)",
+      "Mandatory Royalty Payment (MRP)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Creative Commons features BY (Attribution), NC (NonCommercial), SA (ShareAlike), and ND (NoDerivatives). Mandatory Royalty Payment is not a CC clause.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-099",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the waste management hierarchy tiers for e-waste disposal in order of environmental preference (most environmentally preferable first to least preferable last):",
+    "orderedItems": [
+      "Reduce electronics procurement and consumption",
+      "Reuse and refurbish functional computer equipment",
+      "Recycle components through authorized e-waste facilities",
+      "Recover energy or secondary materials from processed scrap",
+      "Dispose of residual non-recyclables in engineered containment landfills"
+    ],
+    "answer": "ordered",
+    "explanation": "The environmental waste hierarchy prioritizes Reduce first, followed by Reuse, Recycle, Energy Recovery, and lastly Disposal in landfills.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-cs-100",
+    "class": 11,
+    "subject": "cs",
+    "chapter": "Society, Law and Ethics",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following stages of software development and intellectual property protection in logical chronological order:",
+    "orderedItems": [
+      "Author original programming source code and design documentation",
+      "Establish copyright ownership over the written code",
+      "Select and attach an appropriate license (e.g., GPL, MIT, or proprietary)",
+      "Distribute the compiled application or repository to end-users",
+      "Monitor and enforce intellectual property terms against unauthorized piracy"
+    ],
+    "answer": "ordered",
+    "explanation": "The logical sequence is: write code -> establish copyright -> attach software license -> distribute to users -> enforce IP against infringements.",
+    "marks": 2,
+    "volatile": false
+  }
+]

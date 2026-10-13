@@ -1,0 +1,1891 @@
+[
+  {
+    "id": "c11-chemistry-001",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "How many moles of carbon dioxide (CO₂) are present in an 88 g sample of pure carbon dioxide gas? (Atomic masses: C = 12 g/mol, O = 16 g/mol)",
+    "options": [
+      "2 moles",
+      "1 mole",
+      "0.5 moles",
+      "4 moles"
+    ],
+    "answer": 0,
+    "explanation": "Molar mass of CO₂ = 12 + 2(16) = 44 g/mol. Number of moles n = Mass / Molar mass = 88 / 44 = 2 moles.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-002",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Structure of Atom",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "According to de Broglie's wave-particle duality principle, what is the wavelength λ associated with a matter particle of mass m moving with linear velocity v?",
+    "options": [
+      "h / (mv)",
+      "mv / h",
+      "h / (2mv)",
+      "h² / (mv)"
+    ],
+    "answer": 0,
+    "explanation": "de Broglie relation states λ = h / p = h / (mv), where h is Planck's constant.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-003",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Classification of Elements and Periodicity in Properties",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which of the following second-period elements exhibits the highest first ionization enthalpy (ΔᵢH₁)?",
+    "options": [
+      "Nitrogen (N)",
+      "Oxygen (O)",
+      "Carbon (C)",
+      "Boron (B)"
+    ],
+    "answer": 0,
+    "explanation": "Nitrogen has an extra-stable half-filled 2p³ valence subshell ([He] 2s² 2p³), requiring more energy (1402 kJ/mol) to remove an electron than oxygen (1314 kJ/mol).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-004",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Structure of Atom",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "For an electron in an f-subshell (azimuthal quantum number l = 3), what are the permitted values of the magnetic quantum number m_l and the total number of degenerate orbitals?",
+    "options": [
+      "m_l ∈ {-3, -2, -1, 0, +1, +2, +3} (7 orbitals)",
+      "m_l ∈ {-2, -1, 0, +1, +2} (5 orbitals)",
+      "m_l ∈ {-1, 0, +1} (3 orbitals)",
+      "m_l ∈ {-4, -3, -2, -1, 0, +1, +2, +3, +4} (9 orbitals)"
+    ],
+    "answer": 0,
+    "explanation": "Magnetic quantum number m_l takes (2l + 1) integer values from -l to +l. For l = 3, m_l has 2(3) + 1 = 7 values: -3, -2, -1, 0, 1, 2, 3.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-005",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the standard SI base unit used to measure the amount of substance?",
+    "options": [
+      "Mole",
+      "Kilogram",
+      "Candela",
+      "Gram"
+    ],
+    "answer": 0,
+    "explanation": "The mole (symbol: mol) is the base SI unit for the amount of substance, containing exactly 6.02214076 × 10²³ elementary entities.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-006",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Structure of Atom",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Calculate the energy in electron-volts (eV) of a single photon of electromagnetic radiation having a frequency ν = 3.0 × 10¹⁵ Hz. (Take h = 6.626 × 10⁻³⁴ J·s and 1 eV = 1.6 × 10⁻¹⁹ J)",
+    "options": [
+      "12.42 eV",
+      "6.21 eV",
+      "24.84 eV",
+      "1.24 eV"
+    ],
+    "answer": 0,
+    "explanation": "E = h ν = (6.626 × 10⁻³⁴ J·s) × (3.0 × 10¹⁵ s⁻¹) = 1.9878 × 10⁻¹⁸ J. In eV: 1.9878 × 10⁻¹⁸ / (1.6 × 10⁻¹⁹) ≈ 12.42 eV.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-007",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Avogadro's hypothesis states that equal volumes of all ideal gases under identical conditions of temperature and pressure contain equal numbers of molecules.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Avogadro's law establishes V ∝ n at constant temperature and pressure.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-008",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Structure of Atom",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "According to Heisenberg's uncertainty principle, it is fundamentally impossible to simultaneously determine both the exact position and exact momentum of a subatomic particle with arbitrary precision: Δx · Δp ≥ h / (4π).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "The product of uncertainties in position and linear momentum cannot be smaller than h / (4π).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-009",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Classification of Elements and Periodicity in Properties",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Across a period from left to right in the modern periodic table, atomic radii generally ________ due to increasing effective nuclear charge.",
+    "answer": "decreases",
+    "acceptedAnswers": [
+      "decreases",
+      "decreases / shrinks",
+      "diminishes"
+    ],
+    "explanation": "Electrons are added to the same principal shell while nuclear charge increases, pulling the electron cloud closer to the nucleus and decreasing atomic radius.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-010",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "One mole of any chemical entity contains exactly Avogadro's constant number of particles, which is approximately 6.022 × 10^________.",
+    "answer": "23",
+    "acceptedAnswers": [
+      "23",
+      "10^23"
+    ],
+    "explanation": "Avogadro's constant N_A = 6.022 × 10²³ mol⁻¹.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-011",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Classification of Elements and Periodicity in Properties",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each periodic property with its general trend across a period from left to right:",
+    "pairs": [
+      [
+        "Atomic Radius",
+        "Decreases across period"
+      ],
+      [
+        "Electronegativity",
+        "Increases across period"
+      ],
+      [
+        "Metallic Character",
+        "Decreases across period"
+      ],
+      [
+        "Electron Gain Enthalpy (negative value)",
+        "Generally becomes more negative"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These represent textbook periodic trends driven by increasing effective nuclear charge across main group elements.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-012",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the molarity of an aqueous solution prepared by dissolving 4.0 g of sodium hydroxide (NaOH, molar mass 40.0 g/mol) in water to form exactly 500 mL (0.50 L) of solution.",
+    "answer": 0.2,
+    "tolerance": 0.01,
+    "unit": "M",
+    "explanation": "Moles of NaOH = 4.0 / 40.0 = 0.10 mol. Volume = 0.50 L. Molarity M = 0.10 mol / 0.50 L = 0.20 M.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-013",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Structure of Atom",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "What is the maximum total number of electrons that can be accommodated in the principal electron shell with quantum number n = 3?",
+    "answer": 18,
+    "tolerance": 0,
+    "unit": "electrons",
+    "explanation": "Max electrons in shell n = 2n² = 2(3²) = 2(9) = 18 electrons (2 in 3s, 6 in 3p, 10 in 3d).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-014",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the mass percentage of nitrogen in pure ammonium nitrate (NH₄NO₃). (Take atomic masses: N = 14, H = 1, O = 16)",
+    "answer": 35,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Molar mass of NH₄NO₃ = 2(14) + 4(1) + 3(16) = 28 + 4 + 48 = 80 g/mol. Mass percentage of N = (28 / 80) × 100 = 35%.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-015",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Structure of Atom",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "According to Bohr's model of the hydrogen atom, the radius of the n-th orbit is proportional to n². Find the numerical ratio of the radius of the 3rd orbit (n = 3) to the radius of the 1st orbit (n = 1).",
+    "answer": 9,
+    "tolerance": 0,
+    "unit": "ratio",
+    "explanation": "r_n = a₀ n² / Z. For hydrogen Z = 1, r₃ / r₁ = 3² / 1² = 9.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-016",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Classification of Elements and Periodicity in Properties",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "On the Pauling electronegativity scale, fluorine has an electronegativity of 4.0 and cesium has an electronegativity of 0.7. Calculate the absolute difference in electronegativity between these two elements.",
+    "answer": 3.3,
+    "tolerance": 0.1,
+    "unit": "units",
+    "explanation": "ΔEN = 4.0 - 0.7 = 3.3.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-017",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Structure of Atom",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the illustrated boundary surface diagrams of atomic orbitals, what type of orbital is represented by the dumbbell shape 'B' with azimuthal quantum number l = 1?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"320\" height=\"180\" fill=\"#0f172a\"/><circle cx=\"80\" cy=\"90\" r=\"45\" fill=\"#38bdf8\" fill-opacity=\"0.3\" stroke=\"#38bdf8\" stroke-width=\"2\"/><text x=\"80\" y=\"95\" fill=\"#38bdf8\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\">A (l = 0)</text><text x=\"80\" y=\"160\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">Spherical (s)</text><path d=\"M 230 90 C 230 50 190 50 200 90 C 210 130 250 130 240 90 Z\" fill=\"#fbbf24\" fill-opacity=\"0.35\" stroke=\"#fbbf24\" stroke-width=\"2\" transform=\"rotate(45, 230, 90)\"/><path d=\"M 230 90 C 230 50 270 50 260 90 C 250 130 210 130 220 90 Z\" fill=\"#fbbf24\" fill-opacity=\"0.35\" stroke=\"#fbbf24\" stroke-width=\"2\" transform=\"rotate(45, 230, 90)\"/><text x=\"230\" y=\"95\" fill=\"#fbbf24\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\">B (l = 1)</text><text x=\"230\" y=\"160\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">Dumbbell shaped</text></svg>"
+    },
+    "options": [
+      "p-orbital",
+      "s-orbital",
+      "d-orbital",
+      "f-orbital"
+    ],
+    "answer": 0,
+    "explanation": "An azimuthal quantum number l = 1 corresponds to a p-orbital, which has a characteristic dumbbell-shaped electron cloud with two lobes oriented around a nodal plane.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-018",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Structure of Atom",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Which fundamental principle states that no two electrons in the same atom can have an identical set of all four quantum numbers (n, l, m_l, m_s)?",
+    "sampleAnswer": "Pauli's Exclusion Principle",
+    "acceptedAnswers": [
+      "Pauli's Exclusion Principle",
+      "Pauli Exclusion Principle",
+      "Pauli exclusion"
+    ],
+    "keywords": [
+      "Pauli"
+    ],
+    "explanation": "Pauli's exclusion principle dictates that an orbital can hold a maximum of two electrons, and they must have opposite spins.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-019",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Structure of Atom",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What is the total number of radial nodes in a 3p atomic orbital?",
+    "sampleAnswer": "1",
+    "acceptedAnswers": [
+      "1",
+      "one",
+      "1 node"
+    ],
+    "keywords": [
+      "1",
+      "one"
+    ],
+    "explanation": "The number of radial nodes is given by (n - l - 1). For a 3p orbital, n = 3 and l = 1, so radial nodes = 3 - 1 - 1 = 1.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-020",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Classification of Elements and Periodicity in Properties",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): Chlorine has a more negative electron gain enthalpy (-349 kJ/mol) than fluorine (-328 kJ/mol).\nReason (R): Due to the very compact 2p subshell in fluorine, an incoming electron experiences strong inter-electronic repulsions, whereas the larger 3p subshell in chlorine accommodates the extra electron with substantially less repulsion.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The small volume of fluorine's 2p orbital creates significant electron-electron repulsion that lessens the net energy released upon electron addition relative to chlorine.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-021",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Some Basic Concepts of Chemistry",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): One mole of any substance always contains exactly 6.022 × 10²³ elementary entities.\nReason (R): The mole is defined such that one mole of carbon-12 has a mass of exactly 12 grams and contains Avogadro's number of carbon atoms.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The mole unit is calibrated directly against the carbon-12 mass standard, establishing Avogadro's number as the universal particle count per mole.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-022",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Classification of Elements and Periodicity in Properties",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following elements belong to the halogen family (Group 17) of the modern periodic table? (Select all that apply)",
+    "options": [
+      "Fluorine (F)",
+      "Chlorine (Cl)",
+      "Bromine (Br)",
+      "Iodine (I)",
+      "Argon (Ar)"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Fluorine, chlorine, bromine, and iodine are Group 17 halogens with ns² np⁵ valence configuration. Argon is a Group 18 noble gas.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-023",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Structure of Atom",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following ground-state electron configurations represent classical exceptions to the standard Aufbau order due to the special stability of half-filled or fully-filled d-subshells? (Select all that apply)",
+    "options": [
+      "Chromium (Cr, Z = 24): [Ar] 3d⁵ 4s¹",
+      "Copper (Cu, Z = 29): [Ar] 3d¹⁰ 4s¹",
+      "Potassium (K, Z = 19): [Ar] 4s¹",
+      "Calcium (Ca, Z = 20): [Ar] 4s²",
+      "Zinc (Zn, Z = 30): [Ar] 3d¹⁰ 4s²"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Chromium adopts [Ar] 3d⁵ 4s¹ (half-filled d⁵) and Copper adopts [Ar] 3d¹⁰ 4s¹ (fully-filled d¹⁰), deviating from the expected 3d⁴ 4s² and 3d⁹ 4s² configs.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-024",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Classification of Elements and Periodicity in Properties",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange these Group 1 alkali metals in strictly increasing order of their atomic numbers Z:",
+    "orderedItems": [
+      "Lithium (Z = 3)",
+      "Sodium (Z = 11)",
+      "Potassium (Z = 19)",
+      "Rubidium (Z = 37)",
+      "Cesium (Z = 55)"
+    ],
+    "answer": "ordered",
+    "explanation": "Down Group 1: Li (3) < Na (11) < K (19) < Rb (37) < Cs (55).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-025",
+    "class": 11,
+    "subject": "chemistry",
+    "chapter": "Structure of Atom",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange these atomic subshells in strictly increasing order of their energy according to the Aufbau (n + l) rule:",
+    "orderedItems": [
+      "3s (n + l = 3)",
+      "3p (n + l = 4, n = 3)",
+      "4s (n + l = 4, n = 4)",
+      "3d (n + l = 5, n = 3)",
+      "4p (n + l = 5, n = 4)"
+    ],
+    "answer": "ordered",
+    "explanation": "By the (n + l) rule: 3s (3) < 3p (4) < 4s (4) < 3d (5) < 4p (5). For equal (n + l), lower n has lower energy.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-026",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "According to VSEPR theory, what is the geometric shape of the methane (CH₄) molecule?",
+    "options": [
+      "Square planar",
+      "Tetrahedral",
+      "Trigonal bipyramidal",
+      "Octahedral"
+    ],
+    "answer": 1,
+    "explanation": "CH₄ has 4 bond pairs and 0 lone pairs around the central carbon atom (sp³ hybridized), resulting in a regular tetrahedral geometry with bond angles of 109.5°.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-027",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Why is the dipole moment of NH₃ (1.47 D) significantly greater than that of NF₃ (0.24 D), even though fluorine is more electronegative than nitrogen?",
+    "options": [
+      "In NH₃, orbital dipole of lone pair and N-H bond dipoles point in the same direction, whereas in NF₃ they oppose each other",
+      "NF₃ has a planar geometry while NH₃ is pyramidal",
+      "The N-F bond is non-polar due to back-bonding",
+      "Nitrogen in NF₃ undergoes sp² hybridization while in NH₃ it is sp³"
+    ],
+    "answer": 0,
+    "explanation": "In NH₃, the resultant of the three N-H bond dipoles is in the same direction as the lone pair dipole moment, reinforcing it. In NF₃, the electronegative F atoms pull electron density away, so the N-F bond dipoles oppose the lone pair dipole moment, resulting in a much smaller net dipole moment.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-028",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Using Molecular Orbital Theory, determine which of the following diatomic species is diamagnetic and has the highest bond order?",
+    "options": [
+      "O₂⁺",
+      "O₂",
+      "N₂",
+      "B₂"
+    ],
+    "answer": 2,
+    "explanation": "N₂ has 14 electrons: σ1s² σ*1s² σ2s² σ*2s² (π2px² = π2py²) σ2pz². All electrons are paired (diamagnetic), and the bond order is (10 - 4)/2 = 3. O₂⁺ has bond order 2.5 (paramagnetic), O₂ has bond order 2 (paramagnetic with 2 unpaired electrons), and B₂ has bond order 1 (paramagnetic).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-029",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "For the reaction N₂(g) + 3H₂(g) → 2NH₃(g) carried out at 298 K, what is the relationship between the enthalpy change (ΔH) and internal energy change (ΔU)?",
+    "options": [
+      "ΔH = ΔU - 2RT",
+      "ΔH = ΔU + 2RT",
+      "ΔH = ΔU - RT",
+      "ΔH = ΔU"
+    ],
+    "answer": 0,
+    "explanation": "ΔH = ΔU + Δng·RT. Here Δng = moles of gaseous products - moles of gaseous reactants = 2 - (1 + 3) = -2. Therefore, ΔH = ΔU - 2RT.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-030",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "For an endothermic reaction (ΔH > 0) to be spontaneous at temperature T, which condition must strictly be satisfied?",
+    "options": [
+      "ΔS must be positive and T > ΔH / ΔS",
+      "ΔS must be negative and T < ΔH / ΔS",
+      "ΔS must be zero and T > 0",
+      "The reaction can never be spontaneous regardless of temperature"
+    ],
+    "answer": 0,
+    "explanation": "For spontaneity, ΔG = ΔH - TΔS < 0. If ΔH > 0 (endothermic), ΔS must be positive so that TΔS is positive. Then TΔS > ΔH, which requires T > ΔH / ΔS (spontaneous at sufficiently high temperatures).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-031",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "A sigma (σ) bond is formed by end-to-end (head-on) overlap of bonding orbitals along the internuclear axis.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "A sigma bond is formed by coaxial or end-to-end overlap of atomic orbitals along the internuclear axis, giving greater overlap and higher bond strength than lateral pi overlap.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-032",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In an adiabatic free expansion of an ideal gas into a vacuum, the temperature of the gas remains strictly constant.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "In free expansion into a vacuum, external pressure P_ext = 0, so work w = 0. In an adiabatic process, q = 0. By First Law, ΔU = q + w = 0. Since internal energy of an ideal gas depends solely on temperature (ΔU = n·Cv·ΔT), ΔT = 0, meaning the temperature remains constant.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-033",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The state of hybridization of phosphorus in phosphorus pentachloride (PCl₅) is _______.",
+    "answer": "sp3d",
+    "acceptedAnswers": [
+      "sp3d",
+      "sp³d"
+    ],
+    "explanation": "Phosphorus has 5 valence electrons and forms 5 sigma bonds with chlorine atoms with 0 lone pairs. Steric number is 5, giving sp³d hybridization with trigonal bipyramidal geometry.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-034",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "According to the Third Law of Thermodynamics, the entropy of any pure, perfectly crystalline substance at absolute zero (0 K) is equal to _______.",
+    "answer": "zero",
+    "acceptedAnswers": [
+      "zero",
+      "0"
+    ],
+    "explanation": "The Third Law of Thermodynamics states that the entropy of a perfectly crystalline substance approaches zero as the absolute temperature approaches zero Kelvin.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-035",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each molecule/ion with its correct molecular geometry according to VSEPR theory:",
+    "pairs": [
+      [
+        "SF₄",
+        "See-saw"
+      ],
+      [
+        "ClF₃",
+        "T-shaped"
+      ],
+      [
+        "XeF₄",
+        "Square planar"
+      ],
+      [
+        "SF₆",
+        "Octahedral"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "SF₄ has 4 bond pairs and 1 lone pair (see-saw); ClF₃ has 3 bond pairs and 2 lone pairs (T-shaped); XeF₄ has 4 bond pairs and 2 lone pairs (square planar); SF₆ has 6 bond pairs and 0 lone pairs (octahedral).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-036",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the bond order of the oxygen molecule (O₂) using Molecular Orbital Theory.",
+    "answer": 2,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "In O₂ (16 electrons), there are 10 bonding electrons and 6 antibonding electrons: Bond Order = (N_b - N_a) / 2 = (10 - 6) / 2 = 2.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-037",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Two moles of an ideal gas expand isothermally and reversibly from 10 L to 100 L at 300 K. Calculate the work done by the gas in kJ (take R = 8.314 J/(mol·K), ln 10 = 2.303, give answer to nearest 0.1 kJ).",
+    "answer": -11.5,
+    "tolerance": 0.2,
+    "unit": "kJ",
+    "explanation": "w = -2.303 n R T log(V₂/V₁) = -2.303 × 2 × 8.314 × 300 × log(100/10) = -2.303 × 2 × 8.314 × 300 × 1 = -11488 J ≈ -11.5 kJ.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-038",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "For a reaction, ΔH = -28.0 kJ/mol and ΔS = -70.0 J/(mol·K). Calculate the temperature in Kelvin above which the reaction becomes non-spontaneous.",
+    "answer": 400,
+    "tolerance": 2,
+    "unit": "K",
+    "explanation": "At equilibrium (ΔG = 0), T = ΔH / ΔS = (-28000 J/mol) / (-70 J/(mol·K)) = 400 K. Since both ΔH and ΔS are negative, the reaction is spontaneous (ΔG < 0) below 400 K and non-spontaneous above 400 K.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-039",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate ΔU in Joules for a system that absorbs 450 J of heat from the surroundings and does 180 J of work on the surroundings.",
+    "answer": 270,
+    "tolerance": 1,
+    "unit": "J",
+    "explanation": "By First Law of Thermodynamics, ΔU = q + w. Heat absorbed by system q = +450 J. Work done by system on surroundings w = -180 J. Therefore, ΔU = 450 - 180 = 270 J.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-040",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Given: C(graphite) + O₂(g) → CO₂(g), ΔH = -393.5 kJ/mol; CO(g) + 0.5 O₂(g) → CO₂(g), ΔH = -283.0 kJ/mol. Calculate the standard enthalpy of formation of CO(g) in kJ/mol.",
+    "answer": -110.5,
+    "tolerance": 0.5,
+    "unit": "kJ/mol",
+    "explanation": "Target reaction: C(graphite) + 0.5 O₂(g) → CO(g). Subtracting reaction 2 from reaction 1: ΔfH(CO) = -393.5 - (-283.0) = -110.5 kJ/mol.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-041",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram shows the molecular orbital energy levels for N₂ (14 electrons). Which labeled molecular orbital represents the Highest Occupied Molecular Orbital (HOMO)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 280' width='100%' height='280'><rect width='400' height='280' fill='#0f172a' rx='8'/><text x='200' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>MO Energy Levels of N₂ (&le; 14 electrons)</text><line x1='50' y1='250' x2='50' y2='45' stroke='#94a3b8' stroke-width='2'/><polygon points='50,40 45,52 55,52' fill='#94a3b8'/><text x='35' y='140' fill='#94a3b8' font-size='12' transform='rotate(-90, 35, 140)'>Energy</text><line x1='160' y1='240' x2='240' y2='240' stroke='#38bdf8' stroke-width='3'/><text x='250' y='245' fill='#94a3b8' font-size='12'>&sigma; 2s</text><line x1='160' y1='200' x2='240' y2='200' stroke='#38bdf8' stroke-width='3'/><text x='250' y='205' fill='#94a3b8' font-size='12'>&sigma;* 2s</text><line x1='130' y1='150' x2='190' y2='150' stroke='#38bdf8' stroke-width='3'/><line x1='210' y1='150' x2='270' y2='150' stroke='#38bdf8' stroke-width='3'/><text x='280' y='155' fill='#94a3b8' font-size='12'>&pi; 2px, &pi; 2py</text><line x1='160' y1='105' x2='240' y2='105' stroke='#f59e0b' stroke-width='3'/><text x='250' y='110' fill='#f59e0b' font-size='12' font-weight='bold'>Orbital X (&sigma; 2pz)</text><line x1='130' y1='65' x2='190' y2='65' stroke='#ef4444' stroke-width='2' stroke-dasharray='4'/><line x1='210' y1='65' x2='270' y2='65' stroke='#ef4444' stroke-width='2' stroke-dasharray='4'/><text x='280' y='70' fill='#ef4444' font-size='12'>&pi;* 2px, &pi;* 2py</text></svg>"
+    },
+    "options": [
+      "σ 2s",
+      "σ* 2s",
+      "π 2px / π 2py",
+      "σ 2pz (Orbital X)"
+    ],
+    "answer": 3,
+    "explanation": "For diatomic molecules with ≤ 14 electrons (like N₂), the energy of π 2px = π 2py is lower than σ 2pz. Electrons fill up to σ 2pz with 2 electrons, making σ 2pz (Orbital X) the Highest Occupied Molecular Orbital (HOMO).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-042",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "The graph shows a cyclic thermodynamic process A → B → C → A for an ideal gas on a P-V diagram. What is the net work done by the gas during one complete cycle?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 280' width='100%' height='280'><rect width='400' height='280' fill='#0f172a' rx='8'/><text x='200' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Cyclic Process on P-V Diagram</text><line x1='80' y1='230' x2='350' y2='230' stroke='#94a3b8' stroke-width='2'/><polygon points='350,230 340,225 340,235' fill='#94a3b8'/><text x='355' y='235' fill='#94a3b8' font-size='12'>V (L)</text><line x1='80' y1='230' x2='80' y2='45' stroke='#94a3b8' stroke-width='2'/><polygon points='80,45 75,55 85,55' fill='#94a3b8'/><text x='70' y='40' fill='#94a3b8' font-size='12'>P (atm)</text><polygon points='120,200 280,200 120,80' fill='rgba(56,189,248,0.2)' stroke='#38bdf8' stroke-width='3'/><circle cx='120' cy='80' r='5' fill='#f59e0b'/><text x='105' y='75' fill='#f59e0b' font-weight='bold'>A (120, 80) -> P=5, V=2</text><circle cx='280' cy='200' r='5' fill='#f59e0b'/><text x='270' y='220' fill='#f59e0b' font-weight='bold'>B (P=1, V=6)</text><circle cx='120' cy='200' r='5' fill='#f59e0b'/><text x='95' y='215' fill='#f59e0b' font-weight='bold'>C (P=1, V=2)</text><line x1='120' y1='230' x2='120' y2='235' stroke='#94a3b8' stroke-width='2'/><text x='115' y='250' fill='#cbd5e1' font-size='11'>2</text><line x1='280' y1='230' x2='280' y2='235' stroke='#94a3b8' stroke-width='2'/><text x='275' y='250' fill='#cbd5e1' font-size='11'>6</text><line x1='75' y1='200' x2='80' y2='200' stroke='#94a3b8' stroke-width='2'/><text x='60' y='205' fill='#cbd5e1' font-size='11'>1</text><line x1='75' y1='80' x2='80' y2='80' stroke='#94a3b8' stroke-width='2'/><text x='60' y='85' fill='#cbd5e1' font-size='11'>5</text></svg>"
+    },
+    "options": [
+      "+8 L·atm",
+      "-8 L·atm",
+      "+16 L·atm",
+      "+4 L·atm"
+    ],
+    "answer": 0,
+    "explanation": "The net work done in a cyclic process equals the area enclosed by the cycle on a P-V indicator diagram. The triangle has base ΔV = 6 - 2 = 4 L and height ΔP = 5 - 1 = 4 atm. Area = (1/2) × 4 × 4 = 8 L·atm. Since the cycle traverses in a clockwise sense (expansion at higher pressure), the work is positive (+8 L·atm).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-043",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Define lattice enthalpy of an ionic compound.",
+    "sampleAnswer": "Lattice enthalpy is the energy required to completely separate one mole of a solid ionic compound into its gaseous constituent ions.",
+    "acceptedAnswers": [
+      "energy required to separate one mole of ionic solid into gaseous ions",
+      "energy released when one mole of ionic compound is formed from gaseous ions",
+      "energy required to dissociate one mole of solid ionic compound into constituent gaseous ions"
+    ],
+    "keywords": [
+      "energy",
+      "one mole",
+      "ionic",
+      "gaseous ions"
+    ],
+    "explanation": "Lattice enthalpy is the enthalpy change accompanying the complete separation of one mole of an ionic crystal lattice into constituent gaseous ions at infinite separation.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-044",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "State Hess's Law of Constant Heat Summation.",
+    "sampleAnswer": "The total enthalpy change for a chemical reaction is the same regardless of whether the reaction takes place in one step or in several successive steps.",
+    "acceptedAnswers": [
+      "total enthalpy change is independent of the pathway or number of steps",
+      "enthalpy change of a reaction is constant whether it occurs in one step or multiple steps",
+      "overall enthalpy change equals the sum of enthalpy changes of individual steps"
+    ],
+    "keywords": [
+      "enthalpy change",
+      "one step",
+      "steps",
+      "pathway"
+    ],
+    "explanation": "Hess's Law states that standard reaction enthalpy is the sum of the standard enthalpies of intermediate reactions into which the overall reaction can be divided, because enthalpy is a state function.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-045",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): o-Nitrophenol has a lower boiling point and is more steam-volatile than p-nitrophenol.\nReason (R): o-Nitrophenol exhibits intramolecular hydrogen bonding (chelation), whereas p-nitrophenol exhibits intermolecular hydrogen bonding.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "Due to intramolecular H-bonding in o-nitrophenol, molecules cannot associate with adjacent molecules, resulting in lower boiling point and higher steam volatility. In p-nitrophenol, intermolecular H-bonding leads to extensive association, raising the boiling point.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-046",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): For an isolated system undergoing a spontaneous process, the change in entropy (ΔS_sys) is always positive.\nReason (R): An isolated system does not exchange energy or matter with its surroundings, so ΔS_surr = 0 and ΔS_total = ΔS_sys.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "By the Second Law, ΔS_total = ΔS_sys + ΔS_surr > 0 for a spontaneous process. For an isolated system, no heat enters or leaves the surroundings, so q_surr = 0 and ΔS_surr = 0. Therefore, ΔS_total = ΔS_sys > 0.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-047",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following species have a net dipole moment equal to zero (non-polar)? (Select all that apply)",
+    "options": [
+      "BF₃",
+      "CO₂",
+      "NH₃",
+      "CCl₄"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "BF₃ (trigonal planar), CO₂ (linear), and CCl₄ (regular tetrahedral) have symmetrical geometries where individual bond dipole vectors cancel out completely, yielding μ = 0. NH₃ is trigonal pyramidal with a lone pair and has a non-zero dipole moment (1.47 D).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-048",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Thermodynamics",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following thermodynamic properties are state functions? (Select all that apply)",
+    "options": [
+      "Internal Energy (U)",
+      "Work (w)",
+      "Enthalpy (H)",
+      "Gibbs Free Energy (G)"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Internal energy, enthalpy, entropy, and Gibbs free energy are state functions—their values depend only on the state of the system, not on the path taken. Work (w) and heat (q) are path functions.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-049",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following bonds in increasing order of their bond length (shortest to longest):",
+    "orderedItems": [
+      "Carbon-hydrogen single bond (C-H)",
+      "Carbon-carbon triple bond (C≡C)",
+      "Carbon-carbon double bond (C=C)",
+      "Carbon-carbon single bond (C-C)"
+    ],
+    "answer": "ordered",
+    "explanation": "Increasing order of bond length: C-H (~109 pm) < C≡C (~120 pm) < C=C (~134 pm) < C-C (~154 pm).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-050",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Chemical Bonding and Molecular Structure",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following oxygen species in increasing order of their bond order according to Molecular Orbital Theory:",
+    "orderedItems": [
+      "Peroxide ion (O₂²⁻)",
+      "Superoxide ion (O₂⁻)",
+      "Dioxygen molecule (O₂)",
+      "Dioxygenyl cation (O₂⁺)"
+    ],
+    "answer": "ordered",
+    "explanation": "Bond orders calculated via MOT: O₂²⁻ (18 e⁻) has bond order 1.0; O₂⁻ (17 e⁻) has bond order 1.5; O₂ (16 e⁻) has bond order 2.0; O₂⁺ (15 e⁻) has bond order 2.5. Increasing order: O₂²⁻ < O₂⁻ < O₂ < O₂⁺.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-051",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Redox Reactions",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the oxidation number of chromium in potassium dichromate (K₂Cr₂O₇)?",
+    "options": [
+      "+3",
+      "+4",
+      "+6",
+      "+7"
+    ],
+    "answer": 2,
+    "explanation": "In K₂Cr₂O₇, let the oxidation state of Cr be x. 2(+1) + 2(x) + 7(-2) = 0 ⇒ 2 + 2x - 14 = 0 ⇒ 2x = 12 ⇒ x = +6.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-052",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "For the gaseous equilibrium PCl₅(g) ⇌ PCl₃(g) + Cl₂(g) at temperature T, what is the exact mathematical relationship between Kp and Kc?",
+    "options": [
+      "Kp = Kc (RT)⁻¹",
+      "Kp = Kc (RT)",
+      "Kp = Kc (RT)²",
+      "Kp = Kc"
+    ],
+    "answer": 1,
+    "explanation": "Kp = Kc (RT)^Δng. For this reaction, Δng = moles of gaseous products - moles of gaseous reactants = (1 + 1) - 1 = 1. Therefore, Kp = Kc (RT).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-053",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "For the equilibrium N₂(g) + 3H₂(g) ⇌ 2NH₃(g), what is the effect of adding an inert gas like Argon at constant pressure at equilibrium?",
+    "options": [
+      "Equilibrium shifts in the backward direction (towards reactants)",
+      "Equilibrium shifts in the forward direction (towards products)",
+      "Equilibrium is unaffected because argon does not react",
+      "The value of equilibrium constant Kc increases"
+    ],
+    "answer": 0,
+    "explanation": "At constant pressure, addition of an inert gas increases the total volume of the container. The partial pressures and molar concentrations of all reacting gases decrease. According to Le Chatelier's principle, the equilibrium shifts in the direction having a greater number of moles of gas (backward direction: 4 moles vs 2 moles).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-054",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Redox Reactions",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which of the following chemical reactions is a disproportionation redox reaction?",
+    "options": [
+      "2H₂O₂ → 2H₂O + O₂",
+      "CaCO₃ → CaO + CO₂",
+      "Zn + CuSO₄ → ZnSO₄ + Cu",
+      "CH₄ + 2O₂ → CO₂ + 2H₂O"
+    ],
+    "answer": 0,
+    "explanation": "In H₂O₂, oxygen has an oxidation state of -1. In H₂O, oxygen is reduced to -2, and in O₂, oxygen is oxidized to 0. Since the same element undergoes simultaneous oxidation and reduction, it is a disproportionation reaction.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-055",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "The solubility product of AgCl is Ksp = 1.6 × 10⁻¹⁰ at 298 K. What is the solubility of AgCl in a 0.10 M aqueous solution of NaCl?",
+    "options": [
+      "1.6 × 10⁻⁹ mol/L",
+      "1.26 × 10⁻⁵ mol/L",
+      "1.6 × 10⁻¹¹ mol/L",
+      "0.10 mol/L"
+    ],
+    "answer": 0,
+    "explanation": "In 0.10 M NaCl, [Cl⁻] ≈ 0.10 M due to complete ionization. For AgCl, Ksp = [Ag⁺][Cl⁻] = s × (s + 0.10) ≈ s × 0.10. Therefore, s = Ksp / 0.10 = (1.6 × 10⁻¹⁰) / 0.10 = 1.6 × 10⁻⁹ mol/L.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-056",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "A catalyst speeds up the approach to chemical equilibrium by lowering the activation energy for both forward and reverse reactions equally, without altering the equilibrium constant Kc.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "A catalyst increases the rates of both forward and reverse reactions by the same factor by providing an alternative reaction pathway of lower activation energy. It does not alter the equilibrium composition or the value of Kc.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-057",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Redox Reactions",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Fluorine can exhibit positive oxidation states such as +1 and +3 in its interhalogen compounds.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "Fluorine is the most electronegative element in the periodic table and lacks d-orbitals in its valence shell; therefore, it always exhibits an oxidation state of -1 in all its compounds (and 0 in elemental F₂). It never exhibits positive oxidation states.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-058",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "According to the Brønsted-Lowry acid-base theory, the conjugate base of the hydrogen carbonate ion (HCO₃⁻) is _______.",
+    "answer": "CO3 2-",
+    "acceptedAnswers": [
+      "CO3 2-",
+      "CO32-",
+      "carbonate ion",
+      "carbonate",
+      "CO3^-2"
+    ],
+    "explanation": "A conjugate base is formed when a Brønsted acid donates a proton (H⁺): HCO₃⁻ → H⁺ + CO₃²⁻. Thus, the conjugate base is CO₃²⁻.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-059",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Redox Reactions",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In peroxomonosulfuric acid (Caro's acid, H₂SO₅), the oxidation number of sulfur is _______.",
+    "answer": "+6",
+    "acceptedAnswers": [
+      "+6",
+      "6"
+    ],
+    "explanation": "H₂SO₅ contains one peroxy linkage (-O-O-). The formula can be written as H₂SO₃(O₂). Letting sulfur be x: 2(+1) + x + 3(-2) + 2(-1) = 0 ⇒ 2 + x - 6 - 2 = 0 ⇒ x = +6. Sulfur cannot exceed its maximum valence of +6.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-060",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each chemical concept with its defining characteristic:",
+    "pairs": [
+      [
+        "Buffer solution",
+        "Resists drastic pH change upon adding small amount of acid or base"
+      ],
+      [
+        "Disproportionation",
+        "Simultaneous oxidation and reduction of the same element"
+      ],
+      [
+        "Le Chatelier's Principle",
+        "Equilibrium shifts to relieve an externally applied stress"
+      ],
+      [
+        "Common Ion Effect",
+        "Suppression of ionization of a weak electrolyte by adding a strong electrolyte sharing an ion"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Buffer solutions maintain a stable pH; disproportionation involves one oxidation state splitting into higher and lower states; Le Chatelier's principle predicts dynamic equilibrium response; common ion effect suppresses ionization.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-061",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the pH of a 0.001 M aqueous hydrochloric acid (HCl) solution at 25°C.",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "HCl is a strong monoprotic acid that ionizes completely: [H⁺] = 0.001 M = 10⁻³ M. pH = -log₁₀[H⁺] = -log₁₀(10⁻³) = 3.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-062",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the pH of an acidic buffer containing 0.1 M acetic acid (CH₃COOH) and 0.1 M sodium acetate (CH₃COONa) given pKa of acetic acid is 4.76.",
+    "answer": 4.76,
+    "tolerance": 0.02,
+    "unit": "",
+    "explanation": "Using Henderson-Hasselbalch equation: pH = pKa + log([salt] / [acid]) = 4.76 + log(0.1 / 0.1) = 4.76 + log(1) = 4.76 + 0 = 4.76.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-063",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "For the gaseous reaction 2SO₂(g) + O₂(g) ⇌ 2SO₃(g) at a certain temperature, the equilibrium partial pressures are P(SO₂) = 0.50 atm, P(O₂) = 0.20 atm, and P(SO₃) = 1.0 atm. Calculate the equilibrium constant Kp in atm⁻¹.",
+    "answer": 20,
+    "tolerance": 0.5,
+    "unit": "atm^-1",
+    "explanation": "Kp = (P_SO₃)² / [(P_SO₂)² × P_O₂] = (1.0)² / [(0.50)² × 0.20] = 1.0 / [0.25 × 0.20] = 1.0 / 0.050 = 20 atm⁻¹.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-064",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Redox Reactions",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "How many moles of electrons are gained by one mole of permanganate ion (MnO₄⁻) when it is completely reduced to Mn²⁺ in an acidic aqueous medium?",
+    "answer": 5,
+    "tolerance": 0,
+    "unit": "mol",
+    "explanation": "In MnO₄⁻, manganese is in the +7 oxidation state. In Mn²⁺, manganese is in the +2 oxidation state. The reduction half-reaction is: MnO₄⁻ + 8H⁺ + 5e⁻ → Mn²⁺ + 4H₂O. Thus, 5 moles of electrons are gained per mole of MnO₄⁻.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-065",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram depicts the relationship between the reaction quotient (Qc) and the equilibrium constant (Kc). If a reaction mixture currently has Qc > Kc, in which direction will the reaction proceed spontaneously to achieve equilibrium?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#0f172a' rx='8'/><text x='200' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Reaction Quotient Qc vs Equilibrium Constant Kc</text><line x1='50' y1='140' x2='350' y2='140' stroke='#94a3b8' stroke-width='3'/><polygon points='350,140 340,135 340,145' fill='#94a3b8'/><circle cx='200' cy='140' r='8' fill='#22c55e'/><text x='200' y='170' fill='#22c55e' font-size='14' text-anchor='middle' font-weight='bold'>Kc (Equilibrium)</text><circle cx='100' cy='140' r='6' fill='#38bdf8'/><text x='100' y='110' fill='#38bdf8' font-size='12' text-anchor='middle'>Qc &lt; Kc (Forward)</text><line x1='115' y1='140' x2='180' y2='140' stroke='#38bdf8' stroke-width='2' marker-end='url(#arrow)'/><circle cx='300' cy='140' r='6' fill='#f59e0b'/><text x='300' y='110' fill='#f59e0b' font-size='12' text-anchor='middle'>Qc &gt; Kc (State X)</text><path d='M 285 140 L 220 140' stroke='#f59e0b' stroke-width='3'/><polygon points='220,140 230,135 230,145' fill='#f59e0b'/><text x='200' y='215' fill='#cbd5e1' font-size='12' text-anchor='middle'>Reactants &hArr; Products</text></svg>"
+    },
+    "options": [
+      "In the reverse (backward) direction to form more reactants",
+      "In the forward direction to form more products",
+      "The system is already at equilibrium, so no net reaction occurs",
+      "The reaction ceases completely"
+    ],
+    "answer": 0,
+    "explanation": "When Qc > Kc, the concentration of products is higher than at equilibrium. To establish equilibrium, the reaction proceeds in the backward (reverse) direction from products to reactants until Qc equals Kc.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-066",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Redox Reactions",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "The chemical structure of chromium peroxide (CrO₅) displays a distinctive butterfly configuration. What is the actual oxidation state of chromium in this molecule?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#0f172a' rx='8'/><text x='200' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Butterfly Structure of CrO₅</text><circle cx='200' cy='120' r='18' fill='#0284c7'/><text x='200' y='125' fill='#ffffff' font-size='14' text-anchor='middle' font-weight='bold'>Cr</text><circle cx='200' cy='50' r='14' fill='#ef4444'/><text x='200' y='55' fill='#ffffff' font-size='12' text-anchor='middle' font-weight='bold'>=O</text><line x1='196' y1='102' x2='196' y2='64' stroke='#ef4444' stroke-width='2'/><line x1='204' y1='102' x2='204' y2='64' stroke='#ef4444' stroke-width='2'/><circle cx='130' cy='95' r='14' fill='#f59e0b'/><text x='130' y='100' fill='#ffffff' font-size='11' text-anchor='middle'>O</text><circle cx='130' cy='155' r='14' fill='#f59e0b'/><text x='130' y='160' fill='#ffffff' font-size='11' text-anchor='middle'>O</text><circle cx='270' cy='95' r='14' fill='#f59e0b'/><text x='270' y='100' fill='#ffffff' font-size='11' text-anchor='middle'>O</text><circle cx='270' cy='155' r='14' fill='#f59e0b'/><text x='270' y='160' fill='#ffffff' font-size='11' text-anchor='middle'>O</text><line x1='183' y1='115' x2='143' y2='100' stroke='#94a3b8' stroke-width='2'/><line x1='183' y1='125' x2='143' y2='150' stroke='#94a3b8' stroke-width='2'/><line x1='130' y1='109' x2='130' y2='141' stroke='#10b981' stroke-width='3'/><line x1='217' y1='115' x2='257' y2='100' stroke='#94a3b8' stroke-width='2'/><line x1='217' y1='125' x2='257' y2='150' stroke='#94a3b8' stroke-width='2'/><line x1='270' y1='109' x2='270' y2='141' stroke='#10b981' stroke-width='3'/><text x='85' y='130' fill='#10b981' font-size='10'>peroxy</text><text x='315' y='130' fill='#10b981' font-size='10'>peroxy</text></svg>"
+    },
+    "options": [
+      "+10",
+      "+6",
+      "+4",
+      "+3"
+    ],
+    "answer": 1,
+    "explanation": "In CrO₅, chromium is coordinated to one oxo oxygen (O²⁻, oxidation number -2) and two peroxy groups (-O-O-, each oxygen having oxidation number -1). Overall charge is neutral: x + 1(-2) + 4(-1) = 0 ⇒ x - 6 = 0 ⇒ x = +6.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-067",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Define dynamic chemical equilibrium in a closed system.",
+    "sampleAnswer": "Dynamic equilibrium is a state in which the rate of the forward reaction equals the rate of the reverse reaction, so concentrations of reactants and products remain constant.",
+    "acceptedAnswers": [
+      "rate of forward reaction equals rate of reverse reaction and concentrations remain constant",
+      "state where forward and reverse reaction rates are equal",
+      "equilibrium where opposing processes occur at identical rates with constant concentrations"
+    ],
+    "keywords": [
+      "forward reaction",
+      "reverse reaction",
+      "equal",
+      "concentrations"
+    ],
+    "explanation": "At dynamic equilibrium, reactions continue to occur in both forward and backward directions at equal rates, maintaining constant macro-properties and species concentrations.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-068",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Redox Reactions",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Write the balanced ionic reduction half-reaction for the dichromate ion (Cr₂O₇²⁻) to chromium(III) ion (Cr³⁺) in an acidic medium.",
+    "sampleAnswer": "Cr2O7 2- + 14H+ + 6e- -> 2Cr3+ + 7H2O",
+    "acceptedAnswers": [
+      "Cr2O7 2- + 14H+ + 6e- -> 2Cr3+ + 7H2O",
+      "Cr2O7^2- + 14H^+ + 6e^- -> 2Cr^3+ + 7H2O",
+      "Cr2O7(2-) + 14H(+) + 6e(-) -> 2Cr(3+) + 7H2O",
+      "Cr2O72- + 14H+ + 6e- -> 2Cr3+ + 7H2O"
+    ],
+    "keywords": [
+      "Cr2O7",
+      "14H+",
+      "6e-",
+      "2Cr3+",
+      "7H2O"
+    ],
+    "explanation": "Balancing atoms and charges in acidic medium: Cr₂O₇²⁻ + 14H⁺ + 6e⁻ → 2Cr³⁺ + 7H₂O.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-069",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): The degree of ionization of ammonium hydroxide (NH₄OH) decreases when ammonium chloride (NH₄Cl) is added to the solution.\nReason (R): The addition of NH₄⁺ ions from strong electrolyte NH₄Cl shifts the dissociation equilibrium of NH₄OH to the left due to the common ion effect.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "NH₄OH ⇌ NH₄⁺ + OH⁻. Adding NH₄Cl supplies common NH₄⁺ ions, which by Le Chatelier's principle shifts the equilibrium to the left, suppressing the ionization of the weak base NH₄OH.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-070",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Redox Reactions",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Nitric acid (HNO₃) can act only as an oxidizing agent, whereas nitrous acid (HNO₂) can act as both an oxidizing and a reducing agent.\nReason (R): Nitrogen in HNO₃ is in its highest oxidation state (+5), while in HNO₂ nitrogen is in an intermediate oxidation state (+3).",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "In HNO₃, nitrogen is at its maximum oxidation state (+5) and can only decrease its oxidation state (undergoing reduction and acting as an oxidant). In HNO₂, nitrogen is at +3, which can increase to +5 (reducing agent) or decrease to lower states like +2, +1, 0, -3 (oxidizing agent).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-071",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following chemical species act as Lewis acids (electron pair acceptors)? (Select all that apply)",
+    "options": [
+      "BF₃",
+      "AlCl₃",
+      "NH₃",
+      "H₂O"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "BF₃ and AlCl₃ are electron-deficient molecules with incomplete octets around the central atom, readily accepting an electron pair (Lewis acids). NH₃ and H₂O have unshared lone pairs and act as Lewis bases.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-072",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Redox Reactions",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following chemical species can undergo disproportionation redox reactions? (Select all that apply)",
+    "options": [
+      "H₂O₂",
+      "Cl₂ in cold dilute alkali",
+      "P₄ in alkaline medium",
+      "F₂ in alkali"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "H₂O₂ (O at -1), Cl₂ (Cl at 0), and P₄ (P at 0) have intermediate oxidation states and can undergo disproportionation. F₂ cannot disproportionate because fluorine cannot exhibit positive oxidation states.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-073",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following operations will change the numerical value of the equilibrium constant Kc for a chemical reaction? (Select all that apply)",
+    "options": [
+      "Changing the reaction temperature",
+      "Reversing the stoichiometric chemical equation (inverting reactants and products)",
+      "Adding a positive chemical catalyst",
+      "Increasing the total volume of the container at constant temperature"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Changing the temperature alters Kc via the van 't Hoff equation. Reversing the stoichiometric equation inverts the equilibrium constant (Kc' = 1/Kc). Adding a catalyst or changing the volume alters reaction rates/concentrations but leaves the numerical value of Kc unchanged.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-074",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Equilibrium",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following 0.1 M aqueous solutions in order of increasing pH (most acidic to most basic):",
+    "orderedItems": [
+      "Hydrochloric acid (HCl)",
+      "Acetic acid (CH₃COOH)",
+      "Sodium chloride (NaCl)",
+      "Sodium hydroxide (NaOH)"
+    ],
+    "answer": "ordered",
+    "explanation": "Increasing pH: 0.1 M HCl (strong acid, pH ≈ 1) < 0.1 M CH₃COOH (weak acid, pH ≈ 2.88) < 0.1 M NaCl (neutral salt, pH = 7) < 0.1 M NaOH (strong base, pH ≈ 13).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-075",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Redox Reactions",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following nitrogen oxides in increasing order of the oxidation state of nitrogen:",
+    "orderedItems": [
+      "Dinitrogen monoxide (N₂O)",
+      "Nitric oxide (NO)",
+      "Dinitrogen trioxide (N₂O₃)",
+      "Nitrogen dioxide (NO₂)",
+      "Dinitrogen pentoxide (N₂O₅)"
+    ],
+    "answer": "ordered",
+    "explanation": "Oxidation states of nitrogen: N₂O (+1) < NO (+2) < N₂O₃ (+3) < NO₂ (+4) < N₂O₅ (+5).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-076",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the correct IUPAC name of the branched alkane (CH₃)₂CH-CH₂-CH₃?",
+    "options": [
+      "2-Methylbutane",
+      "3-Methylbutane",
+      "Isopentane",
+      "Dimethylpropane"
+    ],
+    "answer": 0,
+    "explanation": "The longest continuous carbon chain has 4 carbon atoms (butane). Numbering from the left gives the methyl substituent the lowest locant 2. Thus, the IUPAC name is 2-methylbutane.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-077",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which electronic effect primarily accounts for the greater thermodynamic stability of the tert-butyl carbocation, (CH₃)₃C⁺, compared to the isopropyl carbocation, (CH₃)₂CH⁺?",
+    "options": [
+      "Hyperconjugation involving 9 α-C-H bonds along with +I inductive effect",
+      "Electromeric effect involving polar solvent stabilization",
+      "Mesomeric delocalization of positive charge into aromatic pi bonds",
+      "Steric hindrance destabilizing adjacent nucleophiles"
+    ],
+    "answer": 0,
+    "explanation": "The tert-butyl carbocation has 9 α-hydrogens available for hyperconjugative stabilization (no-bond resonance), compared to only 6 α-hydrogens in the isopropyl cation. In addition, three electron-releasing methyl groups exert a stronger +I inductive effect.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-078",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "An alkene 'X' upon reductive ozonolysis (O₃ followed by Zn/H₂O) produces an equimolar mixture of propan-2-one (acetone) and ethanal (acetaldehyde). What is the identity of alkene 'X'?",
+    "options": [
+      "2-Methylbut-2-ene",
+      "2-Methylbut-1-ene",
+      "Pent-2-ene",
+      "3-Methylbut-1-ene"
+    ],
+    "answer": 0,
+    "explanation": "Ozonolysis cleaves the C=C double bond and replaces it with carbonyl groups (=O). Joining the carbonyl carbons of (CH₃)₂C=O and O=CH-CH₃ gives (CH₃)₂C=CH-CH₃, which is 2-methylbut-2-ene.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-079",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In the Friedel-Crafts alkylation of benzene using chloromethane (CH₃Cl), what is the specific role played by anhydrous aluminium chloride (AlCl₃)?",
+    "options": [
+      "It acts as a Lewis acid to generate the electrophile CH₃⁺",
+      "It acts as a Brønsted base to deprotonate the benzene ring",
+      "It acts as a solvent to dissolve the hydrocarbons",
+      "It acts as a free-radical chain initiator"
+    ],
+    "answer": 0,
+    "explanation": "Anhydrous AlCl₃ is an electron-deficient Lewis acid. It coordinates with the chlorine atom of CH₃Cl to form [AlCl₄]⁻ and generates the strong carbonium ion electrophile CH₃⁺ (or polarized complex CH₃⁺···AlCl₄⁻) that attacks the benzene ring.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-080",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which of the following alkenes can exhibit geometrical (cis-trans) isomerism?",
+    "options": [
+      "But-2-ene",
+      "But-1-ene",
+      "Propene",
+      "2-Methylpropene"
+    ],
+    "answer": 0,
+    "explanation": "Geometrical isomerism requires restricted rotation about the C=C bond and each doubly bonded carbon atom must be attached to two different groups. In but-2-ene (CH₃-CH=CH-CH₃), each C has an -H and a -CH₃ group, allowing cis and trans isomers. In but-1-ene, propene, and 2-methylpropene, one of the alkene carbons has two identical groups.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-081",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Kjeldahl's method for the quantitative estimation of nitrogen fails for which of the following classes of organic compounds?",
+    "options": [
+      "Nitro compounds, azo compounds, and nitrogen present in heterocyclic rings (e.g. pyridine)",
+      "Primary aliphatic amines and amides",
+      "Amino acids and proteins",
+      "Urea and acetamide"
+    ],
+    "answer": 0,
+    "explanation": "Kjeldahl's method is not applicable to compounds containing nitrogen in nitro (-NO₂) and azo (-N=N-) groups, or nitrogen present in the ring (such as pyridine and quinoline), because the nitrogen in these compounds does not convert to ammonium sulfate under boiling concentrated H₂SO₄ conditions.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-082",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Terminal alkynes like ethyne (acetylene) exhibit weakly acidic character because the sp-hybridized carbon has high s-character (50%), making it strongly electronegative.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "sp-hybridized carbon has 50% s-character, which brings the bonding electrons closer to the carbon nucleus, making the C-H bond polarized and allowing terminal hydrogen to be removed as a proton by strong bases like sodamide (NaNH₂).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-083",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Keto-enol tautomerism involves the rapid intramolecular migration of a proton between carbon and oxygen, accompanied by a shift of a double bond.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Tautomerism is a dynamic isomerism where two functional isomers exist in rapid equilibrium through the oscillation of a mobile hydrogen atom (usually a proton) accompanied by the shift of a double bond (as seen in keto and enol forms of acetone or acetoacetic ester).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-084",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "According to Hückel's rule of aromaticity, a planar, cyclic, fully conjugated system is aromatic if it contains _______ π electrons, where n is a non-negative integer.",
+    "answer": "4n + 2",
+    "acceptedAnswers": [
+      "4n + 2",
+      "4n+2",
+      "(4n+2)",
+      "4n + 2 pi"
+    ],
+    "explanation": "Hückel's rule states that planar, cyclic, conjugated systems containing (4n + 2) delocalized π electrons (where n = 0, 1, 2, 3...) possess exceptional aromatic stability.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-085",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In Lassaigne's test for detecting extra elements, the formation of a deep violet or purple coloration on adding freshly prepared sodium nitroprusside solution confirms the presence of _______ in the organic compound.",
+    "answer": "sulfur",
+    "acceptedAnswers": [
+      "sulfur",
+      "sulphur",
+      "S"
+    ],
+    "explanation": "Sodium sulfide formed in the sodium fusion extract reacts with sodium nitroprusside to form violet-colored sodium thionitroprusside: Na₂S + Na₂[Fe(CN)₅NO] → Na₄[Fe(CN)₅NOS] (purple/violet), confirming sulfur.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-086",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each named organic reaction with its primary synthetic purpose:",
+    "pairs": [
+      [
+        "Wurtz reaction",
+        "Coupling of alkyl halides with sodium in dry ether to form symmetrical alkanes"
+      ],
+      [
+        "Markovnikov's rule",
+        "Addition of hydrogen halide to unsymmetrical alkene where negative part adds to less hydrogenated carbon"
+      ],
+      [
+        "Ozonolysis",
+        "Oxidative cleavage of alkenes across the double bond to identify position of unsaturation"
+      ],
+      [
+        "Kolbe's electrolytic synthesis",
+        "Electrolysis of aqueous alkali salt of carboxylic acid to form alkanes"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Wurtz reaction synthesizes symmetrical alkanes; Markovnikov's rule governs regioselective addition; ozonolysis cleaves double bonds; Kolbe's electrolysis yields decarboxylated coupled hydrocarbons.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-087",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each electronic displacement effect with its defining feature:",
+    "pairs": [
+      [
+        "Inductive effect",
+        "Permanent polarization of sigma bonds due to electronegativity difference"
+      ],
+      [
+        "Resonance effect",
+        "Permanent delocalization of pi electrons through conjugated orbital overlap"
+      ],
+      [
+        "Hyperconjugation",
+        "Delocalization of sigma electrons of alpha C-H bond into adjacent vacant p orbital"
+      ],
+      [
+        "Electromeric effect",
+        "Temporary complete transfer of a shared pair of pi electrons in the presence of an attacking reagent"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Inductive effect involves sigma electrons; resonance involves conjugated pi systems; hyperconjugation involves sigma-p orbital overlap (no-bond resonance); electromeric effect is temporary and reagent-induced.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-088",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many total sigma (σ) bonds are present in a single molecule of benzene (C₆H₆)?",
+    "answer": 12,
+    "tolerance": 0,
+    "unit": "",
+    "explanation": "In benzene, there are 6 carbon-carbon (C-C) sigma bonds forming the hexagonal ring, and 6 carbon-hydrogen (C-H) sigma bonds. Total sigma bonds = 6 + 6 = 12.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-089",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In the Dumas method for estimation of nitrogen, 0.28 g of an organic compound gave 22.4 mL of dry nitrogen gas at STP (standard temperature and pressure). Calculate the percentage of nitrogen in the compound.",
+    "answer": 10,
+    "tolerance": 0.1,
+    "unit": "%",
+    "explanation": "22400 mL of N₂ at STP has a mass of 28 g. Therefore, 22.4 mL of N₂ at STP has mass = (28 / 22400) × 22.4 = 0.028 g. Percentage of nitrogen = (mass of N₂ / mass of compound) × 100 = (0.028 / 0.28) × 100 = 10%.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-090",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "How many moles of hydrogen gas (H₂) are consumed in the complete catalytic hydrogenation of 3 moles of propyne (CH₃-C≡CH) to propane?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "mol",
+    "explanation": "Propyne contains one C≡C triple bond comprising two π bonds. Complete hydrogenation requires 2 moles of H₂ per mole of alkyne: CH₃-C≡CH + 2H₂ → CH₃-CH₂-CH₃. For 3 moles of propyne, 3 × 2 = 6 moles of H₂ are consumed.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-091",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In Liebig's combustion method, 0.18 g of an organic compound yielded 0.22 g of carbon dioxide (CO₂). Calculate the percentage of carbon in the compound (to 1 decimal place).",
+    "answer": 33.3,
+    "tolerance": 0.3,
+    "unit": "%",
+    "explanation": "Percentage of carbon = (12 / 44) × (mass of CO₂ / mass of compound) × 100 = (12 / 44) × (0.22 / 0.18) × 100 = 0.2727 × 1.222 × 100 ≈ 33.3%.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-092",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram illustrates two Newman projections of ethane. Which conformation corresponds to the staggered conformation having a dihedral angle of 60° and minimum torsional strain?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#0f172a' rx='8'/><text x='200' y='25' fill='#e2e8f0' font-size='14' text-anchor='middle' font-weight='bold'>Newman Projections of Ethane</text><g transform='translate(100, 125)'><circle cx='0' cy='0' r='50' fill='none' stroke='#38bdf8' stroke-width='3'/><line x1='0' y1='0' x2='0' y2='-50' stroke='#f59e0b' stroke-width='3'/><line x1='0' y1='0' x2='-43' y2='25' stroke='#f59e0b' stroke-width='3'/><line x1='0' y1='0' x2='43' y2='25' stroke='#f59e0b' stroke-width='3'/><line x1='0' y1='-50' x2='0' y2='-70' stroke='#38bdf8' stroke-width='3'/><line x1='-43' y1='25' x2='-60' y2='35' stroke='#38bdf8' stroke-width='3'/><line x1='43' y1='25' x2='60' y2='35' stroke='#38bdf8' stroke-width='3'/><text x='0' y='85' fill='#f59e0b' font-size='12' text-anchor='middle' font-weight='bold'>Conformation P (Dihedral angle = 0&deg;)</text></g><g transform='translate(300, 125)'><circle cx='0' cy='0' r='50' fill='none' stroke='#38bdf8' stroke-width='3'/><line x1='0' y1='0' x2='0' y2='-50' stroke='#f59e0b' stroke-width='3'/><line x1='0' y1='0' x2='-43' y2='25' stroke='#f59e0b' stroke-width='3'/><line x1='0' y1='0' x2='43' y2='25' stroke='#f59e0b' stroke-width='3'/><line x1='0' y1='50' x2='0' y2='70' stroke='#38bdf8' stroke-width='3'/><line x1='43' y1='-25' x2='60' y2='-35' stroke='#38bdf8' stroke-width='3'/><line x1='-43' y1='-25' x2='-60' y2='-35' stroke='#38bdf8' stroke-width='3'/><text x='0' y='85' fill='#22c55e' font-size='12' text-anchor='middle' font-weight='bold'>Conformation Q (Dihedral angle = 60&deg;)</text></g></svg>"
+    },
+    "options": [
+      "Conformation Q (Staggered)",
+      "Conformation P (Eclipsed)",
+      "Both conformations have identical torsional strain",
+      "Neither conformation represents ethane"
+    ],
+    "answer": 0,
+    "explanation": "Conformation Q shows the staggered conformation where C-H bonds on front and rear carbons are maximally separated by a dihedral angle of 60°, minimizing electron-pair repulsion and torsional strain. Conformation P is the eclipsed conformation with maximum torsional strain.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-093",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Define a functional group in an organic compound.",
+    "sampleAnswer": "A functional group is an atom or group of atoms joined in a specific manner that determines the characteristic chemical properties of an organic compound.",
+    "acceptedAnswers": [
+      "an atom or group of atoms that determines the characteristic chemical properties of an organic compound",
+      "reactive part of an organic molecule responsible for its characteristic reactions",
+      "atom or group of bonded atoms that gives an organic molecule its characteristic reactivity"
+    ],
+    "keywords": [
+      "atom",
+      "group of atoms",
+      "chemical properties",
+      "characteristic"
+    ],
+    "explanation": "A functional group is an atom or specific cluster of atoms within a molecule that undergoes characteristic reactions regardless of the size or structure of the rest of the molecule.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-094",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Why does the peroxide effect (anti-Markovnikov addition) occur exclusively with HBr and not with HCl or HI?",
+    "sampleAnswer": "The peroxide effect is free-radical based. For HCl, the H-Cl bond is too strong (heterolysis is unfavorable, radical propagation endothermic); for HI, the I-I bond formation is favored and iodine radicals dimerize rather than adding to the double bond.",
+    "acceptedAnswers": [
+      "both propagation steps are exothermic only for HBr; for HCl H-Cl bond is too strong and for HI iodine radicals dimerize into I2",
+      "H-Cl bond is too strong to break homolytically, while I-H bond breaking produces iodine radicals that dimerize to form I2",
+      "only for HBr are both propagation steps exothermic; endothermic for HCl and HI"
+    ],
+    "keywords": [
+      "propagation steps",
+      "exothermic",
+      "H-Cl",
+      "bond",
+      "dimerize",
+      "iodine"
+    ],
+    "explanation": "In the free radical mechanism of addition to alkenes, both propagation steps are exothermic only for HBr. For HCl, the H-Cl bond dissociation energy is very high (step 1 endothermic). For HI, iodine atoms preferentially combine to form I₂ rather than adding to the alkene double bond (step 2 endothermic).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-095",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Benzene undergoes electrophilic substitution reactions much more readily than electrophilic addition reactions.\nReason (R): Electrophilic addition reactions would destroy the extraordinarily stable aromatic sextet of 6 π electrons in the benzene ring.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "Substitution allows benzene to retain its resonance-stabilized aromatic sextet, whereas addition reactions would disrupt the cyclic conjugated pi electron system and destroy its high resonance stabilization energy (150.6 kJ/mol).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-096",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Trichloroacetic acid (CCl₃COOH) is a significantly stronger acid than acetic acid (CH₃COOH).\nReason (R): The strong electron-withdrawing (-I) inductive effect of the three chlorine atoms disperses the negative charge of the carboxylate anion, stabilizing the conjugate base.",
+    "options": [
+      "Both Assertion and Reason are true, and Reason is the correct explanation of Assertion.",
+      "Both Assertion and Reason are true, but Reason is not the correct explanation of Assertion.",
+      "Assertion is true, but Reason is false.",
+      "Assertion is false, but Reason is true."
+    ],
+    "answer": 0,
+    "explanation": "The -I effect of the three chlorine atoms pulls electron density away from the carboxyl group, facilitating the release of H⁺ and stabilizing the resulting CCl₃COO⁻ anion through extensive charge dispersal.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-097",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following pairs of compounds represent functional group isomers? (Select all that apply)",
+    "options": [
+      "Ethanol (CH₃CH₂OH) and Dimethyl ether (CH₃OCH₃)",
+      "Propanal (CH₃CH₂CHO) and Propanone (CH₃COCH₃)",
+      "Pentane and 2-Methylbutane",
+      "But-1-ene and But-2-ene"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Ethanol (alcohol) and dimethyl ether (ether) both have formula C₂H₆O with different functional groups. Propanal (aldehyde) and propanone (ketone) both have formula C₃H₆O with different functional groups. Pentane/2-methylbutane are chain isomers, and but-1-ene/but-2-ene are position isomers.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-098",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following cyclic species are aromatic according to Hückel's (4n + 2) π-electron rule? (Select all that apply)",
+    "options": [
+      "Benzene (6 π electrons)",
+      "Cyclopentadienyl anion (6 π electrons)",
+      "Tropylium cation (cycloheptatrienyl cation, 6 π electrons)",
+      "Cyclooctatetraene (8 π electrons)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Benzene, cyclopentadienyl anion (C₅H₅⁻), and tropylium cation (C₇H₇⁺) are planar, cyclic, fully conjugated systems with 6 π electrons (n = 1), fulfilling Hückel's rule. Cyclooctatetraene has 8 π electrons (4n system) and adopts a non-planar tub shape, making it non-aromatic.",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-099",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Hydrocarbons",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following straight-chain alkanes in increasing order of their boiling points:",
+    "orderedItems": [
+      "Methane (CH₄)",
+      "Ethane (C₂H₆)",
+      "Propane (C₃H₈)",
+      "Butane (C₄H₁₀)"
+    ],
+    "answer": "ordered",
+    "explanation": "As the molecular mass and surface area of straight-chain alkanes increase, the magnitude of intermolecular van der Waals forces increases, leading to a regular rise in boiling points: Methane (-161°C) < Ethane (-88°C) < Propane (-42°C) < Butane (-0.5°C).",
+    "volatile": false
+  },
+  {
+    "id": "c11-chemistry-100",
+    "classNum": 11,
+    "subject": "chemistry",
+    "chapter": "Organic Chemistry: Some Basic Principles and Techniques",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following carbocations in increasing order of their thermodynamic stability:",
+    "orderedItems": [
+      "Methyl cation (⁺CH₃)",
+      "Ethyl cation (CH₃-⁺CH₂)",
+      "Isopropyl cation ((CH₃)₂⁺CH)",
+      "tert-Butyl cation ((CH₃)₃C⁺)"
+    ],
+    "answer": "ordered",
+    "explanation": "Due to increasing number of hyperconjugative structures and cumulative +I inductive effects of alkyl groups, stability increases in the order: Methyl (0 α-H) < Ethyl (3 α-H) < Isopropyl (6 α-H) < tert-Butyl (9 α-H).",
+    "volatile": false
+  }
+]

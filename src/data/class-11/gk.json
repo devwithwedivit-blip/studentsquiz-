@@ -1,0 +1,1978 @@
+[
+  {
+    "id": "c11-gk-001",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which Article of the Indian Constitution guarantees the Right to Constitutional Remedies, empowering citizens to move the Supreme Court directly for the enforcement of Fundamental Rights?",
+    "options": [
+      "Article 32",
+      "Article 226",
+      "Article 19",
+      "Article 14"
+    ],
+    "answer": 0,
+    "explanation": "Article 32 guarantees the Right to Constitutional Remedies, famously described by Dr. B.R. Ambedkar as the 'heart and soul' of the Indian Constitution.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-002",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which three words were inserted into the Preamble of the Indian Constitution by the 42nd Constitutional Amendment Act of 1976?",
+    "options": [
+      "Socialist, Secular, and Integrity",
+      "Sovereign, Socialist, and Democratic",
+      "Liberty, Equality, and Fraternity",
+      "Justice, Secular, and Republic"
+    ],
+    "answer": 0,
+    "explanation": "The 42nd Amendment Act (1976) amended the Preamble to add 'Socialist', 'Secular', and changed 'Unity of the Nation' to 'Unity and Integrity of the Nation'.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-003",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Under the Seventh Schedule of the Indian Constitution, which of the following subjects was transferred from the State List to the Concurrent List by the 42nd Constitutional Amendment Act, 1976?",
+    "options": [
+      "Education",
+      "Police",
+      "Public Health and Sanitation",
+      "Agriculture"
+    ],
+    "answer": 0,
+    "explanation": "The 42nd Amendment transferred five subjects from the State List to Concurrent List: Education, Forests, Weights & Measures, Protection of Wild Animals and Birds, and Administration of Justice.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-004",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In the Indian Constitution, the concept of 'Procedure Established by Law' under Article 21 was borrowed from the constitution of which country?",
+    "options": [
+      "Japan",
+      "United Kingdom",
+      "United States of America",
+      "Ireland"
+    ],
+    "answer": 0,
+    "explanation": "The expression 'Procedure Established by Law' in Article 21 was derived from the Japanese Constitution. (The US Constitution uses 'Due Process of Law').",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-005",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which Schedule of the Constitution of India lists the 22 official languages recognized by the Republic of India?",
+    "options": [
+      "Eighth Schedule",
+      "Seventh Schedule",
+      "Ninth Schedule",
+      "Sixth Schedule"
+    ],
+    "answer": 0,
+    "explanation": "The Eighth Schedule contains the list of 22 officially recognized languages (initially 14, expanded via the 21st, 71st, and 92nd Amendments).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-006",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Medieval and Modern History",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The revolutionary 'Dahsala' system of land revenue assessment was instituted in 1580 CE during the reign of Akbar by which finance minister?",
+    "options": [
+      "Raja Todar Mal",
+      "Raja Man Singh",
+      "Birbal",
+      "Abul Fazl"
+    ],
+    "answer": 0,
+    "explanation": "Raja Todar Mal formulated the Ain-i-Dahsala (ten-year land revenue system), calculating tax based on average produce and prices of the preceding 10 years.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-007",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The historic Kesavananda Bharati vs. State of Kerala (1973) verdict of the Supreme Court of India established that Parliament cannot alter the 'Basic Structure' of the Constitution.",
+    "answer": true,
+    "explanation": "True. The 13-judge constitutional bench ruled by a 7:6 majority that Article 368 does not grant Parliament power to destroy or emasculate the Basic Structure.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-008",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Under Article 368, any constitutional amendment bill that alters federal provisions (such as the election of the President or Seventh Schedule lists) requires ratification by not less than one-half of state legislatures before Presidential assent.",
+    "answer": true,
+    "explanation": "True. Amending entrenched federal provisions requires special majority in each House plus ratification by resolutions passed by at least half of the state legislatures.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-009",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Medieval and Modern History",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "The Vernacular Press Act of 1878, which gagged regional language newspapers in British India, was enacted during the tenure of which Viceroy?",
+    "options": [
+      "Lord Lytton",
+      "Lord Ripon",
+      "Lord Curzon",
+      "Lord Dufferin"
+    ],
+    "answer": 0,
+    "explanation": "Lord Lytton enacted the Vernacular Press Act in 1878 to suppress anti-colonial press criticism. It was later repealed by Lord Ripon in 1882.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-010",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Under the Directive Principles of State Policy in Part IV of the Indian Constitution, the organization of Village Panchayats as units of local self-government is directed by Article ______.",
+    "answer": "40",
+    "acceptedAnswers": [
+      "40",
+      "Article 40"
+    ],
+    "explanation": "Article 40 directs the State to take steps to organize village panchayats and endow them with such powers and authority as may be necessary to function as units of self-government.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-011",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The 73rd Constitutional Amendment Act of 1992 inserted Part IX and the ______ Schedule containing 29 functional matters into the Indian Constitution.",
+    "answer": "Eleventh",
+    "acceptedAnswers": [
+      "Eleventh",
+      "11th",
+      "eleventh",
+      "Eleventh Schedule"
+    ],
+    "explanation": "The 73rd Amendment added the Eleventh Schedule (listing 29 functional items for Panchayati Raj institutions).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-012",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "The First Constitutional Amendment Act, 1951 created the ______ Schedule to insulate agrarian land reform legislations from judicial review on grounds of fundamental rights violations.",
+    "answer": "Ninth",
+    "acceptedAnswers": [
+      "Ninth",
+      "9th",
+      "ninth",
+      "Ninth Schedule"
+    ],
+    "explanation": "The Ninth Schedule was introduced by the 1st Amendment in 1951 along with Article 31B to protect land reform laws from judicial scrutiny.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-013",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following significant Constitutional Articles with their respective subject matters:",
+    "pairs": [
+      [
+        "Article 110",
+        "Definition and provisions for Money Bills"
+      ],
+      [
+        "Article 280",
+        "Establishment of the Finance Commission"
+      ],
+      [
+        "Article 324",
+        "Superintendence of the Election Commission of India"
+      ],
+      [
+        "Article 352",
+        "Proclamation of National Emergency"
+      ]
+    ],
+    "explanation": "Article 110 defines Money Bills; Article 280 governs the Finance Commission; Article 324 empowers the Election Commission; Article 352 details National Emergency.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-014",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many Fundamental Duties are presently incorporated in Article 51A of Part IVA of the Constitution of India?",
+    "answer": 11,
+    "tolerance": 0,
+    "unit": "duties",
+    "explanation": "Originally 10 Fundamental Duties were added by the 42nd Amendment in 1976. The 11th duty was added by the 86th Constitutional Amendment Act in 2002.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-015",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Under Article 356, once a proclamation of President's Rule in a State is approved by both Houses of Parliament, it continues in operation for how many calendar months?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "months",
+    "explanation": "A proclamation of President's Rule, once approved by Parliament, remains valid for 6 months at a time, up to a normal maximum of 3 years with parliamentary extensions.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-016",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Medieval and Modern History",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In which calendar year was the decisive Battle of Talikota (Rakshasi-Tangadi) fought, precipitating the devastating collapse of the Vijayanagara Empire?",
+    "answer": 1565,
+    "tolerance": 0,
+    "unit": "year CE",
+    "explanation": "The Battle of Talikota was fought on 23 January 1565 CE between the Vijayanagara Empire and the combined armies of the Deccan Sultanates.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-017",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the Preamble architectural diagram below. What specific historical date is recorded in the Constitution of India as the day of its formal adoption and enactment by the Constituent Assembly?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Preamble to the Constitution of India</text><rect x=\"40\" y=\"45\" width=\"440\" height=\"35\" fill=\"#eff6ff\" stroke=\"#2563eb\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"260\" y=\"68\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e40af\" text-anchor=\"middle\">Source of Authority: 'We, the People of India'</text><rect x=\"40\" y=\"90\" width=\"440\" height=\"35\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1\" rx=\"4\"/><text x=\"260\" y=\"113\" font-size=\"12\" fill=\"#334155\" text-anchor=\"middle\">Sovereign Socialist Secular Democratic Republic</text><rect x=\"40\" y=\"135\" width=\"440\" height=\"35\" fill=\"#f8fafc\" stroke=\"#475569\" stroke-width=\"1\" rx=\"4\"/><text x=\"260\" y=\"158\" font-size=\"12\" fill=\"#334155\" text-anchor=\"middle\">Objectives: Justice, Liberty, Equality, Fraternity</text><rect x=\"110\" y=\"180\" width=\"300\" height=\"30\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"2\" rx=\"4\"/><text x=\"260\" y=\"200\" font-size=\"13\" font-weight=\"bold\" fill=\"#15803d\" text-anchor=\"middle\">Adopted &amp; Enacted: [? Date]</text></svg>"
+    },
+    "options": [
+      "26 November 1949",
+      "26 January 1950",
+      "15 August 1947",
+      "9 December 1946"
+    ],
+    "answer": 0,
+    "explanation": "The Constitution of India was adopted and enacted by the Constituent Assembly on 26 November 1949 (now celebrated as Constitution Day / Samvidhan Diwas). It came into full force on 26 January 1950.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-018",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the constitutional meaning of the writ of 'Habeas Corpus' and in what scenario is it issued by superior courts?",
+    "sampleAnswer": "Habeas Corpus literally means 'to have the body'; it is issued by courts to order a person holding someone in custody to produce the detainee and show legal justification for their detention.",
+    "acceptedAnswers": [
+      "To produce the body of an unlawfully detained person",
+      "Literally means to have the body, protects against unlawful detention",
+      "Orders release of a person unlawfully detained"
+    ],
+    "keywords": [
+      "have the body",
+      "unlawful detention",
+      "custody",
+      "produce",
+      "illegal detention"
+    ],
+    "explanation": "Habeas Corpus is a prerogative writ safeguarding individual liberty against arbitrary, unlawful arrest and custodial detention.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-019",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "How did the 44th Constitutional Amendment Act, 1978 alter the grounds for proclaiming a National Emergency under Article 352?",
+    "sampleAnswer": "It substituted the vague term 'internal disturbance' with 'armed rebellion' and mandated written advice from the Union Cabinet before the President can proclaim an emergency.",
+    "acceptedAnswers": [
+      "Replaced internal disturbance with armed rebellion and required written Cabinet recommendation",
+      "Substituted armed rebellion for internal disturbance",
+      "Armed rebellion replaced internal disturbance"
+    ],
+    "keywords": [
+      "armed rebellion",
+      "internal disturbance",
+      "written advice",
+      "Cabinet"
+    ],
+    "explanation": "To prevent political abuse witnessed during the 1975 Emergency, the 44th Amendment replaced 'internal disturbance' with 'armed rebellion' and required written Cabinet approval.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-020",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): The Anti-Defection Law was incorporated into the Constitution of India via the Tenth Schedule by the 52nd Constitutional Amendment Act of 1985.\nReason (R): It disqualifies elected legislators on grounds of defection if they voluntarily give up party membership or vote contrary to party whip directions.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The 52nd Amendment of 1985 added the 10th Schedule specifically to deter political floor-crossing by providing for disqualification on voluntary resignation or defying party whips.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-021",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): The Preamble is an integral part of the Constitution and can be amended under Article 368.\nReason (R): The Supreme Court in the Kesavananda Bharati case (1973) overruled the earlier Berubari Union opinion (1960) and held that the Preamble can be amended without destroying the Basic Structure.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Kesavananda Bharati affirmed that the Preamble is part of the Constitution and amendable under Article 368 subject to the basic structure limitation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-022",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are recognized prerogative writs that the Supreme Court of India is empowered to issue under Article 32? (Select all that apply)",
+    "options": [
+      "Mandamus",
+      "Quo-Warranto",
+      "Certiorari",
+      "Subpoena Ad Testificandum"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The 5 constitutional writs under Articles 32 and 226 are Habeas Corpus, Mandamus, Prohibition, Certiorari, and Quo-Warranto. Subpoena is an ordinary court summons, not a constitutional writ.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-023",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following provisions were instituted by the landmark 86th Constitutional Amendment Act, 2002? (Select all that apply)",
+    "options": [
+      "Inserted Article 21A making free and compulsory education a Fundamental Right for children aged 6 to 14 years.",
+      "Substituted Article 45 to direct early childhood care and education below age six.",
+      "Added Fundamental Duty clause (k) to Article 51A requiring parents/guardians to provide educational opportunities.",
+      "Abolished the legislative council in union territories."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The 86th Amendment Act (2002) amended three parts: added Article 21A (Fundamental Right), amended Article 45 (DPSP), and added duty 51A(k) (Fundamental Duty).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-024",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Medieval and Modern History",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following watershed mass movements led by Mahatma Gandhi in chronological order:",
+    "orderedItems": [
+      "Champaran Satyagraha (1917)",
+      "Non-Cooperation Movement (1920)",
+      "Dandi March and Civil Disobedience Movement (1930)",
+      "Quit India Movement (1942)"
+    ],
+    "answer": "ordered",
+    "explanation": "Chronological order: Champaran Satyagraha (1917) -> Non-Cooperation Movement (1920) -> Dandi March / Civil Disobedience (1930) -> Quit India Movement (1942).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-025",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Medieval and Modern History",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the ruling dynasties of the Delhi Sultanate in exact chronological order of their governance:",
+    "orderedItems": [
+      "Mamluk / Slave Dynasty (1206–1290 CE)",
+      "Khalji Dynasty (1290–1320 CE)",
+      "Tughlaq Dynasty (1320–1414 CE)",
+      "Sayyid Dynasty (1414–1451 CE)",
+      "Lodi Dynasty (1451–1526 CE)"
+    ],
+    "answer": "ordered",
+    "explanation": "The Delhi Sultanate dynasties ruled in this sequence: Mamluk (1206-1290) -> Khalji (1290-1320) -> Tughlaq (1320-1414) -> Sayyid (1414-1451) -> Lodi (1451-1526).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-026",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which major soil type in India, formed by the weathering of basaltic lava in the Deccan plateau, is known as 'Regur soil' and is well-suited for cotton cultivation?",
+    "options": [
+      "Black Soil",
+      "Laterite Soil",
+      "Red and Yellow Soil",
+      "Alluvial Soil"
+    ],
+    "answer": 0,
+    "explanation": "Black soil (Regur) is derived from basaltic lava in Maharashtra, Gujarat, and Madhya Pradesh. Its high clay content and moisture retention make it ideal for cotton.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-027",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The abrupt onset and 'burst' of the Southwest Monsoon over the Indian subcontinent is meteorologically linked with the sudden northward withdrawal of which upper tropospheric wind stream?",
+    "options": [
+      "Subtropical Westerly Jet Stream",
+      "Polar Easterly Jet Stream",
+      "Tropical Easterly Jet Stream",
+      "Somali Low-Level Jet"
+    ],
+    "answer": 0,
+    "explanation": "The sudden northward shift of the Subtropical Westerly Jet Stream from south of the Himalayas to north of the Tibetan plateau facilitates the onset of the monsoon.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-028",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "The Baglihar and Salal run-of-the-river hydroelectric power projects are engineered across which major Himalayan river in Jammu and Kashmir?",
+    "options": [
+      "Chenab River",
+      "Jhelum River",
+      "Ravi River",
+      "Beas River"
+    ],
+    "answer": 0,
+    "explanation": "Both Baglihar (Ramban district) and Salal (Reasi district) hydroelectric projects are constructed on the Chenab River under the Indus Waters Treaty framework.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-029",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Economy: Banking, Markets and Fiscal Policy",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which statutory regulatory authority was established under an Act of Parliament in 1992 to protect investors and regulate the securities market in India?",
+    "options": [
+      "Securities and Exchange Board of India (SEBI)",
+      "Reserve Bank of India (RBI)",
+      "Insolvency and Bankruptcy Board of India (IBBI)",
+      "Competition Commission of India (CCI)"
+    ],
+    "answer": 0,
+    "explanation": "SEBI was given statutory powers under the SEBI Act, 1992 to regulate stock exchanges, mutual funds, and protect the interests of investors in securities.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-030",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Economy: Banking, Markets and Fiscal Policy",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is meant by the 'Cash Reserve Ratio' (CRR) prescribed by the Reserve Bank of India?",
+    "options": [
+      "The percentage of Net Demand and Time Liabilities (NDTL) that commercial banks must maintain in liquid cash with the RBI",
+      "The percentage of deposits that banks must invest in approved government securities",
+      "The rate at which the RBI lends money to commercial banks against collateral",
+      "The maximum interest rate that banks can offer on fixed deposits"
+    ],
+    "answer": 0,
+    "explanation": "CRR is the mandatory fraction of total Net Demand and Time Liabilities (NDTL) that scheduled commercial banks are legally required to keep as unencumbered cash with the RBI.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-031",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Economy: Banking, Markets and Fiscal Policy",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In national income accounting, which macroeconomic component bridges the conceptual gap between Gross Domestic Product (GDP) and Gross National Product (GNP)?",
+    "options": [
+      "Net Factor Income from Abroad (NFIA)",
+      "Net Indirect Taxes (NIT)",
+      "Depreciation (Consumption of Fixed Capital)",
+      "Gross Capital Formation"
+    ],
+    "answer": 0,
+    "explanation": "GNP = GDP + Net Factor Income from Abroad (NFIA). NFIA accounts for income earned by domestic factors of production abroad minus factor income earned by foreigners domestically.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-032",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The Tropic of Cancer (23°30' N latitude) passes through exactly eight Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.",
+    "answer": true,
+    "explanation": "True. The Tropic of Cancer bisects India across these eight contiguous states from west to east.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-033",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Economy: Banking, Markets and Fiscal Policy",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The Repo Rate is the interest rate at which commercial banks borrow short-term funds from the Reserve Bank of India by pledging government securities.",
+    "answer": true,
+    "explanation": "True. Under the Liquidity Adjustment Facility (LAF), Repo (Repurchase Agreement) Rate is the policy lending rate of the central bank to commercial banks.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-034",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "truefalse",
+    "difficulty": "hard",
+    "question": "Karewas are lacustrine (lake-bed) silt and clay deposits found on the slopes of the Pir Panjal in the Kashmir Valley, renowned for saffron (Zafran) cultivation.",
+    "answer": true,
+    "explanation": "True. Karewas are thick Pleistocene lacustrine terraces in Kashmir valley, especially famous for growing high-grade Zafran.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-035",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The Standard Meridian of India, passing through Mirzapur near Prayagraj in Uttar Pradesh, is located at ______°30' East longitude.",
+    "answer": "82",
+    "acceptedAnswers": [
+      "82",
+      "82.5",
+      "82°30'"
+    ],
+    "explanation": "82°30' E longitude is taken as the Standard Meridian of India, exactly 5 hours and 30 minutes ahead of Greenwich Mean Time (UTC+05:30).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-036",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Economy: Banking, Markets and Fiscal Policy",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The six-member committee constituted under the RBI Act, 1934 that meets at least four times a year to fix the benchmark repo rate is the ______ Policy Committee.",
+    "answer": "Monetary",
+    "acceptedAnswers": [
+      "Monetary",
+      "monetary",
+      "Monetary Policy Committee",
+      "MPC"
+    ],
+    "explanation": "The Monetary Policy Committee (MPC) consists of 3 members from RBI and 3 external government-appointed experts, chaired by the RBI Governor.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-037",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following major multipurpose dam projects with the rivers on which they are built:",
+    "pairs": [
+      [
+        "Bhakra Nangal Dam",
+        "Sutlej River"
+      ],
+      [
+        "Hirakud Dam",
+        "Mahanadi River"
+      ],
+      [
+        "Sardar Sarovar Dam",
+        "Narmada River"
+      ],
+      [
+        "Tehri Dam",
+        "Bhagirathi River"
+      ]
+    ],
+    "explanation": "Bhakra Nangal is on the Sutlej; Hirakud is on the Mahanadi; Sardar Sarovar is on the Narmada; Tehri is on the Bhagirathi.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-038",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Economy: Banking, Markets and Fiscal Policy",
+    "type": "match",
+    "difficulty": "hard",
+    "question": "Match the following economic inflation terms with their exact macroeconomic definitions:",
+    "pairs": [
+      [
+        "Demand-Pull Inflation",
+        "Prices rise when aggregate demand exceeds aggregate productive capacity"
+      ],
+      [
+        "Cost-Push Inflation",
+        "Prices rise due to supply-side increases in raw material and wage costs"
+      ],
+      [
+        "Headline Inflation",
+        "Comprehensive inflation measure based on consumer basket including volatile food and fuel"
+      ],
+      [
+        "Core Inflation",
+        "Underlying inflation measure that excludes volatile food and fuel components"
+      ]
+    ],
+    "explanation": "Demand-Pull is driven by excess demand; Cost-Push by input cost shocks; Headline includes all goods; Core excludes volatile food and fuel prices.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-039",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "By exactly how many total minutes is Indian Standard Time (IST) ahead of Coordinated Universal Time (UTC/GMT)?",
+    "answer": 330,
+    "tolerance": 0,
+    "unit": "minutes",
+    "explanation": "IST is UTC+05:30. 5 hours and 30 minutes = (5 × 60) + 30 = 330 minutes ahead of UTC.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-040",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Economy: Banking, Markets and Fiscal Policy",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Under the medium-term fiscal consolidation glide path recommended by the 15th Finance Commission, what target percentage of GDP was recommended for the Union Fiscal Deficit to reach by FY 2025–26?",
+    "answer": 4.5,
+    "tolerance": 0.1,
+    "unit": "percent",
+    "explanation": "The Union Government's fiscal consolidation roadmap set a target to bring the fiscal deficit below 4.5% of GDP by FY 2025–26.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-041",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the vertical soil profile horizon diagram below. Which master horizon represents the humus-rich topsoil layer where biological activity and plant rooting are concentrated?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Vertical Soil Profile Horizons</text><rect x=\"60\" y=\"45\" width=\"400\" height=\"30\" fill=\"#365314\" stroke=\"#1a2e05\"/><text x=\"260\" y=\"65\" font-size=\"12\" font-weight=\"bold\" fill=\"#ffffff\" text-anchor=\"middle\">O Horizon: Organic litter / decomposing debris</text><rect x=\"60\" y=\"75\" width=\"400\" height=\"40\" fill=\"#78350f\" stroke=\"#451a03\"/><text x=\"260\" y=\"100\" font-size=\"13\" font-weight=\"bold\" fill=\"#fef3c7\" text-anchor=\"middle\">A Horizon: Topsoil (Humus &amp; Root Zone)</text><rect x=\"60\" y=\"115\" width=\"400\" height=\"35\" fill=\"#b45309\" stroke=\"#78350f\"/><text x=\"260\" y=\"137\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">B Horizon: Subsoil (Mineral accumulation / Clay)</text><rect x=\"60\" y=\"150\" width=\"400\" height=\"30\" fill=\"#78716c\" stroke=\"#44403c\"/><text x=\"260\" y=\"170\" font-size=\"12\" fill=\"#ffffff\" text-anchor=\"middle\">C Horizon: Partially weathered parent material</text><rect x=\"60\" y=\"180\" width=\"400\" height=\"25\" fill=\"#44403c\" stroke=\"#1c1917\"/><text x=\"260\" y=\"197\" font-size=\"11\" fill=\"#ffffff\" text-anchor=\"middle\">R Horizon: Unweathered hard bedrock</text></svg>"
+    },
+    "options": [
+      "A Horizon",
+      "B Horizon",
+      "C Horizon",
+      "R Horizon"
+    ],
+    "answer": 0,
+    "explanation": "The A Horizon (Topsoil) is rich in organic matter and decomposed humus, supporting microbial life, seed germination, and plant root systems.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-042",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Economy: Banking, Markets and Fiscal Policy",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Trace the Reserve Bank of India monetary policy transmission flowchart below. When the Central Bank increases the benchmark Repo Rate, what is the immediate expected effect on commercial lending and market demand?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Monetary Policy Rate Hike Transmission</text><rect x=\"30\" y=\"55\" width=\"120\" height=\"45\" fill=\"#fee2e2\" stroke=\"#dc2626\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"90\" y=\"82\" font-size=\"12\" font-weight=\"bold\" fill=\"#991b1b\" text-anchor=\"middle\">RBI Hikes Repo Rate</text><line x=\"150\" y=\"77\" x=\"190\" y=\"77\" stroke=\"#dc2626\" stroke-width=\"2\"/><polygon points=\"190,77 182,72 182,82\" fill=\"#dc2626\"/><rect x=\"190\" y=\"55\" width=\"130\" height=\"45\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"255\" y=\"75\" font-size=\"11\" font-weight=\"bold\" fill=\"#92400e\" text-anchor=\"middle\">Bank Cost of Funds</text><text x=\"255\" y=\"92\" font-size=\"11\" fill=\"#92400e\" text-anchor=\"middle\">Increases</text><line x=\"320\" y=\"77\" x=\"360\" y=\"77\" stroke=\"#dc2626\" stroke-width=\"2\"/><polygon points=\"360,77 352,72 352,82\" fill=\"#dc2626\"/><rect x=\"360\" y=\"55\" width=\"130\" height=\"45\" fill=\"#e0e7ff\" stroke=\"#4338ca\" stroke-width=\"1.5\" rx=\"4\"/><text x=\"425\" y=\"75\" font-size=\"11\" font-weight=\"bold\" fill=\"#3730a3\" text-anchor=\"middle\">Lending Rates Rise</text><text x=\"425\" y=\"92\" font-size=\"11\" fill=\"#3730a3\" text-anchor=\"middle\">Loans become costlier</text><line x=\"425\" y=\"100\" x=\"425\" y=\"135\" stroke=\"#4338ca\" stroke-width=\"2\"/><polygon points=\"425,135 420,127 430,127\" fill=\"#4338ca\"/><rect x=\"140\" y=\"135\" width=\"240\" height=\"40\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"2\" rx=\"6\"/><text x=\"260\" y=\"160\" font-size=\"13\" font-weight=\"bold\" fill=\"#15803d\" text-anchor=\"middle\">Borrowing Moderates &amp; Inflation Cools</text></svg>"
+    },
+    "options": [
+      "Commercial borrowing becomes costlier, cooling consumer demand and inflation",
+      "Bank loans become cheaper, increasing consumer spending",
+      "Cash reserve requirements drop to zero",
+      "Government tax receipts automatically double"
+    ],
+    "answer": 0,
+    "explanation": "A repo rate hike raises the cost of funds for banks, which pass on higher loan rates to consumers, reducing credit expansion and cooling inflation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-043",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the geological origin and agricultural importance of Alluvial soils in northern India?",
+    "sampleAnswer": "Alluvial soils are depositional soils brought down and laid down by major Himalayan rivers (Indus, Ganga, Brahmaputra); being rich in potash and humus, they are exceptionally fertile for wheat, rice, and sugarcane.",
+    "acceptedAnswers": [
+      "Deposited by Himalayan river systems and highly fertile for crops",
+      "Formed by river silt deposits and very fertile",
+      "Depositional soil by rivers, rich in nutrients for agriculture"
+    ],
+    "keywords": [
+      "depositional",
+      "rivers",
+      "Ganga",
+      "fertile",
+      "humus",
+      "agriculture"
+    ],
+    "explanation": "Alluvial soil is transported and deposited by fluvial action, covering over 40% of India's land area and forming the agricultural backbone of the northern plains.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-044",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Economy: Banking, Markets and Fiscal Policy",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Explain the difference between Revenue Deficit and Fiscal Deficit in the Union Budget.",
+    "sampleAnswer": "Revenue Deficit is the excess of government revenue expenditure over revenue receipts, whereas Fiscal Deficit represents total expenditure minus total non-debt receipts, measuring total borrowing requirements.",
+    "acceptedAnswers": [
+      "Revenue deficit is revenue expenditure minus revenue receipts; Fiscal deficit is total borrowing requirement",
+      "Revenue deficit measures operational gap, fiscal deficit measures total government borrowing",
+      "Revenue deficit is excess of revenue expenditure; Fiscal deficit is total expenditure minus non-debt receipts"
+    ],
+    "keywords": [
+      "revenue expenditure",
+      "revenue receipts",
+      "fiscal deficit",
+      "borrowing",
+      "total expenditure"
+    ],
+    "explanation": "Revenue Deficit indicates shortfall in routine administrative spending; Fiscal Deficit indicates the aggregate budgetary gap financed through net market borrowings.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-045",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What is the El Niño Southern Oscillation (ENSO) and how does its warm phase typically affect the Indian monsoon?",
+    "sampleAnswer": "El Niño is the periodic warming of equatorial eastern and central Pacific sea-surface temperatures; its warm phase weakens the Walker circulation, typically suppressing Indian monsoon rainfall and causing droughts.",
+    "acceptedAnswers": [
+      "Periodic warming of central/eastern Pacific waters that weakens Indian monsoon rainfall",
+      "Warm ocean current off Peru coast that suppresses monsoon rainfall over India",
+      "Pacific sea surface warming that disrupts atmospheric circulation and causes monsoon deficit"
+    ],
+    "keywords": [
+      "warming",
+      "Pacific Ocean",
+      "monsoon",
+      "weakens",
+      "suppresses",
+      "drought"
+    ],
+    "explanation": "El Niño creates anomalous atmospheric pressure patterns that displace the ascending limb of the Walker circulation, historically correlating with deficient Indian summer monsoons.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-046",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): The western slopes of the Western Ghats receive heavy orographic rainfall exceeding 250 cm, while the Deccan plateau receives significantly lower precipitation.\nReason (R): Moisture-laden Southwest Monsoon winds are forced to rise along the Western Ghats, condensing and shedding rain on the windward side, while the leeward side lies in the dry rain-shadow zone.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Orographic ascent cools moist air on the windward slopes, producing torrential rains. The descending air on the eastern leeward slope warms adiabatically, forming a rain-shadow zone.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-047",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Economy: Banking, Markets and Fiscal Policy",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): When the Reserve Bank of India sells government securities through Open Market Operations (OMO), liquidity in the banking system contracts.\nReason (R): Commercial banks purchase these securities by transferring liquid cash reserves from their accounts to the RBI.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Selling securities drains liquidity because payment for the securities flows from the commercial banks' reserve balances directly into the central bank.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-048",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following prominent peninsular rivers have their source of origin in the Western Ghats mountain range? (Select all that apply)",
+    "options": [
+      "Godavari River",
+      "Krishna River",
+      "Kaveri River",
+      "Ganga River"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Godavari originates at Trimbakeshwar, Krishna near Mahabaleshwar, and Kaveri at Talakaveri—all in the Western Ghats. The Ganga originates in the Gangotri Glacier of the Himalayas.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-049",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Economy: Banking, Markets and Fiscal Policy",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following are quantitative (general) credit control instruments deployed by the Reserve Bank of India? (Select all that apply)",
+    "options": [
+      "Cash Reserve Ratio (CRR)",
+      "Statutory Liquidity Ratio (SLR)",
+      "Repo Rate",
+      "Goods and Services Tax (GST)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "CRR, SLR, and Repo Rate are central banking quantitative monetary instruments. GST is a fiscal indirect tax managed by the GST Council, not a central bank monetary policy tool.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-050",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Indian Geography: Soils, Climate and Resources",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the distinct physiographic belts of the Great Northern Plains in sequence from North to South (from the Shiwalik foothills to the floodplains):",
+    "orderedItems": [
+      "Bhabar (porous pebble belt at foothills where streams disappear)",
+      "Terai (marshy, damp lowland belt where streams re-emerge)",
+      "Bhangar (older alluvial terrace land containing kankar nodules)",
+      "Khadar (fertile, annually renewed new alluvial floodplains)"
+    ],
+    "answer": "ordered",
+    "explanation": "North to South sequence: Bhabar (at the foothills) -> Terai (marshy belt) -> Bhangar (older alluvium) -> Khadar (new active floodplain).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-051",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "International Organisations and Treaties",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Where is the headquarters of the International Tribunal for the Law of the Sea (ITLOS), established under the United Nations Convention on the Law of the Sea (UNCLOS), located?",
+    "options": [
+      "Hamburg, Germany",
+      "Geneva, Switzerland",
+      "The Hague, Netherlands",
+      "London, United Kingdom"
+    ],
+    "answer": 0,
+    "explanation": "The International Tribunal for the Law of the Sea (ITLOS) has its seat in Hamburg, Germany, as specified under Annex VI of UNCLOS.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-052",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Science and Technology Milestones",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In which year did India launch its maiden lunar probe, Chandrayaan-1, which subsequently confirmed the discovery of water molecules (hydroxyl/H2O) on the lunar surface?",
+    "options": [
+      "2008",
+      "2010",
+      "2006",
+      "2013"
+    ],
+    "answer": 0,
+    "explanation": "Chandrayaan-1 was launched by ISRO aboard PSLV-C11 on 22 October 2008, carrying NASA's Moon Mineralogy Mapper (M3) and the Indian Moon Impact Probe.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-053",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Environment and Ecological Conventions",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "The landmark Kigali Amendment (2016) to the Montreal Protocol legally mandates the phased global reduction of which category of potent greenhouse gases?",
+    "options": [
+      "Hydrofluorocarbons (HFCs)",
+      "Chlorofluorocarbons (CFCs)",
+      "Sulfur Hexafluoride (SF6)",
+      "Perfluorocarbons (PFCs)"
+    ],
+    "answer": 0,
+    "explanation": "The Kigali Amendment commits countries to phase down hydrofluorocarbons (HFCs), which replaced ozone-depleting substances but act as potent greenhouse gases.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-054",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "International Organisations and Treaties",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The landmark Treaty on the Non-Proliferation of Nuclear Weapons (NPT), aimed at preventing the spread of nuclear weapons and promoting peaceful nuclear energy, entered into force in which year?",
+    "options": [
+      "1970",
+      "1968",
+      "1975",
+      "1998"
+    ],
+    "answer": 0,
+    "explanation": "The NPT opened for signature in 1968 and entered into force in 1970. (India has refused to join, regarding it as discriminatory towards non-nuclear-weapon states).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-055",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Environment and Ecological Conventions",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "On which calendar date is World Environment Day commemorated worldwide under the leadership of the United Nations Environment Programme (UNEP)?",
+    "options": [
+      "June 5",
+      "April 22",
+      "March 21",
+      "September 16"
+    ],
+    "answer": 0,
+    "explanation": "World Environment Day is observed annually on 5 June, commemorating the opening day of the 1972 Stockholm Conference on the Human Environment.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-056",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Science and Technology Milestones",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "What is the name of India's third-generation, fire-and-forget Anti-Tank Guided Missile (ATGM) developed indigenously by DRDO, equipped with an imaging infrared seeker?",
+    "options": [
+      "Nag",
+      "Akash",
+      "Trishul",
+      "Prithvi"
+    ],
+    "answer": 0,
+    "explanation": "Nag is an indigenous third-generation all-weather, fire-and-forget anti-tank guided missile with a top-attack capability.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-057",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Environment and Ecological Conventions",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The Ramsar Convention (1971), signed in the Iranian city of Ramsar, is an intergovernmental treaty dedicated specifically to the conservation and sustainable use of wetlands.",
+    "answer": true,
+    "explanation": "True. The Ramsar Convention provides the framework for national action and international cooperation for the conservation of wetlands of international importance.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-058",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "International Organisations and Treaties",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "India has signed and ratified the Comprehensive Nuclear-Test-Ban Treaty (CTBT) adopted by the UN General Assembly in 1996.",
+    "answer": false,
+    "explanation": "False. India has maintained that the CTBT is unequal and discriminatory, and has neither signed nor ratified the treaty.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-059",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Environment and Ecological Conventions",
+    "type": "truefalse",
+    "difficulty": "hard",
+    "question": "The Minamata Convention on Mercury is an international environmental treaty designed to protect human health and the environment from anthropogenic emissions and releases of mercury and its compounds.",
+    "answer": true,
+    "explanation": "True. Named after the Japanese city that suffered severe methylmercury poisoning, the convention entered into force in 2017.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-060",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "International Organisations and Treaties",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The specialized United Nations agency directing and coordinating international public health, headquartered in Geneva, Switzerland, is the ______ Health Organization.",
+    "answer": "World",
+    "acceptedAnswers": [
+      "World",
+      "WHO"
+    ],
+    "explanation": "The World Health Organization (WHO) was established on 7 April 1948 (celebrated as World Health Day) with headquarters in Geneva.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-061",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Science and Technology Milestones",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In March 2019, DRDO successfully demonstrated India's Anti-Satellite (ASAT) missile capability by destroying a live orbiting satellite under the codename Mission ______.",
+    "answer": "Shakti",
+    "acceptedAnswers": [
+      "Shakti",
+      "shakti",
+      "Mission Shakti"
+    ],
+    "explanation": "Mission Shakti was the code name for India's successful kinetic anti-satellite missile test conducted at the Dr. APJ Abdul Kalam Island on 27 March 2019.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-062",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Environment and Ecological Conventions",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following major international environmental treaties with their core mandate:",
+    "pairs": [
+      [
+        "Montreal Protocol",
+        "Phasing out ozone-depleting chlorofluorocarbons"
+      ],
+      [
+        "Basel Convention",
+        "Controlling transboundary movements of hazardous wastes"
+      ],
+      [
+        "Stockholm Convention",
+        "Eliminating persistent organic pollutants (POPs)"
+      ],
+      [
+        "CITES",
+        "Regulating international trade in endangered wild species"
+      ]
+    ],
+    "explanation": "Montreal targets ozone; Basel regulates hazardous toxic waste transport; Stockholm restricts POPs; CITES regulates endangered species wildlife trade.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-063",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "International Organisations and Treaties",
+    "type": "match",
+    "difficulty": "hard",
+    "question": "Match the following international agencies with their headquarter cities:",
+    "pairs": [
+      [
+        "IAEA",
+        "Vienna, Austria"
+      ],
+      [
+        "UNESCO",
+        "Paris, France"
+      ],
+      [
+        "IMO",
+        "London, United Kingdom"
+      ],
+      [
+        "FAO",
+        "Rome, Italy"
+      ]
+    ],
+    "explanation": "IAEA is in Vienna; UNESCO in Paris; IMO in London; Food and Agriculture Organization (FAO) in Rome.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-064",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Science and Technology Milestones",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "In which calendar year did India conduct its first peaceful underground nuclear detonation, codenamed 'Smiling Buddha', at Pokhran, Rajasthan?",
+    "answer": 1974,
+    "tolerance": 0,
+    "unit": "year CE",
+    "explanation": "Operation Smiling Buddha was conducted on 18 May 1974 at the Pokhran Test Range under Prime Minister Indira Gandhi.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-065",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "International Organisations and Treaties",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "How many permanent member nations (P5) hold veto power in the United Nations Security Council (UNSC)?",
+    "answer": 5,
+    "tolerance": 0,
+    "unit": "countries",
+    "explanation": "The 5 permanent members holding veto powers are China, France, the Russian Federation, the United Kingdom, and the United States.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-066",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Environment and Ecological Conventions",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Observe the atmospheric greenhouse mechanism diagram below. Which gas is the single largest anthropogenic greenhouse gas driver of post-industrial global climate change?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Atmospheric Greenhouse Gas Trapping Mechanism</text><circle cx=\"60\" cy=\"60\" r=\"25\" fill=\"#f59e0b\"/><text x=\"60\" y=\"65\" font-size=\"11\" font-weight=\"bold\" fill=\"#ffffff\" text-anchor=\"middle\">SUN</text><line x=\"85\" y=\"70\" x=\"190\" y=\"140\" stroke=\"#eab308\" stroke-width=\"2.5\"/><text x=\"115\" y=\"95\" font-size=\"11\" fill=\"#b45309\">Solar radiation</text><rect x=\"40\" y=\"160\" width=\"440\" height=\"35\" fill=\"#15803d\" rx=\"4\"/><text x=\"260\" y=\"182\" font-size=\"13\" font-weight=\"bold\" fill=\"#ffffff\" text-anchor=\"middle\">Earth's Surface (absorbs heat &amp; re-emits Infrared)</text><rect x=\"180\" y=\"70\" width=\"280\" height=\"60\" fill=\"#fee2e2\" stroke=\"#dc2626\" stroke-width=\"1.5\" rx=\"6\"/><text x=\"320\" y=\"92\" font-size=\"12\" font-weight=\"bold\" fill=\"#991b1b\" text-anchor=\"middle\">Greenhouse Gas Blanket</text><text x=\"320\" y=\"112\" font-size=\"11\" fill=\"#b91c1c\" text-anchor=\"middle\">Traps outgoing longwave thermal IR</text><line x=\"260\" y=\"160\" x=\"260\" y=\"130\" stroke=\"#dc2626\" stroke-width=\"2\" stroke-dasharray=\"4\"/></svg>"
+    },
+    "options": [
+      "Carbon dioxide (CO2)",
+      "Argon",
+      "Helium",
+      "Nitrogen"
+    ],
+    "answer": 0,
+    "explanation": "Carbon dioxide (CO2), emitted largely by fossil fuel burning and deforestation, accounts for the largest fraction of anthropogenic radiative forcing driving climate change.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-067",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "International Organisations and Treaties",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "Examine the organizational hierarchy diagram of the United Nations principal organs. Which principal organ suspended its operations in 1994 following the independence of Palau, the last UN trust territory?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Principal Organs of the United Nations</text><rect x=\"30\" y=\"50\" width=\"140\" height=\"40\" fill=\"#e0e7ff\" stroke=\"#4338ca\" rx=\"4\"/><text x=\"100\" y=\"75\" font-size=\"12\" fill=\"#3730a3\" text-anchor=\"middle\">General Assembly</text><rect x=\"190\" y=\"50\" width=\"140\" height=\"40\" fill=\"#e0e7ff\" stroke=\"#4338ca\" rx=\"4\"/><text x=\"260\" y=\"75\" font-size=\"12\" fill=\"#3730a3\" text-anchor=\"middle\">Security Council</text><rect x=\"350\" y=\"50\" width=\"140\" height=\"40\" fill=\"#e0e7ff\" stroke=\"#4338ca\" rx=\"4\"/><text x=\"420\" y=\"75\" font-size=\"12\" fill=\"#3730a3\" text-anchor=\"middle\">ECOSOC</text><rect x=\"30\" y=\"110\" width=\"140\" height=\"40\" fill=\"#e0e7ff\" stroke=\"#4338ca\" rx=\"4\"/><text x=\"100\" y=\"135\" font-size=\"12\" fill=\"#3730a3\" text-anchor=\"middle\">Secretariat</text><rect x=\"190\" y=\"110\" width=\"140\" height=\"40\" fill=\"#e0e7ff\" stroke=\"#4338ca\" rx=\"4\"/><text x=\"260\" y=\"135\" font-size=\"12\" fill=\"#3730a3\" text-anchor=\"middle\">ICJ (The Hague)</text><rect x=\"350\" y=\"110\" width=\"140\" height=\"40\" fill=\"#fee2e2\" stroke=\"#dc2626\" stroke-width=\"2\" rx=\"4\"/><text x=\"420\" y=\"128\" font-size=\"11\" font-weight=\"bold\" fill=\"#991b1b\" text-anchor=\"middle\">Trusteeship Council</text><text x=\"420\" y=\"143\" font-size=\"10\" fill=\"#dc2626\" text-anchor=\"middle\">[Suspended 1994]</text></svg>"
+    },
+    "options": [
+      "Trusteeship Council",
+      "Economic and Social Council (ECOSOC)",
+      "International Court of Justice",
+      "Secretariat"
+    ],
+    "answer": 0,
+    "explanation": "The Trusteeship Council suspended formal operations on 1 November 1994 after Palau, the last remaining United Nations trust territory, achieved sovereignty.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-068",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Environment and Ecological Conventions",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the primary role of the Intergovernmental Panel on Climate Change (IPCC) established by UNEP and WMO?",
+    "sampleAnswer": "The IPCC provides scientific assessments on climate change, its risks, impacts, and future options for adaptation and mitigation, without conducting original research itself.",
+    "acceptedAnswers": [
+      "Provides objective scientific assessments on climate change and risks",
+      "Assesses science related to climate change for policymakers",
+      "Prepares scientific assessment reports on climate change"
+    ],
+    "keywords": [
+      "scientific assessment",
+      "climate change",
+      "policymakers",
+      "risks",
+      "mitigation"
+    ],
+    "explanation": "The IPCC reviews and synthesizes global scientific literature to produce authoritative Assessment Reports for climate policymakers.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-069",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Science and Technology Milestones",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why is the Cryogenic Upper Stage (CUS) propulsion engine technically challenging yet essential for ISRO's GSLV launch vehicles?",
+    "sampleAnswer": "It uses liquid hydrogen fuel at -253°C and liquid oxygen oxidizer at -183°C; this provides high specific impulse indispensable for launching heavy communication satellites into Geostationary Transfer Orbit.",
+    "acceptedAnswers": [
+      "Uses liquid hydrogen and oxygen at extreme cryogenic temperatures to deliver high specific impulse for heavy satellites",
+      "Operates at sub-zero temperatures to provide high thrust efficiency for geostationary payloads",
+      "Provides high specific impulse needed for heavy geostationary orbit launches using cryogenic propellants"
+    ],
+    "keywords": [
+      "liquid hydrogen",
+      "liquid oxygen",
+      "cryogenic",
+      "specific impulse",
+      "GTO",
+      "geostationary"
+    ],
+    "explanation": "Cryogenic propulsion delivers vastly superior specific impulse compared to solid/earth-storable fuels, necessary to inject multi-ton payloads into GTO.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-070",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Environment and Ecological Conventions",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "How did the architecture of the 2015 Paris Agreement fundamentally differ from the 1997 Kyoto Protocol in its approach to emission targets?",
+    "sampleAnswer": "Kyoto imposed top-down, legally binding mitigation targets only on developed countries (Annex I), whereas the Paris Agreement adopted a bottom-up framework where all countries submit voluntary Nationally Determined Contributions (NDCs).",
+    "acceptedAnswers": [
+      "Kyoto had top-down targets for developed nations; Paris uses bottom-up Nationally Determined Contributions for all nations",
+      "Kyoto was top-down for Annex I countries; Paris uses bottom-up voluntary NDCs for all parties",
+      "Kyoto bound only developed nations, Paris includes all countries via NDCs"
+    ],
+    "keywords": [
+      "top-down",
+      "bottom-up",
+      "Nationally Determined Contributions",
+      "NDCs",
+      "Annex I",
+      "developed"
+    ],
+    "explanation": "The Paris Agreement shifted the global regime from rigid top-down Annex I mandates (Kyoto) to universal, nationally determined pledges (NDCs) with five-year ratcheting stocktakes.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-071",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Environment and Ecological Conventions",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): The Montreal Protocol (1987) is considered the most successful multilateral environmental agreement in history.\nReason (R): Universal ratification and phased bans on chlorofluorocarbons (CFCs) and halons have led to documented healing of the stratospheric ozone layer.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The Montreal Protocol achieved 100% universal ratification and phased out over 99% of controlled ozone-depleting substances, reversing ozone hole depletion.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-072",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Science and Technology Milestones",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): India's official Nuclear Doctrine enunciates a strict policy of 'No First Use' (NFU).\nReason (R): Under the doctrine, nuclear retaliation against a first strike by an adversary will be massive, punitive, and authorized exclusively by civilian political leadership through the Nuclear Command Authority.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "India committed to 'No First Use' while ensuring credible minimum deterrence backed by a massive punitive second strike under civilian political authority.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-073",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "International Organisations and Treaties",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following nations are members of the G4 alliance, mutually supporting each other's bids for permanent seats on the United Nations Security Council? (Select all that apply)",
+    "options": [
+      "India",
+      "Japan",
+      "Germany",
+      "Australia"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The G4 nations comprise Brazil, Germany, India, and Japan. They mutually support each other's bids for permanent seats on the UN Security Council. Australia is not a member of the G4.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-074",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Environment and Ecological Conventions",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following multilateral conventions were opened for signature at the 1992 United Nations Conference on Environment and Development (Earth Summit) in Rio de Janeiro? (Select all that apply)",
+    "options": [
+      "United Nations Framework Convention on Climate Change (UNFCCC)",
+      "Convention on Biological Diversity (CBD)",
+      "United Nations Convention to Combat Desertification (UNCCD)",
+      "Kyoto Protocol"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The three Rio Conventions born from the 1992 Earth Summit are UNFCCC, CBD, and UNCCD. The Kyoto Protocol was adopted five years later in 1997.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-075",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Science and Technology Milestones",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following historic milestones achieved by the Indian Space Research Organisation (ISRO) in chronological order:",
+    "orderedItems": [
+      "Launch of India's first satellite Aryabhata (1975)",
+      "Chandrayaan-1 lunar orbiter mission (2008)",
+      "Mars Orbiter Mission / Mangalyaan (2013)",
+      "Chandrayaan-3 successful landing near the lunar south pole (2023)"
+    ],
+    "answer": "ordered",
+    "explanation": "Chronological progression: Aryabhata (1975) -> Chandrayaan-1 (2008) -> Mars Orbiter Mission (2013) -> Chandrayaan-3 landing (2023).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-076",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Who was the first Indian and first Asian to be conferred the Nobel Prize in Literature in 1913 for the poetic collection 'Gitanjali'?",
+    "options": [
+      "Rabindranath Tagore",
+      "Sri Aurobindo",
+      "Sarojini Naidu",
+      "Bankim Chandra Chatterjee"
+    ],
+    "answer": 0,
+    "explanation": "Rabindranath Tagore was awarded the 1913 Nobel Prize in Literature 'because of his profoundly sensitive, fresh and beautiful verse' in Gitanjali.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-077",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In which year was India's highest civilian honour, the Bharat Ratna, instituted, and who was among its three inaugural recipients?",
+    "options": [
+      "1954; Dr. Sarvepalli Radhakrishnan",
+      "1950; Jawaharlal Nehru",
+      "1952; Dr. Rajendra Prasad",
+      "1956; Dr. B.R. Ambedkar"
+    ],
+    "answer": 0,
+    "explanation": "The Bharat Ratna was instituted on 2 January 1954. Its first three recipients were C. Rajagopalachari, Dr. Sarvepalli Radhakrishnan, and Dr. C.V. Raman.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-078",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Medieval and Modern History",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "The autobiographical memoir 'Tuzuk-i-Baburi' (Baburnama), detailing the geography, flora, and fauna of Hindustan, was originally penned by Babur in which language?",
+    "options": [
+      "Chagatai Turkic",
+      "Persian",
+      "Arabic",
+      "Urdu"
+    ],
+    "answer": 0,
+    "explanation": "Babur composed his autobiography in his native mother tongue, Chagatai Turkic. It was later translated into Persian as Baburnama during Akbar's reign by Abdur Rahim Khan-i-Khanan.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-079",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In which year did the Indian men's cricket team win its maiden ICC Cricket World Cup at Lord's Cricket Ground under the captaincy of Kapil Dev?",
+    "options": [
+      "1983",
+      "1975",
+      "1987",
+      "2011"
+    ],
+    "answer": 0,
+    "explanation": "India defeated the two-time defending champions West Indies by 43 runs in the final at Lord's on 25 June 1983.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-080",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Major Dhyan Chand, celebrated as the 'Wizard of Hockey', captained the Indian national team to Olympic gold at the 1936 Olympic Games held in:",
+    "options": [
+      "Berlin",
+      "Amsterdam",
+      "Los Angeles",
+      "London"
+    ],
+    "answer": 0,
+    "explanation": "Dhyan Chand played in three Olympic gold-winning campaigns (1928 Amsterdam, 1932 Los Angeles) and served as team captain in the 1936 Berlin Olympics.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-081",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "The foundational ancient Indian treatise on statecraft, political strategy, espionage, and economic state administration, the 'Arthashastra', is attributed to:",
+    "options": [
+      "Kautilya (Chanakya)",
+      "Megasthenes",
+      "Banabhatta",
+      "Harisena"
+    ],
+    "answer": 0,
+    "explanation": "The Arthashastra was authored by Kautilya (also known as Chanakya or Vishnugupta), the prime minister and mentor of Chandragupta Maurya.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-082",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The first recipient of the Param Vir Chakra, India's highest wartime military decoration, was Major Somnath Sharma of the Kumaon Regiment posthumously for bravery in the 1947 Battle of Badgam.",
+    "answer": true,
+    "explanation": "True. Major Somnath Sharma was awarded India's first Param Vir Chakra posthumously for supreme sacrifice defending Srinagar airport in November 1947.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-083",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The Dadasaheb Phalke Award, India's highest official recognition in the field of cinema, was first presented in 1969 to actress Devika Rani.",
+    "answer": true,
+    "explanation": "True. Devika Rani, widely known as the 'First Lady of Indian Cinema', was the inaugural recipient of the Dadasaheb Phalke Award in 1969.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-084",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "India's highest national sporting honor, instituted in 1991–92, was officially renamed in August 2021 as the Major ______ Khel Ratna Award.",
+    "answer": "Dhyan Chand",
+    "acceptedAnswers": [
+      "Dhyan Chand",
+      "dhyan chand",
+      "Major Dhyan Chand"
+    ],
+    "explanation": "In 2021, the Rajiv Gandhi Khel Ratna Award was renamed the Major Dhyan Chand Khel Ratna Award in honor of hockey legend Major Dhyan Chand.",
+    "marks": 1,
+    "volatile": true
+  },
+  {
+    "id": "c11-gk-085",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The classical Sanskrit treatise on performing arts, dramaturgy, dance, and aesthetic 'Rasa' theory is the Natyashastra, attributed to the ancient sage ______.",
+    "answer": "Bharata",
+    "acceptedAnswers": [
+      "Bharata",
+      "Bharata Muni",
+      "bharata"
+    ],
+    "explanation": "The Natyashastra, authored by Bharata Muni, is the foundational ancient text on classical Indian dramaturgy, music, and aesthetic theory.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-086",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "Karnam Malleswari made history as the first Indian woman to win an Olympic medal when she secured a weightlifting bronze at the ______ Olympic Games in the year 2000.",
+    "answer": "Sydney",
+    "acceptedAnswers": [
+      "Sydney",
+      "sydney"
+    ],
+    "explanation": "At the 2000 Sydney Olympics, weightlifter Karnam Malleswari won bronze in the 69 kg category, becoming India's first female Olympic medalist.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-087",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the following Indian or Indian-origin Nobel laureates with their respective prize categories:",
+    "pairs": [
+      [
+        "C.V. Raman (1930)",
+        "Physics"
+      ],
+      [
+        "Har Gobind Khorana (1968)",
+        "Physiology or Medicine"
+      ],
+      [
+        "Mother Teresa (1979)",
+        "Peace"
+      ],
+      [
+        "Amartya Sen (1998)",
+        "Economic Sciences"
+      ]
+    ],
+    "explanation": "C.V. Raman won in Physics; Har Gobind Khorana in Medicine; Mother Teresa in Peace; Amartya Sen in Economic Sciences.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-088",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "In which calendar year were the inaugural modern Olympic Games staged in Athens, Greece under the initiative of Pierre de Coubertin?",
+    "answer": 1896,
+    "tolerance": 0,
+    "unit": "year CE",
+    "explanation": "The first modern Olympic Games took place in Athens from 6 to 15 April 1896 at the Panathenaic Stadium.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-089",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In how many distinct disciplines or categories are the Nobel Prizes (including the Sveriges Riksbank Prize in Economic Sciences) annually awarded?",
+    "answer": 6,
+    "tolerance": 0,
+    "unit": "categories",
+    "explanation": "The 6 Nobel Prize categories are: Physics, Chemistry, Physiology or Medicine, Literature, Peace, and Economic Sciences.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-090",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Science and Technology Milestones",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In which calendar year did Sir C.V. Raman discover the inelastic scattering of light (Raman Effect), an achievement celebrated every year on February 28 as National Science Day in India?",
+    "answer": 1928,
+    "tolerance": 0,
+    "unit": "year CE",
+    "explanation": "C.V. Raman discovered the Raman Effect on 28 February 1928, for which he received the 1930 Nobel Prize in Physics.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-091",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the artistic illustration of the Bharat Ratna medallion below. The medal is designed in the shape of the leaf of which revered Indian tree?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"25\" font-size=\"15\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">The Bharat Ratna Medallion Design</text><path d=\"M260,45 C290,70 330,110 330,150 C330,190 295,205 260,205 C225,205 190,190 190,150 C190,110 230,70 260,45 Z\" fill=\"#b45309\" stroke=\"#78350f\" stroke-width=\"2\"/><circle cx=\"260\" cy=\"125\" r=\"20\" fill=\"#fbbf24\" stroke=\"#d97706\"/><text x=\"260\" y=\"130\" font-size=\"11\" font-weight=\"bold\" fill=\"#78350f\" text-anchor=\"middle\">SUN</text><text x=\"260\" y=\"175\" font-size=\"13\" font-weight=\"bold\" fill=\"#fef3c7\" text-anchor=\"middle\">भारत रत्न</text><text x=\"70\" y=\"110\" font-size=\"13\" fill=\"#475569\">Peepal Leaf Shape</text><line x=\"135\" y=\"115\" x=\"210\" y=\"130\" stroke=\"#475569\" stroke-width=\"1.5\"/><text x=\"420\" y=\"110\" font-size=\"13\" fill=\"#475569\">Platinum Sun Rays</text><line x=\"380\" y=\"115\" x=\"300\" y=\"130\" stroke=\"#475569\" stroke-width=\"1.5\"/></svg>"
+    },
+    "options": [
+      "Peepal (Ficus religiosa)",
+      "Banyan (Ficus benghalensis)",
+      "Neem (Azadirachta indica)",
+      "Mango (Mangifera indica)"
+    ],
+    "answer": 0,
+    "explanation": "The Bharat Ratna decoration is cast in toned bronze in the artistic shape of a Peepal (sacred fig) leaf with a sunburst embossed on the obverse.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-092",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the literary standing of the Jnanpith Award in India, and who was its inaugural recipient in 1965?",
+    "sampleAnswer": "The Jnanpith Award is India's highest literary honour presented annually for outstanding contributions to literature; its inaugural recipient in 1965 was Malayalam poet G. Sankara Kurup for 'Odakkuzhal'.",
+    "acceptedAnswers": [
+      "Highest literary honour in India, first won by G. Sankara Kurup in 1965",
+      "India's highest literary award, first awarded to G. Sankara Kurup",
+      "G. Sankara Kurup won the inaugural award for Odakkuzhal"
+    ],
+    "keywords": [
+      "literary honour",
+      "G. Sankara Kurup",
+      "1965",
+      "Malayalam",
+      "Odakkuzhal"
+    ],
+    "explanation": "Instituted in 1961 by Bharatiya Jnanpith, the award honors authors writing in Indian languages and English. G. Sankara Kurup won the first award.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-093",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Name two non-Indian foreign nationals who have been conferred the Bharat Ratna by the Government of India, along with their respective countries.",
+    "sampleAnswer": "Khan Abdul Ghaffar Khan ('Frontier Gandhi') of Pakistan in 1987, and former South African President Nelson Mandela in 1990.",
+    "acceptedAnswers": [
+      "Khan Abdul Ghaffar Khan (Pakistan) and Nelson Mandela (South Africa)",
+      "Nelson Mandela and Khan Abdul Ghaffar Khan",
+      "Frontier Gandhi and Nelson Mandela"
+    ],
+    "keywords": [
+      "Khan Abdul Ghaffar Khan",
+      "Nelson Mandela",
+      "Pakistan",
+      "South Africa"
+    ],
+    "explanation": "Although primarily for Indian citizens, two foreign luminaries have received the Bharat Ratna: Khan Abdul Ghaffar Khan (1987) and Nelson Mandela (1990).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-094",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Science and Technology Milestones",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): National Science Day is celebrated in India every year on February 28.\nReason (R): On February 28, 1928, Sir C.V. Raman publicly announced the breakthrough discovery of the Raman Effect at the Indian Association for the Cultivation of Science, Kolkata.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The Government of India designated 28 February as National Science Day in 1986 to commemorate the landmark discovery of the Raman Effect on that date in 1928.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-095",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Constitution: Articles, Amendments and Schedules",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): National civilian honours like the Bharat Ratna and Padma awards do not violate Article 18(1) of the Indian Constitution which abolishes titles.\nReason (R): In the Balaji Raghavan case (1995), the Supreme Court ruled that state decorations recognize merit and do not constitute hereditary aristocratic titles of nobility, provided they are not used as prefixes or suffixes to names.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The Supreme Court upheld the constitutional validity of National Awards under Article 18, noting they are not 'titles' of nobility prohibited under the Constitution.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-096",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following eminent personalities were conferred the Bharat Ratna during its inaugural year in 1954? (Select all that apply)",
+    "options": [
+      "C. Rajagopalachari",
+      "Dr. Sarvepalli Radhakrishnan",
+      "Dr. C.V. Raman",
+      "Jawaharlal Nehru"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "C. Rajagopalachari, Dr. S. Radhakrishnan, and Dr. C.V. Raman received the first Bharat Ratna in 1954. Jawaharlal Nehru was awarded in 1955.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-097",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following sporting events were part of the ancient Olympic Games held in Olympia, Greece? (Select all that apply)",
+    "options": [
+      "Pankration (ancient martial arts contest)",
+      "Chariot racing",
+      "Discus and Javelin throwing",
+      "Table Tennis"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Pankration, chariot racing, and pentathlon (discus, javelin, long jump, running, wrestling) were core ancient Olympic events. Table Tennis is a modern sport.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-098",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following distinguished recipients of the Bharat Ratna in chronological order of their conferment:",
+    "orderedItems": [
+      "Dr. Sarvepalli Radhakrishnan (1954)",
+      "Mother Teresa (1980)",
+      "Dr. B.R. Ambedkar (1990 posthumously)",
+      "Sachin Tendulkar (2014)"
+    ],
+    "answer": "ordered",
+    "explanation": "Chronological order of conferment: Dr. S. Radhakrishnan (1954) -> Mother Teresa (1980) -> Dr. B.R. Ambedkar (1990) -> Sachin Tendulkar (2014).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-099",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Awards, Literature and Sports History",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the inaugural editions of the following major international and continental multi-sport games in chronological order:",
+    "orderedItems": [
+      "Modern Olympic Games in Athens (1896)",
+      "Commonwealth Games in Hamilton (1930)",
+      "Asian Games in New Delhi (1951)",
+      "National Games of India in modern Olympic format (1985)"
+    ],
+    "answer": "ordered",
+    "explanation": "Chronological order: Modern Olympics (1896) -> Commonwealth Games (1930) -> Asian Games (1951) -> Modern National Games of India (1985).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-gk-100",
+    "class": 11,
+    "subject": "gk",
+    "chapter": "Medieval and Modern History",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following landmark literary and historical texts of ancient and medieval India in chronological order of their composition:",
+    "orderedItems": [
+      "Rigveda (c. 1500–1000 BCE)",
+      "Natyashastra of Bharata Muni (c. 200 BCE – 200 CE)",
+      "Abhigyanashakuntalam of Kalidasa (c. 4th–5th century CE)",
+      "Rajatarangini of Kalhana (1148–1149 CE)",
+      "Ain-i-Akbari of Abul Fazl (late 16th century CE)"
+    ],
+    "answer": "ordered",
+    "explanation": "Chronological order: Rigveda (Vedic era) -> Natyashastra (early classical) -> Abhigyanashakuntalam (Gupta golden age) -> Rajatarangini (12th-century Kashmir history) -> Ain-i-Akbari (Mughal era).",
+    "marks": 2,
+    "volatile": false
+  }
+]

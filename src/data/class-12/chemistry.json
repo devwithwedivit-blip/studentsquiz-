@@ -1,0 +1,1944 @@
+[
+  {
+    "id": "c12-chem-001",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which of the following equimolar aqueous solutions will exhibit the highest boiling point elevation?",
+    "options": [
+      "0.10 m Al2(SO4)3",
+      "0.10 m BaCl2",
+      "0.10 m NaCl",
+      "0.10 m Glucose"
+    ],
+    "answer": 0,
+    "explanation": "Boiling point elevation is a colligative property: Delta T_b = i * K_b * m. For 0.10 m solutions, the elevation is directly proportional to the van 't Hoff factor i. For Al2(SO4)3, i = 5 (2 Al3+ + 3 SO4 2-); for BaCl2, i = 3; for NaCl, i = 2; and for non-electrolyte glucose, i = 1. Therefore, Al2(SO4)3 has the largest boiling point elevation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-002",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Electrochemistry",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Given standard electrode potentials E°(Zn2+/Zn) = -0.76 V and E°(Cu2+/Cu) = +0.34 V, calculate the EMF of the Daniell cell at 298 K when [Zn2+] = 0.10 M and [Cu2+] = 0.010 M. (Use 2.303 RT / F = 0.0591 V)",
+    "options": [
+      "1.070 V",
+      "1.100 V",
+      "1.130 V",
+      "0.980 V"
+    ],
+    "answer": 0,
+    "explanation": "Standard cell potential E°_cell = E°_cathode - E°_anode = +0.34 V - (-0.76 V) = +1.10 V. The cell reaction is Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s) with n = 2. By Nernst equation: E_cell = E°_cell - (0.0591 / 2) * log([Zn2+] / [Cu2+]) = 1.10 - 0.02955 * log(0.10 / 0.010) = 1.10 - 0.02955 * log(10) = 1.10 - 0.02955 = 1.07045 V approx 1.070 V.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-003",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Chemical Kinetics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What are the units of the rate constant k for a first-order chemical reaction?",
+    "options": [
+      "s^-1",
+      "mol L^-1 s^-1",
+      "L mol^-1 s^-1",
+      "L^2 mol^-2 s^-1"
+    ],
+    "answer": 0,
+    "explanation": "For an nth-order reaction, units of rate constant are (mol L^-1)^(1-n) s^-1. For first order (n = 1), (mol L^-1)^0 s^-1 = s^-1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-004",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Why do transition elements exhibit high enthalpies of atomisation and high melting points?",
+    "options": [
+      "Due to strong interatomic metallic bonding involving both (n-1)d and ns electrons",
+      "Due to weak screening effect of completely filled d-orbitals",
+      "Due to large ionic radii and low electronegativity",
+      "Due to inert pair effect preventing s-electrons from participating in bonding"
+    ],
+    "answer": 0,
+    "explanation": "Transition metals have unpaired electrons in their (n-1)d subshell in addition to valence ns electrons. Both participate in strong metallic bonding, resulting in very high enthalpies of atomisation and elevated melting points.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-005",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Coordination Compounds",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the correct IUPAC name for the coordination complex [Co(NH3)5(CO3)]Cl?",
+    "options": [
+      "Pentaamminecarbonatocobalt(III) chloride",
+      "Pentaamminecarbonatocobalt(II) chloride",
+      "Carbonatopentaamminecobalt(III) chloride",
+      "Pentaamminechlorocobalt(III) carbonate"
+    ],
+    "answer": 0,
+    "explanation": "Ligands are named alphabetically: ammine before carbonato. In [Co(NH3)5(CO3)]Cl, NH3 is neutral, CO3 is 2-, and Cl is 1-. Oxidation state of Co: x + 0 + (-2) + (-1) = 0 => x = +3. Hence, Pentaamminecarbonatocobalt(III) chloride.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-006",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Why is an SN1 nucleophilic substitution reaction of an optically active haloalkane (such as (R)-2-bromooctane) accompanied by partial racemisation rather than complete inversion?",
+    "options": [
+      "Because the planar carbocation intermediate can be attacked by nucleophile from either face, but shielding by departing leaving group favours back-side attack",
+      "Because the reaction proceeds exclusively via a concerted pentacoordinate transition state",
+      "Because the front-side attack is energetically preferred over back-side attack",
+      "Because free radicals are formed which rotate rapidly in solution"
+    ],
+    "answer": 0,
+    "explanation": "In an SN1 mechanism, heterolytic cleavage forms a trigonal planar carbocation. The incoming nucleophile can attack either lobe of the vacant p-orbital. However, the leaving group (halide ion) shields the front face initially, resulting in slightly more back-side attack (inversion) alongside front-side attack, giving partial racemisation with net inversion.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-007",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Henry's law states that at a constant temperature, the solubility of a gas in a liquid is directly proportional to the partial pressure of the gas above the surface of the liquid.",
+    "answer": true,
+    "explanation": "Henry's law states p = K_H * x, meaning the partial pressure of gas in vapour phase (p) is directly proportional to the mole fraction of gas (x) dissolved in the solution.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-008",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Biomolecules",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Denaturation of a globular protein by heat or extreme pH disrupts its secondary and tertiary structures but leaves the primary structure (peptide sequence) intact.",
+    "answer": true,
+    "explanation": "Denaturation disrupts weak non-covalent interactions (hydrogen bonds, disulfide bonds, hydrophobic interactions) holding secondary and tertiary folding, while the covalent peptide bonds of the primary amino acid sequence remain unbroken.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-009",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Electrochemistry",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The limiting molar conductivity of an electrolyte can be represented as the sum of the individual contributions of the anion and cation according to _____ law of independent migration of ions.",
+    "answer": "Kohlrausch's",
+    "acceptedAnswers": [
+      "Kohlrausch's",
+      "Kohlrausch",
+      "Kohlrausch's law",
+      "Kohlrausch law"
+    ],
+    "explanation": "Kohlrausch's law states that limiting molar conductivity of an electrolyte Lambda°_m is the sum of limiting molar conductivities of its constituent ions: Lambda°_m = nu_+ * lambda°_+ + nu_- * lambda°_-.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-010",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Amines",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The chemical test used to distinguish primary aliphatic and aromatic amines from secondary and tertiary amines by heating with chloroform and ethanolic KOH to form a foul-smelling isocyanide is called the _____ test.",
+    "answer": "carbylamine",
+    "acceptedAnswers": [
+      "carbylamine",
+      "carbylamine test",
+      "isocyanide test",
+      "isocyanide"
+    ],
+    "explanation": "Primary amines react with chloroform (CHCl3) and ethanolic KOH on warming to form foul-smelling isocyanides (carbylamines): R-NH2 + CHCl3 + 3KOH -> R-NC + 3KCl + 3H2O.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-011",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Coordination Compounds",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each coordination complex with its primary type of isomerism:",
+    "pairs": [
+      [
+        "[Co(NH3)5(SO4)]Br and [Co(NH3)5Br]SO4",
+        "Ionisation isomerism"
+      ],
+      [
+        "[Co(NH3)5(NO2)]Cl2 and [Co(NH3)5(ONO)]Cl2",
+        "Linkage isomerism"
+      ],
+      [
+        "[Cr(H2O)6]Cl3 and [Cr(H2O)5Cl]Cl2·H2O",
+        "Hydrate / Solvate isomerism"
+      ],
+      [
+        "[Co(NH3)6][Cr(CN)6] and [Cr(NH3)6][Co(CN)6]",
+        "Coordination isomerism"
+      ]
+    ],
+    "explanation": "Ionisation isomers give different ions in solution; linkage isomers involve ambidentate ligands (NO2- vs ONO-); hydrate isomers involve water inside vs outside coordination sphere; coordination isomers involve exchange of ligands between complex cation and complex anion.",
+    "marks": 1,
+    "answer": "matched",
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-012",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A solution containing 18 g of non-volatile solute (glucose, C6H12O6, molar mass = 180 g/mol) in 1000 g of water is cooled. If the cryoscopic constant of water K_f = 1.86 K kg/mol, calculate the freezing point depression Delta T_f in Kelvin (K).",
+    "answer": 0.186,
+    "tolerance": 0.005,
+    "unit": "K",
+    "explanation": "Number of moles of glucose = 18 g / (180 g/mol) = 0.10 mol. Mass of solvent water = 1.0 kg. Molality m = 0.10 mol / 1.0 kg = 0.10 m. Freezing point depression Delta T_f = K_f * m = 1.86 K kg/mol * 0.10 mol/kg = 0.186 K.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-013",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Electrochemistry",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Calculate the standard Gibbs free energy change Delta G° in kJ (to one decimal place) for the cell reaction: Zn(s) + Cu2+(aq) -> Zn2+(aq) + Cu(s), given E°_cell = 1.10 V and Faraday's constant F = 96485 C/mol.",
+    "answer": -212.3,
+    "tolerance": 1,
+    "unit": "kJ",
+    "explanation": "Delta G° = -n * F * E°_cell. For this reaction, n = 2 moles of electrons transferred. Delta G° = -2 * 96485 C/mol * 1.10 V = -212267 J = -212.267 kJ approx -212.3 kJ.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-014",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Chemical Kinetics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A first-order decomposition reaction has a rate constant k = 5.5 x 10^-14 s^-1. Calculate the half-life period t_1/2 of the reaction in seconds in scientific notation as X x 10^13 s. Enter the numerical factor X (to two decimal places).",
+    "answer": 1.26,
+    "tolerance": 0.05,
+    "unit": "x 10^13 s",
+    "explanation": "For a first-order reaction: t_1/2 = 0.693 / k = 0.693 / (5.5 x 10^-14 s^-1) = 1.26 x 10^13 s. The numerical coefficient is 1.26.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-015",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the 'spin-only' magnetic moment of aqueous Fe2+ ion (atomic number of Fe = 26) in Bohr Magnetons (BM, to two decimal places).",
+    "answer": 4.9,
+    "tolerance": 0.05,
+    "unit": "BM",
+    "explanation": "Fe (Z = 26) has configuration [Ar] 3d6 4s2. Fe2+ loses two 4s electrons to become [Ar] 3d6. In high-spin aqueous state, 3d6 has 4 unpaired electrons (n = 4). Spin-only magnetic moment mu = sqrt(n * (n + 2)) = sqrt(4 * 6) = sqrt(24) = 4.899 BM approx 4.90 BM.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-016",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many ether isomers (structural isomers with molecular formula C4H10O) can be formed?",
+    "answer": 3,
+    "tolerance": 0,
+    "explanation": "Acyclic ethers with formula C4H10O are: (1) Diethyl ether: CH3-CH2-O-CH2-CH3; (2) Methyl propyl ether: CH3-O-CH2-CH2-CH3; (3) Methyl isopropyl ether: CH3-O-CH(CH3)2. Exactly 3 ether structural isomers exist.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-017",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Coordination Compounds",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram depicts crystal field splitting of five degenerate d-orbitals in an octahedral ligand field into t2g and eg sets. If the overall splitting energy is Delta_o, what is the energy of the eg set relative to the spherical barycentre?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 200\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"100\" x2=\"100\" y2=\"100\" stroke=\"#64748b\" stroke-width=\"3\"/><text x=\"25\" y=\"85\" font-size=\"12\" fill=\"#1e293b\">Free ion (5 d)</text><line x1=\"120\" y1=\"100\" x2=\"300\" y2=\"100\" stroke=\"#94a3b8\" stroke-dasharray=\"4,4\"/><text x=\"250\" y=\"95\" font-size=\"11\" fill=\"#94a3b8\">Barycentre</text><line x1=\"180\" y1=\"50\" x2=\"260\" y2=\"50\" stroke=\"#ef4444\" stroke-width=\"3\"/><text x=\"270\" y=\"55\" font-size=\"13\" font-weight=\"bold\" fill=\"#ef4444\">eg (dx²-y², dz²)</text><line x1=\"180\" y1=\"140\" x2=\"260\" y2=\"140\" stroke=\"#0284c7\" stroke-width=\"3\"/><text x=\"270\" y=\"145\" font-size=\"13\" font-weight=\"bold\" fill=\"#0284c7\">t2g (dxy, dyz, dxz)</text><line x1=\"165\" y1=\"50\" x2=\"165\" y2=\"140\" stroke=\"#1e293b\" stroke-width=\"1.5\"/><text x=\"135\" y=\"100\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e293b\">Δo</text></svg>"
+    },
+    "options": [
+      "+0.6 Delta_o (or +3/5 Delta_o)",
+      "-0.4 Delta_o (or -2/5 Delta_o)",
+      "+0.4 Delta_o",
+      "-0.6 Delta_o"
+    ],
+    "answer": 0,
+    "explanation": "In octahedral crystal field splitting, the barycentre rule requires total energy conservation: 2 * E(eg) + 3 * E(t2g) = 0. The doubly degenerate eg orbitals point directly at incoming ligands and are destabilised by +0.6 Delta_o (+3/5 Delta_o), while triply degenerate t2g orbitals are stabilised by -0.4 Delta_o (-2/5 Delta_o).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-018",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Explain what happens during the Cannizzaro reaction and state which structural class of aldehydes undergoes this reaction.",
+    "answer": "Aldehydes lacking an alpha-hydrogen atom (such as formaldehyde or benzaldehyde) undergo self-oxidation and reduction (disproportionation) when heated with concentrated alkali (50% NaOH/KOH), producing one molecule of corresponding alcohol and one molecule of carboxylic acid salt.",
+    "acceptedAnswers": [
+      "Aldehydes having no alpha-hydrogen undergo disproportionation with concentrated alkali to yield an alcohol and a carboxylate salt",
+      "Disproportionation of aldehydes lacking alpha-hydrogens in concentrated alkali to form alcohol and carboxylic acid salt",
+      "Self oxidation-reduction of aldehydes without alpha hydrogen in concentrated NaOH to give alcohol and carboxylate salt"
+    ],
+    "keywords": [
+      "alpha-hydrogen",
+      "disproportionation",
+      "concentrated alkali",
+      "alcohol",
+      "carboxylate salt",
+      "oxidation-reduction"
+    ],
+    "explanation": "Cannizzaro reaction is a base-catalysed disproportionation specific to aldehydes without alpha-hydrogens (e.g., HCHO, C6H5CHO), where one aldehyde molecule is reduced to an alcohol while another is oxidised to a carboxylate salt.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-019",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is lanthanoid contraction and what is its primary cause?",
+    "answer": "Lanthanoid contraction is the steady and gradual decrease in atomic and ionic radii of the lanthanoid elements with increasing atomic number from Lanthanum (La) to Lutetium (Lu), caused by the poor shielding effect of intervening 4f electrons.",
+    "acceptedAnswers": [
+      "The steady decrease in atomic and ionic radii along the lanthanoid series due to poor shielding of 4f electrons",
+      "Gradual decrease in atomic and ionic size from La to Lu caused by ineffective shielding of imperfect 4f orbitals",
+      "Decrease in size of lanthanide elements caused by poor shielding of 4f electrons"
+    ],
+    "keywords": [
+      "decrease in atomic radii",
+      "ionic radii",
+      "lanthanoid",
+      "poor shielding",
+      "4f electrons"
+    ],
+    "explanation": "Because 4f orbitals have a diffused spatial shape, they shield nuclear charge poorly. With each added proton, the effective nuclear charge Z_eff increases substantially, pulling the electron clouds closer and causing lanthanoid contraction.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-020",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Chemical Kinetics",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): For a zero-order reaction, the half-life period t_1/2 is directly proportional to the initial concentration of the reactant.\nReason (R): For a zero-order reaction, the integrated rate equation is [A] = [A]0 - k*t, which leads to t_1/2 = [A]0 / (2k).",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Both statements are correct. For a zero-order reaction, rate = k. Integrating gives [A]0 - [A] = kt. Setting [A] = [A]0/2 at t = t_1/2 gives t_1/2 = [A]0 / (2k). Hence, t_1/2 is directly proportional to initial concentration [A]0.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-021",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): Haloarenes are extremely less reactive towards nucleophilic substitution reactions compared to haloalkanes.\nReason (R): In haloarenes, the lone pair of electrons on the halogen atom participates in resonance with the benzene ring, imparting partial double bond character to the C-X bond.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Haloarenes resist nucleophilic substitution due to: (1) resonance stabilization imparting partial double bond character to C-X bond making cleavage difficult; (2) sp2 hybridization of ring carbon (more s-character, shorter and stronger bond); and (3) electrostatic repulsion between electron-rich benzene pi-cloud and attacking nucleophile.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-022",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following organic compounds will give a positive Iodoform test (formation of yellow precipitate of CHI3 upon warming with I2 and NaOH)? (Select all that apply)",
+    "options": [
+      "Ethanol (CH3CH2OH)",
+      "Propan-2-one (Acetone, CH3COCH3)",
+      "Benzophenone (C6H5COC6H5)",
+      "Acetophenone (C6H5COCH3)"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "The iodoform test is given by compounds containing the CH3-C=O group or compounds containing CH3-CH(OH)- group that can be oxidised to CH3-C=O. (A) Ethanol has CH3-CH(OH)-; (B) Propan-2-one has CH3-C=O; (D) Acetophenone has C6H5-COCH3. (C) Benzophenone lacks a methyl keto group and gives a negative test.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-023",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following mixtures exhibit POSITIVE deviations from Raoult's law? (Select all that apply)",
+    "options": [
+      "Ethanol and Acetone",
+      "Carbon disulfide (CS2) and Acetone",
+      "Chloroform and Acetone",
+      "Phenol and Aniline"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Positive deviation occurs when solute-solvent (A-B) interactions are weaker than pure component (A-A and B-B) interactions: Ethanol + Acetone (acetone disrupts strong hydrogen bonding in ethanol) and CS2 + Acetone show positive deviations. Chloroform + Acetone and Phenol + Aniline form intermolecular hydrogen bonds between components, showing negative deviations.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-024",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Amines",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following amines in descending order of basic strength in aqueous solution (most basic to least basic):",
+    "orderedItems": [
+      "(CH3)2NH (Dimethylamine)",
+      "CH3NH2 (Methylamine)",
+      "(CH3)3N (Trimethylamine)",
+      "NH3 (Ammonia)"
+    ],
+    "explanation": "In aqueous solution of methyl-substituted amines, basic strength is governed by inductive effect, steric hindrance, and hydration of conjugate cation: Secondary (2°) > Primary (1°) > Tertiary (3°) > Ammonia. Thus: (CH3)2NH > CH3NH2 > (CH3)3N > NH3.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-025",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Biomolecules",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following levels of protein structural organisation in order of increasing complexity:",
+    "orderedItems": [
+      "Primary structure (amino acid peptide sequence)",
+      "Secondary structure (alpha-helix and beta-pleated sheets)",
+      "Tertiary structure (overall three-dimensional folding of polypeptide chain)",
+      "Quaternary structure (assembly of multiple polypeptide subunits)"
+    ],
+    "explanation": "Proteins are hierarchically organized: Primary (linear amino acid sequence) -> Secondary (local regular hydrogen-bonded structures) -> Tertiary (3D spatial folding stabilized by hydrophobic, disulfide, ionic bonds) -> Quaternary (spatial arrangement of two or more polypeptide subunits).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-026",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "When tested with Lucas reagent (anhydrous ZnCl2 in concentrated HCl) at room temperature, which alcohol produces immediate turbidity due to the rapid formation of insoluble alkyl chloride?",
+    "options": [
+      "2-Methylpropan-2-ol (tert-butyl alcohol)",
+      "Propan-2-ol (isopropyl alcohol)",
+      "Ethanol",
+      "Propan-1-ol"
+    ],
+    "answer": 0,
+    "explanation": "Lucas test distinguishes alcohols based on carbocation stability: Tertiary (3°) alcohols form stable tertiary carbocations and react immediately producing turbidity at room temperature. Secondary (2°) alcohols react in about 5 minutes, while primary (1°) alcohols do not react at room temperature without heating.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-027",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which of the following substituted carboxylic acids is the strongest acid?",
+    "options": [
+      "Fluoroacetic acid (FCH2COOH)",
+      "Chloroacetic acid (ClCH2COOH)",
+      "Bromoacetic acid (BrCH2COOH)",
+      "Acetic acid (CH3COOH)"
+    ],
+    "answer": 0,
+    "explanation": "The strength of carboxylic acids depends on the electron-withdrawing inductive (-I) effect of substituents which stabilizes the conjugate carboxylate anion (RCOO-). Fluorine is the most electronegative halogen and exerts the strongest -I effect: FCH2COOH > ClCH2COOH > BrCH2COOH > CH3COOH.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-028",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Amines",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "When treated with Hinsberg's reagent (benzenesulfonyl chloride), a primary amine gives a sulfonamide that:",
+    "options": [
+      "Dissolves in aqueous potassium hydroxide (KOH) because it possesses an acidic hydrogen on nitrogen",
+      "Is insoluble in aqueous potassium hydroxide (KOH)",
+      "Does not react at all with the reagent",
+      "Releases nitrogen gas immediately with effervescence"
+    ],
+    "answer": 0,
+    "explanation": "Reaction of primary amine with benzenesulfonyl chloride yields N-alkylbenzenesulfonamide (C6H5SO2NHR). The hydrogen attached to nitrogen is strongly acidic due to the strong electron-withdrawing sulfonyl group, so it dissolves in aqueous alkali to form a soluble potassium salt.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-029",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In the redox titration of oxalate ion (C2O4 2-) with acidified potassium permanganate (KMnO4) at 60°C, how many moles of electrons are transferred per mole of MnO4- reduced to Mn2+?",
+    "options": [
+      "5 moles of electrons",
+      "3 moles of electrons",
+      "2 moles of electrons",
+      "6 moles of electrons"
+    ],
+    "answer": 0,
+    "explanation": "In acidic medium, the reduction half-reaction is: MnO4- + 8 H+ + 5 e- -> Mn2+ + 4 H2O. Manganese undergoes a change in oxidation state from +7 to +2, requiring exactly 5 electrons per MnO4- ion.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-030",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Biomolecules",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following vitamins is water-soluble, cannot be stored in the human body, and must be supplied regularly in the diet?",
+    "options": [
+      "Vitamin C (Ascorbic acid)",
+      "Vitamin A (Retinol)",
+      "Vitamin D (Calciferol)",
+      "Vitamin K (Phylloquinone)"
+    ],
+    "answer": 0,
+    "explanation": "B-group vitamins and Vitamin C are water-soluble. They dissolve readily in water and are continuously excreted in urine, so they cannot be stored in significant amounts in the human body (except Vitamin B12) and must be regularly supplied in diet.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-031",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Chloroform (CHCl3) is stored in dark, brown, completely filled bottles to prevent its slow atmospheric oxidation into poisonous carbonyl chloride (phosgene, COCl2) in the presence of sunlight.",
+    "answer": true,
+    "explanation": "Chloroform slowly oxidises in air and light: 2 CHCl3 + O2 -> 2 COCl2 (phosgene) + 2 HCl. A small amount of ethanol (about 1%) is added to convert any formed phosgene into harmless diethyl carbonate.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-032",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Chemical Kinetics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The molecularity of an elementary reaction can be zero or a non-integer fractional value.",
+    "answer": false,
+    "explanation": "Molecularity is the number of reacting species colliding simultaneously in an elementary step. It must be a positive non-zero integer (1, 2, or 3) and can never be zero, negative, or fractional. In contrast, reaction order can be zero or fractional.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-033",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The electrophilic substitution reaction in which phenol reacts with chloroform in aqueous sodium hydroxide followed by acidification to introduce an aldehyde (-CHO) group at the ortho position is known as the _____ reaction.",
+    "answer": "Reimer-Tiemann",
+    "acceptedAnswers": [
+      "Reimer-Tiemann",
+      "Reimer Tiemann",
+      "Reimer-Tiemann reaction",
+      "Reimer Tiemann reaction"
+    ],
+    "explanation": "The Reimer-Tiemann reaction involves attack of dichlorocarbene (:CCl2), an electrophile, on phenoxide ion to form salicylaldehyde (2-hydroxybenzaldehyde) as the major product.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-034",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Amines",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In the Hofmann bromamide degradation reaction, treating a primary acid amide with bromine and aqueous alkali yields a primary amine containing one _____ carbon atom than the original amide.",
+    "answer": "less",
+    "acceptedAnswers": [
+      "less",
+      "fewer",
+      "one less"
+    ],
+    "explanation": "Hofmann bromamide degradation: R-CONH2 + Br2 + 4 NaOH -> R-NH2 + Na2CO3 + 2 NaBr + 2 H2O. The carbonyl carbon is lost as carbonate, so the resulting amine has one fewer carbon atom.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-035",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each named organic transformation with its characteristic reagent and product conversion:",
+    "pairs": [
+      [
+        "Rosenmund reduction",
+        "H2 over Pd-BaSO4 (converts acyl chloride to aldehyde)"
+      ],
+      [
+        "Stephen reaction",
+        "SnCl2 + HCl followed by H3O+ (converts nitrile to aldehyde)"
+      ],
+      [
+        "Etard reaction",
+        "Chromyl chloride CrO2Cl2 in CS2 (converts toluene to benzaldehyde)"
+      ],
+      [
+        "Clemmensen reduction",
+        "Zinc amalgam (Zn-Hg) and concentrated HCl (converts carbonyl to CH2)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These named reactions represent standard laboratory syntheses and reductions of carbonyl compounds in CBSE/JEE chemistry.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-036",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "An aqueous solution of 2.0% (w/w) non-volatile non-electrolyte solute exerts a vapour pressure of 1.004 bar at the normal boiling point of water (where pure water vapour pressure is 1.013 bar). Calculate the molar mass of the solute in g/mol (to one decimal place).",
+    "answer": 41.4,
+    "tolerance": 0.5,
+    "unit": "g/mol",
+    "explanation": "By Raoult's law for dilute solutions: (P° - P) / P° = (w2 / M2) / (w1 / M1). For 100 g solution, w2 = 2 g, w1 = 98 g of water (M1 = 18 g/mol). (1.013 - 1.004) / 1.013 = (2 / M2) / (98 / 18) => 0.009 / 1.013 = 2 / (5.444 * M2) => 0.008884 = 0.36735 / M2 => M2 = 0.36735 / 0.008884 = 41.35 g/mol approx 41.4 g/mol.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-037",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Electrochemistry",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "How many coulombs of electricity (in Coulombs, C) are required for the complete electrolytic oxidation of 1.0 mole of water (H2O) to dioxygen (O2)? (Use Faraday constant F = 96500 C/mol)",
+    "answer": 193000,
+    "tolerance": 100,
+    "unit": "C",
+    "explanation": "The oxidation half-reaction for water is: 2 H2O -> O2 + 4 H+ + 4 e-. Thus, 1 mole of H2O requires 2 moles of electrons: Q = 2 * F = 2 * 96500 C/mol = 193000 C.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-038",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Chemical Kinetics",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "The rate of a chemical reaction quadruples (increases by a factor of 4) when the temperature rises from 293 K to 313 K. Calculate the activation energy Ea in kJ/mol (to one decimal place), given R = 8.314 J K^-1 mol^-1.",
+    "answer": 52.9,
+    "tolerance": 0.8,
+    "unit": "kJ/mol",
+    "explanation": "By Arrhenius equation: log(k2 / k1) = Ea / (2.303 * R) * [(T2 - T1) / (T1 * T2)]. log(4) = 0.60206. 0.60206 = Ea / (2.303 * 8.314) * [(313 - 293) / (293 * 313)] = Ea / 19.147 * [20 / 91709] = Ea * 1.139 x 10^-5. Ea = 0.60206 / 1.139 x 10^-5 = 52858 J/mol = 52.86 kJ/mol approx 52.9 kJ/mol.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-039",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the spin-only magnetic moment in Bohr Magnetons (BM, to two decimal places) for high-spin Mn2+ ion (atomic number Z = 25).",
+    "answer": 5.92,
+    "tolerance": 0.05,
+    "unit": "BM",
+    "explanation": "Mn has atomic number 25 ([Ar] 3d5 4s2). Mn2+ has configuration [Ar] 3d5 with 5 unpaired electrons (n = 5). Magnetic moment mu = sqrt(n * (n + 2)) = sqrt(5 * 7) = sqrt(35) = 5.916 BM approx 5.92 BM.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-040",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Coordination Compounds",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "When 1 mole of [Co(NH3)5Cl]Cl2 is treated with an excess of aqueous silver nitrate (AgNO3), how many moles of AgCl precipitate are formed?",
+    "answer": 2,
+    "tolerance": 0,
+    "explanation": "In [Co(NH3)5Cl]Cl2, one chloride ion is coordinated in the inner coordination sphere, while two chloride ions are in the outer ionisation sphere. Only the outer ions dissociate to form 2 moles of AgCl precipitate with excess AgNO3.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-041",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The chemical scheme illustrates a bimolecular nucleophilic substitution (SN2) reaction proceeding through a pentacoordinate transition state. What stereochemical outcome is observed when an optically active substrate undergoes this mechanism?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"20\" y=\"95\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">Nu⁻</text><line x1=\"50\" y1=\"90\" x2=\"100\" y2=\"90\" stroke=\"#0284c7\" stroke-dasharray=\"3,3\" stroke-width=\"2\"/><circle cx=\"170\" cy=\"90\" r=\"14\" fill=\"#f1f5f9\" stroke=\"#1e293b\" stroke-width=\"2\"/><text x=\"165\" y=\"95\" font-size=\"14\" font-weight=\"bold\" fill=\"#1e293b\">C</text><line x1=\"170\" y1=\"76\" x2=\"170\" y2=\"35\" stroke=\"#1e293b\" stroke-width=\"2\"/><text x=\"165\" y=\"30\" font-size=\"12\" fill=\"#1e293b\">R₁</text><line x1=\"160\" y1=\"100\" x2=\"130\" y2=\"140\" stroke=\"#1e293b\" stroke-width=\"2\"/><text x=\"120\" y=\"155\" font-size=\"12\" fill=\"#1e293b\">R₂</text><line x1=\"180\" y1=\"100\" x2=\"210\" y2=\"140\" stroke=\"#1e293b\" stroke-width=\"2\"/><text x=\"210\" y=\"155\" font-size=\"12\" fill=\"#1e293b\">R₃</text><line x1=\"184\" y1=\"90\" x2=\"240\" y2=\"90\" stroke=\"#ef4444\" stroke-dasharray=\"3,3\" stroke-width=\"2\"/><text x=\"250\" y=\"95\" font-size=\"14\" font-weight=\"bold\" fill=\"#ef4444\">X⁻</text><text x=\"100\" y=\"175\" font-size=\"12\" font-style=\"italic\" fill=\"#64748b\">[Trigonal bipyramidal transition state]</text></svg>"
+    },
+    "options": [
+      "Complete inversion of configuration (Walden inversion)",
+      "Complete retention of configuration",
+      "Complete racemisation (50:50 enantiomeric mixture)",
+      "Partial racemisation with net retention"
+    ],
+    "answer": 0,
+    "explanation": "In an SN2 mechanism, nucleophilic attack occurs strictly from the back side at 180° to the leaving group, turning the umbrella inside out and causing 100% Walden inversion of stereochemical configuration.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-042",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Biomolecules",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The Haworth structure shows a cyclic hemiacetal pyranose form of D-glucose. What is this specific anomer called, characterized by the hydroxyl group at C-1 (anomeric carbon) pointing downward (trans to -CH2OH at C-5)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 200\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"160,50 230,80 230,140 160,170 90,140 90,80\" fill=\"#f8fafc\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"120\" y=\"65\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">O</text><text x=\"245\" y=\"145\" font-size=\"12\" fill=\"#ef4444\">C1 — OH (down)</text><text x=\"60\" y=\"45\" font-size=\"12\" fill=\"#16a34a\">CH₂OH (up at C5)</text><text x=\"120\" y=\"195\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e293b\">D-Glucopyranose ring</text></svg>"
+    },
+    "options": [
+      "alpha-D-Glucopyranose",
+      "beta-D-Glucopyranose",
+      "alpha-D-Fructofuranose",
+      "beta-D-Galactopyranose"
+    ],
+    "answer": 0,
+    "explanation": "In D-glucopyranose, the anomer with the C-1 hydroxyl group in the downward direction (trans to the -CH2OH group at C-5) is alpha-D-(+)-glucopyranose. When the -OH is upward (cis), it is beta-D-(+)-glucopyranose.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-043",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Explain why phenol is significantly more acidic than ethanol based on resonance stabilization of their conjugate bases.",
+    "answer": "Deprotonation of phenol yields the phenoxide ion, which is resonance stabilized by delocalisation of its negative charge over the ortho and para positions of the aromatic ring. In contrast, the ethoxide ion from ethanol cannot delocalise its negative charge and is destabilised by the electron-donating inductive (+I) effect of the ethyl group.",
+    "acceptedAnswers": [
+      "Phenoxide ion is resonance stabilized by delocalisation over the benzene ring whereas ethoxide ion is not stabilized and destabilised by +I effect",
+      "Resonance stabilization of phenoxide ion distributes negative charge across the ring, making phenol more acidic than ethanol",
+      "Phenoxide ion is stabilized by resonance while ethoxide ion is destabilised by the +I effect of the ethyl group"
+    ],
+    "keywords": [
+      "phenoxide ion",
+      "resonance stabilization",
+      "delocalisation",
+      "benzene ring",
+      "ethoxide",
+      "+I effect"
+    ],
+    "explanation": "The phenoxide ion has 5 resonance contributing structures that spread the negative charge across the aromatic ring, making phenol acidic enough to turn blue litmus red, whereas ethoxide lacks any resonance stabilisation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-044",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Electrochemistry",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "State Faraday's first law of electrolysis relating the mass of a substance deposited to the electric charge passed.",
+    "answer": "Faraday's first law of electrolysis states that the mass of a chemical substance deposited or liberated at any electrode during electrolysis is directly proportional to the total quantity of electric charge (current multiplied by time) passed through the electrolyte: m = Z * Q = Z * I * t.",
+    "acceptedAnswers": [
+      "The mass of substance liberated at an electrode is directly proportional to the quantity of electricity passed through the electrolyte",
+      "Mass deposited is proportional to charge passed, m = ZIt",
+      "m = Z * Q where mass deposited is directly proportional to electric charge"
+    ],
+    "keywords": [
+      "mass",
+      "directly proportional",
+      "quantity of electricity",
+      "charge",
+      "m = ZIt",
+      "electrode"
+    ],
+    "explanation": "Faraday's first law expresses m = Z * I * t, where Z is the electrochemical equivalent of the substance.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-045",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): An ethanol-water mixture containing 95.4% ethanol by volume forms a minimum boiling azeotrope and cannot be separated further by fractional distillation.\nReason (R): Binary solutions showing large positive deviations from Raoult's law form minimum boiling azeotropes at a specific intermediate composition where liquid and vapour phases have identical composition.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Solutions with large positive deviations have vapour pressure higher than ideal, reaching a maximum vapour pressure and therefore a minimum boiling point. At this azeotropic point (95.4% ethanol), the liquid and vapour compositions are identical, preventing further separation by distillation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-046",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Coordination Compounds",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): [Ni(CO)4] is a diamagnetic tetrahedral complex, while [Ni(CN)4]2- is a diamagnetic square planar complex.\nReason (R): In [Ni(CO)4], Ni is in zero oxidation state with sp3 hybridization involving pairing of 4s electrons into 3d orbitals, whereas in [Ni(CN)4]2-, Ni(II) has 3d8 configuration with dsp2 hybridization due to the strong-field CN- ligand.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "In [Ni(CO)4], Ni(0) has 3d8 4s2. Strong CO ligand forces 4s electrons into 3d to give 3d10, using 4s and three 4p orbitals for sp3 tetrahedral hybridization (diamagnetic). In [Ni(CN)4]2-, Ni(II) has 3d8. Strong CN- ligand forces pairing into four d-orbitals, leaving one 3d orbital vacant for dsp2 square planar hybridization (diamagnetic).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-047",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding the Aldol condensation reaction are CORRECT? (Select all that apply)",
+    "options": [
+      "The starting carbonyl compound must possess at least one alpha-hydrogen atom.",
+      "It is catalysed by dilute aqueous alkali such as dilute NaOH or Ba(OH)2.",
+      "The initial product formed is a beta-hydroxy aldehyde or beta-hydroxy ketone.",
+      "Heating the aldol product eliminates a molecule of water to form an alpha,beta-unsaturated carbonyl compound."
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "All four statements are correct: Aldol reaction requires alpha-hydrogens, uses dilute base (OH-) to generate enolate ion, attacks another carbonyl molecule to yield a beta-hydroxy aldehyde/ketone, which on heating undergoes dehydration to give conjugated alpha,beta-unsaturated carbonyl compound.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-048",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Biomolecules",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following nitrogenous purine and pyrimidine bases are present in DNA? (Select all that apply)",
+    "options": [
+      "Adenine (A)",
+      "Guanine (G)",
+      "Cytosine (C)",
+      "Uracil (U)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "DNA contains four heterocyclic bases: Adenine (A), Guanine (G), Cytosine (C), and Thymine (T). Uracil (U) is found exclusively in RNA in place of thymine.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-049",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following first-row (3d series) transition elements in order of strictly increasing atomic number:",
+    "orderedItems": [
+      "Scandium (Sc, Z = 21)",
+      "Titanium (Ti, Z = 22)",
+      "Vanadium (V, Z = 23)",
+      "Chromium (Cr, Z = 24)",
+      "Manganese (Mn, Z = 25)"
+    ],
+    "explanation": "The 3d transition series elements in order of increasing atomic number from Z = 21 to 25 are Scandium, Titanium, Vanadium, Chromium, and Manganese.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-050",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Coordination Compounds",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following ligands in order of increasing crystal field splitting energy (Delta_o) according to the spectrochemical series (weakest to strongest field ligand):",
+    "orderedItems": [
+      "Iodide (I⁻)",
+      "Chloride (Cl⁻)",
+      "Fluoride (F⁻)",
+      "Water (H₂O)",
+      "Ammonia (NH₃)",
+      "Cyanide (CN⁻)",
+      "Carbon monoxide (CO)"
+    ],
+    "explanation": "According to the spectrochemical series based on experimental absorption spectra: I- < Br- < S2- < SCN- < Cl- < N3- < F- < OH- < C2O4 2- < H2O < NCS- < edta4- < NH3 < en < NO2- < CN- < CO.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-051",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which colligative property is preferred over boiling point elevation or freezing point depression for accurately determining the molar masses of biomolecules, polymers, and proteins?",
+    "options": [
+      "Osmotic pressure, because its magnitude is sufficiently large and measurable at room temperature for dilute solutions without thermal degradation",
+      "Relative lowering of vapour pressure, because it is independent of temperature",
+      "Freezing point depression, because water has a very large cryoscopic constant",
+      "Boiling point elevation, because boiling point can be determined with extreme precision"
+    ],
+    "answer": 0,
+    "explanation": "Biomolecules and proteins are often unstable at elevated temperatures and have low solubility. Osmotic pressure measurements are carried out at ambient room temperature, use molarity rather than molality, and yield measurable pressure readings even for extremely dilute solutions.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-052",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Electrochemistry",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "During the discharging of a commercial lead storage battery, what chemical transformations occur at the electrodes and in the electrolyte?",
+    "options": [
+      "Both Pb (anode) and PbO2 (cathode) are converted into PbSO4, while H2SO4 is consumed and its density decreases",
+      "Pb is oxidised to PbO2 at the anode, while water is electrolysed",
+      "PbSO4 is converted into metallic lead at both electrodes and H2SO4 is generated",
+      "Lead ions are deposited as spongy lead at the anode while sulfuric acid density increases"
+    ],
+    "answer": 0,
+    "explanation": "Discharging reactions: Anode: Pb(s) + SO4^2-(aq) -> PbSO4(s) + 2 e-; Cathode: PbO2(s) + 4 H+(aq) + SO4^2-(aq) + 2 e- -> PbSO4(s) + 2 H2O(l). Overall reaction consumes H2SO4: Pb + PbO2 + 2 H2SO4 -> 2 PbSO4 + 2 H2O. Sulfuric acid is consumed, reducing electrolyte density from ~1.30 g/cm^3 to below 1.20 g/cm^3.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-053",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Chemical Kinetics",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "The acid-catalysed hydrolysis of ethyl acetate in a large excess of water: CH3COOC2H5 + H2O -(H+)-> CH3COOH + C2H5OH, exhibits first-order kinetics with respect to ester even though two reactant molecules participate in the stoichiometric equation. What type of reaction is this?",
+    "options": [
+      "Pseudo-first-order reaction",
+      "Zero-order reaction",
+      "Second-order reaction",
+      "Fractional-order reaction"
+    ],
+    "answer": 0,
+    "explanation": "Because water is present in enormous excess, its concentration remains practically unchanged throughout the reaction ([H2O] approx constant). The rate law reduces to Rate = k'[H2O][ester] = k[ester], which is called a pseudo-first-order reaction.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-054",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In aqueous solution, the interconversion between yellow chromate ion (CrO4 2-) and orange dichromate ion (Cr2O7 2-) depends on pH according to: 2 CrO4 2- + 2 H+ <=> Cr2O7 2- + H2O. What happens to the oxidation state of chromium during this pH-dependent colour change?",
+    "options": [
+      "It remains unchanged at +6 in both chromate and dichromate ions",
+      "It changes from +6 in chromate to +3 in dichromate",
+      "It changes from +3 in chromate to +6 in dichromate",
+      "It changes from +7 to +6"
+    ],
+    "answer": 0,
+    "explanation": "In CrO4 2-: x + 4(-2) = -2 => x = +6. In Cr2O7 2-: 2x + 7(-2) = -2 => 2x = 12 => x = +6. The interconversion is an acid-base condensation equilibrium without any redox change; chromium remains in the +6 oxidation state in both species.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-055",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Coordination Compounds",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which of the following octahedral coordination complexes lacks a plane of symmetry and is optically active (resolvable into dextro and laevo enantiomers)?",
+    "options": [
+      "cis-[Co(en)2Cl2]+",
+      "trans-[Co(en)2Cl2]+",
+      "trans-[Pt(NH3)4Cl2]2+",
+      "[Co(NH3)4Cl2]+"
+    ],
+    "answer": 0,
+    "explanation": "In cis-[Co(en)2Cl2]+, the bidentate ethylenediamine ligands occupy adjacent cis positions, destroying all planes of symmetry and centre of inversion. Its mirror image is non-superimposable, exhibiting optical activity. In contrast, trans-[Co(en)2Cl2]+ has an inversion centre and horizontal plane of symmetry, making it optically inactive.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-056",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Haloalkanes react with potassium cyanide (KCN) to yield primarily alkyl cyanides (R-CN), whereas with silver cyanide (AgCN) they form predominantly alkyl isocyanides (R-NC). What is the chemical reason for this divergence?",
+    "options": [
+      "KCN is predominantly ionic, leaving the ambidentate cyanide ion free to attack through carbon (forming stronger C-C bond), while AgCN is predominantly covalent with Ag bonded to C, leaving nitrogen lone pair to attack",
+      "KCN reacts by an SN1 mechanism while AgCN reacts by an SN2 mechanism",
+      "Silver ion acts as a reducing agent while potassium ion acts as an oxidising agent",
+      "Alkyl isocyanides are more thermodynamically stable than alkyl cyanides"
+    ],
+    "answer": 0,
+    "explanation": "Cyanide ion (:C≡N:⁻) is an ambident nucleophile. In ionic KCN, both C and N can attack, but C-attack is favoured because the C-C bond is much stronger than C-N. In covalent Ag-C≡N, the carbon is engaged in bonding with silver, so the nitrogen lone pair attacks to form alkyl isocyanide.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-057",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In Williamson ether synthesis, the reaction of sodium tert-butoxide with ethyl bromide yields ethyl tert-butyl ether, but the reaction of sodium ethoxide with tert-butyl bromide yields 2-methylpropene via preferential E2 elimination.",
+    "answer": true,
+    "explanation": "Williamson ether synthesis involves SN2 displacement of halide by alkoxide. With primary halides (CH3CH2Br), SN2 substitution dominates. With tertiary halides ((CH3)3C-Br), the alkoxide ion acts as a strong Bronsted base, causing preferential E2 elimination to yield alkene.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-058",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Amines",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Gabriel phthalimide synthesis cannot be employed for the preparation of aromatic primary amines such as aniline.",
+    "answer": true,
+    "explanation": "Gabriel phthalimide synthesis involves an SN2 nucleophilic attack by potassium phthalimide anion on an alkyl halide. Aryl halides (like bromobenzene) do not undergo nucleophilic substitution under these mild conditions due to partial double bond character of C-X bond and resonance stabilisation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-059",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The chemical reduction in which a carbonyl compound is treated with hydrazine (NH2NH2) followed by heating with potassium hydroxide in ethylene glycol to convert >C=O into a methylene group (>CH2) is the _____ reduction.",
+    "answer": "Wolff-Kishner",
+    "acceptedAnswers": [
+      "Wolff-Kishner",
+      "Wolff Kishner",
+      "Wolff-Kishner reduction",
+      "Wolff Kishner reduction"
+    ],
+    "explanation": "Wolff-Kishner reduction: R2C=O + NH2NH2 -> R2C=N-NH2 -(KOH, glycol, heat)-> R2CH2 + N2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-060",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Biomolecules",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In neutral aqueous solution, an amino acid exists as an internal dipolar salt bearing both a positive ammonium group (-NH3+) and a negative carboxylate group (-COO-), known as a _____ ion.",
+    "answer": "zwitterion",
+    "acceptedAnswers": [
+      "zwitterion",
+      "zwitter",
+      "zwitter ion"
+    ],
+    "explanation": "In aqueous solution, the acidic carboxyl group loses a proton and the basic amino group accepts a proton to form a dipolar zwitterion (+H3N-CHR-COO-).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-061",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each transition metal catalyst with its corresponding industrial manufacturing process:",
+    "pairs": [
+      [
+        "Finely divided Iron (Fe) with molybdenum promoter",
+        "Haber's process for synthesis of Ammonia (NH3)"
+      ],
+      [
+        "Vanadium pentoxide (V2O5)",
+        "Contact process for manufacture of Sulfuric acid (H2SO4)"
+      ],
+      [
+        "Finely divided Nickel (Ni)",
+        "Catalytic hydrogenation of unsaturated vegetable oils to fats"
+      ],
+      [
+        "Titanium tetrachloride with triethylaluminium (Ziegler-Natta)",
+        "Polymerisation of ethene to high-density polythene (HDPE)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Transition metals and their compounds make versatile heterogeneous catalysts due to variable oxidation states, ability to form complexes, and provision of active surface adsorption sites.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-062",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Biomolecules",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each biologically important carbohydrate or derivative with its biochemical classification:",
+    "pairs": [
+      [
+        "Glycogen",
+        "Storage polysaccharide in animal liver and muscle tissues"
+      ],
+      [
+        "Amylose",
+        "Water-soluble unbranched alpha-(1->4) linked starch fraction"
+      ],
+      [
+        "Cellulose",
+        "Structural unbranched beta-(1->4) linked plant cell wall polysaccharide"
+      ],
+      [
+        "Insulin",
+        "Polypeptide hormone composed of 51 amino acids regulating blood sugar"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Starch is composed of water-soluble amylose and insoluble branched amylopectin. Glycogen is animal starch. Cellulose has beta-glycosidic bonds. Insulin is an essential peptide hormone.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-063",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "An aqueous solution containing 3.0 g of an unknown protein in 1.00 L of solution develops an osmotic pressure of 0.02463 atm at 300 K. Calculate the molar mass of the protein in g/mol, using universal gas constant R = 0.0821 L atm K^-1 mol^-1.",
+    "answer": 3000,
+    "tolerance": 30,
+    "unit": "g/mol",
+    "explanation": "Osmotic pressure pi = C * R * T = (w2 / M2 * V) * R * T. M2 = (w2 * R * T) / (pi * V) = (3.0 g * 0.0821 L atm K^-1 mol^-1 * 300 K) / (0.02463 atm * 1.00 L) = 73.89 / 0.02463 = 3000 g/mol.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-064",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Electrochemistry",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "The electrical conductivity (kappa) of a 0.001028 M acetic acid solution is 4.95 x 10^-5 S cm^-1. If the limiting molar conductivity Lambda°_m of acetic acid is 390.5 S cm^2 mol^-1, calculate the degree of dissociation (alpha, to three decimal places).",
+    "answer": 0.123,
+    "tolerance": 0.005,
+    "explanation": "Molar conductivity Lambda_m = (kappa * 1000) / M = (4.95 x 10^-5 * 1000) / 0.001028 = 0.0495 / 0.001028 = 48.15 S cm^2 mol^-1. Degree of dissociation alpha = Lambda_m / Lambda°_m = 48.15 / 390.5 = 0.1233 approx 0.123.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-065",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Chemical Kinetics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "For a first-order reaction, calculate the integer ratio of time required for 99% completion (t_99%) to the time required for 90% completion (t_90%).",
+    "answer": 2,
+    "tolerance": 0,
+    "explanation": "For first order reaction: t = (2.303 / k) * log([A]0 / [A]). For 99% completion: [A] = 0.01 [A]0, so t_99% = (2.303 / k) * log(100) = (2.303 / k) * 2. For 90% completion: [A] = 0.10 [A]0, so t_90% = (2.303 / k) * log(10) = (2.303 / k) * 1. Ratio t_99% / t_90% = 2 / 1 = 2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-066",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Amines",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "In the balanced chemical equation for the Hofmann bromamide degradation of acetamide: CH3CONH2 + Br2 + x NaOH -> CH3NH2 + Na2CO3 + 2 NaBr + 2 H2O, what is the stoichiometric coefficient x of NaOH?",
+    "answer": 4,
+    "tolerance": 0,
+    "explanation": "The stoichiometric balance for Hofmann bromamide degradation requires exactly 4 moles of sodium hydroxide per mole of amide: R-CONH2 + Br2 + 4 NaOH -> R-NH2 + Na2CO3 + 2 NaBr + 2 H2O.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-067",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The chemical reaction shown is Kolbe's synthesis. Phenol reacts with sodium hydroxide followed by carbon dioxide at 400 K and 4-7 atm, followed by acid hydrolysis. What is the major product formed?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><text x=\"20\" y=\"80\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e293b\">Phenol</text><line x1=\"70\" y1=\"75\" x2=\"140\" y2=\"75\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"80\" y=\"65\" font-size=\"11\" fill=\"#0284c7\">NaOH</text><text x=\"150\" y=\"80\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e293b\">C₆H₅ONa</text><line x1=\"215\" y1=\"75\" x2=\"285\" y2=\"75\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"225\" y=\"65\" font-size=\"11\" fill=\"#ef4444\">1. CO₂, 400K</text><text x=\"230\" y=\"100\" font-size=\"11\" fill=\"#ef4444\">2. H⁺</text><text x=\"120\" y=\"150\" font-size=\"14\" font-weight=\"bold\" fill=\"#16a34a\">Major Product [ ? ]</text></svg>"
+    },
+    "options": [
+      "2-Hydroxybenzoic acid (Salicylic acid)",
+      "4-Hydroxybenzoic acid",
+      "2-Hydroxybenzaldehyde (Salicylaldehyde)",
+      "Benzoic acid"
+    ],
+    "answer": 0,
+    "explanation": "Kolbe's reaction: Phenoxide ion attacks carbon dioxide (weak electrophile) followed by acidification to produce 2-hydroxybenzoic acid (salicylic acid) as the predominant ortho product.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-068",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Explain why chlorobenzene does not undergo nucleophilic substitution with aqueous NaOH at room temperature, but requires drastic conditions (623 K and 300 atm) in the Dow process.",
+    "answer": "Chlorobenzene is extremely unreactive towards nucleophilic substitution because: (1) the lone pair of electrons on chlorine is delocalised into the benzene ring by resonance, imparting partial double-bond character to the C-Cl bond; (2) the carbon bonded to chlorine is sp2 hybridised (higher electronegativity, shorter bond length); and (3) electrostatic repulsion exists between the electron-rich pi cloud and the attacking hydroxide nucleophile.",
+    "acceptedAnswers": [
+      "Due to resonance giving partial double bond character to C-Cl bond, sp2 hybridization of carbon, and repulsion between nucleophile and benzene pi electrons",
+      "Partial double bond character from resonance, shorter sp2 C-Cl bond, and pi electron repulsion against incoming nucleophile",
+      "Resonance stabilization of C-Cl bond and sp2 hybridization of aromatic carbon make the bond difficult to break"
+    ],
+    "keywords": [
+      "resonance",
+      "partial double bond",
+      "sp2 hybridisation",
+      "C-Cl bond",
+      "pi electron cloud",
+      "repulsion"
+    ],
+    "explanation": "Resonance provides partial double bond character to the C-Cl bond, and the sp2 hybrid carbon holds electrons tightly, requiring drastic conditions (623 K, 300 atm) to displace chloride by hydroxide.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-069",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Coordination Compounds",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Define a chelate ligand and explain why chelate coordination complexes exhibit enhanced thermodynamic stability (the chelate effect).",
+    "answer": "A chelate ligand is a polydentate (di- or multi-dentate) ligand that bonds to a single central metal atom through two or more donor atoms, forming one or more heterocyclic ring structures. Chelate complexes possess enhanced thermodynamic stability primarily due to a positive entropy change (Delta S > 0) upon formation, as displacement of multiple monodentate ligands increases the total number of free particles.",
+    "acceptedAnswers": [
+      "A polydentate ligand forming ring structures with central metal; enhanced stability is due to favorable increase in entropy (chelate effect)",
+      "Multidentate ligand that binds through multiple donor atoms forming a ring; stability is due to positive entropy change",
+      "Polydentate ligand forming ring with metal; chelate effect gives extra stability due to entropy increase"
+    ],
+    "keywords": [
+      "polydentate",
+      "ring",
+      "central metal",
+      "chelate effect",
+      "entropy",
+      "thermodynamic stability"
+    ],
+    "explanation": "Chelation forms 5- or 6-membered chelate rings. The thermodynamic stability (chelate effect) is entropy-driven: replacing multiple unidentate ligands with a single polydentate ligand yields a net increase in independent molecules in solution.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-070",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Amines",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): Aniline is a weaker base than aliphatic primary amines such as methylamine.\nReason (R): In aniline, the unshared electron pair on the nitrogen atom is delocalised over the aromatic ring via resonance, making it less available for protonation.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "In aniline, the lone pair on -NH2 participates in resonance with the benzene ring (5 resonating structures), decreasing electron density on nitrogen. Additionally, the anilinium ion formed by protonation has only 2 resonance structures and is less resonance stabilized than aniline itself.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-071",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Biomolecules",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): During the formation of the double helix of DNA, adenine always pairs specifically with thymine via two hydrogen bonds, and guanine pairs with cytosine via three hydrogen bonds.\nReason (R): The double helix is held together and stabilized by complementary base pairing dictated by specific hydrogen bonding geometry and planar stacking interactions between adjacent base pairs.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Complementary base pairing (Chargaff's rules and Watson-Crick model) pairs a purine with a pyrimidine (A=T with 2 H-bonds, G≡C with 3 H-bonds) to maintain a constant 2.0 nm diameter of the double helix, stabilized by H-bonding and pi-pi stacking.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-072",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following chemical reagents can be used to distinguish an aliphatic aldehyde (like acetaldehyde) from a ketone (like acetone)? (Select all that apply)",
+    "options": [
+      "Tollens' reagent (ammoniacal silver nitrate solution)",
+      "Fehling's solution (alkaline cupric tartrate complex)",
+      "Schiff's reagent (rosaniline hydrochloride decolourised by SO2)",
+      "Sodium bisulfite (NaHSO3) solution"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Tollens' reagent (gives silver mirror), Fehling's solution (gives red Cu2O precipitate), and Schiff's reagent (restores magenta/pink colour) are mild oxidising agents that react readily with aldehydes but not ketones. Sodium bisulfite reacts with both aldehydes and methyl ketones to form crystalline bisulfite adducts.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-073",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding transition metals and their compounds are CORRECT? (Select all that apply)",
+    "options": [
+      "Interstitial compounds are formed when small non-metal atoms like H, C, or N are trapped inside the crystal lattices of transition metals.",
+      "Interstitial compounds are chemically inert and have higher melting points than the pure metals.",
+      "Scandium exhibits a wide range of variable oxidation states from +2 to +7.",
+      "Cr2+ is a strong reducing agent in aqueous solution because it gets oxidised to stable d3 configuration in Cr3+."
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Statements A, B, and D are correct: (A & B) Interstitial compounds retain metallic conductivity, have high melting points and chemical inertness; (D) Cr2+ (d4) is reducing because Cr3+ has half-filled t2g^3 configuration (stable in octahedral field). Statement C is false because Scandium exhibits only +3 oxidation state.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-074",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following chloromethanes in order of increasing boiling point (lowest to highest):",
+    "orderedItems": [
+      "Chloromethane (CH3Cl)",
+      "Dichloromethane (CH2Cl2)",
+      "Trichloromethane (CHCl3)",
+      "Tetrachloromethane (CCl4)"
+    ],
+    "explanation": "Boiling point increases with increasing molecular mass and size due to stronger van der Waals dispersion forces: CH3Cl (b.p. 249 K) < CH2Cl2 (313 K) < CHCl3 (334 K) < CCl4 (350 K).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-075",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following phenolic compounds in order of strictly increasing acidic strength (from weakest acid to strongest acid):",
+    "orderedItems": [
+      "p-Cresol (4-Methylphenol)",
+      "Phenol",
+      "p-Nitrophenol (4-Nitrophenol)",
+      "2,4,6-Trinitrophenol (Picric acid)"
+    ],
+    "explanation": "Electron-donating methyl group (+I, hyperconjugation) in p-cresol destabilises phenoxide ion, making it weaker than phenol. Electron-withdrawing nitro group (-I, -R) strongly stabilises the conjugate phenoxide ion. Picric acid with three -NO2 groups is strongly acidic (pKa ~ 0.38).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-076",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In the desalination of seawater by reverse osmosis, which synthetic polymeric membrane is commonly supported over an appropriate substrate because of its high permeability to water and impermeability to salt ions?",
+    "options": [
+      "Cellulose acetate",
+      "Polyvinyl chloride (PVC)",
+      "Polytetrafluoroethylene (Teflon)",
+      "Bakelite"
+    ],
+    "answer": 0,
+    "explanation": "Reverse osmosis utilizes a semipermeable membrane made of cellulose acetate film supported on an appropriate porous support. When pressure exceeding osmotic pressure is applied to saline water, pure water molecules pass through while hydrated salt ions are excluded.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-077",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Electrochemistry",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In a hydrogen-oxygen fuel cell operating at 298 K with aqueous KOH electrolyte, the net reaction is 2 H2(g) + O2(g) -> 2 H2O(l). What thermodynamic advantage does this cell offer over conventional thermal combustion power plants?",
+    "options": [
+      "Direct conversion of Gibbs free energy (Delta G) into electrical work, theoretically achieving up to 70-80% efficiency without Carnot cycle thermodynamic limitations",
+      "Production of hydrogen peroxide as a valuable commercial byproduct",
+      "Operation without any requirement for electrocatalysts like platinum",
+      "Generation of alternating current (AC) directly at high voltages"
+    ],
+    "answer": 0,
+    "explanation": "Fuel cells convert chemical energy of fuel directly into electricity without intermediate conversion to heat and mechanical work. Thus, efficiency is Delta G / Delta H (around 70-83%), completely bypassing the Carnot cycle thermodynamic limit of thermal power plants (~40%).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-078",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "When ethanol is heated with concentrated sulfuric acid (H2SO4) at 413 K, the predominant product is diethyl ether. However, when the reaction temperature is raised to 443 K, the major product is:",
+    "options": [
+      "Ethene (CH2=CH2)",
+      "Ethyl hydrogen sulfate",
+      "Ethanal (acetaldehyde)",
+      "Diethyl sulfate"
+    ],
+    "answer": 0,
+    "explanation": "Dehydration of ethanol is temperature-dependent: At 413 K with excess alcohol, intermolecular nucleophilic substitution yields diethyl ether: 2 C2H5OH -> C2H5-O-C2H5 + H2O. At 443 K, beta-elimination (E1) of water dominates to yield ethene: C2H5OH -> CH2=CH2 + H2O.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-079",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Aldehydes, Ketones and Carboxylic Acids",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Carboxylic acids having an alpha-hydrogen atom react with chlorine or bromine in the presence of a catalytic amount of red phosphorus to yield alpha-halocarboxylic acids. This reaction is known as the:",
+    "options": [
+      "Hell-Volhard-Zelinsky (HVZ) reaction",
+      "Rosenmund reaction",
+      "Kolbe electrolytic reaction",
+      "Hunsdiecker reaction"
+    ],
+    "answer": 0,
+    "explanation": "The Hell-Volhard-Zelinsky (HVZ) reaction specifically halogenates the alpha-carbon of carboxylic acids possessing alpha-hydrogens using X2 (Cl2 or Br2) in the presence of red phosphorus: R-CH2-COOH + X2 -(red P)-> R-CH(X)-COOH + HX.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-080",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Amines",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "When benzenediazonium chloride is treated with copper powder and hydrochloric acid (HCl) to produce chlorobenzene, the named reaction is:",
+    "options": [
+      "Gattermann reaction",
+      "Sandmeyer reaction",
+      "Balz-Schiemann reaction",
+      "Wurtz-Fittig reaction"
+    ],
+    "answer": 0,
+    "explanation": "Treating benzenediazonium chloride with copper powder and halogen acid (Cu/HCl or Cu/HBr) is the Gattermann reaction. When cuprous halides (Cu2Cl2/HCl or Cu2Br2/HBr) are used instead, it is the Sandmeyer reaction.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-081",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The chemistry of actinoids is substantially more complicated than that of lanthanoids because actinoids display a much wider range of oxidation states due to the comparable energy levels of their 5f, 6d, and 7s electrons.",
+    "answer": true,
+    "explanation": "In actinoids, the 5f, 6d, and 7s orbitals are of comparable energies, allowing electrons from all three subshells to participate in bonding and producing oxidation states ranging from +3 up to +7 (e.g., in Np, Pu).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-082",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Biomolecules",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Unlike maltose and lactose, sucrose is a non-reducing sugar because both the anomeric aldehyde carbon of alpha-D-glucose (C-1) and the anomeric ketone carbon of beta-D-fructose (C-2) are directly involved in forming the glycosidic bond.",
+    "answer": true,
+    "explanation": "In sucrose, the reducing functional groups of both monosaccharide units (C-1 of alpha-D-glucose and C-2 of beta-D-fructose) are tied up in the alpha-1,beta-2-glycosidic linkage, leaving no free hemiacetal or hemiketal group to reduce Tollens' or Fehling's reagents.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-083",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Chemical Kinetics",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The minimum excess kinetic energy that colliding reactant molecules must possess over and above their average energy to cross the potential energy barrier and form products is called the _____ energy.",
+    "answer": "activation",
+    "acceptedAnswers": [
+      "activation",
+      "activation energy"
+    ],
+    "explanation": "Activation energy Ea is the difference between threshold energy and average kinetic energy of reactant molecules: Ea = E_threshold - E_reactants.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-084",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The halogen exchange reaction in which an alkyl chloride or bromide is heated with sodium iodide (NaI) in dry acetone to prepare an alkyl iodide is named the _____ reaction.",
+    "answer": "Finkelstein",
+    "acceptedAnswers": [
+      "Finkelstein",
+      "Finkelstein reaction"
+    ],
+    "explanation": "Finkelstein reaction: R-X + NaI -(dry acetone)-> R-I + NaX (where X = Cl, Br). NaCl or NaBr precipitates out in dry acetone, driving the equilibrium forward by Le Chatelier's principle.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-085",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Amines",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each nitrogen-containing organic reaction with its distinctive synthetic application:",
+    "pairs": [
+      [
+        "Sandmeyer reaction",
+        "Conversion of diazonium salt to chlorobenzene using Cu2Cl2 / HCl"
+      ],
+      [
+        "Carbylamine test",
+        "Identification of primary amines using CHCl3 and alc. KOH"
+      ],
+      [
+        "Hofmann bromamide degradation",
+        "Preparation of 1° amine with one fewer carbon from primary amide"
+      ],
+      [
+        "Azo coupling reaction",
+        "Reaction of diazonium salt with phenol in alkaline medium to form azo dye"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These four reactions constitute core organic synthetic routes and analytical qualitative tests in Class 12 amine chemistry.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-086",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Calculate the van 't Hoff factor i (to two decimal places) of a 0.10 m aqueous solution of calcium nitrate Ca(NO3)2 that is 70% dissociated (degree of dissociation alpha = 0.70).",
+    "answer": 2.4,
+    "tolerance": 0.05,
+    "explanation": "Ca(NO3)2 dissociates according to: Ca(NO3)2 -> Ca2+ + 2 NO3- (number of particles n = 3). van 't Hoff factor i = 1 + (n - 1) * alpha = 1 + (3 - 1) * 0.70 = 1 + 2 * 0.70 = 1 + 1.40 = 2.40.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-087",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Electrochemistry",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A steady electric current of 1.50 A is passed through a copper sulfate (CuSO4) electrolytic solution for exactly 10 minutes (600 seconds). Calculate the mass of copper metal deposited at the cathode in grams (to two decimal places). (Molar mass of Cu = 63.5 g/mol, F = 96500 C/mol)",
+    "answer": 0.3,
+    "tolerance": 0.02,
+    "unit": "g",
+    "explanation": "Charge passed Q = I * t = 1.50 A * 600 s = 900 C. Cathode reduction: Cu2+ + 2 e- -> Cu (n = 2). Mass deposited m = (M * Q) / (n * F) = (63.5 g/mol * 900 C) / (2 * 96500 C/mol) = 57150 / 193000 = 0.2961 g approx 0.30 g.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-088",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Chemical Kinetics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A first-order reaction has a rate constant k = 60 s^-1. Calculate the time in seconds (to three decimal places) required to reduce the initial reactant concentration to 1/16 of its initial value.",
+    "answer": 0.046,
+    "tolerance": 0.003,
+    "unit": "s",
+    "explanation": "Reducing concentration to 1/16 = (1/2)^4 requires exactly 4 half-lives. Half-life t_1/2 = 0.693 / k = 0.693 / 60 s^-1 = 0.01155 s. Total time t = 4 * 0.01155 s = 0.0462 s approx 0.046 s.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-089",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Biomolecules",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "How many asymmetric (chiral) carbon centres are present in the open-chain Fischer projection formula of D-(+)-glucose?",
+    "answer": 4,
+    "tolerance": 0,
+    "explanation": "In open-chain aldohexose D-glucose (CHO - CHOH - CHOH - CHOH - CHOH - CH2OH), carbons C-2, C-3, C-4, and C-5 are chiral centres because each is bonded to four different chemical groups.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-090",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the chemical structure of the dichromate ion (Cr2O7 2-). How many bridging oxygen atoms connect the two tetrahedral chromium centres, and what is the approximate Cr-O-Cr bond angle?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"100\" cy=\"90\" r=\"18\" fill=\"#fdba74\" stroke=\"#ea580c\" stroke-width=\"2\"/><text x=\"92\" y=\"95\" font-size=\"13\" font-weight=\"bold\" fill=\"#7c2d12\">Cr</text><circle cx=\"240\" cy=\"90\" r=\"18\" fill=\"#fdba74\" stroke=\"#ea580c\" stroke-width=\"2\"/><text x=\"232\" y=\"95\" font-size=\"13\" font-weight=\"bold\" fill=\"#7c2d12\">Cr</text><circle cx=\"170\" cy=\"50\" r=\"14\" fill=\"#fed7aa\" stroke=\"#c2410c\" stroke-width=\"2\"/><text x=\"165\" y=\"55\" font-size=\"13\" font-weight=\"bold\" fill=\"#7c2d12\">O</text><line x1=\"113\" y1=\"78\" x2=\"158\" y2=\"57\" stroke=\"#ea580c\" stroke-width=\"2.5\"/><line x1=\"227\" y1=\"78\" x2=\"182\" y2=\"57\" stroke=\"#ea580c\" stroke-width=\"2.5\"/><text x=\"140\" y=\"30\" font-size=\"12\" font-weight=\"bold\" fill=\"#c2410c\">126°</text><text x=\"60\" y=\"150\" font-size=\"12\" fill=\"#7c2d12\">3 Terminal O on each Cr</text><text x=\"120\" y=\"170\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e293b\">[Cr₂O₇]²⁻ Ion</text></svg>"
+    },
+    "options": [
+      "One bridging oxygen atom with Cr-O-Cr bond angle of 126°",
+      "Two bridging oxygen atoms with Cr-O-Cr bond angle of 90°",
+      "Three bridging oxygen atoms with Cr-O-Cr bond angle of 109.5°",
+      "Zero bridging oxygen atoms (planar ring)"
+    ],
+    "answer": 0,
+    "explanation": "The dichromate ion Cr2O7 2- consists of two tetrahedral CrO4 units sharing a single corner oxygen atom (one Cr-O-Cr bridge) with a bond angle of 126° and six terminal Cr-O bonds.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-091",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Coordination Compounds",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The chemical structure shows the square planar coordination complex cis-[Pt(NH3)2Cl2], famously known as Cisplatin. What is its foremost therapeutic application in modern medicine?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"160\" cy=\"90\" r=\"18\" fill=\"#e2e8f0\" stroke=\"#0f172a\" stroke-width=\"2\"/><text x=\"152\" y=\"95\" font-size=\"13\" font-weight=\"bold\" fill=\"#0f172a\">Pt</text><line x1=\"145\" y1=\"75\" x2=\"105\" y2=\"45\" stroke=\"#0284c7\" stroke-width=\"2.5\"/><text x=\"75\" y=\"45\" font-size=\"13\" font-weight=\"bold\" fill=\"#0284c7\">NH₃</text><line x1=\"145\" y1=\"105\" x2=\"105\" y2=\"135\" stroke=\"#0284c7\" stroke-width=\"2.5\"/><text x=\"75\" y=\"145\" font-size=\"13\" font-weight=\"bold\" fill=\"#0284c7\">NH₃</text><line x1=\"175\" y1=\"75\" x2=\"215\" y2=\"45\" stroke=\"#16a34a\" stroke-width=\"2.5\"/><text x=\"220\" y=\"45\" font-size=\"13\" font-weight=\"bold\" fill=\"#16a34a\">Cl</text><line x1=\"175\" y1=\"105\" x2=\"215\" y2=\"135\" stroke=\"#16a34a\" stroke-width=\"2.5\"/><text x=\"220\" y=\"145\" font-size=\"13\" font-weight=\"bold\" fill=\"#16a34a\">Cl</text><text x=\"95\" y=\"170\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e293b\">cis-[Pt(NH₃)₂Cl₂] (Cisplatin)</text></svg>"
+    },
+    "options": [
+      "Potent chemotherapeutic antineoplastic drug for cancer treatment",
+      "Broad-spectrum antibacterial antibiotic",
+      "Cardiovascular vasodilator",
+      "Anti-inflammatory analgesic"
+    ],
+    "answer": 0,
+    "explanation": "Cisplatin (cis-diamminedichloroplatinum(II)) binds to crosslink purine bases in cellular DNA, inhibiting DNA replication and triggering apoptosis in cancer cells. The trans isomer (Transplatin) is therapeutically inactive.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-092",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Define an ideal solution and write the two thermodynamic enthalpy and volume conditions that it must satisfy across all concentrations.",
+    "answer": "An ideal solution is a solution in which each component obeys Raoult's law at all concentrations and temperatures. It must satisfy: (1) Enthalpy of mixing is zero (Delta_mix H = 0); (2) Volume change of mixing is zero (Delta_mix V = 0).",
+    "acceptedAnswers": [
+      "A solution obeying Raoult's law over entire concentration range where Delta_mix H = 0 and Delta_mix V = 0",
+      "A solution that obeys Raoult's law with Delta H mixing = 0 and Delta V mixing = 0",
+      "Obeys Raoult's law with no change in enthalpy and no change in volume on mixing"
+    ],
+    "keywords": [
+      "ideal solution",
+      "Raoult's law",
+      "Delta_mix H = 0",
+      "Delta_mix V = 0",
+      "enthalpy",
+      "volume"
+    ],
+    "explanation": "In an ideal solution, intermolecular forces between solute-solvent (A-B) are identical in magnitude to pure components (A-A and B-B), leading to zero heat change and zero volume change upon mixing.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-093",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Chemical Kinetics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Distinguish between the order of a reaction and the molecularity of a reaction on two fundamental physical criteria.",
+    "answer": "1. Order of a reaction is an experimentally determined quantity that equals the sum of powers of concentration terms in the rate law (can be zero, integer, or fractional). Molecularity is a theoretical concept representing the number of reacting species colliding simultaneously in an elementary step (must be a positive integer 1, 2, or 3, never zero or fractional). 2. Order applies to both elementary and complex multi-step reactions, whereas molecularity is meaningful only for individual elementary reactions.",
+    "acceptedAnswers": [
+      "Order is experimental and can be fractional or zero; molecularity is theoretical, applies to elementary steps only, and must be non-zero positive integer",
+      "Order is experimentally determined and can be zero or fraction; molecularity is theoretical and always a whole number",
+      "Order can be zero/fractional and applies to complex reactions; molecularity is only for elementary steps and must be a positive integer"
+    ],
+    "keywords": [
+      "order",
+      "molecularity",
+      "experimental",
+      "theoretical",
+      "elementary",
+      "zero or fractional",
+      "positive integer"
+    ],
+    "explanation": "Order is derived from experimental rate law and can be 0, 1/2, 2, etc. Molecularity counts actual colliding reactant molecules in an elementary step and cannot be 0 or fractional.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-094",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "The d- and f-Block Elements",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): Transition metals and their ions form a remarkably large number of stable coordination complexes.\nReason (R): Transition metal ions possess comparatively small ionic sizes, high effective nuclear charges, and energetically accessible vacant (n-1)d orbitals that can accept electron pairs from ligands.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Complex formation by transition metals is promoted by their high charge density (high charge/radius ratio) and the presence of vacant (n-1)d, ns, and np orbitals of appropriate symmetry and energy to form coordinate covalent bonds with ligand lone pairs.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-095",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Alcohols, Phenols and Ethers",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): Ethanol (C2H5OH) has a much higher boiling point (351 K) than its constitutional isomer dimethyl ether (CH3OCH3, 249 K).\nReason (R): In ethanol, the highly electronegative oxygen atom bonded to hydrogen creates strong intermolecular hydrogen bonding, which is completely absent in ethers.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Alcohols contain polar -O-H bonds capable of forming extensive intermolecular hydrogen-bonded networks, requiring substantial thermal energy to separate molecules. In ethers, oxygen is bonded only to carbons, so only dipole-dipole and dispersion forces exist.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-096",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Solutions",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following colligative properties depend directly on the number of solute particles rather than their chemical identity in dilute solutions? (Select all that apply)",
+    "options": [
+      "Relative lowering of vapour pressure (Delta P / P°)",
+      "Elevation of boiling point (Delta T_b)",
+      "Depression of freezing point (Delta T_f)",
+      "Osmotic pressure of the solution (pi)"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "All four are colligative properties whose magnitude depends solely on the ratio of solute particles to solvent molecules: Delta P / P° = x2; Delta T_b = i Kb m; Delta T_f = i Kf m; and pi = i C R T.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-097",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Haloalkanes and Haloarenes",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following reaction conditions and structural factors favor an SN2 nucleophilic substitution pathway over an SN1 pathway? (Select all that apply)",
+    "options": [
+      "Primary (1°) alkyl halide substrate with low steric hindrance at the reaction centre",
+      "High concentration of a strong, unhindered nucleophile (e.g., OH⁻, CN⁻)",
+      "Polar aprotic solvent such as acetone, DMSO, or DMF",
+      "Tertiary (3°) alkyl halide substrate forming a highly stable carbocation"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "SN2 is favoured by: unhindered substrates (primary > secondary > tertiary); strong nucleophiles (rate depends on [Nu]); and polar aprotic solvents (which do not solvate anions, keeping nucleophile naked and reactive). Tertiary halides favour SN1 instead.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-098",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Coordination Compounds",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following coordination entities are low-spin and completely diamagnetic (zero unpaired electrons)? (Select all that apply)",
+    "options": [
+      "[Co(NH3)6]3+ (Co3+ with strong-field NH3 ligands)",
+      "[Fe(CN)6]4- (Fe2+ with strong-field CN- ligands)",
+      "[Ni(CO)4] (Ni(0) with strong-field CO ligands)",
+      "[FeF6]3- (Fe3+ with weak-field F- ligands)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "[Co(NH3)6]3+ has Co3+ (d6); strong field pairs all 6 electrons in t2g^6 eg^0 (diamagnetic). [Fe(CN)6]4- has Fe2+ (d6); strong CN- pairs all electrons in t2g^6 (diamagnetic). [Ni(CO)4] has Ni(0) with d10 sp3 (diamagnetic). [FeF6]3- has Fe3+ (d5) with weak F- giving high-spin t2g^3 eg^2 with 5 unpaired electrons (paramagnetic).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-099",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Chemical Kinetics",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the chronological microscopic events in collision theory leading to an effective chemical reaction between two reactant molecules:",
+    "orderedItems": [
+      "Thermal translational diffusion of reactant molecules through the medium",
+      "Physical collision between the two reactant species",
+      "Possession of kinetic energy equal to or exceeding the activation energy threshold",
+      "Proper spatial orientation of colliding molecules at the moment of impact",
+      "Breaking of old bonds and formation of activated complex leading to products"
+    ],
+    "explanation": "Collision theory states: molecules must collide, must have sufficient activation energy, and must have proper spatial orientation during the collision to transform into products.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-chem-100",
+    "class": 12,
+    "subject": "chemistry",
+    "chapter": "Electrochemistry",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following metals in order of increasing reducing power in aqueous solution (weakest reducing agent to strongest reducing agent) based on their standard reduction potentials (E°):",
+    "orderedItems": [
+      "Silver (Ag⁺/Ag, E° = +0.80 V)",
+      "Copper (Cu²⁺/Cu, E° = +0.34 V)",
+      "Iron (Fe²⁺/Fe, E° = -0.44 V)",
+      "Zinc (Zn²⁺/Zn, E° = -0.76 V)",
+      "Magnesium (Mg²⁺/Mg, E° = -2.37 V)"
+    ],
+    "explanation": "The more negative the standard reduction potential (E°), the greater the tendency of the metal to lose electrons (undergo oxidation) and act as a strong reducing agent: Ag (+0.80 V) < Cu (+0.34 V) < Fe (-0.44 V) < Zn (-0.76 V) < Mg (-2.37 V).",
+    "marks": 1,
+    "volatile": false
+  }
+]

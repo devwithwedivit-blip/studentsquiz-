@@ -1,0 +1,1828 @@
+[
+  {
+    "id": "c12-cs-001",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python Functions",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Python, which order of scope resolution is followed when searching for a variable name?",
+    "options": [
+      "LEGB rule (Local, Enclosing, Global, Built-in)",
+      "LGBE rule (Local, Global, Built-in, Enclosing)",
+      "GELB rule (Global, Enclosing, Local, Built-in)",
+      "BLEG rule (Built-in, Local, Enclosing, Global)"
+    ],
+    "answer": 0,
+    "explanation": "Python resolves identifiers using the LEGB rule: first checking Local scope, then Enclosing (nested function), then Global (module level), and finally Built-in namespace.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-002",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python Functions",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "What is the output of the following Python code?\n\ndef addItem(item, lst=[]):\n    lst.append(item)\n    return lst\n\nprint(addItem(1))\nprint(addItem(2, []))\nprint(addItem(3))",
+    "options": [
+      "[1]\n[2]\n[1, 3]",
+      "[1]\n[2]\n[3]",
+      "[1]\n[1, 2]\n[1, 2, 3]",
+      "[1]\n[2]\n[1, 2, 3]"
+    ],
+    "answer": 0,
+    "explanation": "Default parameter objects are evaluated once when the function is defined. The first call appends 1 to the default list `[1]`. The second call provides a new list `[]`, returning `[2]`. The third call reuses the modified default list, appending 3 to produce `[1, 3]`.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-003",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python Functions",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In a Python function header `def display(a, *b, **c):`, what are the data types of parameter variables `b` and `c` inside the function body?",
+    "options": [
+      "`b` is a tuple, `c` is a dictionary",
+      "`b` is a list, `c` is a tuple",
+      "`b` is a list, `c` is a dictionary",
+      "`b` is a tuple, `c` is a list"
+    ],
+    "answer": 0,
+    "explanation": "`*args` collects positional arguments into a immutable tuple, while `**kwargs` collects keyword arguments into a key-value dictionary.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-004",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Exception Handling",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Python's structured exception handling, when is the code inside the `else` block executed?",
+    "options": [
+      "Only when no exception is raised in the `try` block",
+      "Only when an exception is caught and handled by an `except` block",
+      "Always, regardless of whether an exception occurred",
+      "Only when the `finally` block raises an unhandled error"
+    ],
+    "answer": 0,
+    "explanation": "The `else` block in a `try...except...else...finally` statement runs only if the `try` suite terminates normally without raising any exceptions.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-005",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which file method reads the entire remaining content of a text file and returns it as a list of strings, where each element is a single line?",
+    "options": [
+      "file.readlines()",
+      "file.readline()",
+      "file.read()",
+      "file.readall()"
+    ],
+    "answer": 0,
+    "explanation": "`file.readlines()` reads all remaining lines from the file object and returns them as a list of line strings including newline characters.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-006",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If a text file `notes.txt` contains 100 bytes, what will `f.seek(15, 0)` followed by `f.tell()` return in Python?",
+    "options": [
+      "15",
+      "0",
+      "85",
+      "100"
+    ],
+    "answer": 0,
+    "explanation": "`f.seek(offset, 0)` moves the file pointer relative to the beginning of the file (when `whence` is 0). `f.tell()` reports the current byte offset, which is 15.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-007",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python Functions",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Inside a local function, assigning a value to a global variable without declaring it with the `global` statement creates a new local variable of the same name.",
+    "answer": true,
+    "explanation": "In Python, any assignment to a variable name inside a function scope marks it as local by default unless declared with `global` (or `nonlocal`).",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-008",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Opening an existing text file with mode `'w+'` positions the file pointer at the end of the file and preserves existing content.",
+    "answer": false,
+    "explanation": "Opening in `'w+'` mode truncates (erases) the existing file content to 0 bytes upon opening for both reading and writing.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-009",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python Functions",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In recursive functions, the condition that terminates successive recursive calls and prevents infinite recursion is known as the _____ case.",
+    "answer": "base",
+    "acceptedAnswers": [
+      "base",
+      "base case",
+      "stopping"
+    ],
+    "explanation": "The base case is the terminating condition in a recursive algorithm that stops further self-invocations and unwinds the call stack.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-010",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Exception Handling",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In Python, the _____ statement is explicitly used to trigger or throw an exception programmatically.",
+    "answer": "raise",
+    "acceptedAnswers": [
+      "raise"
+    ],
+    "explanation": "The `raise` statement forces a specified exception to occur, e.g., `raise ValueError('Invalid argument')`.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-011",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Opening a file using the _____ statement automatically ensures that the file descriptor is closed when the block is exited, even if an exception occurs.",
+    "answer": "with",
+    "acceptedAnswers": [
+      "with",
+      "with statement"
+    ],
+    "explanation": "The `with` statement utilizes Python's context manager protocol (`__enter__` and `__exit__`) to guarantee file closure.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-012",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Exception Handling",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each Python runtime error situation with its corresponding built-in exception class:",
+    "pairs": [
+      [
+        "Accessing dictionary key that does not exist",
+        "KeyError"
+      ],
+      [
+        "Converting non-numeric string 'abc' to int",
+        "ValueError"
+      ],
+      [
+        "Using undefined variable identifier",
+        "NameError"
+      ],
+      [
+        "Division by numerical zero",
+        "ZeroDivisionError"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Missing dict key raises KeyError; invalid conversion type raises ValueError; undefined names raise NameError; 1/0 raises ZeroDivisionError.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-013",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python Functions",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Consider the recursive function:\n\ndef countCalls(n):\n    if n <= 1:\n        return 1\n    return countCalls(n - 1) + countCalls(n - 2)\n\nHow many total invocations (calls) of `countCalls` are made to evaluate `countCalls(4)` (including the initial call)?",
+    "answer": 9,
+    "tolerance": 0,
+    "explanation": "Tree of calls: countCalls(4) calls (3) and (2). (3) calls (2) and (1). (2) calls (1) and (0). Total calls = 1 + 2 + 4 + 2 = 9 calls.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-014",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A file contains text 'EXAM2026\\nPASS'. A program executes:\n\nf = open('data.txt', 'r')\nf.seek(4)\ntext = f.read(3)\npos = f.tell()\n\nWhat integer value does `pos` contain?",
+    "answer": 7,
+    "tolerance": 0,
+    "explanation": "`f.seek(4)` places the file pointer at byte index 4. `f.read(3)` reads 3 characters ('202') advancing the pointer 3 bytes. `f.tell()` returns 4 + 3 = 7.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-015",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python Functions",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "What integer value is returned by the function call `calc(3, 4)`?\n\ndef calc(base, exp):\n    if exp == 0:\n        return 1\n    return base * calc(base, exp - 1)",
+    "answer": 81,
+    "tolerance": 0,
+    "explanation": "The recursive function computes 3^4 = 3 * 3 * 3 * 3 = 81.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-016",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python Functions",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the nested namespace resolution diagram shown, which scope tier is represented by label [ ? ] between Enclosing and Built-in?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 240' width='100%' height='240'><rect width='500' height='240' fill='#f8fafc'/><circle cx='250' cy='120' r='100' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><circle cx='250' cy='120' r='75' fill='#cbd5e1' stroke='#475569' stroke-width='2'/><circle cx='250' cy='120' r='50' fill='#94a3b8' stroke='#64748b' stroke-width='2'/><circle cx='250' cy='120' r='25' fill='#64748b' stroke='#0f172a' stroke-width='2'/><text x='250' y='125' font-size='11' font-weight='bold' text-anchor='middle' fill='#ffffff'>Local</text><text x='250' y='80' font-size='12' font-weight='bold' text-anchor='middle' fill='#0f172a'>Enclosing</text><text x='250' y='58' font-size='14' font-weight='bold' text-anchor='middle' fill='#1e293b'>[ ? ]</text><text x='250' y='32' font-size='13' font-weight='bold' text-anchor='middle' fill='#334155'>Built-in Scope</text></svg>"
+    },
+    "options": [
+      "Global Scope (module-level namespace)",
+      "Package Scope",
+      "Class Scope",
+      "Object Heap Scope"
+    ],
+    "answer": 0,
+    "explanation": "The LEGB hierarchy resolves from innermost to outermost: Local -> Enclosing -> Global -> Built-in. The label between Enclosing and Built-in is Global scope.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-017",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python Functions",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "In a Python function call, can positional arguments appear after keyword arguments? (State 'Yes' or 'No')",
+    "answer": "No",
+    "acceptedAnswers": [
+      "No",
+      "no",
+      "NO"
+    ],
+    "keywords": [
+      "No"
+    ],
+    "explanation": "Python syntax enforces that all positional arguments must precede any keyword arguments in a function call; otherwise a `SyntaxError: positional argument follows keyword argument` is raised.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-018",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Exception Handling",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Which block in a Python `try` statement is guaranteed to execute whether an exception occurs or not, primarily used for cleanup activities?",
+    "answer": "finally",
+    "acceptedAnswers": [
+      "finally",
+      "finally block",
+      "the finally block"
+    ],
+    "keywords": [
+      "finally"
+    ],
+    "explanation": "The `finally` block always executes during normal termination, unhandled exceptions, and even when a `return`, `break`, or `continue` statement is encountered in `try` or `except`.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-019",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Which built-in file object method returns the current byte position of the file pointer within an open file?",
+    "answer": "tell()",
+    "acceptedAnswers": [
+      "tell()",
+      "tell",
+      "f.tell()",
+      "f.tell"
+    ],
+    "keywords": [
+      "tell"
+    ],
+    "explanation": "The `tell()` method returns an integer representing the current byte position of the file pointer from the beginning of the file.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-020",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python Functions",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): When a mutable object (like a list) is passed into a Python function and modified via in-place methods like `.append()`, changes reflect in the caller's scope.\nReason (R): Python uses pass-by-object-reference, so the local parameter variable and the caller's argument bind to the exact same mutable object in memory.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Python passes object references. Modifying a mutable object through its reference modifies the underlying data structure in heap memory, making changes visible to the caller.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-021",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): In text mode on Windows, Python automatically translates platform-specific newline characters (`\\r\\n`) to standard `\\n` upon reading.\nReason (R): Opening a file in binary mode (`'rb'`) disables automatic newline character translation, preserving exact raw byte sequences.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 1,
+    "explanation": "Both statements are factually true regarding universal newline handling in Python text vs binary streams, but Reason (R) describes binary mode behavior rather than explaining the design rationale of text translation.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-022",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding Python file reading operations are TRUE? (Select all correct options)",
+    "options": [
+      "`f.read()` returns an empty string `\"\"` when the end-of-file (EOF) is reached.",
+      "`f.readline()` returns a string containing the next line, terminating with `\\n` unless at the last line.",
+      "`f.readlines()` returns a single comma-separated string containing all lines.",
+      "`f.read(n)` reads at most `n` characters/bytes from the current file pointer position."
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "`f.read()` returns empty string at EOF; `f.readline()` reads one line with newline; `f.read(n)` reads up to n chars. `f.readlines()` returns a list of strings, not a single string.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-023",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python Functions",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following Python function definitions are SYNTACTICALLY VALID? (Select all correct options)",
+    "options": [
+      "`def compute(x, y=10, z=20):`",
+      "`def compute(x=10, y, z=20):`",
+      "`def process(a, b, *args, key=None):`",
+      "`def handle(*args, **kwargs):`"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "Option B is invalid because non-default argument `y` follows default argument `x=10` (SyntaxError). Options A, C, and D conform to valid Python argument ordering grammar.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-024",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Exception Handling",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the standard blocks of a comprehensive Python exception handling construct in their mandatory syntactical sequence:",
+    "orderedItems": [
+      "`try` block (code that may raise an error)",
+      "`except` block (catches and processes specific exceptions)",
+      "`else` block (runs only if no exception occurred)",
+      "`finally` block (always runs regardless of outcome)"
+    ],
+    "explanation": "The strict syntactical order of an exception handling compound statement in Python is: `try` -> `except` -> `else` -> `finally`.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-025",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential steps to count lines starting with letter 'P' in a text file using proper resource management:",
+    "orderedItems": [
+      "Initialize counter variable `count = 0`",
+      "Open file using `with open('report.txt', 'r') as file:`",
+      "Iterate over lines using `for line in file:`",
+      "Check condition `if line.strip().startswith('P'):` and increment `count += 1`"
+    ],
+    "explanation": "Correct algorithmic sequence: initialize counter -> open file context -> iterate through lines -> check prefix condition and increment count.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-026",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which function in Python's `pickle` module serializes a Python object hierarchy and writes it directly to an open binary file?",
+    "options": [
+      "`pickle.dump(object, file_handle)`",
+      "`pickle.dumps(object, file_handle)`",
+      "`pickle.load(object, file_handle)`",
+      "`pickle.write(object, file_handle)`"
+    ],
+    "answer": 0,
+    "explanation": "`pickle.dump(obj, file)` writes the pickled representation of `obj` to the open file object `file`. `pickle.dumps()` returns bytes instead of writing to a file.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-027",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "When reading sequentially from a binary file using `pickle.load()` inside an infinite `while True:` loop, which exception indicates that the end of file has been reached?",
+    "options": [
+      "`EOFError`",
+      "`FileNotFoundError`",
+      "`StopIteration`",
+      "`IndexError`"
+    ],
+    "answer": 0,
+    "explanation": "Unlike text files which return an empty string at end-of-file, `pickle.load()` raises `EOFError` when there are no more bytes to unpickle.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-028",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Why is `open('data.csv', 'w', newline='')` specified with `newline=''` when creating and writing to a CSV file on Windows using the `csv` module?",
+    "options": [
+      "To prevent unwanted blank lines from being inserted between rows due to automatic newline translation",
+      "To compress CSV text files to use less disk space",
+      "To force the writer to use semicolons instead of commas",
+      "To allow Unicode emojis to be written without encoding errors"
+    ],
+    "answer": 0,
+    "explanation": "On Windows, default text mode writes `\\r\\n`. The `csv.writer` also terminates rows with `\\r\\n`. Without `newline=''`, Python translates `\\r\\n` into `\\r\\r\\n`, creating blank lines between records.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-029",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which method of a CSV writer object is used to write multiple rows simultaneously from a list of lists or sequence of iterables?",
+    "options": [
+      "`writer.writerows(list_of_rows)`",
+      "`writer.writerow(list_of_rows)`",
+      "`writer.dumpall(list_of_rows)`",
+      "`writer.writelines(list_of_rows)`"
+    ],
+    "answer": 0,
+    "explanation": "`writerows()` iterates through an iterable of row objects and formats and writes each row according to the current dialect settings.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-030",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "A Stack is a linear data structure that operates under which fundamental data access principle?",
+    "options": [
+      "LIFO (Last In, First Out)",
+      "FIFO (First In, First Out)",
+      "LILO (Last In, Last Out)",
+      "Random Access"
+    ],
+    "answer": 0,
+    "explanation": "A Stack is restricted to additions and removals only at one end called the 'top', making the most recently inserted element the first one to be removed (LIFO).",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-031",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "What is the final result of evaluating the postfix expression `8 3 2 * + 4 -` using an operand stack?",
+    "options": [
+      "10",
+      "18",
+      "6",
+      "14"
+    ],
+    "answer": 0,
+    "explanation": "Evaluation steps:\nPush 8, 3, 2. Op `*`: pop 2 and 3, compute 3*2 = 6, push 6. Op `+`: pop 6 and 8, compute 8+6 = 14, push 14. Push 4. Op `-`: pop 4 and 14, compute 14-4 = 10.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-032",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In Python, serialization (also known as pickling) refers to the process of converting a Python object hierarchy into a byte stream for storage or transmission.",
+    "answer": true,
+    "explanation": "Pickling/serialization converts in-memory objects (dicts, lists, custom objects) into a byte stream that can be stored on disk or transmitted over a network.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-033",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The `csv.reader()` function can read files delimited by tab characters (`\\t`) by explicitly passing the parameter `delimiter='\\t'`.",
+    "answer": true,
+    "explanation": "The `delimiter` parameter accepts any single-character string, allowing TSV (tab-separated values) or pipe-delimited files to be parsed seamlessly.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-034",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Attempting to delete or pop an item from an already empty stack is called Stack Overflow.",
+    "answer": false,
+    "explanation": "Attempting to pop from an empty stack causes 'Stack Underflow'. 'Stack Overflow' occurs when attempting to push onto a full stack in a fixed-size memory structure.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-035",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In Python, the `pickle._____()` function reconstructs and returns a Python object hierarchy from an open binary file.",
+    "answer": "load",
+    "acceptedAnswers": [
+      "load",
+      "load()"
+    ],
+    "explanation": "`pickle.load(file_object)` deserializes the byte stream read from the file object back into native Python data types.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-036",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "When implementing a Stack using a Python list `stk`, the element at index `stk[_____]` represents the top element of the stack without removing it.",
+    "answer": "-1",
+    "acceptedAnswers": [
+      "-1",
+      "len(stk)-1",
+      "len(stk) - 1"
+    ],
+    "explanation": "In Python list implementation of a stack, `stk[-1]` accesses the last appended item at the top of the stack.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-037",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each file opening mode string with its exact operational behavior:",
+    "pairs": [
+      [
+        "'rb'",
+        "Read-only mode for binary files (file pointer at beginning)"
+      ],
+      [
+        "'wb'",
+        "Write-only binary mode (overwrites/truncates existing file)"
+      ],
+      [
+        "'ab'",
+        "Append binary mode (writes added at end of file)"
+      ],
+      [
+        "'r+'",
+        "Read and write mode for text files without automatic truncation"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "'rb' reads binary; 'wb' creates/overwrites binary; 'ab' appends to binary; 'r+' opens existing text file for both read and update.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-038",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the theoretical stack primitive operation with its standard Python list implementation statement:",
+    "pairs": [
+      [
+        "Push element `x`",
+        "`stk.append(x)`"
+      ],
+      [
+        "Pop top element",
+        "`stk.pop()`"
+      ],
+      [
+        "Peek / Top element inspect",
+        "`stk[-1]`"
+      ],
+      [
+        "Check isEmpty condition",
+        "`len(stk) == 0`"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "In list-based stack: push is `append()`; pop is `pop()`; peek is `stk[-1]`; isEmpty checks `len(stk) == 0`.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-039",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Evaluate the postfix expression `12 4 / 5 * 2 +` using stack evaluation. What integer is obtained?",
+    "answer": 17,
+    "tolerance": 0,
+    "explanation": "1. 12 4 / = 3. Stack: [3].\n2. 3 5 * = 15. Stack: [15].\n3. 15 2 + = 17. Final result = 17.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-040",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Starting with an empty stack `S`, the following operations are executed:\nPush(10), Push(20), Pop(), Push(30), Push(40), Push(50), Pop(), Pop(), Push(60).\nHow many elements currently remain in stack `S`?",
+    "answer": 3,
+    "tolerance": 0,
+    "explanation": "Trace:\nPush(10) -> [10]\nPush(20) -> [10, 20]\nPop() -> [10]\nPush(30) -> [10, 30]\nPush(40) -> [10, 30, 40]\nPush(50) -> [10, 30, 40, 50]\nPop() -> [10, 30, 40]\nPop() -> [10, 30]\nPush(60) -> [10, 30, 60]. Total length = 3.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-041",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the stack memory diagram shown, which entry corresponds to the TOP element that will be removed by the next `pop()` operation?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 240' width='100%' height='240'><rect width='500' height='240' fill='#f8fafc'/><rect x='180' y='30' width='140' height='180' fill='none' stroke='#334155' stroke-width='3'/><line x1='180' y1='30' x2='320' y2='30' stroke='none'/><rect x='190' y='160' width='120' height='40' fill='#cbd5e1' stroke='#475569' stroke-width='2'/><text x='250' y='185' font-size='14' text-anchor='middle' fill='#0f172a'>Node A (base)</text><rect x='190' y='110' width='120' height='40' fill='#cbd5e1' stroke='#475569' stroke-width='2'/><text x='250' y='135' font-size='14' text-anchor='middle' fill='#0f172a'>Node B</text><rect x='190' y='60' width='120' height='40' fill='#fef08a' stroke='#ca8a04' stroke-width='2'/><text x='250' y='85' font-size='14' font-weight='bold' text-anchor='middle' fill='#854d0e'>Node C</text><path d='M340 80 L 370 80' stroke='#dc2626' stroke-width='3' marker-end='url(#arrow)'/><text x='380' y='85' font-size='14' font-weight='bold' fill='#dc2626'>TOP</text></svg>"
+    },
+    "options": [
+      "Node C",
+      "Node A",
+      "Node B",
+      "Base pointer"
+    ],
+    "answer": 0,
+    "explanation": "In a LIFO stack, insertions and deletions happen at the TOP. Node C is at the open top of the stack and is therefore the next node to be popped.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-042",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "In the data persistence cycle shown, which process converts a binary byte stream stored on disk back into a live Python object in memory (label [ ? ])?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 200' width='100%' height='200'><rect width='500' height='200' fill='#f1f5f9'/><rect x='30' y='70' width='140' height='60' rx='8' fill='#dbeafe' stroke='#2563eb' stroke-width='2'/><text x='100' y='98' font-size='14' font-weight='bold' text-anchor='middle' fill='#1e40af'>Python Object</text><text x='100' y='118' font-size='12' text-anchor='middle' fill='#1e3a8a'>(Dict / List in RAM)</text><rect x='330' y='70' width='140' height='60' rx='8' fill='#fef3c7' stroke='#d97706' stroke-width='2'/><text x='400' y='98' font-size='14' font-weight='bold' text-anchor='middle' fill='#92400e'>Binary File</text><text x='400' y='118' font-size='12' text-anchor='middle' fill='#78350f'>('data.dat' on Disk)</text><path d='M175 80 L 325 80' stroke='#16a34a' stroke-width='2'/><text x='250' y='72' font-size='13' font-weight='bold' text-anchor='middle' fill='#15803d'>pickle.dump()</text><path d='M325 120 L 175 120' stroke='#9333ea' stroke-width='2'/><text x='250' y='142' font-size='14' font-weight='bold' text-anchor='middle' fill='#6b21a8'>[ ? ]</text></svg>"
+    },
+    "options": [
+      "Deserialization / Unpickling (`pickle.load()`)",
+      "Parsing / JSON Serialization",
+      "Compilation (`compile()`)",
+      "Garbage Collection"
+    ],
+    "answer": 0,
+    "explanation": "Converting stored byte streams back into in-memory Python objects is termed deserialization (or unpickling), accomplished via `pickle.load()`.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-043",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Name the built-in exception raised by `pickle.load()` when it attempts to read beyond the end of a binary file.",
+    "answer": "EOFError",
+    "acceptedAnswers": [
+      "EOFError",
+      "EOF Error",
+      "eof error"
+    ],
+    "keywords": [
+      "EOFError"
+    ],
+    "explanation": "`EOFError` (End Of File Error) is raised when `pickle.load()` reaches the end of the input byte stream without finding an object terminator.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-044",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What term describes the stack operation of inspecting the value of the topmost element without deleting it from the stack?",
+    "answer": "peek",
+    "acceptedAnswers": [
+      "peek",
+      "peek operation",
+      "top",
+      "peep"
+    ],
+    "keywords": [
+      "peek"
+    ],
+    "explanation": "The `peek` (or `peep`) operation inspects the current top element of the stack without modifying the stack structure.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-045",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Binary files are generally more efficient in storage and execution speed than text files for numeric data.\nReason (R): Binary files store data in the computer's internal binary representation (raw bytes) without performing ASCII or Unicode string formatting translations.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Storing integers or floats in binary preserves exact memory byte layouts (e.g., 4 or 8 bytes) rather than converting digits to variable-length character encodings, saving space and conversion time.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-046",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): During the conversion of an infix expression with parentheses to postfix using a stack, parentheses never appear in the final postfix expression.\nReason (R): Parentheses merely dictate operator precedence during parsing and are popped and discarded when a matching right parenthesis `')'` is encountered.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Postfix notation is completely unambiguous without grouping symbols because the position of operators inherently specifies their exact evaluation sequence.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-047",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following statements about the Python `csv` module are TRUE? (Select all correct options)",
+    "options": [
+      "The `csv.reader()` object returns an iterator where each row is parsed as a list of strings.",
+      "All numeric values read from a CSV file via `csv.reader` are returned as Python strings by default.",
+      "The default delimiter used by `csv.reader` and `csv.writer` is a comma (`,`).",
+      "The `csv` module cannot handle data containing commas even if enclosed in quotation marks."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Option D is false because RFC 4180 / csv module automatically supports quotation marks to encapsulate fields containing commas.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-048",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following computational processes fundamentally utilize a Stack data structure? (Select all correct options)",
+    "options": [
+      "Balancing of parentheses and brackets in compiler parsing",
+      "Function call execution and recursion call stack management",
+      "Undo / Redo operation mechanisms in text editors",
+      "CPU round-robin scheduling of ready processes in an operating system"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Parenthesis matching, recursion tracking, and Undo/Redo all follow LIFO stack ordering. CPU round-robin scheduling uses a FIFO Queue, not a Stack.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-049",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "File Handling",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential steps to search and update a specific student's marks in a binary file using Python's `pickle` module:",
+    "orderedItems": [
+      "Open source binary file in `'rb'` mode and temporary file in `'wb'` mode",
+      "Iterate in a `try...except EOFError` loop using `pickle.load()`",
+      "Check if record matches search key; if matched, modify marks in the record dictionary",
+      "Write records into temporary file using `pickle.dump()`",
+      "Close both files, remove original file, and rename temporary file to original name"
+    ],
+    "explanation": "Standard update procedure in binary files: open source and temp files -> read records sequentially -> update target record in memory -> dump to temp file -> replace original file.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-050",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Data Structures",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the algorithmic steps to process a token in Infix to Postfix conversion using an operator stack:",
+    "orderedItems": [
+      "If the incoming token is an operand, directly append it to the postfix expression",
+      "If the token is `'('`, push it onto the operator stack",
+      "If the token is an operator, pop operators with higher or equal precedence to output, then push the incoming operator",
+      "If the token is `')'`, pop operators to output until `'('` is popped and discarded",
+      "At end of expression, pop all remaining operators from the stack to the output"
+    ],
+    "explanation": "Standard Shunting Yard algorithm: append operands -> push '(' -> precedence-check and push operators -> unroll on ')' -> pop remaining operators at EOF.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-051",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which transmission medium transmits data as pulses of light utilizing the physical principle of Total Internal Reflection (TIR)?",
+    "options": [
+      "Optical Fiber Cable",
+      "Shielded Twisted Pair (STP)",
+      "Coaxial Cable",
+      "Infrared Waveguide"
+    ],
+    "answer": 0,
+    "explanation": "Optical fiber cables transmit digital signals as light pulses guided through a glass/plastic core by total internal reflection at the core-cladding boundary.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-052",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which interconnecting network device acts as a protocol converter enabling communication between two completely dissimilar networks running different protocol suites?",
+    "options": [
+      "Gateway",
+      "Repeater",
+      "Bridge",
+      "Hub"
+    ],
+    "answer": 0,
+    "explanation": "A Gateway operates across all layers of the OSI model to translate between entirely different networking architectures and communication protocols.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-053",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which protocol is primarily used for uploading and sending outgoing electronic mail from a mail client to an email server?",
+    "options": [
+      "SMTP (Simple Mail Transfer Protocol)",
+      "POP3 (Post Office Protocol 3)",
+      "IMAP (Internet Message Access Protocol)",
+      "FTP (File Transfer Protocol)"
+    ],
+    "answer": 0,
+    "explanation": "SMTP is a push protocol designed for sending outgoing emails, whereas POP3 and IMAP are pull protocols used for retrieving emails from a mailbox server.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-054",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which technology protocol suite enables real-time delivery of voice communications and multimedia sessions over Internet Protocol networks instead of traditional PSTN telephone lines?",
+    "options": [
+      "VoIP (Voice over Internet Protocol)",
+      "WLL (Wireless Local Loop)",
+      "GPRS (General Packet Radio Service)",
+      "PPP (Point-to-Point Protocol)"
+    ],
+    "answer": 0,
+    "explanation": "VoIP converts analog voice signals into digital packets and routes them over IP networks like the Internet, replacing circuit-switched telephone networks.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-055",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In a multi-wing campus network design problem, according to standard CBSE network design principles, in which wing or block should the central server be placed?",
+    "options": [
+      "The wing housing the maximum number of computers (the 80-20 traffic rule)",
+      "The wing geographically closest to the campus entrance gate",
+      "The wing with the fewest computers to minimize noise",
+      "Any wing chosen arbitrarily, as location has zero effect on cabling cost"
+    ],
+    "answer": 0,
+    "explanation": "Placing the server in the block with the maximum number of client machines minimizes total network cabling length and reduces average inter-building transmission latency.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-056",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "How does a packet-filtering network firewall protect an organization's internal local area network?",
+    "options": [
+      "By inspecting incoming and outgoing packet headers against predetermined security rules and blocking unauthorized traffic",
+      "By encrypting the physical copper wires to prevent physical wiretapping",
+      "By scanning files for software bugs and correcting compiler syntax errors",
+      "By increasing the electrical voltage of transmission signals"
+    ],
+    "answer": 0,
+    "explanation": "A firewall functions as a network security perimeter barrier that analyzes IP packets based on source/destination IP addresses, port numbers, and protocols to permit or deny packet transit.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-057",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Unlike a passive Hub that blindly broadcasts incoming data packets to all ports, an intelligent Switch unicasts data frames directly to the intended destination device using its MAC address table.",
+    "answer": true,
+    "explanation": "A switch learns MAC addresses on each physical port and selectively forwards frames only to the target recipient port, dramatically reducing network collision domains.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-058",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "A device's MAC address is a 48-bit physical address permanently burned into its Network Interface Card (NIC), while its IP address is a logical address that can change when connected to different networks.",
+    "answer": true,
+    "explanation": "MAC addresses provide permanent hardware identification (Data Link layer), whereas IP addresses provide dynamic logical hierarchical routing (Network layer).",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-059",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "truefalse",
+    "difficulty": "hard",
+    "question": "HTTPS (Hypertext Transfer Protocol Secure) encrypts communication exclusively by using a pre-shared plaintext password without involving digital SSL/TLS certificates.",
+    "answer": false,
+    "explanation": "HTTPS relies on SSL/TLS cryptographic protocols utilizing public-key infrastructure (PKI), asymmetric key exchange via digital certificates, and session-based symmetric data encryption.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-060",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In computer networking, an electronic device placed along a transmission path to amplify or regenerate attenuated signals before they become distorted over long distances is called a _____.",
+    "answer": "repeater",
+    "acceptedAnswers": [
+      "repeater",
+      "Repeater"
+    ],
+    "explanation": "A repeater operates at the physical layer to regenerate incoming electrical or optical signals, allowing cables to extend beyond their maximum certified segment length.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-061",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The distributed database system that translates human-friendly domain names (e.g., `cbse.nic.in`) into machine-routable numerical IP addresses is known as the _____ system.",
+    "answer": "DNS",
+    "acceptedAnswers": [
+      "DNS",
+      "Domain Name System",
+      "Domain Name Server"
+    ],
+    "explanation": "DNS (Domain Name System) acts as the phonebook of the Internet, resolving domain names into numerical IP addresses.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-062",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "While an IPv4 address is 32 bits long, an IPv6 address consists of _____ bits written as eight hexadecimal groups separated by colons.",
+    "answer": "128",
+    "acceptedAnswers": [
+      "128",
+      "128 bits",
+      "one hundred twenty eight"
+    ],
+    "explanation": "IPv6 addresses are 128-bit identifiers designed to vastly expand the available address space beyond the ~4.3 billion addresses provided by 32-bit IPv4.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-063",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each networking protocol with its primary application role:",
+    "pairs": [
+      [
+        "HTTP / HTTPS",
+        "Transferring hypertext web pages across the World Wide Web"
+      ],
+      [
+        "FTP",
+        "Uploading and downloading files between client and server"
+      ],
+      [
+        "POP3 / IMAP",
+        "Retrieving incoming emails from a remote mail server"
+      ],
+      [
+        "Telnet / SSH",
+        "Remote terminal login to interact with distant computer systems"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "HTTP serves web pages, FTP handles file exchange, POP3/IMAP retrieves emails, and Telnet/SSH handles remote host terminal sessions.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-064",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A file of size 25 Megabytes (MB) is to be transferred across a dedicated network link having an effective bandwidth of 20 Megabits per second (Mbps). Assuming 1 Byte = 8 bits, how many seconds will the file transfer take?",
+    "answer": 10,
+    "tolerance": 0,
+    "explanation": "File size in bits = 25 MB * 8 = 200 Megabits (Mb). Transfer time = Total bits / Bandwidth = 200 Mb / 20 Mbps = 10 seconds.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-065",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In a fully connected Mesh topology connecting 8 computers directly to one another with dedicated point-to-point physical links, how many total physical cable connections are required?",
+    "answer": 28,
+    "tolerance": 0,
+    "explanation": "For a fully connected mesh network with `n` nodes, the formula for total dedicated duplex communication links is `n * (n - 1) / 2`. For n = 8: 8 * 7 / 2 = 28 links.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-066",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the computer network layout shown below, which physical network topology is depicted by Diagram B?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 220' width='100%' height='220'><rect width='500' height='220' fill='#f8fafc'/><text x='125' y='25' font-size='14' font-weight='bold' text-anchor='middle' fill='#0f172a'>Diagram A (Bus)</text><line x1='30' y1='60' x2='220' y2='60' stroke='#334155' stroke-width='4'/><rect x='40' y='90' width='40' height='30' fill='#94a3b8'/><rect x='105' y='90' width='40' height='30' fill='#94a3b8'/><rect x='170' y='90' width='40' height='30' fill='#94a3b8'/><line x1='60' y1='60' x2='60' y2='90' stroke='#334155' stroke-width='2'/><line x1='125' y1='60' x2='125' y2='90' stroke='#334155' stroke-width='2'/><line x1='190' y1='60' x2='190' y2='90' stroke='#334155' stroke-width='2'/><line x1='250' y1='20' x2='250' y2='200' stroke='#cbd5e1' stroke-width='2' stroke-dasharray='4'/><text x='375' y='25' font-size='14' font-weight='bold' text-anchor='middle' fill='#0f172a'>Diagram B (?)</text><circle cx='375' cy='110' r='20' fill='#3b82f6'/><text x='375' y='115' font-size='10' font-weight='bold' text-anchor='middle' fill='#ffffff'>Hub</text><rect x='280' y='50' width='35' height='25' fill='#94a3b8'/><line x1='315' y1='75' x2='358' y2='98' stroke='#334155' stroke-width='2'/><rect x='435' y='50' width='35' height='25' fill='#94a3b8'/><line x1='435' y1='75' x2='392' y2='98' stroke='#334155' stroke-width='2'/><rect x='280' y='150' width='35' height='25' fill='#94a3b8'/><line x1='315' y1='150' x2='358' y2='122' stroke='#334155' stroke-width='2'/><rect x='435' y='150' width='35' height='25' fill='#94a3b8'/><line x1='435' y1='150' x2='392' y2='122' stroke='#334155' stroke-width='2'/></svg>"
+    },
+    "options": [
+      "Star Topology",
+      "Ring Topology",
+      "Tree Topology",
+      "Fully Connected Mesh Topology"
+    ],
+    "answer": 0,
+    "explanation": "Diagram B depicts a Star Topology, where every host node connects via a dedicated point-to-point link to a central controller or networking hub/switch.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-067",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "In the campus block distance matrix diagram shown below, distance between Block A and Block C is 160 meters. Which network device MUST be installed along cable link AC to prevent signal degradation?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 200' width='100%' height='200'><rect width='500' height='200' fill='#f1f5f9'/><rect x='40' y='60' width='90' height='60' rx='8' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><text x='85' y='95' font-size='14' font-weight='bold' text-anchor='middle'>Block A</text><text x='85' y='110' font-size='11' text-anchor='middle' fill='#64748b'>120 PCs</text><rect x='370' y='60' width='90' height='60' rx='8' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><text x='415' y='95' font-size='14' font-weight='bold' text-anchor='middle'>Block C</text><text x='415' y='110' font-size='11' text-anchor='middle' fill='#64748b'>30 PCs</text><line x1='130' y1='90' x2='370' y2='90' stroke='#2563eb' stroke-width='3'/><rect x='225' y='72' width='50' height='36' rx='4' fill='#fef08a' stroke='#ca8a04' stroke-width='2'/><text x='250' y='95' font-size='13' font-weight='bold' text-anchor='middle' fill='#854d0e'>[ ? ]</text><text x='250' y='135' font-size='12' text-anchor='middle' fill='#1e293b'>Distance = 160 m (Exceeds 100 m limit)</text></svg>"
+    },
+    "options": [
+      "Repeater",
+      "Modem",
+      "Print Server",
+      "UPS Unit"
+    ],
+    "answer": 0,
+    "explanation": "Standard twisted pair Ethernet cable (Cat 5e/Cat 6) has a maximum transmission distance of 100 meters. For distances exceeding 100 m (160 m), a repeater is required to regenerate the signal.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-068",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "According to standard CBSE network case-study guidelines, when the cable distance between two campus buildings exceeds approximately how many meters is a repeater recommended?",
+    "answer": "100 meters",
+    "acceptedAnswers": [
+      "100",
+      "100 meters",
+      "100m",
+      "100 meters or more"
+    ],
+    "keywords": [
+      "100"
+    ],
+    "explanation": "In standard networking problem-solving, twisted-pair Ethernet cables suffer significant attenuation beyond 100 meters (or approximately 70-100 m), requiring a repeater.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-069",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What small text files are created by a web server and stored on a client's computer to maintain state and track user browsing preferences across sessions?",
+    "answer": "cookies",
+    "acceptedAnswers": [
+      "cookies",
+      "cookie",
+      "browser cookies",
+      "http cookies"
+    ],
+    "keywords": [
+      "cookie"
+    ],
+    "explanation": "Cookies are small data files deposited on the client's browser to store login sessions, shopping cart contents, and personal preferences.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-070",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What specific cyber-attack technique uses fraudulent, deceptive emails or spoofed websites mimicking trusted institutions to steal sensitive user credentials like passwords and banking details?",
+    "answer": "phishing",
+    "acceptedAnswers": [
+      "phishing",
+      "phishing attack",
+      "phishing scam"
+    ],
+    "keywords": [
+      "phishing"
+    ],
+    "explanation": "Phishing is a social engineering attack where malicious actors masquerade as trustworthy entities in digital communications to extract confidential user credentials.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-071",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Optical fiber cables are completely immune to Electromagnetic Interference (EMI) and radio frequency interference.\nReason (R): Optical fibers carry information in the form of light photons traversing glass/plastic cores rather than electrical currents moving through copper conductors.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Because light waves do not generate or interact with stray magnetic fields, optical fibers provide complete immunity to electromagnetic noise and cross-talk.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-072",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Replacing a central Hub with a Switch in a busy Local Area Network significantly improves overall network throughput and reduces packet collisions.\nReason (R): A Switch maintains an internal forwarding table (CAM/MAC table) that maps hardware MAC addresses to specific physical ports, enabling simultaneous dedicated conversations between port pairs.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Hubs share bandwidth and repeat frames to all ports creating one big collision domain. Switches isolate collision domains to each port, permitting parallel frame transmission.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-073",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are classified as GUIDED (wired) transmission media in computer networking? (Select all correct options)",
+    "options": [
+      "Twisted Pair Cable (UTP / STP)",
+      "Coaxial Cable",
+      "Optical Fiber Cable",
+      "Infrared Radiation Waves"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Guided media utilize physical conduits (twisted pair, coaxial, optical fiber). Infrared, microwaves, and radio waves are unguided (wireless) media.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-074",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following actions reflect sound cybersecurity and cyber ethics practices? (Select all correct options)",
+    "options": [
+      "Enabling Multi-Factor Authentication (MFA / 2FA) on email and banking accounts",
+      "Regularly updating operating systems and security patches to close known vulnerabilities",
+      "Creating strong passwords incorporating uppercase letters, numbers, and symbols",
+      "Disabling antivirus and firewalls to maximize internet download speeds"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Disabling firewalls and antivirus leaves systems vulnerable to malware and network intrusions. Options A, B, and C represent fundamental cyber safety practices.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-075",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Computer Networks",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential steps followed when a client browser resolves a web address (e.g., `www.example.com`) into an IP address:",
+    "orderedItems": [
+      "Browser checks local browser and operating system DNS cache",
+      "Resolver queries the Root Name Server (`.`) for the Top-Level Domain",
+      "Resolver queries the Top-Level Domain (TLD) Server (e.g., `.com`)",
+      "Resolver queries the Authoritative Name Server to obtain the specific host IP",
+      "IP address is returned to the browser to initiate TCP three-way handshake"
+    ],
+    "explanation": "Standard hierarchical DNS resolution sequence: check local cache -> Root server -> TLD server -> Authoritative server -> return resolved IP.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-076",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In relational database theory, what do the terms 'Degree' and 'Cardinality' of a relation signify?",
+    "options": [
+      "Degree is the number of attributes (columns); Cardinality is the number of tuples (rows)",
+      "Degree is the number of tuples (rows); Cardinality is the number of attributes (columns)",
+      "Degree is the count of primary keys; Cardinality is the count of foreign keys",
+      "Degree is table file size in MB; Cardinality is memory cache size in KB"
+    ],
+    "answer": 0,
+    "explanation": "Degree refers to the total count of columns/fields (attributes) in a table, whereas Cardinality refers to the total number of data records/rows (tuples).",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-077",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following SQL statements belongs to Data Definition Language (DDL)?",
+    "options": [
+      "`ALTER TABLE`",
+      "`INSERT INTO`",
+      "`UPDATE`",
+      "`DELETE FROM`"
+    ],
+    "answer": 0,
+    "explanation": "`ALTER TABLE` modifies the database schema/structure, so it is a DDL command. `INSERT`, `UPDATE`, and `DELETE` manipulate row data, making them DML commands.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-078",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the key functional difference between the `WHERE` clause and the `HAVING` clause in an SQL `SELECT` query?",
+    "options": [
+      "`WHERE` filters individual rows before grouping; `HAVING` filters aggregated group records after `GROUP BY`",
+      "`WHERE` works exclusively on numeric columns; `HAVING` works exclusively on string columns",
+      "`WHERE` is a DDL command; `HAVING` is a DML command",
+      "`WHERE` requires `ORDER BY`; `HAVING` does not permit `ORDER BY`"
+    ],
+    "answer": 0,
+    "explanation": "`WHERE` applies row-level predicate conditions prior to grouping, whereas `HAVING` filters summarized groups based on aggregate function values.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-079",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A table `EMPLOYEE` contains 5 rows with `Commission` values: `500, NULL, 300, NULL, 400`. What will `SELECT AVG(Commission) FROM EMPLOYEE;` return?",
+    "options": [
+      "400 (ignores NULL values: (500 + 300 + 400) / 3)",
+      "240 (treats NULL as 0: (500 + 0 + 300 + 0 + 400) / 5)",
+      "NULL",
+      "Error: Cannot compute average with missing values"
+    ],
+    "answer": 0,
+    "explanation": "SQL aggregate functions (`AVG`, `SUM`, `MIN`, `MAX`, `COUNT(col)`) ignore `NULL` values during calculation. The average is computed over the 3 non-NULL rows: 1200 / 3 = 400.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-080",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python MySQL Connectivity",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Python MySQL connectivity, what data structure does `cursor.fetchall()` return after executing a `SELECT` query that returns multiple rows?",
+    "options": [
+      "A list of tuples, where each tuple represents a row",
+      "A dictionary of lists, where keys are column names",
+      "A single flat list containing all column values concatenated",
+      "A string of semicolon-separated values"
+    ],
+    "answer": 0,
+    "explanation": "`cursor.fetchall()` retrieves all remaining rows of a query result set as a Python list of tuples (e.g., `[(1, 'Alice'), (2, 'Bob')]`).",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-081",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Table `STUDENT` has degree 4 and cardinality 10. Table `COURSE` has degree 3 and cardinality 5. What are the Degree and Cardinality of their Cartesian Product (`STUDENT CROSS JOIN COURSE`)?",
+    "options": [
+      "Degree = 7, Cardinality = 50",
+      "Degree = 12, Cardinality = 15",
+      "Degree = 50, Cardinality = 7",
+      "Degree = 7, Cardinality = 15"
+    ],
+    "answer": 0,
+    "explanation": "Cartesian product combines all columns and matches every row of table 1 with every row of table 2. Resulting Degree = Degree(A) + Degree(B) = 4 + 3 = 7. Resulting Cardinality = Cardinality(A) * Cardinality(B) = 10 * 5 = 50.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-082",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python MySQL Connectivity",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Why must `con.commit()` be invoked after executing an `INSERT`, `UPDATE`, or `DELETE` statement through `mysql.connector`?",
+    "options": [
+      "Because `mysql.connector` starts transactions with autocommit disabled by default, requiring explicit commit to persist changes to the database",
+      "To close the network socket connection to the MySQL server",
+      "To recompile the SQL parser on the database engine",
+      "To refresh client-side RAM cache"
+    ],
+    "answer": 0,
+    "explanation": "`mysql.connector` maintains transactional integrity by keeping changes in an uncommitted transaction state until `connection.commit()` is explicitly called.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-083",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "A Primary Key column can accept `NULL` values as long as all other non-null entries in that column are unique.",
+    "answer": false,
+    "explanation": "By definition of entity integrity, a Primary Key constraint enforces both uniqueness and non-nullability (`UNIQUE NOT NULL`). It can never contain a `NULL` value.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-084",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "`DELETE FROM Student;` removes all rows but retains the table structure in the database catalog, whereas `DROP TABLE Student;` completely deletes both data and structure from disk.",
+    "answer": true,
+    "explanation": "`DELETE` is a DML command that clears table records while preserving the schema. `DROP TABLE` is a DDL command that destroys the table schema and all its contents.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-085",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "An attribute in one relation that references the primary key of another relation to establish a relationship and enforce referential integrity is called a _____ key.",
+    "answer": "foreign",
+    "acceptedAnswers": [
+      "foreign",
+      "foreign key",
+      "Foreign"
+    ],
+    "explanation": "A Foreign Key establishes a parent-child relationship between tables and prevents orphan records by maintaining referential integrity.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-086",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python MySQL Connectivity",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In Python database programming with `mysql.connector`, an intermediate object used to execute SQL queries and traverse result rows is created using the `con._____()` method.",
+    "answer": "cursor",
+    "acceptedAnswers": [
+      "cursor",
+      "cursor()"
+    ],
+    "explanation": "The `cursor()` method of a database connection object instantiates a Cursor instance through which SQL statements are dispatched to the server.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-087",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each SQL keyword clause with its primary functional role in a query:",
+    "pairs": [
+      [
+        "DISTINCT",
+        "Eliminates duplicate rows from the query output"
+      ],
+      [
+        "ORDER BY",
+        "Sorts the retrieved result set in ascending or descending order"
+      ],
+      [
+        "GROUP BY",
+        "Combines rows having identical values into summary groups"
+      ],
+      [
+        "BETWEEN",
+        "Filters records within an inclusive numeric or date range"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "DISTINCT removes duplicates, ORDER BY sorts results, GROUP BY aggregates rows, and BETWEEN filters within inclusive ranges.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-088",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python MySQL Connectivity",
+    "type": "match",
+    "difficulty": "hard",
+    "question": "Match each Python database connectivity component with its correct function:",
+    "pairs": [
+      [
+        "`connect()`",
+        "Establishes a physical session connection to the database server"
+      ],
+      [
+        "`cursor.execute()`",
+        "Compiles and executes an SQL command string on the server"
+      ],
+      [
+        "`cursor.fetchone()`",
+        "Retrieves the single next row from the query result set"
+      ],
+      [
+        "`connection.rollback()`",
+        "Reverts all pending DML transaction changes to the last savepoint"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "`connect()` opens server connection; `execute()` runs SQL; `fetchone()` gets next tuple; `rollback()` aborts uncommitted transactional changes.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-089",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Table `DEPT` has 3 attributes and 4 rows. Table `EMP` has 5 attributes and 6 rows. An Equi-join on `DeptID` matches exactly 6 records. What is the Degree of the joined relation `DEPT JOIN EMP ON DEPT.DeptID = EMP.DeptID`?",
+    "answer": 8,
+    "tolerance": 0,
+    "explanation": "In an equi-join, the joined table preserves all attributes from both tables (unless projected): Degree = Degree(DEPT) + Degree(EMP) = 3 + 5 = 8.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-090",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Consider table `TEST` with 7 total rows where column `Score` has values: `[90, 80, NULL, 70, NULL, 90, 60]`. What integer value is returned by `SELECT COUNT(*) - COUNT(Score) FROM TEST;`?",
+    "answer": 2,
+    "tolerance": 0,
+    "explanation": "`COUNT(*)` counts all rows including NULLs = 7. `COUNT(Score)` counts only non-null values in the column = 5. Difference = 7 - 5 = 2 (the number of NULL rows).",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-091",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python MySQL Connectivity",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "An `UPDATE Employee SET Salary = Salary + 1000 WHERE Dept = 'IT';` modifies exactly 5 records in a database table. In Python, what integer value does `cursor.rowcount` return immediately following `cursor.execute(...)`?",
+    "answer": 5,
+    "tolerance": 0,
+    "explanation": "The `cursor.rowcount` attribute reports the number of rows affected by the last executed DML statement (`INSERT`, `UPDATE`, or `DELETE`), which is 5.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-092",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "In the relational schema diagram shown below, which attribute in table `ORDERS` acts as the FOREIGN KEY referencing table `CUSTOMER`?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 500 220' width='100%' height='220'><rect width='500' height='220' fill='#f8fafc'/><rect x='30' y='40' width='180' height='140' rx='8' fill='#ffffff' stroke='#3b82f6' stroke-width='2'/><rect x='30' y='40' width='180' height='35' rx='8' fill='#3b82f6'/><text x='120' y='63' font-size='14' font-weight='bold' text-anchor='middle' fill='#ffffff'>CUSTOMER (Parent)</text><text x='45' y='100' font-size='13' font-weight='bold' fill='#1e40af'>* CustID (PK)</text><text x='45' y='125' font-size='13' fill='#334155'>CustName</text><text x='45' y='150' font-size='13' fill='#334155'>Phone</text><rect x='290' y='40' width='180' height='140' rx='8' fill='#ffffff' stroke='#10b981' stroke-width='2'/><rect x='290' y='40' width='180' height='35' rx='8' fill='#10b981'/><text x='380' y='63' font-size='14' font-weight='bold' text-anchor='middle' fill='#ffffff'>ORDERS (Child)</text><text x='305' y='100' font-size='13' font-weight='bold' fill='#065f46'>* OrderID (PK)</text><text x='305' y='125' font-size='13' fill='#334155'>OrderDate</text><text x='305' y='150' font-size='13' font-weight='bold' fill='#b91c1c'>CustID (FK)</text><path d='M305 150 C 240 150, 240 100, 150 100' stroke='#ef4444' stroke-width='2' fill='none' stroke-dasharray='4'/></svg>"
+    },
+    "options": [
+      "`CustID` in ORDERS",
+      "`OrderID` in ORDERS",
+      "`Phone` in CUSTOMER",
+      "`OrderDate` in ORDERS"
+    ],
+    "answer": 0,
+    "explanation": "`CustID` in the child table `ORDERS` references the primary key `CustID` of the parent table `CUSTOMER`, thereby functioning as the Foreign Key.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-093",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Which wildcard character in an SQL `LIKE` clause matches zero, one, or multiple arbitrary characters?",
+    "answer": "%",
+    "acceptedAnswers": [
+      "%",
+      "percent",
+      "percentage",
+      "percent sign"
+    ],
+    "keywords": [
+      "%"
+    ],
+    "explanation": "In SQL pattern matching with `LIKE`, `%` matches any sequence of zero or more characters, while `_` matches exactly one character.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-094",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python MySQL Connectivity",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What format specifier string is used as a secure parameter placeholder in SQL statements with `mysql.connector` to prevent SQL Injection?",
+    "answer": "%s",
+    "acceptedAnswers": [
+      "%s",
+      "'%s'"
+    ],
+    "keywords": [
+      "%s"
+    ],
+    "explanation": "`mysql.connector` utilizes `%s` placeholders for parameterized queries (e.g., `cursor.execute('SELECT * FROM tbl WHERE id = %s', (uid,))`).",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-095",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): An SQL query can use the `HAVING` clause even if no `GROUP BY` clause is present in the statement.\nReason (R): In the absence of an explicit `GROUP BY` clause, the entire table is treated as a single implicit aggregate group.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "In SQL standard, `SELECT AVG(Salary) FROM Emp HAVING AVG(Salary) > 50000;` is completely valid because the entire relation forms a single implicit group evaluated by `HAVING`.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-096",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): A relation can possess multiple Candidate Keys, but only one of them is designated as the Primary Key.\nReason (R): Candidate keys that are not selected as the Primary Key are known as Alternate Keys.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is NOT the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 1,
+    "explanation": "Both statements are true definitions in database normalization theory, but Reason (R) defines Alternate Keys rather than explaining why only one Candidate Key is designated as Primary.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-097",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following SQL commands belong to Data Definition Language (DDL)? (Select all correct options)",
+    "options": [
+      "`CREATE TABLE`",
+      "`ALTER TABLE`",
+      "`DROP TABLE`",
+      "`INSERT INTO`"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "`CREATE TABLE`, `ALTER TABLE`, and `DROP TABLE` are DDL statements modifying database schema structures. `INSERT INTO` is a DML statement modifying table data.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-098",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python MySQL Connectivity",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following statements regarding Python `mysql.connector` cursor fetching methods are TRUE? (Select all correct options)",
+    "options": [
+      "`cursor.fetchone()` returns `None` when no more records remain to be read.",
+      "`cursor.fetchall()` returns an empty list `[]` when no rows are found or remaining.",
+      "`cursor.fetchmany(size=3)` retrieves at most 3 rows from the active cursor.",
+      "`cursor.fetchall()` automatically rewinds the cursor back to the first row after execution."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "`fetchone()` returns `None` at end; `fetchall()` returns `[]`; `fetchmany(n)` retrieves up to n rows. `fetchall()` exhausts the cursor forward and does NOT automatically rewind.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-099",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Database Management",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the standard SQL clauses in the conceptual logical order in which they are evaluated by a database query engine:",
+    "orderedItems": [
+      "`FROM` (identifies source tables and joins)",
+      "`WHERE` (filters individual rows)",
+      "`GROUP BY` (aggregates rows into groups)",
+      "`HAVING` (filters aggregated groups)",
+      "`SELECT` (evaluates projected expressions)",
+      "`ORDER BY` (sorts the final projected output)"
+    ],
+    "explanation": "Logical SQL execution order: FROM -> WHERE -> GROUP BY -> HAVING -> SELECT -> ORDER BY.",
+    "volatile": false
+  },
+  {
+    "id": "c12-cs-100",
+    "class": 12,
+    "subject": "cs",
+    "chapter": "Python MySQL Connectivity",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential steps to connect to a MySQL database from Python, insert a new record, and persist the transaction:",
+    "orderedItems": [
+      "Import module via `import mysql.connector`",
+      "Establish database connection using `con = mysql.connector.connect(...)`",
+      "Create cursor object using `cur = con.cursor()`",
+      "Execute parameterized query using `cur.execute('INSERT INTO ...', (...))`",
+      "Persist transaction changes using `con.commit()`",
+      "Close cursor and connection using `cur.close()` and `con.close()`"
+    ],
+    "explanation": "Standard workflow: import connector -> establish connection -> create cursor -> execute SQL -> commit transaction -> close resources.",
+    "volatile": false
+  }
+]

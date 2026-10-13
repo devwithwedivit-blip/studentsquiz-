@@ -1,0 +1,1960 @@
+[
+  {
+    "id": "c10-maths-001",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "According to the Fundamental Theorem of Arithmetic, every composite natural number can be uniquely factorized into a product of prime powers. What is the prime factorization of 156?",
+    "options": [
+      "2² × 3 × 13",
+      "2 × 3² × 13",
+      "2³ × 3 × 7",
+      "2² × 3² × 11"
+    ],
+    "answer": 0,
+    "explanation": "Successive prime division: 156 ÷ 2 = 78; 78 ÷ 2 = 39; 39 ÷ 3 = 13; 13 ÷ 13 = 1. Therefore, 156 = 2² × 3 × 13.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-002",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "If α and β are the zeroes of the quadratic polynomial p(x) = x² - 5x + 6, what is the numerical value of α² + β²?",
+    "options": [
+      "13",
+      "19",
+      "25",
+      "31"
+    ],
+    "answer": 0,
+    "explanation": "From Vieta's relations, sum of zeroes α + β = -(-5)/1 = 5, and product αβ = 6/1 = 6. Using identity α² + β² = (α + β)² - 2αβ = 5² - 2(6) = 25 - 12 = 13.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-003",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "For which positive value of k will the pair of linear equations kx + 3y = k - 3 and 12x + ky = k have infinitely many solutions?",
+    "options": [
+      "6",
+      "-6",
+      "3",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "For infinite solutions: a1/a2 = b1/b2 = c1/c2 => k/12 = 3/k = (k - 3)/k. From k² = 36, k = ±6. For k = 6: 6/12 = 3/6 = (6 - 3)/6 = 1/2 (consistent). For k = -6, c1/c2 = -9/-6 = 3/2 ≠ -1/2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-004",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If the quadratic equation 2x² - kx + 3 = 0 has two equal real roots, what is the exact value of the parameter k?",
+    "options": [
+      "±2√6",
+      "±3√2",
+      "±4√3",
+      "±12"
+    ],
+    "answer": 0,
+    "explanation": "Equal roots require the discriminant D = b² - 4ac = 0. Here, (-k)² - 4(2)(3) = 0 => k² - 24 = 0 => k² = 24 => k = ±√24 = ±2√6.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-005",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If the sum of the first n terms of an arithmetic progression is given by Sₙ = 3n² + 2n, what is the 10th term (a₁₀) of this AP?",
+    "options": [
+      "59",
+      "57",
+      "61",
+      "55"
+    ],
+    "answer": 0,
+    "explanation": "General term aₙ = Sₙ - Sₙ₋₁. S₁₀ = 3(10)² + 2(10) = 300 + 20 = 320. S₉ = 3(9)² + 2(9) = 3(81) + 18 = 243 + 18 = 261. Therefore, a₁₀ = 320 - 261 = 59.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-006",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In △ABC, line DE is drawn parallel to BC intersecting AB at D and AC at E. If AD = x, DB = x - 2, AE = x + 2, and EC = x - 1, find the value of x:",
+    "options": [
+      "4",
+      "3",
+      "5",
+      "2"
+    ],
+    "answer": 0,
+    "explanation": "By Basic Proportionality Theorem (Thales Theorem), AD/DB = AE/EC. Thus, x/(x - 2) = (x + 2)/(x - 1) => x(x - 1) = (x - 2)(x + 2) => x² - x = x² - 4 => -x = -4 => x = 4.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-007",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The distance of any point P(x, y) on the two-dimensional Cartesian plane from the origin O(0, 0) is given by √(x² + y²).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. By the distance formula d = √((x2 - x1)² + (y2 - y1)²), the distance from origin (0, 0) simplifies to √((x - 0)² + (y - 0)²) = √(x² + y²).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-008",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "As an acute angle θ increases from 0° to 90°, the value of sin θ monotonically increases from 0 to 1, while cos θ monotonically decreases from 1 to 0.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. In a right-angled triangle, as angle θ grows from 0° to 90°, the opposite side ratio (sin θ) expands from 0 to 1, while the adjacent side ratio (cos θ) contracts from 1 to 0.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-009",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "For any two positive integers a and b, the fundamental relation states that HCF(a, b) × LCM(a, b) = __________.",
+    "answer": "a * b",
+    "acceptedAnswers": [
+      "a * b",
+      "a × b",
+      "ab",
+      "a x b",
+      "product of the two numbers",
+      "a*b"
+    ],
+    "explanation": "The product of the HCF and LCM of any two positive integers equals the product of the two numbers: HCF(a, b) × LCM(a, b) = a × b.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-010",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "When two unbiased coins are tossed simultaneously, the probability of obtaining at least one head is __________ (expressed as a fraction).",
+    "answer": "3/4",
+    "acceptedAnswers": [
+      "3/4",
+      "0.75",
+      "3 / 4"
+    ],
+    "explanation": "Total sample space S = {HH, HT, TH, TT} with n(S) = 4. Favourable outcomes for at least one head E = {HH, HT, TH} with n(E) = 3. P(E) = 3/4.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-011",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each fundamental trigonometric identity on the left with its standard equivalent on the right:",
+    "pairs": [
+      [
+        "sin² θ + cos² θ",
+        "1"
+      ],
+      [
+        "1 + tan² θ",
+        "sec² θ"
+      ],
+      [
+        "1 + cot² θ",
+        "cosec² θ"
+      ],
+      [
+        "tan θ",
+        "sin θ / cos θ"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Pythagorean trigonometric identities: sin²θ + cos²θ = 1; 1 + tan²θ = sec²θ; 1 + cot²θ = cosec²θ; quotient identity tanθ = sinθ/cosθ.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-012",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the straight-line Cartesian distance between the points A(2, 3) and B(6, 6) in coordinate units:",
+    "answer": 5,
+    "tolerance": 0,
+    "explanation": "Using distance formula AB = √((x2 - x1)² + (y2 - y1)²) = √((6 - 2)² + (6 - 3)²) = √(4² + 3²) = √(16 + 9) = √25 = 5 units.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-013",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Find the 20th term from the end (last term) of the arithmetic progression: 3, 8, 13, ..., 253.",
+    "answer": 158,
+    "tolerance": 0,
+    "explanation": "Given AP has first term a = 3, common difference d = 5, last term L = 253. The nth term from the end is L - (n - 1)d. Term = 253 - (20 - 1) × 5 = 253 - 19 × 5 = 253 - 95 = 158.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-014",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "From an external point P, a tangent PT of length 24 cm is drawn to a circle with centre O. If the distance from P to the centre O is 25 cm, find the radius of the circle in cm:",
+    "answer": 7,
+    "tolerance": 0,
+    "explanation": "The radius at the point of contact is perpendicular to the tangent line (∠OTP = 90°). In right △OTP: OT² + PT² = OP² => r² + 24² = 25² => r² + 576 = 625 => r² = 49 => r = 7 cm.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-015",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Find the smaller of the two positive real roots of the rational equation: x + 12/x = 7.",
+    "answer": 3,
+    "tolerance": 0,
+    "explanation": "Multiply throughout by x: x² + 12 = 7x => x² - 7x + 12 = 0. Factorize: (x - 3)(x - 4) = 0. The roots are x = 3 and x = 4. The smaller root is 3.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-016",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Find the area (in cm²) of a sector of a circle with radius r = 6 cm if the angle subtended by the sector at the centre is 60°. (Take π = 22/7, rounded to two decimal places):",
+    "answer": 18.86,
+    "tolerance": 0.05,
+    "explanation": "Sector area = (θ / 360°) × π r² = (60 / 360) × (22 / 7) × 6² = (1 / 6) × (22 / 7) × 36 = 6 × (22 / 7) = 132 / 7 = 18.857... ≈ 18.86 cm².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-017",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "A vertical telecommunication tower AB stands on level ground. From a point C on the ground 30 m away from the foot of the tower B, the angle of elevation to the top of the tower A is measured as 30°. Find the height h of the tower:",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#f8fafc' rx='8'/><line x1='50' y1='160' x2='270' y2='160' stroke='#334155' stroke-width='2.5'/><line x1='240' y1='160' x2='240' y2='40' stroke='#0f172a' stroke-width='4'/><line x1='80' y1='160' x2='240' y2='40' stroke='#2563eb' stroke-width='2.5'/><circle cx='80' cy='160' r='4' fill='#2563eb'/><circle cx='240' cy='160' r='4' fill='#0f172a'/><circle cx='240' cy='40' r='4' fill='#0f172a'/><path d='M110 160 A30 30 0 0 0 106 148' fill='none' stroke='#dc2626' stroke-width='2'/><text x='115' y='152' font-family='sans-serif' font-size='12' font-weight='bold' fill='#dc2626'>30°</text><text x='70' y='178' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>C</text><text x='245' y='178' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>B (Foot)</text><text x='245' y='35' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1e293b'>A (Top)</text><text x='140' y='178' font-family='sans-serif' font-size='12' fill='#475569'>BC = 30 m</text><text x='255' y='100' font-family='sans-serif' font-size='13' font-weight='bold' fill='#047857'>h = ?</text><rect x='225' y='145' width='15' height='15' fill='none' stroke='#334155' stroke-width='1.5'/></svg>"
+    },
+    "options": [
+      "10√3 m (~17.32 m)",
+      "30√3 m (~51.96 m)",
+      "15 m",
+      "15√3 m (~25.98 m)"
+    ],
+    "answer": 0,
+    "explanation": "In right-angled △ABC, tan 30° = AB / BC = h / 30. Since tan 30° = 1/√3, we have 1/√3 = h / 30 => h = 30 / √3 = (30√3) / 3 = 10√3 metres.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-018",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the standard empirical relationship connecting the three measures of central tendency (Mean, Median, and Mode) for a moderately skewed frequency distribution?",
+    "sampleAnswer": "Mode = 3 Median - 2 Mean",
+    "acceptedAnswers": [
+      "Mode = 3 Median - 2 Mean",
+      "3 Median - 2 Mean",
+      "3 Median = Mode + 2 Mean",
+      "Mode = 3Median - 2Mean"
+    ],
+    "keywords": [
+      "Median",
+      "Mean",
+      "Mode"
+    ],
+    "explanation": "Karl Pearson's empirical relationship for moderately skewed unimodal distributions is: Mode = 3 Median - 2 Mean.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-019",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What is the numerical probability of an impossible event that cannot happen under any circumstances in a random experiment?",
+    "sampleAnswer": "0",
+    "acceptedAnswers": [
+      "0",
+      "zero"
+    ],
+    "keywords": [
+      "0",
+      "zero"
+    ],
+    "explanation": "The probability of an impossible event (an empty subset of the sample space ∅) is always 0. The probability of a certain event is 1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-020",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Consider the geometric properties of triangle side division:\nAssertion (A): If a line divides any two sides of a triangle in the same ratio, then the line must be parallel to the third side.\nReason (R): This statement is the Converse of the Basic Proportionality Theorem (Thales Theorem).",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct mathematical name and rationale for (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Theorem 6.2 (NCERT Class 10): If a line divides two sides of a triangle in the same ratio, the line is parallel to the third side. This is precisely the Converse of Thales Theorem.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-021",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Examine the classical proof by contradiction regarding radical numbers:\nAssertion (A): The number √5 is an irrational number.\nReason (R): If p is a prime number that divides a² (where a is a positive integer), then p also divides a; applying this lemma to √5 = a/b (where a and b are co-prime integers) forces both a and b to share a common factor 5, contradicting their co-primality.",
+    "options": [
+      "Both (A) and (R) are true, and (R) provides the valid deductive proof of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The standard proof of irrationality of √5 (Theorem 1.3/1.4 in Class 10 NCERT) uses contradiction based on the fundamental lemma that if prime p divides a², then p divides a.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-022",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following points lie in the fourth quadrant (Quadrant IV) of the Cartesian plane where x > 0 and y < 0? (Select all 3 that apply)",
+    "options": [
+      "(4, -3)",
+      "(5, -7)",
+      "(2, -1)",
+      "(-3, 4)",
+      "(-2, -5)",
+      "(0, -4)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Points in Quadrant IV possess a positive abscissa (x > 0) and a negative ordinate (y < 0). Hence (4, -3), (5, -7), and (2, -1) lie in Quadrant IV. (-3, 4) is in Q-II, (-2, -5) in Q-III, and (0, -4) is on the y-axis.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-023",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "From a well-shuffled standard deck of 52 playing cards, a single card is drawn at random. Which of the following events have a theoretical probability strictly equal to 1/4 (0.25)? (Select all 3 that apply)",
+    "options": [
+      "Drawing any Heart card",
+      "Drawing any Spade card",
+      "Drawing any Diamond card",
+      "Drawing an Ace card",
+      "Drawing a King card",
+      "Drawing a Face card (Jack, Queen, or King)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "There are 13 cards in each suit: Hearts (13/52 = 1/4), Spades (13/52 = 1/4), Diamonds (13/52 = 1/4). Aces are 4/52 = 1/13, Kings are 4/52 = 1/13, Face cards are 12/52 = 3/13.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-024",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the sequential mathematical steps required to calculate the median of a grouped frequency distribution using the median formula Median = l + [(N/2 - cf) / f] × h:",
+    "orderedItems": [
+      "Construct the cumulative frequency (cf) column for all given class intervals.",
+      "Calculate the total frequency N = ∑f and determine the median position N/2.",
+      "Identify the median class whose cumulative frequency is first greater than or equal to N/2.",
+      "Extract the lower limit (l), class width (h), frequency of median class (f), and cumulative frequency of preceding class (cf).",
+      "Substitute all identified parameters into Median = l + [(N/2 - cf) / f] × h and compute the numerical result."
+    ],
+    "answer": "ordered",
+    "explanation": "Standard grouped median algorithm: Cumulative frequencies -> N/2 calculation -> Median class identification -> Parameter extraction -> Formula evaluation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-025",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the algebraic steps required to derive the quadratic formula by solving ax² + bx + c = 0 (a ≠ 0) using the method of completing the square:",
+    "orderedItems": [
+      "Divide the entire equation by the leading coefficient a: x² + (b/a)x + c/a = 0.",
+      "Transpose the constant term to the right-hand side: x² + (b/a)x = -c/a.",
+      "Add the square of half the coefficient of x, which is (b / 2a)², to both sides of the equation.",
+      "Factorize the left-hand side into a perfect square: (x + b / 2a)² = (b² - 4ac) / 4a².",
+      "Extract square roots from both sides and isolate x: x = (-b ± √(b² - 4ac)) / 2a."
+    ],
+    "answer": "ordered",
+    "explanation": "Derivation of quadratic formula: Divide by a -> transpose constant -> add (b/2a)² to both sides -> collapse to binomial square -> extract roots to get x = (-b ± √(b² - 4ac))/2a.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-026",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "If one of the zeroes of the quadratic polynomial (k - 1)x² + kx + 1 is -3, find the numerical value of k:",
+    "options": [
+      "4/3",
+      "-4/3",
+      "2/3",
+      "-2/3"
+    ],
+    "answer": 0,
+    "explanation": "Since -3 is a zero, p(-3) = 0: (k - 1)(-3)² + k(-3) + 1 = 0 => 9(k - 1) - 3k + 1 = 0 => 9k - 9 - 3k + 1 = 0 => 6k - 8 = 0 => k = 8/6 = 4/3.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-027",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which fundamental geometric property holds true for the lengths of tangents drawn from an external point to a circle?",
+    "options": [
+      "They are always equal in length.",
+      "They are always perpendicular to each other.",
+      "Their lengths are inversely proportional to radius.",
+      "One tangent is always twice the length of the other."
+    ],
+    "answer": 0,
+    "explanation": "Theorem 10.2 (NCERT Class 10): The lengths of tangents drawn from an external point to a circle are equal (proved by RHS congruence of triangles formed with the radii and secant).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-028",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In what ratio does the y-axis divide the line segment joining the points P(5, -6) and Q(-1, -4)?",
+    "options": [
+      "5 : 1",
+      "1 : 5",
+      "2 : 3",
+      "3 : 2"
+    ],
+    "answer": 0,
+    "explanation": "Let the y-axis divide the segment in ratio k : 1. The x-coordinate of any point on the y-axis is 0. Using section formula: x = (k(-1) + 1(5)) / (k + 1) = 0 => -k + 5 = 0 => k = 5. Ratio is 5 : 1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-029",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If sin θ + cos θ = √2 cos θ, what is the exact value of tan θ?",
+    "options": [
+      "√2 - 1",
+      "√2 + 1",
+      "1 - √2",
+      "1 / √2"
+    ],
+    "answer": 0,
+    "explanation": "Divide the given equation by cos θ: (sin θ / cos θ) + 1 = √2 => tan θ + 1 = √2 => tan θ = √2 - 1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-030",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A solid metallic sphere of radius 10.5 cm is melted and recast into a number of smaller solid cones, each of base radius 3.5 cm and height 3 cm. Find the total number of cones formed:",
+    "options": [
+      "126",
+      "136",
+      "116",
+      "144"
+    ],
+    "answer": 0,
+    "explanation": "Volume of sphere = (4/3) π R³ = (4/3) π (10.5)³. Volume of one cone = (1/3) π r² h = (1/3) π (3.5)² (3). Number of cones n = [(4/3) π (10.5)³] / [(1/3) π (3.5)² × 3] = [4 × (10.5)³] / [(3.5)² × 3] = [4 × 1157.625] / [12.25 × 3] = 4630.5 / 36.75 = 126.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-031",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The decimal expansion of the rational number 13 / 3125 terminates after a finite number of decimal digits because the denominator 3125 can be expressed in the form 2ⁿ × 5ᵐ (where 3125 = 2⁰ × 5⁵).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. If the prime factorization of denominator q of a rational number p/q in simplest form contains only factors of 2 and 5 (q = 2ⁿ 5ᵐ), its decimal expansion is terminating.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-032",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "A pair of linear equations in two variables representing parallel straight lines on the coordinate plane has no solution and is characterized as an inconsistent system.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. When lines are parallel, they never intersect, meaning there is no common coordinate pair satisfying both equations simultaneously (a1/a2 = b1/b2 ≠ c1/c2; inconsistent).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-033",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In an arithmetic progression with first term a and constant common difference d, the nth general term is given by the algebraic expression aₙ = __________.",
+    "answer": "a + (n - 1)d",
+    "acceptedAnswers": [
+      "a + (n - 1)d",
+      "a+(n-1)d",
+      "a + (n-1)d",
+      "a+(n-1)*d"
+    ],
+    "explanation": "Starting at first term a and adding the common difference d repeatedly (n - 1) times produces the nth term formula: aₙ = a + (n - 1)d.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-034",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The coordinates of the midpoint M dividing the line segment joining points A(x1, y1) and B(x2, y2) into two equal halves are given by ((x1 + x2)/2, __________).",
+    "answer": "(y1 + y2)/2",
+    "acceptedAnswers": [
+      "(y1 + y2)/2",
+      "(y1+y2)/2",
+      "y1+y2/2"
+    ],
+    "explanation": "Applying the section formula with m : n = 1 : 1 gives the midpoint coordinates M = ((x1 + x2)/2, (y1 + y2)/2).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-035",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each standard three-dimensional geometric solid on the left with its correct volumetric formula on the right:",
+    "pairs": [
+      [
+        "Right circular cylinder of radius r and height h",
+        "π r² h"
+      ],
+      [
+        "Right circular cone of radius r and height h",
+        "(1/3) π r² h"
+      ],
+      [
+        "Complete sphere of radius r",
+        "(4/3) π r³"
+      ],
+      [
+        "Solid hemisphere of radius r",
+        "(2/3) π r³"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Volume formulas: Cylinder = π r² h; Cone = (1/3) π r² h; Sphere = (4/3) π r³; Hemisphere = (2/3) π r³.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-036",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Determine the mode of the following set of raw score observations: 4, 7, 5, 8, 7, 9, 7, 6, 2, 7, 3.",
+    "answer": 7,
+    "tolerance": 0,
+    "explanation": "Frequency count: 2 appears once, 3 appears once, 4 appears once, 5 appears once, 6 appears once, 7 appears 4 times, 8 appears once, 9 appears once. The observation with the highest frequency is 7.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-037",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "If the perimeter (circumference) and the area of a circle are numerically equal, what is the radius r of the circle in linear units?",
+    "answer": 2,
+    "tolerance": 0,
+    "explanation": "Circumference = 2 π r and Area = π r². Setting them numerically equal: 2 π r = π r² => r² - 2r = 0 => r(r - 2) = 0. Since radius r > 0, r = 2 units.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-038",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Evaluate the exact numerical value of the trigonometric expression: 2 tan² 45° + cos² 30° - sin² 60°.",
+    "answer": 2,
+    "tolerance": 0,
+    "explanation": "Substitute standard values: tan 45° = 1 => 2(1)² = 2; cos 30° = √3/2 => cos² 30° = 3/4; sin 60° = √3/2 => sin² 60° = 3/4. Expression = 2 + 3/4 - 3/4 = 2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-039",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Calculate the sum of all two-digit natural numbers that are perfectly divisible by 3 (from 12 to 99):",
+    "answer": 1665,
+    "tolerance": 0,
+    "explanation": "Two-digit multiples of 3 form an AP: 12, 15, 18, ..., 99. Here a = 12, d = 3, l = 99. Number of terms n: 99 = 12 + (n - 1)3 => 87 = 3(n - 1) => n - 1 = 29 => n = 30. Sum S₃₀ = (n/2)(a + l) = (30/2)(12 + 99) = 15 × 111 = 1665.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-040",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the diagram, tangents PA and PB drawn from external point P to a circle with centre O are inclined to each other at an angle ∠APB = 80°. What is the measure of angle ∠POA in degrees?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#f8fafc' rx='8'/><circle cx='190' cy='100' r='60' fill='none' stroke='#0f172a' stroke-width='2.5'/><circle cx='190' cy='100' r='3.5' fill='#0f172a'/><line x1='50' y1='100' x2='170' y2='45' stroke='#2563eb' stroke-width='2'/><line x1='50' y1='100' x2='170' y2='155' stroke='#2563eb' stroke-width='2'/><line x1='190' y1='100' x2='170' y2='45' stroke='#047857' stroke-width='2'/><line x1='190' y1='100' x2='170' y2='155' stroke='#047857' stroke-width='2'/><line x1='50' y1='100' x2='190' y2='100' stroke='#dc2626' stroke-width='1.5' stroke-dasharray='4,3'/><circle cx='50' cy='100' r='4' fill='#2563eb'/><circle cx='170' cy='45' r='4' fill='#047857'/><circle cx='170' cy='155' r='4' fill='#047857'/><text x='35' y='105' font-family='sans-serif' font-size='12' font-weight='bold' fill='#2563eb'>P</text><text x='165' y='35' font-family='sans-serif' font-size='12' font-weight='bold' fill='#047857'>A</text><text x='165' y='175' font-family='sans-serif' font-size='12' font-weight='bold' fill='#047857'>B</text><text x='200' y='105' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>O</text><text x='75' y='92' font-family='sans-serif' font-size='11' font-weight='bold' fill='#2563eb'>∠APB = 80°</text><text x='140' y='90' font-family='sans-serif' font-size='11' font-weight='bold' fill='#dc2626'>∠POA = ?</text></svg>"
+    },
+    "options": [
+      "50°",
+      "60°",
+      "70°",
+      "80°"
+    ],
+    "answer": 0,
+    "explanation": "Since OA ⊥ PA and OB ⊥ PB, in cyclic quadrilateral OAPB, ∠AOB = 180° - ∠APB = 180° - 80° = 100°. The line OP bisects ∠AOB, hence ∠POA = 100° / 2 = 50°.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-041",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "image",
+    "difficulty": "hard",
+    "question": "In right-angled triangle ABC, ∠B = 90° and altitude BD is drawn perpendicular to hypotenuse AC. If segment AD = 4 cm and segment CD = 9 cm, find the length of altitude BD in cm:",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#f1f5f9' rx='8'/><polygon points='40,160 280,160 120,40' fill='none' stroke='#0f172a' stroke-width='2.5'/><line x1='120' y1='40' x2='120' y2='160' stroke='#dc2626' stroke-width='2'/><circle cx='40' cy='160' r='3.5' fill='#0f172a'/><circle cx='280' cy='160' r='3.5' fill='#0f172a'/><circle cx='120' cy='40' r='3.5' fill='#0f172a'/><circle cx='120' cy='160' r='3.5' fill='#dc2626'/><rect x='120' y='145' width='15' height='15' fill='none' stroke='#dc2626' stroke-width='1.5'/><text x='30' y='178' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>A</text><text x='115' y='30' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>B (90°)</text><text x='285' y='178' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>C</text><text x='115' y='178' font-family='sans-serif' font-size='12' font-weight='bold' fill='#dc2626'>D</text><text x='65' y='152' font-family='sans-serif' font-size='11' font-weight='bold' fill='#2563eb'>AD = 4 cm</text><text x='180' y='152' font-family='sans-serif' font-size='11' font-weight='bold' fill='#2563eb'>CD = 9 cm</text><text x='130' y='100' font-family='sans-serif' font-size='12' font-weight='bold' fill='#dc2626'>BD = ?</text></svg>"
+    },
+    "options": [
+      "6 cm",
+      "5 cm",
+      "7.5 cm",
+      "6.5 cm"
+    ],
+    "answer": 0,
+    "explanation": "Since △ADB ~ △BDC (both right-angled triangles sharing acute angles), BD/CD = AD/BD => BD² = AD × CD = 4 × 9 = 36 => BD = √36 = 6 cm.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-042",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the maximum number of real zeroes that a polynomial of degree 3 (cubic polynomial) can have?",
+    "sampleAnswer": "3",
+    "acceptedAnswers": [
+      "3",
+      "three"
+    ],
+    "keywords": [
+      "3",
+      "three"
+    ],
+    "explanation": "A polynomial of degree n can have at most n real zeroes; hence a cubic polynomial (degree 3) can possess at most 3 zeroes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-043",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What mathematical term is given to the algebraic expression D = b² - 4ac, which reveals the nature of the roots of ax² + bx + c = 0?",
+    "sampleAnswer": "Discriminant",
+    "acceptedAnswers": [
+      "Discriminant",
+      "the discriminant"
+    ],
+    "keywords": [
+      "Discriminant"
+    ],
+    "explanation": "The quantity D = b² - 4ac is called the discriminant. If D > 0 roots are real and distinct; D = 0 roots are real and equal; D < 0 roots are non-real.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-044",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "Consider the geometric nature of the linear system:\nAssertion (A): The pair of linear equations 2x + 3y = 7 and 4x + 6y = 12 represents two parallel lines having no common solution.\nReason (R): For parallel straight lines, the ratio condition a1/a2 = b1/b2 ≠ c1/c2 is strictly satisfied.",
+    "options": [
+      "Both (A) and (R) are true, and (R) correctly explains why the lines are parallel and inconsistent.",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Here a1/a2 = 2/4 = 1/2, b1/b2 = 3/6 = 1/2, c1/c2 = 7/12. Since 1/2 = 1/2 ≠ 7/12, the lines are strictly parallel with zero intersection points.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-045",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Examine the trigonometric simplification:\nAssertion (A): The expression (sec A + tan A)(1 - sin A) is identically equal to cos A for any acute angle A.\nReason (R): Rewriting sec A + tan A as (1 + sin A) / cos A and multiplying by (1 - sin A) yields (1 - sin² A) / cos A = cos² A / cos A = cos A.",
+    "options": [
+      "Both (A) and (R) are true, and (R) provides the valid algebraic proof of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "(1/cos A + sin A/cos A)(1 - sin A) = [(1 + sin A)(1 - sin A)] / cos A = (1 - sin² A) / cos A = cos² A / cos A = cos A. Both are true and R proves A.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-046",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following mathematical values are irrational numbers that cannot be expressed as a ratio of two integers? (Select all 3 that apply)",
+    "options": [
+      "√2",
+      "5 + √3",
+      "π (Archimedes' constant pi)",
+      "0.3333... (recurring decimal 1/3)",
+      "√16",
+      "22/7"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "√2, 5 + √3, and π are irrational. 0.333... = 1/3 is rational; √16 = 4 is an integer; 22/7 is explicitly a ratio of two integers.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-047",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following quadratic equations possess distinct real roots (discriminant D > 0)? (Select all 3 that apply)",
+    "options": [
+      "x² - 5x + 4 = 0",
+      "x² - 4x - 5 = 0",
+      "2x² - 3x - 2 = 0",
+      "x² + 2x + 5 = 0",
+      "x² - 4x + 4 = 0",
+      "2x² + x + 3 = 0"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Discriminant analysis: for x² - 5x + 4, D = 25 - 16 = 9 > 0; for x² - 4x - 5, D = 16 - 4(-5) = 36 > 0; for 2x² - 3x - 2, D = 9 - 4(2)(-2) = 25 > 0. The others have D = -16, D = 0, and D = -23 respectively.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-048",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following mathematical statements regarding measures of central tendency are true? (Select all 3 that apply)",
+    "options": [
+      "The algebraic sum of the deviations of all observations from their arithmetic mean is always zero: ∑(xᵢ - x̄) = 0.",
+      "The median of a continuous grouped distribution can be located graphically from the point of intersection of less-than and more-than ogives.",
+      "The mode corresponds to the value of the variate that occurs with the maximum frequency in the distribution.",
+      "The mean of grouped data cannot be calculated using the assumed mean method.",
+      "The median is more sensitive to extreme outlier observations than the mean.",
+      "Every grouped frequency distribution must have exactly two distinct modes."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "∑(xᵢ - x̄) = 0 is a core property of arithmetic mean; the intersection of ogives determines the median; the mode is the observation with peak frequency.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-049",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange these five random trial events in ascending order of their mathematical probability, from lowest (P = 0) to highest (P = 1):",
+    "orderedItems": [
+      "Probability of rolling a 7 on a standard fair six-sided die (P = 0)",
+      "Probability of rolling a 6 on a standard fair six-sided die (P = 1/6 ≈ 0.167)",
+      "Probability of rolling an even number (2, 4, 6) on a six-sided die (P = 3/6 = 0.5)",
+      "Probability of rolling a number greater than 2 (3, 4, 5, 6) on a die (P = 4/6 ≈ 0.667)",
+      "Probability of rolling a number less than 7 on a six-sided die (P = 6/6 = 1)"
+    ],
+    "answer": "ordered",
+    "explanation": "Probabilities: 0 (impossible) -> 1/6 (~0.167) -> 3/6 (0.5) -> 4/6 (~0.667) -> 1 (certain).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-050",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the standard sequential problem-solving steps used to solve a heights and distances application problem using trigonometry:",
+    "orderedItems": [
+      "Read the problem statement and construct an accurate right-angled geometric triangle sketch representing the physical situation.",
+      "Label all given distances, heights, and angles of elevation or depression on the diagram.",
+      "Identify the required unknown length and represent it with an algebraic variable (such as h or x).",
+      "Select the appropriate trigonometric ratio (such as tan θ = Opposite / Adjacent) that connects the known and unknown sides.",
+      "Substitute specific trigonometric values (such as tan 30° = 1/√3, tan 45° = 1, tan 60° = √3) to solve algebraically for the unknown."
+    ],
+    "answer": "ordered",
+    "explanation": "Systematic trigonometry solution path: Sketch diagram -> Label known parameters -> Define unknown variable -> Select trigonometric ratio -> Substitute and compute.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-051",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Solve the simultaneous system of linear equations for x and y: x + y = 14 and x - y = 4.",
+    "options": [
+      "x = 9, y = 5",
+      "x = 8, y = 6",
+      "x = 10, y = 4",
+      "x = 7, y = 7"
+    ],
+    "answer": 0,
+    "explanation": "Adding both equations: (x + y) + (x - y) = 14 + 4 => 2x = 18 => x = 9. Substituting x = 9 into the first equation: 9 + y = 14 => y = 5.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-052",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Find the coordinates of the centroid of △ABC whose vertices are A(1, 4), B(4, -2), and C(4, 7):",
+    "options": [
+      "(3, 3)",
+      "(4, 3)",
+      "(3, 4)",
+      "(9, 9)"
+    ],
+    "answer": 0,
+    "explanation": "The centroid G has coordinates ((x1 + x2 + x3)/3, (y1 + y2 + y3)/3) = ((1 + 4 + 4)/3, (4 - 2 + 7)/3) = (9/3, 9/3) = (3, 3).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-053",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A quadrilateral ABCD is circumscribed around a circle. Which algebraic relationship between its opposite sides is always true?",
+    "options": [
+      "AB + CD = AD + BC",
+      "AB + BC = CD + DA",
+      "AC + BD = AB + CD",
+      "AB × CD = BC × DA"
+    ],
+    "answer": 0,
+    "explanation": "Since tangents from an external point are equal, summing tangents around quadrilateral ABCD proves that the sum of opposite sides is equal: AB + CD = AD + BC.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-054",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A box contains 5 red marbles, 8 white marbles, and 4 green marbles. If one marble is selected at random from the box, what is the probability that it is not green?",
+    "options": [
+      "13/17",
+      "4/17",
+      "8/17",
+      "5/17"
+    ],
+    "answer": 0,
+    "explanation": "Total marbles n(S) = 5 + 8 + 4 = 17. Number of marbles that are not green = Red + White = 5 + 8 = 13. P(not green) = 13/17.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-055",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The minute hand of a circular wall clock is 14 cm long. Find the surface area swept by the minute hand in a 5-minute interval: (Take π = 22/7)",
+    "options": [
+      "154/3 cm² (~51.33 cm²)",
+      "154 cm²",
+      "77/3 cm² (~25.67 cm²)",
+      "308/3 cm² (~102.67 cm²)"
+    ],
+    "answer": 0,
+    "explanation": "In 60 minutes, the minute hand turns 360°. In 5 minutes, angle θ = (360° / 60) × 5 = 30°. Area swept = (θ / 360°) × π r² = (30 / 360) × (22 / 7) × 14² = (1 / 12) × (22 / 7) × 196 = (1 / 12) × 616 = 154 / 3 cm².",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-056",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Let △ABC ~ △PQR such that area(△ABC) = 64 cm² and area(△PQR) = 121 cm². If corresponding side QR = 15.4 cm, find the length of side BC in cm:",
+    "options": [
+      "11.2 cm",
+      "12.4 cm",
+      "10.8 cm",
+      "13.2 cm"
+    ],
+    "answer": 0,
+    "explanation": "The ratio of areas of two similar triangles equals the square of the ratio of their corresponding sides: area(△ABC)/area(△PQR) = (BC/QR)² => 64/121 = (BC/15.4)² => 8/11 = BC/15.4 => BC = (8 × 15.4) / 11 = 8 × 1.4 = 11.2 cm.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-057",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The class mark (midpoint) of the continuous class interval 20 - 40 is 30, calculated as (Upper class limit + Lower class limit) / 2.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. The class mark is defined as the arithmetic mean of the upper and lower class boundaries: (20 + 40) / 2 = 60 / 2 = 30.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-058",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The value of sec A can be strictly less than 1 for certain acute angles A in a right-angled triangle.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "False. sec A = Hypotenuse / Adjacent side. Since the hypotenuse is the longest side in any right-angled triangle, Hypotenuse ≥ Adjacent, meaning sec A ≥ 1 for all real acute angles.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-059",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Pair of Linear Equations in Two Variables",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "If the ratio of coefficients satisfies a1/a2 ≠ b1/b2, the pair of linear equations intersects at a single point and possesses exactly __________ unique solution.",
+    "answer": "one",
+    "acceptedAnswers": [
+      "one",
+      "1",
+      "unique"
+    ],
+    "explanation": "When a1/a2 ≠ b1/b2, the lines are non-parallel intersecting lines having exactly one common solution.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-060",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "For any random event E, the sum of the probability of event E and the probability of its complement E' (not E) satisfies P(E) + P(not E) = __________.",
+    "answer": "1",
+    "acceptedAnswers": [
+      "1",
+      "one"
+    ],
+    "explanation": "An event and its complement partition the entire sample space; therefore P(E) + P(E') = 1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-061",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each standard angle trigonometric ratio on the left with its exact numerical value on the right:",
+    "pairs": [
+      [
+        "sin 30°",
+        "1/2"
+      ],
+      [
+        "cos 45°",
+        "1/√2"
+      ],
+      [
+        "tan 60°",
+        "√3"
+      ],
+      [
+        "sin 90°",
+        "1"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Standard trigonometric values: sin 30° = 1/2; cos 45° = 1/√2; tan 60° = √3; sin 90° = 1.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-062",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each statistical concept on the left with its standard mathematical formulation on the right:",
+    "pairs": [
+      [
+        "Class mark (xᵢ)",
+        "(Lower class limit + Upper class limit) / 2"
+      ],
+      [
+        "Class width (h)",
+        "Upper class limit - Lower class limit"
+      ],
+      [
+        "Cumulative frequency",
+        "Sum of frequencies of all classes up to that class"
+      ],
+      [
+        "Statistical Range",
+        "Maximum observation value - Minimum observation value"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Definitions: Class mark is midpoint; class width is class interval difference; cumulative frequency accumulates totals; range is max minus min.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-063",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the numerical value of the discriminant D for the quadratic equation: 3x² - 5x + 2 = 0.",
+    "answer": 1,
+    "tolerance": 0,
+    "explanation": "Comparing with ax² + bx + c = 0: a = 3, b = -5, c = 2. Discriminant D = b² - 4ac = (-5)² - 4(3)(2) = 25 - 24 = 1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-064",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Two identical cubes each of volume 64 cm³ are joined end to end to form a cuboid. Find the total surface area of the resulting cuboid in cm²:",
+    "answer": 160,
+    "tolerance": 0,
+    "explanation": "Edge of each cube s = ∛64 = 4 cm. Joining two cubes gives a cuboid of length l = 8 cm, breadth b = 4 cm, and height h = 4 cm. Total surface area = 2(lb + bh + hl) = 2(8×4 + 4×4 + 4×8) = 2(32 + 16 + 32) = 2(80) = 160 cm².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-065",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "How many terms of the arithmetic progression 9, 17, 25, ... must be summed to obtain an aggregate total sum of 636?",
+    "answer": 12,
+    "tolerance": 0,
+    "explanation": "Here a = 9, d = 8, Sₙ = 636. Sₙ = (n/2)[2a + (n - 1)d] => 636 = (n/2)[18 + (n - 1)8] = (n/2)[8n + 10] = n(4n + 5) => 4n² + 5n - 636 = 0. Solving quadratic: D = 5² - 4(4)(-636) = 25 + 10176 = 10201. √D = 101. n = (-5 + 101)/8 = 96/8 = 12 terms.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-066",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A kite is flying at a constant vertical height of 60 m above level ground. The string attached to the kite is tied to a ground anchor, inclined at an angle of 60° to the horizontal. Assuming no slack in the string, find the length of the string in metres. (Round to 2 decimal places):",
+    "answer": 69.28,
+    "tolerance": 0.1,
+    "explanation": "In right △ABC, sin 60° = Height / String Length = 60 / L. Since sin 60° = √3 / 2, L = 60 / (√3 / 2) = 120 / √3 = 40√3 ≈ 40 × 1.73205 = 69.28 metres.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-067",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "On the Cartesian coordinate grid, a right-angled triangle ABC has vertices positioned at origin A(0, 0), B(6, 0) on the x-axis, and C(0, 8) on the y-axis. Find the total perimeter of △ABC in units:",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#f8fafc' rx='8'/><line x1='30' y1='160' x2='290' y2='160' stroke='#94a3b8' stroke-width='2'/><line x1='60' y1='180' x2='60' y2='20' stroke='#94a3b8' stroke-width='2'/><polygon points='60,160 220,160 60,40' fill='#dbeafe' stroke='#1d4ed8' stroke-width='2.5'/><circle cx='60' cy='160' r='4' fill='#0f172a'/><circle cx='220' cy='160' r='4' fill='#0f172a'/><circle cx='60' cy='40' r='4' fill='#0f172a'/><rect x='60' y='145' width='15' height='15' fill='none' stroke='#1d4ed8' stroke-width='1.5'/><text x='35' y='175' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>A(0,0)</text><text x='215' y='178' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>B(6,0)</text><text x='20' y='45' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>C(0,8)</text><text x='130' y='175' font-family='sans-serif' font-size='11' font-weight='bold' fill='#1d4ed8'>6 units</text><text x='68' y='105' font-family='sans-serif' font-size='11' font-weight='bold' fill='#1d4ed8'>8 units</text><text x='150' y='90' font-family='sans-serif' font-size='11' font-weight='bold' fill='#b91c1c'>Hypotenuse BC = ?</text></svg>"
+    },
+    "options": [
+      "24 units",
+      "20 units",
+      "28 units",
+      "14 units"
+    ],
+    "answer": 0,
+    "explanation": "Length AB = 6 units, AC = 8 units. By Pythagoras theorem, hypotenuse BC = √(6² + 8²) = √(36 + 64) = √100 = 10 units. Perimeter = AB + AC + BC = 6 + 8 + 10 = 24 units.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-068",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the Highest Common Factor (HCF) of any two consecutive natural numbers n and n + 1?",
+    "sampleAnswer": "1",
+    "acceptedAnswers": [
+      "1",
+      "one"
+    ],
+    "keywords": [
+      "1",
+      "one"
+    ],
+    "explanation": "Any two consecutive positive integers n and n + 1 are coprime (their difference is 1, so no integer greater than 1 can divide both). Hence HCF(n, n + 1) = 1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-069",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What is the exact theoretical probability of selecting a random leap year that contains exactly 53 Sundays?",
+    "sampleAnswer": "2/7",
+    "acceptedAnswers": [
+      "2/7",
+      "2 / 7"
+    ],
+    "keywords": [
+      "2/7"
+    ],
+    "explanation": "A leap year has 366 days = 52 weeks + 2 extra days. The two extra days can be (Sun, Mon), (Mon, Tue), (Tue, Wed), (Wed, Thu), (Thu, Fri), (Fri, Sat), or (Sat, Sun). Exactly 2 of these 7 equally likely pairs contain Sunday. Hence P = 2/7.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-070",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the tangent-radius orthogonality theorem:\nAssertion (A): The tangent at any point of a circle is perpendicular to the radius through the point of contact.\nReason (R): Of all line segments joining the centre of the circle to points on the tangent line, the perpendicular distance is the shortest; since all other points on the tangent lie outside the circle, the radius is the shortest segment.",
+    "options": [
+      "Both (A) and (R) are true, and (R) provides the correct geometric proof of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Theorem 10.1 (NCERT Class 10): Tangent is perpendicular to radius at contact. The proof relies on showing that any other point on tangent line lies outside the circle, making radius the shortest distance.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-071",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Quadratic Equations",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Determine the validity of the equation classification:\nAssertion (A): The algebraic equation (x - 2)² + 1 = 2x - 3 represents a quadratic equation.\nReason (R): Expanding and collecting like terms yields x² - 4x + 4 + 1 = 2x - 3 => x² - 6x + 8 = 0, which conforms to the standard quadratic form ax² + bx + c = 0 with degree 2 and a ≠ 0.",
+    "options": [
+      "Both (A) and (R) are true, and (R) correctly explains and proves (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Expanding (x - 2)² + 1 = x² - 4x + 5. Equating to 2x - 3 gives x² - 6x + 8 = 0. Because a = 1 ≠ 0, it is a valid quadratic equation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-072",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are valid geometric criteria used to prove that two triangles are similar? (Select all 3 that apply)",
+    "options": [
+      "AAA (or AA) similarity criterion",
+      "SAS (Side-Angle-Side) similarity criterion",
+      "SSS (Side-Side-Side) similarity criterion",
+      "SSA similarity criterion",
+      "ASA congruence criterion only",
+      "RHS similarity for general scalene triangles"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "The three standard criteria for similarity of triangles in CBSE Class 10 geometry are AAA (or AA), SSS (proportional sides), and SAS (proportional sides with included angle).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-073",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following mathematical conditions confirm that three distinct points A, B, and C lie on the same straight line (collinear)? (Select all 3 that apply)",
+    "options": [
+      "The area of the triangle formed by the three points is zero: 0.5|x1(y2 - y3) + x2(y3 - y1) + x3(y1 - y2)| = 0.",
+      "The slope of segment AB is equal to the slope of segment BC: (y2 - y1)/(x2 - x1) = (y3 - y2)/(x3 - x2).",
+      "The sum of the lengths of two segments equals the length of the third segment (e.g., AB + BC = AC).",
+      "The origin must be the midpoint of line segment AC.",
+      "The product of coordinates x1 × y1 must equal x2 × y2.",
+      "All three points must have the same distance from the y-axis."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Three points are collinear if: (1) Area of triangle = 0; (2) Slope of AB = Slope of BC; (3) By distance formula, AB + BC = AC (or another combination).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-074",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the sequential division steps required to compute the HCF of 455 and 42 using Euclid's Division Algorithm (a = bq + r) from first to last:",
+    "orderedItems": [
+      "Apply Euclid's division lemma to 455 and 42: 455 = 42 × 10 + 35.",
+      "Since remainder 35 ≠ 0, apply division lemma to divisor 42 and remainder 35: 42 = 35 × 1 + 7.",
+      "Since remainder 7 ≠ 0, apply division lemma to divisor 35 and remainder 7: 35 = 7 × 5 + 0.",
+      "Observe that the remainder has now become 0.",
+      "Conclude that the divisor at this final terminal stage (7) is the HCF of 455 and 42."
+    ],
+    "answer": "ordered",
+    "explanation": "Euclidean algorithm: 455 = 42×10 + 35 -> 42 = 35×1 + 7 -> 35 = 7×5 + 0. Remainder is 0, so HCF is the last non-zero divisor, 7.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-075",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the mathematical steps required to calculate the total external surface area of a composite solid toy formed by mounting a right circular cone of radius r upon a hemisphere of the same radius r:",
+    "orderedItems": [
+      "Identify the common radius r shared by the cone and hemisphere, and the vertical height h of the cone.",
+      "Calculate the slant height l of the cone using Pythagoras' theorem: l = √(r² + h²).",
+      "Compute the curved surface area of the conical top: CSA(cone) = π r l.",
+      "Compute the curved surface area of the hemispherical bottom: CSA(hemisphere) = 2 π r².",
+      "Sum the two exposed curved surfaces to obtain Total Area = π r l + 2 π r² = π r (l + 2r)."
+    ],
+    "answer": "ordered",
+    "explanation": "Composite surface area: Note shared base is internal (hidden) -> compute cone slant height -> calculate cone CSA -> calculate hemisphere CSA -> add both CSAs.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-076",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "If the sum of the zeroes of a quadratic polynomial is -1 and their product is -20, which of the following is the quadratic polynomial?",
+    "options": [
+      "x² + x - 20",
+      "x² - x - 20",
+      "x² + x + 20",
+      "x² - x + 20"
+    ],
+    "answer": 0,
+    "explanation": "A quadratic polynomial with sum S and product P of zeroes is given by k[x² - Sx + P]. Here S = -1 and P = -20, so p(x) = x² - (-1)x + (-20) = x² + x - 20.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-077",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A tangent PQ at a point P of a circle of radius 5 cm meets a straight line through the centre O at a point Q such that OQ = 12 cm. Find the length of tangent PQ in cm:",
+    "options": [
+      "√119 cm",
+      "13 cm",
+      "12 cm",
+      "8.5 cm"
+    ],
+    "answer": 0,
+    "explanation": "Since OP is the radius to the point of contact P, ∠OPQ = 90°. By Pythagoras' theorem in right △OPQ: PQ² + OP² = OQ² => PQ² + 5² = 12² => PQ² = 144 - 25 = 119 => PQ = √119 cm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-078",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If sin (A - B) = 1/2 and cos (A + B) = 1/2, where 0° < A + B ≤ 90° and A > B, find the measures of acute angles A and B:",
+    "options": [
+      "A = 45°, B = 15°",
+      "A = 60°, B = 30°",
+      "A = 50°, B = 20°",
+      "A = 55°, B = 25°"
+    ],
+    "answer": 0,
+    "explanation": "sin (A - B) = 1/2 = sin 30° => A - B = 30°. cos (A + B) = 1/2 = cos 60° => A + B = 60°. Adding equations: 2A = 90° => A = 45°. Subtracting equations: 2B = 30° => B = 15°.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-079",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Find the coordinates of the point P which divides the line segment joining (-1, 7) and (4, -3) internally in the ratio 2 : 3:",
+    "options": [
+      "(1, 3)",
+      "(3, 1)",
+      "(-1, 3)",
+      "(2, 4)"
+    ],
+    "answer": 0,
+    "explanation": "Using section formula P(x, y) = ((m1 x2 + m2 x1)/(m1 + m2), (m1 y2 + m2 y1)/(m1 + m2)): x = (2(4) + 3(-1)) / (2 + 3) = (8 - 3)/5 = 1. y = (2(-3) + 3(7)) / (2 + 3) = (-6 + 21)/5 = 15/5 = 3. Point is (1, 3).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-080",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Two standard unbiased dice are thrown simultaneously. What is the theoretical probability that the sum of the two numbers turning up on top is exactly 8?",
+    "options": [
+      "5/36",
+      "1/6",
+      "7/36",
+      "1/9"
+    ],
+    "answer": 0,
+    "explanation": "Total possible outcomes n(S) = 6 × 6 = 36. Outcomes with sum 8 are: (2, 6), (3, 5), (4, 4), (5, 3), (6, 2) => n(E) = 5. P(sum is 8) = 5/36.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-081",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Any two equilateral triangles of arbitrary side lengths are always geometrically similar to each other.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. In any equilateral triangle, all three internal angles are strictly 60°. Since all corresponding angles are equal, AAA similarity always holds.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-082",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In a continuous grouped frequency distribution, the modal class is defined as the class interval possessing the highest individual frequency.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "True. The modal class is the interval corresponding to the maximum frequency f1, from which lower limit l and adjacent frequencies f0 and f2 are selected.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-083",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The length of an arc of a sector with central angle θ in a circle of radius r is given by the formula l = (θ / 360°) × __________.",
+    "answer": "2 * pi * r",
+    "acceptedAnswers": [
+      "2 * pi * r",
+      "2πr",
+      "2 * π * r",
+      "2pi r",
+      "2pir"
+    ],
+    "explanation": "Arc length represents the fractional portion of the total circumference: l = (θ / 360°) × 2 π r.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-084",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "If three terms a, b, and c are in arithmetic progression, the middle term b is the arithmetic mean of a and c, expressed algebraically as b = __________.",
+    "answer": "(a + c) / 2",
+    "acceptedAnswers": [
+      "(a + c) / 2",
+      "(a+c)/2",
+      "(a + c)/2",
+      "a+c/2"
+    ],
+    "explanation": "By definition of AP: b - a = c - b => 2b = a + c => b = (a + c) / 2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-085",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each complementary angle trigonometric expression on the left with its simplified co-function on the right:",
+    "pairs": [
+      [
+        "sin (90° - θ)",
+        "cos θ"
+      ],
+      [
+        "cos (90° - θ)",
+        "sin θ"
+      ],
+      [
+        "tan (90° - θ)",
+        "cot θ"
+      ],
+      [
+        "sec (90° - θ)",
+        "cosec θ"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Complementary angle trigonometric relations: sin(90° - θ) = cos θ; cos(90° - θ) = sin θ; tan(90° - θ) = cot θ; sec(90° - θ) = cosec θ.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-086",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Probability",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "In a standard complete deck of 52 playing cards, how many total face cards (comprising Jacks, Queens, and Kings across all four suits) are present?",
+    "answer": 12,
+    "tolerance": 0,
+    "explanation": "Each of the 4 suits (Spades, Hearts, Diamonds, Clubs) has 3 face cards (Jack, Queen, King). Total face cards = 4 × 3 = 12.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-087",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Two concentric circles have radii 5 cm and 3 cm. Find the length of the chord of the larger circle (in cm) which touches the smaller inner circle as a tangent:",
+    "answer": 8,
+    "tolerance": 0,
+    "explanation": "Let AB be the chord touching inner circle at M. OM ⊥ AB with OM = 3 cm and OA = 5 cm. In right △OMA: AM = √(OA² - OM²) = √(5² - 3²) = √(25 - 9) = √16 = 4 cm. Since perpendicular from centre bisects chord, AB = 2 × AM = 2 × 4 = 8 cm.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-088",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Find the area (in cm²) of a quadrant of a circle whose circumference is 22 cm. (Take π = 22/7, rounded to two decimal places):",
+    "answer": 9.63,
+    "tolerance": 0.05,
+    "explanation": "Circumference 2 π r = 22 => 2 × (22 / 7) × r = 22 => r = 7 / 2 = 3.5 cm. Quadrant area = (1 / 4) π r² = (1 / 4) × (22 / 7) × (7 / 2)² = (1 / 4) × (22 / 7) × (49 / 4) = 77 / 8 = 9.625 ≈ 9.63 cm².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-089",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A solid right circular cylinder has diameter 12 cm (radius 6 cm) and height 15 cm. Calculate its curved surface area in cm². (Take π = 3.14):",
+    "answer": 565.2,
+    "tolerance": 0.5,
+    "explanation": "Curved surface area of a cylinder = 2 π r h = 2 × 3.14 × 6 × 15 = 2 × 3.14 × 90 = 180 × 3.14 = 565.2 cm².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-090",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Some Applications of Trigonometry",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "From the roof of a 7 m high building, the angle of elevation of the top of a cable tower is 60° and the angle of depression of its base is 45°. Determine the total height of the cable tower in metres. (Use √3 ≈ 1.732, rounded to 2 decimal places):",
+    "answer": 19.12,
+    "tolerance": 0.1,
+    "explanation": "Let building height AB = 7 m, tower CD. From angle of depression 45°, horizontal distance d = AB / tan 45° = 7 / 1 = 7 m. From angle of elevation 60°, upper height of tower h_upper = d × tan 60° = 7√3 m. Total tower height = 7 + 7√3 = 7(1 + 1.732) = 7(2.732) = 19.124 ≈ 19.12 metres.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-091",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Introduction to Trigonometry",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In right-angled triangle ABC with right angle at B, acute angle θ is located at vertex A. Given side BC = 3 units, side AB = 4 units, and hypotenuse AC = 5 units, what is the value of sin θ?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#f8fafc' rx='8'/><polygon points='60,150 240,150 240,50' fill='#f1f5f9' stroke='#0f172a' stroke-width='2.5'/><rect x='225' y='135' width='15' height='15' fill='none' stroke='#0f172a' stroke-width='1.5'/><circle cx='60' cy='150' r='4' fill='#2563eb'/><circle cx='240' cy='150' r='4' fill='#0f172a'/><circle cx='240' cy='50' r='4' fill='#0f172a'/><path d='M90 150 A30 30 0 0 0 87 137' fill='none' stroke='#dc2626' stroke-width='2'/><text x='95' y='143' font-family='sans-serif' font-size='12' font-weight='bold' fill='#dc2626'>θ</text><text x='45' y='160' font-family='sans-serif' font-size='12' font-weight='bold' fill='#2563eb'>A</text><text x='250' y='160' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>B (90°)</text><text x='250' y='48' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>C</text><text x='140' y='168' font-family='sans-serif' font-size='11' font-weight='bold' fill='#475569'>Adjacent = 4</text><text x='250' y='105' font-family='sans-serif' font-size='11' font-weight='bold' fill='#475569'>Opposite = 3</text><text x='120' y='90' font-family='sans-serif' font-size='11' font-weight='bold' fill='#1d4ed8'>Hypotenuse = 5</text></svg>"
+    },
+    "options": [
+      "3/5",
+      "4/5",
+      "3/4",
+      "5/3"
+    ],
+    "answer": 0,
+    "explanation": "By definition, sin θ = Opposite side / Hypotenuse = BC / AC = 3 / 5 = 0.6.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-092",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Areas Related to Circles",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "From each corner of a square ABCD of side length 14 cm, a quadrant of a circle of radius 7 cm is removed as shown. What is the area of the remaining central shaded region in cm²? (Take π = 22/7)",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 200' width='100%' height='200'><rect width='320' height='200' fill='#f8fafc' rx='8'/><rect x='80' y='20' width='160' height='160' fill='#38bdf8' stroke='#0284c7' stroke-width='2'/><path d='M80 20 L160 20 A80 80 0 0 1 80 100 Z' fill='#ffffff' stroke='#0284c7' stroke-width='1.5'/><path d='M240 20 L160 20 A80 80 0 0 0 240 100 Z' fill='#ffffff' stroke='#0284c7' stroke-width='1.5'/><path d='M80 180 L160 180 A80 80 0 0 0 80 100 Z' fill='#ffffff' stroke='#0284c7' stroke-width='1.5'/><path d='M240 180 L160 180 A80 80 0 0 1 240 100 Z' fill='#ffffff' stroke='#0284c7' stroke-width='1.5'/><text x='130' y='105' font-family='sans-serif' font-size='12' font-weight='bold' fill='#0f172a'>Shaded ?</text><text x='110' y='195' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>Square side = 14 cm</text><text x='15' y='100' font-family='sans-serif' font-size='10' fill='#475569'>r = 7 cm</text></svg>"
+    },
+    "options": [
+      "42 cm²",
+      "36 cm²",
+      "48 cm²",
+      "54 cm²"
+    ],
+    "answer": 0,
+    "explanation": "Area of square = side² = 14² = 196 cm². Combined area of the four quadrants = 4 × [(1/4) π r²] = π r² = (22/7) × 7² = 154 cm². Area of shaded central region = Area of square - Area of 4 quadrants = 196 - 154 = 42 cm².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-093",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the formula for the distance between two points P(x1, y) and Q(x2, y) lying on a horizontal line parallel to the x-axis?",
+    "sampleAnswer": "|x2 - x1|",
+    "acceptedAnswers": [
+      "|x2 - x1|",
+      "|x1 - x2|",
+      "x2 - x1",
+      "x1 - x2",
+      "absolute difference of x coordinates"
+    ],
+    "keywords": [
+      "x2 - x1",
+      "x1 - x2"
+    ],
+    "explanation": "Since the y-coordinates are equal, the distance formula simplifies to √((x2 - x1)² + (y - y)²) = √((x2 - x1)²) = |x2 - x1|.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-094",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "According to the Remainder Theorem, what is the exact algebraic value of the remainder when a polynomial p(x) is divided by the linear factor (x - a)?",
+    "sampleAnswer": "p(a)",
+    "acceptedAnswers": [
+      "p(a)",
+      "P(a)"
+    ],
+    "keywords": [
+      "p(a)",
+      "P(a)"
+    ],
+    "explanation": "By the Remainder Theorem, p(x) = (x - a) q(x) + r. Substituting x = a yields p(a) = 0 + r => r = p(a).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-095",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "Examine the computation of central tendency:\nAssertion (A): The arithmetic mean of the first five prime numbers (2, 3, 5, 7, 11) is 5.6.\nReason (R): The arithmetic mean equals the aggregate sum of all observations divided by the total number of observations: (2 + 3 + 5 + 7 + 11) / 5 = 28 / 5 = 5.6.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct mathematical justification of (A).",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "First 5 primes are 2, 3, 5, 7, 11. Sum = 28. Count = 5. Mean = 28/5 = 5.6. Both statements are true and R directly verifies A.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-096",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Analyze the sequential pattern:\nAssertion (A): The numerical sequence 2, 2², 2³, 2⁴, ... does not form an arithmetic progression.\nReason (R): In an arithmetic progression, the difference between consecutive terms must remain constant; here, 4 - 2 = 2, 8 - 4 = 4, 16 - 8 = 8, so the difference is not constant (it forms a geometric progression with common ratio 2).",
+    "options": [
+      "Both (A) and (R) are true, and (R) correctly explains why the sequence is not an AP.",
+      "Both (A) and (R) are true, but (R) is not the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Because consecutive differences 4 - 2 = 2, 8 - 4 = 4 are not equal, common difference does not exist, proving the sequence is not an AP.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-097",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following geometric statements concerning circles and tangents are valid Euclidean theorems? (Select all 3 that apply)",
+    "options": [
+      "The tangent at any point of a circle is perpendicular to the radius through the point of contact.",
+      "The lengths of tangents drawn from an external point to a circle are equal.",
+      "There is no tangent to a circle passing through a point lying strictly inside the circle.",
+      "A straight line can intersect a circle at three distinct points.",
+      "A circle can have infinitely many parallel tangents simultaneously.",
+      "Tangents drawn at the endpoints of any arbitrary chord are always parallel."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Valid theorems: tangent is perpendicular to radius; tangents from external point are equal; no tangent can be drawn from an interior point. A line can intersect a circle at at most 2 points, and a circle has at most 2 parallel tangents in any given direction.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-098",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Real Numbers",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following decimal representations represent rational numbers (p/q with integers p, q and q ≠ 0)? (Select all 3 that apply)",
+    "options": [
+      "0.125 (terminating decimal: 1/8)",
+      "0.142857142857... (repeating periodic decimal: 1/7)",
+      "0.3181818... (repeating non-terminating decimal: 7/22)",
+      "0.101001000100001... (non-terminating non-repeating)",
+      "√7 = 2.6457513... (infinite non-repeating radical expansion)",
+      "π = 3.14159265... (transcendental non-terminating non-repeating)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "A real number is rational if and only if its decimal expansion is terminating or non-terminating repeating (periodic). Non-terminating non-repeating numbers (like √7, π, and 0.101001...) are irrational.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-099",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the sequential computational steps required to calculate the mode of grouped continuous data using the modal formula Mode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h:",
+    "orderedItems": [
+      "Inspect the grouped frequency distribution and identify the class interval having the maximum frequency.",
+      "Designate this class interval as the modal class.",
+      "Record the lower boundary l and class width h of the modal class.",
+      "Extract f1 (frequency of modal class), f0 (frequency of preceding class), and f2 (frequency of succeeding class).",
+      "Substitute all parameters into Mode = l + [(f1 - f0) / (2f1 - f0 - f2)] × h and evaluate the numerical result."
+    ],
+    "answer": "ordered",
+    "explanation": "Grouped mode procedure: Locate highest frequency -> Define modal class -> Extract l and h -> Determine f1, f0, f2 -> Compute formula.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-maths-100",
+    "class": 10,
+    "subject": "maths",
+    "chapter": "Arithmetic Progressions",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the mathematical steps used by Carl Friedrich Gauss to derive the sum formula for an arithmetic progression Sₙ = (n/2)[2a + (n - 1)d]:",
+    "orderedItems": [
+      "Write the sum Sₙ in forward order: Sₙ = a + (a + d) + (a + 2d) + ... + (a + (n - 1)d).",
+      "Write the identical sum Sₙ in reversed reverse order: Sₙ = (a + (n - 1)d) + (a + (n - 2)d) + ... + a.",
+      "Add the two equations term-by-term vertically: 2 Sₙ = [2a + (n - 1)d] + [2a + (n - 1)d] + ... (n identical terms).",
+      "Consolidate the repeated addition into multiplication: 2 Sₙ = n [2a + (n - 1)d].",
+      "Divide both sides by 2 to conclude: Sₙ = (n / 2) [2a + (n - 1)d]."
+    ],
+    "answer": "ordered",
+    "explanation": "Gauss derivation: Forward sum -> Reversed sum -> Vertical addition of n constant pairs -> Simplify 2Sₙ -> Divide by 2.",
+    "marks": 2,
+    "volatile": false
+  }
+]

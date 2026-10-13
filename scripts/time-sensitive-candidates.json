@@ -1,0 +1,985 @@
+[
+  {
+    "id": "c9-chemistry-025",
+    "file": "class-9/chemistry.json",
+    "matchedKw": "latest",
+    "question": "Arrange the following atomic theories and discoveries in chronological order from earliest to latest:",
+    "explanation": "Dalton (1808) -> Thomson (1897) -> Rutherford (1911) -> Bohr (1913) -> Chadwick (1932).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-chemistry-100",
+    "file": "class-9/chemistry.json",
+    "matchedKw": "latest",
+    "question": "Arrange the following milestone scientific discoveries and models of atomic theory in correct chronological historical order (from earliest to latest):",
+    "explanation": "Chronological order: Dalton (1808) -> Thomson (1897-1904) -> Rutherford (1911) -> Bohr (1913) -> Chadwick (1932).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-020",
+    "file": "class-9/gk.json",
+    "matchedKw": "prime minister",
+    "question": "Evaluate the constitutional relationship between the head of state and government in India:\nAssertion (A): The President is the constitutional executive head of the Union of India.\nReason (R): Under Article 74, the President exercises all executive functions with the binding aid and advice of the Council of Ministers headed by the Prime Minister.",
+    "explanation": "India has a parliamentary democracy: the President is the de jure titular head of state who acts on the advice of the elected Council of Ministers (the de facto executive).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-024",
+    "file": "class-9/gk.json",
+    "matchedKw": "latest",
+    "question": "Arrange these five milestone events of the Indian Freedom Movement in chronological order from earliest to latest:",
+    "explanation": "Chronology: Revolt of 1857 -> Bengal Partition 1905 -> Jallianwala Bagh 1919 -> Dandi March 1930 -> Quit India Movement August 1942.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-030",
+    "file": "class-9/gk.json",
+    "matchedKw": "olympic gold",
+    "question": "National Sports Day is celebrated annually in India on August 29 to commemorate the birth anniversary of Major Dhyan Chand, a legendary icon in which sport?",
+    "explanation": "Major Dhyan Chand ('The Wizard' of hockey) led India to consecutive Olympic gold medals in field hockey in 1928, 1932, and 1936.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-033",
+    "file": "class-9/gk.json",
+    "matchedKw": "prime minister",
+    "question": "Project Tiger, one of India's most successful wildlife conservation initiatives, was launched in 1973 from Jim Corbett National Park in Uttarakhand.",
+    "explanation": "True. Project Tiger was inaugurated in April 1973 under Prime Minister Indira Gandhi to stem the steep decline in Royal Bengal Tiger numbers.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-047",
+    "file": "class-9/gk.json",
+    "matchedKw": "world cup",
+    "question": "Which of the following tournaments and championship trophies are historically associated with the sport of Cricket? (Select all 3 that apply)",
+    "explanation": "The ICC Cricket World Cup, Ranji Trophy, and The Ashes belong to Cricket. Santosh Trophy is Football, Thomas Cup is Badminton, and Davis Cup is Tennis.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-064",
+    "file": "class-9/gk.json",
+    "matchedKw": "currently",
+    "question": "How many sovereign States currently constitute the federal Union of India (excluding the eight Union Territories)?",
+    "explanation": "India has 28 States and 8 Union Territories following the bifurcation of Jammu and Kashmir and the merger of Daman & Diu and Dadra & Nagar Haveli.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-065",
+    "file": "class-9/gk.json",
+    "matchedKw": "currently",
+    "question": "How many scheduled languages are presently listed and officially recognized in the Eighth Schedule of the Constitution of India?",
+    "explanation": "The Eighth Schedule currently recognizes 22 languages (originally 14; Sindhi added in 1967; Konkani, Manipuri, Nepali in 1992; Bodo, Dogri, Maithili, Santhali in 2003).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-070",
+    "file": "class-9/gk.json",
+    "matchedKw": "governor",
+    "question": "Evaluate the administrative framework of Union Territories in India:\nAssertion (A): The Union Territory of Ladakh does not have an elected legislative assembly.\nReason (R): Under the Jammu and Kashmir Reorganisation Act 2019, Ladakh was constituted as a Union Territory without a legislature, administered directly by the President through a Lieutenant Governor.",
+    "explanation": "The 2019 Act bifurcated the state into two Union Territories: Jammu & Kashmir (with a legislative assembly) and Ladakh (without a legislature).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-074",
+    "file": "class-9/gk.json",
+    "matchedKw": "latest",
+    "question": "Arrange these five revolutionary communication and information inventions in chronological order from earliest to latest:",
+    "explanation": "Printing press (~1440) -> Electric telegraph (~1844) -> Telephone (1876) -> Wireless radio (~1895) -> World Wide Web (1989).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-075",
+    "file": "class-9/gk.json",
+    "matchedKw": "chief justice",
+    "question": "Arrange these constitutional functionaries in descending order of precedence according to the official Table of Precedence of India from highest to lowest rank:",
+    "explanation": "Table of Precedence: 1 = President, 2 = Vice-President, 3 = Prime Minister, 4 = State Governors in their states, 6 = Chief Justice of India / Lok Sabha Speaker.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-076",
+    "file": "class-9/gk.json",
+    "matchedKw": "world cup",
+    "question": "Which nation has won the FIFA Men's Football World Cup the highest number of times, claiming five championship titles (1958, 1962, 1970, 1994, and 2002)?",
+    "explanation": "Brazil has won 5 FIFA World Cups, followed by Germany and Italy with 4 titles each, and Argentina with 3 titles.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-081",
+    "file": "class-9/gk.json",
+    "matchedKw": "current ",
+    "question": "Under Article 254 of the Constitution of India, if an irreconcilable conflict arises between a parliamentary Union law and a State law on a Concurrent List subject, which principle applies?",
+    "explanation": "Article 254 establishes parliamentary supremacy in Concurrent List subjects: the Central law prevails over the conflicting State law (unless the State law received Presidential assent).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-gk-090",
+    "file": "class-9/gk.json",
+    "matchedKw": "union territories",
+    "question": "What is the maximum permissible total membership of the Rajya Sabha (Council of States) authorized by Article 80 of the Constitution of India?",
+    "explanation": "Article 80 caps Rajya Sabha membership at 250 (up to 238 representatives from States and Union Territories + 12 members nominated by the President for literature, science, art, and social service).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c9-physics-072",
+    "file": "class-9/physics.json",
+    "matchedKw": "current ",
+    "question": "Which of the following natural phenomena are explained by Newton's UNIVERSAL LAW OF GRAVITATION? (Select all that apply)",
+    "explanation": "Gravitation explains binding to Earth, Moon's orbit, planetary revolutions, and ocean tides. Electric current flow is governed by electromagnetic forces.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-chemistry-021",
+    "file": "class-10/chemistry.json",
+    "matchedKw": "current,",
+    "question": "Assertion (A): Solid dry sodium chloride crystals do not conduct electric current, but molten sodium chloride or an aqueous sodium chloride solution conducts electricity readily.\nReason (R): In solid crystalline sodium chloride, strong electrostatic ionic bonds immobilize Na⁺ and Cl⁻ ions in fixed lattice positions, whereas in molten or aqueous states, the ions dissociate into mobile charge carriers.",
+    "explanation": "Conduction of electricity requires mobile charge carriers. In solid NaCl, ions are held rigidly by electrostatic forces. In molten or aqueous state, hydration or thermal energy overcomes the lattice energy, freeing Na⁺ and Cl⁻ ions to conduct current.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-cs-027",
+    "file": "class-10/cs.json",
+    "matchedKw": "currently",
+    "question": "A database table named 'STUDENT' contains 6 columns (attributes) and currently holds 25 student records (tuples). What are the Degree and Cardinality of this table respectively?",
+    "explanation": "In relational database theory, 'Degree' is the number of attributes (columns), and 'Cardinality' is the number of tuples (rows). Thus Degree = 6 and Cardinality = 25.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-cs-099",
+    "file": "class-10/cs.json",
+    "matchedKw": "as of",
+    "question": "Which of the following domains are recognized core subfields or primary application areas of Artificial Intelligence? (Select all that apply)",
+    "explanation": "NLP, Computer Vision, and Machine Learning are fundamental domains of Artificial Intelligence. Cryogenic plumbing is mechanical/chemical engineering.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-005",
+    "file": "class-10/gk.json",
+    "matchedKw": "currently",
+    "question": "How many Fundamental Duties are currently prescribed for citizens of India under Article 51A of the Indian Constitution?",
+    "explanation": "The 42nd Amendment originally added 10 Fundamental Duties in 1976. The 86th Amendment in 2002 added an 11th duty (education for children aged 6-14), bringing the total to 11.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-007",
+    "file": "class-10/gk.json",
+    "matchedKw": "president of india",
+    "question": "The Vice President of India acts as the ex-officio Chairman of the Rajya Sabha (Council of States).",
+    "explanation": "Under Article 64 and Article 89(1), the Vice President of India is the ex-officio Chairman of the Council of States and presides over its sessions.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-015",
+    "file": "class-10/gk.json",
+    "matchedKw": "union territories",
+    "question": "According to Article 80 of the Constitution of India, what is the maximum constitutional strength permitted for the Rajya Sabha (Council of States)?",
+    "explanation": "Article 80 caps Rajya Sabha membership at 250 (up to 238 representatives of States and Union Territories, and 12 members nominated by the President).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-020",
+    "file": "class-10/gk.json",
+    "matchedKw": "prime minister",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): The Council of Ministers led by the Prime Minister is collectively responsible exclusively to the Lok Sabha and not to the Rajya Sabha.\nReason (R): Members of the Lok Sabha are directly elected by the sovereign citizens of India through universal adult suffrage, reflecting the primary democratic mandate.",
+    "explanation": "Under Article 75(3), executive accountability is directly tied to the directly elected popular chamber (Lok Sabha), so only the Lok Sabha can pass a motion of no confidence.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-023",
+    "file": "class-10/gk.json",
+    "matchedKw": "governor",
+    "question": "Which of the following high constitutional authorities in India are appointed directly by the President of India under their warrant of hand and seal? (Select all that apply)",
+    "explanation": "Supreme Court judges, the CAG, and State Governors are appointed directly by the President. State Chief Ministers are appointed by their respective State Governors.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-029",
+    "file": "class-10/gk.json",
+    "matchedKw": "repo rate",
+    "question": "In the monetary policy framework of the Reserve Bank of India (RBI), what does the term 'Repo Rate' signify?",
+    "explanation": "Repo (Repurchase Option) Rate is the benchmark policy rate at which the central bank (RBI) lends money to commercial banks against approved government securities to control liquidity and inflation.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-030",
+    "file": "class-10/gk.json",
+    "matchedKw": "currently",
+    "question": "Which of the three major sectors of the Indian economy currently contributes the largest percentage share to India's Gross Domestic Product (GDP)?",
+    "explanation": "The Tertiary or Services sector (IT, banking, communications, trade, transportation, healthcare) accounts for over 53% of India's total Gross Value Added (GVA).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-031",
+    "file": "class-10/gk.json",
+    "matchedKw": "currently",
+    "question": "How many judges comprise the bench of the International Court of Justice (ICJ), and what is the duration of their elected tenure?",
+    "explanation": "The ICJ consists of 15 judges elected to 9-year terms of office by the United Nations General Assembly and the Security Council voting concurrently.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-034",
+    "file": "class-10/gk.json",
+    "matchedKw": "prime minister",
+    "question": "The premier policy think-tank of the Government of India that replaced the 65-year-old Planning Commission on 1 January 2015 is named ______ Aayog.",
+    "explanation": "NITI (National Institution for Transforming India) Aayog was constituted to foster cooperative federalism and bottom-up strategic planning, chaired by the Prime Minister.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-037",
+    "file": "class-10/gk.json",
+    "matchedKw": "currently",
+    "question": "How many sovereign member states currently comprise the full membership of the United Nations General Assembly?",
+    "explanation": "There are currently 193 sovereign member states in the UN (with the Republic of South Sudan admitted as the 193rd member in July 2011), along with 2 permanent observer states.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-044",
+    "file": "class-10/gk.json",
+    "matchedKw": "repo rate",
+    "question": "Explain how the Reserve Bank of India (RBI) utilizes an increase in the benchmark Repo Rate to curb rising inflation in the Indian economy.",
+    "explanation": "Hiking repo rate increases cost of funds across the financial system, curtailing credit creation and consumer spending, which stabilizes price inflation.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-051",
+    "file": "class-10/gk.json",
+    "matchedKw": "chandrayaan-3",
+    "question": "Which heavy-lift launch vehicle of ISRO, popularly nicknamed 'Bahubali' and featuring two S200 solid rocket boosters with an L110 liquid core stage and C25 cryogenic upper stage, placed Chandrayaan-3 into its translunar trajectory?",
+    "explanation": "LVM3 (formerly GSLV Mk III) is ISRO's operational three-stage heavy-lift vehicle capable of placing 4 tonnes into GTO and 8 tonnes into LEO. It launched Chandrayaan-3 on 14 July 2023.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-059",
+    "file": "class-10/gk.json",
+    "matchedKw": "as of",
+    "question": "Laterite soils develop in areas of low temperature and sparse rainfall through wind deposition of loose desert sand.",
+    "explanation": "Laterite soils form under conditions of high temperature and heavy alternating wet and dry rainfall, which causes intense leaching of silica and lime, leaving iron and aluminium oxides.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-065",
+    "file": "class-10/gk.json",
+    "matchedKw": "chandrayaan-3",
+    "question": "On 23 August 2023, India achieved a historic first soft landing near the lunar south pole with the Chandrayaan-3 mission. In which calendar year did ISRO launch its very first lunar probe, Chandrayaan-1?",
+    "explanation": "Chandrayaan-1 was launched aboard PSLV-C11 on 22 October 2008 from Sriharikota, famously discovering water molecules on the lunar surface.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-067",
+    "file": "class-10/gk.json",
+    "matchedKw": "chandrayaan-3",
+    "question": "The diagram illustrates the core components of the Chandrayaan-3 spacecraft composite launched towards the Moon. Which module, labeled 'B', contained the 4 throttleable liquid engines, hazard detection sensors, and the Pragyan rover inside?",
+    "explanation": "Component B represents the Vikram Lander Module, which housed scientific payloads (ChaSTE, ILSA, LP) and the Pragyan rover that rolled out onto the lunar surface.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-074",
+    "file": "class-10/gk.json",
+    "matchedKw": "chandrayaan-3",
+    "question": "Arrange India's major lunar and planetary exploration missions chronologically by their launch dates:",
+    "explanation": "Chronology: Chandrayaan-1 (2008) -> Mars Orbiter Mission (2013) -> Chandrayaan-2 (2019) -> Chandrayaan-3 (July 2023) -> Aditya-L1 (Sept 2023).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-081",
+    "file": "class-10/gk.json",
+    "matchedKw": "prime minister",
+    "question": "Which of the following constitutional proposals was a core recommendation of the British Cabinet Mission sent to India in March 1946 by Prime Minister Clement Attlee?",
+    "explanation": "The Cabinet Mission (Pethick-Lawrence, Stafford Cripps, A. V. Alexander) rejected the demand for Pakistan and proposed a federal Union with provinces grouped into Hindu-majority (Section A) and Muslim-majority (Sections B and C) units.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-083",
+    "file": "class-10/gk.json",
+    "matchedKw": "prime minister",
+    "question": "Project Tiger was launched by the Government of India in 1973 from Jim Corbett National Park to safeguard the endangered Royal Bengal tiger population in designated tiger reserves.",
+    "explanation": "Project Tiger was initiated in April 1973 under Prime Minister Indira Gandhi with 9 initial tiger reserves to halt tiger poaching and preserve core ecological habitats.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-gk-100",
+    "file": "class-10/gk.json",
+    "matchedKw": "latest",
+    "question": "Arrange these five epochal milestones of the Indian national freedom movement in chronological order from earliest to latest:",
+    "explanation": "Chronological order: INC Foundation (1885) -> Partition of Bengal (1905) -> Jallianwala Bagh (1919) -> Salt Satyagraha (1930) -> Quit India Movement (1942).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-maths-056",
+    "file": "class-10/maths.json",
+    "matchedKw": "as of",
+    "question": "Let △ABC ~ △PQR such that area(△ABC) = 64 cm² and area(△PQR) = 121 cm². If corresponding side QR = 15.4 cm, find the length of side BC in cm:",
+    "explanation": "The ratio of areas of two similar triangles equals the square of the ratio of their corresponding sides: area(△ABC)/area(△PQR) = (BC/QR)² => 64/121 = (BC/15.4)² => 8/11 = BC/15.4 => BC = (8 × 15.4) / 11 = 8 × 1.4 = 11.2 cm.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-002",
+    "file": "class-10/physics.json",
+    "matchedKw": "current,",
+    "question": "What is the SI unit of electric potential difference across the terminals of a current-carrying conductor?",
+    "explanation": "Potential difference is defined as work done per unit charge (V = W / Q = Joules / Coulomb = Volt). Ampere is current, Ohm is resistance, and Coulomb is charge.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-005",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "According to Fleming's Left-Hand Rule, if the forefinger points along the magnetic field and the middle finger indicates the electric current direction, what does the outstretched thumb represent?",
+    "explanation": "In Fleming's Left-Hand Rule for motor action: Forefinger = Magnetic Field (B), Middle finger = Current (I), and Thumb = Motion / Force (F) experienced by the conductor.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-007",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "Ohm's Law states that the electric current flowing through a metallic wire is directly proportional to the potential difference across its terminals, provided the temperature remains constant.",
+    "explanation": "True. George Simon Ohm established that V ∝ I at constant temperature and physical dimensions, leading to V = I R, where R is the constant electrical resistance.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-011",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "Match each physical quantity in electricity on the left with its internationally recognized SI unit on the right:",
+    "explanation": "SI units: Current is measured in Amperes; Charge in Coulombs; Resistivity in Ohm-metres; Power in Watts.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-012",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "A current of 0.5 A is drawn by the tungsten filament of an electric bulb for a duration of 10 minutes. Calculate the total net electric charge (in Coulombs) flowing through the filament:",
+    "explanation": "Current I = 0.5 A. Time t = 10 minutes = 10 × 60 s = 600 s. Net electric charge Q = I × t = 0.5 A × 600 s = 300 Coulombs.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-014",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "An electric heating appliance consumes power at a rate of 840 W when connected across a 220 V household power line. Determine the electric current (in Amperes, rounded to 2 decimal places) flowing through the element:",
+    "explanation": "Power P = V × I => I = P / V = 840 W / 220 V = 84 / 22 = 42 / 11 ≈ 3.818... ≈ 3.82 Amperes.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-016",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "An electric coil of resistance 8 Ω draws an electric current of 15 A from the main supply. Calculate the rate at which thermal heat energy is generated in the coil in Watts (Joules per second):",
+    "explanation": "Rate of heat production corresponds to dissipated power: P = I² R = (15 A)² × 8 Ω = 225 × 8 = 1800 Watts.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-020",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "Examine domestic electrical circuitry principles:\nAssertion (A): Household electrical appliances are always connected in parallel across the mains supply rather than in series.\nReason (R): In a parallel circuit, each appliance receives the full rated line voltage (220 V) and operates on an independent switch without disabling other devices if one appliance faults.",
+    "explanation": "Parallel wiring guarantees equal rated potential difference across all domestic devices and allows independent current drawing according to individual resistance values.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-025",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "Arrange the sequential physical steps explaining how an electric safety fuse prevents catastrophic fire hazards during a sudden short-circuit:",
+    "explanation": "Fuse protection sequence: Short-circuit -> Current surge -> Rapid Joule heating -> Melting point reached -> Circuit broken.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-029",
+    "file": "class-10/physics.json",
+    "matchedKw": "current,",
+    "question": "Which fundamental rule determines the orientation and direction of circular magnetic field lines encircling a straight current-carrying conductor?",
+    "explanation": "Maxwell's Right-Hand Thumb Rule states that if you grasp a current-carrying wire with your right hand such that your thumb points along the conventional current, your curled fingers denote the direction of the magnetic field lines.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-032",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "An ideal ammeter is designed with infinite electrical resistance and is wired in parallel across the circuit branch being monitored.",
+    "explanation": "An ammeter must have near-zero (very low) internal resistance and must be connected in series so all current flows through it without modifying the circuit current. A voltmeter has very high resistance and is connected in parallel.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-037",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "An electric heating appliance is rated at 880 W when operated on a standard 220 V alternating domestic supply line. Calculate the electric current (in amperes) drawn by this appliance.",
+    "explanation": "Electric power P = V × I. Rearranging gives I = P / V = 880 W / 220 V = 4.0 A.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-041",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "In the illustrated electrical circuit, resistor R₁ = 4 Ω is in series with a parallel pair R₂ = 6 Ω and R₃ = 3 Ω, powered by an ideal 12 V cell. What is the total current measured at ammeter A?",
+    "explanation": "Equivalent resistance of R₂ and R₃ in parallel: R_p = (6 × 3) / (6 + 3) = 18 / 9 = 2 Ω. Total equivalent resistance R_eq = R₁ + R_p = 4 + 2 = 6 Ω. Total circuit current recorded by ammeter A is I = V / R_eq = 12 V / 6 Ω = 2.0 A.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-042",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "State the key distinction between an alternating current (AC) and a direct current (DC).",
+    "explanation": "DC flows unidirectionally from positive to negative terminal without reversing. In contrast, AC reverses direction periodically (e.g. 50 Hz in Indian domestic supplies where direction flips every 1/100 second).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-046",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "Which of the following actions will increase the magnetic field strength inside a current-carrying cylindrical solenoid?",
+    "explanation": "Magnetic field B inside a long solenoid is given by B = μ₀·n·I. Increasing current I, increasing turns density n, or introducing a high-permeability soft iron core (μ_r >> 1) markedly amplifies B. Reversing polarity inverts field direction without changing its magnitude.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-052",
+    "file": "class-10/physics.json",
+    "matchedKw": "current,",
+    "question": "According to Fleming's Left-Hand Rule used for electric motors, what do the forefinger, middle finger, and thumb represent respectively when held mutually perpendicular?",
+    "explanation": "In Fleming's Left-Hand Rule: Forefinger represents the direction of the Magnetic Field, Middle finger represents the direction of Electric Current, and Thumb denotes the direction of Motion / mechanical Force.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-058",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "According to Joule's law of heating, the thermal energy H generated in a resistor of resistance R carrying a steady current I over duration t is mathematically given by H = _____ (enter formula without spaces).",
+    "explanation": "Joule's law of heating states that H = I²Rt, meaning heat generated is directly proportional to square of current, resistance, and time.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-064",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "A steady potential difference of 24 V is connected across a series combination of two resistors of resistances 4 Ω and 8 Ω. Determine the potential difference (in volts) across the 8 Ω resistor.",
+    "explanation": "Total resistance R_total = 4 + 8 = 12 Ω. Circuit current I = V / R_total = 24 V / 12 Ω = 2 A. Voltage across 8 Ω resistor: V₂ = I × R₂ = 2 A × 8 Ω = 16 V.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-075",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "Arrange the operational sequence of events in an alternating current (AC) generator producing electrical output:",
+    "explanation": "AC Generator sequence: Mechanical shaft rotation -> Flux change -> Induced EMF -> Slip rings rotation -> Brush collection to external circuit.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-084",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "The physical process of generating an electric current in a closed conductor loop by varying the magnetic field surrounding it is called _____ induction.",
+    "explanation": "Discovered by Michael Faraday in 1831, electromagnetic induction is the generation of an electromotive force (and current) across an electrical conductor situated in a changing magnetic field.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-087",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "A current of 0.5 A is drawn by an incandescent filament lamp for a continuous duration of 10 minutes. Calculate the total quantity of electric charge (in coulombs) that passes through the circuit.",
+    "explanation": "Electric charge Q = I × t. Current I = 0.5 A, time t = 10 minutes = 10 × 60 = 600 s. Q = 0.5 A × 600 s = 300 Coulombs.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-088",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "Two electric bulbs rated 220 V; 100 W and 220 V; 60 W are connected in parallel to an electric mains supply of 220 V. Calculate the total current (in amperes) drawn from the mains line (round to two decimal places).",
+    "explanation": "Total power consumed in parallel combination P = 100 W + 60 W = 160 W. Mains supply voltage V = 220 V. Total current drawn I = P / V = 160 W / 220 V = 16 / 22 = 8 / 11 ≈ 0.727 A (rounded to 0.73 A).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-093",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "What is the primary function of earthing the metallic body of heavy domestic electrical appliances?",
+    "explanation": "Earthing bonds the metallic exterior of appliances to a ground buried conductor. If an insulation fault energizes the casing, current flows into the ground rather than through the human body, blowing the fuse or tripping the MCB.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-095",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "Assertion (A): In a series electric circuit, if one incandescent bulb burns out, all other connected light bulbs immediately go out.\nReason (R): In a series circuit, there exists only a single continuous closed conducting loop for electric current; a break at any point stops current flow everywhere in the circuit.",
+    "explanation": "Because all series components share a single common current path, a broken filament in any one lamp creates an open circuit, instantly interrupting current to every other component.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c10-physics-099",
+    "file": "class-10/physics.json",
+    "matchedKw": "current ",
+    "question": "Arrange the following household electrical appliances in order of increasing typical operational current drawn from an Indian 220 V supply mains (from lowest current to highest current):",
+    "explanation": "Because I = P / 220 V, operating current increases strictly with rated power: LED bulb (11 W) < Fan (75 W) < TV (150 W) < Toaster (880 W) < AC (2200 W).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-biology-017",
+    "file": "class-11/biology.json",
+    "matchedKw": "currently",
+    "question": "Define the biological term 'biodiversity'.",
+    "explanation": "Biodiversity denotes the totality of genes, species, and ecosystems in a defined region or the entire biosphere, typically encompassing the estimated 1.7 to 1.8 million species currently described.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-biology-078",
+    "file": "class-11/biology.json",
+    "matchedKw": "current ",
+    "question": "In the countercurrent multiplier mechanism of the mammalian kidney, which segment of Henle's loop is permeable to water but virtually impermeable to electrolytes?",
+    "explanation": "The descending limb of the loop of Henle is permeable to water via aquaporins but almost impermeable to electrolytes, concentrating the tubular fluid as it descends into the hyperosmotic medullary interstitium. The ascending limb is impermeable to water but actively transports NaCl.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-chemistry-065",
+    "file": "class-11/chemistry.json",
+    "matchedKw": "currently",
+    "question": "The diagram depicts the relationship between the reaction quotient (Qc) and the equilibrium constant (Kc). If a reaction mixture currently has Qc > Kc, in which direction will the reaction proceed spontaneously to achieve equilibrium?",
+    "explanation": "When Qc > Kc, the concentration of products is higher than at equilibrium. To establish equilibrium, the reaction proceeds in the backward (reverse) direction from products to reactants until Qc equals Kc.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-003",
+    "file": "class-11/gk.json",
+    "matchedKw": "current ",
+    "question": "Under the Seventh Schedule of the Indian Constitution, which of the following subjects was transferred from the State List to the Concurrent List by the 42nd Constitutional Amendment Act, 1976?",
+    "explanation": "The 42nd Amendment transferred five subjects from the State List to Concurrent List: Education, Forests, Weights & Measures, Protection of Wild Animals and Birds, and Administration of Justice.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-014",
+    "file": "class-11/gk.json",
+    "matchedKw": "presently",
+    "question": "How many Fundamental Duties are presently incorporated in Article 51A of Part IVA of the Constitution of India?",
+    "explanation": "Originally 10 Fundamental Duties were added by the 42nd Amendment in 1976. The 11th duty was added by the 86th Constitutional Amendment Act in 2002.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-033",
+    "file": "class-11/gk.json",
+    "matchedKw": "repo rate",
+    "question": "The Repo Rate is the interest rate at which commercial banks borrow short-term funds from the Reserve Bank of India by pledging government securities.",
+    "explanation": "True. Under the Liquidity Adjustment Facility (LAF), Repo (Repurchase Agreement) Rate is the policy lending rate of the central bank to commercial banks.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-036",
+    "file": "class-11/gk.json",
+    "matchedKw": "governor",
+    "question": "The six-member committee constituted under the RBI Act, 1934 that meets at least four times a year to fix the benchmark repo rate is the ______ Policy Committee.",
+    "explanation": "The Monetary Policy Committee (MPC) consists of 3 members from RBI and 3 external government-appointed experts, chaired by the RBI Governor.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-042",
+    "file": "class-11/gk.json",
+    "matchedKw": "repo rate",
+    "question": "Trace the Reserve Bank of India monetary policy transmission flowchart below. When the Central Bank increases the benchmark Repo Rate, what is the immediate expected effect on commercial lending and market demand?",
+    "explanation": "A repo rate hike raises the cost of funds for banks, which pass on higher loan rates to consumers, reducing credit expansion and cooling inflation.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-049",
+    "file": "class-11/gk.json",
+    "matchedKw": "repo rate",
+    "question": "Which of the following are quantitative (general) credit control instruments deployed by the Reserve Bank of India? (Select all that apply)",
+    "explanation": "CRR, SLR, and Repo Rate are central banking quantitative monetary instruments. GST is a fiscal indirect tax managed by the GST Council, not a central bank monetary policy tool.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-064",
+    "file": "class-11/gk.json",
+    "matchedKw": "prime minister",
+    "question": "In which calendar year did India conduct its first peaceful underground nuclear detonation, codenamed 'Smiling Buddha', at Pokhran, Rajasthan?",
+    "explanation": "Operation Smiling Buddha was conducted on 18 May 1974 at the Pokhran Test Range under Prime Minister Indira Gandhi.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-075",
+    "file": "class-11/gk.json",
+    "matchedKw": "chandrayaan-3",
+    "question": "Arrange the following historic milestones achieved by the Indian Space Research Organisation (ISRO) in chronological order:",
+    "explanation": "Chronological progression: Aryabhata (1975) -> Chandrayaan-1 (2008) -> Mars Orbiter Mission (2013) -> Chandrayaan-3 landing (2023).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-079",
+    "file": "class-11/gk.json",
+    "matchedKw": "world cup",
+    "question": "In which year did the Indian men's cricket team win its maiden ICC Cricket World Cup at Lord's Cricket Ground under the captaincy of Kapil Dev?",
+    "explanation": "India defeated the two-time defending champions West Indies by 43 runs in the final at Lord's on 25 June 1983.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-080",
+    "file": "class-11/gk.json",
+    "matchedKw": "olympic gold",
+    "question": "Major Dhyan Chand, celebrated as the 'Wizard of Hockey', captained the Indian national team to Olympic gold at the 1936 Olympic Games held in:",
+    "explanation": "Dhyan Chand played in three Olympic gold-winning campaigns (1928 Amsterdam, 1932 Los Angeles) and served as team captain in the 1936 Berlin Olympics.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-081",
+    "file": "class-11/gk.json",
+    "matchedKw": "prime minister",
+    "question": "The foundational ancient Indian treatise on statecraft, political strategy, espionage, and economic state administration, the 'Arthashastra', is attributed to:",
+    "explanation": "The Arthashastra was authored by Kautilya (also known as Chanakya or Vishnugupta), the prime minister and mentor of Chandragupta Maurya.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-gk-084",
+    "file": "class-11/gk.json",
+    "matchedKw": "as of",
+    "question": "India's highest national sporting honor, instituted in 1991–92, was officially renamed in August 2021 as the Major ______ Khel Ratna Award.",
+    "explanation": "In 2021, the Rajiv Gandhi Khel Ratna Award was renamed the Major Dhyan Chand Khel Ratna Award in honor of hockey legend Major Dhyan Chand.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c11-physics-076",
+    "file": "class-11/physics.json",
+    "matchedKw": "as of",
+    "question": "According to the kinetic theory of gases, the root-mean-square (rms) speed v_rms of molecules in an ideal gas of molar mass M at absolute temperature T is given by which expression?",
+    "explanation": "Since total translational kinetic energy per mole is (3/2) RT = (1/2) M (v_rms)², v_rms = √(3RT / M).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c12-bio-036",
+    "file": "class-12/biology.json",
+    "matchedKw": "as of",
+    "question": "The observed shift in proportion of peppered moths (Biston betularia) from light-coloured to melanic dark-coloured forms in industrial areas of England is a celebrated classic demonstration of natural _____ in action.",
+    "explanation": "Industrial melanism demonstrated natural selection: soot covered tree trunks killed lichens, giving dark melanic moths camouflage against predatory birds, whereas light moths were easily spotted and predated."
+  },
+  {
+    "id": "c12-chem-087",
+    "file": "class-12/chemistry.json",
+    "matchedKw": "current ",
+    "question": "A steady electric current of 1.50 A is passed through a copper sulfate (CuSO4) electrolytic solution for exactly 10 minutes (600 seconds). Calculate the mass of copper metal deposited at the cathode in grams (to two decimal places). (Molar mass of Cu = 63.5 g/mol, F = 96500 C/mol)",
+    "explanation": "Charge passed Q = I * t = 1.50 A * 600 s = 900 C. Cathode reduction: Cu2+ + 2 e- -> Cu (n = 2). Mass deposited m = (M * Q) / (n * F) = (63.5 g/mol * 900 C) / (2 * 96500 C/mol) = 57150 / 193000 = 0.2961 g approx 0.30 g."
+  },
+  {
+    "id": "c12-cs-006",
+    "file": "class-12/cs.json",
+    "matchedKw": "current ",
+    "question": "If a text file `notes.txt` contains 100 bytes, what will `f.seek(15, 0)` followed by `f.tell()` return in Python?",
+    "explanation": "`f.seek(offset, 0)` moves the file pointer relative to the beginning of the file (when `whence` is 0). `f.tell()` reports the current byte offset, which is 15."
+  },
+  {
+    "id": "c12-cs-019",
+    "file": "class-12/cs.json",
+    "matchedKw": "current ",
+    "question": "Which built-in file object method returns the current byte position of the file pointer within an open file?",
+    "explanation": "The `tell()` method returns an integer representing the current byte position of the file pointer from the beginning of the file."
+  },
+  {
+    "id": "c12-cs-029",
+    "file": "class-12/cs.json",
+    "matchedKw": "current ",
+    "question": "Which method of a CSV writer object is used to write multiple rows simultaneously from a list of lists or sequence of iterables?",
+    "explanation": "`writerows()` iterates through an iterable of row objects and formats and writes each row according to the current dialect settings."
+  },
+  {
+    "id": "c12-cs-030",
+    "file": "class-12/cs.json",
+    "matchedKw": "recent",
+    "question": "A Stack is a linear data structure that operates under which fundamental data access principle?",
+    "explanation": "A Stack is restricted to additions and removals only at one end called the 'top', making the most recently inserted element the first one to be removed (LIFO)."
+  },
+  {
+    "id": "c12-cs-040",
+    "file": "class-12/cs.json",
+    "matchedKw": "currently",
+    "question": "Starting with an empty stack `S`, the following operations are executed:\nPush(10), Push(20), Pop(), Push(30), Push(40), Push(50), Pop(), Pop(), Push(60).\nHow many elements currently remain in stack `S`?",
+    "explanation": "Trace:\nPush(10) -> [10]\nPush(20) -> [10, 20]\nPop() -> [10]\nPush(30) -> [10, 30]\nPush(40) -> [10, 30, 40]\nPush(50) -> [10, 30, 40, 50]\nPop() -> [10, 30, 40]\nPop() -> [10, 30]\nPush(60) -> [10, 30, 60]. Total length = 3."
+  },
+  {
+    "id": "c12-cs-044",
+    "file": "class-12/cs.json",
+    "matchedKw": "current ",
+    "question": "What term describes the stack operation of inspecting the value of the topmost element without deleting it from the stack?",
+    "explanation": "The `peek` (or `peep`) operation inspects the current top element of the stack without modifying the stack structure."
+  },
+  {
+    "id": "c12-eng-019",
+    "file": "class-12/english.json",
+    "matchedKw": "current ",
+    "question": "In Tishani Doshi's travelogue 'Journey to the End of the Earth', why is Antarctica regarded as the premier destination on Earth to study the planet's past, present, and future?",
+    "explanation": "Antarctica's untouched ecosystem and ice cores holding 500,000-year-old carbon records make it an open laboratory for analyzing past paleoclimate, current warming trends, and future planetary survival."
+  },
+  {
+    "id": "c12-eng-053",
+    "file": "class-12/english.json",
+    "matchedKw": "as of",
+    "question": "In 'Going Places', what is the psychological reason behind Sophie's deep fascination with and confidences in her elder brother Geoff?",
+    "explanation": "Geoff spoke very little, and Sophie envied his silence, imagining exotic areas of his life where he traveled alone. She confided her fabricated encounter with Danny Casey in Geoff because his quietness made him seem a safe repository for her fragile dreams."
+  },
+  {
+    "id": "c12-eng-069",
+    "file": "class-12/english.json",
+    "matchedKw": "currently",
+    "question": "In 'Going Places', why did Sophie feel jealous of her brother Geoff's silence and reserve?",
+    "explanation": "To Sophie, Geoff's reserve symbolized mystery and freedom: she romanticized his quietness as access to an exciting world from which she was currently excluded."
+  },
+  {
+    "id": "c12-eng-091",
+    "file": "class-12/english.json",
+    "matchedKw": "current ",
+    "question": "Under the current CBSE Class 12 English Core question paper blueprint, what is the maximum marks weighting assigned to a Long Writing Task (Article or Report)?",
+    "explanation": "In Section B (Creative Writing Skills), the Long Writing Task (Article / Report) carries exactly 5 marks: Format (1 mark), Content (2 marks), and Expression (2 marks)."
+  },
+  {
+    "id": "c12-gk-010",
+    "file": "class-12/gk.json",
+    "matchedKw": "current ",
+    "question": "The division of legislative powers between the Union and the States into Union List, State List, and Concurrent List is specified in the _____ Schedule of the Constitution.",
+    "explanation": "The Seventh Schedule (Article 246) enumerates the legislative competencies across List I (Union List), List II (State List), and List III (Concurrent List)."
+  },
+  {
+    "id": "c12-gk-013",
+    "file": "class-12/gk.json",
+    "matchedKw": "president of india",
+    "question": "What is the minimum age (in years) prescribed by Article 58 of the Indian Constitution for a citizen to be eligible for election as the President of India?",
+    "explanation": "Under Article 58(1)(b), a candidate for the office of President of India must have completed the age of 35 years."
+  },
+  {
+    "id": "c12-gk-015",
+    "file": "class-12/gk.json",
+    "matchedKw": "union territories",
+    "question": "Prior to the 104th Constitutional Amendment Act which discontinued Anglo-Indian nomination, what was the maximum constitutionally sanctioned elective plus nominated strength of the Lok Sabha?",
+    "explanation": "Under Article 81 and Article 331, the maximum sanctioned strength was 552 (up to 530 from States, up to 20 from Union Territories, and 2 nominated Anglo-Indians)."
+  },
+  {
+    "id": "c12-gk-025",
+    "file": "class-12/gk.json",
+    "matchedKw": "chief justice",
+    "question": "Arrange the following top constitutional dignitaries according to the official Warrant of Precedence of the Republic of India:",
+    "explanation": "Official Order of Precedence: 1. President -> 2. Vice-President -> 3. Prime Minister -> 4. Governors of States within their States -> 6. Chief Justice of India & Speaker of Lok Sabha."
+  },
+  {
+    "id": "c12-gk-027",
+    "file": "class-12/gk.json",
+    "matchedKw": "repo rate",
+    "question": "In Indian monetary policy, what is the 'Repo Rate'?",
+    "explanation": "The Repo (Repurchase Option) Rate is the benchmark policy rate at which the Reserve Bank of India lends short-term liquidity to commercial banks against approved government securities."
+  },
+  {
+    "id": "c12-gk-029",
+    "file": "class-12/gk.json",
+    "matchedKw": "prime minister",
+    "question": "Who serves as the ex-officio Chairperson of NITI Aayog (National Institution for Transforming India)?",
+    "explanation": "The Prime Minister of India is the ex-officio Chairperson of NITI Aayog, heading its Governing Council."
+  },
+  {
+    "id": "c12-gk-033",
+    "file": "class-12/gk.json",
+    "matchedKw": "current ",
+    "question": "Primary Deficit is calculated by subtracting interest payments on past borrowings from the current Fiscal Deficit.",
+    "explanation": "Primary Deficit = Fiscal Deficit - Interest Payments. It reflects the government's current-year fiscal imbalance excluding the legacy burden of past debt interest."
+  },
+  {
+    "id": "c12-gk-034",
+    "file": "class-12/gk.json",
+    "matchedKw": "current ",
+    "question": "Real Gross Domestic Product (Real GDP) evaluates economic output at constant base-year prices, thereby filtering out the distorting effects of price inflation.",
+    "explanation": "Real GDP measures physical volume of output adjusted for price changes using constant base-year prices, whereas Nominal GDP measures output at current market prices."
+  },
+  {
+    "id": "c12-gk-039",
+    "file": "class-12/gk.json",
+    "matchedKw": "governor",
+    "question": "How many total members constitute India's Monetary Policy Committee (MPC) that sets benchmark policy interest rates?",
+    "explanation": "The MPC consists of 6 members: 3 from the Reserve Bank of India (including the RBI Governor as ex-officio Chairperson) and 3 external members appointed by the Central Government."
+  },
+  {
+    "id": "c12-gk-040",
+    "file": "class-12/gk.json",
+    "matchedKw": "prime minister",
+    "question": "How many major private commercial banks with deposits exceeding Rs 50 crore were nationalized by the Government of India in the historic first wave of bank nationalization in July 1969?",
+    "explanation": "On 19th July 1969, Prime Minister Indira Gandhi nationalized 14 major commercial banks holding 85% of bank deposits in India. A second tranche of 6 banks was nationalized in 1980."
+  },
+  {
+    "id": "c12-gk-045",
+    "file": "class-12/gk.json",
+    "matchedKw": "repo rate",
+    "question": "Assertion (A): When the RBI increases the policy Repo Rate, commercial banks generally hike their lending interest rates, causing a contraction in credit and money supply.\nReason (R): A higher Repo Rate makes borrowing funds from the central bank more expensive for commercial banks, discouraging credit creation.",
+    "explanation": "Higher repo rate increases the cost of short-term borrowing for banks, who pass higher borrowing costs to consumers and businesses, reducing credit demand and slowing inflation."
+  },
+  {
+    "id": "c12-gk-055",
+    "file": "class-12/gk.json",
+    "matchedKw": "currently",
+    "question": "The International Monetary Fund's Special Drawing Rights (SDR) valuation basket currently comprises five major world currencies. Which group correctly lists all five?",
+    "explanation": "The SDR basket determined by the IMF consists of five reserve currencies: US Dollar, Euro, Chinese Renminbi (added in 2016), Japanese Yen, and British Pound Sterling."
+  },
+  {
+    "id": "c12-gk-077",
+    "file": "class-12/gk.json",
+    "matchedKw": "as of",
+    "question": "Sattriya, one of the eight classical dance traditions of India, originated in the monasteries (Sattras) of Assam and was founded by which 15th-century Vaishnavite saint-reformer?",
+    "explanation": "Sattriya classical dance was created in the 15th century by Srimanta Sankardev as an accompaniment to the Ankiya Nat (one-act plays) in the monastic Sattras of Assam."
+  },
+  {
+    "id": "c12-gk-079",
+    "file": "class-12/gk.json",
+    "matchedKw": "prime minister",
+    "question": "What official name was bestowed upon the touchdown site of the Chandrayaan-3 Vikram lander near the lunar south pole following its historic soft landing on 23rd August 2023?",
+    "explanation": "Prime Minister Narendra Modi announced that the Chandrayaan-3 landing site on the Moon is named 'Shiv Shakti Point', while Chandrayaan-2's impact point is named 'Tiranga Point'."
+  },
+  {
+    "id": "c12-gk-083",
+    "file": "class-12/gk.json",
+    "matchedKw": "olympic gold",
+    "question": "Abhinav Bindra won India's first-ever individual Olympic gold medal in the men's 10-meter air rifle event at the 2008 Beijing Olympic Games.",
+    "explanation": "On 11 August 2008 in Beijing, Abhinav Bindra clinched gold in the 10m Air Rifle event, becoming the first individual Olympic gold medalist in independent Indian history."
+  },
+  {
+    "id": "c12-gk-089",
+    "file": "class-12/gk.json",
+    "matchedKw": "world cup",
+    "question": "In which year did the Indian cricket team under captain Kapil Dev defeat the two-time champion West Indies at Lord's to win India's first-ever Prudential World Cup?",
+    "explanation": "On 25 June 1983, India famously defeated the West Indies by 43 runs at Lord's Cricket Ground in London to lift the Prudential World Cup."
+  },
+  {
+    "id": "c12-gk-094",
+    "file": "class-12/gk.json",
+    "matchedKw": "chandrayaan-3",
+    "question": "On which calendar date has the Government of India declared 'National Space Day' to celebrate the successful soft-landing of Chandrayaan-3 on the Moon?",
+    "explanation": "August 23 was declared as National Space Day to commemorate India becoming the fourth country to soft-land on the Moon and the first near the lunar south polar region."
+  },
+  {
+    "id": "c12-gk-100",
+    "file": "class-12/gk.json",
+    "matchedKw": "chandrayaan-3",
+    "question": "Arrange these major ISRO deep-space and planetary exploration missions in their chronological order of launch:",
+    "explanation": "Chronological order: Chandrayaan-1 (Oct 2008) -> Mangalyaan (Nov 2013) -> AstroSat (Sept 2015) -> Chandrayaan-2 (July 2019) -> Chandrayaan-3 (July 2023) -> Aditya-L1 (Sept 2023)."
+  },
+  {
+    "id": "c12-phy-008",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "The average electrical power dissipated by an ideal capacitor over one complete AC cycle is zero.",
+    "explanation": "In an ideal capacitor, alternating current leads alternating voltage by a phase angle of π/2 (90°). Hence, power factor cos(π/2) = 0, giving average dissipated power P_avg = V_rms · I_rms · cos(π/2) = 0.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c12-phy-022",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "A long straight wire carries a steady electric current of 10 A. Calculate the magnitude of the magnetic field at a perpendicular distance of 5 cm from the wire in microteslas (μT). (Use μ₀ = 4π × 10⁻⁷ T·m/A).",
+    "explanation": "B = (μ₀ · I) / (2π · r) = (4π × 10⁻⁷ × 10) / (2π × 0.05) = (2 × 10⁻⁶) / 0.05 = 40 × 10⁻⁶ T = 40 μT.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c12-phy-023",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "A series LCR circuit has resistance R = 20 Ω. At resonance, the peak voltage supplied across the circuit is 200 V. What is the peak current flowing through the circuit in amperes (A)?",
+    "explanation": "At resonance, X_L = X_C, so total circuit impedance Z = R = 20 Ω. Peak current I₀ = V₀ / Z = 200 / 20 = 10 A.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c12-phy-027",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "Consider the Wheatstone bridge circuit shown with four resistances P = 2 Ω, Q = 4 Ω, R = 3 Ω, and S = 6 Ω. Is the bridge balanced, and what current passes through the central galvanometer G?",
+    "explanation": "Condition for balanced Wheatstone bridge is P / Q = R / S. Here 2 / 4 = 1/2 and 3 / 6 = 1/2. Since the ratio is identical, potentials at the two bridge junctions are equal and current through galvanometer is zero.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c12-phy-028",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "A circular wire loop in the horizontal plane carries electric current I circulating anticlockwise when viewed from above. According to the right-hand thumb rule, in which direction does the magnetic field B point at the centre of the loop?",
+    "explanation": "By curling the fingers of the right hand in the anticlockwise direction of current, the outstretched thumb points vertically upward (out of the page).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c12-phy-044",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "Which of the following phenomena occur at resonance in a series LCR AC circuit? (Select all that apply)",
+    "explanation": "At series resonance, X_L = X_C cancels reactive impedance, minimizing Z to R, maximizing current I = V/R, and making power factor cos φ = 1 (not zero).",
+    "currentVolatile": false
+  },
+  {
+    "id": "c12-phy-045",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "Which of the following statements regarding a forward-biased p-n junction diode are CORRECT? (Select all that apply)",
+    "explanation": "Forward bias reduces barrier potential and depletion width, allowing majority carriers to diffuse freely, causing large forward current. Minority carrier current characterizes reverse bias.",
+    "currentVolatile": false
+  },
+  {
+    "id": "c12-phy-053",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "A potentiometer wire of length 10 m and resistance 20 ohms is connected in series with a battery of emf 3 V (negligible internal resistance) and a series resistance of 10 ohms. What is the potential gradient along the potentiometer wire?",
+    "explanation": "Total circuit resistance = R_wire + R_series = 20 + 10 = 30 ohms. Current I = E / R_total = 3 V / 30 ohms = 0.1 A. Potential drop across the 10 m wire V_wire = I * R_wire = 0.1 A * 20 ohms = 2.0 V. Potential gradient k = V_wire / L = 2.0 V / 10 m = 0.20 V/m."
+  },
+  {
+    "id": "c12-phy-056",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "In a series LCR AC circuit, resonance occurs when:",
+    "explanation": "At electrical resonance in a series LCR circuit, inductive reactance equals capacitive reactance: omega L = 1 / (omega C). Impedance Z = sqrt(R^2 + (X_L - X_C)^2) becomes minimum (Z = R) and current is in phase with voltage."
+  },
+  {
+    "id": "c12-phy-061",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "In a reverse-biased p-n junction diode, the barrier potential increases and the current flowing through the junction is primarily due to the drift of minority charge carriers.",
+    "explanation": "Under reverse bias, the applied voltage reinforces the built-in potential barrier, preventing majority carrier diffusion. The tiny current that flows (reverse saturation current) is due to the drift of thermally generated minority carriers across the depletion layer."
+  },
+  {
+    "id": "c12-phy-065",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "A storage battery of emf 10 V and internal resistance 3 ohms is connected to an external resistor R. If the current flowing through the circuit is 0.5 A, what is the resistance of the external resistor in ohms?",
+    "explanation": "According to Ohm's law for a complete circuit: I = E / (R + r). Given E = 10 V, r = 3 ohms, I = 0.5 A: 0.5 = 10 / (R + 3) => R + 3 = 10 / 0.5 = 20 ohms => R = 20 - 3 = 17 ohms."
+  },
+  {
+    "id": "c12-phy-066",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "A galvanometer of resistance 50 ohms gives a full-scale deflection for a current of 2 mA. What shunt resistance in ohms (to three decimal places) must be connected in parallel with it to convert it into an ammeter of range 0 to 5 A?",
+    "explanation": "Shunt resistance S = (I_g * G) / (I - I_g). Given G = 50 ohms, I_g = 2 mA = 0.002 A, I = 5 A. S = (0.002 * 50) / (5 - 0.002) = 0.1 / 4.998 = 0.0200 ohms."
+  },
+  {
+    "id": "c12-phy-071",
+    "file": "class-12/physics.json",
+    "matchedKw": "current,",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): The maximum kinetic energy of photoelectrons emitted from a metallic surface depends on the frequency of incident radiation and is independent of its intensity.\nReason (R): The intensity of incident radiation determines the number of photons incident per second, while the energy of each individual photon is determined solely by its frequency.",
+    "explanation": "According to Einstein's photoelectric equation: K_max = h*nu - phi_0. One photon interacts with one electron. More intensity means more photons per unit time, resulting in a higher photocurrent, but the energy of each photon depends only on frequency nu."
+  },
+  {
+    "id": "c12-phy-086",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "The direction of an induced electromotive force or current in a closed loop opposing the change in magnetic flux that produces it is governed by _____ law.",
+    "explanation": "Lenz's law states that the polarity of induced emf is such that it tends to produce a current which opposes the change in magnetic flux that produced it."
+  },
+  {
+    "id": "c12-phy-090",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "A long straight horizontal wire carries a steady current of 50 A flowing from south to north. What is the magnitude of the magnetic field in microtesla (microT) at a point located 2.5 m east of the wire?",
+    "explanation": "Magnetic field due to a long straight current wire: B = (mu0 * I) / (2 * pi * r) = (4 pi x 10^-7 * 50) / (2 * pi * 2.5) = (2 x 10^-7 * 50) / 2.5 = 100 x 10^-7 / 2.5 = 40 x 10^-7 T = 4 x 10^-6 T = 4 microT."
+  },
+  {
+    "id": "c12-phy-091",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "A 100 microfarad capacitor in series with a 40 ohm resistor is connected across a 110 V (rms), 60 Hz AC supply. Calculate the peak (maximum) current I_0 in the circuit in amperes (to two decimal places).",
+    "explanation": "Capacitive reactance X_C = 1 / (2 * pi * f * C) = 1 / (2 * 3.1416 * 60 * 100 x 10^-6) = 1 / 0.0377 = 26.53 ohms. Impedance Z = sqrt(R^2 + X_C^2) = sqrt(40^2 + 26.53^2) = sqrt(1600 + 703.8) = sqrt(2303.8) = 48.0 ohms. RMS current I_rms = V_rms / Z = 110 V / 48.0 ohms = 2.292 A. Peak current I_0 = sqrt(2) * I_rms = 1.414 * 2.292 A = 3.24 A."
+  },
+  {
+    "id": "c12-phy-094",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "State two principal physical reasons why silicon is preferred over germanium in the fabrication of solid-state semiconductor devices.",
+    "explanation": "Silicon's wider band gap (1.1 eV) drastically reduces thermally generated minority carrier leakage current and allows stable operation up to 150°C-200°C compared to germanium's limit of ~75°C."
+  },
+  {
+    "id": "c12-phy-096",
+    "file": "class-12/physics.json",
+    "matchedKw": "current ",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): During the charging of a parallel-plate capacitor, a magnetic field is produced in the space between the plates even though no conduction current passes through the dielectric gap.\nReason (R): A time-varying electric field between the capacitor plates generates a displacement current I_d = eps0 * (d Phi_E / dt), which acts as a source of magnetic field according to Maxwell-Ampere law.",
+    "explanation": "According to the Maxwell-Ampere circuital law: oint B · dl = mu0 * (I_c + I_d). In the gap between plates, conduction current I_c = 0, but the changing electric flux produces displacement current I_d = eps0 * (d Phi_E / dt), producing a magnetic field identical to that produced by conduction current."
+  }
+]

@@ -1,0 +1,1964 @@
+[
+  {
+    "id": "c11-physics-001",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Motion in a Plane",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "A projectile is launched from ground level with an initial velocity of 20 m/s at an angle of 30° to the horizontal. Taking g = 10 m/s², calculate its total time of flight.",
+    "options": [
+      "2 s",
+      "1 s",
+      "4 s",
+      "2√3 s"
+    ],
+    "answer": 0,
+    "explanation": "Time of flight T = 2u sin(θ) / g = 2(20) sin(30°) / 10 = (40 × 0.5) / 10 = 20 / 10 = 2 s.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-002",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the dimensional formula of the universal gravitational constant G?",
+    "options": [
+      "[M⁻¹ L³ T⁻²]",
+      "[M L² T⁻²]",
+      "[M⁻¹ L² T⁻¹]",
+      "[M² L⁻³ T²]"
+    ],
+    "answer": 0,
+    "explanation": "From Newton's law: F = G m₁m₂ / r² => G = F r² / m² = [M L T⁻²][L²] / [M²] = [M⁻¹ L³ T⁻²].",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-003",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Laws of Motion",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A body of mass 5 kg rests on a rough horizontal surface with coefficient of static friction μ_s = 0.4. Taking g = 9.8 m/s², what minimum horizontal force is required to initiate motion?",
+    "options": [
+      "19.6 N",
+      "49 N",
+      "9.8 N",
+      "24.5 N"
+    ],
+    "answer": 0,
+    "explanation": "Limiting friction f_s = μ_s N = μ_s m g = 0.4 × 5 × 9.8 = 19.6 N. The applied force must just overcome 19.6 N to set the body in motion.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-004",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Motion in a Straight Line",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A particle moves along the x-axis such that its position varies with time as x(t) = 2t³ - 9t² + 12t + 4 (in metres and seconds). At what times t > 0 does the particle come to instantaneous rest?",
+    "options": [
+      "t = 1 s and t = 2 s",
+      "t = 2 s and t = 3 s",
+      "t = 0.5 s and t = 1.5 s",
+      "t = 3 s only"
+    ],
+    "answer": 0,
+    "explanation": "Velocity v(t) = dx/dt = 6t² - 18t + 12 = 6(t² - 3t + 2) = 6(t - 1)(t - 2). Setting v(t) = 0 yields t = 1 s and t = 2 s.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-005",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following physical quantities is completely dimensionless?",
+    "options": [
+      "Relative density",
+      "Gravitational potential",
+      "Surface tension",
+      "Coefficient of viscosity"
+    ],
+    "answer": 0,
+    "explanation": "Relative density is the ratio of the density of a substance to the density of water at 4°C, which is a ratio of identical units, making it dimensionless ([M⁰ L⁰ T⁰]).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-006",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Motion in a Plane",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A river 400 m wide flows east at 3 m/s. A swimmer who swims at 5 m/s in still water intends to cross directly along the shortest perpendicular path across the river bank. In which direction must the swimmer head, and how long does the crossing take?",
+    "options": [
+      "At an angle of sin⁻¹(0.6) = 37° upstream from the perpendicular, taking 100 s",
+      "Perpendicular to the river current, taking 80 s",
+      "At 45° upstream, taking 120 s",
+      "At 60° upstream, taking 150 s"
+    ],
+    "answer": 0,
+    "explanation": "To move straight across, the horizontal component must cancel the river velocity: 5 sin θ = 3 => sin θ = 0.6 => θ = 37° upstream. The effective perpendicular crossing speed = √(5² - 3²) = 4 m/s. Time = 400 / 4 = 100 s.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-007",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Laws of Motion",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "According to Newton's Third Law of Motion, action and reaction forces always act simultaneously on two different interacting bodies, and therefore can never cancel each other out.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Forces occur in mutual pairs acting on separate objects: F_AB = -F_BA. Because they act on different bodies, they never balance or cancel each other out on a single object.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-008",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Motion in a Straight Line",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "If a body has zero instantaneous velocity at a particular instant of time, its instantaneous acceleration at that exact instant must also be zero.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "At the peak of vertical projectile motion, the instantaneous velocity is momentarily zero while the acceleration due to gravity is 9.8 m/s² downwards.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-009",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "A vernier calliper has 1 mm main scale divisions, and 10 vernier scale divisions coincide with 9 main scale divisions. The least count of the instrument is ________ mm.",
+    "answer": "0.1",
+    "acceptedAnswers": [
+      "0.1",
+      "0.1 mm",
+      "0.10"
+    ],
+    "explanation": "Least Count = 1 MSD - 1 VSD = 1 mm - (9/10) mm = 1 - 0.9 = 0.1 mm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-010",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Laws of Motion",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In the SI system, impulse can be expressed either in Newton-seconds (N·s) or in base units as kg·________.",
+    "answer": "m/s",
+    "acceptedAnswers": [
+      "m/s",
+      "meter per second",
+      "m s^-1"
+    ],
+    "explanation": "Impulse = Force × Time = Δp = Mass × Velocity = kg·m/s.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-011",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Motion in a Plane",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each projectile motion parameter with its theoretical formula:",
+    "pairs": [
+      [
+        "Maximum Height (H)",
+        "u² sin²(θ) / (2g)"
+      ],
+      [
+        "Time of Flight (T)",
+        "2u sin(θ) / g"
+      ],
+      [
+        "Horizontal Range (R)",
+        "u² sin(2θ) / g"
+      ],
+      [
+        "Angle for Maximum Range",
+        "45°"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These are the standard parabolic trajectory kinematic formulas for flat-ground projection under uniform gravitational acceleration.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-012",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Motion in a Straight Line",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "A vehicle starts from rest and accelerates uniformly in a straight line at 2 m/s² for 10 seconds. Calculate the total displacement covered in metres.",
+    "answer": 100,
+    "tolerance": 0,
+    "unit": "m",
+    "explanation": "s = ut + (1/2) a t² = 0 + (1/2)(2)(10)² = 100 m.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-013",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "The mass of an object is measured as m = (100 ± 2) g and its volume is measured as V = (10 ± 0.1) cm³. Find the maximum percentage error in the calculated density ρ = m / V.",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Δρ/ρ × 100 = (Δm/m + ΔV/V) × 100 = (2/100 + 0.1/10) × 100 = (0.02 + 0.01) × 100 = 3%.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-014",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Laws of Motion",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A constant force of 100 N acts on a stationary mass of 20 kg for 5 seconds. Find the magnitude of linear momentum gained by the body in kg·m/s.",
+    "answer": 500,
+    "tolerance": 0,
+    "unit": "kg·m/s",
+    "explanation": "Change in momentum Δp = Force × Time = 100 N × 5 s = 500 kg·m/s.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-015",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Motion in a Plane",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A projectile achieves a maximum horizontal range of 80 m when launched at an angle of 45°. What is the maximum height H reached by the projectile during this flight in metres?",
+    "answer": 20,
+    "tolerance": 0,
+    "unit": "m",
+    "explanation": "At θ = 45°, R_max = u² / g = 80 m. Maximum height H = u² sin²(45°) / (2g) = u²(1/2) / (2g) = R_max / 4 = 80 / 4 = 20 m.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-016",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In a new system of units, the fundamental unit of mass is 10 kg, unit of length is 100 m, and unit of time is 1 minute (60 s). How many new units correspond to 1 Joule of energy?",
+    "answer": 0.036,
+    "tolerance": 0.001,
+    "unit": "units",
+    "explanation": "Energy [M L² T⁻²]. n₂ = 1 × (1 kg / 10 kg)¹ × (1 m / 100 m)² × (1 s / 60 s)⁻² = (1/10) × (1/10000) × 3600 = 3600 / 100000 = 0.036 new units.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-017",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Motion in a Straight Line",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the illustrated velocity-time graph, what is the total distance traveled by the particle in metres over the entire 12-second journey?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"320\" height=\"200\" fill=\"#0f172a\"/><line x1=\"40\" y1=\"160\" x2=\"280\" y2=\"160\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"160\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"285\" y=\"165\" fill=\"#94a3b8\" font-size=\"11\">t (s)</text><text x=\"25\" y=\"30\" fill=\"#94a3b8\" font-size=\"11\">v (m/s)</text><polygon points=\"40,160 100,60 220,60 260,160\" fill=\"#38bdf8\" fill-opacity=\"0.3\"/><line x1=\"40\" y1=\"160\" x2=\"100\" y2=\"60\" stroke=\"#38bdf8\" stroke-width=\"2.5\"/><line x1=\"100\" y1=\"60\" x2=\"220\" y2=\"60\" stroke=\"#38bdf8\" stroke-width=\"2.5\"/><line x1=\"220\" y1=\"60\" x2=\"260\" y2=\"160\" stroke=\"#38bdf8\" stroke-width=\"2.5\"/><text x=\"25\" y=\"65\" fill=\"#fbbf24\" font-size=\"11\">10</text><line x1=\"35\" y1=\"60\" x2=\"45\" y2=\"60\" stroke=\"#fbbf24\" stroke-width=\"1.5\"/><text x=\"100\" y=\"175\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">4</text><text x=\"220\" y=\"175\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">10</text><text x=\"260\" y=\"175\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">12</text></svg>"
+    },
+    "options": [
+      "90 m",
+      "120 m",
+      "60 m",
+      "100 m"
+    ],
+    "answer": 0,
+    "explanation": "Distance equals the area under the v-t graph (trapezoid): Area = (1/2) × (parallel sides sum) × height = (1/2) × [(12 - 0) + (10 - 4)] × 10 = (1/2) × (12 + 6) × 10 = (1/2) × 18 × 10 = 90 m.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-018",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Laws of Motion",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What fundamental inherent property of a physical body characterizes its resistance to any change in its velocity or state of motion?",
+    "sampleAnswer": "Inertia",
+    "acceptedAnswers": [
+      "Inertia",
+      "Inertia / Mass"
+    ],
+    "keywords": [
+      "Inertia"
+    ],
+    "explanation": "Inertia is the inherent tendency of an object to resist changes in its state of rest or uniform motion, measured quantitatively by its inertial mass.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-019",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Motion in a Plane",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Write the algebraic formula for the centripetal acceleration a_c of an object executing uniform circular motion with speed v in a circle of radius r.",
+    "sampleAnswer": "v^2 / r",
+    "acceptedAnswers": [
+      "v^2 / r",
+      "v²/r",
+      "v^2/r",
+      "ω²r",
+      "omega^2 r"
+    ],
+    "keywords": [
+      "v^2 / r",
+      "v²/r",
+      "ω²r"
+    ],
+    "explanation": "Centripetal acceleration is directed radially inward towards the rotation center with magnitude a_c = v² / r = ω² r.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-020",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Laws of Motion",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): When a stationary bus abruptly accelerates forward, a standing passenger tends to fall backward.\nReason (R): Due to the passenger's inertia of rest, the lower body in contact with the bus floor moves forward with the bus while the upper body tends to remain in its initial position.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The inertia of rest causes the passenger's upper body to stay behind as the feet move forward with the accelerating vehicle, creating a backward tumble.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-021",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Motion in a Plane",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): In ideal projectile motion neglecting air friction, the horizontal component of velocity remains constant throughout the entire trajectory.\nReason (R): The gravitational force acts exclusively in the downward vertical direction, resulting in zero horizontal acceleration (a_x = 0).",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Since F_x = 0 => a_x = 0, the horizontal velocity component u_x = u cos(θ) undergoes no change during flight.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-022",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Motion in a Plane",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following physical quantities remain strictly constant throughout the flight of an ideal projectile launched near Earth's surface? (Select all that apply)",
+    "options": [
+      "Horizontal component of velocity",
+      "Acceleration of the projectile",
+      "Total mechanical energy",
+      "Kinetic energy of the projectile",
+      "Vertical component of velocity"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Horizontal velocity (u cos θ), acceleration (-g j), and total mechanical energy remain invariant. Kinetic energy and vertical velocity change continuously with height.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-023",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following pairs of physical quantities possess identical dimensional formulas? (Select all that apply)",
+    "options": [
+      "Work and Torque ([M L² T⁻²])",
+      "Impulse and Linear Momentum ([M L T⁻¹])",
+      "Stress and Pressure ([M L⁻¹ T⁻²])",
+      "Angular Momentum and Planck's Constant ([M L² T⁻¹])",
+      "Force and Power"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Work and torque both have [M L² T⁻²]; impulse and momentum have [M L T⁻¹]; stress and pressure have [M L⁻¹ T⁻²]; angular momentum and Planck's constant have [M L² T⁻¹]. Force is [M L T⁻²] while power is [M L² T⁻³].",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-024",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Units and Measurements",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange these standard metric SI prefixes in strictly increasing order of their magnitude multipliers:",
+    "orderedItems": [
+      "micro (10⁻⁶)",
+      "milli (10⁻³)",
+      "kilo (10³)",
+      "mega (10⁶)",
+      "giga (10⁹)"
+    ],
+    "answer": "ordered",
+    "explanation": "Ascending multiplier scale: 10⁻⁶ < 10⁻³ < 10³ < 10⁶ < 10⁹.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-025",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Laws of Motion",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange these frictional forces between identical contact surfaces in strictly increasing order of their typical coefficients:",
+    "orderedItems": [
+      "Rolling friction (μ_r)",
+      "Kinetic friction with liquid lubrication",
+      "Kinetic (sliding) dry friction (μ_k)",
+      "Limiting static dry friction (μ_s)"
+    ],
+    "answer": "ordered",
+    "explanation": "Rolling friction is significantly lower than sliding friction, lubrication reduces sliding friction, and kinetic sliding friction is always less than maximum limiting static friction.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-026",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Work, Energy and Power",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "A force vector F = (3i + 4j) N displaces a particle from the origin to a position vector r = (2i + 5j) m. Calculate the work done by the force.",
+    "options": [
+      "26 J",
+      "20 J",
+      "15 J",
+      "30 J"
+    ],
+    "answer": 0,
+    "explanation": "Work done W = F · r = (3)(2) + (4)(5) = 6 + 20 = 26 J.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-027",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "System of Particles and Rotational Motion",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the moment of inertia of a uniform solid sphere of mass M and radius R about an axis passing through its center of mass?",
+    "options": [
+      "2/5 M R²",
+      "1/2 M R²",
+      "2/3 M R²",
+      "M R²"
+    ],
+    "answer": 0,
+    "explanation": "By standard volume integration for a uniform solid sphere, I_CM = (2/5) M R².",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-028",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "At what altitude h above the surface of Earth does the acceleration due to gravity reduce to one-fourth (g/4) of its surface value, where R is Earth's radius?",
+    "options": [
+      "h = R",
+      "h = 2R",
+      "h = R/2",
+      "h = 4R"
+    ],
+    "answer": 0,
+    "explanation": "g' = g [R / (R + h)]² = g / 4 => R / (R + h) = 1/2 => R + h = 2R => h = R.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-029",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Work, Energy and Power",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A small block released from rest slides down a frictionless track and enters a vertical circular loop of radius R. What is the minimum release height h_min above the bottom of the loop required for the block to maintain contact at the highest point of the loop?",
+    "options": [
+      "5/2 R",
+      "2 R",
+      "3 R",
+      "7/2 R"
+    ],
+    "answer": 0,
+    "explanation": "At the highest point, minimum speed v_top = √(gR). By conservation of mechanical energy: mgh = mg(2R) + (1/2)m(v_top)² = 2mgR + (1/2)mgR = (5/2)mgR => h = (5/2)R = 2.5R.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-030",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "System of Particles and Rotational Motion",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A solid cylinder and a thin circular hoop, both having identical mass M and radius R, roll down an inclined plane from rest without slipping from the same height. Find the ratio of their translational speeds at the bottom of the incline, v_cylinder / v_hoop.",
+    "options": [
+      "√(4/3) = 2/√3",
+      "√(3/2)",
+      "4/3",
+      "√2"
+    ],
+    "answer": 0,
+    "explanation": "Translational velocity for rolling without slipping is v = √[2gh / (1 + k²/R²)]. For cylinder, k²/R² = 1/2 => v_cyl = √(4gh/3). For hoop, k²/R² = 1 => v_hoop = √(gh). Ratio = √(4/3) = 2/√3 ≈ 1.155.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-031",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Kepler's Second Law of planetary motion (the law of equal areas) is a direct consequence of the conservation of angular momentum under a central gravitational force.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Since the gravitational force acts along the radius vector, the net torque τ = r × F = 0, so angular momentum L is conserved, ensuring constant areal velocity dA/dt = L / (2m).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-032",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Work, Energy and Power",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In a completely inelastic collision between two bodies in an isolated system, both total linear momentum and total kinetic energy are strictly conserved.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "Linear momentum is conserved in all collisions of isolated systems, but in a completely inelastic collision, maximum kinetic energy is dissipated as heat, sound, and permanent deformation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-033",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The theoretical formula for the escape velocity v_e from the surface of Earth in terms of universal gravitational constant G, Earth mass M, and Earth radius R is ________.",
+    "answer": "√(2GM/R)",
+    "acceptedAnswers": [
+      "√(2GM/R)",
+      "\\sqrt{2GM/R}",
+      "sqrt(2GM/R)",
+      "√(2gR)"
+    ],
+    "explanation": "Setting initial kinetic energy equal to gravitational potential energy binding energy: (1/2) m v_e² = G M m / R => v_e = √(2GM/R).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-034",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "System of Particles and Rotational Motion",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The rotational analogue of mass in linear mechanics, measuring a body's resistance to angular acceleration, is called the moment of ________.",
+    "answer": "inertia",
+    "acceptedAnswers": [
+      "inertia",
+      "Inertia"
+    ],
+    "explanation": "Moment of inertia I = ∑ mᵢ rᵢ² plays the exact same role in rotational dynamics (τ = Iα) that mass m plays in linear dynamics (F = ma).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-035",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "System of Particles and Rotational Motion",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each rotational dynamics quantity with its translational linear counterpart:",
+    "pairs": [
+      [
+        "Torque (τ)",
+        "Force (F)"
+      ],
+      [
+        "Angular Momentum (L)",
+        "Linear Momentum (p)"
+      ],
+      [
+        "Moment of Inertia (I)",
+        "Mass (m)"
+      ],
+      [
+        "Angular Velocity (ω)",
+        "Linear Velocity (v)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These are the fundamental direct correspondences connecting rotational mechanics with Newtonian linear mechanics.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-036",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Work, Energy and Power",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "A body of mass 2 kg moves with a constant velocity of 10 m/s along a level track. Calculate its kinetic energy in Joules.",
+    "answer": 100,
+    "tolerance": 0,
+    "unit": "J",
+    "explanation": "KE = (1/2) m v² = (1/2)(2)(10²) = 100 J.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-037",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Taking the surface gravitational acceleration on Earth as g = 9.8 m/s² and Earth's radius as R = 6400 km, calculate the escape speed from Earth's surface in km/s (round to 1 decimal place).",
+    "answer": 11.2,
+    "tolerance": 0.1,
+    "unit": "km/s",
+    "explanation": "v_e = √(2gR) = √(2 × 9.8 × 6.4 × 10⁶) = √(125.44 × 10⁶) = 11,200 m/s = 11.2 km/s.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-038",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "System of Particles and Rotational Motion",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A uniform circular disc of mass 4 kg and radius 0.5 m rotates about its central symmetry axis perpendicular to its face with angular speed ω = 10 rad/s. Calculate its rotational kinetic energy in Joules.",
+    "answer": 25,
+    "tolerance": 0,
+    "unit": "J",
+    "explanation": "Moment of inertia I = (1/2) M R² = (1/2)(4)(0.5²) = 2 × 0.25 = 0.5 kg·m². Rotational kinetic energy K_rot = (1/2) I ω² = (1/2)(0.5)(10²) = 0.25 × 100 = 25 J.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-039",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Work, Energy and Power",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A bullet of mass 0.02 kg moving horizontally at 400 m/s strikes a wooden barrier and comes to complete rest after penetrating 0.2 m into the wood. Calculate the average resistance force exerted by the wood in Newtons.",
+    "answer": 8000,
+    "tolerance": 0,
+    "unit": "N",
+    "explanation": "Work done against friction = Initial kinetic energy: F × d = (1/2) m u² => F × 0.2 = (1/2)(0.02)(400²) = 0.01 × 160,000 = 1600 J => F = 1600 / 0.2 = 8000 N.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-040",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "The orbital period of a newly discovered planet around the Sun is exactly 8 Earth years. According to Kepler's Third Law, what is the planet's semi-major axis distance from the Sun in Astronomical Units (AU)?",
+    "answer": 4,
+    "tolerance": 0,
+    "unit": "AU",
+    "explanation": "T² = a³ in units of years and AU. 8² = a³ => 64 = a³ => a = 4 AU.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-041",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Work, Energy and Power",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the illustrated spring-mass configuration on a frictionless table, a spring with spring constant k is compressed by displacement x. Which formula represents the elastic potential energy stored in the spring?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"320\" height=\"180\" fill=\"#0f172a\"/><line x1=\"20\" y1=\"140\" x2=\"300\" y2=\"140\" stroke=\"#94a3b8\" stroke-width=\"2\"/><rect x=\"20\" y=\"40\" width=\"20\" height=\"100\" fill=\"#64748b\"/><path d=\"M 40 90 L 60 70 L 80 110 L 100 70 L 120 110 L 140 70 L 160 110 L 180 90\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"3\"/><rect x=\"180\" y=\"60\" width=\"60\" height=\"80\" fill=\"#f59e0b\" rx=\"4\"/><text x=\"210\" y=\"105\" fill=\"#0f172a\" font-size=\"14\" font-weight=\"bold\" text-anchor=\"middle\">m</text><line x1=\"240\" y1=\"155\" x2=\"280\" y2=\"155\" stroke=\"#ef4444\" stroke-width=\"1.5\"/><polygon points=\"285,155 275,150 275,160\" fill=\"#ef4444\"/><text x=\"260\" y=\"170\" fill=\"#ef4444\" font-size=\"11\">x</text><text x=\"110\" y=\"55\" fill=\"#38bdf8\" font-size=\"12\" font-weight=\"bold\">k</text></svg>"
+    },
+    "options": [
+      "U = 1/2 k x²",
+      "U = k x",
+      "U = 1/2 k² x",
+      "U = 2 k x²"
+    ],
+    "answer": 0,
+    "explanation": "Integrating Hooke's restoring force F = -kx gives stored potential energy U = ∫ kx dx = (1/2) k x².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-042",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "System of Particles and Rotational Motion",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "A uniform thin rod of mass M and length L has moment of inertia I_CM = (1/12) M L² about an axis through its center. By the parallel axis theorem, what is its moment of inertia about an axis through one of its ends at distance d = L/2?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"320\" height=\"180\" fill=\"#0f172a\"/><rect x=\"50\" y=\"80\" width=\"220\" height=\"20\" fill=\"#38bdf8\" rx=\"3\"/><line x1=\"160\" y1=\"30\" x2=\"160\" y2=\"150\" stroke=\"#fbbf24\" stroke-width=\"2\" stroke-dasharray=\"4\"/><text x=\"160\" y=\"20\" fill=\"#fbbf24\" font-size=\"11\" text-anchor=\"middle\">CM (I = 1/12 ML²)</text><line x1=\"50\" y1=\"30\" x2=\"50\" y2=\"150\" stroke=\"#f87171\" stroke-width=\"2.5\"/><text x=\"50\" y=\"20\" fill=\"#f87171\" font-size=\"11\" text-anchor=\"middle\">End axis (d = L/2)</text><text x=\"105\" y=\"120\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">L/2</text><text x=\"215\" y=\"120\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">L/2</text></svg>"
+    },
+    "options": [
+      "1/3 M L²",
+      "1/12 M L²",
+      "1/4 M L²",
+      "1/2 M L²"
+    ],
+    "answer": 0,
+    "explanation": "By the parallel axis theorem: I_end = I_CM + M d² = (1/12) M L² + M (L/2)² = (1/12 + 1/4) M L² = (4/12) M L² = (1/3) M L².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-043",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What is the orbital period of an artificial satellite revolving in a circular geostationary orbit around the Earth, expressed in hours?",
+    "sampleAnswer": "24 hours",
+    "acceptedAnswers": [
+      "24 hours",
+      "24",
+      "24 h",
+      "approximately 24 hours"
+    ],
+    "keywords": [
+      "24",
+      "hours"
+    ],
+    "explanation": "A geostationary satellite has an orbital period matching Earth's rotational period of 24 hours (1 sidereal day ≈ 23.93 h), appearing stationary relative to Earth's surface.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-044",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Work, Energy and Power",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What physical quantity is defined as the time rate at which work is done or energy is transferred?",
+    "sampleAnswer": "Power",
+    "acceptedAnswers": [
+      "Power"
+    ],
+    "keywords": [
+      "Power"
+    ],
+    "explanation": "Power P = dW / dt is the rate of doing work, measured in Joules per second or Watts (W).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-045",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): The acceleration due to gravity is maximum at the poles and minimum at the equator of Earth.\nReason (R): Earth is an oblate ellipsoid with polar radius smaller than equatorial radius (R_p < R_e), and rotation produces an outward centrifugal acceleration that maximal at the equator.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Because g = GM/R² - ω²R cos²(λ), the smaller polar radius increases GM/R² while zero rotation speed at the poles eliminates centrifugal reduction.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-046",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "System of Particles and Rotational Motion",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): A figure skater rotates noticeably faster when pulling outstretched arms and legs close to the axis of rotation.\nReason (R): In the absence of external torque, pulling limbs inward decreases moment of inertia, forcing angular velocity to increase to keep angular momentum L = Iω constant.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "By conservation of angular momentum: I₁ ω₁ = I₂ ω₂. When I decreases, ω must increase proportionally.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-047",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Work, Energy and Power",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following forces in classical physics are conservative forces where work done around any closed loop is zero? (Select all that apply)",
+    "options": [
+      "Gravitational force",
+      "Electrostatic force",
+      "Ideal spring restoring force",
+      "Kinetic friction force",
+      "Viscous fluid drag"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Gravity, electrostatics, and spring forces are conservative (work is path-independent). Friction and viscous drag are non-conservative dissipative forces.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-048",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Gravitation",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following statements regarding Kepler's laws of planetary motion are correct? (Select all that apply)",
+    "options": [
+      "Kepler's First Law states that planetary orbits are ellipses with the Sun located at one of the focal points.",
+      "Kepler's Second Law states that the radius vector sweeps out equal areas in equal intervals of time.",
+      "Kepler's Third Law states that the square of orbital period is proportional to the cube of the semi-major axis (T² ∝ a³).",
+      "A planet travels with its maximum orbital speed when it is at perihelion (closest approach to Sun).",
+      "A planet travels at a constant uniform speed throughout its entire elliptical trajectory."
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "A, B, C, and D are classical planetary motion laws. E is false because orbital speed varies inversely with distance from the Sun to conserve angular momentum.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-049",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Work, Energy and Power",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange these power units in strictly increasing order of their magnitude in Watts:",
+    "orderedItems": [
+      "Milliwatt (10⁻³ W)",
+      "Watt (1 W)",
+      "Horsepower (~746 W)",
+      "Kilowatt (10³ W)",
+      "Megawatt (10⁶ W)"
+    ],
+    "answer": "ordered",
+    "explanation": "Ascending order: 0.001 W < 1 W < 746 W < 1,000 W < 1,000,000 W.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-050",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "System of Particles and Rotational Motion",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange these uniform symmetric bodies of identical mass M and radius R in strictly increasing order of their moment of inertia about their symmetry axis:",
+    "orderedItems": [
+      "Solid sphere (I = 0.4 M R²)",
+      "Solid circular disc (I = 0.5 M R²)",
+      "Thin spherical shell (I = 0.67 M R²)",
+      "Thin circular hoop / ring (I = 1.0 M R²)"
+    ],
+    "answer": "ordered",
+    "explanation": "Comparing coefficients: 2/5 (0.4) < 1/2 (0.5) < 2/3 (~0.67) < 1.0.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-051",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Mechanical Properties of Solids",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Within the elastic limit of an isotropic solid material, what is the ratio of tensile (longitudinal) stress to longitudinal strain called?",
+    "options": [
+      "Young's Modulus",
+      "Shear Modulus (Modulus of Rigidity)",
+      "Bulk Modulus",
+      "Poisson's Ratio"
+    ],
+    "answer": 0,
+    "explanation": "Young's modulus Y = Longitudinal Stress / Longitudinal Strain measures the stiffness of a solid against axial tension or compression.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-052",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "According to Bernoulli's equation for the steady streamline flow of an ideal incompressible, non-viscous fluid, which sum remains constant along any streamline?",
+    "options": [
+      "P + 1/2 ρv² + ρgh",
+      "P + ρv² + ρgh",
+      "P + 1/2 ρv²",
+      "1/2 ρv² + ρgh"
+    ],
+    "answer": 0,
+    "explanation": "Bernoulli's theorem expresses conservation of mechanical energy per unit volume: static pressure P + dynamic pressure (1/2 ρv²) + hydrostatic potential energy per volume (ρgh) = constant.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-053",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermal Properties of Matter",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "According to the Stefan-Boltzmann law, the total radiant energy emitted per second per unit surface area of an ideal blackbody is directly proportional to which power of its absolute thermodynamic temperature T?",
+    "options": [
+      "T⁴",
+      "T²",
+      "T³",
+      "T"
+    ],
+    "answer": 0,
+    "explanation": "Stefan-Boltzmann law states E = σ T⁴, meaning the rate of radiant emission scales with the fourth power of absolute temperature.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-054",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermodynamics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "An ideal Carnot heat engine absorbs heat from a hot reservoir at 500 K and exhausts waste heat to a cold sink at 300 K. What is its theoretical thermal efficiency?",
+    "options": [
+      "40%",
+      "60%",
+      "25%",
+      "50%"
+    ],
+    "answer": 0,
+    "explanation": "Carnot efficiency η = 1 - (T_cold / T_hot) = 1 - (300 / 500) = 1 - 0.6 = 0.4 = 40%.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-055",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Water flows through a horizontal pipe of non-uniform cross-section. At section 1 of diameter d₁ = 4 cm, the flow speed is v₁ = 2 m/s. At section 2, the diameter narrows to d₂ = 2 cm. What is the flow speed v₂ and how does the static pressure P₂ compare to P₁?",
+    "options": [
+      "v₂ = 8 m/s, static pressure decreases (P₂ < P₁)",
+      "v₂ = 4 m/s, static pressure increases (P₂ > P₁)",
+      "v₂ = 8 m/s, static pressure increases (P₂ > P₁)",
+      "v₂ = 1 m/s, static pressure decreases (P₂ < P₁)"
+    ],
+    "answer": 0,
+    "explanation": "By equation of continuity: A₁ v₁ = A₂ v₂ => d₁² v₁ = d₂² v₂ => 16 × 2 = 4 × v₂ => v₂ = 8 m/s. By Bernoulli's equation for a horizontal pipe, higher velocity implies lower static pressure (P₂ < P₁).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-056",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermodynamics",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The First Law of Thermodynamics is a statement of the law of conservation of energy applied to thermodynamic systems: ΔQ = ΔU + ΔW.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "The heat supplied to a system (ΔQ) equals the change in its internal energy (ΔU) plus the work done by the system on its surroundings (ΔW).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-057",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Stokes' law states that the viscous resistive force F acting on a spherical particle of radius r moving with terminal velocity v through a fluid of viscosity η is given by F = 6πηrv.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Stokes' drag formula for a slow-moving sphere in laminar fluid flow is F = 6π η r v.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-058",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Mechanical Properties of Solids",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The negative ratio of lateral strain to longitudinal strain for an axially stretched elastic material is called ________ ratio.",
+    "answer": "Poisson's",
+    "acceptedAnswers": [
+      "Poisson's",
+      "Poisson",
+      "Poissons"
+    ],
+    "explanation": "Poisson's ratio ν = - (Lateral Strain / Longitudinal Strain) characterizes the contraction perpendicular to the direction of stretching.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-059",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermal Properties of Matter",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The temperature of absolute zero (0 K) corresponds on the Celsius temperature scale to ________ °C.",
+    "answer": "-273.15",
+    "acceptedAnswers": [
+      "-273.15",
+      "-273",
+      "-273.15 °C"
+    ],
+    "explanation": "T(K) = T(°C) + 273.15, so 0 K = -273.15 °C.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-060",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermodynamics",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each thermodynamic process with its governing condition:",
+    "pairs": [
+      [
+        "Isothermal Process",
+        "Temperature remains constant (ΔT = 0)"
+      ],
+      [
+        "Adiabatic Process",
+        "No heat exchange with surroundings (ΔQ = 0)"
+      ],
+      [
+        "Isobaric Process",
+        "Pressure remains constant (ΔP = 0)"
+      ],
+      [
+        "Isochoric Process",
+        "Volume remains constant (ΔV = 0, W = 0)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These are the four classical quasi-static thermodynamic processes.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-061",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermal Properties of Matter",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the amount of heat energy in Joules required to heat 2 kg of water from 20°C to 50°C, taking the specific heat capacity of water as c = 4200 J/(kg·K).",
+    "answer": 252000,
+    "tolerance": 0,
+    "unit": "J",
+    "explanation": "Q = m c ΔT = 2 kg × 4200 J/(kg·K) × (50 - 20) K = 8400 × 30 = 252,000 J.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-062",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A clean glass capillary tube of radius r = 0.5 mm is inserted vertically into a container of water. Taking surface tension T = 0.075 N/m, density of water ρ = 1000 kg/m³, contact angle θ = 0°, and g = 10 m/s², calculate the height of water rise h inside the capillary in millimetres.",
+    "answer": 30,
+    "tolerance": 0,
+    "unit": "mm",
+    "explanation": "h = 2T cos(θ) / (ρ g r) = [2 × 0.075 × 1] / [1000 × 10 × (0.5 × 10⁻³)] = 0.15 / 5 = 0.03 m = 30 mm.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-063",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermodynamics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "An ideal monoatomic gas (adiabatic index γ = 5/3) at initial temperature T₁ = 400 K expands adiabatically to twice its initial volume (V₂ = 2V₁). Calculate the final gas temperature T₂ in Kelvin rounded to the nearest integer.",
+    "answer": 252,
+    "tolerance": 1,
+    "unit": "K",
+    "explanation": "For an adiabatic process: T₁ V₁^(γ - 1) = T₂ V₂^(γ - 1) => T₂ = T₁ (V₁/V₂)^(2/3) = 400 × (1/2)^(2/3) = 400 / 1.5874 ≈ 252 K.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-064",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Mechanical Properties of Solids",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "A steel cable of length 2 m and cross-sectional area 1 mm² (10⁻⁶ m²) is pulled by a tensile force of 200 N. If Young's modulus of steel is Y = 2 × 10¹¹ N/m², find the elongation ΔL produced in millimetres.",
+    "answer": 2,
+    "tolerance": 0,
+    "unit": "mm",
+    "explanation": "ΔL = (F L) / (A Y) = (200 × 2) / (10⁻⁶ × 2 × 10¹¹) = 400 / (2 × 10⁵) = 2 × 10⁻³ m = 2 mm.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-065",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Mechanical Properties of Solids",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the illustrated stress-strain curve for a ductile metal, what does point 'B' represent where the material reaches its limit of elastic behavior?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 220\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"320\" height=\"220\" fill=\"#0f172a\"/><line x1=\"40\" y1=\"180\" x2=\"290\" y2=\"180\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"180\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"285\" y=\"195\" fill=\"#94a3b8\" font-size=\"11\">Strain</text><text x=\"20\" y=\"30\" fill=\"#94a3b8\" font-size=\"11\">Stress</text><path d=\"M 40 180 L 110 90 Q 140 75 180 60 Q 230 50 250 80\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"2.5\"/><circle cx=\"110\" cy=\"90\" r=\"3\" fill=\"#fbbf24\"/><text x=\"105\" y=\"80\" fill=\"#fbbf24\" font-size=\"11\" font-weight=\"bold\">A</text><circle cx=\"140\" cy=\"75\" r=\"4\" fill=\"#34d399\"/><text x=\"140\" y=\"60\" fill=\"#34d399\" font-size=\"12\" font-weight=\"bold\">B</text><circle cx=\"220\" cy=\"52\" r=\"3\" fill=\"#fbbf24\"/><text x=\"220\" y=\"40\" fill=\"#fbbf24\" font-size=\"11\" font-weight=\"bold\">C</text><circle cx=\"250\" cy=\"80\" r=\"3\" fill=\"#ef4444\"/><text x=\"255\" y=\"95\" fill=\"#ef4444\" font-size=\"11\" font-weight=\"bold\">D</text></svg>"
+    },
+    "options": [
+      "Elastic Limit (Yield Point)",
+      "Proportional Limit",
+      "Ultimate Tensile Strength",
+      "Fracture Point"
+    ],
+    "answer": 0,
+    "explanation": "Point A is the proportional limit where Hooke's law holds. Point B is the elastic limit (yield point), beyond which the material sustains permanent plastic strain.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-066",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermodynamics",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the illustrated P-V indicator diagram of a cyclic thermodynamic engine, what physical quantity is represented by the enclosed shaded area of the closed loop?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 300 200\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"300\" height=\"200\" fill=\"#0f172a\"/><line x1=\"40\" y1=\"160\" x2=\"270\" y2=\"160\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><line x1=\"40\" y1=\"20\" x2=\"40\" y2=\"160\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><text x=\"265\" y=\"175\" fill=\"#94a3b8\" font-size=\"11\">V</text><text x=\"25\" y=\"30\" fill=\"#94a3b8\" font-size=\"11\">P</text><ellipse cx=\"150\" cy=\"90\" rx=\"60\" ry=\"40\" fill=\"#38bdf8\" fill-opacity=\"0.3\" stroke=\"#38bdf8\" stroke-width=\"2\"/><polygon points=\"155,48 165,50 155,54\" fill=\"#fbbf24\"/><polygon points=\"145,132 135,130 145,126\" fill=\"#fbbf24\"/><text x=\"150\" y=\"95\" fill=\"#f8fafc\" font-size=\"12\" font-weight=\"bold\" text-anchor=\"middle\">Cycle</text></svg>"
+    },
+    "options": [
+      "Net work done during one complete cycle",
+      "Total change in internal energy",
+      "Heat capacity of the working substance",
+      "Mass of the working gas"
+    ],
+    "answer": 0,
+    "explanation": "The area enclosed by a cyclic process on a P-V diagram represents the net mechanical work done (W_net = ∮ P dV) per cycle.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-067",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermal Properties of Matter",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the mode of heat transfer occurring in fluids where thermal energy is conveyed by the bulk macroscopic circulation of warm fluid rising and colder fluid sinking?",
+    "sampleAnswer": "Convection",
+    "acceptedAnswers": [
+      "Convection",
+      "Thermal convection"
+    ],
+    "keywords": [
+      "Convection"
+    ],
+    "explanation": "Convection involves the actual transport of matter caused by buoyancy forces arising from density differences.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-068",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermodynamics",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What thermodynamic state function S, defined differentially by dS = dQ_rev / T, quantifies the degree of microscopic disorder in a thermodynamic system?",
+    "sampleAnswer": "Entropy",
+    "acceptedAnswers": [
+      "Entropy",
+      "Entropy (S)"
+    ],
+    "keywords": [
+      "Entropy"
+    ],
+    "explanation": "Entropy S measures system disorder and unavailability of thermal energy to do work, governing the direction of spontaneous processes according to the Second Law.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-069",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): Free-falling liquid raindrops and small mercury globules assume a spherical shape.\nReason (R): For a given constant volume, a geometric sphere possesses the minimum surface area, and surface tension acts to minimize surface potential energy.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Surface tension creates a contracting membrane effect. Because a sphere minimizes surface area for a given volume, liquids minimize their surface energy by becoming spherical.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-070",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermodynamics",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): During an isothermal expansion of an ideal gas, the change in its internal energy is zero (ΔU = 0).\nReason (R): The internal energy of an ideal gas depends solely on its absolute temperature, which remains constant throughout an isothermal process.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "For an ideal gas, U = (f/2) n R T. Since T is constant, ΔT = 0 implies ΔU = 0.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-071",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermodynamics",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following statements regarding the Second Law of Thermodynamics and Carnot engines are correct? (Select all that apply)",
+    "options": [
+      "The Kelvin-Planck statement asserts that no cyclic process can convert heat completely into work without exhausting heat to a sink.",
+      "The Clausius statement asserts that heat cannot spontaneously transfer from a cooler body to a hotter body without external work.",
+      "No real heat engine operating between two given temperatures can exceed the efficiency of a reversible Carnot engine operating between the same reservoirs.",
+      "The efficiency of a Carnot engine is solely a function of reservoir temperatures: η = 1 - T_C / T_H.",
+      "A Carnot engine working with a cold reservoir at 0°C achieves 100% thermal efficiency."
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Options A, B, C, and D are classical principles of thermodynamics. Option E is false because 100% efficiency requires T_C = 0 Kelvin (absolute zero), not 0°C (273 K).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-072",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Mechanical Properties of Fluids",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following physical phenomena are direct consequences of liquid surface tension? (Select all that apply)",
+    "options": [
+      "Capillary rise of liquid inside a narrow glass bore",
+      "Spherical shape of small raindrops and soap bubbles",
+      "A greased steel needle floating horizontally on the surface of calm water",
+      "The action of detergents and surfactants in reducing interfacial tension to clean fabrics",
+      "The buoyant upward force exerted by water on a submerged wooden block"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "A, B, C, and D arise from intermolecular surface tension forces. E is governed by Archimedes' buoyancy principle and hydrostatic pressure gradients.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-073",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermal Properties of Matter",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following physical facts regarding thermal expansion and radiation are scientifically accurate? (Select all that apply)",
+    "options": [
+      "For an isotropic solid, the ratio of linear, areal, and volumetric thermal expansion coefficients is α : β : γ = 1 : 2 : 3.",
+      "Water exhibits anomalous expansion between 0°C and 4°C, reaching its maximum density at 4°C.",
+      "Wien's Displacement Law states that λ_max T = b (constant), indicating peak emission shifts to shorter wavelengths at higher temperatures.",
+      "An ideal blackbody absorber has an emissivity of e = 1.",
+      "Thermal conduction across a metal rod is completely independent of the cross-sectional area."
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "A, B, C, and D are standard thermal physics laws. E is false because heat transfer rate dQ/dt = -k A (dT/dx) is directly proportional to cross-sectional area A.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-074",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermodynamics",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange these thermodynamic processes in strictly increasing order of work done during expansion of an ideal gas from the same initial state (P₁, V₁) to the same final volume V₂:",
+    "orderedItems": [
+      "Isochoric process (W = 0)",
+      "Adiabatic expansion (steepest negative curve)",
+      "Isothermal expansion (moderate curve)",
+      "Isobaric expansion (horizontal curve, highest area)"
+    ],
+    "answer": "ordered",
+    "explanation": "Because area under the P-V curve determines work: W_isochoric (0) < W_adiabatic < W_isothermal < W_isobaric.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-075",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Thermal Properties of Matter",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange these landmark thermal states in strictly increasing order of their absolute temperatures in Kelvin:",
+    "orderedItems": [
+      "Melting point of pure ice at 1 atm (273.15 K)",
+      "Standard human body core temperature (310.15 K)",
+      "Boiling point of pure water at 1 atm (373.15 K)",
+      "Melting point of pure lead at 1 atm (600.65 K)"
+    ],
+    "answer": "ordered",
+    "explanation": "In Kelvin: 0°C (273.15 K) < 37°C (310.15 K) < 100°C (373.15 K) < 327.5°C (600.65 K).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-076",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Kinetic Theory",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "According to the kinetic theory of gases, the root-mean-square (rms) speed v_rms of molecules in an ideal gas of molar mass M at absolute temperature T is given by which expression?",
+    "options": [
+      "√(3RT / M)",
+      "√(2RT / M)",
+      "√(8RT / (πM))",
+      "√(RT / M)"
+    ],
+    "answer": 0,
+    "explanation": "Since total translational kinetic energy per mole is (3/2) RT = (1/2) M (v_rms)², v_rms = √(3RT / M).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-077",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Oscillations",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A simple pendulum oscillates with a period of T = 2.0 s at a place where g = 9.8 m/s² (a seconds pendulum). What is its effective length?",
+    "options": [
+      "Approximately 1.0 m (0.993 m)",
+      "2.0 m",
+      "0.50 m",
+      "0.25 m"
+    ],
+    "answer": 0,
+    "explanation": "T = 2π √(L/g) => 2 = 2π √(L/9.8) => √(L/9.8) = 1/π => L = 9.8 / π² ≈ 9.8 / 9.87 ≈ 0.993 m ≈ 1.0 m.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-078",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Waves",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which fundamental physical characteristic of a sound wave directly determines its perceived pitch to human ears?",
+    "options": [
+      "Frequency",
+      "Amplitude",
+      "Wavelength",
+      "Phase speed"
+    ],
+    "answer": 0,
+    "explanation": "Pitch is the psychological sensation of frequency: higher frequency sound waves are perceived as higher pitch.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-079",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Kinetic Theory",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the total number of degrees of freedom f for a rigid diatomic gas molecule (such as O₂ or N₂) at moderate room temperature, neglecting vibrational modes?",
+    "options": [
+      "5",
+      "3",
+      "6",
+      "7"
+    ],
+    "answer": 0,
+    "explanation": "A rigid diatomic molecule has 3 translational degrees of freedom and 2 rotational degrees of freedom about axes perpendicular to the internuclear bond, totaling f = 3 + 2 = 5.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-080",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Waves",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A train blowing a whistle of frequency 400 Hz approaches a stationary listener on a platform at speed v_s = 20 m/s. Taking the speed of sound in air as v = 340 m/s, what frequency is heard by the listener?",
+    "options": [
+      "425 Hz",
+      "375 Hz",
+      "400 Hz",
+      "450 Hz"
+    ],
+    "answer": 0,
+    "explanation": "By Doppler's formula for a moving source approaching a stationary observer: f' = f [v / (v - v_s)] = 400 × [340 / (340 - 20)] = 400 × (340 / 320) = 400 × (17 / 16) = 25 × 17 = 425 Hz.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-081",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Oscillations",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A particle executes simple harmonic motion of amplitude A. At what displacement x from the mean equilibrium position is its kinetic energy equal to its potential energy?",
+    "options": [
+      "x = ± A / √2",
+      "x = ± A / 2",
+      "x = ± A / 4",
+      "x = ± √3/2 A"
+    ],
+    "answer": 0,
+    "explanation": "KE = (1/2) k (A² - x²) and PE = (1/2) k x². Setting KE = PE: (1/2) k (A² - x²) = (1/2) k x² => A² - x² = x² => 2x² = A² => x = ± A / √2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-082",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Oscillations",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In simple harmonic motion (SHM), the restoring acceleration of the particle is always directly proportional to its displacement from the mean position and directed opposite to it: a = -ω²x.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "The defining mathematical condition of SHM is a = -ω² x, ensuring the restoring force always points towards the equilibrium position.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-083",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Waves",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In a stationary (standing) wave formed by the superposition of two counter-propagating harmonic waves, there is continuous net transport of mechanical energy across the nodal positions.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "Nodes remain permanently at rest with zero displacement amplitude, meaning no energy is transferred across nodes; energy remains trapped standing in loops between nodes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-084",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Kinetic Theory",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In the ideal gas equation of state PV = nRT, the universal gas constant R has a numerical value of approximately ________ J/(mol·K).",
+    "answer": "8.31",
+    "acceptedAnswers": [
+      "8.31",
+      "8.314"
+    ],
+    "explanation": "The universal gas constant R = N_A × k_B ≈ 8.314 J/(mol·K).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-085",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Oscillations",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The phase difference between the displacement x(t) and acceleration a(t) of a particle undergoing simple harmonic motion is ________ radians.",
+    "answer": "π",
+    "acceptedAnswers": [
+      "π",
+      "pi",
+      "PI",
+      "180°"
+    ],
+    "explanation": "x(t) = A sin(ωt) and a(t) = -ω² A sin(ωt) = ω² A sin(ωt + π). The phase angle difference is π radians (180°).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-086",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Waves",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each wave phenomenon with its physical description:",
+    "pairs": [
+      [
+        "Nodes",
+        "Points of zero displacement amplitude"
+      ],
+      [
+        "Antinodes",
+        "Points of maximum displacement amplitude"
+      ],
+      [
+        "Beat Frequency",
+        "|f₁ - f₂| resulting from superposition of two close frequencies"
+      ],
+      [
+        "Fundamental Frequency",
+        "Lowest resonant frequency of a standing wave system"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These are the standard acoustic definitions characterizing standing wave harmonics and beat interference.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-087",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Kinetic Theory",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each molecular speed or thermodynamic property with its kinetic theory formula:",
+    "pairs": [
+      [
+        "Root-Mean-Square Speed (v_rms)",
+        "√(3RT / M)"
+      ],
+      [
+        "Average Speed (v_avg)",
+        "√(8RT / (πM))"
+      ],
+      [
+        "Most Probable Speed (v_mp)",
+        "√(2RT / M)"
+      ],
+      [
+        "Specific Heat Ratio (γ)",
+        "1 + 2/f"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These represent the Maxwell-Boltzmann molecular speed statistics and degrees of freedom specific heat relationships.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-088",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Oscillations",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A mass-spring oscillator performs simple harmonic motion with amplitude A = 0.05 m and angular frequency ω = 10 rad/s. Calculate its maximum speed v_max in m/s.",
+    "answer": 0.5,
+    "tolerance": 0,
+    "unit": "m/s",
+    "explanation": "v_max = A ω = 0.05 m × 10 rad/s = 0.5 m/s.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-089",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Waves",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "A musical note propagates through air at speed v = 340 m/s with a wavelength of 0.85 m. What is the frequency of the sound in Hertz?",
+    "answer": 400,
+    "tolerance": 0,
+    "unit": "Hz",
+    "explanation": "f = v / λ = 340 / 0.85 = 400 Hz.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-090",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Waves",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Two tuning forks produce 4 beats per second when sounded together. When the higher-frequency fork is loaded with wax, the beat frequency drops to 2 beats per second. If the frequency of the other fork is 256 Hz, what was the initial frequency of the loaded fork in Hz?",
+    "answer": 260,
+    "tolerance": 0,
+    "unit": "Hz",
+    "explanation": "Initial frequency f₁ could be 256 + 4 = 260 Hz or 256 - 4 = 252 Hz. Loading wax lowers frequency. If it were 252 Hz, lowering it would increase the beat difference (> 4). Since beat frequency decreased to 2, f₁ must have been 260 Hz (which lowered to 258 Hz, giving |258 - 256| = 2).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-091",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Kinetic Theory",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "At what absolute temperature in Kelvin does hydrogen gas (H₂, molar mass 2 g/mol) have the exact same root-mean-square molecular speed as oxygen gas (O₂, molar mass 32 g/mol) at 400 K?",
+    "answer": 25,
+    "tolerance": 0,
+    "unit": "K",
+    "explanation": "v_rms = √(3RT/M). Setting speeds equal: √(3 R T_H / 2) = √(3 R × 400 / 32) => T_H / 2 = 400 / 32 => T_H = 800 / 32 = 25 K.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-092",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Waves",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the illustrated periodic transverse wave diagram, what parameter is represented by the peak displacement 'A' measured from the baseline equilibrium axis to the crest?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 180\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"320\" height=\"180\" fill=\"#0f172a\"/><line x1=\"20\" y1=\"90\" x2=\"300\" y2=\"90\" stroke=\"#94a3b8\" stroke-width=\"1.5\"/><path d=\"M 20 90 Q 60 20 100 90 Q 140 160 180 90 Q 220 20 260 90 Q 300 160 320 90\" fill=\"none\" stroke=\"#38bdf8\" stroke-width=\"2.5\"/><line x1=\"60\" y1=\"90\" x2=\"60\" y2=\"20\" stroke=\"#fbbf24\" stroke-width=\"1.5\"/><polygon points=\"60,20 56,30 64,30\" fill=\"#fbbf24\"/><text x=\"72\" y=\"55\" fill=\"#fbbf24\" font-size=\"14\" font-weight=\"bold\">A</text><line x1=\"60\" y1=\"15\" x2=\"220\" y2=\"15\" stroke=\"#34d399\" stroke-width=\"1.5\"/><polygon points=\"60,15 70,11 70,19\" fill=\"#34d399\"/><polygon points=\"220,15 210,11 210,19\" fill=\"#34d399\"/><text x=\"140\" y=\"12\" fill=\"#34d399\" font-size=\"11\" text-anchor=\"middle\">λ (Wavelength)</text></svg>"
+    },
+    "options": [
+      "Amplitude",
+      "Wavelength",
+      "Wave period",
+      "Phase constant"
+    ],
+    "answer": 0,
+    "explanation": "Amplitude is the maximum displacement of points on a wave from the central equilibrium baseline.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-093",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Oscillations",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the phenomenon called when an oscillating body is driven by an external periodic force whose frequency matches the system's natural frequency, producing a dramatic surge in amplitude?",
+    "sampleAnswer": "Resonance",
+    "acceptedAnswers": [
+      "Resonance",
+      "Acoustic resonance"
+    ],
+    "keywords": [
+      "Resonance"
+    ],
+    "explanation": "Resonance occurs when driving frequency matches natural frequency (ω = ω₀), leading to maximum power transfer and amplitude response.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-094",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Kinetic Theory",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "According to the Law of Equipartition of Energy, what is the average thermal energy associated with each quadratic degree of freedom per molecule at absolute temperature T (where k_B is Boltzmann's constant)?",
+    "sampleAnswer": "1/2 k_B T",
+    "acceptedAnswers": [
+      "1/2 k_B T",
+      "1/2 kT",
+      "0.5 kT",
+      "kT/2"
+    ],
+    "keywords": [
+      "kT",
+      "k_B T",
+      "1/2"
+    ],
+    "explanation": "The equipartition theorem states that each independent quadratic translational, rotational, or vibrational degree of freedom possesses an average energy of (1/2) k_B T in thermal equilibrium.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-095",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Waves",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): Sound travels with a higher velocity in humid moist air than in dry air at the same temperature and pressure.\nReason (R): Water vapor (molar mass 18 g/mol) is lighter than dry air (average molar mass ~29 g/mol), reducing the overall density of moist air, and the speed of sound is inversely proportional to the square root of gas density (v = √(γP/ρ)).",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Because H₂O molecules replace heavier N₂ and O₂ molecules at constant pressure, moist air has lower density, which increases sound velocity v = √(γP/ρ).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-096",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Oscillations",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): The total mechanical energy of an undamped simple harmonic oscillator remains strictly constant over time.\nReason (R): Kinetic energy and potential energy undergo continuous mutual interchange, with their sum E = (1/2) k A² remaining invariant throughout the oscillation.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Since restoring force F = -kx is a conservative spring force, mechanical energy is conserved: E = (1/2) m v² + (1/2) k x² = (1/2) k A².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-097",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Kinetic Theory",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following foundational assumptions of the kinetic theory of ideal gases are correct? (Select all that apply)",
+    "options": [
+      "The volume occupied by gas molecules is negligible compared to the total volume of the container.",
+      "Intermolecular forces between gas particles are negligible except during brief instantaneous collisions.",
+      "Collisions of molecules with each other and with container walls are perfectly elastic.",
+      "The average kinetic energy of gas molecules depends solely on the absolute thermodynamic temperature T.",
+      "Molecules attract each other with long-range gravitational forces that slow down wall collisions."
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "A, B, C, and D are classical ideal gas kinetic postulates. E is false because intermolecular attractions are explicitly neglected in the ideal gas model.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-098",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Waves",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following physical statements concerning waves and sound propagation are scientifically valid? (Select all that apply)",
+    "options": [
+      "Sound waves in gases are longitudinal mechanical waves requiring a material medium for propagation.",
+      "Transverse mechanical shear waves can propagate through solids, but not through the bulk of ideal non-viscous fluids.",
+      "Upon reflection at a rigid fixed boundary, a transverse wave suffers an abrupt phase reversal of π radians (180°).",
+      "The speed of sound in an ideal gas increases proportionally with the square root of its absolute temperature (v ∝ √T).",
+      "Sound waves propagate efficiently across an ultra-high vacuum."
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "A, B, C, and D are fundamental wave propagation theorems. E is false because mechanical waves cannot travel through a vacuum without matter.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-099",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Kinetic Theory",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange these gases in strictly increasing order of their molecular root-mean-square speeds (v_rms ∝ 1/√M) at the same temperature T:",
+    "orderedItems": [
+      "Carbon dioxide CO₂ (M = 44 g/mol)",
+      "Oxygen O₂ (M = 32 g/mol)",
+      "Nitrogen N₂ (M = 28 g/mol)",
+      "Helium He (M = 4 g/mol)",
+      "Hydrogen H₂ (M = 2 g/mol)"
+    ],
+    "answer": "ordered",
+    "explanation": "Because v_rms is inversely proportional to the square root of molar mass: heavier molecules travel slower: CO₂ < O₂ < N₂ < He < H₂.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c11-physics-100",
+    "class": 11,
+    "subject": "physics",
+    "chapter": "Waves",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange these acoustic wave frequencies in strictly increasing order of their magnitude in Hertz:",
+    "orderedItems": [
+      "Infrasonic seismic vibration (10 Hz)",
+      "Standard musical concert pitch A4 (440 Hz)",
+      "Upper limit of human hearing threshold (20,000 Hz = 20 kHz)",
+      "Medical diagnostic ultrasound (2,000,000 Hz = 2 MHz)"
+    ],
+    "answer": "ordered",
+    "explanation": "Ascending frequency order: 10 Hz < 440 Hz < 20,000 Hz < 2,000,000 Hz.",
+    "marks": 2,
+    "volatile": false
+  }
+]

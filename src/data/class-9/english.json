@@ -1,0 +1,2058 @@
+[
+  {
+    "id": "c9-english-001",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Fun They Had",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Isaac Asimov's science-fiction story 'The Fun They Had', on what future date does Margie make the diary entry: 'Today Tommy found a real book!'?",
+    "options": [
+      "17 May 2157",
+      "17 May 2057",
+      "15 August 2157",
+      "1 January 2200"
+    ],
+    "answer": 0,
+    "explanation": "Margie wrote in her diary on the page headed 17 May 2157: 'Today Tommy found a real book!' describing antique printed paper books.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-002",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Sound of Music",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "At what age was Evelyn Glennie's profound hearing impairment medically confirmed, after which she pioneered feeling musical vibrations through her body?",
+    "options": [
+      "11 years old",
+      "8 years old",
+      "14 years old",
+      "16 years old"
+    ],
+    "answer": 0,
+    "explanation": "Evelyn's hearing loss was first noticed at age 8 and confirmed by a specialist at age 11 as a result of gradual nerve damage.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-003",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Road Not Taken",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Robert Frost's celebrated poem 'The Road Not Taken', what do the two diverging roads in the yellow forest symbolically represent?",
+    "options": [
+      "The critical life choices and alternative paths an individual must navigate",
+      "Two real physical pathways in a Vermont autumn woodland",
+      "The contrast between industrial city life and rustic countryside",
+      "The irreconcilable conflict between two travelling companions"
+    ],
+    "answer": 0,
+    "explanation": "The diverging paths metaphorically symbolize fateful moral, professional, or personal life decisions whose consequences shape one's entire future.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-004",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Tenses",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Identify the grammatically correct sentence structured in the Present Perfect Continuous tense:",
+    "options": [
+      "The archaeologist has been examining this ancient manuscript for three hours.",
+      "The archaeologist is examining this ancient manuscript since three hours.",
+      "The archaeologist has examined this ancient manuscript for three hours ago.",
+      "The archaeologist was examining this ancient manuscript since morning yesterday."
+    ],
+    "answer": 0,
+    "explanation": "Present Perfect Continuous uses 'has/have been + verb-ing' with 'for' (duration) or 'since' (point in time): 'has been examining... for three hours'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-005",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Subject-Verb Concord",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Select the correct auxiliary verb to complete the sentence: 'Neither the class teacher nor the students ________ informed about the sudden change in exam schedule yesterday.'",
+    "options": [
+      "were",
+      "was",
+      "are",
+      "have been"
+    ],
+    "answer": 0,
+    "explanation": "When two subjects are joined by 'neither... nor', the verb agrees in number and person with the nearer subject ('students' is plural, past tense -> 'were').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-006",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Lost Child",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Mulk Raj Anand's story 'The Lost Child', how did the little boy react when a compassionate stranger offered him sweets, balloons, and a garland of gulmohur after he was separated from his parents?",
+    "options": [
+      "He rejected them all and wept inconsolably, sobbing: 'I want my mother, I want my father!'",
+      "He eagerly collected the sweets and forgot his lost parents",
+      "He accused the stranger of kidnapping and called the police",
+      "He asked the stranger to take him to the roundabout swing instead"
+    ],
+    "answer": 0,
+    "explanation": "All worldly attractions lost their allure; the child only craved the security and love of his parents, sobbing: 'I want my mother, I want my father!'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-007",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Modals",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In which of the following sentences does the modal auxiliary 'must' express logical deduction (epistemic certainty) rather than moral obligation?",
+    "options": [
+      "The lights are on and his car is parked outside, so he must be at home.",
+      "You must wear a helmet whenever you ride a two-wheeler on public roads.",
+      "Students must submit their science laboratory files before Friday.",
+      "We must respect our elders and preserve national monuments."
+    ],
+    "answer": 0,
+    "explanation": "In 'he must be at home', 'must' conveys high probability and logical deduction based on observable evidence (lights on, car parked).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-008",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Wind",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In the poem 'Wind' by Subramania Bharati, the poet conveys that the wind befriends the strong while destroying what is weak.",
+    "answer": true,
+    "explanation": "The poet states: 'The wind blows out weak fires. He makes strong fires roar and flourish. His friendship is good.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-009",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Determiners",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In the sentence 'There is few water left in the earthen pot during summer', the determiner 'few' is grammatically correct.",
+    "answer": false,
+    "explanation": "'Few' is used with countable plural nouns (e.g. few drops); uncountable nouns like 'water' require 'little' or 'a little'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-010",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Adventures of Toto",
+    "type": "truefalse",
+    "difficulty": "hard",
+    "question": "In Ruskin Bond's story 'The Adventures of Toto', Grandfather decided to keep Toto permanently because he proved to be an exceptionally docile and inexpensive pet.",
+    "answer": false,
+    "explanation": "Toto was extremely mischievous, destroyed wallpaper and clothes, and threw dishes, compelling Grandfather to sell him back to the tonga-driver for three rupees.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-011",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Reported Speech",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Complete the indirect speech transformation: Direct: Rohan said, 'I am preparing my project.' -> Indirect: Rohan said that he ________ preparing his project.",
+    "answer": "was",
+    "acceptedAnswers": [
+      "was"
+    ],
+    "explanation": "Present continuous ('am preparing') changes to past continuous ('was preparing') in reported speech after a past reporting verb ('said').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-012",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Little Girl",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In Katherine Mansfield's story 'The Little Girl', Kezia inadvertently tore up her father's great ________ for the Port Authority to stuff her handmade surprise pin-cushion.",
+    "answer": "speech",
+    "acceptedAnswers": [
+      "speech",
+      "Speech",
+      "port authority speech"
+    ],
+    "explanation": "Kezia gathered sheets of fine paper from her father's bedroom table, tore them into pieces, and stuffed the cushion, unaware that they contained his speech for the Port Authority.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-013",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Determiners",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Fill in the blank with the appropriate determiner: 'Could you please pass me ________ salt from the shelf?'",
+    "answer": "the",
+    "acceptedAnswers": [
+      "the",
+      "some"
+    ],
+    "explanation": "The definite article 'the' specifies the particular salt on the shelf, or 'some' requests a small unspecified quantity.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-014",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Rain on the Roof",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "In Coates Kinney's lyrical poem 'Rain on the Roof', listening to the patter of raindrops on the shingles revives nostalgic memories of the poet's beloved ________ who used to tuck him in.",
+    "answer": "mother",
+    "acceptedAnswers": [
+      "mother",
+      "Mother",
+      "darling mother"
+    ],
+    "explanation": "The poet fondly recalls his mother coming into his room in years agone to look at her darling dreamers before leaving them till dawn.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-015",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Fun They Had",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each English vocabulary word with its precise contextual antonym:",
+    "pairs": [
+      [
+        "Tranquil",
+        "Agitated"
+      ],
+      [
+        "Scarcity",
+        "Abundance"
+      ],
+      [
+        "Obscure",
+        "Prominent"
+      ],
+      [
+        "Rigid",
+        "Flexible"
+      ]
+    ],
+    "explanation": "Tranquil (calm) opposes agitated; scarcity (shortage) opposes abundance; obscure (unclear) opposes prominent; rigid opposes flexible.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-016",
+    "class": 9,
+    "subject": "english",
+    "chapter": "A Truly Beautiful Mind",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each prescribed NCERT Class 9 prose text with its author or subject focus:",
+    "pairs": [
+      [
+        "The Fun They Had",
+        "Isaac Asimov"
+      ],
+      [
+        "The Little Girl",
+        "Katherine Mansfield"
+      ],
+      [
+        "A Truly Beautiful Mind",
+        "Biographical portrait of Albert Einstein"
+      ],
+      [
+        "My Childhood",
+        "Autobiographical account by A.P.J. Abdul Kalam"
+      ]
+    ],
+    "explanation": "Isaac Asimov wrote 'The Fun They Had'; Katherine Mansfield wrote 'The Little Girl'; 'A Truly Beautiful Mind' portrays Einstein; 'My Childhood' excerpted from Kalam's Wings of Fire.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-017",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Grammar - Parts of Speech",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Examine the following sentence carefully: 'The very tired young doctor walked slowly into the crowded hospital room.' Count the exact number of adjectives present in this sentence (excluding grammatical articles 'the/a').",
+    "answer": 4,
+    "unit": "adjectives",
+    "tolerance": 0,
+    "explanation": "The 4 adjectives modifying nouns are: 'tired' (modifying doctor), 'young' (modifying doctor), 'crowded' (modifying room), and 'hospital' (noun adjunct modifying room). Note: 'very' and 'slowly' are adverbs.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-018",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the standard CBSE format for Notice Writing illustrated below, which mandatory structural component is indicated by label 'B'?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220' width='320' height='220'><rect width='320' height='220' fill='#0f172a' rx='8'/><rect x='25' y='20' width='270' height='180' fill='#f8fafc' stroke='#3b82f6' stroke-width='2' rx='4'/><text x='160' y='42' font-family='sans-serif' font-size='11' font-weight='bold' fill='#1e293b' text-anchor='middle'>A (Name of Issuing Organisation)</text><rect x='100' y='52' width='120' height='20' fill='#2563eb' rx='3'/><text x='160' y='66' font-family='sans-serif' font-size='12' font-weight='bold' fill='#ffffff' text-anchor='middle'>B</text><text x='40' y='88' font-family='sans-serif' font-size='10' fill='#64748b'>Date: 12 Oct 2026</text><text x='160' y='105' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a' text-anchor='middle'>C (Subject / Heading)</text><line x1='40' y1='120' x2='280' y2='120' stroke='#cbd5e1' stroke-width='1'/><line x1='40' y1='132' x2='280' y2='132' stroke='#cbd5e1' stroke-width='1'/><line x1='40' y1='144' x2='200' y2='144' stroke='#cbd5e1' stroke-width='1'/><text x='40' y='170' font-family='sans-serif' font-size='9' fill='#475569'>Signature & Designation</text></svg>"
+    },
+    "options": [
+      "The capitalized keyword 'NOTICE'",
+      "Name of the issuing school/organization",
+      "Date of notice issuance",
+      "Subject heading"
+    ],
+    "answer": 0,
+    "explanation": "Label B indicates the mandatory capitalized word 'NOTICE' displayed prominently below the issuing authority's name.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-019",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Fun They Had",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What did Margie find most strange and peculiar about the printed book that Tommy discovered in the attic?",
+    "sampleAnswer": "Margie found it strange that the words stood still on yellow, crinkly pages instead of moving across a digital screen as they did on her telebooks, and when they turned back to a page, it still had the exact same words.",
+    "acceptedAnswers": [
+      "words stood still instead of moving on a screen",
+      "words were printed on paper and did not move",
+      "the words stood still on pages instead of moving on a screen",
+      "words did not move like on a telebook screen"
+    ],
+    "keywords": [
+      "words",
+      "stood still",
+      "moving",
+      "screen",
+      "pages",
+      "paper",
+      "telebook"
+    ],
+    "explanation": "Margie was accustomed to animated telebooks on computer screens, so static printed ink on paper seemed bizarre to her.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-020",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Reported Speech",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Transform the direct interrogative sentence into indirect speech: She asked me, 'Where do you live?'",
+    "sampleAnswer": "She asked me where I lived.",
+    "acceptedAnswers": [
+      "She asked me where I lived.",
+      "she asked me where i lived.",
+      "She asked me where I lived",
+      "she asked me where i lived"
+    ],
+    "keywords": [
+      "she",
+      "asked",
+      "me",
+      "where",
+      "lived"
+    ],
+    "explanation": "In indirect speech for Wh-questions, the question word ('where') serves as the conjunction, question word order changes to assertive, and simple present ('live') shifts to simple past ('lived').",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-021",
+    "class": 9,
+    "subject": "english",
+    "chapter": "A Truly Beautiful Mind",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Why did Albert Einstein write a historic letter to American President Franklin D. Roosevelt in August 1939?",
+    "sampleAnswer": "Einstein wrote to President Roosevelt to warn him about the imminent danger that Nazi Germany had discovered nuclear fission and could develop an atomic bomb capable of devastating an entire port city.",
+    "acceptedAnswers": [
+      "to warn him that Nazi Germany could build an atomic bomb",
+      "to warn about the danger of an atomic bomb being built by Germany",
+      "warned that Germany had discovered nuclear fission and might make an atomic bomb",
+      "warned about the destructive power of an atomic bomb"
+    ],
+    "keywords": [
+      "warn",
+      "atomic bomb",
+      "Germany",
+      "Nazi",
+      "Roosevelt",
+      "nuclear"
+    ],
+    "explanation": "Einstein warned Roosevelt of atomic bomb threats after German physicists achieved uranium fission in Berlin.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-022",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Road Not Taken",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): The speaker in Robert Frost's 'The Road Not Taken' states that he will be telling his story 'with a sigh somewhere ages and ages hence'.\nReason (R): He recognizes that choosing the road less travelled by was a momentous decision that permanently shaped his life's destiny, and that one can rarely return to explore the untaken alternative.",
+    "options": [
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true"
+    ],
+    "answer": 0,
+    "explanation": "The sigh reflects the contemplative realization that one life choice irrevocably forecloses others, making both assertion and reason true.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-023",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Grammar - Parts of Speech",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Select ALL words from the list below that function as Adverbs of Manner (describing how an action is performed):",
+    "options": [
+      "Quickly",
+      "Gracefully",
+      "Patiently",
+      "Beautiful",
+      "Yesterday",
+      "Everywhere"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "'Quickly', 'gracefully', and 'patiently' are adverbs of manner answering 'how?'. 'Beautiful' is an adjective, 'yesterday' is an adverb of time, and 'everywhere' is an adverb of place.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-024",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Select ALL essential formal components that must be included in a formal Letter to the Editor according to CBSE formatting guidelines:",
+    "options": [
+      "Sender's postal address",
+      "Date of writing",
+      "Receiver's official designation (The Editor) and newspaper address",
+      "Concise subject line summarizing the public grievance or issue",
+      "Informal colloquial opening such as 'Hey there editor buddy'",
+      "Formal complimentary close such as 'Yours faithfully / sincerely'"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "explanation": "A formal letter requires sender's address, date, receiver's address, subject, salutation, body, and formal subscription. Informal slang is strictly prohibited.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-025",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the standard structural components of a CBSE official/formal letter in proper sequential top-to-bottom layout order:",
+    "orderedItems": [
+      "Sender's postal address",
+      "Date of letter writing",
+      "Receiver's designation and official address",
+      "Subject line stating the purpose of the letter",
+      "Formal salutation (e.g. Sir / Madam)",
+      "Body of the letter (Introduction, Elaboration, Conclusion)",
+      "Complimentary close and Sender's signature/name (e.g. Yours faithfully)"
+    ],
+    "answer": "ordered",
+    "explanation": "Standard formal letter hierarchy: Sender's Address -> Date -> Receiver's Address -> Subject -> Salutation -> Body -> Complimentary Close.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-026",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Lake Isle of Innisfree",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In William Butler Yeats's poem 'The Lake Isle of Innisfree', what kind of humble abode does the poet aspire to build for peaceful solitude?",
+    "options": [
+      "A small cabin built of clay and wattles",
+      "A stone cottage with an open brick fireplace",
+      "A wooden boathouse moored on the calm lake",
+      "A marble villa beside the pine forest"
+    ],
+    "answer": 0,
+    "explanation": "The poet declares: 'I will arise and go now, and go to Innisfree, and a small cabin build there, of clay and wattles made.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-027",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Snake and the Mirror",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Vaikom Muhammad Basheer's humorous story 'The Snake and the Mirror', what was the narrator's professional occupation?",
+    "options": [
+      "A homeopathic doctor",
+      "A government high school teacher",
+      "A criminal defense lawyer",
+      "A municipal revenue officer"
+    ],
+    "answer": 0,
+    "explanation": "The narrator was a young homeopathic doctor who had just set up his medical practice and lived in a modest rented room.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-028",
+    "class": 9,
+    "subject": "english",
+    "chapter": "My Childhood",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In 'My Childhood', who was A.P.J. Abdul Kalam's orthodox Brahmin science teacher who defied social orthodoxy by inviting young Kalam into his kitchen for a meal?",
+    "options": [
+      "Sivasubramania Iyer",
+      "Ramanadha Sastry",
+      "Jallaluddin",
+      "Lakshmana Sastry"
+    ],
+    "answer": 0,
+    "explanation": "Sivasubramania Iyer, though an orthodox Brahmin with a conservative wife, served Kalam food with his own hands to break communal barriers.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-029",
+    "class": 9,
+    "subject": "english",
+    "chapter": "In the Kingdom of Fools",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In A.K. Ramanujan's folk tale 'In the Kingdom of Fools', what irrational edict was issued by the eccentric king and his minister regarding the daily routine of citizens?",
+    "options": [
+      "They ordered that everyone should work by night and sleep during daylight hours",
+      "They ordered that clocks should run in reverse order",
+      "They declared that all shops should remain open exclusively on moonless nights",
+      "They decreed that no food should be cooked after sunrise"
+    ],
+    "answer": 0,
+    "explanation": "The king decreed: 'Night had to be turned into day and day into night. Everyone had to be awake at night, till their fields and run their businesses only after dark.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-030",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Active and Passive Voice",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Select the correct transformation into Passive Voice: 'The head chef prepared an exquisite continental dessert for the dignitaries.'",
+    "options": [
+      "An exquisite continental dessert was prepared by the head chef for the dignitaries.",
+      "An exquisite continental dessert is prepared by the head chef for the dignitaries.",
+      "An exquisite continental dessert had prepared by the head chef for the dignitaries.",
+      "An exquisite continental dessert was being prepared by the head chef for the dignitaries."
+    ],
+    "answer": 0,
+    "explanation": "Simple past active ('prepared') converts into passive 'was/were + past participle' ('was prepared').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-031",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Happy Prince",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Oscar Wilde's allegorical tale 'The Happy Prince', what precious gems formed the eyes of the gilded statue, which the swallow plucked out to aid the impoverished?",
+    "options": [
+      "Rare sapphires brought from India",
+      "Deep crimson rubies from Burma",
+      "Flawless sparkling diamonds",
+      "Lustrous emeralds from Egypt"
+    ],
+    "answer": 0,
+    "explanation": "The Happy Prince's eyes were made of two rare blue sapphires that had been brought out of India a thousand years before.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-032",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Clauses",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Identify the syntactic classification of the subordinate clause in the sentence: 'The courageous doctor who treated infectious patients with unwavering dedication was felicitated by the government.'",
+    "options": [
+      "Adjective (Relative) clause qualifying 'doctor'",
+      "Noun clause acting as the direct object of the verb",
+      "Adverb clause of concession and contrast",
+      "Adverb clause of condition introduced by relative pronoun"
+    ],
+    "answer": 0,
+    "explanation": "'Who treated infectious patients with unwavering dedication' begins with a relative pronoun and modifies the noun 'doctor', functioning as an Adjective/Relative clause.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-033",
+    "class": 9,
+    "subject": "english",
+    "chapter": "A Legend of the Northland",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In Phoebe Cary's ballad 'A Legend of the Northland', Saint Peter curses the greedy woman and transforms her into a woodpecker because she repeatedly refused to part with a single thin wafer cake.",
+    "answer": true,
+    "explanation": "The saint rebuked her for being too selfish to dwell in human form with food, shelter, and fire, transforming her into a woodpecker to bore for scanty food.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-034",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Modals",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The semi-modal auxiliary verb 'ought to' is used to express moral obligation, duty, or desirable civic conduct (e.g. 'We ought to respect our national flag').",
+    "answer": true,
+    "explanation": "'Ought to' expresses moral duty and correctness according to conscience or societal duty.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-035",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Tenses",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Fill in the blank with the correct Past Perfect tense form: 'By the time the rescue team reached the village, the flood waters ________ (recede) significantly.'",
+    "answer": "had receded",
+    "acceptedAnswers": [
+      "had receded"
+    ],
+    "explanation": "Past Perfect ('had receded') denotes the earlier of two completed past events before 'the rescue team reached'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-036",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Snake and the Mirror",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In 'The Snake and the Mirror', the menacing cobra that had coiled tightly around the doctor's left arm slowly loosened its grip when it gazed admiringly at its own reflection in the ________.",
+    "answer": "mirror",
+    "acceptedAnswers": [
+      "mirror",
+      "the mirror"
+    ],
+    "explanation": "The snake turned its head, looked into the mirror on the table, and slithered down onto the desk to enjoy its reflection at closer quarters.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-037",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Conjunctions",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "Complete the correlative pair correctly: 'Scarcely had the keynote speaker begun his address ________ the auditorium experienced a complete power blackout.'",
+    "answer": "when",
+    "acceptedAnswers": [
+      "when",
+      "before"
+    ],
+    "explanation": "'Scarcely... when' and 'Hardly... when' are standard correlative conjunctions; 'than' is used with 'No sooner... than'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-038",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Moments - Characters",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each fictional character from NCERT Moments with their literary role or background:",
+    "pairs": [
+      [
+        "Mahendra",
+        "Junior supervisor in a construction firm in 'Iswaran the Storyteller'"
+      ],
+      [
+        "Iswaran",
+        "Imaginative domestic cook and dramatic tale-spinner"
+      ],
+      [
+        "Lushkoff",
+        "Impecunious mendicant and former choir singer in 'The Beggar'"
+      ],
+      [
+        "Olga",
+        "Compassionate cook who chopped firewood out of pity for Lushkoff"
+      ]
+    ],
+    "explanation": "Mahendra listened to Iswaran's ghost stories; Lushkoff reformed into a notary through Olga's noble sacrifice and tough love.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-039",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Vocabulary",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each English literary vocabulary word with its precise contextual synonym:",
+    "pairs": [
+      [
+        "Benevolent",
+        "Generous and charitable"
+      ],
+      [
+        "Dismal",
+        "Dreary and cheerless"
+      ],
+      [
+        "Meticulous",
+        "Painstaking and scrupulously exact"
+      ],
+      [
+        "Reluctant",
+        "Hesitant and unwilling"
+      ]
+    ],
+    "explanation": "Benevolent means charitable; dismal means dreary; meticulous means thorough and exact; reluctant means unwilling.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-040",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Poetic Meter / Syllable Counting",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Count the exact number of syllables in the English word: 'un-for-get-ta-ble'.",
+    "answer": 5,
+    "unit": "syllables",
+    "tolerance": 0,
+    "explanation": "Breaking the word into phonetic syllables: un (1) - for (2) - get (3) - ta (4) - ble (5) = exactly 5 syllables.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-041",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the standard CBSE format for Diary Entry shown below, which initial header element on the top left margin is designated by label 'A'?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220' width='320' height='220'><rect width='320' height='220' fill='#0f172a' rx='8'/><rect x='25' y='20' width='270' height='180' fill='#fdfbf7' stroke='#e2e8f0' stroke-width='2' rx='4'/><text x='40' y='45' font-family='sans-serif' font-size='12' font-weight='bold' fill='#2563eb'>A</text><text x='40' y='65' font-family='sans-serif' font-size='11' fill='#475569'>B (Time, e.g. 9:30 PM)</text><text x='40' y='90' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>Dear Diary,</text><line x1='40' y1='110' x2='275' y2='110' stroke='#cbd5e1' stroke-width='1'/><line x1='40' y1='124' x2='275' y2='124' stroke='#cbd5e1' stroke-width='1'/><line x1='40' y1='138' x2='275' y2='138' stroke='#cbd5e1' stroke-width='1'/><line x1='40' y1='152' x2='190' y2='152' stroke='#cbd5e1' stroke-width='1'/><text x='160' y='130' font-family='sans-serif' font-size='12' font-weight='bold' fill='#64748b' text-anchor='middle'>C (Body of Entry)</text><text x='40' y='180' font-family='sans-serif' font-size='10' font-weight='bold' fill='#0f172a'>Writer's First Name</text></svg>"
+    },
+    "options": [
+      "Date and Day (e.g. 12 October 2026, Monday)",
+      "Time of diary entry",
+      "Formal subject heading",
+      "Sender's full postal address"
+    ],
+    "answer": 0,
+    "explanation": "In standard CBSE diary entry format, the opening line consists of the Date and Day (e.g. 12 October 2026, Monday) followed by the time.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-042",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Lake Isle of Innisfree",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the illustrative landscape of W.B. Yeats's poem 'The Lake Isle of Innisfree' below, which pastoral agricultural feature described in the text ('Nine bean-rows will I have there') is designated by label 'B'?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220' width='320' height='220'><rect width='320' height='220' fill='#0f172a' rx='8'/><path d='M 10 180 Q 80 140 180 160 Q 260 170 310 150 L 310 210 L 10 210 Z' fill='#0369a1'/><text x='260' y='195' font-family='sans-serif' font-size='10' fill='#bae6fd'>Lake water</text><ellipse cx='140' cy='120' rx='110' ry='45' fill='#15803d'/><rect x='60' y='80' width='45' height='35' fill='#92400e' stroke='#451a03' stroke-width='2'/><polygon points='55,80 82,55 110,80' fill='#78350f'/><text x='82' y='75' font-family='sans-serif' font-size='9' fill='#ffffff' text-anchor='middle'>A (Cabin)</text><line x1='125' y1='90' x2='215' y2='90' stroke='#86efac' stroke-width='3' stroke-dasharray='4 2'/><line x1='125' y1='98' x2='215' y2='98' stroke='#86efac' stroke-width='3' stroke-dasharray='4 2'/><line x1='125' y1='106' x2='215' y2='106' stroke='#86efac' stroke-width='3' stroke-dasharray='4 2'/><text x='170' y='82' font-family='sans-serif' font-size='12' font-weight='bold' fill='#fef08a' text-anchor='middle'>B</text><circle cx='225' cy='115' r='10' fill='#fbbf24'/><text x='225' y='135' font-family='sans-serif' font-size='9' fill='#fef08a' text-anchor='middle'>C (Beehive)</text></svg>"
+    },
+    "options": [
+      "Nine bean-rows cultivated for sustenance",
+      "Small clay and wattle cabin",
+      "Hive for the honeybee",
+      "Pavements grey of the city"
+    ],
+    "answer": 0,
+    "explanation": "Label B indicates the nine rows of beans cultivated by the poet for simple solitary self-sufficiency on the isle of Innisfree.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-043",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Little Girl",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "How did Kezia's perception of her seemingly harsh father transform when she experienced a terrifying nightmare while her mother and grandmother were away?",
+    "sampleAnswer": "When Kezia woke screaming from a nightmare of a butcher with a knife, her father tenderly picked her up in his arms, carried her to his warm bed, and tucked her in. She realized he had a big, loving heart and was simply exhausted from hard work every day.",
+    "acceptedAnswers": [
+      "she realized he loved her and had a big heart when he comforted her after her nightmare",
+      "she understood that he worked hard and cared for her deeply after he comforted her",
+      "she realized he was kind and caring when he carried her to bed after her nightmare",
+      "she saw his loving and protective nature when he comforted her"
+    ],
+    "keywords": [
+      "father",
+      "nightmare",
+      "comforted",
+      "cared",
+      "loved",
+      "big heart",
+      "exhausted"
+    ],
+    "explanation": "Her father's gentle and protective care during her nightmare revealed to Kezia that beneath his stern exterior lay deep fatherly affection.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-044",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Subject-Verb Concord",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why is the singular verb 'is' used in the sentence: 'Ten kilometres is a long distance to travel on foot'?",
+    "sampleAnswer": "Although 'ten kilometres' appears plural, it represents a single, collective unit of physical distance, which grammatically requires a singular verb.",
+    "acceptedAnswers": [
+      "it represents a single collective measurement of distance",
+      "ten kilometres is regarded as a single unit of distance",
+      "a specific distance or quantity takes a singular verb",
+      "it refers to distance as a single whole unit"
+    ],
+    "keywords": [
+      "single",
+      "unit",
+      "distance",
+      "collective",
+      "singular"
+    ],
+    "explanation": "Nouns denoting a specific quantity, amount, or distance considered as a single whole take a singular verb in English grammar.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-045",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Reach for the Top",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "How did mountaineer Santosh Yadav courageously defy gender prejudice in her conservative village society in Haryana?",
+    "sampleAnswer": "Santosh refused to marry at the age of sixteen like other village girls, demanded higher education, went to Delhi to study on her own terms, and saved money to enroll in the Nehru Institute of Mountaineering in Uttarkashi.",
+    "acceptedAnswers": [
+      "she refused early marriage at sixteen and pursued higher education in Delhi and mountaineering",
+      "refused marriage at sixteen and enrolled in college in Delhi and Uttarkashi mountaineering",
+      "defied traditional child marriage to pursue higher education and mountaineering"
+    ],
+    "keywords": [
+      "refused",
+      "marriage",
+      "sixteen",
+      "education",
+      "Delhi",
+      "mountaineering"
+    ],
+    "explanation": "Santosh chose modern attire, resisted marriage at sixteen, funded her own education, and scaled Mt. Everest twice.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-046",
+    "class": 9,
+    "subject": "english",
+    "chapter": "My Childhood",
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "Assertion (A): Head priest Lakshmana Sastry reprimanded the new primary teacher who ordered Kalam to sit on the back bench away from his Brahmin friend Ramanadha Sastry.\nReason (R): Sastry insisted that teachers must never inject the poison of communal discord and social bigotry into the innocent minds of growing children.",
+    "options": [
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true"
+    ],
+    "answer": 0,
+    "explanation": "Lakshmana Sastry summoned the teacher in front of the boys and demanded that he either apologise or leave the school and the island, reaffirming communal harmony.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-047",
+    "class": 9,
+    "subject": "english",
+    "chapter": "In the Kingdom of Fools",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): The wise guru firmly insisted on leaving the Kingdom of Fools immediately, warning his disciple against remaining there.\nReason (R): The guru recognized that where every commodity cost a single duddu and governance was erratic, fools could arbitrarily condemn anyone to execution at any moment.",
+    "options": [
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true"
+    ],
+    "answer": 0,
+    "explanation": "The guru foresaw the perilous unpredictability of a kingdom ruled by fools, which was later proven when the disciple was selected for the stake simply because he was fat.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-048",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Sound of Music",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Select ALL musical instruments that are prominently discussed or played in 'The Sound of Music' (Evelyn Glennie and Bismillah Khan):",
+    "options": [
+      "Xylophone",
+      "Shehnai",
+      "Pungi (reeded instrument)",
+      "Timpani / Snare drums",
+      "Electric synthesizer synthesizer keyboard"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Evelyn Glennie mastered the xylophone and percussion drums; Bismillah Khan elevated the shehnai from the court pungi.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-049",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Determiners",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Select ALL sentences where the distributive determiners 'each' or 'every' are employed with accurate grammatical concord:",
+    "options": [
+      "Each player in the team was felicitated with a bronze medal.",
+      "Every student has been provided with a laboratory manual.",
+      "Each of the two finalists deserves praise for exceptional sportsmanship.",
+      "Each candidate must present their verified identity credentials at the entrance gate.",
+      "Every of the children received a surprise gift hamper."
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "'Each' can be used as a pronoun followed by 'of' ('Each of the two'), but 'every' is strictly a determiner and cannot take 'of' directly (*'Every of the children' is ungrammatical).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-050",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Happy Prince",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the acts of selfless sacrifice by the Happy Prince and the Little Swallow in correct chronological narrative sequence:",
+    "orderedItems": [
+      "The Prince bids the swallow deliver the ruby from his sword hilt to the impoverished seamstress whose son is ill",
+      "The Prince gives one of his rare sapphire eyes to the starving young playwright shivering in a garret",
+      "The Prince insists on donating his remaining sapphire eye to the weeping match-girl in the square",
+      "Now blind, the Prince sends the faithful swallow to distribute thin leaves of fine gold to the destitute citizens",
+      "The swallow dies of frost at the Prince's feet, and the statue's leaden heart snaps in two"
+    ],
+    "answer": "ordered",
+    "explanation": "Sacrifice progression: Sword-hilt ruby -> First sapphire eye -> Second sapphire eye -> Gold leaves -> Swallow's death and broken lead heart.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-051",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Last Leaf",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In O. Henry's poignant story 'The Last Leaf', what severe illness struck Johnsy in the chilly November of Greenwich Village, sapping her will to live?",
+    "options": [
+      "Pneumonia",
+      "Tuberculosis",
+      "Typhoid",
+      "Scarlet fever"
+    ],
+    "answer": 0,
+    "explanation": "Johnsy fell severely ill with pneumonia, lying on her painted iron bed looking through the small Dutch window counting falling ivy leaves.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-052",
+    "class": 9,
+    "subject": "english",
+    "chapter": "No Men Are Foreign",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In James Kirkup's anti-war poem 'No Men Are Foreign', what core universal message is expressed in the opening line: 'Remember, no men are strange, no countries foreign'?",
+    "options": [
+      "All humans across the globe share a common brotherhood and identical humanity beneath diverse national uniforms",
+      "Soldiers should wear international neutral uniforms in combat",
+      "All countries should merge their physical geographic borders",
+      "Foreign languages are easy for travellers to comprehend"
+    ],
+    "answer": 0,
+    "explanation": "The poet emphasizes universal fraternity: beneath diverse uniforms, a single body breathes; we all walk the same earth and lie in it at last.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-053",
+    "class": 9,
+    "subject": "english",
+    "chapter": "On Killing a Tree",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Gieve Patel's poem 'On Killing a Tree', what essential, violent process is required to completely annihilate a sturdy mature tree?",
+    "options": [
+      "Pulling out its root entirely from the anchoring earth to scorch and wither in the sun",
+      "Hacking and chopping its aerial green branches with a heavy axe",
+      "Stripping the outer bark and leaves during summer",
+      "Drenching the base of the trunk in chemical herbicide"
+    ],
+    "answer": 0,
+    "explanation": "A tree cannot be killed by a simple jab of the knife; its root must be pulled out of the earth cave and exposed to scorching sun to snap its life.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-054",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Kathmandu",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Vikram Seth's travelogue excerpt 'Kathmandu', what striking contrast is drawn between the Pashupatinath temple and the Baudhnath Buddhist stupa?",
+    "options": [
+      "Pashupatinath is an atmosphere of febrile confusion and bustling rituals, whereas Baudhnath is a serene haven of stillness and quietude",
+      "Pashupatinath is completely deserted, whereas Baudhnath is overflowing with thousands of noisy tourists",
+      "Neither shrine permits foreigners to enter or view the holy precinct",
+      "Both shrines are surrounded by modern neon-lit commercial superstores"
+    ],
+    "answer": 0,
+    "explanation": "Seth contrasts the 'febrile confusion' of priests, hawkers, and monkeys at Pashupatinath with the profound meditative stillness of Baudhnath stupa.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-055",
+    "class": 9,
+    "subject": "english",
+    "chapter": "If I Were You",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Douglas James's suspenseful one-act play 'If I Were You', what was the sinister motive of the armed intruder who broke into Gerrard's isolated Essex cottage?",
+    "options": [
+      "To murder Gerrard and adopt his identity as 'Vincent Charles Gerrard' to evade the police",
+      "To rob Gerrard's diamonds and bearer bonds stored in his safe",
+      "To force Gerrard to represent him as a legal defence attorney in court",
+      "To seek shelter from an Essex winter storm for a few hours"
+    ],
+    "answer": 0,
+    "explanation": "The intruder, who was a jewel thief wanted for killing a policeman, planned to kill Gerrard and impersonate him because they had identical physical builds.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-056",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Reported Speech",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Select the correct indirect speech for the imperative command: The platoon commander said to the cadets, 'March forward with unwavering resolve!'",
+    "options": [
+      "The platoon commander commanded the cadets to march forward with unwavering resolve.",
+      "The platoon commander said to the cadets that they must march forward with unwavering resolve.",
+      "The platoon commander requested the cadets whether they could march forward with unwavering resolve.",
+      "The platoon commander asked the cadets that they should march forward with unwavering resolve."
+    ],
+    "answer": 0,
+    "explanation": "Imperatives change reporting verb to 'commanded/ordered' + object + infinitive ('to march forward').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-057",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Figures of Speech",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Identify the primary poetic figures of speech in the verse: 'The wild winter wind whispered through the weeping willows.'",
+    "options": [
+      "Personification and Alliteration",
+      "Hyperbole and Oxymoron",
+      "Metonymy and Litotes",
+      "Antithesis and Euphemism"
+    ],
+    "answer": 0,
+    "explanation": "Giving the wind human qualities ('whispered', 'weeping') is Personification, and repetition of consonant sound /w/ ('wild winter wind whispered weeping willows') is Alliteration.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-058",
+    "class": 9,
+    "subject": "english",
+    "chapter": "A Slumber Did My Spirit Seal",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In William Wordsworth's poem 'A Slumber Did My Spirit Seal', the deceased beloved Lucy is depicted as devoid of human motion, rolled round in earth's daily diurnal rotation alongside rocks, stones, and trees.",
+    "answer": true,
+    "explanation": "Wordsworth writes: 'Rolled round in earth's diurnal course, / With rocks, and stones, and trees.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-059",
+    "class": 9,
+    "subject": "english",
+    "chapter": "A House Is Not a Home",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In Zan Gaudioso's autobiographical story 'A House Is Not a Home', the narrator's cherished red tabby cat tragically perished inside the fire that destroyed his home.",
+    "answer": false,
+    "explanation": "The cat survived, having run a mile away in terror, and was later returned by a kind woman who traced the narrator's phone number.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-060",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Tenses",
+    "type": "truefalse",
+    "difficulty": "hard",
+    "question": "In standard formal English grammar, stative verbs expressing mental states or perception (such as 'know', 'believe', 'prefer', 'belong') are regularly used in the continuous/progressive tense (e.g. 'I am knowing the answer').",
+    "answer": false,
+    "explanation": "Stative verbs do not describe physical dynamic actions and are normally not used in progressive tenses (*'I am knowing' is grammatically incorrect; use 'I know').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-061",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Modals",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Fill in the blank with the appropriate modal verb expressing general past ability: 'When my grandfather was a young athlete, he ________ run ten kilometres without stopping.'",
+    "answer": "could",
+    "acceptedAnswers": [
+      "could"
+    ],
+    "explanation": "'Could' is the past modal auxiliary used to express past general ability or capability.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-062",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Last Leaf",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In O. Henry's 'The Last Leaf', old artist Behrman painted a single green ivy leaf on the wall through a freezing midnight tempest, subsequently contracting fatal ________ that took his life in two days.",
+    "answer": "pneumonia",
+    "acceptedAnswers": [
+      "pneumonia",
+      "Pneumonia"
+    ],
+    "explanation": "Behrman caught pneumonia while painting the masterpiece in the cold rain and lantern light to restore Johnsy's faith in living.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-063",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Subject-Verb Concord",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Fill in the blank with the correct verb form: 'The exquisite craftsmanship of these traditional Kashmiri shawls ________ (is/are) universally celebrated.'",
+    "answer": "is",
+    "acceptedAnswers": [
+      "is"
+    ],
+    "explanation": "The true subject of the clause is the singular abstract noun 'craftsmanship', not the plural object of preposition 'shawls', so the verb must be singular 'is'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-064",
+    "class": 9,
+    "subject": "english",
+    "chapter": "A House Is Not a Home",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "In 'A House Is Not a Home', Zan realizes that while a physical house is built of bricks and timber, a true home is built with the warmth, affection, and bonds of ________.",
+    "answer": "love",
+    "acceptedAnswers": [
+      "love",
+      "affection",
+      "people and love",
+      "relationships"
+    ],
+    "explanation": "The title distinguishes between a physical structure (a house) and an emotional sanctuary formed by loved ones and companionship (a home).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-065",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Beehive - Poems",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each poem from NCERT Class 9 Beehive with its respective poet:",
+    "pairs": [
+      [
+        "Wind",
+        "Subramania Bharati"
+      ],
+      [
+        "Rain on the Roof",
+        "Coates Kinney"
+      ],
+      [
+        "The Lake Isle of Innisfree",
+        "William Butler Yeats"
+      ],
+      [
+        "No Men Are Foreign",
+        "James Kirkup"
+      ]
+    ],
+    "explanation": "Subramania Bharati wrote 'Wind'; Coates Kinney wrote 'Rain on the Roof'; W.B. Yeats wrote 'Innisfree'; James Kirkup wrote 'No Men Are Foreign'.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-066",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Phrasal Verbs",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each idiomatic English phrasal verb with its accurate definition:",
+    "pairs": [
+      [
+        "Call off",
+        "To cancel an arranged event or meeting"
+      ],
+      [
+        "Look into",
+        "To investigate or formally examine the facts"
+      ],
+      [
+        "Put up with",
+        "To endure or tolerate an unpleasant situation"
+      ],
+      [
+        "Break down",
+        "To cease functioning mechanically or collapse emotionally"
+      ]
+    ],
+    "explanation": "'Call off' means cancel; 'look into' means investigate; 'put up with' means tolerate; 'break down' means fail mechanically or weep uncontrollably.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-067",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the standard CBSE format for an Informal Letter illustrated below, which top-left opening section is indicated by label 'A'?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220' width='320' height='220'><rect width='320' height='220' fill='#0f172a' rx='8'/><rect x='25' y='20' width='270' height='180' fill='#f8fafc' stroke='#cbd5e1' stroke-width='2' rx='4'/><text x='40' y='42' font-family='sans-serif' font-size='12' font-weight='bold' fill='#2563eb'>A</text><text x='40' y='65' font-family='sans-serif' font-size='11' fill='#475569'>B (Date, e.g. 15 Oct 2026)</text><text x='40' y='90' font-family='sans-serif' font-size='11' font-weight='bold' fill='#0f172a'>Dear Ananya,</text><line x1='40' y1='108' x2='275' y2='108' stroke='#cbd5e1' stroke-width='1'/><line x1='40' y1='120' x2='275' y2='120' stroke='#cbd5e1' stroke-width='1'/><line x1='40' y1='132' x2='275' y2='132' stroke='#cbd5e1' stroke-width='1'/><line x1='40' y1='144' x2='190' y2='144' stroke='#cbd5e1' stroke-width='1'/><text x='160' y='125' font-family='sans-serif' font-size='11' font-weight='bold' fill='#64748b' text-anchor='middle'>C (Body of Letter)</text><text x='40' y='170' font-family='sans-serif' font-size='10' fill='#0f172a'>Yours lovingly,</text><text x='40' y='185' font-family='sans-serif' font-size='10' font-weight='bold' fill='#0f172a'>Kavita</text></svg>"
+    },
+    "options": [
+      "Sender's postal address",
+      "Receiver's official designation",
+      "Subject line",
+      "Notice headline"
+    ],
+    "answer": 0,
+    "explanation": "In CBSE informal letter writing, the letter begins with the sender's postal address on the top left, followed directly by the date.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-068",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Beggar",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What honorable livelihood did Lushkoff the reformed beggar attain by the end of Anton Chekhov's story?",
+    "sampleAnswer": "Lushkoff renounced drinking and became an honest, respectable notary earning thirty-five roubles a month.",
+    "acceptedAnswers": [
+      "he gave up drinking and became an honest notary earning thirty-five roubles a month",
+      "reformed and became a notary earning thirty-five roubles a month",
+      "stopped begging and drinking to become an honest notary",
+      "became a respectable notary"
+    ],
+    "keywords": [
+      "notary",
+      "thirty-five roubles",
+      "reformed",
+      "drinking",
+      "honest"
+    ],
+    "explanation": "Through Olga's compassionate tears and sacrifice, Lushkoff reformed completely and earned a living as a legal notary.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-069",
+    "class": 9,
+    "subject": "english",
+    "chapter": "If I Were You",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "How did playwright Gerrard cleverly outwit and capture the armed criminal intruder inside his cottage?",
+    "sampleAnswer": "Gerrard fabricated a story that he was also a wanted criminal with an accomplice waiting outside. He ushered the intruder towards what he claimed was an escape door, which was actually a cupboard, pushed him inside, and locked him in.",
+    "acceptedAnswers": [
+      "he tricked him into believing he was also a criminal and locked him inside a cupboard",
+      "pushed him into a cupboard pretending it was an exit door and locked it",
+      "locked the intruder inside a cupboard after fooling him with a clever story",
+      "trapped and locked the intruder inside a wardrobe cupboard"
+    ],
+    "keywords": [
+      "cupboard",
+      "locked",
+      "tricked",
+      "criminal",
+      "exit door",
+      "outwitted"
+    ],
+    "explanation": "Gerrard maintained calm composure, invented a disguise narrative, shoved the intruder into a cupboard, knocked the revolver from his hand, and phoned the police.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-070",
+    "class": 9,
+    "subject": "english",
+    "chapter": "On Killing a Tree",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What does Gieve Patel signify by the poetic phrase 'the bleeding bark will heal'?",
+    "sampleAnswer": "The poet conveys the immense vegetative resilience of a tree: even when its trunk is violently chopped or hacked and oozes sap ('bleeds'), the wound naturally heals and tiny curled green twigs sprout anew from near the ground.",
+    "acceptedAnswers": [
+      "the tree will naturally heal its wounds and sprout new green branches after being hacked",
+      "the wounded trunk will heal and regenerate new branches and leaves",
+      "the tree has natural resilience to recover and sprout again from hacking"
+    ],
+    "keywords": [
+      "bleeding bark",
+      "heal",
+      "resilience",
+      "sprout",
+      "twigs",
+      "hacked",
+      "sap"
+    ],
+    "explanation": "The bleeding bark refers to sap oozing from axe cuts, which heals as the resilient tree produces miniature boughs that expand back to former size.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-071",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Last Leaf",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Sue describes the solitary painted ivy leaf clinging to the brick wall as 'Behrman's masterpiece'.\nReason (R): Old Behrman sacrificed his own life painting it through a freezing midnight blizzard to restore Johnsy's will to survive, succeeding in saving her life.",
+    "options": [
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true"
+    ],
+    "answer": 0,
+    "explanation": "Behrman had dreamed for forty years of painting a masterpiece; his painted leaf fooled Johnsy, gave her hope, and saved her life at the cost of his own.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-072",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Prepositions",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Select ALL sentences that correctly use the prepositions 'between' or 'among' in accordance with standard grammatical conventions:",
+    "options": [
+      "The ancestral property was partitioned equitably between the two surviving brothers.",
+      "The benevolent teacher distributed chocolates among all the enthusiastic children in the classroom.",
+      "A bilateral summit meeting was arranged between India and Japan.",
+      "There was mutual admiration among the two rival tennis players.",
+      "The scholarship fund was shared between the five deserving athletes."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "'Between' is used for two entities (or distinct bilateral pairings), whereas 'among' applies to three or more collective group members.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-073",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Figures of Speech",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Select ALL sentences that employ a 'Simile' (an explicit comparison using 'like' or 'as'):",
+    "options": [
+      "The brave young soldier fought like a ferocious lion in the trenches.",
+      "Her crystalline laughter was as sweet as the melody of a morning songbird.",
+      "The turbulent ocean was a raging monster swallowing coastal boats.",
+      "He dashed across the finish line as swift as an arrow from a bow.",
+      "Time is a thief that silently steals our golden youth."
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Sentences 0, 1, and 3 use 'like' and 'as' (Similes). Sentences 2 and 4 ('ocean was a monster', 'time is a thief') are Metaphors.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-074",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Beggar",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the narrative developments in Anton Chekhov's 'The Beggar' in correct chronological story sequence:",
+    "orderedItems": [
+      "Lushkoff solicits money from advocate Sergei with forged excuses of being a dismissed schoolmaster",
+      "Sergei refuses unearned charity and challenges Lushkoff to chop wood at his yard for wages",
+      "Cook Olga berates Lushkoff bitterly but weeps and secretly chops all the heavy timber for him",
+      "Sergei observes Lushkoff's sober diligence and gives him a recommendation letter for document copying",
+      "Years later, Sergei meets a well-dressed Lushkoff buying a theatre ticket as an independent notary"
+    ],
+    "answer": "ordered",
+    "explanation": "Story trajectory: Begging with lies -> Wood-chopping offer -> Olga's secret sacrifice -> Copying job -> Theatre reunion as notary.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-075",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the standard organizational sections of a descriptive biographical paragraph in logical composition order:",
+    "orderedItems": [
+      "Engaging topic sentence introducing the person's identity and general prominence",
+      "Detailed description of physical appearance, distinctive facial features, and attire",
+      "Analysis of core personality traits, temperament, moral values, and social manners",
+      "Notable professional achievements, creative skills, or defining personal anecdotes",
+      "Concluding reflective sentence summarizing their lasting impression and inspiration"
+    ],
+    "answer": "ordered",
+    "explanation": "Logical progression for descriptive paragraph: Identification -> Physical traits -> Character traits -> Milestones -> Concluding evaluation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-076",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Sound of Music",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "At which iconic national venue did Ustad Bismillah Khan perform his shehnai on 15 August 1947, greeting a newly independent India?",
+    "options": [
+      "Red Fort (Lal Qila)",
+      "India Gate",
+      "Rashtrapati Bhavan",
+      "Parliament House"
+    ],
+    "answer": 0,
+    "explanation": "On 15 August 1947, Bismillah Khan became the first Indian to greet the independent nation with his shehnai from the ramparts of the historic Red Fort.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-077",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Lost Child",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Mulk Raj Anand's story 'The Lost Child', at which bustling attraction in the village fair was the child finally separated from his parents?",
+    "options": [
+      "At the spinning roundabout swing",
+      "At the sweetmeat seller's gulab jamun stall",
+      "At the flower seller's garland stall",
+      "At the rainbow-coloured balloon vendor's pole"
+    ],
+    "answer": 0,
+    "explanation": "Mesmerized by the roundabout in full swing carrying men, women, and children in whirling motion, the child watched intently, made a bold request, and discovered his parents were gone.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-078",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Reported Speech",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Change the direct speech into indirect speech: The science teacher said, 'Water boils at 100°C under standard atmospheric pressure.'",
+    "options": [
+      "The science teacher said that water boils at 100°C under standard atmospheric pressure.",
+      "The science teacher said that water boiled at 100°C under standard atmospheric pressure.",
+      "The science teacher said that water had boiled at 100°C under standard atmospheric pressure.",
+      "The science teacher said that water was boiling at 100°C under standard atmospheric pressure."
+    ],
+    "answer": 0,
+    "explanation": "When reporting a universal scientific truth, habitual fact, or geographical fact, the tense of the reported verb remains in the simple present ('boils').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-079",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Determiners",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Choose the correct determiner to complete the interrogative question: 'Do you have ________ spare notebooks in your bag?'",
+    "options": [
+      "any",
+      "much",
+      "little",
+      "every"
+    ],
+    "answer": 0,
+    "explanation": "'Any' is commonly used in interrogative and negative sentences with countable plural or uncountable nouns.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-080",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Fun They Had",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Isaac Asimov's story 'The Fun They Had', in which academic subject had the mechanical teacher been giving Margie test after test, prompting her mother to summon the County Inspector?",
+    "options": [
+      "Geography",
+      "History",
+      "Mathematics",
+      "Science"
+    ],
+    "answer": 0,
+    "explanation": "Margie had been performing worse and worse in Geography tests because the mechanical teacher's geography sector had been geared too fast for an average ten-year-old.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-081",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Reach for the Top",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In 'Reach for the Top', what prestigious national civilian honour was conferred upon mountaineer Santosh Yadav by the Government of India?",
+    "options": [
+      "Padma Shri",
+      "Padma Bhushan",
+      "Bharat Ratna",
+      "Param Vir Chakra"
+    ],
+    "answer": 0,
+    "explanation": "In recognition of her extraordinary feat of scaling Mount Everest twice, the Indian government conferred upon Santosh Yadav the Padma Shri.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-082",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Conditionals",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Select the correct verb to complete the First Conditional sentence: 'If it ________ tomorrow, the school sports day will be rescheduled.'",
+    "options": [
+      "rains",
+      "will rain",
+      "rained",
+      "would rain"
+    ],
+    "answer": 0,
+    "explanation": "In First Conditional (real future condition), the 'if'-clause takes the Simple Present ('rains'), while the main clause takes 'will + base verb' ('will be rescheduled').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-083",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Wind",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The inspiring poem 'Wind' was originally composed in Tamil by patriot poet Subramania Bharati and subsequently translated into English by A.K. Ramanujan.",
+    "answer": true,
+    "explanation": "Subramania Bharati wrote the poem in Tamil, and renowned scholar A.K. Ramanujan translated it into modern English.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-084",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In short story writing, creating a sudden unexpected plot twist or dramatic crisis right before the climax heightens narrative tension and reader engagement.",
+    "answer": true,
+    "explanation": "A well-structured narrative arc uses conflict, rising tension, and an unexpected plot twist or turning point to deliver a memorable climax.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-085",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Active and Passive Voice",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Complete the passive voice sentence: Active: 'William Shakespeare wrote Hamlet.' -> Passive: 'Hamlet was ________ by William Shakespeare.'",
+    "answer": "written",
+    "acceptedAnswers": [
+      "written"
+    ],
+    "explanation": "The past participle form of the irregular verb 'write' is 'written': 'was written by William Shakespeare'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-086",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Modals",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Fill in the blank with a polite formal modal auxiliary for seeking permission: '________ I come in, Sir?'",
+    "answer": "May",
+    "acceptedAnswers": [
+      "May",
+      "may",
+      "Could",
+      "could"
+    ],
+    "explanation": "'May' is the traditional formal modal auxiliary used when seeking permission respectfully from authority figures.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-087",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Prepositions",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Fill in the blank with the appropriate preposition of motion: 'The adventurous swimmer dived boldly ________ the deep river water.'",
+    "answer": "into",
+    "acceptedAnswers": [
+      "into"
+    ],
+    "explanation": "'Into' denotes motion towards the inside or interior of a space or liquid, unlike 'in' which denotes static position.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-088",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Grammar - Parts of Speech",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each bold highlighted word from the contextual sentences with its correct part of speech:",
+    "pairs": [
+      [
+        "Bravery (in 'Her bravery inspired everyone')",
+        "Abstract Noun"
+      ],
+      [
+        "Extremely (in 'He ran extremely fast')",
+        "Adverb of Degree"
+      ],
+      [
+        "Eloquent (in 'An eloquent keynote speech')",
+        "Adjective"
+      ],
+      [
+        "Alas! (in 'Alas! We missed the morning train')",
+        "Interjection"
+      ]
+    ],
+    "explanation": "Bravery is an abstract noun; extremely modifies an adverb (degree); eloquent qualifies a noun (adjective); Alas! expresses sudden emotion (interjection).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-089",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Vocabulary",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each widely used English idiom with its figurative meaning:",
+    "pairs": [
+      [
+        "Burn the midnight oil",
+        "Work or study diligently late into the night"
+      ],
+      [
+        "A piece of cake",
+        "An exceptionally simple, effortless task"
+      ],
+      [
+        "Once in a blue moon",
+        "An event occurring very rarely"
+      ],
+      [
+        "Spill the beans",
+        "Divulge confidential information prematurely"
+      ]
+    ],
+    "explanation": "Idiomatic meanings: burning midnight oil means working late; piece of cake means easy; blue moon means rare; spill beans means reveal secrets.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-090",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Vocabulary - Word Analysis",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "An anagram is a word created by rearranging all the letters of another word. The word 'LISTEN' can be rearranged to form 'SILENT'. How many distinct consonant letters are shared in this word pair?",
+    "answer": 4,
+    "unit": "consonants",
+    "tolerance": 0,
+    "explanation": "The shared consonant letters in LISTEN/SILENT are L, S, T, and N, which gives exactly 4 consonant letters (the vowels are I and E).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-091",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the standard CBSE layout for a creative public-awareness poster shown below, which prominent top header element designed to grab immediate viewer attention is indicated by label 'A'?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220' width='320' height='220'><rect width='320' height='220' fill='#0f172a' rx='8'/><rect x='25' y='15' width='270' height='190' fill='#f8fafc' stroke='#2563eb' stroke-width='2' rx='4'/><rect x='40' y='25' width='240' height='28' fill='#1d4ed8' rx='4'/><text x='160' y='44' font-family='sans-serif' font-size='12' font-weight='bold' fill='#ffffff' text-anchor='middle'>A</text><rect x='40' y='60' width='110' height='80' fill='#e2e8f0' stroke='#94a3b8' stroke-width='1.5' rx='3'/><text x='95' y='105' font-family='sans-serif' font-size='10' fill='#64748b' text-anchor='middle'>Visual Sketch</text><line x1='165' y1='75' x2='270' y2='75' stroke='#334155' stroke-width='2'/><line x1='165' y1='92' x2='270' y2='92' stroke='#334155' stroke-width='2'/><line x1='165' y1='109' x2='270' y2='109' stroke='#334155' stroke-width='2'/><text x='218' y='130' font-family='sans-serif' font-size='10' font-weight='bold' fill='#2563eb' text-anchor='middle'>B (Key Tips)</text><rect x='40' y='150' width='240' height='22' fill='#dbeafe' rx='3'/><text x='160' y='165' font-family='sans-serif' font-size='9' font-weight='bold' fill='#1e40af' text-anchor='middle'>Issued in public interest by Health Dept (C)</text></svg>"
+    },
+    "options": [
+      "Catchy Title / Slogan in bold creative lettering",
+      "Official government registration code",
+      "Name of the private commercial printing press",
+      "Signature of the artist"
+    ],
+    "answer": 0,
+    "explanation": "Label A indicates the catchy title or slogan, displayed boldly at the top to convey the poster's core campaign theme.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-092",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the standard narrative arc (Freytag's Pyramid) for short story writing illustrated below, which highest peak of dramatic tension and turning point is designated by label 'B'?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220' width='320' height='220'><rect width='320' height='220' fill='#0f172a' rx='8'/><line x1='40' y1='170' x2='90' y2='170' stroke='#38bdf8' stroke-width='3'/><text x='65' y='190' font-family='sans-serif' font-size='9' font-weight='bold' fill='#38bdf8' text-anchor='middle'>A (Exposition)</text><line x1='90' y1='170' x2='160' y2='50' stroke='#fbbf24' stroke-width='3'/><text x='115' y='100' font-family='sans-serif' font-size='9' fill='#fbbf24'>Rising Action</text><circle cx='160' cy='50' r='10' fill='#ef4444'/><text x='160' y='32' font-family='sans-serif' font-size='14' font-weight='bold' fill='#ef4444' text-anchor='middle'>B</text><line x1='160' y1='50' x2='230' y2='170' stroke='#fbbf24' stroke-width='3'/><text x='205' y='100' font-family='sans-serif' font-size='9' fill='#fbbf24'>Falling Action</text><line x1='230' y1='170' x2='280' y2='170' stroke='#22c55e' stroke-width='3'/><text x='255' y='190' font-family='sans-serif' font-size='9' font-weight='bold' fill='#22c55e' text-anchor='middle'>C (Resolution)</text></svg>"
+    },
+    "options": [
+      "Climax (Peak of dramatic confrontation/revelation)",
+      "Exposition (Setting and characters introduction)",
+      "Rising Action",
+      "Resolution / Denouement"
+    ],
+    "answer": 0,
+    "explanation": "Label B indicates the Climax, the central pinnacle of maximum suspense and decisive turning point of a narrative plot.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-093",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Sound of Music",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Where did young Bismillah Khan practice his shehnai in peaceful solitude, finding inspiration for innovative ragas?",
+    "sampleAnswer": "Bismillah Khan practiced in peaceful solitude on the flowing banks of the sacred River Ganga at Varanasi, as well as at the temples of Balaji and Mangala Maiya.",
+    "acceptedAnswers": [
+      "on the banks of the River Ganga at Varanasi",
+      "on the banks of the Ganga and temples of Balaji and Mangala Maiya",
+      "by the river Ganga",
+      "on the quiet banks of the Ganga"
+    ],
+    "keywords": [
+      "banks",
+      "River Ganga",
+      "Varanasi",
+      "Ganga",
+      "Balaji"
+    ],
+    "explanation": "The flowing waters of the Ganga inspired Bismillah Khan to improvise and invent new ragas that were earlier considered beyond the range of the shehnai.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-094",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the standard prescribed word limit for a Notice in CBSE secondary English examinations?",
+    "sampleAnswer": "The standard prescribed word limit for a Notice in CBSE examinations is approximately 50 words.",
+    "acceptedAnswers": [
+      "50 words",
+      "around 50 words",
+      "maximum 50 words",
+      "50"
+    ],
+    "keywords": [
+      "50",
+      "words",
+      "fifty"
+    ],
+    "explanation": "CBSE formatting guidelines mandate that a notice should be concise and strictly adhere to the 50-word limit.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-095",
+    "class": 9,
+    "subject": "english",
+    "chapter": "If I Were You",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why did Gerrard keep dramatic props such as false moustaches and strange coats in his travel bag?",
+    "sampleAnswer": "Gerrard was a theatrical playwright and director who was involved in amateur dramatic productions and was preparing props for a rehearsal.",
+    "acceptedAnswers": [
+      "he was a playwright who supplied props for amateur theatrical plays",
+      "he worked in theatre and was packing props for a theatrical rehearsal",
+      "he was a dramatist who needed props and disguises for theatre plays",
+      "the props were for an amateur theatrical production"
+    ],
+    "keywords": [
+      "playwright",
+      "theatrical",
+      "props",
+      "theatre",
+      "amateur",
+      "dramatic"
+    ],
+    "explanation": "Gerrard was a playwright who supplied theatrical accessories for stage plays, which he cleverly repurposed to invent his criminal cover story.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-096",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Fun They Had",
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "Assertion (A): Margie felt a deep sense of wistful longing when thinking about the antique schools described in Tommy's book.\nReason (R): In those schools, human teachers taught children of the same age together in common buildings, where pupils laughed, studied, and helped each other with homework.",
+    "options": [
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true"
+    ],
+    "answer": 0,
+    "explanation": "Margie was thinking about how the kids must have loved school in the old days, thinking about 'the fun they had' learning together with human empathy.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-097",
+    "class": 9,
+    "subject": "english",
+    "chapter": "A Truly Beautiful Mind",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Albert Einstein was profoundly distressed by the atomic bombing of Hiroshima and Nagasaki in August 1945.\nReason (R): Einstein was a passionate pacifist and humanitarian who had warned Roosevelt to prevent a monopoly of nuclear terror, and he spent his remaining decades campaigning for world peace and disarmament.",
+    "options": [
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true"
+    ],
+    "answer": 0,
+    "explanation": "Deeply shaken by atomic devastation, Einstein wrote a public missive to the United Nations proposing a world government to prevent catastrophic warfare.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-098",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Select ALL vivid sensory details that enhance the quality of a descriptive paragraph portraying a bustling traditional bazaar:",
+    "options": [
+      "Vivid visual imagery of vibrant mounds of crimson spices and glittering bangles",
+      "Auditory details of competitive street hawkers calling out bargains and temple bells ringing",
+      "Olfactory descriptions of roasted groundnuts and sweet jasmine garlands",
+      "Tactile sensations of warm afternoon breeze and jostling crowds",
+      "Statistical municipal corporate taxation audits from the state finance commission"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Descriptive writing thrives on sensory perception: sight, sound, smell, and touch. Cold corporate statistical audit text is completely inappropriate.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-099",
+    "class": 9,
+    "subject": "english",
+    "chapter": "Active and Passive Voice",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Select ALL sentences that are grammatically constructed in the Passive Voice:",
+    "options": [
+      "The prestigious gold medal was presented to the winner by the governor.",
+      "A mouth-watering chocolate cake was baked by grandmother for the celebration.",
+      "The school gardener pruned the flowering jasmine bushes this morning.",
+      "The confidential parcel had been safely delivered by the courier.",
+      "The adventurous scouts pitched their nylon tents beside the bubbling stream."
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Sentences 0, 1, and 3 use 'was presented', 'was baked', and 'had been delivered' (Passive). Sentences 2 and 4 are in Active Voice.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-english-100",
+    "class": 9,
+    "subject": "english",
+    "chapter": "The Last Leaf",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the dramatic climactic developments of O. Henry's 'The Last Leaf' in correct narrative sequence:",
+    "orderedItems": [
+      "Johnsy ties her fragile existence to the dying ivy vine, convinced she will perish when the last leaf drops",
+      "A fierce midnight tempest rages with torrential rain and biting wind, tearing all remaining ivy leaves from the wall",
+      "In the morning, Johnsy raises the blind and is astonished to see a solitary green ivy leaf still braving the wind",
+      "Seeing the leaf's endurance, Johnsy realizes it is a sin to want to die, and her will to live revives",
+      "Sue gently informs a recovering Johnsy that old painter Behrman died of pneumonia after painting that leaf upon the wall"
+    ],
+    "answer": "ordered",
+    "explanation": "Story climax: Johnsy's despair -> Violent night storm -> Surviving leaf -> Revived will to live -> Revelation of Behrman's sacrifice.",
+    "marks": 2,
+    "volatile": false
+  }
+]

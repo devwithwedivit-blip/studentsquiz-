@@ -1,0 +1,2030 @@
+[
+  {
+    "id": "c12-bio-001",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "During microsporogenesis in an anther, the innermost wall layer that surrounds the sporogenous tissue is the tapetum. Which of the following is a primary physiological characteristic and function of tapetal cells?",
+    "options": [
+      "They are multinucleate with dense cytoplasm, nourish developing microspores, and secrete sporopollenin precursors and pollen kitt",
+      "They are dry, fibrous, dead cells that assist in mechanical dehiscence of the anther",
+      "They undergo meiosis directly to produce microspore tetrads",
+      "They act as protective epidermal cells preventing pathogen entry"
+    ],
+    "answer": 0,
+    "explanation": "The tapetum is the innermost nourishing anther wall layer. Its cells possess dense cytoplasm and often become multinucleate or polyploid due to endomitosis. Tapetum supplies nutrients to developing pollen grains and secretes enzymes, hormones, sporopollenin precursors, and sticky pollen kitt.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-002",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Reproduction",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In the endocrine regulation of male spermatogenesis, which pituitary gonadotropin directly stimulates Leydig (interstitial) cells, and what hormone do Leydig cells secrete in response?",
+    "options": [
+      "Luteinizing Hormone (LH); stimulates synthesis and secretion of androgens (testosterone)",
+      "Follicle Stimulating Hormone (FSH); stimulates secretion of inhibin",
+      "Prolactin; stimulates secretion of semen fluid",
+      "Adrenocorticotropic hormone (ACTH); stimulates aldosterone"
+    ],
+    "answer": 0,
+    "explanation": "Hypothalamic GnRH stimulates the anterior pituitary to secrete LH and FSH. LH acts specifically on interstitial Leydig cells to stimulate the synthesis and secretion of androgens (principally testosterone), which in turn stimulates spermatogenesis. FSH acts on Sertoli cells.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-003",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Reproductive Health",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which assisted reproductive technology (ART) involves transferring an in vitro fertilized zygote or early embryo containing up to 8 blastomeres directly into the fallopian tube of the mother?",
+    "options": [
+      "ZIFT (Zygote Intra-Fallopian Transfer)",
+      "IUT (Intra-Uterine Transfer)",
+      "GIFT (Gamete Intra-Fallopian Transfer)",
+      "ICSI (Intra-Cytoplasmic Sperm Injection)"
+    ],
+    "answer": 0,
+    "explanation": "In ZIFT (Zygote Intra-Fallopian Transfer), the zygote or early embryo with up to 8 blastomeres is transferred into the fallopian tube. Embryos with more than 8 blastomeres are transferred directly into the uterus (IUT).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-004",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In a classical Mendelian dihybrid test cross between a heterozygous round-yellow pea plant (RrYy) and a homozygous double recessive wrinkled-green pea plant (rryy), what is the expected phenotypic ratio of the offspring?",
+    "options": [
+      "1 : 1 : 1 : 1",
+      "9 : 3 : 3 : 1",
+      "3 : 1",
+      "9 : 7"
+    ],
+    "answer": 0,
+    "explanation": "The heterozygous parent RrYy produces 4 types of gametes in equal proportions: RY, Ry, rY, ry (each 25%). The homozygous recessive parent rryy produces only ry gametes. Fertilisation yields RrYy (round yellow), Rryy (round green), rrYy (wrinkled yellow), and rryy (wrinkled green) in a 1:1:1:1 ratio.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-005",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Meselson and Stahl's classic 1958 experiment proving the semiconservative replication of DNA, E. coli cultured in 15N medium was transferred to 14N medium. What density band(s) were observed in CsCl density gradient centrifugation after exactly one generation (20 minutes)?",
+    "options": [
+      "A single intermediate hybrid density band (15N-14N)",
+      "Two distinct bands: one heavy (15N-15N) and one light (14N-14N)",
+      "A single light density band (14N-14N) only",
+      "Three distinct bands of equal intensity"
+    ],
+    "answer": 0,
+    "explanation": "After 20 minutes (Generation 1), each newly synthesised DNA double helix contains one parental 15N heavy strand and one newly synthesised 14N light strand. Centrifugation reveals exactly 100% intermediate hybrid density (15N-14N) DNA, ruling out conservative replication.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-006",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Evolution",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In a large randomly mating diploid population at Hardy-Weinberg equilibrium, the frequency of a recessive allele (q) causing an autosomal condition is 0.40. What is the expected percentage of heterozygous carrier individuals (2pq) in the population?",
+    "options": [
+      "48%",
+      "24%",
+      "16%",
+      "36%"
+    ],
+    "answer": 0,
+    "explanation": "Allele frequencies sum to 1: p + q = 1. Given q = 0.40, p = 1 - 0.40 = 0.60. The frequency of heterozygous carriers is 2pq = 2 * (0.60) * (0.40) = 0.48 = 48%.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-007",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Health and Disease",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Innate immunity is a non-specific defense mechanism present from birth that consists of physical barriers (skin, mucous membranes), physiological barriers (stomach acid, tears), cellular barriers (phagocytes), and cytokine barriers (interferons).",
+    "answer": true,
+    "explanation": "Innate immunity provides four major non-specific defensive barrier lines: physical (skin, mucosa), physiological (acid in stomach, lysozyme in tears/saliva), cellular (neutrophils, monocytes, macrophages), and cytokine (interferons produced by virus-infected cells).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-008",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Methanobacterium species are obligate anaerobic bacteria found in cattle rumen and anaerobic sludge that break down cellulosic materials to generate biogas consisting primarily of methane and carbon dioxide.",
+    "answer": true,
+    "explanation": "Methanogens (e.g., Methanobacterium) grow anaerobically on cellulosic materials in the rumen of ruminants and sewage sludge digesters, producing biogas rich in methane (CH4, 50-70%), carbon dioxide (CO2), and traces of hydrogen.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-009",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Taq DNA polymerase, isolated from the thermophilic bacterium Thermus aquaticus, is utilized in Polymerase Chain Reaction (PCR) because it remains thermally stable and active throughout the 94°C–95°C denaturation steps.",
+    "answer": true,
+    "explanation": "Conventional DNA polymerases denature and lose enzymatic activity at temperatures above 60°C. Thermostable Taq DNA polymerase isolated from hot spring bacterium Thermus aquaticus withstands repeated cycling to 94°C-95°C without denaturation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-010",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology and its Applications",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Genetically modified Bt crops like Bt cotton produce insecticidal crystal protein endotoxins encoded by cry genes originally isolated from the soil bacterium Bacillus _____.",
+    "answer": "thuringiensis",
+    "acceptedAnswers": [
+      "thuringiensis",
+      "Bacillus thuringiensis"
+    ],
+    "explanation": "Bt toxin is produced by the bacterium Bacillus thuringiensis (Bt). When ingested by insects, the inactive protoxin is solubilised in alkaline gut pH, binding to midgut epithelial cells and forming pores that cause cell lysis and insect death.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-011",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Organisms and Populations",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The sigmoid population growth curve describing a biological population growing under limited environmental resource constraints and leveling off at carrying capacity (K) is known as the _____ growth curve.",
+    "answer": "logistic",
+    "acceptedAnswers": [
+      "logistic",
+      "logistic growth",
+      "sigmoid",
+      "Verhulst-Pearl logistic"
+    ],
+    "explanation": "Verhulst-Pearl logistic growth is described by dN/dt = rN[(K - N)/K], producing a characteristic S-shaped (sigmoid) logistic curve as population density approaches carrying capacity K.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-012",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Ecosystem",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each ecosystem type with the characteristic shape of its ecological pyramid:",
+    "pairs": [
+      [
+        "Pyramid of energy in any natural ecosystem",
+        "Always upright (never inverted)"
+      ],
+      [
+        "Pyramid of biomass in an open ocean / aquatic ecosystem",
+        "Inverted (phytoplankton biomass is less than standing zooplankton/fish)"
+      ],
+      [
+        "Pyramid of numbers in a single large oak tree ecosystem",
+        "Inverted or spindle-shaped"
+      ],
+      [
+        "Pyramid of biomass in a terrestrial grassland ecosystem",
+        "Upright with large producer base"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Energy pyramids are universally upright due to the second law of thermodynamics (10% energy transfer rule). Biomass pyramid in oceans is inverted because phytoplankton have rapid turnover and short lifespans despite high productivity.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-013",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Two gene loci A and B on the same chromosome in Drosophila melanogaster show a recombination frequency of 15% (15 centimorgans apart). In a test cross of a dihybrid female (AB/ab) with a double recessive male (ab/ab), what percentage (%) of total progeny will exhibit recombinant phenotypes (Ab or aB)?",
+    "answer": 15,
+    "tolerance": 0,
+    "unit": "%",
+    "explanation": "Recombination frequency is defined as: (Total recombinant progeny / Total progeny) * 100. A genetic map distance of 15 cM directly indicates that 15% of the test-cross offspring will exhibit recombinant genotypes (7.5% Ab/ab and 7.5% aB/ab), while 85% will have parental phenotypes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-014",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The anatomical diagram represents an inverted (anatropous) angiosperm ovule. What is the small opening at the apex of the integuments through which the pollen tube enters called?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 200\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"160\" cy=\"90\" rx=\"45\" ry=\"70\" fill=\"#f0fdf4\" stroke=\"#16a34a\" stroke-width=\"2\"/><circle cx=\"160\" cy=\"90\" r=\"25\" fill=\"#dcfce7\" stroke=\"#15803d\" stroke-width=\"1.5\"/><text x=\"135\" y=\"95\" font-size=\"11\" fill=\"#15803d\">Embryo sac</text><path d=\"M 160,20 Q 220,90 160,160\" stroke=\"#166534\" stroke-width=\"2\" fill=\"none\"/><line x1=\"160\" y1=\"160\" x2=\"160\" y2=\"175\" stroke=\"#dc2626\" stroke-width=\"3\"/><text x=\"140\" y=\"190\" font-size=\"13\" font-weight=\"bold\" fill=\"#dc2626\">Opening [ ? ]</text><text x=\"135\" y=\"15\" font-size=\"12\" fill=\"#166534\">Chalaza</text><text x=\"215\" y=\"130\" font-size=\"12\" fill=\"#166534\">Funicle</text></svg>"
+    },
+    "options": [
+      "Micropyle",
+      "Chalaza",
+      "Hilum",
+      "Funicle"
+    ],
+    "answer": 0,
+    "explanation": "In an anatropous ovule, the integuments leave a narrow opening at one end called the micropyle, through which the pollen tube discharges male gametes into the female embryo sac.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-015",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Reproduction",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram depicts a mammalian blastocyst ready for uterine implantation. What is the outer single layer of epithelial cells responsible for chorion formation and uterine wall attachment?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"160\" cy=\"90\" r=\"70\" fill=\"#eff6ff\" stroke=\"#0284c7\" stroke-width=\"3\"/><circle cx=\"120\" cy=\"65\" r=\"30\" fill=\"#fbcfe8\" stroke=\"#db2777\" stroke-width=\"2\"/><text x=\"95\" y=\"70\" font-size=\"11\" font-weight=\"bold\" fill=\"#9d174d\">Inner cell mass</text><text x=\"140\" y=\"125\" font-size=\"12\" fill=\"#0369a1\">Blastocoel cavity</text><text x=\"235\" y=\"95\" font-size=\"13\" font-weight=\"bold\" fill=\"#0284c7\">Outer Layer [ ? ]</text></svg>"
+    },
+    "options": [
+      "Trophoblast",
+      "Inner cell mass (embryoblast)",
+      "Amnion",
+      "Zona pellucida"
+    ],
+    "answer": 0,
+    "explanation": "The blastocyst consists of an outer sphere of cells called the trophoblast and an inner cell mass. The trophoblast attaches to the endometrium, secretes hCG, and develops into the fetal portion of the placenta (chorion).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-016",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram shows a DNA replication fork. On which template strand is the newly synthesized daughter DNA produced discontinuously as short Okazaki fragments?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"40\" x2=\"160\" y2=\"40\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"40\" x2=\"310\" y2=\"15\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><text x=\"10\" y=\"35\" font-size=\"11\" fill=\"#1e293b\">3'</text><line x1=\"20\" y1=\"140\" x2=\"160\" y2=\"140\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><line x1=\"160\" y1=\"140\" x2=\"310\" y2=\"165\" stroke=\"#1e293b\" stroke-width=\"2.5\"/><text x=\"10\" y=\"155\" font-size=\"11\" fill=\"#1e293b\">5'</text><line x1=\"160\" y1=\"55\" x2=\"300\" y2=\"30\" stroke=\"#16a34a\" stroke-width=\"2.5\"/><text x=\"210\" y=\"45\" font-size=\"11\" font-weight=\"bold\" fill=\"#16a34a\">Leading strand (continuous)</text><line x1=\"170\" y1=\"125\" x2=\"210\" y2=\"135\" stroke=\"#dc2626\" stroke-width=\"2.5\"/><line x1=\"225\" y1=\"138\" x2=\"265\" y2=\"148\" stroke=\"#dc2626\" stroke-width=\"2.5\"/><line x1=\"280\" y1=\"151\" x2=\"310\" y2=\"158\" stroke=\"#dc2626\" stroke-width=\"2.5\"/><text x=\"180\" y=\"115\" font-size=\"11\" font-weight=\"bold\" fill=\"#dc2626\">Okazaki fragments (Lagging strand)</text></svg>"
+    },
+    "options": [
+      "On the template strand with 5' -> 3' polarity (Lagging strand template)",
+      "On the template strand with 3' -> 5' polarity (Leading strand template)",
+      "Equally on both template strands",
+      "On neither strand; synthesis is always continuous"
+    ],
+    "answer": 0,
+    "explanation": "DNA polymerase can catalyse polymerisation only in the 5' -> 3' direction. On the template with 3' -> 5' polarity, synthesis is continuous (leading strand). On the template with 5' -> 3' polarity, synthesis proceeds discontinuously away from the replication fork as Okazaki fragments (lagging strand).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-017",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Explain the phenomenon of double fertilisation unique to angiosperms and identify the two specific nuclear fusion events involved.",
+    "answer": "Double fertilisation involves two separate nuclear fusion events within the embryo sac: 1. Syngamy: One haploid male gamete fuses with the haploid egg cell to form a diploid zygote (2n). 2. Triple fusion: The second haploid male gamete fuses with the two haploid polar nuclei (central cell) to form the triploid Primary Endosperm Nucleus (PEN, 3n).",
+    "acceptedAnswers": [
+      "Syngamy (fusion of male gamete with egg to form diploid zygote) and Triple fusion (fusion of second male gamete with polar nuclei to form triploid endosperm nucleus)",
+      "Fusion of one male gamete with egg cell (syngamy) and second male gamete with central cell polar nuclei (triple fusion)",
+      "Double fertilisation consists of syngamy forming zygote and triple fusion forming triploid endosperm"
+    ],
+    "keywords": [
+      "double fertilisation",
+      "syngamy",
+      "triple fusion",
+      "zygote",
+      "polar nuclei",
+      "primary endosperm nucleus"
+    ],
+    "explanation": "Because two fertilisation events (syngamy yielding 2n zygote and triple fusion yielding 3n PEN) occur simultaneously in the same female gametophyte, this process is called double fertilisation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-018",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Reproductive Health",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is Medical Termination of Pregnancy (MTP) and up to which gestational period (number of weeks) is it legally considered safest for the mother?",
+    "answer": "Medical Termination of Pregnancy (MTP) is the voluntary or intentional termination of pregnancy before full term (induced abortion). It is medically and legally considered safest during the first trimester, up to 12 weeks of pregnancy.",
+    "acceptedAnswers": [
+      "Intentional termination of pregnancy before full term; safest during the first trimester up to 12 weeks",
+      "Induced abortion; legally and medically safest up to 12 weeks of pregnancy (first trimester)",
+      "Voluntary termination of pregnancy before full term, safest up to 12 weeks"
+    ],
+    "keywords": [
+      "Medical Termination of Pregnancy",
+      "MTP",
+      "induced abortion",
+      "12 weeks",
+      "first trimester",
+      "safe"
+    ],
+    "explanation": "MTP is safe during the first trimester (up to 12 weeks). Second-trimester terminations (up to 20-24 weeks under MTP Amendment Act) carry significantly higher risk and require approval by medical practitioners.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-019",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Evolution",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Define adaptive radiation and explain how Darwin's finches on the Galapagos Islands illustrate this evolutionary process.",
+    "answer": "Adaptive radiation is the evolutionary process in which an ancestral species diversifies into a multitude of new morphological forms radiating into different ecological niches. In the Galapagos Islands, an original ancestral seed-eating finch diversified into different geographical island niches, evolving distinct beak shapes adapted for insect-eating, fruit-eating, and cactus-eating diets.",
+    "acceptedAnswers": [
+      "Evolutionary divergence of an ancestral species into diverse ecological niches; Darwin's finches diversified from ancestral seed-eaters into insectivorous and vegetarian finches with varied beak adaptations",
+      "Diversification of an ancestral species into different ecological niches; illustrated by Darwin's finches radiating into insectivorous and seed-eating forms with adapted beaks",
+      "Process where an ancestral species evolves into diverse forms in different habitats, as seen in Galapagos finches with varied beak shapes"
+    ],
+    "keywords": [
+      "adaptive radiation",
+      "ancestral species",
+      "ecological niches",
+      "Darwin's finches",
+      "beak",
+      "Galapagos"
+    ],
+    "explanation": "Adaptive radiation exemplifies divergent evolution where starting from a common ancestor in a single geographic area, species radiate outward to occupy diverse environmental niches with specialized morphological adaptations.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-020",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): Haemophilia is an X-linked recessive genetic disorder that is expressed far more frequently in human males than in human females.\nReason (R): Human males are hemizygous for the X chromosome (XY), so a single copy of the mutant recessive allele on their single X chromosome causes the disease, whereas females require two copies (homozygous recessive) to be affected.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Because human males carry only one X chromosome (XY), any recessive allele on that chromosome is directly expressed phenotypically. Females (XX) are protected by a second dominant normal allele on their other X chromosome, making affected females extremely rare.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-021",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following statements regarding the universal genetic code are CORRECT? (Select all that apply)",
+    "options": [
+      "The genetic code is a triplet of nitrogenous bases, with 61 codons coding for amino acids and 3 acting as stop (nonsense) codons.",
+      "The code is degenerate: some amino acids are specified by more than one distinct codon.",
+      "The code is non-overlapping and read in a continuous comma-less sequence from 5' to 3'.",
+      "AUG is an ambiguous codon that randomly codes for either methionine or valine depending on cellular ATP levels."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Statements A, B, and C are correct. Statement D is false because the code is strictly unambiguous: each codon codes for only one specific amino acid. AUG dual function is coding for methionine and acting as the initiator codon, never coding for valine.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-022",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Health and Disease",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following medical conditions are classified as autoimmune diseases in humans? (Select all that apply)",
+    "options": [
+      "Rheumatoid arthritis",
+      "Myasthenia gravis",
+      "Type 1 Diabetes Mellitus",
+      "Acquired Immunodeficiency Syndrome (AIDS)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Rheumatoid arthritis (immune attack on synovial joints), Myasthenia gravis (antibodies against acetylcholine receptors), and Type 1 Diabetes (autoimmune destruction of pancreatic beta cells) are autoimmune disorders. AIDS is caused by viral infection (HIV) destroying CD4 T-lymphocytes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-023",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Reproduction",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the chronological developmental stages of early human life from gamete formation to uterine establishment:",
+    "orderedItems": [
+      "Gametogenesis (spermatogenesis and oogenesis)",
+      "Insemination and fertilisation in the ampulla of fallopian tube",
+      "Cleavage divisions forming a solid 16-cell Morula",
+      "Cavitation yielding a hollow Blastocyst with trophoblast and inner cell mass",
+      "Implantation of blastocyst into the uterine endometrium"
+    ],
+    "explanation": "Chronological sequence: Gametes form -> Fertilisation produces zygote -> Cleavage produces morula -> Blastocyst forms -> Blastocyst embeds (implants) into endometrium.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-024",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the three sequential steps of a single thermal cycle in Polymerase Chain Reaction (PCR):",
+    "orderedItems": [
+      "Denaturation of double-stranded DNA template at 94°C–96°C",
+      "Annealing of oligonucleotide primers to single-stranded templates at 50°C–60°C",
+      "Extension of primers by thermostable Taq DNA polymerase at 72°C",
+      "Repetition of the thermal cycles (30–35 times) for billion-fold DNA amplification"
+    ],
+    "explanation": "A PCR cycle consists of: (1) Denaturation to separate DNA strands; (2) Annealing where primers hybridize to complementary sequences; (3) Extension where Taq polymerase adds dNTPs from 5' to 3' at its optimum temperature (72°C).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-025",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Ecosystem",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the ecological seral stages of primary hydrarch succession in a newly created freshwater water body in correct temporal sequence from pioneer to climax community:",
+    "orderedItems": [
+      "Phytoplankton pioneer stage (diatoms, unicellular green algae)",
+      "Submerged plant stage (Hydrilla, Vallisneria)",
+      "Submerged free-floating plant stage (Pistia, Eichhornia, Lemna)",
+      "Reed-swamp stage (Typha, Phragmites)",
+      "Marsh-meadow stage (Carex, Cyperus, Juncus)",
+      "Scrub stage (Salix, Cornus shrubs)",
+      "Forest climax community (mesic tree canopy)"
+    ],
+    "explanation": "Hydrarch succession progresses from aquatic to mesic conditions: Phytoplankton -> Submerged -> Free-floating -> Reed-swamp -> Marsh-meadow -> Scrub -> Forest climax community.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-026",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Reproduction",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In the human female ovarian cycle, which rapid hormonal surge at mid-cycle (around day 14) directly triggers the rupture of the mature Graafian follicle and release of the secondary oocyte (ovulation)?",
+    "options": [
+      "Rapid surge of Luteinizing Hormone (LH surge)",
+      "Sharp drop in estrogen levels",
+      "Sudden surge of Progesterone from corpus luteum",
+      "Steep elevation of human Chorionic Gonadotropin (hCG)"
+    ],
+    "answer": 0,
+    "explanation": "High levels of estrogen exert positive feedback on the anterior pituitary, triggering a massive surge of Luteinizing Hormone (LH surge) at mid-cycle. This induces the rupture of the Graafian follicle and releases the secondary oocyte into the fallopian tube.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-027",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Reproductive Health",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "'Saheli', the revolutionary non-steroidal oral contraceptive pill taken once a week with very high contraceptive efficacy and minimal side effects, was developed by scientists at which premier Indian research institute?",
+    "options": [
+      "Central Drug Research Institute (CDRI), Lucknow",
+      "Indian Institute of Science (IISc), Bengaluru",
+      "National Institute of Virology (NIV), Pune",
+      "All India Institute of Medical Sciences (AIIMS), New Delhi"
+    ],
+    "answer": 0,
+    "explanation": "'Saheli' contains centchroman (ormeloxifene), a selective estrogen receptor modulator. It was developed by the Central Drug Research Institute (CDRI) in Lucknow, India, as a once-a-week non-steroidal oral contraceptive.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-028",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Sickle-cell anaemia is caused by a point mutation in the gene coding for the beta-globin chain of haemoglobin. What specific single nucleotide substitution and amino acid replacement occurs?",
+    "options": [
+      "Substitution of GAG by GUG, replacing glutamic acid with valine at the 6th position of the beta-globin chain",
+      "Substitution of GUG by GAG, replacing valine with glutamic acid at the 6th position",
+      "Substitution of AAG by GAG, replacing lysine with glutamic acid at the 12th position",
+      "Deletion of a single base pair leading to a frameshift mutation at the 4th position"
+    ],
+    "answer": 0,
+    "explanation": "Sickle-cell anaemia results from a single base transversion mutation (A to T in DNA, leading to GAG to GUG codon change in mRNA) at the 6th position of the beta-globin gene, replacing polar glutamic acid with non-polar hydrophobic valine.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-029",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In the regulation of the lac operon of E. coli, what precise molecular event occurs when an inducer (such as allolactose) is introduced into the growth medium?",
+    "options": [
+      "The inducer binds to the lac repressor protein, altering its conformation so that it dissociates from the operator, allowing RNA polymerase to transcribe structural genes",
+      "The inducer directly binds to RNA polymerase, enhancing its affinity for the promoter",
+      "The inducer degrades the operator region via exonuclease cleavage",
+      "The inducer acts as a corepressor, binding to the operator to shut down transcription"
+    ],
+    "answer": 0,
+    "explanation": "Allolactose (the natural inducer) binds to the active lac repressor protein, causing an allosteric conformational change that inactivates the repressor. The inactive repressor can no longer bind the operator gene (lacO), freeing RNA polymerase to transcribe lacZ, lacY, and lacA.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-030",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Cyclosporin A, an essential bioactive cyclic peptide used clinically as an immunosuppressive agent in organ transplant recipients, is produced commercially by which fungus?",
+    "options": [
+      "Trichoderma polysporum",
+      "Monascus purpureus",
+      "Aspergillus niger",
+      "Penicillium notatum"
+    ],
+    "answer": 0,
+    "explanation": "Cyclosporin A is an immunosuppressive drug produced by the filamentous fungus Trichoderma polysporum. It prevents graft rejection in kidney, liver, and heart transplant patients by inhibiting T-lymphocyte activation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-031",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In cloning vector pBR322, if a foreign DNA fragment is ligated into the BamHI recognition site located within the tetracycline resistance gene (tetR), how are recombinant transformants distinguished from non-recombinants?",
+    "options": [
+      "Recombinants grow on ampicillin medium but fail to grow on tetracycline medium due to insertional inactivation of tetR",
+      "Recombinants grow on tetracycline medium but fail to grow on ampicillin medium",
+      "Recombinants are resistant to both ampicillin and tetracycline",
+      "Recombinants develop blue colonies in the presence of X-gal"
+    ],
+    "answer": 0,
+    "explanation": "Insertion of foreign DNA at the BamHI site disrupts the coding sequence of the tetR gene (insertional inactivation). Recombinant plasmids retain intact ampR but lose tetR function, allowing them to grow on ampicillin plates but die when replica-plated onto tetracycline plates.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-032",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Organisms and Populations",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "According to Allen's rule, endothermic mammals adapted to living in colder geographical climates generally have shorter extremities (ears, tails, and limbs) to reduce heat dissipation from the body surface.",
+    "answer": true,
+    "explanation": "Allen's rule states that appendages (ears, limbs) of animals in cold climates tend to be shorter relative to body size compared to relatives in warm climates, minimizing the surface-area-to-volume ratio and conserving body heat (e.g., polar fox vs desert fox).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-033",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Botanical gardens, zoological parks, wildlife safari parks, and cryopreservation seed gene banks are classical methods of in-situ conservation of biodiversity.",
+    "answer": false,
+    "explanation": "These are ex-situ (off-site) conservation methods, where threatened plants and animals are taken out of their natural habitats and protected in human-controlled settings. In-situ conservation refers to protection in natural habitats (National Parks, Wildlife Sanctuaries, Biosphere Reserves).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-034",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In eukaryotic pre-mRNA processing, the non-coding intervening sequences that are excised during post-transcriptional RNA splicing are called _____.",
+    "answer": "introns",
+    "acceptedAnswers": [
+      "introns",
+      "intron"
+    ],
+    "explanation": "Eukaryotic primary transcripts (hnRNA) contain both coding regions (exons) and non-coding intervening sequences (introns). Introns are removed by spliceosomes during RNA splicing, and exons are joined together.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-035",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Statins, which act as competitive inhibitors of the enzyme HMG-CoA reductase to lower blood cholesterol levels, are produced commercially by the yeast Monascus _____.",
+    "answer": "purpureus",
+    "acceptedAnswers": [
+      "purpureus",
+      "Monascus purpureus"
+    ],
+    "explanation": "Statins produced by the yeast Monascus purpureus function as competitive inhibitors of the rate-limiting enzyme responsible for de novo cholesterol synthesis in the liver.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-036",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Evolution",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The observed shift in proportion of peppered moths (Biston betularia) from light-coloured to melanic dark-coloured forms in industrial areas of England is a celebrated classic demonstration of natural _____ in action.",
+    "answer": "selection",
+    "acceptedAnswers": [
+      "selection",
+      "natural selection"
+    ],
+    "explanation": "Industrial melanism demonstrated natural selection: soot covered tree trunks killed lichens, giving dark melanic moths camouflage against predatory birds, whereas light moths were easily spotted and predated.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-037",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each human genetic disorder with its specific chromosomal constitution or genetic etiology:",
+    "pairs": [
+      [
+        "Down syndrome",
+        "Trisomy of autosome chromosome 21 (47, XX or XY +21)"
+      ],
+      [
+        "Klinefelter syndrome",
+        "Sex chromosome aneuploidy in males with an extra X (47, XXY)"
+      ],
+      [
+        "Turner syndrome",
+        "Sex chromosome monosomy in females with a missing X (45, X0)"
+      ],
+      [
+        "Phenylketonuria (PKU)",
+        "Autosomal recessive deficiency of phenylalanine hydroxylase enzyme"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Down syndrome (trisomy 21), Klinefelter (XXY), Turner (X0), and PKU (autosomal recessive inborn error) are core Mendelian and chromosomal disorders studied in Class 12 CBSE.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-038",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology and its Applications",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each recombinant biotechnology innovation with its target organism or functional contribution:",
+    "pairs": [
+      [
+        "RNA interference (RNAi)",
+        "Silencing specific mRNA of nematode Meloidogyne incognita in tobacco"
+      ],
+      [
+        "Humulin",
+        "Production of human insulin chains A and B in recombinant E. coli"
+      ],
+      [
+        "Rosie the transgenic cow",
+        "Enrichment of milk with human alpha-lactalbumin protein (2.4 g/L)"
+      ],
+      [
+        "Golden Rice",
+        "Genetically modified rice biosynthesising provitamin A (beta-carotene)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These represent hallmark agricultural and biomedical achievements of genetic engineering documented in NCERT Biology Class 12.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-039",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A double-stranded DNA molecule contains 2000 base pairs (4000 total nucleotides). Biochemical analysis reveals that 30% of the total nitrogenous bases are Adenine. Calculate the exact number of Guanine bases present in this DNA molecule.",
+    "answer": 800,
+    "tolerance": 0,
+    "explanation": "By Chargaff's rules for double-stranded DNA: %A = %T = 30%. Together, A + T account for 60% of all bases. The remaining 40% consists equally of Guanine and Cytosine (%G = %C = 20%). In a DNA molecule of 4000 total nucleotides: Number of Guanines = 0.20 * 4000 = 800.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-040",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In Alexander von Humboldt's logarithmic species-area equation: log S = log C + Z log A, when ecologist analyses very large continental scales (such as frugivorous birds and mammals across tropical forests of different continents), what is the observed slope value Z (to two decimal places)?",
+    "answer": 1.15,
+    "tolerance": 0.05,
+    "explanation": "For small local regions, the regression coefficient Z lies between 0.1 and 0.2 regardless of taxonomic group. However, for entire continents, the slope of the species-area curve becomes much steeper, with Z values ranging from 0.6 to 1.2 (for frugivorous birds and mammals in tropical forests, Z = 1.15).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-041",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram depicts a mature 7-celled, 8-nucleate female gametophyte (embryo sac) of an angiosperm. What is the cellular apparatus at the micropylar end consisting of two synergids with filiform apparatus and one egg cell?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 200\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"160\" cy=\"100\" rx=\"60\" ry=\"85\" fill=\"#fefce8\" stroke=\"#ca8a04\" stroke-width=\"2\"/><circle cx=\"140\" cy=\"40\" r=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><circle cx=\"160\" cy=\"40\" r=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><circle cx=\"180\" cy=\"40\" r=\"12\" fill=\"#dcfce7\" stroke=\"#16a34a\"/><text x=\"120\" y=\"20\" font-size=\"11\" fill=\"#16a34a\">3 Antipodal cells</text><circle cx=\"152\" cy=\"95\" r=\"7\" fill=\"#fde047\" stroke=\"#854d0e\"/><circle cx=\"168\" cy=\"95\" r=\"7\" fill=\"#fde047\" stroke=\"#854d0e\"/><text x=\"120\" y=\"115\" font-size=\"11\" fill=\"#854d0e\">Central cell (2 polar nuclei)</text><circle cx=\"160\" cy=\"155\" r=\"14\" fill=\"#fee2e2\" stroke=\"#dc2626\"/><circle cx=\"138\" cy=\"165\" r=\"11\" fill=\"#e0e7ff\" stroke=\"#4338ca\"/><circle cx=\"182\" cy=\"165\" r=\"11\" fill=\"#e0e7ff\" stroke=\"#4338ca\"/><text x=\"105\" y=\"195\" font-size=\"13\" font-weight=\"bold\" fill=\"#dc2626\">Egg Apparatus [ ? ]</text></svg>"
+    },
+    "options": [
+      "Egg apparatus",
+      "Antipodal complex",
+      "Endosperm initials",
+      "Suspensor"
+    ],
+    "answer": 0,
+    "explanation": "The egg apparatus is located at the micropylar end of the embryo sac and comprises three cells: one central haploid egg cell and two flanking synergid cells equipped with finger-like filiform apparatus that guide pollen tube entry.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-042",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The pedigree chart illustrates the transmission of sex chromosomes in birds. Unlike mammals, birds exhibit female heterogamety. What is the chromosomal constitution of female birds versus male birds?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"90\" cy=\"70\" r=\"25\" fill=\"#fdf2f8\" stroke=\"#db2777\" stroke-width=\"2\"/><text x=\"75\" y=\"75\" font-size=\"14\" font-weight=\"bold\" fill=\"#db2777\">ZW</text><text x=\"65\" y=\"115\" font-size=\"12\" fill=\"#9d174d\">Female (Heterogametic)</text><rect x=\"210\" y=\"45\" width=\"50\" height=\"50\" fill=\"#f0f9ff\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"220\" y=\"75\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">ZZ</text><text x=\"205\" y=\"115\" font-size=\"12\" fill=\"#0369a1\">Male (Homogametic)</text><line x1=\"115\" y1=\"70\" x2=\"210\" y2=\"70\" stroke=\"#64748b\" stroke-width=\"2\"/><text x=\"120\" y=\"155\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e293b\">Avian Sex Determination</text></svg>"
+    },
+    "options": [
+      "Females are heterogametic (ZW) producing two types of eggs; males are homogametic (ZZ)",
+      "Females are homogametic (XX); males are heterogametic (XY)",
+      "Females are haploid (Z); males are diploid (ZZ)",
+      "Females are heterogametic (XY); males are homogametic (XX)"
+    ],
+    "answer": 0,
+    "explanation": "In avian sex determination (birds), the sex of the offspring is determined by the female parent: females possess heteromorphic sex chromosomes (ZW) and produce two types of gametes (50% Z, 50% W), while males possess identical sex chromosomes (ZZ).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-043",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram depicts agarose gel electrophoresis of DNA fragments stained with ethidium bromide under UV transillumination. Towards which electrode do DNA molecules migrate, and which size fragments travel the greatest distance from the wells?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"20\" width=\"280\" height=\"130\" fill=\"#0f172a\" rx=\"8\"/><rect x=\"50\" y=\"30\" width=\"25\" height=\"12\" fill=\"#334155\"/><rect x=\"110\" y=\"30\" width=\"25\" height=\"12\" fill=\"#334155\"/><rect x=\"170\" y=\"30\" width=\"25\" height=\"12\" fill=\"#334155\"/><rect x=\"230\" y=\"30\" width=\"25\" height=\"12\" fill=\"#334155\"/><text x=\"45\" y=\"15\" font-size=\"12\" font-weight=\"bold\" fill=\"#ef4444\">Cathode (-)</text><line x1=\"50\" y1=\"55\" x2=\"75\" y2=\"55\" stroke=\"#f97316\" stroke-width=\"4\"/><line x1=\"50\" y1=\"80\" x2=\"75\" y2=\"80\" stroke=\"#f97316\" stroke-width=\"3\"/><line x1=\"50\" y1=\"120\" x2=\"75\" y2=\"120\" stroke=\"#f97316\" stroke-width=\"2\"/><text x=\"85\" y=\"125\" font-size=\"11\" fill=\"#f97316\">Smallest fragment</text><text x=\"45\" y=\"165\" font-size=\"12\" font-weight=\"bold\" fill=\"#22c55e\">Anode (+)</text></svg>"
+    },
+    "options": [
+      "DNA migrates towards the positive anode (+); smaller molecular weight fragments migrate faster and farther through the agarose sieve",
+      "DNA migrates towards the negative cathode (-); larger fragments migrate farther",
+      "DNA migrates towards the anode (+); larger fragments migrate faster",
+      "Neutral DNA fragments remain stationary in the loading wells"
+    ],
+    "answer": 0,
+    "explanation": "Because phosphate groups impart a uniform negative charge to DNA, fragments migrate towards the positive anode (+) when an electric field is applied. The agarose gel matrix acts as a molecular sieve: smaller fragments navigate through the pores with less resistance, migrating farthest from the wells.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-044",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Health and Disease",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Name the protozoan parasite responsible for the most severe and fatal form of malignant malaria in humans, and name the human organ where its sporozoites initially multiply asexually before entering red blood cells.",
+    "answer": "Plasmodium falciparum is the causative agent of malignant tertian malaria. The infective sporozoites injected by the female Anopheles mosquito initially enter and multiply asexually within the human liver (hepatocytes).",
+    "acceptedAnswers": [
+      "Plasmodium falciparum; liver",
+      "Plasmodium falciparum causes malignant malaria and reproduces asexually in the liver",
+      "P. falciparum; liver cells"
+    ],
+    "keywords": [
+      "Plasmodium falciparum",
+      "malignant",
+      "liver",
+      "sporozoites",
+      "asexual multiplication"
+    ],
+    "explanation": "Plasmodium falciparum causes malignant tertian malaria which can be fatal. Sporozoites introduced by female Anopheles mosquitoes travel via bloodstream directly to liver cells, where they reproduce asexually (hepatic schizogony) before bursting into erythrocytes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-045",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology and its Applications",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Explain the genetic engineering strategy implemented by the American company Eli Lilly in 1983 to synthesize recombinant human insulin (Humulin).",
+    "answer": "Eli Lilly synthesised two separate artificial DNA nucleotide sequences corresponding to the A and B polypeptide chains of human insulin, inserted them into plasmids of E. coli to produce chains A and B separately, extracted and purified each chain, and combined them chemically by creating disulfide bonds to form active mature human insulin.",
+    "acceptedAnswers": [
+      "Synthesised separate DNA sequences for chain A and chain B, expressed them separately in E. coli, and linked them by disulfide bonds",
+      "Prepared artificial DNA for A and B chains, cloned into E. coli, purified chains separately, and combined them with disulfide bridges",
+      "Produced insulin chains A and B separately in E. coli and joined them chemically by disulfide bonds"
+    ],
+    "keywords": [
+      "Eli Lilly",
+      "chain A",
+      "chain B",
+      "E. coli",
+      "separate plasmids",
+      "disulfide bonds",
+      "human insulin"
+    ],
+    "explanation": "In humans, proinsulin contains an extra connecting C-peptide that is excised during maturation. Eli Lilly bypassed C-peptide removal by engineering separate E. coli strains to express chain A and chain B independently, subsequently joining them in vitro via disulfide bridges.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-046",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Evolution",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): The forelimbs of whales, bats, cheetahs, and humans are homologous organs that provide compelling evidence of divergent evolution.\nReason (R): Although adapted for diverse functional needs (swimming, flying, running, grasping), they share an identical underlying anatomical skeletal plan (humerus, radius, ulna, carpals, metacarpals, phalanges) inherited from a common vertebrate ancestor.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Homology refers to anatomical structures sharing common developmental and ancestral origin that diverge morphologically to perform distinct functions in response to different environmental pressures (divergent evolution).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-047",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Organisms and Populations",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following biological population interactions represent beneficial associations where at least one species benefits without causing harm to the other (+ / + or + / 0)? (Select all that apply)",
+    "options": [
+      "Mutualism between mycorrhizal fungi and roots of higher gymnosperms (+ / +)",
+      "Commensalism between an orchid growing as an epiphyte on a mango tree branch (+ / 0)",
+      "Commensalism between barnacles growing on the back of a whale (+ / 0)",
+      "Amensalism where Penicillium fungus secretes penicillin inhibiting bacterial growth (0 / -)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Mutualism (+/+) benefits both species. Commensalism (+/0) benefits one species while leaving the host unaffected. Both are non-harmful associations. Amensalism is (-/0), where one species is harmed while the other is unaffected.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-048",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Ecosystem",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following environmental and chemical conditions ACCELERATE the rate of decomposition of detritus in an ecosystem? (Select all that apply)",
+    "options": [
+      "Warm ambient temperature (above 25°C)",
+      "Adequate soil moisture",
+      "Detritus rich in water-soluble substances and nitrogen",
+      "Detritus heavily enriched with lignin and chitin"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Decomposition is an oxygen-requiring process promoted by warmth, moisture, and chemical richness in nitrogen and sugars. Detritus rich in lignin, suberin, and chitin decomposes extremely slowly due to resistance to microbial enzymes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-049",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the chronological engineering stages of wastewater treatment in a municipal Sewage Treatment Plant (STP) from incoming raw sewage to purified water discharge:",
+    "orderedItems": [
+      "Sequential physical filtration through wire mesh screens to remove floating debris",
+      "Primary settling tank sedimentation to remove grit and settleable primary sludge",
+      "Vigorous mechanical aeration in secondary tanks allowing aerobic flocs to digest organic matter",
+      "Secondary settling tank sedimentation to separate activated sludge from clear effluent",
+      "Anaerobic sludge digestion of concentrated solids producing combustible biogas"
+    ],
+    "explanation": "Municipal sewage treatment progresses: Primary physical treatment (screening -> sedimentation) -> Secondary biological treatment (aeration flocs -> settling) -> Anaerobic sludge digestion (biogas generation).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-050",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the sequential biochemical events of bacterial (prokaryotic) transcription in chronological order from initiation to release:",
+    "orderedItems": [
+      "RNA polymerase core enzyme associates with sigma (σ) initiation factor to recognise the promoter sequence",
+      "Localised unwinding of DNA duplex to form an open transcription bubble",
+      "Synthesis of short initial ribonucleotide chain and release of sigma factor",
+      "Processive 5' -> 3' elongation of RNA transcript by the core RNA polymerase",
+      "Encounter with termination signal and binding of Rho (ρ) factor causing release of RNA and polymerase"
+    ],
+    "explanation": "Prokaryotic transcription cycle: (1) Sigma factor guides polymerase to promoter; (2) Open complex forms; (3) Initiation and sigma factor dissociation; (4) Processive elongation by core enzyme; (5) Rho-dependent or intrinsic termination releasing completed mRNA.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-051",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In developing coconut (Cocos nucifera), what morphological and anatomical distinction exists between the coconut water and the surrounding white fleshy kernel?",
+    "options": [
+      "Coconut water is free-nuclear endosperm containing thousands of free nuclei, while the white kernel is cellular endosperm",
+      "Coconut water is cellular endosperm, while the white kernel is free-nuclear endosperm",
+      "Coconut water is liquid nucellus, while the white kernel is perisperm",
+      "Coconut water is liquefied embryo, while the white kernel is cotyledon"
+    ],
+    "answer": 0,
+    "explanation": "In coconut, the primary endosperm nucleus undergoes repeated free nuclear divisions without immediate cytokinesis. The clear liquid coconut water is free-nuclear endosperm (made of thousands of nuclei), and subsequent cytokinesis along the periphery forms the white kernel (cellular endosperm).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-052",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Reproduction",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In the anatomy of a mature human spermatozoon, from which cellular organelle is the anterior cap-like acrosome derived, and what is its primary physiological role during fertilisation?",
+    "options": [
+      "Derived from the Golgi apparatus; contains hydrolytic sperm lysins (hyaluronidase, acrosin) that dissolve the egg envelope (zona pellucida)",
+      "Derived from mitochondria; generates ATP for sperm flagellar motility",
+      "Derived from the nucleus; stores condensed paternal chromatin",
+      "Derived from the endoplasmic reticulum; stores calcium ions for capacitation"
+    ],
+    "answer": 0,
+    "explanation": "The acrosome is a modified lysosome derived from the Golgi complex of the spermatid. It contains sperm lysins including hyaluronidase and acrosin (zona lysin) that digest the corona radiata and zona pellucida to allow sperm nucleus entry.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-053",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A man with blood group A (whose father was blood group O) marries a woman with blood group B (whose mother was blood group O). What are the possible blood groups and their theoretical probabilities among their children?",
+    "options": [
+      "Groups A, B, AB, and O in equal 25% (1:1:1:1) proportions",
+      "Only blood group AB (100%)",
+      "Only blood groups A and B (50% each)",
+      "Groups A and B (37.5% each) and group O (25%)"
+    ],
+    "answer": 0,
+    "explanation": "Because the man's father was blood group O (ii), the man must be heterozygous I^A i. Because the woman's mother was blood group O (ii), she must be heterozygous I^B i. A cross between I^A i and I^B i produces: I^A I^B (Group AB, 25%), I^A i (Group A, 25%), I^B i (Group B, 25%), and ii (Group O, 25%).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-054",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Hershey and Chase's 1952 bacteriophage experiment proving unequivocally that DNA is the hereditary genetic material, which specific radioactive radioisotopes were employed to label phage DNA and phage capsid protein coats respectively?",
+    "options": [
+      "Radioactive Phosphorus-32 (32P) for DNA, and Radioactive Sulfur-35 (35S) for protein coats",
+      "Radioactive Carbon-14 (14C) for DNA, and Nitrogen-15 (15N) for proteins",
+      "Radioactive Tritium (3H) for DNA, and Iodine-131 (131I) for proteins",
+      "Radioactive Sulfur-35 (35S) for DNA, and Phosphorus-32 (32P) for proteins"
+    ],
+    "answer": 0,
+    "explanation": "DNA contains phosphorus but no sulfur, so phage DNA was labeled with 32P. Viral capsid proteins contain sulfur (in methionine and cysteine) but no phosphorus, so proteins were labeled with 35S. Only 32P entered the bacterial cells, proving DNA is the genetic material.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-055",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which vectorless method of gene transfer introduces foreign recombinant DNA into target plant cells by bombarding them with high-velocity microscopic gold or tungsten microparticles coated with DNA?",
+    "options": [
+      "Biolistics (Gene gun)",
+      "Micro-injection",
+      "Electroporation",
+      "Heat-shock treatment"
+    ],
+    "answer": 0,
+    "explanation": "Biolistics or gene gun is widely used for plant cells: microscopic gold or tungsten particles (microprojectiles) coated with recombinant DNA are accelerated at high speed to penetrate the rigid cellulosic plant cell wall without destroying cellular viability.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-056",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology and its Applications",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The first clinical gene therapy trial was conducted in 1990 on a 4-year-old girl suffering from Severe Combined Immunodeficiency (SCID) caused by a hereditary defect in which vital enzyme?",
+    "options": [
+      "Adenosine Deaminase (ADA)",
+      "Glucocerebrosidase",
+      "Phenylalanine Hydroxylase",
+      "Tyrosinase"
+    ],
+    "answer": 0,
+    "explanation": "The pioneering gene therapy trial treated ADA deficiency (Adenosine Deaminase), an enzyme essential for purine metabolism and immune function. Functional ADA cDNA was introduced into patient's lymphocytes using a retroviral vector.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-057",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Reproduction",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "During human fertilization, the physical entry of sperm through the zona pellucida into the secondary oocyte induces the resumption and completion of meiotic division II, producing a second polar body and a haploid ovum (ootid).",
+    "answer": true,
+    "explanation": "The human secondary oocyte is arrested at metaphase of meiosis II. Sperm entry causes an intracellular calcium wave that degrades maturation-promoting factor, triggering completion of meiosis II to release the second polar body and create the haploid ovum.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-058",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Reproductive Health",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The statutory ban on prenatal sex determination using amniocentesis was legally enforced in India to curb the female foeticide epidemic.",
+    "answer": true,
+    "explanation": "Amniocentesis was designed as a diagnostic tool for fetal chromosomal abnormalities. Widespread misuse of fetal sex determination followed by female foeticide prompted a strict statutory legal ban under the PC-PNDT Act in India.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-059",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Organisms and Populations",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The North American kangaroo rat can survive indefinitely without drinking liquid water by utilizing metabolic water produced during cellular fat oxidation and by excreting concentrated hypertonic urine.",
+    "answer": true,
+    "explanation": "Kangaroo rats satisfy up to 90% of their water requirements from metabolic water produced by internal oxidation of dietary fats. They also possess extremely long loops of Henle to excrete concentrated urine and dry feces.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-060",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In eukaryotic chromatin packaging, the repeating structural unit consisting of ~200 base pairs of DNA wrapped around an octamer of basic positively charged proteins is called a _____.",
+    "answer": "nucleosome",
+    "acceptedAnswers": [
+      "nucleosome",
+      "nucleosomes"
+    ],
+    "explanation": "A nucleosome consists of negatively charged DNA wrapped around an octamer of positively charged basic histone proteins (two copies each of H2A, H2B, H3, and H4) stabilized by histone H1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-061",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Health and Disease",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Administering preformed antibodies or antitoxins directly to a patient exposed to lethal snake venom or tetanus toxin confers immediate protection known as artificial _____ immunity.",
+    "answer": "passive",
+    "acceptedAnswers": [
+      "passive",
+      "passive immunity",
+      "artificial passive"
+    ],
+    "explanation": "When pre-formed antibodies are injected directly into a patient rather than being produced by the host's own immune system, it is termed passive immunity.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-062",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each cause of biodiversity loss ('The Evil Quartet') with its documented ecological consequence:",
+    "pairs": [
+      [
+        "Habitat loss and fragmentation",
+        "Destruction of the Amazon rainforest ('lungs of our planet') reducing biodiversity"
+      ],
+      [
+        "Over-exploitation by humans",
+        "Extinction of Steller's sea cow and the Passenger pigeon"
+      ],
+      [
+        "Alien species invasion",
+        "Introduction of Nile perch into Lake Victoria causing extinction of over 200 cichlid fish species"
+      ],
+      [
+        "Co-extinctions",
+        "Obligate mutualistic extinction of a plant when its specific pollinator insect goes extinct"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "The 'Evil Quartet' describes the four major anthropogenic causes driving contemporary biodiversity loss according to NCERT Biology Class 12.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-063",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Ecosystem",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In a forest ecosystem, primary producers fix solar energy producing a Gross Primary Productivity (GPP) of 20,000 kcal/m^2/year. If autotrophic respiration (R) consumes exactly 20% of the gross fixed energy, calculate the Net Primary Productivity (NPP) in kcal/m^2/year.",
+    "answer": 16000,
+    "tolerance": 100,
+    "unit": "kcal/m^2/year",
+    "explanation": "Net Primary Productivity is the rate of organic matter stored after accounting for respiratory losses: NPP = GPP - R. Respiratory loss R = 0.20 * 20,000 = 4,000 kcal/m^2/yr. Thus, NPP = 20,000 - 4,000 = 16,000 kcal/m^2/year.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-064",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram shows the two-layered wall architecture of a mature angiosperm pollen grain. What is the prominent outer hard protective layer composed of sporopollenin that exhibits aperture germ pores?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"160\" cy=\"90\" r=\"65\" fill=\"#fef08a\" stroke=\"#ca8a04\" stroke-width=\"6\" stroke-dasharray=\"25,12\"/><circle cx=\"160\" cy=\"90\" r=\"50\" fill=\"#fef9c3\" stroke=\"#a16207\" stroke-width=\"2\"/><ellipse cx=\"150\" cy=\"80\" rx=\"20\" ry=\"15\" fill=\"#fed7aa\"/><text x=\"135\" y=\"85\" font-size=\"11\" fill=\"#7c2d12\">Vegetative cell</text><ellipse cx=\"175\" cy=\"110\" rx=\"12\" ry=\"8\" fill=\"#fed7aa\"/><text x=\"165\" y=\"115\" font-size=\"9\" fill=\"#7c2d12\">Generative</text><text x=\"215\" y=\"45\" font-size=\"12\" font-weight=\"bold\" fill=\"#dc2626\">Germ pore</text><text x=\"60\" y=\"165\" font-size=\"13\" font-weight=\"bold\" fill=\"#ca8a04\">Outer Layer (Exine) [ ? ]</text></svg>"
+    },
+    "options": [
+      "Exine",
+      "Intine",
+      "Tapetum",
+      "Endothecium"
+    ],
+    "answer": 0,
+    "explanation": "The outer wall of pollen grain is exine, composed of sporopollenin (one of the most resistant biological materials known, resistant to high temperature, strong acids, and enzymes). The apertures lacking sporopollenin are germ pores.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-065",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Health and Disease",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The structural schematic shows an immunoglobulin (antibody) molecule represented as H2L2. How many total interchain disulfide bonds link the two heavy chains together and connect each light chain to a heavy chain?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 120,40 L 150,90 L 150,150\" stroke=\"#0284c7\" stroke-width=\"4\" fill=\"none\"/><path d=\"M 220,40 L 190,90 L 190,150\" stroke=\"#0284c7\" stroke-width=\"4\" fill=\"none\"/><path d=\"M 90,40 L 120,90\" stroke=\"#16a34a\" stroke-width=\"3\" fill=\"none\"/><path d=\"M 250,40 L 220,90\" stroke=\"#16a34a\" stroke-width=\"3\" fill=\"none\"/><line x1=\"105\" y1=\"65\" x2=\"135\" y2=\"65\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"235\" y1=\"65\" x2=\"205\" y2=\"65\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"150\" y1=\"100\" x2=\"190\" y2=\"100\" stroke=\"#ef4444\" stroke-width=\"2\"/><line x1=\"150\" y1=\"110\" x2=\"190\" y2=\"110\" stroke=\"#ef4444\" stroke-width=\"2\"/><text x=\"70\" y=\"30\" font-size=\"11\" font-weight=\"bold\" fill=\"#dc2626\">Antigen-binding site</text><text x=\"140\" y=\"170\" font-size=\"12\" font-weight=\"bold\" fill=\"#0284c7\">Antibody (H₂L₂)</text></svg>"
+    },
+    "options": [
+      "Disulfide bonds connect the two heavy chains at the flexible hinge region and link each light chain to a heavy chain",
+      "Peptide bonds only, with no covalent disulfide linkages",
+      "Hydrogen bonds exclusively without any covalent bonds",
+      "Phosphodiester linkages connecting variable domains"
+    ],
+    "answer": 0,
+    "explanation": "An antibody is a Y-shaped glycoprotein made of two identical heavy (H) chains and two identical light (L) chains (H2L2) held together by interchain disulfide bonds.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-066",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Evolution",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The experimental apparatus represents Harold Urey and Stanley Miller's 1953 simulation of prebiotic Earth atmosphere. Which gaseous mixture subjected to high-voltage electric discharge resulted in the synthesis of simple amino acids (glycine, alanine, aspartic acid)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"160\" cy=\"65\" r=\"40\" fill=\"#f1f5f9\" stroke=\"#0284c7\" stroke-width=\"2\"/><line x1=\"140\" y1=\"50\" x2=\"155\" y2=\"65\" stroke=\"#f59e0b\" stroke-width=\"3\"/><line x1=\"180\" y1=\"50\" x2=\"165\" y2=\"65\" stroke=\"#f59e0b\" stroke-width=\"3\"/><text x=\"130\" y=\"70\" font-size=\"10\" font-weight=\"bold\" fill=\"#0284c7\">Spark 75,000V</text><text x=\"115\" y=\"20\" font-size=\"12\" font-weight=\"bold\" fill=\"#1e293b\">CH₄ + NH₃ + H₂ + H₂O</text><line x1=\"160\" y1=\"105\" x2=\"160\" y2=\"135\" stroke=\"#0284c7\" stroke-width=\"2\"/><rect x=\"145\" y=\"135\" width=\"30\" height=\"25\" fill=\"#dbeafe\" stroke=\"#1d4ed8\"/><text x=\"110\" y=\"175\" font-size=\"11\" fill=\"#1e293b\">Condenser & Trap (Amino acids)</text></svg>"
+    },
+    "options": [
+      "Methane (CH4), Ammonia (NH3), Hydrogen (H2), and Water vapour (H2O) at 800°C",
+      "Carbon dioxide (CO2), Oxygen (O2), and Nitrogen (N2)",
+      "Sulfur dioxide (SO2), Carbon monoxide (CO), and Ammonia",
+      "Pure Hydrogen and Oxygen gases at 100°C"
+    ],
+    "answer": 0,
+    "explanation": "Miller and Urey recreated primitive reducing Earth atmosphere containing CH4, NH3, H2 (ratio 2:2:1) and H2O vapour at 800°C with electric discharge. After one week, analysis revealed formation of amino acids (glycine, alanine, aspartic acid).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-067",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Name the bacterium responsible for fermenting milk into curd and explain how this microbial conversion enhances the nutritional value of curd over milk.",
+    "answer": "Lactic Acid Bacteria (LAB), such as Lactobacillus, convert milk into curd. LAB produce lactic acid that coagulates and partially digests milk proteins (casein), and they significantly increase nutritional value by enriching the curd with Vitamin B12.",
+    "acceptedAnswers": [
+      "Lactobacillus / Lactic Acid Bacteria (LAB); improves nutrition by increasing Vitamin B12",
+      "LAB (Lactobacillus); coagulates milk proteins and enriches Vitamin B12 content",
+      "Lactic Acid Bacteria (Lactobacillus), which increases Vitamin B12"
+    ],
+    "keywords": [
+      "Lactic Acid Bacteria",
+      "LAB",
+      "Lactobacillus",
+      "coagulates milk proteins",
+      "Vitamin B12",
+      "curd"
+    ],
+    "explanation": "LAB ferment lactose to lactic acid, precipitating milk proteins and preventing growth of harmful putrefying microbes in the stomach while synthesizing Vitamin B12.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-068",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Evolution",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Distinguish between divergent evolution and convergent evolution and provide one distinct biological example for each.",
+    "answer": "1. Divergent evolution is the diversification of an ancestral homologous structure along different lines in response to different adaptations (e.g., vertebrate forelimbs in whale, bat, cheetah, human). 2. Convergent evolution is the independent evolution of similar analogous functional structures in unrelated organisms occupying similar habitats (e.g., eye of octopus and mammal, or flippers of penguins and dolphins).",
+    "acceptedAnswers": [
+      "Divergent evolution arises from common ancestry leading to homologous structures (e.g. vertebrate forelimbs); convergent evolution arises from unrelated ancestors evolving analogous structures for similar niches (e.g. wings of bird and butterfly)",
+      "Divergent: common ancestry yielding homologous organs (vertebrate forelimbs); Convergent: different ancestry yielding analogous organs (eye of octopus and mammal)",
+      "Divergent evolution forms homologous structures from common ancestor; convergent evolution forms analogous structures independently"
+    ],
+    "keywords": [
+      "divergent evolution",
+      "convergent evolution",
+      "homologous",
+      "analogous",
+      "common ancestor",
+      "forelimbs",
+      "flippers"
+    ],
+    "explanation": "Divergent evolution reflects homology and common descent; convergent evolution reflects analogy and independent adaptation to similar selective pressures.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-069",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Define ecological biodiversity hotspots and name two biodiversity hotspots that cover significant territory in India.",
+    "answer": "Biodiversity hotspots are biogeographical regions with exceptionally high species richness and high degree of endemism (species found nowhere else) that face severe habitat destruction and accelerated threat of extinction. Two major hotspots in India are the Western Ghats (and Sri Lanka) and the Eastern Himalayas (Indo-Burma region).",
+    "acceptedAnswers": [
+      "Regions with high species richness and high endemism facing severe habitat threat; Western Ghats and Eastern Himalayas",
+      "Areas characterized by exceptional species diversity and high endemism under severe threat; Western Ghats and Indo-Burma/Himalayas",
+      "Regions with high species richness and endemism under threat; examples: Western Ghats, Himalayas"
+    ],
+    "keywords": [
+      "biodiversity hotspots",
+      "species richness",
+      "endemism",
+      "habitat loss",
+      "Western Ghats",
+      "Himalayas"
+    ],
+    "explanation": "Norman Myers designated 25 (now 36) global biodiversity hotspots covering less than 2% of Earth's land surface but containing over 50% of plant species. Western Ghats and Himalayas are prominent Indian hotspots.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-070",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): In the snapdragon plant (Antirrhinum majus), crossing a true-breeding red-flowered plant (RR) with a true-breeding white-flowered plant (rr) produces an F1 generation with all pink flowers (Rr).\nReason (R): This is an example of incomplete dominance where neither allele is completely dominant over the other, so the heterozygous genotype exhibits an intermediate phenotype.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "In snapdragon, the allele for red color (R) is incompletely dominant over white (r). Heterozygote Rr produces half the enzyme/pigment, resulting in pink flowers and yielding identical 1:2:1 phenotypic and genotypic ratios in F2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-071",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): Type II restriction endonucleases cleave both phosphodiester strands of double-stranded DNA at specific palindromic recognition sequences, often leaving staggered single-stranded 'sticky ends'.\nReason (R): The sticky ends facilitate recombinant DNA construction because their exposed complementary single-stranded overhanging bases can spontaneously base-pair via hydrogen bonds before DNA ligase seals the backbones.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Restriction endonucleases like EcoRI cleave between G and A on both strands at 5'-GAATTC-3', leaving identical 5'-AATT single-stranded overhangs (sticky ends) that readily anneal with complementary fragments by hydrogen bonding.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-072",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following reproductive adaptations in flowering plants represent outbreeding devices designed to PREVENT self-pollination and promote cross-pollination? (Select all that apply)",
+    "options": [
+      "Dichogamy: Pollen release and stigma receptivity are not synchronised in time",
+      "Herkogamy: Anther and stigma are placed at different spatial positions/heights",
+      "Self-incompatibility: Genetically determined inhibition of self-pollen germination on the stigma",
+      "Cleistogamy: Flowers remain permanently closed throughout anthesis"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Options A, B, and C are outbreeding devices that encourage cross-pollination. Option D (Cleistogamy) is an inbreeding mechanism where closed flowers invariably ensure self-pollination and autogamy (e.g., in Commelina, Viola).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-073",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Organisms and Populations",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following adaptations are characteristic of xerophytic desert plants (such as Opuntia and desert succulents)? (Select all that apply)",
+    "options": [
+      "Thick waxy cuticle on leaf and stem epidermal surfaces",
+      "Sunken stomata arranged in deep pits to minimise transpiration losses",
+      "Crassulacean Acid Metabolism (CAM) photosynthetic pathway opening stomata during cool nights",
+      "Stomata remaining wide open throughout the hottest hours of the day"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Desert xerophytes conserve water through thick cuticles, sunken stomata, leaf reduction/spines, and the CAM pathway where stomata open at night to fix CO2 into malate, remaining closed during the day. Option D is incorrect.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-074",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Molecular Basis of Inheritance",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the fundamental biological information transfer steps in the Central Dogma in correct chronological sequence:",
+    "orderedItems": [
+      "Nuclear genomic double-stranded DNA template",
+      "Transcription of DNA into single-stranded messenger RNA (mRNA) by RNA polymerase",
+      "Export of mature processed mRNA through nuclear pores to cytoplasmic ribosomes",
+      "Translation of mRNA triplets into a linear polypeptide amino acid sequence",
+      "Folding of polypeptide chain into functional tertiary protein conformation"
+    ],
+    "explanation": "The Central Dogma formulated by Francis Crick outlines flow of genetic information: DNA -> Transcription -> mRNA -> Ribosomal export -> Translation -> Functional protein.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-075",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Reproduction",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the chronological developmental stages of human oogenesis from prenatal origin to the completion of fertilisation:",
+    "orderedItems": [
+      "Mitotic proliferation of oogonia in the embryonic ovary to form millions of primary oocytes",
+      "Primary oocytes enter Meiosis-I and arrest at diplotene stage of prophase-I before birth",
+      "Pubertal gonadotropic stimulation resumes Meiosis-I, producing secondary oocyte and first polar body",
+      "Ovulation releases secondary oocyte arrested at metaphase-II of Meiosis-II",
+      "Sperm penetration triggers completion of Meiosis-II, releasing second polar body and zygote"
+    ],
+    "explanation": "Human oogenesis: Oogonia multiply in fetal ovary -> Meiosis I initiated and arrested at diplotene -> Resumed at puberty up to metaphase II -> Arrested secondary oocyte ovulated -> Fertilization releases metaphase II block to complete second meiosis.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-076",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Sexual Reproduction in Flowering Plants",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In several species of Citrus and Mango, multiple embryos develop within a single seed (polyembryony). What is the cellular origin of these additional asexual embryos?",
+    "options": [
+      "Maternal diploid nucellar cells surrounding the embryo sac divide, protrude into the embryo sac, and develop into embryos without fertilisation",
+      "Synergid cells undergo spontaneous apomictic fertilisation with endosperm",
+      "Antipodal cells fuse with diploid tapetal cells",
+      "Multiple pollen tubes fertilise several egg cells simultaneously"
+    ],
+    "answer": 0,
+    "explanation": "In adventive embryony (Citrus, Mango), diploid somatic nucellar cells surrounding the embryo sac start dividing, push into the embryo sac, and develop into functional embryos. Each ovule contains many such embryos, leading to polyembryony.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-077",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Reproduction",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Which of the following endocrine hormones are synthesized and secreted in human females EXCLUSIVELY during pregnancy?",
+    "options": [
+      "human Chorionic Gonadotropin (hCG), human Placental Lactogen (hPL), and Relaxin",
+      "Estrogen, Progesterone, and Luteinizing Hormone (LH)",
+      "Oxytocin, Prolactin, and Cortisol",
+      "Thyroxine, Insulin, and Aldosterone"
+    ],
+    "answer": 0,
+    "explanation": "hCG, hPL, and relaxin (produced by placenta and ovary) are produced in women only during pregnancy. Other hormones like estrogen, progesterone, prolactin, and cortisol are present throughout reproductive life but increase multifold during pregnancy.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-078",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Reproductive Health",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which contraceptive method provides the critical dual advantage of preventing conception while simultaneously protecting both partners against Sexually Transmitted Infections (STIs) and AIDS?",
+    "options": [
+      "Barrier methods such as male and female Condoms (e.g., Nirodh)",
+      "Intra-Uterine Devices (IUDs) such as Copper-T",
+      "Oral contraceptive combination steroid pills",
+      "Surgical sterilisation via tubectomy or vasectomy"
+    ],
+    "answer": 0,
+    "explanation": "Condoms (made of thin rubber/latex sheath) prevent mechanical contact and transmission of genital secretions, thus acting as the only contraceptive method that provides dual protection against unwanted pregnancy and STIs/AIDS.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-079",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "How does the genetic etiology of alpha-thalassemia differ from that of beta-thalassemia in humans?",
+    "options": [
+      "Alpha-thalassemia is governed by two closely linked genes (HBA1 and HBA2) on chromosome 16, whereas beta-thalassemia is governed by a single gene (HBB) on chromosome 11",
+      "Alpha-thalassemia is X-linked recessive, whereas beta-thalassemia is autosomal dominant",
+      "Alpha-thalassemia is a qualitative defect in haemoglobin, whereas beta-thalassemia is quantitative",
+      "Alpha-thalassemia results from trisomy 16, whereas beta-thalassemia is monosomy 11"
+    ],
+    "answer": 0,
+    "explanation": "Alpha-thalassemia is caused by deletion of one or more of the 4 alpha-globin alleles (genes HBA1 and HBA2 on chromosome 16). Beta-thalassemia is caused by mutations in a single gene (HBB on chromosome 11) with two alleles. Both are quantitative autosomal recessive disorders reducing globin chain synthesis.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-080",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Health and Disease",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "During HIV replication inside human macrophages and helper T-lymphocytes (CD4+ T cells), which viral enzyme transcribes the single-stranded viral genomic RNA into complementary double-stranded viral DNA?",
+    "options": [
+      "Reverse transcriptase",
+      "RNA-dependent RNA replicase",
+      "DNA ligase",
+      "Integrase"
+    ],
+    "answer": 0,
+    "explanation": "Human Immunodeficiency Virus (HIV) is an enveloped retrovirus containing two identical single-stranded RNA molecules. Inside the host cell, the viral enzyme reverse transcriptase synthesises viral DNA from the viral RNA template.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-081",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology and its Applications",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Why was periodic transfusion of genetically modified lymphocytes carrying functional ADA cDNA not a permanent therapeutic cure for children with Adenosine Deaminase deficiency?",
+    "options": [
+      "Because mature human lymphocytes are not immortal and have a finite operational lifespan, requiring periodic infusions",
+      "Because lymphocytes reject the retroviral vector through cytotoxic T-cell lysis",
+      "Because ADA cDNA integrates exclusively into heterochromatin and undergoes rapid epigenetic silencing",
+      "Because the genetically altered lymphocytes mutate into leukemia cells"
+    ],
+    "answer": 0,
+    "explanation": "Mature blood lymphocytes have a finite lifespan; hence the patient requires periodic infusions of genetically engineered lymphocytes. A permanent cure is possible only if the functional ADA gene is introduced into bone marrow stem cells during early embryonic development.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-082",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Organisms and Populations",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Gause's Competitive Exclusion Principle states that two closely related species competing for the exact same limiting resource cannot coexist indefinitely in the same ecological niche, and the competitively inferior species will ultimately be eliminated.",
+    "answer": true,
+    "explanation": "Gause's principle states that when two species compete for identical limiting resources, one will utilize the resource more efficiently and outcompete the other to extinction, unless resource partitioning evolves.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-083",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Ecosystem",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In a terrestrial forest or grassland ecosystem, a much larger fraction of total energy flows through the Detritus Food Chain (DFC) than through the Grazing Food Chain (GFC).",
+    "answer": true,
+    "explanation": "In terrestrial ecosystems, the majority of primary plant biomass dies and falls to the ground as litter fall/detritus rather than being consumed alive by herbivores; thus, energy flow through the DFC far exceeds that through the GFC. In aquatic ecosystems, the reverse is true (GFC dominates).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-084",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Health and Disease",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The secondary or anamnestic immune response upon re-infection with the same pathogen is exceptionally intense and rapid due to the presence of immunological _____ B and T lymphocytes produced during the primary response.",
+    "answer": "memory",
+    "acceptedAnswers": [
+      "memory",
+      "memory cells"
+    ],
+    "explanation": "During primary immune response, prolonged contact with an antigen generates memory B and memory T lymphocytes. Subsequent exposure triggers an anamnestic response with rapid, high-affinity antibody synthesis.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-085",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The molecular enzyme that acts as a 'biological glue' by catalysing the formation of covalent phosphodiester bonds between adjacent 3'-hydroxyl and 5'-phosphate ends of cut DNA fragments is DNA _____.",
+    "answer": "ligase",
+    "acceptedAnswers": [
+      "ligase",
+      "DNA ligase",
+      "T4 DNA ligase"
+    ],
+    "explanation": "DNA ligase seals nicks in double-stranded DNA by reforming phosphodiester linkages between adjacent nucleotides, linking recombinant insert and vector together.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-086",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In the IUCN Red List of threatened species, taxa facing an extremely high and immediate risk of extinction in the wild are designated as _____ Endangered.",
+    "answer": "Critically",
+    "acceptedAnswers": [
+      "Critically",
+      "Critically Endangered",
+      "critically endangered"
+    ],
+    "explanation": "The IUCN Red List categories for threatened species in order of increasing extinction threat are Vulnerable (VU), Endangered (EN), and Critically Endangered (CR).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-087",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Health and Disease",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each infectious human disease with its specific causative pathogen:",
+    "pairs": [
+      [
+        "Typhoid fever",
+        "Salmonella typhi (Gram-negative bacterium)"
+      ],
+      [
+        "Pneumonia",
+        "Streptococcus pneumoniae and Haemophilus influenzae"
+      ],
+      [
+        "Amoebiasis (amoebic dysentery)",
+        "Entamoeba histolytica (protozoan parasite)"
+      ],
+      [
+        "Ringworm skin infection",
+        "Microsporum, Trichophyton, and Epidermophyton fungi"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These represent common infectious human diseases and their causative microbes detailed in NCERT Class 12 Biology.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-088",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Microbes in Human Welfare",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each microbial industrial product with its specific producing organism:",
+    "pairs": [
+      [
+        "Swiss cheese with large gas holes",
+        "Propionibacterium sharmanii (bacterium)"
+      ],
+      [
+        "Roquefort cheese with distinct flavour",
+        "Penicillium roqueforti (fungus)"
+      ],
+      [
+        "Citric acid commercial synthesis",
+        "Aspergillus niger (fungus)"
+      ],
+      [
+        "Butyric acid commercial synthesis",
+        "Clostridium butylicum (bacterium)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Microorganisms produce distinctive acids, antibiotics, and fermented food textures through specialized metabolic pathways.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-089",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Principles of Inheritance and Variation",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In a monohybrid cross between homozygous tall (TT) and homozygous dwarf (tt) pea plants, 1200 plants are obtained in the F2 generation. How many plants among these 1200 are expected to have the heterozygous tall (Tt) genotype?",
+    "answer": 600,
+    "tolerance": 0,
+    "explanation": "The Mendelian monohybrid F2 genotypic ratio is 1 TT : 2 Tt : 1 tt (1/4 homozygous tall, 2/4 heterozygous tall, 1/4 homozygous dwarf). Therefore, the expected number of heterozygous tall (Tt) plants = (2 / 4) * 1200 = 600.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-090",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Reproduction",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The anatomical schematic shows the human female reproductive tract. In which specific anatomical region of the fallopian tube (oviduct) does fertilisation of the secondary oocyte by a sperm normally take place?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><path d=\"M 60,60 Q 110,30 170,70 Q 230,30 280,60\" stroke=\"#0284c7\" stroke-width=\"4\" fill=\"none\"/><ellipse cx=\"170\" cy=\"115\" rx=\"40\" ry=\"35\" fill=\"#fdf2f8\" stroke=\"#db2777\" stroke-width=\"2\"/><text x=\"150\" y=\"120\" font-size=\"12\" fill=\"#9d174d\">Uterus</text><circle cx=\"60\" cy=\"85\" r=\"14\" fill=\"#fef08a\" stroke=\"#ca8a04\"/><text x=\"45\" y=\"115\" font-size=\"11\" fill=\"#854d0e\">Ovary</text><circle cx=\"115\" cy=\"45\" r=\"10\" fill=\"#fee2e2\" stroke=\"#dc2626\"/><text x=\"80\" y=\"30\" font-size=\"12\" font-weight=\"bold\" fill=\"#dc2626\">Site [ ? ]</text><text x=\"210\" y=\"30\" font-size=\"11\" fill=\"#0284c7\">Fallopian tube</text></svg>"
+    },
+    "options": [
+      "Ampullary region (Ampulla)",
+      "Infundibulum with fimbriae",
+      "Isthmus junction",
+      "Uterine fundus cavity"
+    ],
+    "answer": 0,
+    "explanation": "The fallopian tube consists of infundibulum, ampulla, and isthmus. Fertilisation normally occurs in the wide, curved ampullary region (ampulla) of the fallopian tube.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-091",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The plasmid map represents the artificial cloning vector pBR322. Which selectable marker genes confer antibiotic resistance, and what is the function of the 'ori' sequence?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 200\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"160\" cy=\"100\" r=\"65\" fill=\"#f8fafc\" stroke=\"#1e293b\" stroke-width=\"3\"/><path d=\"M 160,35 A 65 65 0 0 1 225,100\" stroke=\"#0284c7\" stroke-width=\"8\" fill=\"none\"/><text x=\"195\" y=\"65\" font-size=\"12\" font-weight=\"bold\" fill=\"#0284c7\">tetʳ</text><path d=\"M 95,100 A 65 65 0 0 1 160,35\" stroke=\"#16a34a\" stroke-width=\"8\" fill=\"none\"/><text x=\"105\" y=\"65\" font-size=\"12\" font-weight=\"bold\" fill=\"#16a34a\">ampʳ</text><circle cx=\"160\" cy=\"165\" r=\"8\" fill=\"#f59e0b\"/><text x=\"148\" y=\"190\" font-size=\"12\" font-weight=\"bold\" fill=\"#b45309\">ori</text><text x=\"135\" y=\"105\" font-size=\"14\" font-weight=\"bold\" fill=\"#1e293b\">pBR322</text></svg>"
+    },
+    "options": [
+      "ampR and tetR act as selectable markers for antibiotic resistance; ori is the origin of replication controlling copy number",
+      "ampR and tetR code for restriction endonucleases; ori is the promoter",
+      "ampR and tetR are reporter genes producing fluorescent proteins",
+      "ori causes lysis of bacterial host cells"
+    ],
+    "answer": 0,
+    "explanation": "In pBR322, ampR and tetR genes confer resistance to ampicillin and tetracycline, functioning as selectable markers to identify transformants. The 'ori' (origin of replication) initiates DNA replication and dictates the plasmid copy number.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-092",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Ecosystem",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The flow diagram models biogeochemical phosphorus cycling in a terrestrial ecosystem. What is the natural primary abiotic reservoir pool of phosphorus from which phosphate ions enter the soil solution via weathering?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"60\" width=\"85\" height=\"40\" fill=\"#f1f5f9\" stroke=\"#475569\" stroke-width=\"2\"/><text x=\"25\" y=\"85\" font-size=\"12\" font-weight=\"bold\" fill=\"#1e293b\">Rock minerals</text><line x1=\"105\" y1=\"80\" x2=\"155\" y2=\"80\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"108\" y=\"70\" font-size=\"10\" fill=\"#0284c7\">Weathering</text><rect x=\"155\" y=\"60\" width=\"85\" height=\"40\" fill=\"#dbeafe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"165\" y=\"85\" font-size=\"12\" font-weight=\"bold\" fill=\"#1d4ed8\">Soil solution</text><line x1=\"240\" y1=\"80\" x2=\"280\" y2=\"80\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"285\" y=\"85\" font-size=\"12\" font-weight=\"bold\" fill=\"#16a34a\">Producers</text><text x=\"90\" y=\"155\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e293b\">Sedimentary Phosphorus Cycle</text></svg>"
+    },
+    "options": [
+      "Rock minerals containing phosphate salts",
+      "Atmospheric phosphate gases and water vapour",
+      "Dissolved oceanic bicarbonate deposits",
+      "Volcanic nitrogenous ash deposits"
+    ],
+    "answer": 0,
+    "explanation": "Phosphorus has a sedimentary biogeochemical cycle (no significant gaseous atmospheric phase). The natural reservoir of phosphorus is rock, which contains phosphorus in the form of phosphates released slowly into soil water by weathering.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-093",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Reproductive Health",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Explain how copper-releasing Intrauterine Devices (IUDs such as CuT, Cu7, Multiload 375) prevent pregnancy in women.",
+    "answer": "Copper-releasing IUDs slowly release copper ions (Cu2+) into the uterine cavity. The released copper ions suppress sperm motility and fertilising capacity, while the physical presence of the IUD promotes phagocytosis of spermatozoa within the uterus, preventing fertilisation.",
+    "acceptedAnswers": [
+      "Release Cu ions that suppress sperm motility and fertilising capacity, while increasing phagocytosis of sperms in uterus",
+      "Cu ions suppress sperm motility and fertilisation capacity and increase phagocytosis of sperms",
+      "Copper ions suppress sperm motility and reduce their fertilising power, preventing conception"
+    ],
+    "keywords": [
+      "copper ions",
+      "Cu2+",
+      "suppress sperm motility",
+      "fertilising capacity",
+      "phagocytosis",
+      "uterus"
+    ],
+    "explanation": "Cu ions released from copper-bearing IUDs act as a local spermicide, reducing sperm swimming speed and viability, and preventing successful fertilization.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-094",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology and its Applications",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Describe the cellular mechanism of RNA interference (RNAi) utilised to produce transgenic tobacco plants resistant to the root parasite nematode Meloidogyne incognita.",
+    "answer": "Using Agrobacterium tumefaciens vectors, nematode-specific genes were introduced into the host tobacco plant such that they produced both sense and anti-sense RNA strands. These complementary strands annealed to form double-stranded RNA (dsRNA), which triggered the host's post-transcriptional RNA interference pathway. When the nematode ingested host cell contents, the dsRNA silenced the specific nematode mRNA, preventing protein translation and causing parasite death.",
+    "acceptedAnswers": [
+      "Agrobacterium introduces sense and antisense RNA forming dsRNA that silences specific nematode mRNA by post-transcriptional gene silencing",
+      "Production of complementary sense and antisense RNAs forms dsRNA that triggers RNAi, silencing specific mRNA of the nematode",
+      "Host plant produces dsRNA that silences vital nematode mRNA through RNA interference, killing the parasite"
+    ],
+    "keywords": [
+      "RNA interference",
+      "RNAi",
+      "sense and anti-sense RNA",
+      "dsRNA",
+      "silencing",
+      "mRNA",
+      "Meloidogyne incognita"
+    ],
+    "explanation": "RNAi is a natural cellular defence in eukaryotes. Introducing double-stranded RNA complementary to a nematode essential mRNA targets the viral/foreign mRNA for cleavage by the RISC complex, silencing translation and protecting the plant.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-095",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Organisms and Populations",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): Brood parasitism in birds (such as the Asian koel laying eggs in the crow's nest) represents an evolutionary arms race between host and parasite.\nReason (R): The parasitic bird's eggs have evolved to closely mimic the host bird's eggs in size and coloration, reducing the probability of the host bird detecting and rejecting foreign eggs.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "In brood parasitism, the parasite shifts the energetic burden of incubation and parental care onto the host. To prevent host discrimination and nest ejection, parasitic cuckoo eggs have evolved precise morphological mimicry in egg color and pattern.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-096",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biodiversity and Conservation",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following conservation methods represent IN-SITU (on-site) conservation programs established in India? (Select all that apply)",
+    "options": [
+      "National Parks (e.g., Jim Corbett, Kaziranga)",
+      "Biosphere Reserves (e.g., Nilgiri, Sundarbans)",
+      "Sacred Groves (e.g., Khasi and Jaintia Hills in Meghalaya)",
+      "Zoological parks and Botanical gardens"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "In-situ conservation protects endangered species in their native natural habitats: National Parks, Sanctuaries, Biosphere Reserves, and traditional Sacred Groves. Zoological parks and Botanical gardens are ex-situ (off-site) conservation facilities.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-097",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Evolution",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following scientific disciplines provide direct empirical evidence supporting organic evolution from common ancestors? (Select all that apply)",
+    "options": [
+      "Paleontological fossil record demonstrating sequential geological evolutionary transitions",
+      "Comparative anatomy displaying homologous organ systems across divergent vertebrate classes",
+      "Biochemical universality of the genetic code, glycolysis, and ATP currency across all kingdoms",
+      "Spontaneous generation of maggots and mice from rotting hay and mud"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Fossils (paleontology), homology (comparative anatomy), and universal biochemistry (DNA, ATP, codons) provide undeniable scientific evidence of common descent. Spontaneous generation was disproven by Louis Pasteur.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-098",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Human Health and Disease",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the chronological life cycle stages of the malaria parasite (Plasmodium) inside the female Anopheles mosquito vector:",
+    "orderedItems": [
+      "Ingestion of male and female gametocytes from human blood during mosquito bite",
+      "Fertilisation of gametes and zygote formation within the mosquito digestive gut",
+      "Zygote transforms into motile ookinete and encysts on stomach wall as an oocyst",
+      "Sporogony inside oocyst produces thousands of infectious spindle-shaped sporozoites",
+      "Rupture of mature oocyst and migration of sporozoites to mosquito salivary glands"
+    ],
+    "explanation": "Sexual cycle of Plasmodium in mosquito: Gametocyte ingestion -> Gut fertilisation -> Ookinete penetration -> Oocyst formation -> Sporozoite release and migration into salivary glands.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-099",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Biotechnology: Principles and Processes",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the sequential laboratory steps of Recombinant DNA Technology (molecular gene cloning) in chronological order:",
+    "orderedItems": [
+      "Isolation and enzymatic purification of high molecular weight donor genomic DNA",
+      "Cleavage of DNA by specific restriction endonucleases at designated recognition sites",
+      "Electrophoretic separation and isolation of target gene fragment from agarose gel (elution)",
+      "Ligation of gene of interest into a cleaved plasmid cloning vector using DNA ligase",
+      "Transformation of recombinant chimeric vector into competent bacterial host cells",
+      "Selection of recombinant transformants and scaling up production in a stirred-tank bioreactor"
+    ],
+    "explanation": "Standard genetic engineering workflow: DNA isolation -> Restriction digestion -> Fragment elution -> Ligation -> Bacterial transformation -> Screening recombinants & bioreactor scale-up.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-bio-100",
+    "class": 12,
+    "subject": "biology",
+    "chapter": "Ecosystem",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the ecological trophic levels of a terrestrial grassland grazing food chain in order of increasing trophic level (from primary producers to apex predator):",
+    "orderedItems": [
+      "Trophic Level 1 (T1): Grasses and herbaceous primary autotrophic producers",
+      "Trophic Level 2 (T2): Herbivorous insects and grasshoppers (primary consumers)",
+      "Trophic Level 3 (T3): Insectivorous frogs and toads (secondary consumers)",
+      "Trophic Level 4 (T4): Snakes and carnivores (tertiary consumers)",
+      "Trophic Level 5 (T5): Hawks and raptors (quaternary / apex consumers)"
+    ],
+    "explanation": "Grassland food chain trophic levels: T1 (Grasses) -> T2 (Grasshoppers) -> T3 (Frogs) -> T4 (Snakes) -> T5 (Hawks). Each trophic level transfers approximately 10% of energy to the next.",
+    "marks": 1,
+    "volatile": false
+  }
+]

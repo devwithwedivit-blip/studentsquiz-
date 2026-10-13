@@ -1,0 +1,2047 @@
+[
+  {
+    "id": "c12-eng-001",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Last Lesson",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Alphonse Daudet's 'The Last Lesson', what did the schoolmaster M. Hamel write on the blackboard with a piece of chalk, bearing on with all his might, just before dismissing the school?",
+    "options": [
+      "'Vive La France!'",
+      "'Liberté, Égalité, Fraternité!'",
+      "'Alsace et Lorraine'",
+      "'Fin de la classe'"
+    ],
+    "answer": 0,
+    "explanation": "At the conclusion of his final French lesson in Alsace following the Prussian occupation order, M. Hamel stood up choking with emotion, picked up a piece of chalk, and wrote 'Vive La France!' (Long Live France!) as large as he could.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-002",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Lost Spring",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In 'Lost Spring' by Anees Jung, how does the psychological meaning and perception of garbage differ between the ragpicker children of Seemapuri and their elders?",
+    "options": [
+      "For the children, garbage is wrapped in wonder and excitement of finding a coin; for the elders, it is a daily means of survival",
+      "For the children, it is painful work; for the elders, it is profitable business",
+      "For the children, it is useless waste; for the elders, it provides toys",
+      "Both children and elders view garbage solely as an environmental hazard"
+    ],
+    "answer": 0,
+    "explanation": "Anees Jung contrasts the children's imaginative perspective with adult pragmatism: for the children, garbage holds the mystery and thrill of finding a ten-rupee note ('wrapped in wonder'), whereas for parents, it is strictly their sole daily means of survival.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-003",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - My Mother at Sixty-Six",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Kamala Das's poem 'My Mother at Sixty-Six', what poetic purpose and literary technique is achieved by introducing the imagery of 'young trees sprinting' and 'merry children spilling out of their homes'?",
+    "options": [
+      "Poignant juxtaposition of youthful vitality, vigour, and dynamic life against the frail, ashen, decaying mortality of her aging mother",
+      "Celebration of suburban festivities in Cochin during winter",
+      "A literal depiction of children running to catch a school bus",
+      "Humorous distraction to relieve the poet's travel anxiety"
+    ],
+    "answer": 0,
+    "explanation": "Kamala Das uses vivid sensory contrast: the vibrant, sprinting trees and joyful children rushing into the world represent surging life, vitality, and time racing forward, starkly highlighting the silent, helpless frailty and imminent demise of her elderly mother.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-004",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Keeping Quiet",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In 'Keeping Quiet', what does Pablo Neruda envision when he refers to an 'exotic moment' attained through counting to twelve and keeping still?",
+    "options": [
+      "A sublime, unprecedented interlude of universal silence free from mechanized haste, engines, and nationalistic discord",
+      "A grand diplomatic peace treaty signed between warring global superpowers",
+      "A complete biological cessation of life resembling permanent death",
+      "A festive spiritual celebration observed across world capitals"
+    ],
+    "answer": 0,
+    "explanation": "Neruda describes an 'exotic moment' as an extraordinary suspension of human greed, machinery, rush, and violence, where all humanity shares an introspective pause and profound sense of mutual brotherhood.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-005",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - The Third Level",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Jack Finney's story 'The Third Level', how did Charley's psychiatrist friend Sam Weiner initially interpret Charley's discovery of the third level at Grand Central Station?",
+    "options": [
+      "As a 'waking-dream wish fulfillment' serving as a psychological refuge from the modern world's insecurities, fears, and anxieties",
+      "As authentic proof of a secret underground railway built during the American Civil War",
+      "As a hallucination triggered by excessive philatelic stamp collection chemical fumes",
+      "As an elaborate practical joke orchestrated by railway conductors"
+    ],
+    "answer": 0,
+    "explanation": "Sam diagnoses Charley's experience as psychological escapism: a 'waking-dream wish fulfillment' allowing Charley to mentally escape the stresses, insecurities, wars, and anxieties of the modern 20th-century urban world.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-006",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - The Tiger King",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In Kalki's satirical tale 'The Tiger King', what fateful astrological prophecy was declared regarding the infant prince Jilani Jung Jung Bahadur of Pratibandapuram?",
+    "options": [
+      "That although he would grow into a warrior of warriors, his ultimate death would be caused by a tiger (specifically the hundredth tiger)",
+      "That he would drown in the Arabian Sea during his coronation",
+      "That he would lose his kingdom to the British East India Company",
+      "That he would renounce his royal throne and become an ascetic"
+    ],
+    "answer": 0,
+    "explanation": "The chief astrologer foretold that the prince was born under the hour of the Bull, and since the Bull and the Tiger are traditional enemies, his death would come from a tiger, specifically the hundredth tiger hunted.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-007",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which of the following represents the correct indirect speech transformation of the direct speech sentence: The investigator said to the officer, 'Where did you find this counterfeit currency note?'",
+    "options": [
+      "The investigator asked the officer where he had found that counterfeit currency note.",
+      "The investigator asked the officer that where did he find this counterfeit currency note.",
+      "The investigator enquired of the officer where had he found that counterfeit currency note.",
+      "The investigator told the officer where he found that counterfeit currency note."
+    ],
+    "answer": 0,
+    "explanation": "In reporting a wh-question: 'said to' changes to 'asked', no conjunction 'that' is used, wh-word 'where' connects the clause, simple past ('did find') shifts to past perfect ('had found'), and demonstrative 'this' changes to 'that'. Word order becomes affirmative (subject before verb).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-008",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Deep Water",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In 'Deep Water', William Douglas's intense phobia of water originated during his childhood when an older eighteen-year-old boy playfully tossed him into the nine-foot deep end of the YMCA swimming pool in Yakima.",
+    "answer": true,
+    "explanation": "The near-fatal drowning experience at the YMCA pool, where a big bruiser boy tossed young Douglas into the deep end, deeply traumatized him, inducing suffocation, terror, and lasting hydrophobia that took years of resolute training to overcome.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-009",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "According to standard CBSE English Core formatting conventions, a formal Notice must be enclosed within a neat boundary box and should strictly observe a word limit of 50 words.",
+    "answer": true,
+    "explanation": "CBSE marking scheme specifies that a notice carries 4 marks, must be enclosed inside a rectangular box, must feature the issuing authority, the word 'NOTICE', date, title, and key details (what, when, where, whom), within a 50-word limit.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-010",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Aunt Jennifer's Tigers",
+    "type": "truefalse",
+    "difficulty": "hard",
+    "question": "In Adrienne Rich's poem 'Aunt Jennifer's Tigers', the fierce, chivalric tigers pacing fearlessly across the embroidered tapestry symbolize Aunt Jennifer's repressed artistic spirit and her unconscious yearning for autonomy and freedom from patriarchal marital subjugation.",
+    "answer": true,
+    "explanation": "The needlework tigers represent Aunt Jennifer's suppressed inner desires: bright, proud, and unafraid of men under the tree, directly contrasting with her trembling fingers weighed down by 'Uncle's wedding band' and patriarchal domination.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-011",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Rattrap",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In Selma Lagerlöf's story 'The Rattrap', the vagabond peddler returned the stolen thirty kronor after being deeply reformed by the unconditional kindness, dignity, and compassion shown to him by Edla _____.",
+    "answer": "Willmansson",
+    "acceptedAnswers": [
+      "Willmansson",
+      "Edla Willmansson"
+    ],
+    "explanation": "Edla Willmansson's gentle hospitality and insistence on treating the peddler like a real captain awakened his latent goodness, prompting him to leave the stolen 30 kronor as a Christmas gift with a letter signed as Captain von Stahle.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-012",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - The Enemy",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In Pearl S. Buck's story 'The Enemy', Dr. Sadao Hoki and his wife Hana discovered an unconscious wounded white prisoner of war belonging to the United States _____ washed ashore on the Japanese coast during World War II.",
+    "answer": "Navy",
+    "acceptedAnswers": [
+      "Navy",
+      "US Navy",
+      "U.S. Navy"
+    ],
+    "explanation": "The injured American prisoner Tom was an American sailor from the US Navy, identified by the battered cap reading 'U.S. Navy'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-013",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vocabulary",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The literary device in which an adjective or epithet grammatically modifies a noun other than the person or thing to which it truly refers (such as 'gloomy days' or 'sleepless night') is called a transferred _____.",
+    "answer": "epithet",
+    "acceptedAnswers": [
+      "epithet",
+      "hypallage"
+    ],
+    "explanation": "Transferred epithet (or hypallage) occurs when an emotional modifier is shifted from the person experiencing it to an inanimate noun associated with it (e.g., 'gloomy days', 'fisherman's cold sea').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-014",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Lost Spring",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each literary character from Flamingo prose with their defining ambition or social circumstance:",
+    "pairs": [
+      [
+        "Saheb-e-Alam",
+        "Barefoot ragpicker in Seemapuri searching for gold amidst garbage dumps"
+      ],
+      [
+        "Mukesh",
+        "Son of an impoverished Firozabad bangle-maker determined to become a motor mechanic"
+      ],
+      [
+        "Sophie",
+        "Adolescent daydreamer fantasizing about meeting Irish footballer Danny Casey"
+      ],
+      [
+        "Kothamangalam Subbu",
+        "Loyal, multi-talented number two at Chennai's Gemini Studios"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These characters epitomize key social and psychological profiles examined in NCERT Class 12 Flamingo prose.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-015",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Poetry",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each poetic excerpt with its predominant literary figure of speech:",
+    "pairs": [
+      [
+        "'Trees sprinting, the merry children spilling'",
+        "Personification and kinetic imagery"
+      ],
+      [
+        "'Her face ashen like that of a corpse'",
+        "Simile"
+      ],
+      [
+        "'A bower quiet for us, and a sleep full of sweet dreams'",
+        "Metaphor"
+      ],
+      [
+        "'The massive weight of Uncle\\'s wedding band'",
+        "Hyperbole and symbol of marital oppression"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These lines demonstrate masterly poetic techniques deployed by Kamala Das, John Keats, and Adrienne Rich in the Class 12 English syllabus.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-016",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Under standard CBSE English Core curriculum guidelines for Class 12 board examinations, what is the prescribed maximum word limit for writing a short compositional Notice or Formal Invitation?",
+    "answer": 50,
+    "tolerance": 0,
+    "unit": "words",
+    "explanation": "CBSE guidelines strictly specify a word limit of 50 words for short writing tasks including Notices, Formal/Informal Invitations, and Replies.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-017",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram depicts the layout of an official Letter to the Editor for CBSE Class 12 English. What essential component must be placed directly beneath the Sender's Address before the Receiver's Designation?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 220\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"10\" width=\"260\" height=\"200\" fill=\"#ffffff\" stroke=\"#1e293b\" stroke-width=\"2\"/><text x=\"45\" y=\"35\" font-size=\"12\" fill=\"#0284c7\">1. Sender's Address</text><rect x=\"45\" y=\"45\" width=\"230\" height=\"20\" fill=\"#fee2e2\" stroke=\"#dc2626\"/><text x=\"90\" y=\"60\" font-size=\"12\" font-weight=\"bold\" fill=\"#dc2626\">Element [ ? ]</text><text x=\"45\" y=\"85\" font-size=\"12\" fill=\"#0284c7\">3. The Editor (Receiver's Address)</text><text x=\"45\" y=\"110\" font-size=\"12\" fill=\"#0284c7\">4. Subject: [Concise Statement]</text><text x=\"45\" y=\"135\" font-size=\"12\" fill=\"#0284c7\">5. Salutation (Sir / Madam)</text><text x=\"45\" y=\"160\" font-size=\"12\" fill=\"#16a34a\">6. Body Paragraphs (3 Parts)</text><text x=\"45\" y=\"195\" font-size=\"12\" fill=\"#0284c7\">7. Yours sincerely / Name</text></svg>"
+    },
+    "options": [
+      "Date of writing (e.g., 15 March 2026)",
+      "Subject line",
+      "Salutation",
+      "Sender's designation"
+    ],
+    "answer": 0,
+    "explanation": "In formal letter formatting, the Date must be written directly below the Sender's Address, leaving a line's space, followed by the Receiver's official designation and address.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-018",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Indigo",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "In 'Indigo' by Louis Fischer, why did Mahatma Gandhi strongly chide the Muzaffarpur lawyers and advise that peasants should stop taking their grievances to conventional law courts?",
+    "answer": "Gandhi argued that taking the impoverished and terrified Champaran peasants to court did little good because where the peasantry was so crushed and fear-stricken, law courts were practically useless; the real relief for them lay in becoming free from fear.",
+    "acceptedAnswers": [
+      "Peasants were crushed and fear-stricken, making law courts useless; real relief was freedom from fear",
+      "Because the peasants were terror-stricken and heavily exploited, and courts could not grant true relief until they were freed from fear",
+      "Gandhi believed law courts were useless for fear-stricken peasants and the primary need was to free them from fear of the British"
+    ],
+    "keywords": [
+      "crushed",
+      "fear-stricken",
+      "law courts",
+      "useless",
+      "free from fear",
+      "Champaran"
+    ],
+    "explanation": "Gandhi recognized that psychological liberation was the essential first step: until the tenant sharecroppers conquered their crippling fear of British landlords, legal proceedings remained futile.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-019",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - Journey to the End of the Earth",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "In Tishani Doshi's travelogue 'Journey to the End of the Earth', why is Antarctica regarded as the premier destination on Earth to study the planet's past, present, and future?",
+    "answer": "Antarctica holds in its pristine ice-cores half-million-year-old carbon records that reveal Earth's geological past (Gondwana breakup), current climate changes (melting ice sheets and ozone depletion), and future consequences of global warming without human interference or pollution.",
+    "acceptedAnswers": [
+      "It preserves half-million-year-old carbon records in ice cores and reveals past, present and future climate change without human distortion",
+      "Holds 500,000-year-old carbon records in ice cores and shows real effects of global warming and ozone depletion",
+      "Antarctica has pristine ice cores preserving historical carbon records and shows consequences of climate change clearly"
+    ],
+    "keywords": [
+      "ice cores",
+      "carbon records",
+      "half-million-year",
+      "climate change",
+      "global warming",
+      "Gondwana",
+      "pristine"
+    ],
+    "explanation": "Antarctica's untouched ecosystem and ice cores holding 500,000-year-old carbon records make it an open laboratory for analyzing past paleoclimate, current warming trends, and future planetary survival.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-020",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - A Thing of Beauty",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "In John Keats's poem 'A Thing of Beauty', what spiritual power does a 'shape of beauty' possess over human suffering, gloom, and despondence?",
+    "answer": "A shape of beauty lifts the dark pall from our gloomy, despondent spirits, removing disappointment, lack of noble natures, and unhealthful ways, providing eternal joy, peace, and spiritual solace that never fades into nothingness.",
+    "acceptedAnswers": [
+      "It removes the dark pall from our despondent spirits, providing everlasting joy and solace against sadness and suffering",
+      "Lifts the pall of gloom from dark spirits and offers unending joy and quiet breathing",
+      "Moves away the pall of sorrow and despondence, giving eternal joy and peace"
+    ],
+    "keywords": [
+      "shape of beauty",
+      "removes the pall",
+      "dark spirits",
+      "despondence",
+      "eternal joy",
+      "solace"
+    ],
+    "explanation": "Keats affirms that amidst human disappointment, malice, and suffering, encounters with natural and artistic beauty dispel despair and permanently nourish the human soul.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-021",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Last Lesson",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): M. Hamel declared that the French language was the most beautiful, clearest, and most logical language in the world, and urged his people to guard it among themselves and never forget it.\nReason (R): When an enslaved people are held captive, as long as they hold fast to their mother tongue, it is as if they possess the key to their prison.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "M. Hamel underscores language as the cornerstone of national identity and cultural freedom: retaining one's native language preserves collective consciousness, serving as an indestructible key to liberation from colonial or imperialist bondage.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-022",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - The Enemy",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): Dr. Sadao operated upon and saved the critically wounded American prisoner of war Tom despite knowing that sheltering an enemy during wartime was considered treason in Japan.\nReason (R): Dr. Sadao's medical training and professional Hippocratic ethics as a dedicated surgeon transcended narrow nationalistic hatred, compelling him to save human life regardless of wartime allegiance.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Pearl S. Buck dramatizes the universal human dilemma between narrow national chauvinism and broader humanitarian duty: as a doctor, Sadao's paramount duty is saving life, which triumphs over patriotic prejudice.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-023",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following elements are MANDATORY components that must be included in a formal Job Application with Curriculum Vitae (Bio-data) for Class 12 English Core? (Select all that apply)",
+    "options": [
+      "Covering letter specifying the post applied for and reference to the advertisement source",
+      "Tabular educational qualifications including examination passed, board/university, year, and percentage",
+      "Names and contact designations of at least two respectable professional referees",
+      "Detailed horoscope and genealogical ancestry of the candidate"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "A standard Class 12 job application consists of a formal covering letter and an attached bio-data/CV containing personal details, educational qualifications in a table, work experience, skills, and two references. Astrological horoscopes are irrelevant.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-024",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following sentences demonstrate strictly CORRECT subject-verb concord according to standard formal English grammar? (Select all that apply)",
+    "options": [
+      "Neither the principal nor the teachers were present in the auditorium.",
+      "The committee has submitted its unanimous recommendations to the ministry.",
+      "Bread and butter is his favourite breakfast every morning.",
+      "Each of the participating athletes have received a commemorative medal."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Sentences A, B, and C are correct: (A) With 'neither...nor', verb agrees with closer subject ('teachers were'); (B) Collective noun 'committee' acting unanimously takes singular verb 'has'; (C) 'Bread and butter' denotes a single culinary idea and takes singular verb 'is'. In (D), 'Each of' requires singular verb 'has received', not 'have'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-025",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - The Tiger King",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the chronological narrative events in Kalki's satirical story 'The Tiger King':",
+    "orderedItems": [
+      "The ten-day-old infant prince miraculously speaks and questions the royal astrologers",
+      "The Maharaja embarks on a relentless tiger hunting campaign across Pratibandapuram",
+      "The Maharaja marries a princess whose father's kingdom boasts extensive tiger populations",
+      "The Dewan secretly deposits an old circus tiger in the forest to satisfy the Maharaja's hundredth tiger quest",
+      "The Maharaja dies of septic infection caused by a crude wooden toy tiger gifted to his son"
+    ],
+    "explanation": "The story follows Jung Bahadur's life: Infancy prophecy -> Tiger hunting vow -> Marriage for tigers -> The staged 100th tiger -> Ironic death from a toy wooden tiger.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-026",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Poets and Pancakes",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Asokamitran's memoir 'Poets and Pancakes', why did English poet Stephen Spender's passionate speech at Gemini Studios leave the audience completely baffled and bewildered?",
+    "options": [
+      "His refined British accent and sophisticated literary references were wholly unintelligible to the Tamil-speaking film crew who produced simple mythological and folk films",
+      "He spoke entirely in Latin rather than English",
+      "He severely criticized Indian cinema and demanded immediate censorship",
+      "The microphone system malfunctioned throughout his lecture"
+    ],
+    "answer": 0,
+    "explanation": "Stephen Spender spoke about the poet's agony and thrill in sophisticated English with a heavy British accent. To Gemini Studios' Tamil-speaking staff, who made simple films for ordinary rural folk, his accent and literary discourse remained an impenetrable mystery.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-027",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Interview",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In 'The Interview', how does the celebrated Italian semiotician and novelist Umberto Eco explain his ability to produce an astonishing volume of scholarly monographs and bestselling fiction?",
+    "options": [
+      "By eliminating empty spaces and methodically utilizing 'interstices'—the small intervals of waiting time throughout the day",
+      "By working without sleep and employing a team of ghostwriters",
+      "By abandoning his university teaching duties entirely",
+      "By writing exclusively during sabbaticals in isolation"
+    ],
+    "answer": 0,
+    "explanation": "Umberto Eco explains his philosophical secret: the universe contains empty spaces, and so does human time. He works in these 'interstices' (empty pockets of time)—for example, writing an article while waiting for someone to ascend in an elevator from the ground floor to the third floor.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-028",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Going Places",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In A.R. Barton's story 'Going Places', how does Jansie serve as a pragmatic character foil to her classmate Sophie?",
+    "options": [
+      "Jansie is sensible, grounded in reality, and accepts their working-class socioeconomic fate (being earmarked for the biscuit factory), whereas Sophie indulges in escapist glamour fantasies",
+      "Jansie is wealthier and discourages Sophie out of jealousy",
+      "Jansie is an athlete who introduces Sophie to sports journalism",
+      "Jansie refuses to work and depends entirely on government welfare"
+    ],
+    "answer": 0,
+    "explanation": "Jansie represents sobering realism: she knows their modest family backgrounds and that both girls are destined to work in the local biscuit factory, whereas Sophie lives in an imaginative dreamworld of opening boutiques, becoming an actress, and dating Danny Casey.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-029",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - A Roadside Stand",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Robert Frost's poem 'A Roadside Stand', what does the poet stingingly criticize through the oxymoron 'greedy good-doers, beneficent beasts of prey'?",
+    "options": [
+      "Manipulative politicians and self-serving social reformers who pose as altruistic benefactors while calculatedly exploiting and stripping rural people of their independence",
+      "Wild predatory animals hunting livestock near village farms",
+      "Greedy city tourists bargaining over farm produce prices",
+      "Corrupt police officers demanding bribes from roadside vendors"
+    ],
+    "answer": 0,
+    "explanation": "Frost uses the biting oxymoron 'greedy good-doers, beneficent beasts of prey' to expose hypocritical political and social agencies that promise rural rehabilitation only to impose parasitic control, soothing villagers out of their wits and destroying their self-reliance.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-030",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - On the Face of It",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Susan Hill's play 'On the Face of It', what transformative life philosophy does the elderly, tin-legged Mr. Lamb impart to the bitter, withdrawn fourteen-year-old Derry?",
+    "options": [
+      "That true worth lies within; physical scars do not define a human being; and isolating oneself out of fear of mockery is worse than the injury itself",
+      "That Derry should undergo immediate plastic surgery to look normal",
+      "That society is universally cruel and Derry must retaliate with anger",
+      "That Derry should live as a hermit in the forest"
+    ],
+    "answer": 0,
+    "explanation": "Mr. Lamb teaches Derry that beauty and deformity are relative ('beauty and the beast'); weeds and flowers are both growing life. By listening to bees humming, reading books in a door-less house, and embracing the world, Derry learns that attitude, not appearance, shapes life.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-031",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - Memories of Childhood",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In 'The Cutting of My Long Hair', why did the Native American girl Zitkala-Sa weep, hide under a bed, and fiercely resist having her long hair shingled by the authorities at Carlisle Indian School?",
+    "options": [
+      "Because in her Native American heritage, short shingled hair was worn exclusively by mourners, and cut hair by cowards captured in war",
+      "Because she wished to dye her hair black instead",
+      "Because her mother had commanded her never to bathe or groom in school",
+      "Because the scissors used were rusty and painful"
+    ],
+    "answer": 0,
+    "explanation": "Zitkala-Sa explains that among her Dakota Sioux people, short hair was worn by mourners and shingled hair by captured cowards; long, beautiful hair was a badge of honour and cultural pride, making its forced cutting a profound assault on her identity.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-032",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which of the following represents the correct passive voice conversion of the active sentence: 'The heritage conservation society will have restored the historical monument before the tourist season commences.'?",
+    "options": [
+      "The historical monument will have been restored by the heritage conservation society before the tourist season commences.",
+      "The historical monument will be restored by the heritage conservation society before the tourist season commences.",
+      "The historical monument would have been restored by the heritage conservation society before the tourist season commences.",
+      "The historical monument has been restored by the heritage conservation society before the tourist season commences."
+    ],
+    "answer": 0,
+    "explanation": "Active future perfect ('will have + past participle') converts to passive future perfect ('will have been + past participle'): 'will have restored' -> 'will have been restored'.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-033",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Interview",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Nobel laureate V.S. Naipaul felt that being subjected to an interview is an ordeal in which some people are wounded and lose a part of their soul.",
+    "answer": true,
+    "explanation": "In 'The Interview', Christopher Silvester quotes V.S. Naipaul's conviction that an interview extracts something intimate from an author: 'people are wounded by interviews and lose a part of themselves.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-034",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - Memories of Childhood",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In 'We Too Are Human Beings', Bama first realized the humiliating reality of untouchability when she saw an elderly village man holding a packet of vadai by its string to deliver it to the upper-caste landlord without touching the food.",
+    "answer": true,
+    "explanation": "Bama initially found the sight comical, but when her elder brother Annan explained that lower-caste Dalits were forbidden from touching the food parcel lest it be polluted, she felt deep sorrow and righteous outrage.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-035",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Poets and Pancakes",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In Asokamitran's Gemini Studios, the brand name of the heavy makeup cake material bought by the truckload to paint actors into garish, glowing monsters was called _____.",
+    "answer": "Pancake",
+    "acceptedAnswers": [
+      "Pancake",
+      "Pancakes"
+    ],
+    "explanation": "Asokamitran humorously describes how Gemini Studios bought truckloads of 'Pancake' makeup (Max Factor Pancake) to apply heavily to actors under blazing incandescent studio lights.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-036",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - A Roadside Stand",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The poor rural shed owners in Frost's 'A Roadside Stand' do not beg for city bread or charitable dole, but plead desperately for some city _____ to circulate in hand to expand their living.",
+    "answer": "money",
+    "acceptedAnswers": [
+      "money",
+      "cash"
+    ],
+    "explanation": "Frost notes: 'It would not be fair to say for a dole of bread, / But for some of the money, the cash, whose flow supports / The flower of cities from sinking and withering faint.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-037",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - On the Face of It",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In the play 'On the Face of It', Mr. Lamb had one of his legs blown off in a war bomb explosion years ago and wore an artificial leg made of _____.",
+    "answer": "tin",
+    "acceptedAnswers": [
+      "tin",
+      "metal"
+    ],
+    "explanation": "Mr. Lamb tells Derry that street children call him 'Lamey-Lamb' because of his tin leg, which he lost in the war, but he refuses to let it embitter him.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-038",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "A formal invitation extended to an individual dignitary inviting them to preside over a school event as Chief Guest should be formatted in an official _____ format rather than a printed card format.",
+    "answer": "letter",
+    "acceptedAnswers": [
+      "letter",
+      "formal letter"
+    ],
+    "explanation": "When inviting a specific dignitary (such as a Minister, District Collector, or artist) as Chief Guest or Judge, CBSE format dictates an official formal letter rather than a public invitation card.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-039",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Literature",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each literary prose text with its distinguished author:",
+    "pairs": [
+      [
+        "'The Last Lesson'",
+        "Alphonse Daudet"
+      ],
+      [
+        "'The Rattrap'",
+        "Selma Lagerlöf"
+      ],
+      [
+        "'On the Face of It'",
+        "Susan Hill"
+      ],
+      [
+        "'The Enemy'",
+        "Pearl S. Buck"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These classic literary works represent core components of CBSE Class 12 English Core curriculum.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-040",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vocabulary",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each idiomatic English phrase with its precise contextual definition:",
+    "pairs": [
+      [
+        "'Burn the candle at both ends'",
+        "Exhaust one's energy by working relentlessly day and night"
+      ],
+      [
+        "'In cold blood'",
+        "Deliberately, ruthlessly, and without feeling or emotion"
+      ],
+      [
+        "'Spill the beans'",
+        "Inadvertently or prematurely disclose a secret"
+      ],
+      [
+        "'A feather in one's cap'",
+        "An accomplishment or achievement to be proud of"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These idiomatic expressions are frequently examined in advanced CBSE and CUET English vocabulary sections.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-041",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "According to CBSE Class 12 English Core examination guidelines, what is the upper limit of the prescribed word range for an Article or Report writing compositional piece (120–150 words)?",
+    "answer": 150,
+    "tolerance": 0,
+    "unit": "words",
+    "explanation": "CBSE English Core syllabus specifies 120-150 words for long writing tasks such as Article, Report, Speech, and Debate.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-042",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram shows the standard layout of a Formal Printed Invitation Card for a school Annual Day. What French abbreviation derived from 'Répondez s'il vous plaît' is placed in the bottom left corner requesting confirmation of attendance?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 200\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"15\" width=\"280\" height=\"170\" fill=\"#fdfbf7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"60\" y=\"45\" font-size=\"11\" fill=\"#78350f\">The Management, Staff and Students of</text><text x=\"75\" y=\"65\" font-size=\"13\" font-weight=\"bold\" fill=\"#78350f\">DELHI PUBLIC SCHOOL</text><text x=\"70\" y=\"85\" font-size=\"11\" fill=\"#78350f\">cordially invite you to the</text><text x=\"85\" y=\"105\" font-size=\"14\" font-weight=\"bold\" fill=\"#b45309\">ANNUAL AWARDS DAY</text><text x=\"70\" y=\"125\" font-size=\"11\" fill=\"#78350f\">on Sunday, 20 October at 5:00 PM</text><rect x=\"35\" y=\"145\" width=\"70\" height=\"25\" fill=\"#fef3c7\" stroke=\"#d97706\"/><text x=\"45\" y=\"162\" font-size=\"12\" font-weight=\"bold\" fill=\"#92400e\">[ ? ]</text><text x=\"180\" y=\"162\" font-size=\"11\" fill=\"#78350f\">Special Instructions</text></svg>"
+    },
+    "options": [
+      "RSVP",
+      "PS (Postscript)",
+      "NB (Nota Bene)",
+      "Encl (Enclosure)"
+    ],
+    "answer": 0,
+    "explanation": "RSVP stands for 'Répondez s'il vous plaît' ('Please respond'). It is placed at the bottom left of formal invitation cards alongside contact numbers to track attendee headcounts.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-043",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Rattrap",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram illustrates the core philosophical metaphor in Selma Lagerlöf's 'The Rattrap'. What does the world set out as 'bait' (represented by cheese and pork in a real trap) to ensnare human beings into the great rattrap of life?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"40\" y=\"40\" width=\"260\" height=\"100\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"3\" stroke-dasharray=\"10,6\"/><circle cx=\"170\" cy=\"90\" r=\"25\" fill=\"#fde047\" stroke=\"#ca8a04\" stroke-width=\"2\"/><text x=\"145\" y=\"95\" font-size=\"12\" font-weight=\"bold\" fill=\"#854d0e\">BAIT</text><text x=\"50\" y=\"25\" font-size=\"13\" font-weight=\"bold\" fill=\"#334155\">THE WORLD AS A RATTRAP</text><text x=\"60\" y=\"165\" font-size=\"12\" font-style=\"italic\" fill=\"#64748b\">\"Touches the bait -> Door closes forever\"</text></svg>"
+    },
+    "options": [
+      "Riches, joy, shelter, food, heat, and clothing",
+      "Academic fame and philosophical treatises",
+      "Religious piety and charitable donations",
+      "Solitude, poverty, and suffering"
+    ],
+    "answer": 0,
+    "explanation": "The peddler's philosophical realization is that the whole world is a giant rattrap existing for the sole purpose of setting baits for people: it offers riches, joys, food, and shelter just as the rattrap offers cheese and pork. As soon as one touches the bait, the trap snaps shut.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-044",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Poets and Pancakes",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "In 'Poets and Pancakes', describe the incident through which the legal adviser at Gemini Studios inadvertently brought an abrupt and tragic end to the promising career of a gifted young actress.",
+    "answer": "During a shooting temper tantrum, an extremely talented but naive young actress blew up at the producer. The legal adviser quietly turned on the recording equipment. When she paused for breath, he played back her shrill, enraged voice over the studio speakers. Humiliated and shattered by hearing her own uncontrolled outburst, the terrified girl never acted again.",
+    "acceptedAnswers": [
+      "He secretly recorded her temper tantrum against the producer and played it back to her, causing such humiliation and shock that she never acted again",
+      "Secretly recorded her angry outburst and played it back through the speakers; the humiliation ruined her acting career",
+      "He recorded her tirade on tape and played it back, shattering her confidence so she never returned to films"
+    ],
+    "keywords": [
+      "legal adviser",
+      "recorded",
+      "temper tantrum",
+      "played back",
+      "speakers",
+      "humiliation",
+      "career ended"
+    ],
+    "explanation": "The lawyer recorded the actress's outburst and played it back. Hearing her own unbridled fury over the loudspeakers mortified the unsophisticated girl so deeply that she left the film world permanently.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-045",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - Memories of Childhood",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "In 'We Too Are Human Beings', what empowering advice did Bama's elder brother Annan give her to conquer the systemic indignity of caste-based untouchability?",
+    "answer": "Annan told Bama that because they were born into an oppressed caste, people would never give them dignity or respect on their own. The only way to win respect and throw off these indignities was to study hard, excel in education, stand first in class, and gain learning so people would voluntarily come to her and befriend her.",
+    "acceptedAnswers": [
+      "He urged her to study with dedication and stand first in class, because education and academic success alone would earn dignity and respect",
+      "Study hard and learn everything; education would erase caste indignities and bring people to respect her",
+      "Told her that only education and studying hard could overcome untouchability and earn them dignity"
+    ],
+    "keywords": [
+      "study hard",
+      "education",
+      "stand first",
+      "dignity",
+      "respect",
+      "untouchability",
+      "Annan"
+    ],
+    "explanation": "Annan inspired Bama by emphasizing education as the great equalizer: if she excelled in school, people would admire her intellect and seek her friendship regardless of caste.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-046",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "State three formal stylistic conventions that distinguish an Informal Invitation Reply from a Formal Invitation Reply in Class 12 English Core.",
+    "answer": "1. Person: A formal reply is written strictly in the third person (he/she/they), whereas an informal reply uses first and second person (I/we/you). 2. Format: A formal reply does not use informal salutations or subscriptions ('Yours lovingly'), whereas an informal reply follows ordinary letter format with informal salutation and warm sign-off. 3. Tone and brevity: A formal reply is concise, formal, and objective without personal chatter, whereas an informal reply is warm, conversational, and personal.",
+    "acceptedAnswers": [
+      "Formal reply uses third person, has no salutation/subscription and concise tone; informal reply uses first person, letter format with personal salutation and warm tone",
+      "Formal is in third person, brief, without salutation; informal is in first person with friendly salutation and conversational tone",
+      "Formal uses third person and no informal address; informal uses first person, letter format, and warm personal language"
+    ],
+    "keywords": [
+      "third person",
+      "first person",
+      "salutation",
+      "subscription",
+      "letter format",
+      "formal tone",
+      "informal reply"
+    ],
+    "explanation": "Formal replies use 3rd person ('Mrs. and Mr. X thank...'), contain no signature, and express brief gratitude. Informal replies read like personal letters in 1st person ('I am thrilled to accept...').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-047",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - A Roadside Stand",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): In 'A Roadside Stand', the affluent city dwellers speeding past in polished cars rarely stop at the rustic stall, and if they ever do, it is merely to complain about the artless paint marring the scenic landscape or to ask for directions.\nReason (R): Urban consumerist society is engrossed in its own self-absorbed rush ('with a mind ahead'), demonstrating profound callousness and a total lack of empathy towards the struggling rural poor.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Frost highlights the social divide between urban prosperity and rural distress: motorists care about aesthetic scenery or reversing their cars, while remaining indifferent to the peasant's desperate plea for economic survival.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-048",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following structural elements are MANDATORY in an official Newspaper Report written for Class 12 English Core? (Select all that apply)",
+    "options": [
+      "A catchy, clear Headline summarizing the event in bold title case",
+      "By-line attributing the report (e.g., 'By Staff Reporter / Name')",
+      "Date and Place of reporting in the opening lead line (e.g., 'NEW DELHI, Oct 12:')",
+      "A signature block with complimentary close 'Yours faithfully' at the end"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "A newspaper report requires: Headline, By-line, and Lead line (Place and Date). It does NOT conclude with a complimentary close like 'Yours faithfully' (which is exclusive to formal letters).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-049",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vocabulary",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following pairs of advanced vocabulary words are accurate ANTONYMS? (Select all that apply)",
+    "options": [
+      "Ephemeral (fleeting) — Eternal (perpetual)",
+      "Altruistic (unselfish) — Egotistical (self-centered)",
+      "Gregarious (sociable) — Solitary (reclusive)",
+      "Meticulous (thorough) — Scrupulous (conscientious)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Pairs A, B, and C are antonyms: Ephemeral vs Eternal; Altruistic vs Egotistical; Gregarious vs Solitary. Pair D (Meticulous - Scrupulous) consists of synonyms (both meaning painstaking and thorough).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-050",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Rattrap",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the pivotal narrative milestones in the moral redemption of the peddler in 'The Rattrap' in chronological order:",
+    "orderedItems": [
+      "The peddler betrays the generous old crofter's hospitality by stealing his thirty kronor",
+      "Fleeing into the dense forest, he realizes he has walked into the world's giant rattrap",
+      "Seeking shelter at Ramsjö Ironworks, he is mistaken by the ironmaster for an old regimental comrade",
+      "Edla Willmansson persuades him to stay for Christmas Eve despite knowing he is an uneducated tramp",
+      "He leaves behind a package containing the stolen money and a letter signed as Captain von Stahle"
+    ],
+    "explanation": "The peddler's journey of redemption: Theft from crofter -> Lost in forest trap -> Mistaken identity at forge -> Edla's compassionate intervention -> Self-elevation to a true captain returning the stolen money.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-051",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Indigo",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Louis Fischer's 'Indigo', why did Mahatma Gandhi agree to a compromise settlement of merely 25% refund from the British planters to the Champaran sharecroppers, when the peasants had demanded 50%?",
+    "options": [
+      "Because breaking the planters' prestige and forcing them to surrender part of their money and imperial pride was far more significant than the monetary sum",
+      "Because the British planters threatened him with immediate deportation",
+      "Because the peasants were satisfied with 25% and refused further protest",
+      "Because the government commission had run out of compensation funds"
+    ],
+    "answer": 0,
+    "explanation": "Gandhi explained that the amount of the refund was less important than the fact that the British landlords had been obliged to surrender part of their money and, with it, part of their prestige. For the peasants, it broke the myth of the British lord's infallibility.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-052",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Interview",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In Christopher Silvester's 'The Interview', why did Umberto Eco vigorously insist on identifying himself as a university professor rather than a popular novelist?",
+    "options": [
+      "Because he considered academic teaching and scholarly semiotics his true lifelong vocation, writing novels only on Sundays and during holidays as a creative hobby",
+      "Because novelists were held in low public esteem in Italy",
+      "Because his novels had received poor reviews from literary critics",
+      "Because the university forbade its faculty from writing fictional works"
+    ],
+    "answer": 0,
+    "explanation": "Eco considered himself an academic first: 'I am a professor who writes novels on Sundays.' He identified with the academic community, attended philosophical conferences, and viewed narrative fiction as an extension of his serious semiotic interests.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-053",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Going Places",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In 'Going Places', what is the psychological reason behind Sophie's deep fascination with and confidences in her elder brother Geoff?",
+    "options": [
+      "Geoff is silent and taciturn, symbolizing an enigmatic adult world beyond her reach, and his quiet nature leads her to believe he will keep her wildest romantic fantasies safe without mocking her",
+      "Geoff shares her dream of opening a luxury fashion boutique in London",
+      "Geoff is a professional football teammate of Danny Casey",
+      "Geoff finances all her personal shopping trips"
+    ],
+    "answer": 0,
+    "explanation": "Geoff spoke very little, and Sophie envied his silence, imagining exotic areas of his life where he traveled alone. She confided her fabricated encounter with Danny Casey in Geoff because his quietness made him seem a safe repository for her fragile dreams.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-054",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - A Roadside Stand",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Robert Frost's 'A Roadside Stand', what profound social pathos is conveyed through the evocative phrase 'the voice of the country seems to complain'?",
+    "options": [
+      "The collective, unaddressed distress and deep-seated despair of neglected rural peasants whose pleas for economic fairness go unheard by urban politicians",
+      "The noise of farm tractors ploughing fields during harvesting",
+      "The complaints of city tourists about poor country roads",
+      "The environmental damage caused by industrial pollution in the countryside"
+    ],
+    "answer": 0,
+    "explanation": "Frost personifies the rural countryside: its 'voice' is the collective lament of the farming folk, disillusioned by empty political promises and aching for economic dignity rather than humiliating charity.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-055",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - Journey to the End of the Earth",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What was the visionary educational philosophy behind the 'Students on Ice' expedition to Antarctica headed by Canadian Geoff Green?",
+    "options": [
+      "To take high school students—the future policymakers—to Antarctica to provide hands-on ecological education and foster deep planetary respect and climate awareness",
+      "To train teenagers in competitive mountaineering and polar survival",
+      "To survey Antarctica for mineral and oil extraction",
+      "To establish commercial tourist cruises for affluent students"
+    ],
+    "answer": 0,
+    "explanation": "Geoff Green tired of taking wealthy celebrities and instead launched 'Students on Ice' to engage young students—future decision-makers—with real-world climate evidence so they would absorb, learn, and act to preserve Earth.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-056",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - The Third Level",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In 'The Third Level', what historical date did Charley observe on the front page of the yellowed newspaper 'The World' featuring President Grover Cleveland, confirming his arrival in the year 1894?",
+    "options": [
+      "June 11, 1894",
+      "July 4, 1876",
+      "December 25, 1899",
+      "January 1, 1900"
+    ],
+    "answer": 0,
+    "explanation": "Charley verified his time travel when he walked over to the newsboy and saw 'The World' (a newspaper discontinued years ago) carrying a story about President Cleveland and dated June 11, 1894.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-057",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Identify the grammatical error in the following sentence: 'Neither of the two candidates who was interviewed for the executive director's post were found suitable.'",
+    "options": [
+      "'were found' is incorrect and should be 'was found', because the distributive pronoun 'Neither' takes a singular verb",
+      "'was interviewed' is incorrect and should be 'were interviewed'",
+      "'executive director's' should be 'executive directors''",
+      "'candidates' should be 'candidate'"
+    ],
+    "answer": 0,
+    "explanation": "'Neither of' + plural noun is followed by a singular verb in standard formal grammar: 'Neither of the two candidates... was found suitable.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-058",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Last Lesson",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Little Franz was terrified of going to school on the morning of the last lesson because he had arrived very late and M. Hamel had announced he would question the class on the rules of participles, which Franz had not studied.",
+    "answer": true,
+    "explanation": "Franz feared being scolded because M. Hamel had said he would question them on participles, of which Franz did not know the very first word.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-059",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Deep Water",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "To eliminate William Douglas's crippling terror of water, a professional swimming instructor tied a belt around him attached to a rope passing through an overhead pulley, painstakingly building his swimming skills piece by piece over several months.",
+    "answer": true,
+    "explanation": "The instructor systematically deconditioned Douglas's panic by suspending him on a rope and pulley, teaching him to exhale underwater and inhale above water, and kicking his legs until he could swim smoothly.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-060",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - The Enemy",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Dr. Sadao aided the American prisoner Tom's secret escape by putting him in a sturdy boat stocked with food, bottled water, warm quilts, and a flashlight, instructing him to row to a nearby deserted island and await a Korean fishing boat.",
+    "answer": true,
+    "explanation": "Dr. Sadao avoided having the General's assassins kill Tom or surrendering him to the police; instead, he humanely arranged a boat, provisions, and a flashlight signaling system to ensure Tom's safe escape.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-061",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Lost Spring",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In Anees Jung's 'Lost Spring', the dark and stifling glass furnaces of Firozabad employ over 20,000 children who illegally spend their youth welding and shaping colourful glass _____.",
+    "answer": "bangles",
+    "acceptedAnswers": [
+      "bangles",
+      "bangle"
+    ],
+    "explanation": "Firozabad is the hub of India's glass-blowing industry, where generations of families are trapped in poverty making glass bangles for women across India.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-062",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Indigo",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The illiterate but resolute tenant sharecropper who relentlessly followed Mahatma Gandhi across India to bring him to Champaran was Rajkumar _____.",
+    "answer": "Shukla",
+    "acceptedAnswers": [
+      "Shukla",
+      "Rajkumar Shukla"
+    ],
+    "explanation": "Rajkumar Shukla was an impoverished sharecropper from Champaran whose stubborn determination ('resolute') finally persuaded Gandhi to board a train with him from Calcutta to Patna.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-063",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "In the formal subscription / complimentary close of an official letter (such as 'Yours sincerely' or 'Yours faithfully'), the word 'Yours' must never contain an _____ before or after the letter 's'.",
+    "answer": "apostrophe",
+    "acceptedAnswers": [
+      "apostrophe",
+      "apostrophe mark"
+    ],
+    "explanation": "A frequent grammatical error is writing 'Your's'. Possessive pronouns (yours, hers, ours, theirs) never take an apostrophe.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-064",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Prose",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each literary prose masterpiece with its overarching unifying metaphor:",
+    "pairs": [
+      [
+        "'The Rattrap'",
+        "The material world as an enticing trap of baits and lures"
+      ],
+      [
+        "'Lost Spring'",
+        "The stolen springtime and lost innocent childhood of child labourers"
+      ],
+      [
+        "'The Third Level'",
+        "A psychological railway corridor serving as a temporal refuge from modern anxiety"
+      ],
+      [
+        "'Indigo'",
+        "A local agrarian agitation evolving into a nationwide model of non-violent civil disobedience"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These thematic metaphors define the artistic depth of Class 12 English prose texts.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-065",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each grammatical sentence with its accurate verbal tense classification:",
+    "pairs": [
+      [
+        "'By next November, they will have completed the flyover.'",
+        "Future Perfect Tense"
+      ],
+      [
+        "'She had been studying for three hours before the power failed.'",
+        "Past Perfect Continuous Tense"
+      ],
+      [
+        "'The Earth revolves around the Sun in an elliptical orbit.'",
+        "Simple Present Tense (Universal Fact)"
+      ],
+      [
+        "'While the teacher was explaining, the bell rang.'",
+        "Past Continuous with Simple Past"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Accurate tense usage is essential for advanced sentence structuring in Class 12 editing and composition.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-066",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The structural diagram illustrates the format of a School Magazine Report for CBSE Class 12. What two key elements must precede the introductory paragraph of the body?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 200\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"15\" width=\"260\" height=\"170\" fill=\"#ffffff\" stroke=\"#0284c7\" stroke-width=\"2\"/><rect x=\"45\" y=\"25\" width=\"230\" height=\"25\" fill=\"#e0f2fe\"/><text x=\"80\" y=\"42\" font-size=\"12\" font-weight=\"bold\" fill=\"#0369a1\">HEADLINE / TITLE</text><rect x=\"45\" y=\"55\" width=\"140\" height=\"18\" fill=\"#f1f5f9\"/><text x=\"50\" y=\"68\" font-size=\"10\" fill=\"#475569\">BY-LINE (By: Name, Designation)</text><line x1=\"45\" y1=\"80\" x2=\"275\" y2=\"80\" stroke=\"#cbd5e1\"/><text x=\"45\" y=\"105\" font-size=\"11\" fill=\"#1e293b\">Para 1: Occasion, Date, Venue, Chief Guest</text><text x=\"45\" y=\"130\" font-size=\"11\" fill=\"#1e293b\">Para 2: Key Activities, Performances, Speeches</text><text x=\"45\" y=\"155\" font-size=\"11\" fill=\"#1e293b\">Para 3: Vote of thanks and concluding impact</text></svg>"
+    },
+    "options": [
+      "A catchy Headline/Title and a clear By-line stating the author's name/designation",
+      "Sender's full residential address and date of writing",
+      "Official salutation and subject line",
+      "Signature block and enclosures list"
+    ],
+    "answer": 0,
+    "explanation": "A School Magazine Report begins strictly with a centralized or left-aligned Title/Headline followed directly by the By-line (e.g., 'By: Rohan Sharma, Student Editor').",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-067",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Last Lesson",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The illustration shows M. Hamel's poignant last class in Alsace. Who sat quietly on the back benches that were usually empty, holding an old primer and wearing solemn expressions?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 340 180\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"20\" y=\"20\" width=\"300\" height=\"140\" fill=\"#f8fafc\" stroke=\"#334155\" stroke-width=\"2\"/><rect x=\"40\" y=\"30\" width=\"80\" height=\"40\" fill=\"#1e293b\"/><text x=\"50\" y=\"55\" font-size=\"11\" fill=\"#ffffff\">Blackboard</text><circle cx=\"160\" cy=\"55\" r=\"15\" fill=\"#e2e8f0\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"140\" y=\"85\" font-size=\"11\" font-weight=\"bold\" fill=\"#0284c7\">M. Hamel</text><rect x=\"40\" y=\"125\" width=\"260\" height=\"25\" fill=\"#fef3c7\" stroke=\"#d97706\"/><text x=\"65\" y=\"142\" font-size=\"12\" font-weight=\"bold\" fill=\"#b45309\">Elderly Village Folk on Back Benches [ ? ]</text></svg>"
+    },
+    "options": [
+      "The elderly village elders, including old Hauser, the former mayor, and the former postmaster",
+      "Prussian military commanders inspecting the classroom",
+      "Parents of students demanding tuition fee refunds",
+      "Inspectors from the Ministry of Education in Paris"
+    ],
+    "answer": 0,
+    "explanation": "The village elders (old Hauser with his three-cornered hat and primer, the former mayor, and the postmaster) sat on the back benches out of remorse that they had not attended school more, and to honour M. Hamel's forty years of faithful service.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-068",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Rattrap",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "In 'The Rattrap', why did the lonely old crofter show his thirty kronor savings to the peddler, and how did the peddler betray his generous hospitality the next morning?",
+    "answer": "The hospitable crofter showed the thirty kronor banknotes to the peddler because the peddler looked incredulous when the crofter claimed his cow yielded enough milk to earn thirty kronor last month. The peddler repaid this warm hospitality by returning thirty minutes after departure, smashing the window pane, and stealing the thirty kronor from the leather pouch.",
+    "acceptedAnswers": [
+      "Crofter showed the money to prove his earnings; peddler returned later, smashed the window and stole the thirty kronor",
+      "Showed 30 kronor because peddler seemed doubtful; peddler betrayed him by smashing the window pane and stealing the money",
+      "Crofter wanted to prove his cow's milk earned 30 kronor; peddler smashed the window and stole the money"
+    ],
+    "keywords": [
+      "crofter",
+      "incredulous",
+      "thirty kronor",
+      "smashed the window",
+      "stole",
+      "leather pouch",
+      "betrayed"
+    ],
+    "explanation": "The crofter lived alone and was thrilled to have company, proudly displaying his 30 kronor. The peddler succumbed to temptation, smashed the window, and stole the crofter's hard-earned savings.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-069",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Going Places",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "In 'Going Places', why did Sophie feel jealous of her brother Geoff's silence and reserve?",
+    "options": [],
+    "answer": "Sophie was jealous of Geoff's silence because she imagined that when he wasn't speaking, his thoughts wandered into an alluring, vast adult world where she had never been. She felt that there were places, people, and secrets in his life beyond her reach, and she desperately wanted to be admitted into his secret world.",
+    "acceptedAnswers": [
+      "She imagined his thoughts wandered into an unknown, exotic adult world beyond her reach that she yearned to share",
+      "Felt jealous because his silence concealed an exciting world of secrets, people, and places that she was excluded from",
+      "Believed his silence hid an unknown world of freedom and experience that she desperately wanted to enter"
+    ],
+    "keywords": [
+      "jealous",
+      "silence",
+      "unknown world",
+      "exotic places",
+      "secrets",
+      "Geoff",
+      "excluded"
+    ],
+    "explanation": "To Sophie, Geoff's reserve symbolized mystery and freedom: she romanticized his quietness as access to an exciting world from which she was currently excluded.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-070",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - On the Face of It",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "In 'On the Face of It', how does Derry's mother react when Derry announces he is returning to Mr. Lamb's garden, and what does her reaction reveal about societal prejudice?",
+    "answer": "Derry's mother vehemently forbids him from going, claiming she has heard disturbing rumours about Mr. Lamb and warning Derry that he doesn't know what kind of man he is. Her reaction reveals narrow-minded societal prejudice: society judges eccentric individuals through gossip and suspicion, reinforcing Derry's alienation rather than encouraging genuine human connection.",
+    "acceptedAnswers": [
+      "She forbids him to go based on rumours and gossip; reveals societal prejudice and suspicion toward misunderstood people like Mr. Lamb",
+      "Warns him not to go because of neighbourhood gossip; shows how society fears and stigmatizes unconventional people",
+      "She stops him because of rumours, showing societal bias and fear of anyone who lives differently"
+    ],
+    "keywords": [
+      "forbids him",
+      "rumours",
+      "gossip",
+      "societal prejudice",
+      "suspicion",
+      "Mr. Lamb",
+      "alienation"
+    ],
+    "explanation": "Derry's mother embodies conformist societal fear: she judges Mr. Lamb by hearsay rather than understanding him, demonstrating how prejudice isolates both Mr. Lamb and Derry.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-071",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Indigo",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): Mahatma Gandhi declared that the Champaran episode was the definitive turning point in his life and the Indian independence movement.\nReason (R): In Champaran, Gandhi demonstrated for the first time on Indian soil that spontaneous peasant solidarity and non-violent civil disobedience could compel the British Empire to concede, proving that the British could not order Indians about in their own country.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Champaran was Gandhi's first triumph of Satyagraha in India: it transformed an isolated agrarian complaint into a mass liberation movement, dismantling the psychological dread of the British administration.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-072",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Poets and Pancakes",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): The middle-aged 'office boy' of the makeup department at Gemini Studios harboured deep, bitter resentment and intense jealousy against Kothamangalam Subbu.\nReason (R): Subbu, despite possessing modest formal education, enjoyed the boss's complete confidence, was universally popular, and was gifted with boundless spontaneous creative solutions for film scenes.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The frustrated office boy considered himself a literary genius whose talents were wasted, projecting all his professional failures onto Subbu, who held the coveted 'Number Two' spot through sheer loyalty, adaptability, and creative resourcefulness.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-073",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following rhetorical and compositional conventions are ESSENTIAL when drafting a Formal Debate Speech for Class 12 English Core? (Select all that apply)",
+    "options": [
+      "A resolute, unambiguous stance declaring whether the speaker is speaking 'For' or 'Against' the motion",
+      "Formal salutation addressing the Chairperson, worthy judges, teachers, and audience",
+      "Substantive refutation of the counter-arguments anticipated from the opposing side",
+      "A fence-sitting conclusion suggesting that both sides are equally correct and nothing should be done"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "A debate speech must take a firm, unambiguous stand ('For' or 'Against'), address the panel politely, advance persuasive arguments, and rebut opposing views. Fence-sitting is an immediate penalty in debate scoring.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-074",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vocabulary",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following literary expressions feature an OXYMORON (a rhetorical figure combining contradictory terms)? (Select all that apply)",
+    "options": [
+      "'Greedy good-doers'",
+      "'Beneficent beasts of prey'",
+      "'Deafening silence'",
+      "'As quiet as a mouse'"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Options A, B, and C pair contradictory concepts: greedy + good-doers; beneficent + beasts of prey; deafening + silence. Option D ('As quiet as a mouse') is a standard simile.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-075",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Deep Water",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the chronological stages of William Douglas's systematic triumph over his water phobia in 'Deep Water':",
+    "orderedItems": [
+      "Near-drowning experience at YMCA pool instills deep terror and panic of water",
+      "Realising water phobia ruined his fishing trips, Douglas hires a professional instructor",
+      "Three months of belt-and-pulley practice learning underwater exhalation and kicking",
+      "Swimming across Lake Wentworth in New Hampshire to confront remnant traces of terror",
+      "Diving into Warm Lake and swimming across triumphantly, shouting with joy as fear vanishes"
+    ],
+    "explanation": "Douglas's journey of overcoming phobia: Pool trauma -> Resolving to learn -> Systematic training with instructor -> Testing in Lake Wentworth -> Ultimate victory at Warm Lake.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-076",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - A Thing of Beauty",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In John Keats's poem 'A Thing of Beauty', who are the 'mighty dead' whose grand doom Keats celebrates alongside natural wonders?",
+    "options": [
+      "The illustrious heroic ancestors and martyrs whose noble, selfless lives and inspiring deeds have been immortalized in heroic lore and timeless poetry",
+      "Deceased royalty buried in ornate mausoleums",
+      "Ancient Greek gods who ruled Mount Olympus",
+      "Fallen soldiers from Keats's contemporary Napoleonic wars"
+    ],
+    "answer": 0,
+    "explanation": "Keats associates beauty not only with nature (sun, moon, daffodils, clear rills) but also with human greatness: the 'mighty dead' are historic heroes whose noble lives, sacrifice, and inspiring stories constitute 'an endless fountain of immortal drink.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-077",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - The Interview",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In 'The Interview', why did Nobel laureate Saul Bellow describe the invasive nature of being interviewed as being 'like thumbprints on his windpipe'?",
+    "options": [
+      "Because he felt suffocated, choked, and constrained by interviewers prying into his private psyche and restricting his creative breathing space",
+      "Because he suffered from chronic respiratory asthma exacerbated by studio recording lights",
+      "Because an interviewer physically assaulted him during a radio recording",
+      "Because he resented public speaking at university convocations"
+    ],
+    "answer": 0,
+    "explanation": "Saul Bellow uses this vivid visceral metaphor ('thumbprints on his windpipe') to express the asphyxiating, intrusive sensation of being cornered and interrogated by journalists, feeling as if someone had their hands around his throat.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-078",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Poets and Pancakes",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In 'Poets and Pancakes', why did Frank Buchman's Moral Re-Armament Army (MRA), a touring group of 200 people of twenty nationalities, visit Gemini Studios in Madras in 1952?",
+    "options": [
+      "As an international anti-communist cultural initiative presenting simple morality plays ('Jotham Valley' and 'The Forgotten Factor') to counter growing communist influence in South India",
+      "To produce a high-budget international Hollywood movie with S.S. Vasan",
+      "To recruit Indian actors for Broadway theatre productions",
+      "To inspect the technical soundstages of South Indian cinema"
+    ],
+    "answer": 0,
+    "explanation": "The MRA was essentially a Cold War cultural front opposing international communism. Gemini Studios' proprietor S.S. Vasan welcomed them unaware of their political agenda, dazzled by their brilliant stage lighting, costumes, and moralistic plays.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-079",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - On the Face of It",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In Susan Hill's play 'On the Face of It', why does the lonely Mr. Lamb keep his garden gate wide open and leave his house windows without curtains?",
+    "options": [
+      "Because he loves light and darkness, enjoys listening to the wind, and refuses to shut the world or people out of his life",
+      "Because he cannot afford curtains or a wooden gate latch",
+      "Because he wants the neighborhood children to steal his sour crab apples",
+      "Because his doctor advised him to maximize ventilation for his health"
+    ],
+    "answer": 0,
+    "explanation": "Mr. Lamb tells Derry that he dislikes shutting things out: curtains shut out both the light and the dark, while he enjoys the natural world, the wind, the voices of bees, and welcomes all visitors who care to enter.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-080",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - Memories of Childhood",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In 'The Cutting of My Long Hair', what chilling piece of information did Zitkala-Sa's friend Judewin whisper to her, warning her of imminent cultural desecration?",
+    "options": [
+      "That she had overheard the pale-faced woman school supervisor say that the authorities intended to cut their long, heavy hair that very morning",
+      "That all Native American students would be expelled into the snow",
+      "That their traditional moccasins would be burned by the headmaster",
+      "That they would be forbidden from speaking their native Dakota language forever"
+    ],
+    "answer": 0,
+    "explanation": "Judewin, who understood a few English words, overheard the white supervisor announce the forced haircutting. While Judewin advised submission ('We have to submit, because they are strong'), Zitkala-Sa rebelled: 'No, I will not submit! I will struggle first!'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-081",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which of the following sentences correctly applies grammatical inversion to replace the conditional clause: 'If the government had enforced strict environmental regulations, the river pollution would have been prevented.'?",
+    "options": [
+      "Had the government enforced strict environmental regulations, the river pollution would have been prevented.",
+      "Should the government have enforced strict environmental regulations, the river pollution was prevented.",
+      "Were the government to enforce strict environmental regulations, the river pollution would have been prevented.",
+      "Had the government been enforcing strict environmental regulations, the river pollution had been prevented."
+    ],
+    "answer": 0,
+    "explanation": "Third conditional sentences ('If + past perfect') invert by dropping 'if' and placing auxiliary 'Had' before the subject: 'Had the government enforced...'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-082",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In a formal Article written for a national newspaper or school magazine, which structural section is specifically reserved for offering constructive solutions, policy recommendations, and forward-looking suggestions?",
+    "options": [
+      "The concluding paragraph / conclusion",
+      "The introductory title line",
+      "The opening hook paragraph",
+      "The by-line designation"
+    ],
+    "answer": 0,
+    "explanation": "An article follows a three-tier structure: Introduction (defining the issue), Body (analyzing causes and societal impact), and Conclusion (offering actionable remedies, government measures, and a vision for the future).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-083",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Going Places",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In 'Going Places', Sophie's father was an avid football fan who took his family to watch United play on Saturday, celebrating their two-nil victory with pints of beer at the local pub.",
+    "answer": true,
+    "explanation": "Sophie's working-class father loved football: they watched United win two-nil, cheered prodigy Danny Casey's second goal, and her father went to the pub to celebrate, reflecting the cultural fabric of English working-class life.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-084",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - A Roadside Stand",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "In 'A Roadside Stand', Robert Frost confesses that he sometimes finds it almost unbearable to witness the futile, childish longing of the rural folk waiting beside open windows for passing cars that never stop.",
+    "answer": true,
+    "explanation": "Frost writes: 'Sometimes I feel myself I can hardly bear / The thought of so much childish longing in vain, / The sadness that lurks near the open window there, / That waits all day in almost open prayer.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-085",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - My Mother at Sixty-Six",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "At the airport security checkpoint in Cochin, the poignant parting words that Kamala Das spoke to her frail, aging mother were 'See you soon, _____.'",
+    "answer": "Amma",
+    "acceptedAnswers": [
+      "Amma"
+    ],
+    "explanation": "Kamala Das masks her childhood fear of separation behind an affectionate farewell smile, saying: 'See you soon, Amma,' while smiling repeatedly to conceal her sorrow.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-086",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Keeping Quiet",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In 'Keeping Quiet', Pablo Neruda emphatically clarifies that his call for universal stillness must not be confused with total inactivity, stating that life is what it is about and he wants no truck with _____.",
+    "answer": "death",
+    "acceptedAnswers": [
+      "death"
+    ],
+    "explanation": "Neruda explicitly distinguishes peaceful self-examination from morbidity: 'What I want should not be confused / with total inactivity. / Life is what it is about; / I want no truck with death.'",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-087",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - The Third Level",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The tranquil year 1894 in Galesburg, Illinois, to which Charley desperately yearned to escape, was a peaceful era decades before the outbreak of World War I and World War _____.",
+    "answer": "II",
+    "acceptedAnswers": [
+      "II",
+      "Two",
+      "2"
+    ],
+    "explanation": "Charley romanticizes 1894 as a peaceful time when World War I was still twenty years away and World War II was over forty years in the future.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-088",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The standard opening convention of a formal Letter to the Editor begins: 'Through the columns of your _____ newspaper, I wish to draw the attention of the authorities concerned towards the pressing issue of...'",
+    "answer": "esteemed",
+    "acceptedAnswers": [
+      "esteemed",
+      "reputed",
+      "widely-read"
+    ],
+    "explanation": "'Through the columns of your esteemed newspaper...' is the time-tested, formal convention recommended by CBSE for opening an editorial letter.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-089",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vocabulary",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each literary quote with its predominant figurative device:",
+    "pairs": [
+      [
+        "'Ten thousand saw I at a glance'",
+        "Hyperbole (exaggeration for poetic effect)"
+      ],
+      [
+        "'Life is a roller coaster of unpredictable turns'",
+        "Metaphor (direct non-literal comparison)"
+      ],
+      [
+        "'The autumn wind whispered secrets through the trees'",
+        "Personification (human attribute to nature)"
+      ],
+      [
+        "'Her bittersweet memories brought both smiles and tears'",
+        "Oxymoron (pairing of contradictory words)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Mastery of figurative devices (hyperbole, metaphor, personification, oxymoron) is tested in both poetry comprehension and vocabulary sections.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-090",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - Literature",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each Vistas narrative with its primary thematic focus:",
+    "pairs": [
+      [
+        "'The Third Level'",
+        "Psychological escapism and temporal longing for pre-war peace"
+      ],
+      [
+        "'The Tiger King'",
+        "Satire on royal arrogance, autocratic pride, and wildlife slaughter"
+      ],
+      [
+        "'Journey to the End of the Earth'",
+        "Planetary climate vulnerability examined through polar ice cores"
+      ],
+      [
+        "'Memories of Childhood'",
+        "Double narratives of racial assimilation and caste untouchability"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These thematic descriptions capture the core literary substance of the Class 12 Vistas supplementary reader.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-091",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Under the current CBSE Class 12 English Core question paper blueprint, what is the maximum marks weighting assigned to a Long Writing Task (Article or Report)?",
+    "answer": 5,
+    "tolerance": 0,
+    "unit": "marks",
+    "explanation": "In Section B (Creative Writing Skills), the Long Writing Task (Article / Report) carries exactly 5 marks: Format (1 mark), Content (2 marks), and Expression (2 marks).",
+    "marks": 1,
+    "volatile": true
+  },
+  {
+    "id": "c12-eng-092",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram outlines the structural anatomy of an official Job Application Letter with attached Bio-data. What mandatory element must conclude the Covering Letter before the Bio-data attachment?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 200\" width=\"100%\" height=\"160\" xmlns=\"http://www.w3.org/2000/svg\"><rect x=\"30\" y=\"15\" width=\"260\" height=\"170\" fill=\"#ffffff\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"45\" y=\"35\" font-size=\"11\" fill=\"#475569\">Sender's Address & Date</text><text x=\"45\" y=\"55\" font-size=\"11\" fill=\"#475569\">Receiver's Address & Subject</text><text x=\"45\" y=\"75\" font-size=\"11\" fill=\"#475569\">Salutation (Sir/Madam)</text><text x=\"45\" y=\"95\" font-size=\"11\" fill=\"#1e293b\">Para 1: Reference to advertisement & post applied for</text><text x=\"45\" y=\"115\" font-size=\"11\" fill=\"#1e293b\">Para 2: Qualifications & professional experience</text><text x=\"45\" y=\"135\" font-size=\"11\" fill=\"#1e293b\">Para 3: Enclosure mention & interview availability</text><rect x=\"45\" y=\"145\" width=\"230\" height=\"25\" fill=\"#fef2f2\" stroke=\"#ef4444\"/><text x=\"60\" y=\"162\" font-size=\"11\" font-weight=\"bold\" fill=\"#dc2626\">Complimentary Close & Encl: Bio-data [ ? ]</text></svg>"
+    },
+    "options": [
+      "Complimentary close ('Yours faithfully'), signature, full name, and 'Encl: Bio-data / Resume'",
+      "A photograph of the candidate's family",
+      "Salary bank account number",
+      "List of personal hobbies and favourite books"
+    ],
+    "answer": 0,
+    "explanation": "A Job Application Covering Letter concludes with 'Yours faithfully', signature, full name in capitals, followed explicitly by 'Encl: Bio-data' indicating the attached curriculum vitae.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-093",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Poets and Pancakes",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Who was the enigmatic English poet who visited Gemini Studios in Madras, and how did Asokamitran finally solve the mystery of his identity years later?",
+    "answer": "The English visitor was poet and essayist Stephen Spender, editor of the British literary magazine 'The Encounter'. Years after leaving Gemini Studios, Asokamitran bought a low-priced copy of the book 'The God That Failed' (six essays by prominent writers describing their journey into communism and their disillusioned return). When he saw Stephen Spender's name among the contributors, the long-standing mystery of the visitor's identity and his speech at Gemini Studios was instantly unraveled.",
+    "acceptedAnswers": [
+      "Stephen Spender; Asokamitran discovered his identity years later upon reading the book 'The God That Failed'",
+      "Stephen Spender; solved when Asokamitran bought a cheap copy of 'The God That Failed' featuring Spender's name",
+      "The poet was Stephen Spender; mystery solved through the book 'The God That Failed'"
+    ],
+    "keywords": [
+      "Stephen Spender",
+      "The God That Failed",
+      "Gemini Studios",
+      "The Encounter",
+      "mystery solved"
+    ],
+    "explanation": "Asokamitran stumbled across 'The God That Failed' in Madras years later; seeing Spender's essay suddenly revealed why the anti-communist poet had visited S.S. Vasan's studio in 1952.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-094",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - A Roadside Stand",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "In 'A Roadside Stand', what radical, extreme solution does Robert Frost momentarily propose to end the chronic misery of the rural poor, and why does he immediately retract it the next day?",
+    "answer": "In an impulsive wave of unbearable pity and frustration, Frost confesses that it would be a merciful relief to put all these suffering country people out of their pain at one stroke (euthanasia/painless death). However, the next morning, as cool sanity and rational consciousness return, he retracts the desperate thought, wondering how he would feel if someone offered to put him out of his pain in the same manner.",
+    "acceptedAnswers": [
+      "He suggests putting them out of their pain at one stroke, but retracts it next day when sanity returns, realizing its horrifying moral implication",
+      "Momentarily wishes to end their suffering at one stroke, but regains sanity next morning and recognizes the cruelty of such a thought",
+      "Proposes putting them out of their misery at one stroke, but next day rational sanity returns and he takes it back"
+    ],
+    "keywords": [
+      "put them out of their pain",
+      "at one stroke",
+      "retracts",
+      "next morning",
+      "sanity returns",
+      "unbearable pity"
+    ],
+    "explanation": "Frost's momentary wish to put the suffering peasants 'at one stroke out of their pain' reflects intense emotional despair over their plight, which rational empathy forces him to repudiate upon reflection.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-095",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - The Enemy",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "In Pearl S. Buck's 'The Enemy', how did the old Japanese General Takima's selfish obsession with his own precarious health shield Dr. Sadao from being convicted of treason?",
+    "answer": "General Takima was frail, suffering from chronic cardiac ailment, and relied exclusively on Dr. Sadao's unparalleled surgical genius to keep him alive. Because the General trusted no other doctor in Japan for his emergency surgery, he could not afford to let Sadao be arrested or executed for harbouring an American prisoner, and even admitted he forgot to send the assassins because of his own self-absorption.",
+    "acceptedAnswers": [
+      "The General suffered from serious heart disease and trusted only Sadao to operate on him, so he could not afford to execute or arrest Sadao",
+      "General needed Sadao's surgical skill for his own life, so he protected Sadao and forgot to send the assassins due to selfish health worries",
+      "Because the General relied on Sadao for his own emergency surgery, he protected Sadao from arrest for treason"
+    ],
+    "keywords": [
+      "General Takima",
+      "heart disease",
+      "trusted only Sadao",
+      "surgical skill",
+      "selfish",
+      "forgot assassins",
+      "could not arrest"
+    ],
+    "explanation": "The General's supreme self-interest outweighed wartime national security: if Sadao were executed, the General would die on the operating table without a competent surgeon.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-096",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Vistas - The Tiger King",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are two statements labeled Assertion (A) and Reason (R):\nAssertion (A): The death of the Maharaja of Pratibandapuram by a tiny sliver of wood from a cheap toy tiger constitutes the supreme climax of dramatic irony in the narrative.\nReason (R): Despite annihilating ninety-nine ferocious living tigers in the wild with ruthless marksmanship to defeat the astrologer's prophecy, the Tiger King was ultimately slain by an inanimate, crude wooden toy tiger.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true but Reason (R) is false.",
+      "Assertion (A) is false but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Kalki's satire culminates in masterly dramatic irony: the monarch who slaughtered 99 fierce beasts to prove his supremacy over destiny falls victim to an infection caused by a tiny rough splinter from a wooden toy tiger bought for his son.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-097",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following stylistic defects should be STRICTLY AVOIDED when drafting a Formal Speech for CBSE Class 12 English Core? (Select all that apply)",
+    "options": [
+      "Colloquial slang and informal SMS-style text abbreviations (e.g., 'u', 'btw', 'gonna')",
+      "Disjointed rambling without structured logical paragraph transitions",
+      "Abruptly walking off without formally thanking the audience at the end",
+      "Using rhetorical questions and compelling evidence to persuade listeners"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Defects A, B, and C ruin a formal speech: colloquialisms, lack of coherence, and omitting 'Thank you!'. Option D (rhetorical questions and evidence) is an acclaimed oratorical asset.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-098",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Grammar and Editing",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "In which of the following sentences does the modal auxiliary express a strict NECESSITY or MORAL OBLIGATION? (Select all that apply)",
+    "options": [
+      "'All candidates must submit their application forms before the final deadline.'",
+      "'Citizens ought to respect the fundamental rights and freedoms of others.'",
+      "'Employees should adhere to the established safety protocols at all times.'",
+      "'It might rain heavily in the northern plains tomorrow afternoon.'"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "'Must' denotes strict necessity/compulsion; 'ought to' denotes moral obligation; 'should' denotes duty/recommendation. In (D), 'might' expresses weak possibility, not obligation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-099",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Writing Skills",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the chronological phases of composing a polished Article for a newspaper or school magazine in proper writing sequence:",
+    "orderedItems": [
+      "Brainstorm key themes and craft a catchy, thought-provoking Title and By-line",
+      "Draft an engaging opening paragraph introducing the central issue with context",
+      "Develop analytical body paragraphs examining underlying causes, societal impacts, and statistics",
+      "Formulate constructive remedies, pragmatic solutions, and governmental interventions",
+      "Conclude with an inspiring visionary message or powerful call to action"
+    ],
+    "explanation": "Standard article writing architecture: Title/By-line -> Engaging introduction -> In-depth body analysis -> Remedial measures -> Inspiring conclusion.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c12-eng-100",
+    "class": 12,
+    "subject": "english",
+    "chapter": "Flamingo - Indigo",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the historical milestones of the Champaran Satyagraha in 'Indigo' in chronological sequence from arrival to victory:",
+    "orderedItems": [
+      "Gandhi arrives in Champaran with Rajkumar Shukla to investigate sharecropper grievances",
+      "British commissioner serves Gandhi an official notice to quit Champaran, which Gandhi signs endorsing disobedience",
+      "Thousands of fearless peasants spontaneously encircle the Motihari courthouse, baffling colonial authorities",
+      "The Lieutenant-Governor drops all criminal charges against Gandhi, marking India's first civil disobedience triumph",
+      "Official commission of inquiry is constituted, compelling British planters to refund 25% of extorted money to peasants"
+    ],
+    "explanation": "Chronological sequence of Champaran campaign: Arrival -> Defying quit notice -> Peasant mobilization at Motihari -> Case dropped (first civil disobedience win) -> Commission inquiry and 25% refund.",
+    "marks": 1,
+    "volatile": false
+  }
+]

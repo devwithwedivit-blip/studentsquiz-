@@ -1,0 +1,1992 @@
+[
+  {
+    "id": "c10-gk-001",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the normal constitutional term of the Lok Sabha (House of the People) from the date appointed for its first meeting?",
+    "options": [
+      "5 years",
+      "6 years",
+      "4 years",
+      "Permanent body with no fixed term"
+    ],
+    "answer": 0,
+    "explanation": "Under Article 83(2) of the Constitution of India, the Lok Sabha has a normal duration of 5 years from its first sitting unless dissolved earlier by the President.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-002",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Regarding Money Bills under Article 109 of the Indian Constitution, which of the following statements is strictly accurate?",
+    "options": [
+      "A Money Bill can only be introduced in the Lok Sabha on the prior recommendation of the President, and the Rajya Sabha cannot reject or amend it",
+      "A Money Bill can originate in either House of Parliament provided the Prime Minister approves",
+      "The Rajya Sabha has 6 months to deliberate and can vote to reject a Money Bill",
+      "If the Rajya Sabha rejects a Money Bill, the President must summon a joint sitting of both Houses"
+    ],
+    "answer": 0,
+    "explanation": "Article 109 dictates that Money Bills originate exclusively in the Lok Sabha. The Rajya Sabha has only 14 days to return it with non-binding recommendations; no joint sitting is permitted.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-003",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Fundamental Rights and Duties",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which historic constitutional amendment inserted Article 21A, guaranteeing free and compulsory education to all children aged 6 to 14 years as a Fundamental Right?",
+    "options": [
+      "86th Constitutional Amendment Act, 2002",
+      "42nd Constitutional Amendment Act, 1976",
+      "44th Constitutional Amendment Act, 1978",
+      "91st Constitutional Amendment Act, 2003"
+    ],
+    "answer": 0,
+    "explanation": "The 86th Amendment Act of 2002 inserted Article 21A making elementary education a Fundamental Right, and added a corresponding 11th Fundamental Duty in Article 51A(k).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-004",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "The prerogative constitutional writ of 'Habeas Corpus' issued by the Supreme Court under Article 32 translates literally to which legal directive?",
+    "options": [
+      "To have the body of (demanding that a detained person be physically produced before the court)",
+      "We command (ordering a public official to perform their statutory duty)",
+      "By what warrant or authority (challenging usurpation of a public office)",
+      "To be more fully informed (quashing the illegal order of an inferior tribunal)"
+    ],
+    "answer": 0,
+    "explanation": "'Habeas Corpus' is Latin for 'you shall have the body'. It is issued against illegal or arbitrary detention, ordering the detaining authority to produce the prisoner in court.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-005",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Fundamental Rights and Duties",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "How many Fundamental Duties are currently prescribed for citizens of India under Article 51A of the Indian Constitution?",
+    "options": [
+      "11",
+      "10",
+      "12",
+      "7"
+    ],
+    "answer": 0,
+    "explanation": "The 42nd Amendment originally added 10 Fundamental Duties in 1976. The 86th Amendment in 2002 added an 11th duty (education for children aged 6-14), bringing the total to 11.",
+    "marks": 1,
+    "volatile": true
+  },
+  {
+    "id": "c10-gk-006",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Under Article 124 of the Constitution of India, up to what age does a Judge of the Supreme Court of India hold office?",
+    "options": [
+      "65 years",
+      "62 years",
+      "60 years",
+      "70 years"
+    ],
+    "answer": 0,
+    "explanation": "Judges of the Supreme Court of India hold office until they attain the age of 65 years. (In contrast, High Court judges hold office until 62 years of age).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-007",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The Vice President of India acts as the ex-officio Chairman of the Rajya Sabha (Council of States).",
+    "answer": true,
+    "explanation": "Under Article 64 and Article 89(1), the Vice President of India is the ex-officio Chairman of the Council of States and presides over its sessions.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-008",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Fundamental Rights and Duties",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Fundamental Duties were incorporated into Part IV-A of the Indian Constitution upon the recommendations of the Swaran Singh Committee via the 42nd Amendment Act in 1976.",
+    "answer": true,
+    "explanation": "The Sardar Swaran Singh Committee was appointed in 1976 to make recommendations about fundamental duties, leading directly to the enactment of the 42nd Amendment Act.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-009",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The Rajya Sabha is a permanent legislative chamber not subject to dissolution; one-third of its members retire every second year.",
+    "answer": true,
+    "explanation": "Under Article 83(1), the Rajya Sabha is a continuing body. Each member serves a six-year term, with one-third retiring biennially.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-010",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Under Article 84 of the Indian Constitution, a citizen must have attained a minimum age of ______ years to be qualified to be chosen as a Member of the Lok Sabha.",
+    "answer": "25",
+    "acceptedAnswers": [
+      "25",
+      "twenty five",
+      "twenty-five"
+    ],
+    "explanation": "The minimum constitutional age qualification is 25 years for the Lok Sabha and 30 years for the Rajya Sabha.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-011",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Fundamental Rights and Duties",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "Dr. B. R. Ambedkar described Article 32, which guarantees the Right to Constitutional ______, as the 'very heart and soul of the Indian Constitution'.",
+    "answer": "Remedies",
+    "acceptedAnswers": [
+      "Remedies",
+      "remedies"
+    ],
+    "explanation": "Article 32 provides the right to move the Supreme Court directly for the enforcement of Fundamental Rights via constitutional writs, making all other rights enforceable.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-012",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "The minimum attendance of members required to constitute a valid parliamentary sitting (one-tenth of the total membership of either House) is technically termed a ______.",
+    "answer": "quorum",
+    "acceptedAnswers": [
+      "quorum",
+      "Quorum"
+    ],
+    "explanation": "Under Article 100(3), the quorum to constitute a meeting of either House of Parliament is one-tenth of the total number of members of the House.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-013",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Fundamental Rights and Duties",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match the core categories of Fundamental Rights with their constitutional Article ranges in Part III of the Constitution:",
+    "pairs": [
+      [
+        "Right to Equality",
+        "Articles 14 to 18"
+      ],
+      [
+        "Right to Freedom",
+        "Articles 19 to 22"
+      ],
+      [
+        "Right against Exploitation",
+        "Articles 23 and 24"
+      ],
+      [
+        "Right to Freedom of Religion",
+        "Articles 25 to 28"
+      ]
+    ],
+    "explanation": "Articles 14-18 govern Equality; 19-22 govern Freedoms; 23-24 prohibit trafficking and child labour; 25-28 govern religious conscience.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-014",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the prerogative writs under Article 32 with their literal meanings and core functions:",
+    "pairs": [
+      [
+        "Habeas Corpus",
+        "Produce the body of a detained person to examine legality of detention"
+      ],
+      [
+        "Mandamus",
+        "We command: order directing a public official to perform mandatory legal duty"
+      ],
+      [
+        "Quo-Warranto",
+        "By what authority: questioning legal legitimacy of a person holding public office"
+      ],
+      [
+        "Certiorari",
+        "To be certified: quashing an order of an inferior court acting without jurisdiction"
+      ]
+    ],
+    "explanation": "Habeas Corpus tackles illegal custody; Mandamus enforces public duty; Quo-Warranto challenges office usurpation; Certiorari quashes ultra vires tribunal orders.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-015",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "According to Article 80 of the Constitution of India, what is the maximum constitutional strength permitted for the Rajya Sabha (Council of States)?",
+    "answer": 250,
+    "tolerance": 0,
+    "unit": "members",
+    "explanation": "Article 80 caps Rajya Sabha membership at 250 (up to 238 representatives of States and Union Territories, and 12 members nominated by the President).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-016",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "How many days is the Rajya Sabha permitted to retain a Money Bill transmitted by the Lok Sabha before it is automatically deemed to have been passed by both Houses?",
+    "answer": 14,
+    "tolerance": 0,
+    "unit": "days",
+    "explanation": "Under Article 109(5), if the Rajya Sabha does not return a Money Bill to the Lok Sabha within 14 days, it is deemed passed by both Houses in the form passed by the Lok Sabha.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-017",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the hierarchical pyramid diagram of the Indian single integrated judicial system below. Which institution occupies the apex tier as the final court of appeal and supreme interpreter of the Constitution?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"26\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Hierarchy of the Indian Judicial System</text><polygon points=\"260,42 160,85 360,85\" fill=\"#bfdbfe\" stroke=\"#1d4ed8\" stroke-width=\"2\"/><text x=\"260\" y=\"72\" font-size=\"13\" font-weight=\"bold\" fill=\"#1e3a8a\" text-anchor=\"middle\">Apex Tier [?]</text><polygon points=\"160,88 360,88 410,135 110,135\" fill=\"#dcfce7\" stroke=\"#15803d\" stroke-width=\"2\"/><text x=\"260\" y=\"118\" font-size=\"13\" font-weight=\"bold\" fill=\"#14532d\" text-anchor=\"middle\">High Courts (State Level)</text><polygon points=\"110,138 410,138 460,195 60,195\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><text x=\"260\" y=\"168\" font-size=\"13\" font-weight=\"bold\" fill=\"#78350f\" text-anchor=\"middle\">Subordinate Courts (District &amp; Sessions Courts)</text></svg>"
+    },
+    "options": [
+      "Supreme Court of India",
+      "Central Administrative Tribunal",
+      "National Green Tribunal",
+      "Law Commission of India"
+    ],
+    "answer": 0,
+    "explanation": "The Supreme Court of India stands at the pinnacle of the single integrated judicial system in India, holding appellate, original, and advisory jurisdiction.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-018",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Under Article 118(4) of the Constitution of India, which parliamentary presiding officer presides over a Joint Sitting of both Houses of Parliament?",
+    "sampleAnswer": "The Speaker of the Lok Sabha presides over a Joint Sitting of both Houses of Parliament.",
+    "acceptedAnswers": [
+      "Speaker of the Lok Sabha",
+      "The Speaker of the Lok Sabha",
+      "Lok Sabha Speaker"
+    ],
+    "keywords": [
+      "Speaker",
+      "Lok Sabha",
+      "presides",
+      "Joint Sitting"
+    ],
+    "explanation": "When the President summons a joint sitting under Article 108 to resolve legislative deadlock, the Speaker of the Lok Sabha presides (or Deputy Speaker in their absence).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-019",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Fundamental Rights and Duties",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "What historic constitutional principle did the Supreme Court establish in the landmark Kesavananda Bharati v. State of Kerala case (1973) regarding Parliament's power to amend Fundamental Rights?",
+    "sampleAnswer": "The Supreme Court established the 'Basic Structure Doctrine', ruling that while Parliament has broad constituent powers to amend the Constitution (including Fundamental Rights), it cannot alter, destroy, or abrogate the basic structure or essential framework of the Constitution.",
+    "acceptedAnswers": [
+      "Basic Structure doctrine preventing Parliament from altering core constitutional framework",
+      "Basic Structure Doctrine",
+      "Parliament cannot alter the basic structure of the Constitution"
+    ],
+    "keywords": [
+      "Basic Structure",
+      "doctrine",
+      "amend",
+      "Parliament",
+      "alter",
+      "essential",
+      "framework"
+    ],
+    "explanation": "The Kesavananda Bharati verdict affirmed that Article 368 does not grant Parliament unlimited power; constitutional amendments cannot violate the 'basic structure'.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-020",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): The Council of Ministers led by the Prime Minister is collectively responsible exclusively to the Lok Sabha and not to the Rajya Sabha.\nReason (R): Members of the Lok Sabha are directly elected by the sovereign citizens of India through universal adult suffrage, reflecting the primary democratic mandate.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Under Article 75(3), executive accountability is directly tied to the directly elected popular chamber (Lok Sabha), so only the Lok Sabha can pass a motion of no confidence.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-021",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Fundamental Rights and Duties",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): During the proclamation of a National Emergency under Article 352, the enforcement of Fundamental Rights under Article 20 and Article 21 cannot be suspended.\nReason (R): The 44th Constitutional Amendment Act (1978) amended Article 359 to safeguard the right to protection against retroactive criminal laws (Article 20) and the right to life and personal liberty (Article 21) against executive overreach during emergencies.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Following the 1975-77 emergency experience, the 44th Amendment ensured that fundamental protections of life, liberty, and criminal justice (Articles 20 and 21) remain non-derogable.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-022",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Fundamental Rights and Duties",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are Fundamental Duties prescribed under Article 51A of the Indian Constitution? (Select all that apply)",
+    "options": [
+      "To abide by the Constitution and respect its ideals and institutions, the National Flag and the National Anthem",
+      "To safeguard public property and to abjure violence",
+      "To develop the scientific temper, humanism and the spirit of inquiry and reform",
+      "To cast votes mandatorily in every general election"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Respecting national symbols, safeguarding public property, and developing scientific temper are explicit duties in Article 51A. Voting in elections is a civic duty, not an Article 51A duty.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-023",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following high constitutional authorities in India are appointed directly by the President of India under their warrant of hand and seal? (Select all that apply)",
+    "options": [
+      "Judges of the Supreme Court of India",
+      "Comptroller and Auditor General of India (CAG)",
+      "Governors of States",
+      "Chief Ministers of States"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Supreme Court judges, the CAG, and State Governors are appointed directly by the President. State Chief Ministers are appointed by their respective State Governors.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-024",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the judicial tiers of India's unified court system in ascending order of their jurisdictional hierarchy (from grassroots to apex):",
+    "orderedItems": [
+      "Munsiff and Judicial Magistrate Courts",
+      "Subordinate Courts of Senior Civil Judge and Chief Judicial Magistrate",
+      "District and Sessions Court",
+      "State High Court",
+      "Supreme Court of India"
+    ],
+    "answer": "ordered",
+    "explanation": "Judicial hierarchy: Magistrate/Munsiff -> Senior Subordinate -> District & Sessions -> High Court -> Supreme Court of India.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-025",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Parliament and Judiciary",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the standard procedural stages through which an ordinary legislative bill passes in Parliament to become an enforceable law (Act):",
+    "orderedItems": [
+      "First Reading (Formal introduction and publication in the Gazette)",
+      "Second Reading (General discussion, Committee scrutiny, and clause-by-clause voting)",
+      "Third Reading (Voting on the final acceptance or rejection of the bill in the House)",
+      "Transmission to and approval by the second House of Parliament",
+      "Presidential Assent and publication as an Act in the Official Gazette"
+    ],
+    "answer": "ordered",
+    "explanation": "Lawmaking stages: First reading -> Second reading -> Third reading -> Transmission to other House -> Presidential assent and gazette notification.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-026",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which group of five nations constitutes the permanent members (P5) of the United Nations Security Council possessing the power of veto?",
+    "options": [
+      "United States, United Kingdom, France, Russia, and China",
+      "United States, Germany, Japan, France, and United Kingdom",
+      "United States, India, Russia, Brazil, and South Africa",
+      "United Kingdom, France, Russia, Canada, and Australia"
+    ],
+    "answer": 0,
+    "explanation": "Under Article 23 of the UN Charter, the 5 permanent members of the UN Security Council with veto privileges are the Republic of China (PRC), France, the Russian Federation, the UK, and the USA.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-027",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Where is the permanent seat and headquarters of the International Court of Justice (ICJ), the principal judicial organ of the United Nations, located?",
+    "options": [
+      "The Peace Palace, The Hague, Netherlands",
+      "UN Headquarters, New York City, USA",
+      "Palais des Nations, Geneva, Switzerland",
+      "UNESCO House, Paris, France"
+    ],
+    "answer": 0,
+    "explanation": "Unlike the other five principal organs of the UN located in New York, the International Court of Justice is seated at the Peace Palace in The Hague, Netherlands.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-028",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the standard macroeconomic definition of Gross Domestic Product (GDP)?",
+    "options": [
+      "The total monetary market value of all final goods and services produced within the domestic territory of a country during a specific financial year",
+      "The total amount of currency notes printed by the central bank in circulation",
+      "The total value of all foreign exports minus the total value of raw imports",
+      "The aggregate personal income of all employed citizens before taxes"
+    ],
+    "answer": 0,
+    "explanation": "GDP measures the total monetary value of all final goods and services produced inside a nation's geographical borders within a given period (excluding intermediate double-counting).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-029",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In the monetary policy framework of the Reserve Bank of India (RBI), what does the term 'Repo Rate' signify?",
+    "options": [
+      "The interest rate at which the RBI lends short-term liquidity to commercial banks against pledged government securities",
+      "The interest rate at which commercial banks deposit excess funds with the RBI",
+      "The minimum savings interest rate that banks must provide to individual account holders",
+      "The tax levied by the government on corporate bank profits"
+    ],
+    "answer": 0,
+    "explanation": "Repo (Repurchase Option) Rate is the benchmark policy rate at which the central bank (RBI) lends money to commercial banks against approved government securities to control liquidity and inflation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-030",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the three major sectors of the Indian economy currently contributes the largest percentage share to India's Gross Domestic Product (GDP)?",
+    "options": [
+      "Tertiary (Services) Sector",
+      "Primary (Agriculture) Sector",
+      "Secondary (Manufacturing) Sector",
+      "Mining and Quarrying Sector"
+    ],
+    "answer": 0,
+    "explanation": "The Tertiary or Services sector (IT, banking, communications, trade, transportation, healthcare) accounts for over 53% of India's total Gross Value Added (GVA).",
+    "marks": 1,
+    "volatile": true
+  },
+  {
+    "id": "c10-gk-031",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "How many judges comprise the bench of the International Court of Justice (ICJ), and what is the duration of their elected tenure?",
+    "options": [
+      "15 judges elected for a 9-year term",
+      "10 judges elected for a 5-year term",
+      "21 judges elected for a 7-year term",
+      "9 judges appointed for life tenure"
+    ],
+    "answer": 0,
+    "explanation": "The ICJ consists of 15 judges elected to 9-year terms of office by the United Nations General Assembly and the Security Council voting concurrently.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-032",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "United Nations Day is officially commemorated globally on 24 October each year to mark the anniversary of the entry into force of the UN Charter in 1945.",
+    "answer": true,
+    "explanation": "The UN Charter took effect on 24 October 1945 after ratification by the permanent members and a majority of other signatories, celebrated annually as UN Day.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-033",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "'Disguised Unemployment' is an economic condition prevalent in Indian agriculture where more laborers are engaged on farmland than actually required, such that marginal productivity of excess workers is zero.",
+    "answer": true,
+    "explanation": "In disguised unemployment (hidden underemployment), pulling excess workers out of farming does not reduce total agricultural output because their marginal productivity is virtually zero.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-034",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The premier policy think-tank of the Government of India that replaced the 65-year-old Planning Commission on 1 January 2015 is named ______ Aayog.",
+    "answer": "NITI",
+    "acceptedAnswers": [
+      "NITI",
+      "Niti",
+      "NITI Aayog"
+    ],
+    "explanation": "NITI (National Institution for Transforming India) Aayog was constituted to foster cooperative federalism and bottom-up strategic planning, chaired by the Prime Minister.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-035",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The specified minimum fraction of total net demand and time liabilities (NDTL) that commercial banks must maintain in liquid cash deposits with the RBI is called the ______ Reserve Ratio (CRR).",
+    "answer": "Cash",
+    "acceptedAnswers": [
+      "Cash",
+      "cash"
+    ],
+    "explanation": "The Cash Reserve Ratio (CRR) mandates that commercial banks hold a prescribed percentage of their customer deposits as cash reserves with the Reserve Bank of India.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-036",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match the specialized agencies of the United Nations with their global headquarters cities:",
+    "pairs": [
+      [
+        "UNESCO",
+        "Paris, France"
+      ],
+      [
+        "World Health Organization (WHO)",
+        "Geneva, Switzerland"
+      ],
+      [
+        "Food and Agriculture Organization (FAO)",
+        "Rome, Italy"
+      ],
+      [
+        "International Monetary Fund (IMF)",
+        "Washington D.C., USA"
+      ]
+    ],
+    "explanation": "UNESCO is headquartered in Paris; WHO in Geneva; FAO in Rome; and the IMF in Washington D.C.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-037",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "How many sovereign member states currently comprise the full membership of the United Nations General Assembly?",
+    "answer": 193,
+    "tolerance": 0,
+    "unit": "nations",
+    "explanation": "There are currently 193 sovereign member states in the UN (with the Republic of South Sudan admitted as the 193rd member in July 2011), along with 2 permanent observer states.",
+    "marks": 2,
+    "volatile": true
+  },
+  {
+    "id": "c10-gk-038",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "How many non-permanent member countries are elected by the UN General Assembly to serve on the United Nations Security Council for two-year terms?",
+    "answer": 10,
+    "tolerance": 0,
+    "unit": "members",
+    "explanation": "The UN Security Council consists of 15 members: 5 permanent members and 10 non-permanent members elected regionally for non-consecutive two-year terms.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-039",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In what calendar year was the Reserve Bank of India (RBI) established as India's central banking institution under the Reserve Bank of India Act?",
+    "answer": 1935,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "The Reserve Bank of India commenced operations on 1 April 1935 in accordance with the provisions of the Reserve Bank of India Act, 1934, based on Hilton Young Commission recommendations.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-040",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "Examine the classification diagram of the three primary sectors of the economy below. Which sector directly exploits natural resources to extract raw materials (such as farming, forestry, fishing, and mining)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 220\" width=\"100%\" height=\"220\"><rect width=\"520\" height=\"220\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"26\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Three Sectors of Economic Activities</text><rect x=\"20\" y=\"55\" width=\"145\" height=\"125\" rx=\"8\" fill=\"#dcfce7\" stroke=\"#16a34a\" stroke-width=\"2\"/><text x=\"92\" y=\"82\" font-size=\"14\" font-weight=\"bold\" fill=\"#15803d\" text-anchor=\"middle\">Sector A [?]</text><text x=\"92\" y=\"108\" font-size=\"11\" fill=\"#334155\" text-anchor=\"middle\">• Agriculture</text><text x=\"92\" y=\"128\" font-size=\"11\" fill=\"#334155\" text-anchor=\"middle\">• Forestry &amp; Fishing</text><text x=\"92\" y=\"148\" font-size=\"11\" fill=\"#334155\" text-anchor=\"middle\">• Mining &amp; Minerals</text><rect x=\"185\" y=\"55\" width=\"150\" height=\"125\" rx=\"8\" fill=\"#fef3c7\" stroke=\"#d97706\" stroke-width=\"2\"/><text x=\"260\" y=\"82\" font-size=\"14\" font-weight=\"bold\" fill=\"#b45309\" text-anchor=\"middle\">Secondary Sector</text><text x=\"260\" y=\"108\" font-size=\"11\" fill=\"#334155\" text-anchor=\"middle\">• Manufacturing</text><text x=\"260\" y=\"128\" font-size=\"11\" fill=\"#334155\" text-anchor=\"middle\">• Industrial Factories</text><text x=\"260\" y=\"148\" font-size=\"11\" fill=\"#334155\" text-anchor=\"middle\">• Construction</text><rect x=\"355\" y=\"55\" width=\"145\" height=\"125\" rx=\"8\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"427\" y=\"82\" font-size=\"14\" font-weight=\"bold\" fill=\"#0369a1\" text-anchor=\"middle\">Tertiary Sector</text><text x=\"427\" y=\"108\" font-size=\"11\" fill=\"#334155\" text-anchor=\"middle\">• Transport &amp; Storage</text><text x=\"427\" y=\"128\" font-size=\"11\" fill=\"#334155\" text-anchor=\"middle\">• Banking &amp; Insurance</text><text x=\"427\" y=\"148\" font-size=\"11\" fill=\"#334155\" text-anchor=\"middle\">• IT &amp; Healthcare</text></svg>"
+    },
+    "options": [
+      "Primary Sector",
+      "Secondary Sector",
+      "Tertiary Sector",
+      "Quaternary Sector"
+    ],
+    "answer": 0,
+    "explanation": "The Primary sector involves direct extraction and harvesting of natural biological and geological resources (agriculture, animal husbandry, forestry, fishing, mining).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-041",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "Observe the United Nations organizational chart below. Which of the six principal organs shown functions as the supreme judicial arbiter of international law between sovereign states?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 520 230\" width=\"100%\" height=\"230\"><rect width=\"520\" height=\"230\" fill=\"#f8fafc\" rx=\"10\"/><text x=\"260\" y=\"26\" font-size=\"16\" font-weight=\"bold\" fill=\"#0f172a\" text-anchor=\"middle\">Principal Organs of the United Nations</text><rect x=\"25\" y=\"48\" width=\"140\" height=\"60\" rx=\"6\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"95\" y=\"75\" font-size=\"12\" font-weight=\"bold\" fill=\"#1d4ed8\" text-anchor=\"middle\">General Assembly</text><text x=\"95\" y=\"93\" font-size=\"10\" fill=\"#475569\" text-anchor=\"middle\">193 Member Nations</text><rect x=\"190\" y=\"48\" width=\"140\" height=\"60\" rx=\"6\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"260\" y=\"75\" font-size=\"12\" font-weight=\"bold\" fill=\"#1d4ed8\" text-anchor=\"middle\">Security Council</text><text x=\"260\" y=\"93\" font-size=\"10\" fill=\"#475569\" text-anchor=\"middle\">5 Perm + 10 Non-Perm</text><rect x=\"355\" y=\"48\" width=\"140\" height=\"60\" rx=\"6\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"425\" y=\"75\" font-size=\"12\" font-weight=\"bold\" fill=\"#1d4ed8\" text-anchor=\"middle\">Economic &amp; Social</text><text x=\"425\" y=\"93\" font-size=\"10\" fill=\"#475569\" text-anchor=\"middle\">Council (ECOSOC)</text><rect x=\"25\" y=\"130\" width=\"140\" height=\"60\" rx=\"6\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"95\" y=\"157\" font-size=\"12\" font-weight=\"bold\" fill=\"#1d4ed8\" text-anchor=\"middle\">Secretariat</text><text x=\"95\" y=\"175\" font-size=\"10\" fill=\"#475569\" text-anchor=\"middle\">Led by Sec-General</text><rect x=\"190\" y=\"130\" width=\"140\" height=\"60\" rx=\"6\" fill=\"#fee2e2\" stroke=\"#dc2626\" stroke-width=\"3\"/><text x=\"260\" y=\"155\" font-size=\"12\" font-weight=\"bold\" fill=\"#b91c1c\" text-anchor=\"middle\">Judicial Organ [?]</text><text x=\"260\" y=\"173\" font-size=\"10\" fill=\"#7f1d1d\" text-anchor=\"middle\">(Peace Palace, Hague)</text><rect x=\"355\" y=\"130\" width=\"140\" height=\"60\" rx=\"6\" fill=\"#eff6ff\" stroke=\"#3b82f6\" stroke-width=\"2\"/><text x=\"425\" y=\"157\" font-size=\"12\" font-weight=\"bold\" fill=\"#1d4ed8\" text-anchor=\"middle\">Trusteeship Council</text><text x=\"425\" y=\"175\" font-size=\"10\" fill=\"#475569\" text-anchor=\"middle\">Currently Inactive</text></svg>"
+    },
+    "options": [
+      "International Court of Justice (ICJ)",
+      "International Criminal Court (ICC)",
+      "Permanent Court of Arbitration",
+      "European Court of Human Rights"
+    ],
+    "answer": 0,
+    "explanation": "The International Court of Justice (ICJ) is the principal judicial organ of the United Nations established in 1945 to settle legal disputes between states.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-042",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the legal prerogative termed 'Veto Power' possessed by the five permanent members of the United Nations Security Council?",
+    "sampleAnswer": "Veto power is the constitutional power of any single permanent member of the UN Security Council (P5) to prevent the adoption of any substantive draft resolution by casting a negative vote.",
+    "acceptedAnswers": [
+      "Power of a permanent member to block a resolution with a negative vote",
+      "Power to reject or block any substantive UN resolution",
+      "Right to reject a resolution by casting a negative vote"
+    ],
+    "keywords": [
+      "veto",
+      "veto power",
+      "permanent member",
+      "block",
+      "negative vote",
+      "resolution"
+    ],
+    "explanation": "Under Article 27(3) of the UN Charter, a negative vote from any single P5 member blocks a substantive resolution, regardless of overwhelming majority support.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-043",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "Why are the monetary values of intermediate goods intentionally excluded when calculating the Gross Domestic Product (GDP) of a country?",
+    "sampleAnswer": "Intermediate goods are excluded to avoid the problem of 'double counting', because the market value of intermediate inputs (e.g., flour or steel) is already captured and reflected in the final retail price of the finished product (e.g., bread or cars).",
+    "acceptedAnswers": [
+      "To avoid double counting since intermediate goods are already included in final prices",
+      "To prevent double counting of values",
+      "Intermediate goods are already factored into the final value"
+    ],
+    "keywords": [
+      "double counting",
+      "intermediate goods",
+      "final price",
+      "finished goods",
+      "included"
+    ],
+    "explanation": "GDP measures only final goods and services; counting intermediate goods at each production stage would artificially inflate GDP figures through repeated duplication.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-044",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Explain how the Reserve Bank of India (RBI) utilizes an increase in the benchmark Repo Rate to curb rising inflation in the Indian economy.",
+    "sampleAnswer": "When the RBI raises the Repo Rate, borrowing funds becomes costlier for commercial banks. Consequently, banks raise their lending interest rates on home, car, and business loans, which discourages excessive borrowing, cools aggregate consumer demand, contracts overall money supply, and dampens inflationary price pressures.",
+    "acceptedAnswers": [
+      "Raising repo rate increases loan interest rates, reduces borrowing and money supply, thereby decreasing demand and inflation",
+      "Higher repo rate makes borrowing expensive for banks and consumers, reducing demand and inflation",
+      "Increases borrowing cost, reducing money supply and inflation"
+    ],
+    "keywords": [
+      "repo rate",
+      "borrowing",
+      "expensive",
+      "commercial banks",
+      "money supply",
+      "demand",
+      "inflation"
+    ],
+    "explanation": "Hiking repo rate increases cost of funds across the financial system, curtailing credit creation and consumer spending, which stabilizes price inflation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-045",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): In India, a structural transformation has occurred where the Tertiary sector produces more than 53% of the GDP, yet it does not employ the majority of the nation's workforce.\nReason (R): Modern technology-driven service industries generate high productivity and value addition per worker but absorb fewer unskilled or semi-skilled laborers compared to agriculture.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Services have driven Indian GDP growth through high-value capital-intensive activities, but agriculture still employs over 44% of workers due to inadequate industrial employment absorption.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-046",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Given below are an Assertion (A) and a Reason (R). Choose the correct option:\nAssertion (A): The United Nations General Assembly cannot deploy binding international military peacekeeping enforcement actions under Chapter VII of the UN Charter.\nReason (R): Under the UN Charter, primary responsibility for the maintenance of international peace and security and the power to authorize binding military interventions is vested exclusively in the UN Security Council.",
+    "options": [
+      "Both Assertion (A) and Reason (R) are true, and Reason (R) is the correct explanation of Assertion (A).",
+      "Both Assertion (A) and Reason (R) are true, but Reason (R) is not the correct explanation of Assertion (A).",
+      "Assertion (A) is true, but Reason (R) is false.",
+      "Assertion (A) is false, but Reason (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "General Assembly resolutions are non-binding recommendations. Only the Security Council possesses mandatory enforcement powers under Chapter VII to levy sanctions or order military operations.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-047",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following nations are permanent members of the United Nations Security Council (P5)? (Select all that apply)",
+    "options": [
+      "France",
+      "United Kingdom",
+      "Russian Federation",
+      "Japan"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "France, the UK, and Russia are permanent members alongside the USA and China. Japan is not a permanent member.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-048",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following economic activities belong strictly to the Secondary (Manufacturing/Industrial) Sector of the Indian economy? (Select all that apply)",
+    "options": [
+      "Spinning cotton yarn and weaving cloth in textile factories",
+      "Smelting iron ore and manufacturing steel beams",
+      "Processing raw sugarcane to produce refined crystal sugar",
+      "Operating a commercial transport bus service"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Transforming raw materials into manufactured products (textiles, steel, sugar) defines the Secondary sector. Transport services belong to the Tertiary sector.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-049",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Indian Economy Basics",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the chronological economic steps in a cotton textile production value chain across sectors:",
+    "orderedItems": [
+      "Farmers cultivate and harvest raw cotton bolls on farms (Primary sector).",
+      "Ginning mills separate cotton fibers from seeds and press them into bales (Secondary sector).",
+      "Spinning and weaving factories manufacture cloth fabrics (Secondary sector).",
+      "Wholesalers transport and distribute fabric bolts across regional markets (Tertiary sector).",
+      "Retail fashion stores sell branded finished shirts to end consumers (Tertiary sector)."
+    ],
+    "answer": "ordered",
+    "explanation": "Value chain progression: Agriculture (Primary) -> Ginning & Weaving (Secondary) -> Distribution & Retailing (Tertiary).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-050",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "UN and its Agencies",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the major milestones in the historical founding of the United Nations in chronological order:",
+    "orderedItems": [
+      "Signing of the Atlantic Charter by Franklin D. Roosevelt and Winston Churchill (August 1941).",
+      "Declaration by United Nations signed by 26 Allied nations in Washington (January 1942).",
+      "Yalta Conference resolving the Security Council voting procedure (February 1945).",
+      "San Francisco Conference delegates finalize and sign the UN Charter (June 1945).",
+      "UN Charter officially enters into legal force on United Nations Day (24 October 1945)."
+    ],
+    "answer": "ordered",
+    "explanation": "Chronological history: Atlantic Charter (1941) -> Declaration by UN (1942) -> Yalta (1945) -> San Francisco Charter signing (June 1945) -> Ratification into force (Oct 1945).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-051",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which heavy-lift launch vehicle of ISRO, popularly nicknamed 'Bahubali' and featuring two S200 solid rocket boosters with an L110 liquid core stage and C25 cryogenic upper stage, placed Chandrayaan-3 into its translunar trajectory?",
+    "options": [
+      "LVM3 (Launch Vehicle Mark-3 / GSLV Mk III)",
+      "PSLV-XL",
+      "SSLV (Small Satellite Launch Vehicle)",
+      "GSLV Mk II"
+    ],
+    "answer": 0,
+    "explanation": "LVM3 (formerly GSLV Mk III) is ISRO's operational three-stage heavy-lift vehicle capable of placing 4 tonnes into GTO and 8 tonnes into LEO. It launched Chandrayaan-3 on 14 July 2023.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-052",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which major peninsular river of India originates from the Amarkantak plateau in Madhya Pradesh and flows westward through a rift valley between the Vindhya and Satpura ranges into the Arabian Sea?",
+    "options": [
+      "Narmada",
+      "Godavari",
+      "Krishna",
+      "Mahanadi"
+    ],
+    "answer": 0,
+    "explanation": "The Narmada originates at Amarkantak (Madhya Pradesh) and flows west for 1,312 km through a tectonic rift valley into the Gulf of Khambhat (Arabian Sea).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-053",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Under India's Integrated Guided Missile Development Programme (IGMDP) conceived by Dr. A. P. J. Abdul Kalam in 1983, which missile was developed specifically as a third-generation 'fire-and-forget' anti-tank guided missile (ATGM) employing imaging infrared (IIR) homing?",
+    "options": [
+      "Nag",
+      "Trishul",
+      "Akash",
+      "Prithvi"
+    ],
+    "answer": 0,
+    "explanation": "The five missiles of IGMDP (PATNA) are Prithvi, Agni, Trishul, Nag, and Akash. Nag is the dedicated fire-and-forget anti-tank guided missile with an operational range of 4–7 km.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-054",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which soil order, widespread across the Deccan lava plateau in Maharashtra and Gujarat, is characterized by high clay content, deep cracking during dry summers, and exceptional self-ploughing moisture retention ideal for cotton cultivation?",
+    "options": [
+      "Black soil (Regur soil / Vertisols)",
+      "Laterite soil",
+      "Alluvial Khadar soil",
+      "Red and Yellow soil"
+    ],
+    "answer": 0,
+    "explanation": "Black soil (Regur), derived from basaltic Deccan trap lava rocks, is rich in montmorillonite clay. It swells when wet and shrinks when dry, creating deep fissures that aid aeration (self-ploughing).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-055",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The South-West monsoon winds in India divide into two main branches upon encountering the Indian peninsula. What are these two branches?",
+    "options": [
+      "Arabian Sea branch and Bay of Bengal branch",
+      "Gulf of Mannar branch and Palk Strait branch",
+      "Western Ghats branch and Coromandel branch",
+      "Indian Ocean branch and Andaman branch"
+    ],
+    "answer": 0,
+    "explanation": "The South-West monsoon splits at Cape Comorin (Kanyakumari) into the Arabian Sea branch (striking the Western Ghats) and the Bay of Bengal branch (moving towards the North-East and Gangetic plains).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-056",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the primary scientific orbit of Aditya-L1, India's first dedicated solar observatory mission launched by ISRO in September 2023?",
+    "options": [
+      "A halo orbit around the Sun-Earth Lagrangian point L1 (approx. 1.5 million km from Earth)",
+      "A sun-synchronous polar orbit at 600 km altitude",
+      "A geostationary orbit at 35,786 km",
+      "A lunar polar orbit at 100 km altitude"
+    ],
+    "answer": 0,
+    "explanation": "Aditya-L1 was placed in a halo orbit around the Sun-Earth Lagrangian Point L1 (~1.5 million km towards the Sun), providing uninterrupted 24x7 viewing of the Sun without eclipses.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-057",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "ISRO's Satish Dhawan Space Centre (SDSC), India's primary orbital spaceport equipped with two active launch pads, is located on Sriharikota island in Andhra Pradesh.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Sriharikota (SDSC SHAR) in Tirupati district, Andhra Pradesh, has been India's satellite launching facility since 1971 due to its coastal equatorial proximity.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-058",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The Brahmaputra river enters India through Arunachal Pradesh after making a sharp U-turn around the Namcha Barwa peak, where it is locally known as the Dihang (or Siang).",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Originating as the Yarlung Tsangpo in Tibet, the Brahmaputra cuts through a deep canyon around Namcha Barwa into Arunachal Pradesh as the Siang/Dihang before joining the Dibang and Lohit in Assam.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-059",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Laterite soils develop in areas of low temperature and sparse rainfall through wind deposition of loose desert sand.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": false,
+    "explanation": "Laterite soils form under conditions of high temperature and heavy alternating wet and dry rainfall, which causes intense leaching of silica and lime, leaving iron and aluminium oxides.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-060",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "BrahMos is a supersonic cruise missile developed as a joint venture between India's DRDO and ________'s NPO Mashinostroyeniya, named after the Brahmaputra and Moskva rivers.",
+    "answer": "Russia",
+    "acceptedAnswers": [
+      "Russia",
+      "Russian Federation"
+    ],
+    "explanation": "BrahMos is named after the Brahmaputra river of India and the Moskva river of Russia, developed as an Indo-Russian joint venture since 1998.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-061",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The ________ Dam, constructed across the Mahanadi river near Sambalpur in Odisha, is one of the longest major earthen dams in the world.",
+    "answer": "Hirakud",
+    "acceptedAnswers": [
+      "Hirakud",
+      "Hirakud Dam"
+    ],
+    "explanation": "Hirakud Dam was built after independence in 1957 across the Mahanadi river in Odisha, stretching about 25.8 km including dykes.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-062",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "fillblank",
+    "difficulty": "hard",
+    "question": "Commissioned into the Indian Navy in September 2022, INS ________ is India's first indigenously designed and constructed aircraft carrier, built by Cochin Shipyard Limited.",
+    "answer": "Vikrant",
+    "acceptedAnswers": [
+      "Vikrant",
+      "INS Vikrant"
+    ],
+    "explanation": "INS Vikrant (IAC-1) was designed by the Indian Navy's Warship Design Bureau and built by Cochin Shipyard, making India one of only six nations capable of building an aircraft carrier of this class.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-063",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each Indian defence aircraft or weapon platform with its correct category/role:",
+    "pairs": [
+      [
+        "HAL Tejas",
+        "Light Combat Aircraft (LCA)"
+      ],
+      [
+        "Pinaka",
+        "Multi-Barrel Rocket Launcher (MBRL)"
+      ],
+      [
+        "INS Arihant",
+        "Nuclear-powered ballistic missile submarine (SSBN)"
+      ],
+      [
+        "Netra",
+        "Airborne Early Warning and Control (AEW&C) system"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "HAL Tejas is a 4.5 generation indigenous fighter jet; Pinaka is an artillery rocket launcher; INS Arihant is India's nuclear triad submarine; Netra is an indigenous AEW&C radar aircraft.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-064",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each major mineral resource of India with its principal mining belt or state:",
+    "pairs": [
+      [
+        "Iron Ore (Haematite)",
+        "Bailadila (Bastar, Chhattisgarh)"
+      ],
+      [
+        "Bauxite (Aluminium ore)",
+        "Panchpatmali (Koraput, Odisha)"
+      ],
+      [
+        "Mica",
+        "Koderma-Gaya-Hazaribagh belt (Jharkhand)"
+      ],
+      [
+        "Copper Ore",
+        "Khetri belt (Jhunjhunu, Rajasthan)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Bailadila has exceptionally high-grade haematite iron ore; Panchpatmali is India's premier bauxite deposit; Koderma is historically the mica capital; Khetri is India's oldest active copper mining belt.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-065",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "On 23 August 2023, India achieved a historic first soft landing near the lunar south pole with the Chandrayaan-3 mission. In which calendar year did ISRO launch its very first lunar probe, Chandrayaan-1?",
+    "answer": 2008,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "Chandrayaan-1 was launched aboard PSLV-C11 on 22 October 2008 from Sriharikota, famously discovering water molecules on the lunar surface.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-066",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "The Indus Water Treaty signed in 1960 allocates waters of the 6 Indus basin rivers between India and Pakistan. How many Eastern rivers (Ravi, Beas, and Sutlej) were allocated for unrestricted use by India?",
+    "answer": 3,
+    "tolerance": 0,
+    "unit": "rivers",
+    "explanation": "Under the 1960 treaty mediated by the World Bank, India received full control over the 3 Eastern rivers (Ravi, Beas, Sutlej), while Pakistan received rights to the 3 Western rivers (Indus, Jhelum, Chenab).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-067",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The diagram illustrates the core components of the Chandrayaan-3 spacecraft composite launched towards the Moon. Which module, labeled 'B', contained the 4 throttleable liquid engines, hazard detection sensors, and the Pragyan rover inside?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"240\" fill=\"#0f172a\"/><rect x=\"60\" y=\"60\" width=\"120\" height=\"120\" rx=\"10\" fill=\"#1e293b\" stroke=\"#38bdf8\" stroke-width=\"2\"/><text x=\"120\" y=\"110\" fill=\"#f8fafc\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Propulsion Module</text><text x=\"120\" y=\"135\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">(Carried lander to lunar orbit)</text><text x=\"120\" y=\"45\" fill=\"#38bdf8\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">A</text><rect x=\"220\" y=\"60\" width=\"140\" height=\"120\" rx=\"10\" fill=\"#1e293b\" stroke=\"#fbbf24\" stroke-width=\"2\"/><text x=\"290\" y=\"105\" fill=\"#f8fafc\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Vikram Lander</text><text x=\"290\" y=\"125\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">(+ Pragyan Rover inside)</text><text x=\"290\" y=\"150\" fill=\"#34d399\" font-size=\"10\" text-anchor=\"middle\">Touchdown on Moon</text><text x=\"290\" y=\"45\" fill=\"#fbbf24\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">B</text><line x1=\"180\" y1=\"120\" x2=\"220\" y2=\"120\" stroke=\"#e2e8f0\" stroke-width=\"2\" stroke-dasharray=\"4\"/></svg>"
+    },
+    "options": [
+      "Vikram Lander Module",
+      "Propulsion Module",
+      "Orbiter Relay Module",
+      "Crew Atmospheric Module"
+    ],
+    "answer": 0,
+    "explanation": "Component B represents the Vikram Lander Module, which housed scientific payloads (ChaSTE, ILSA, LP) and the Pragyan rover that rolled out onto the lunar surface.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-068",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the acronym name of the premier research organisation founded in 1969 under the Department of Space, headquartered in Bengaluru, that leads India's space missions?",
+    "sampleAnswer": "ISRO",
+    "acceptedAnswers": [
+      "ISRO",
+      "Indian Space Research Organisation",
+      "Indian Space Research Organization"
+    ],
+    "keywords": [
+      "ISRO",
+      "Indian Space Research Organisation"
+    ],
+    "explanation": "The Indian Space Research Organisation (ISRO) was formed on 15 August 1969, superseding INCOSPAR established by Dr. Vikram Sarabhai.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-069",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "short",
+    "difficulty": "hard",
+    "question": "Name the unique seasonal meteorological phenomenon in north-west India where temperate extratropical cyclones originating over the Mediterranean Sea bring crucial winter precipitation (rain and snowfall) essential for rabi wheat crops.",
+    "sampleAnswer": "Western Disturbances",
+    "acceptedAnswers": [
+      "Western Disturbances",
+      "Western Disturbance"
+    ],
+    "keywords": [
+      "Western Disturbances",
+      "cyclones",
+      "Mediterranean"
+    ],
+    "explanation": "Western Disturbances are shallow cyclonic depressions traveling eastward embedded in subtropical westerly jet streams, delivering indispensable winter showers for rabi cultivation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-070",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): Polar Satellite Launch Vehicle (PSLV) uses an alternating solid and liquid propulsion stage architecture (Solid-Liquid-Solid-Liquid).\nReason (R): The Vikas engine powered by unsymmetrical dimethylhydrazine (UDMH) and nitrogen tetroxide (N2O4) is employed in PSLV's second stage (PS2).",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 1,
+    "explanation": "PSLV has 4 stages: PS1 (solid HTPB), PS2 (liquid Vikas engine), PS3 (solid HTPB), PS4 (twin liquid engines). Both statements are true facts, but the specific engine type of PS2 does not explain why the four-stage alternating architecture exists.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-071",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): Rivers flowing into the Arabian Sea from the Western Ghats (such as Mandovi, Zuari, and Sharavathi) form estuaries rather than extensive deltas.\nReason (R): These rivers have short courses, steep gradients down the Western Ghats escarpment, and flow through hard rocky terrain carrying minimal sediment loads.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Because the western coastal plain is narrow and the Western Ghats rise steeply close to the coast, west-flowing rivers have swift rapid currents that discharge directly into tidal waters without laying down sediment deltas.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-072",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following surface-to-surface ballistic missiles belong to India's strategic 'Agni' family developed by DRDO? (Select all that apply)",
+    "options": [
+      "Agni-I (medium-range ballistic missile)",
+      "Agni-P (Agni-Prime canisterised two-stage solid propellant missile)",
+      "Agni-V (intercontinental ballistic missile with >5,000 km range)",
+      "BrahMos (supersonic cruise missile)",
+      "Harpoon (anti-ship cruise missile)"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Agni-I, Agni-P, and Agni-V are all part of DRDO's Agni ballistic missile series. BrahMos is a supersonic cruise missile, and Harpoon is an American anti-ship missile.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-073",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following statements regarding the Himalayan river systems (Indus, Ganga, Brahmaputra) are geographically accurate? (Select all that apply)",
+    "options": [
+      "They are perennial because they are fed by both melting glaciers and monsoon rainfall.",
+      "They form dramatic V-shaped valleys, gorges, and waterfalls in their upper courses and meanders, oxbow lakes, and broad floodplains in their lower courses.",
+      "They are antecedent rivers that existed prior to the uplift of the Himalayas and carved deep gorges through rising ranges.",
+      "They flow exclusively through rift valleys formed by tectonic faults without any delta formation.",
+      "Their drainage basins are confined entirely within the political borders of India without any transboundary flow."
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Himalayan rivers are perennial, antecedent, and exhibit classic juvenile erosional landforms in upper courses and depositional landforms in plains. Options D and E are false (they form huge deltas like Sundarbans and originate in Tibet/transboundary regions).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-074",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "India's Space and Defence Programmes",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange India's major lunar and planetary exploration missions chronologically by their launch dates:",
+    "orderedItems": [
+      "Chandrayaan-1 lunar orbiter mission (October 2008)",
+      "Mars Orbiter Mission / Mangalyaan to Mars orbit (November 2013)",
+      "Chandrayaan-2 lunar orbiter and lander mission (July 2019)",
+      "Chandrayaan-3 south polar lunar landing mission (July 2023)",
+      "Aditya-L1 solar observation mission to Lagrange point L1 (September 2023)"
+    ],
+    "answer": "ordered",
+    "explanation": "Chronology: Chandrayaan-1 (2008) -> Mars Orbiter Mission (2013) -> Chandrayaan-2 (2019) -> Chandrayaan-3 (July 2023) -> Aditya-L1 (Sept 2023).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-075",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Rivers / Soils / Climate / Resources",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the major left-bank and right-bank tributaries of the Ganga river as one travels downstream from west to east along northern India:",
+    "orderedItems": [
+      "Yamuna (merges at Prayagraj)",
+      "Gomti (merges near Varanasi)",
+      "Ghaghara (merges near Chhapra)",
+      "Gandak (merges near Patna)",
+      "Kosi (merges near Kursela, Bihar)"
+    ],
+    "answer": "ordered",
+    "explanation": "Downstream confluence sequence along the Ganga: Yamuna (Prayagraj) -> Gomti -> Ghaghara -> Gandak -> Kosi.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-076",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Modern Indian History (1857-1947)",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In 1917, Mahatma Gandhi launched his very first satyagraha in India at Champaran in Bihar. What oppressive agricultural practice was this movement directed against?",
+    "options": [
+      "The Tinkathia system compelling tenant peasants to cultivate indigo on 3/20th of their land",
+      "The Ryotwari revenue system imposing arbitrary tax hikes during droughts",
+      "The forced cultivation of opium under British East India monopoly",
+      "The confiscation of communal forest grazing lands under the Forest Acts"
+    ],
+    "answer": 0,
+    "explanation": "At Champaran, European planters forced peasant farmers to grow indigo on 3/20th of their total holding (Tinkathia system), for which Gandhi organized his first successful civil disobedience in India.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-077",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Modern Indian History (1857-1947)",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "From which ashram did Mahatma Gandhi commence his historic 240-mile Salt March on 12 March 1930 to defy the British salt monopoly?",
+    "options": [
+      "Sabarmati Ashram in Ahmedabad",
+      "Sevagram Ashram in Wardha",
+      "Phoenix Settlement in Durban",
+      "Kochrab Ashram in Paldi"
+    ],
+    "answer": 0,
+    "explanation": "Mahatma Gandhi and 78 chosen volunteers marched from Sabarmati Ashram to the coastal village of Dandi in Gujarat, arriving on 5 April and breaking the salt tax law on 6 April 1930.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-078",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Awards / Books / Authors",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "For which celebrated collection of devotional and philosophical poems was Rabindranath Tagore awarded the Nobel Prize in Literature in 1913, becoming the first non-European Nobel laureate?",
+    "options": [
+      "Gitanjali (Song Offerings)",
+      "Kabuliwala",
+      "Gora",
+      "The Post Office (Dak Ghar)"
+    ],
+    "answer": 0,
+    "explanation": "Rabindranath Tagore was awarded the 1913 Nobel Prize in Literature for 'Gitanjali' (translated as 'Song Offerings' with an introduction by W. B. Yeats).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-079",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Inventions and Discoveries",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "India celebrates National Science Day every year on 28 February to commemorate which landmark scientific breakthrough achieved in 1928?",
+    "options": [
+      "The discovery of the Raman Effect (inelastic scattering of light) by Sir C. V. Raman",
+      "The derivation of Bose-Einstein Statistics by Satyendra Nath Bose",
+      "The successful launch of India's first satellite Aryabhata",
+      "The establishment of the Bhabha Atomic Research Centre by Dr. Homi Bhabha"
+    ],
+    "answer": 0,
+    "explanation": "Sir C. V. Raman discovered that when light passes through a transparent material, some deflected light changes wavelength (Raman Effect) on 28 February 1928, honored as National Science Day.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-080",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Environment and International Conventions",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Agreed in 1987 and widely regarded as the most successful international environmental treaty, which multilateral agreement legally mandated the phase-out of chlorofluorocarbons (CFCs) and halons?",
+    "options": [
+      "The Montreal Protocol on Substances that Deplete the Ozone Layer",
+      "The Kyoto Protocol on Greenhouse Gas Reductions",
+      "The Basel Convention on the Control of Transboundary Hazardous Wastes",
+      "The Minamata Convention on Mercury Pollution"
+    ],
+    "answer": 0,
+    "explanation": "The Montreal Protocol (1987) achieved universal ratification and has phased out over 99% of controlled ozone-depleting substances, allowing the stratospheric ozone layer to begin healing.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-081",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Modern Indian History (1857-1947)",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Which of the following constitutional proposals was a core recommendation of the British Cabinet Mission sent to India in March 1946 by Prime Minister Clement Attlee?",
+    "options": [
+      "A three-tier federal union of British India and princely states with provinces grouped into three Sections (A, B, and C)",
+      "Immediate territorial partition of India into two completely sovereign dominions along religious lines",
+      "A unitary centralised legislature with complete veto power reserved for the British Viceroy",
+      "The outright rejection of any Constituent Assembly elected by provincial legislatures"
+    ],
+    "answer": 0,
+    "explanation": "The Cabinet Mission (Pethick-Lawrence, Stafford Cripps, A. V. Alexander) rejected the demand for Pakistan and proposed a federal Union with provinces grouped into Hindu-majority (Section A) and Muslim-majority (Sections B and C) units.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-082",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Awards / Books / Authors",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which landmark historical work did Jawaharlal Nehru pen during his four years of imprisonment at Ahmednagar Fort (1942–1946) following the Quit India Movement?",
+    "options": [
+      "The Discovery of India",
+      "Glimpses of World History",
+      "Toward Freedom (An Autobiography)",
+      "India Wins Freedom"
+    ],
+    "answer": 0,
+    "explanation": "'The Discovery of India' was written by Jawaharlal Nehru between 1942 and 1946 while detained at Ahmednagar Fort, tracing India's cultural and philosophical trajectory from the Indus Valley Civilization to modern times.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-083",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Environment and International Conventions",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Project Tiger was launched by the Government of India in 1973 from Jim Corbett National Park to safeguard the endangered Royal Bengal tiger population in designated tiger reserves.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "Project Tiger was initiated in April 1973 under Prime Minister Indira Gandhi with 9 initial tiger reserves to halt tiger poaching and preserve core ecological habitats.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-084",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Inventions and Discoveries",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "Sir Jagadish Chandra Bose was a pioneer in wireless communications who generated millimetre-length electromagnetic radio waves in 1895 and subsequently invented the crescograph to measure microscopic plant growth.",
+    "options": [
+      "True",
+      "False"
+    ],
+    "answer": true,
+    "explanation": "J. C. Bose demonstrated 60 GHz microwave radiation before Marconi and invented the crescograph, demonstrating that plants experience biological sensations and responses.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-085",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Environment and International Conventions",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The ________ Convention, adopted in an Iranian city on the shores of the Caspian Sea in 1971, is an intergovernmental treaty dedicated to the conservation and wise use of wetlands of international importance.",
+    "answer": "Ramsar",
+    "acceptedAnswers": [
+      "Ramsar",
+      "Ramsar Convention"
+    ],
+    "explanation": "The Ramsar Convention on Wetlands of International Importance was signed in Ramsar, Iran on 2 February 1971, commemorated annually as World Wetlands Day.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-086",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Modern Indian History (1857-1947)",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The Indian National Congress adopted the historic resolution for 'Purna Swaraj' (Complete Independence) in December 1929 at its session held on the banks of the Ravi river in ________, presided over by Jawaharlal Nehru.",
+    "answer": "Lahore",
+    "acceptedAnswers": [
+      "Lahore",
+      "Lahore session"
+    ],
+    "explanation": "The Lahore Session of December 1929 proclaimed Purna Swaraj as Congress's objective, unfurled the tricolour flag, and designated 26 January 1930 as Independence Day.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-087",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Awards / Books / Authors",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each celebrated Indian literary book or memoir with its correct author:",
+    "pairs": [
+      [
+        "The Story of My Experiments with Truth",
+        "Mahatma Gandhi"
+      ],
+      [
+        "Wings of Fire",
+        "Dr. A. P. J. Abdul Kalam"
+      ],
+      [
+        "Anandmath",
+        "Bankim Chandra Chattopadhyay"
+      ],
+      [
+        "Pather Panchali",
+        "Bibhutibhushan Bandyopadhyay"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Gandhi wrote his autobiography in Gujarati; Dr. Kalam co-authored his inspiring autobiography Wings of Fire; Bankim Chandra composed Anandmath (origin of Vande Mataram); Bibhutibhushan wrote the classic Bengali novel Pather Panchali.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-088",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Modern Indian History (1857-1947)",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "In which calendar year did the historic Revolt of 1857, also recognized as India's First War of Independence, erupt among the sepoys at Meerut garrison?",
+    "answer": 1857,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "The Revolt of 1857 began on 10 May 1857 at Meerut following Mangal Pandey's rebellion at Barrackpore in March, spreading across northern and central India.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-089",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Environment and International Conventions",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "In which calendar year was the milestone United Nations Conference on Environment and Development (UNCED), widely hailed as the Rio Earth Summit, convened in Rio de Janeiro, Brazil?",
+    "answer": 1992,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "The Rio Earth Summit occurred in June 1992, producing Agenda 21, the Rio Declaration, the UNFCCC, and the Convention on Biological Diversity.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-090",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Inventions and Discoveries",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Sir Chandrasekhara Venkata Raman was awarded the Nobel Prize in Physics for his groundbreaking discovery of the inelastic scattering of light. In which calendar year was he conferred this Nobel Prize?",
+    "answer": 1930,
+    "tolerance": 0,
+    "unit": "year",
+    "explanation": "Sir C. V. Raman received the Nobel Prize in Physics in 1930, becoming the first Asian and Indian to win a Nobel Prize in any field of science.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-091",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Environment and International Conventions",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the illustrated Earth energy balance schematic, what form of radiation, labeled 'B', is emitted by Earth's warmed surface and absorbed/re-emitted by atmospheric greenhouse gases?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"240\" fill=\"#0f172a\"/><rect x=\"20\" y=\"190\" width=\"360\" height=\"40\" fill=\"#1e3a5f\" stroke=\"#38bdf8\" stroke-width=\"2\" rx=\"5\"/><text x=\"200\" y=\"215\" fill=\"#ffffff\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">Earth's Surface</text><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"180\" stroke=\"#facc15\" stroke-width=\"4\"/><polygon points=\"80,185 74,170 86,170\" fill=\"#facc15\"/><text x=\"80\" y=\"15\" fill=\"#facc15\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Solar Radiation</text><text x=\"105\" y=\"100\" fill=\"#facc15\" font-size=\"14\" font-weight=\"bold\">A</text><rect x=\"160\" y=\"70\" width=\"210\" height=\"80\" fill=\"#334155\" stroke=\"#f87171\" stroke-width=\"2\" rx=\"8\" stroke-dasharray=\"4\"/><text x=\"265\" y=\"95\" fill=\"#f87171\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">Greenhouse Gas Layer</text><text x=\"265\" y=\"115\" fill=\"#94a3b8\" font-size=\"10\" text-anchor=\"middle\">(CO2, CH4, N2O, H2O vapor)</text><line x1=\"230\" y1=\"185\" x2=\"230\" y2=\"155\" stroke=\"#ef4444\" stroke-width=\"4\"/><polygon points=\"230,150 224,165 236,165\" fill=\"#ef4444\"/><line x1=\"290\" y1=\"155\" x2=\"290\" y2=\"185\" stroke=\"#ef4444\" stroke-width=\"3\" stroke-dasharray=\"3\"/><polygon points=\"290,190 284,175 296,175\" fill=\"#ef4444\"/><text x=\"310\" y=\"175\" fill=\"#f87171\" font-size=\"16\" font-weight=\"bold\">B</text></svg>"
+    },
+    "options": [
+      "Outgoing longwave infrared radiation",
+      "Incoming ultraviolet radiation",
+      "Cosmic ray flux",
+      "Direct reflected visible sunlight"
+    ],
+    "answer": 0,
+    "explanation": "Label B denotes outgoing longwave terrestrial infrared radiation emitted by the Earth, which is absorbed by greenhouse gases and re-radiated back downwards, keeping the planet warm.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-092",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Modern Indian History (1857-1947)",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the illustrated timeline of Mahatma Gandhi's major nationwide satyagraha campaigns, which movement launched in 1930 is marked by label 'B'?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 400 240\" xmlns=\"http://www.w3.org/2000/svg\"><rect width=\"400\" height=\"240\" fill=\"#0f172a\"/><line x1=\"40\" y1=\"120\" x2=\"360\" y2=\"120\" stroke=\"#475569\" stroke-width=\"4\"/><circle cx=\"80\" cy=\"120\" r=\"16\" fill=\"#38bdf8\"/><text x=\"80\" y=\"125\" fill=\"#0f172a\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">1920</text><text x=\"80\" y=\"85\" fill=\"#38bdf8\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">A</text><text x=\"80\" y=\"160\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">Non-Cooperation</text><circle cx=\"200\" cy=\"120\" r=\"16\" fill=\"#fbbf24\"/><text x=\"200\" y=\"125\" fill=\"#0f172a\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">1930</text><text x=\"200\" y=\"85\" fill=\"#fbbf24\" font-size=\"16\" text-anchor=\"middle\" font-weight=\"bold\">B</text><text x=\"200\" y=\"160\" fill=\"#fbbf24\" font-size=\"11\" text-anchor=\"middle\">Salt Satyagraha</text><circle cx=\"320\" cy=\"120\" r=\"16\" fill=\"#34d399\"/><text x=\"320\" y=\"125\" fill=\"#0f172a\" font-size=\"12\" text-anchor=\"middle\" font-weight=\"bold\">1942</text><text x=\"320\" y=\"85\" fill=\"#34d399\" font-size=\"14\" text-anchor=\"middle\" font-weight=\"bold\">C</text><text x=\"320\" y=\"160\" fill=\"#94a3b8\" font-size=\"11\" text-anchor=\"middle\">Quit India</text></svg>"
+    },
+    "options": [
+      "Civil Disobedience Movement",
+      "Non-Cooperation Movement",
+      "Quit India Movement",
+      "Swadeshi Boycott Movement"
+    ],
+    "answer": 0,
+    "explanation": "Event B corresponds to the Civil Disobedience Movement (1930) initiated by the historic Dandi March to defy the British salt laws.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-093",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Inventions and Discoveries",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Name the Scottish microbiologist who discovered penicillin, the world's first true antibacterial antibiotic, from the fungus Penicillium notatum in 1928.",
+    "sampleAnswer": "Alexander Fleming",
+    "acceptedAnswers": [
+      "Alexander Fleming",
+      "Sir Alexander Fleming",
+      "Fleming"
+    ],
+    "keywords": [
+      "Alexander Fleming",
+      "Fleming"
+    ],
+    "explanation": "Sir Alexander Fleming discovered the antibacterial properties of penicillin mould at St. Mary's Hospital, London in September 1928, for which he received the 1945 Nobel Prize in Medicine.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-094",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Awards / Books / Authors",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What is the name of the highest annual literary award in India, presented by the Bharatiya Jnanpith to authors recognized for outstanding lifetime contributions to Indian literature?",
+    "sampleAnswer": "Jnanpith Award",
+    "acceptedAnswers": [
+      "Jnanpith Award",
+      "Jnanpith",
+      "Gyanpeeth Award",
+      "Gyanpith"
+    ],
+    "keywords": [
+      "Jnanpith",
+      "Gyanpeeth"
+    ],
+    "explanation": "Instituted in 1961 and first awarded in 1965 to G. Sankara Kurup, the Jnanpith Award is India's highest literary honour carrying a bronze citation of Goddess Saraswati.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-095",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Environment and International Conventions",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the official international name of the legally binding multilateral agreement adopted at COP21 in 2015 that commits nations to holding global average temperature increase to well below 2 degrees Celsius above pre-industrial levels?",
+    "sampleAnswer": "Paris Agreement",
+    "acceptedAnswers": [
+      "Paris Agreement",
+      "Paris Climate Agreement",
+      "Paris Accord"
+    ],
+    "keywords": [
+      "Paris Agreement",
+      "Paris Accord"
+    ],
+    "explanation": "Adopted by 196 parties at COP21 in Paris on 12 December 2015, the Paris Agreement replaced the Kyoto Protocol with nationally determined contributions (NDCs).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-096",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Modern Indian History (1857-1947)",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): Mahatma Gandhi unilaterally called off the nationwide Non-Cooperation Movement in February 1922.\nReason (R): At Chauri Chaura in Gorakhpur district, an agitated crowd of protestors set fire to a police station, killing 22 policemen and violating the core principle of Ahimsa (non-violence).",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "The violent clash at Chauri Chaura on 4 February 1922 convinced Gandhi that the masses were not yet ready for mass non-violent resistance, prompting the Congress Working Committee at Bardoli to withdraw the movement.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-097",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Environment and International Conventions",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Evaluate the Assertion (A) and Reason (R):\nAssertion (A): The 1997 Kyoto Protocol imposed mandatory, legally binding greenhouse gas reduction quotas solely on developed nations (Annex I parties).\nReason (R): The treaty operationalised the UNFCCC principle of 'Common But Differentiated Responsibilities and Respective Capabilities' (CBDR-RC), acknowledging that industrialized economies were historically responsible for the majority of atmospheric carbon emissions.",
+    "options": [
+      "Both (A) and (R) are true, and (R) is the correct explanation of (A).",
+      "Both (A) and (R) are true, but (R) is NOT the correct explanation of (A).",
+      "(A) is true, but (R) is false.",
+      "(A) is false, but (R) is true."
+    ],
+    "answer": 0,
+    "explanation": "Because developed nations had emitted the bulk of industrial carbon since 1750, Kyoto assigned binding targets to them while exempting developing nations like India and China, embodying the CBDR principle.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-098",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Awards / Books / Authors",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following distinguished figures have been awarded the Nobel Prize as Indian citizens or persons of Indian origin? (Select all that apply)",
+    "options": [
+      "Rabindranath Tagore (Literature, 1913)",
+      "Sir C. V. Raman (Physics, 1930)",
+      "Mother Teresa (Peace, 1979)",
+      "Amartya Sen (Economic Sciences, 1998)",
+      "Charles Darwin (Physiology, 1860)"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Rabindranath Tagore (1913), C. V. Raman (1930), Mother Teresa (Indian citizen, 1979), and Amartya Sen (1998) all received Nobel Prizes. Charles Darwin died in 1882 before the Nobel Prizes were established in 1901.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-099",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Modern Indian History (1857-1947)",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following administrative and constitutional features were enacted under the landmark Government of India Act 1935? (Select all that apply)",
+    "options": [
+      "Abolition of dyarchy at the provincial level and introduction of Provincial Autonomy",
+      "Establishment of a Federal Court of India (the forerunner of the Supreme Court)",
+      "Creation of the Reserve Bank of India to oversee currency and financial credit",
+      "Introduction of Dyarchy at the central executive level",
+      "Immediate granting of complete sovereignty and sovereign dominion status"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "The GoI Act 1935 introduced provincial autonomy, dyarchy at the centre, the Federal Court (1937), and the Reserve Bank of India (1935). It did not grant sovereign dominion status or complete independence.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c10-gk-100",
+    "class": 10,
+    "subject": "gk",
+    "chapter": "Modern Indian History (1857-1947)",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange these five epochal milestones of the Indian national freedom movement in chronological order from earliest to latest:",
+    "orderedItems": [
+      "Founding of the Indian National Congress in Bombay by Allan Octavian Hume (December 1885)",
+      "Partition of Bengal executed by Viceroy Lord Curzon (October 1905)",
+      "Jallianwala Bagh massacre ordered by General Dyer in Amritsar (April 1919)",
+      "Civil Disobedience launched through the Salt Satyagraha to Dandi (March-April 1930)",
+      "Passage of the Quit India resolution with the clarion call 'Do or Die' (August 1942)"
+    ],
+    "answer": "ordered",
+    "explanation": "Chronological order: INC Foundation (1885) -> Partition of Bengal (1905) -> Jallianwala Bagh (1919) -> Salt Satyagraha (1930) -> Quit India Movement (1942).",
+    "marks": 2,
+    "volatile": false
+  }
+]

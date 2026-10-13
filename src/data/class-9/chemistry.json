@@ -1,0 +1,1907 @@
+[
+  {
+    "id": "c9-chemistry-001",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The process of change of a solid directly into vapour upon heating without passing through the liquid state is called:",
+    "options": [
+      "Evaporation",
+      "Condensation",
+      "Sublimation",
+      "Deposition"
+    ],
+    "answer": 2,
+    "explanation": "Sublimation is the direct transition of a substance from solid to gas phase without entering the liquid state (e.g. ammonium chloride, camphor, dry ice).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-002",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the equivalent temperature in Celsius for 300 Kelvin (K)?",
+    "options": [
+      "27°C",
+      "37°C",
+      "-27°C",
+      "573°C"
+    ],
+    "answer": 0,
+    "explanation": "Temperature in Celsius = Temperature in Kelvin - 273 = 300 - 273 = 27°C.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-003",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which of the following is a homogeneous mixture?",
+    "options": [
+      "Chalk powder in water",
+      "Air",
+      "Milk",
+      "Sand and iron filings"
+    ],
+    "answer": 1,
+    "explanation": "Air is a homogeneous solution of various gases (nitrogen, oxygen, carbon dioxide, argon) with uniform composition throughout.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-004",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The chemical formula of aluminium oxide formed by aluminium (Al³⁺) and oxide (O²⁻) ions is:",
+    "options": [
+      "AlO",
+      "Al₂O₃",
+      "Al₃O₂",
+      "AlO₂"
+    ],
+    "answer": 1,
+    "explanation": "Criss-crossing valencies: Aluminium valency 3 and Oxygen valency 2 yields the chemical formula Al₂O₃.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-005",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which scientist discovered the subatomic particle electron through cathode ray tube experiments?",
+    "options": [
+      "J.J. Thomson",
+      "Ernest Rutherford",
+      "James Chadwick",
+      "John Dalton"
+    ],
+    "answer": 0,
+    "explanation": "J.J. Thomson discovered electrons in 1897 through his cathode ray discharge experiments and proposed the plum-pudding atomic model.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-006",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "An element has an atomic number of 17 and a mass number of 35. How many neutrons are present in its nucleus?",
+    "options": [
+      "17",
+      "18",
+      "35",
+      "52"
+    ],
+    "answer": 1,
+    "explanation": "Number of neutrons = Mass number (A) - Atomic number (Z) = 35 - 17 = 18.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-007",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Evaporation of a liquid causes a cooling effect in the surrounding medium.",
+    "answer": true,
+    "explanation": "During evaporation, surface molecules absorb latent heat of vaporization from the surroundings, lowering the surrounding temperature.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-008",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The constituent elements of a chemical compound can be separated from each other using simple physical filtration.",
+    "answer": false,
+    "explanation": "Compounds are chemically bonded substances and can only be separated into constituent elements via chemical or electrochemical reactions, not physical methods.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-009",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The Law of Conservation of Mass in chemical reactions was experimentally established by the French chemist Antoine ____.",
+    "acceptedAnswers": [
+      "Lavoisier",
+      "Antoine Lavoisier"
+    ],
+    "explanation": "Antoine Laurent Lavoisier established that mass can neither be created nor destroyed in a chemical reaction.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-010",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "According to the octet rule, the maximum number of electrons that can be accommodated in the outermost valence shell of an atom is ____.",
+    "acceptedAnswers": [
+      "8",
+      "eight",
+      "Eight"
+    ],
+    "explanation": "Bohr-Bury scheme specifies that the maximum capacity of the outermost valence shell is 8 electrons.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-011",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each subatomic component with its defining property:",
+    "pairs": [
+      [
+        "Proton",
+        "Positively charged particle (+1 e)"
+      ],
+      [
+        "Electron",
+        "Negatively charged particle (-1 e)"
+      ],
+      [
+        "Neutron",
+        "Neutral particle with no electrical charge"
+      ],
+      [
+        "Nucleus",
+        "Dense central core containing protons and neutrons"
+      ]
+    ],
+    "explanation": "Protons have +1 charge, electrons have -1 charge, neutrons have 0 charge, and nucleus houses nucleons.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-012",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the molecular mass of water (H₂O) in atomic mass units (u), taking atomic masses H = 1 u and O = 16 u.",
+    "answer": 18,
+    "tolerance": 0,
+    "explanation": "Molecular mass of H₂O = (2 × 1 u) + (1 × 16 u) = 2 + 16 = 18 u.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-013",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the formula unit mass of calcium chloride (CaCl₂) in atomic mass units (u) (take atomic masses: Ca = 40 u, Cl = 35.5 u).",
+    "answer": 111,
+    "tolerance": 0,
+    "explanation": "Formula unit mass of CaCl₂ = 40 + (2 × 35.5) = 40 + 71 = 111 u.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-014",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A solution is prepared by dissolving 40 g of sodium chloride in 320 g of water. Calculate the concentration in terms of mass-by-mass percentage (rounded to two decimal places).",
+    "answer": 11.11,
+    "tolerance": 0.05,
+    "explanation": "Mass of solute = 40 g. Mass of solution = 40 + 320 = 360 g. Mass percentage = (40 / 360) × 100% = 11.11%.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-015",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Convert the temperature 373 Kelvin into degrees Celsius.",
+    "answer": 100,
+    "tolerance": 0,
+    "explanation": "Celsius temperature = 373 - 273 = 100°C (the boiling point of water at standard atmospheric pressure).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-016",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "An element X has two isotopes: 75% of ¹⁶X and 25% of ¹⁸X. Calculate the average atomic mass of element X in atomic mass units (u).",
+    "answer": 16.5,
+    "tolerance": 0.1,
+    "explanation": "Average atomic mass = (16 × 75/100) + (18 × 25/100) = 12 + 4.5 = 16.5 u.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-017",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the Bohr atomic shell diagram shown for a neutral atom of Sodium (Na, Z = 11), how many valence electrons are present in the outermost shell (M-shell)?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><circle cx='200' cy='120' r='20' fill='#f59e0b'/><text x='188' y='125' font-family='sans-serif' font-size='12' font-weight='bold' fill='#ffffff'>+11p</text><circle cx='200' cy='120' r='45' fill='none' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='3'/><circle cx='200' cy='75' r='5' fill='#3b82f6'/><circle cx='200' cy='165' r='5' fill='#3b82f6'/><text x='230' y='75' font-family='sans-serif' font-size='11' fill='#64748b'>K: 2e</text><circle cx='200' cy='120' r='75' fill='none' stroke='#94a3b8' stroke-width='1.5' stroke-dasharray='3'/><circle cx='200' cy='45' r='5' fill='#3b82f6'/><circle cx='200' cy='195' r='5' fill='#3b82f6'/><circle cx='125' cy='120' r='5' fill='#3b82f6'/><circle cx='275' cy='120' r='5' fill='#3b82f6'/><circle cx='147' cy='67' r='5' fill='#3b82f6'/><circle cx='253' cy='67' r='5' fill='#3b82f6'/><circle cx='147' cy='173' r='5' fill='#3b82f6'/><circle cx='253' cy='173' r='5' fill='#3b82f6'/><text x='260' y='50' font-family='sans-serif' font-size='11' fill='#64748b'>L: 8e</text><circle cx='200' cy='120' r='105' fill='none' stroke='#ef4444' stroke-width='2'/><circle cx='200' cy='15' r='6' fill='#ef4444'/><text x='215' y='20' font-family='sans-serif' font-size='12' font-weight='bold' fill='#ef4444'>M: 1e</text></svg>"
+    },
+    "options": [
+      "1",
+      "2",
+      "8",
+      "11"
+    ],
+    "answer": 0,
+    "explanation": "Sodium has electronic configuration 2, 8, 1. The outermost shell (M-shell) contains exactly 1 valence electron.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-018",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the fourth state of matter consisting of super-energetic and super-excited ionized gas particles called?",
+    "acceptedAnswers": [
+      "plasma",
+      "Plasma"
+    ],
+    "keywords": [
+      "plasma"
+    ],
+    "explanation": "Plasma consists of super-energetic ionized gas particles and glowing ionized matter found in stars and neon signs.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-019",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What is the phenomenon of scattering of a beam of visible light by suspended colloidal particles called?",
+    "acceptedAnswers": [
+      "tyndall effect",
+      "Tyndall effect",
+      "Tyndall Effect"
+    ],
+    "keywords": [
+      "tyndall"
+    ],
+    "explanation": "The Tyndall effect is the scattering of light as a light beam passes through a colloid, making the beam's path visible.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-020",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): During the melting of ice at 0°C, the temperature of the ice-water mixture remains constant even though heat is continuously supplied.\nReason (R): The heat supplied is absorbed as latent heat of fusion to overcome inter-particle forces without increasing kinetic energy.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Latent heat of fusion breaks intermolecular bonds during phase change without altering the average kinetic energy (temperature) of the molecules.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-021",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Rutherford's alpha-particle scattering experiment led to the discovery of the atomic nucleus.\nReason (R): Nearly all alpha particles were deflected back by 180°, demonstrating that an atom is completely dense and solid throughout.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 2,
+    "explanation": "A is true. R is false because only about 1 in 12,000 alpha particles rebounded backwards; most alpha particles passed straight through the gold foil without deflection.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-022",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are examples of COLLOIDAL solutions? (Select all that apply)",
+    "options": [
+      "Milk",
+      "Fog / Mist",
+      "Copper sulphate solution",
+      "Shaving foam",
+      "Common salt dissolved in water"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Milk (emulsion), fog (aerosol), and shaving foam (foam) are heterogeneous colloids displaying the Tyndall effect. Copper sulphate and salt water are true homogeneous solutions.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-023",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following chemical formulas are CORRECT according to IUPAC valency rules? (Select all that apply)",
+    "options": [
+      "Sodium chloride: NaCl",
+      "Magnesium chloride: MgCl₂",
+      "Sodium sulphate: Na₂SO₄",
+      "Calcium hydroxide: Ca(OH)",
+      "Carbon dioxide: CO₂"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "NaCl, MgCl₂, Na₂SO₄, and CO₂ are correct. Calcium hydroxide is Ca(OH)₂ because calcium ion is Ca²⁺ and hydroxide is OH⁻.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-024",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following substances in INCREASING order of inter-particle forces of attraction at room temperature (from weakest to strongest):",
+    "orderedItems": [
+      "Oxygen gas (weakest attraction)",
+      "Water liquid (intermediate attraction)",
+      "Solid wax (strong attraction)",
+      "Iron nail (strongest metallic bonding)"
+    ],
+    "answer": "ordered",
+    "explanation": "Intermolecular attraction is weakest in gases (oxygen), stronger in liquids (water), strong in molecular solids (wax), and strongest in crystalline metals (iron).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-025",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following atomic theories and discoveries in chronological order from earliest to latest:",
+    "orderedItems": [
+      "Dalton's atomic theory (indivisible solid spherical atom)",
+      "Thomson's cathode ray experiments and plum pudding model",
+      "Rutherford's gold foil alpha scattering experiment and nuclear model",
+      "Bohr's planetary model with quantized electron orbits",
+      "Chadwick's discovery of the uncharged neutron"
+    ],
+    "answer": "ordered",
+    "explanation": "Dalton (1808) -> Thomson (1897) -> Rutherford (1911) -> Bohr (1913) -> Chadwick (1932).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-026",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The boiling point of water at 1 standard atmospheric pressure on the Kelvin temperature scale is:",
+    "options": [
+      "273 K",
+      "373 K",
+      "100 K",
+      "0 K"
+    ],
+    "answer": 1,
+    "explanation": "Boiling point of water is 100°C. In Kelvin: T = 100 + 273 = 373 K.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-027",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which laboratory technique is used to separate coloured pigments present in black marker ink based on differential solubility?",
+    "options": [
+      "Centrifugation",
+      "Paper chromatography",
+      "Crystallization",
+      "Simple distillation"
+    ],
+    "answer": 1,
+    "explanation": "Paper chromatography separates solutes that dissolve in the same solvent based on their differing rates of migration on chromatographic paper.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-028",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "What is the combining capacity (valency) of the noble gas Helium (He)?",
+    "options": [
+      "0",
+      "1",
+      "2",
+      "8"
+    ],
+    "answer": 0,
+    "explanation": "Helium has a complete duplet configuration (2 electrons in K-shell), so it has zero capacity to gain, lose, or share electrons (valency = 0).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-029",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Isotopes of any chemical element always possess the same number of:",
+    "options": [
+      "Neutrons",
+      "Protons",
+      "Nucleons",
+      "Mass units"
+    ],
+    "answer": 1,
+    "explanation": "Isotopes are atoms of the same element having the same atomic number (number of protons) but different mass numbers (number of neutrons).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-030",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Why does steam at 100°C cause significantly more severe burns than liquid water at the same temperature (100°C)?",
+    "options": [
+      "Steam has a temperature higher than 100°C",
+      "Steam contains extra latent heat of vaporization (approx 22.6 × 10⁵ J/kg)",
+      "Steam has a much lower density than water",
+      "Steam reacts chemically with human skin"
+    ],
+    "answer": 1,
+    "explanation": "Molecules in steam have absorbed latent heat of vaporization during phase change, delivering far more thermal energy upon condensing onto the skin.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-031",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "According to Dalton's atomic theory, atoms of different chemical elements possess different masses and distinctive chemical properties.",
+    "answer": true,
+    "explanation": "Postulate 4 of Dalton's atomic theory explicitly states that atoms of different elements have different masses and chemical properties.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-032",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In the medical antiseptic 'tincture of iodine', alcohol acts as the solute and solid iodine crystals act as the solvent.",
+    "answer": false,
+    "explanation": "In tincture of iodine, solid iodine is the solute dissolved in liquid alcohol (ethanol), which acts as the solvent.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-033",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "Solid carbon dioxide stored under high pressure is commercially referred to as dry ____.",
+    "acceptedAnswers": [
+      "ice",
+      "Ice"
+    ],
+    "explanation": "Solid CO₂ directly sublimes into gaseous carbon dioxide at 1 atm without melting into liquid, hence called dry ice.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-034",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The chemical formula of common baking soda (sodium hydrogen carbonate) is NaH____.",
+    "acceptedAnswers": [
+      "CO3",
+      "CO₃",
+      "co3"
+    ],
+    "explanation": "Sodium hydrogen carbonate is composed of Na⁺ and bicarbonate polyatomic ion HCO₃⁻, giving formula NaHCO₃.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-035",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the mixture with its most suitable separation technique:",
+    "pairs": [
+      [
+        "Cream from milk",
+        "Centrifugation"
+      ],
+      [
+        "Salt from seawater",
+        "Evaporation / Crystallization"
+      ],
+      [
+        "Coloured dyes in ink",
+        "Paper chromatography"
+      ],
+      [
+        "Kerosene oil and water",
+        "Separating funnel"
+      ]
+    ],
+    "explanation": "Centrifugation separates cream, evaporation crystallizes salt, chromatography separates dyes, and a separating funnel separates immiscible liquids.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-036",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the molecular mass of nitric acid (HNO₃) in atomic mass units (u) (take atomic masses: H = 1 u, N = 14 u, O = 16 u).",
+    "answer": 63,
+    "tolerance": 0,
+    "explanation": "Molecular mass of HNO₃ = (1 × 1) + (1 × 14) + (3 × 16) = 1 + 14 + 48 = 63 u.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-037",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the formula unit mass of sodium carbonate (Na₂CO₃) in atomic mass units (u) (take atomic masses: Na = 23 u, C = 12 u, O = 16 u).",
+    "answer": 106,
+    "tolerance": 0,
+    "explanation": "Formula unit mass of Na₂CO₃ = (2 × 23) + 12 + (3 × 16) = 46 + 12 + 48 = 106 u.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-038",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "If 110 g of copper sulphate is dissolved in 440 g of water, what is the concentration of the solution in mass-by-mass percentage?",
+    "answer": 20,
+    "tolerance": 0.1,
+    "explanation": "Total mass of solution = 110 + 440 = 550 g. Concentration = (110 / 550) × 100% = 20%.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-039",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "An atom of magnesium (Mg) has atomic number 12 and mass number 24. How many electrons does a neutral atom of magnesium have?",
+    "answer": 12,
+    "tolerance": 0,
+    "explanation": "In a neutral atom, number of electrons = number of protons = Atomic number (Z) = 12.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-040",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "In carbon dioxide (CO₂), the ratio by mass of carbon to oxygen in simplest integer form is a : b. What is the numerical sum (a + b) of these two simplest ratio integers?",
+    "answer": 11,
+    "tolerance": 0,
+    "explanation": "Atomic mass C = 12 u, O₂ = 2 × 16 = 32 u. Mass ratio C : O = 12 : 32 = 3 : 8. The sum of integers is 3 + 8 = 11.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-041",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the states-of-matter phase transition cycle shown, what is the name of the process labeled X representing the change from Gas to Liquid?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><polygon points='80,180 320,180 200,40' fill='none' stroke='#cbd5e1' stroke-width='2'/><circle cx='80' cy='180' r='30' fill='#3b82f6'/><text x='62' y='185' font-family='sans-serif' font-size='14' font-weight='bold' fill='#ffffff'>Solid</text><circle cx='320' cy='180' r='30' fill='#10b981'/><text x='298' y='185' font-family='sans-serif' font-size='14' font-weight='bold' fill='#ffffff'>Liquid</text><circle cx='200' cy='40' r='30' fill='#f59e0b'/><text x='185' y='45' font-family='sans-serif' font-size='14' font-weight='bold' fill='#ffffff'>Gas</text><text x='170' y='200' font-family='sans-serif' font-size='12' fill='#64748b'>Melting / Freezing</text><text x='80' y='95' font-family='sans-serif' font-size='12' fill='#64748b'>Sublimation</text><path d='M 230 55 L 295 150' stroke='#ef4444' stroke-width='3'/><polygon points='295,150 288,140 298,140' fill='#ef4444'/><text x='280' y='95' font-family='sans-serif' font-size='14' font-weight='bold' fill='#ef4444'>Process X</text></svg>"
+    },
+    "options": [
+      "Condensation",
+      "Sublimation",
+      "Solidification",
+      "Evaporation"
+    ],
+    "answer": 0,
+    "explanation": "The phase transition from gas to liquid by cooling or compression is called condensation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-042",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The apparatus shown in the diagram is standard laboratory equipment for which separation technique for miscible liquids?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><circle cx='100' cy='150' r='35' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><rect x='93' y='70' width='14' height='50' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><line x1='100' y1='60' x2='100' y2='110' stroke='#ef4444' stroke-width='3'/><text x='65' y='55' font-family='sans-serif' font-size='11' font-weight='bold' fill='#ef4444'>Thermometer</text><line x1='107' y1='95' x2='270' y2='160' stroke='#334155' stroke-width='6'/><rect x='130' y='95' width='110' height='30' fill='#93c5fd' opacity='0.7' stroke='#2563eb' stroke-width='1.5' transform='rotate(22 185 110)'/><text x='160' y='90' font-family='sans-serif' font-size='12' font-weight='bold' fill='#2563eb'>Liebig Condenser</text><polygon points='260,170 290,170 280,210 270,210' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><text x='295' y='200' font-family='sans-serif' font-size='11' fill='#64748b'>Distillate</text><polygon points='90,195 110,195 100,185' fill='#f59e0b'/><text x='85' y='215' font-family='sans-serif' font-size='11' fill='#f59e0b'>Burner</text></svg>"
+    },
+    "options": [
+      "Simple distillation",
+      "Paper chromatography",
+      "Sublimation",
+      "Centrifugation"
+    ],
+    "answer": 0,
+    "explanation": "The diagram displays distillation flask, thermometer, water condenser, and receiving beaker, which constitute a simple distillation apparatus.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-043",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is an atom or group of atoms carrying a net positive electrical charge called?",
+    "acceptedAnswers": [
+      "cation",
+      "Cation",
+      "positive ion"
+    ],
+    "keywords": [
+      "cation"
+    ],
+    "explanation": "A positively charged ion formed by the loss of one or more electrons is called a cation (e.g. Na⁺, Ca²⁺).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-044",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Which specific carbon isotope was chosen by IUPAC in 1961 as the universal standard reference for defining atomic mass units?",
+    "acceptedAnswers": [
+      "carbon-12",
+      "C-12",
+      "Carbon-12",
+      "carbon 12"
+    ],
+    "keywords": [
+      "carbon-12",
+      "c-12",
+      "12"
+    ],
+    "explanation": "One atomic mass unit (1 u) is defined as exactly 1/12th of the mass of one atom of Carbon-12 (¹²C).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-045",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Air is scientifically classified as a mixture and not a chemical compound.\nReason (R): Air can be separated into its constituent gases (oxygen, nitrogen, argon) by fractional distillation of liquid air, and its components retain their individual chemical properties.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Mixtures can be separated into their constituent substances by physical processes like fractional distillation, and their constituents retain individual properties.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-046",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Chlorine-35 and Chlorine-37 isotopes exhibit identical chemical properties.\nReason (R): Chemical properties of an atom are determined by its number of valence electrons and atomic number, which are identical for both isotopes.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Isotopes have identical electronic configurations (2, 8, 7 for chlorine), which dictates chemical reactivity, making their chemical properties identical.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-047",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following environmental factors INCREASE the rate of evaporation of a liquid? (Select all that apply)",
+    "options": [
+      "Increase in liquid surface area",
+      "Increase in ambient temperature",
+      "Increase in wind speed",
+      "Increase in atmospheric humidity",
+      "Decrease in liquid surface area"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "Higher surface area, higher temperature, and higher wind speed accelerate evaporation. Higher humidity decreases evaporation because air is already saturated with moisture.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-048",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following pairs of atomic species are ISOBARS (atoms of different elements having identical mass numbers)? (Select all that apply)",
+    "options": [
+      "⁴⁰₁₈Ar (Argon-40) and ⁴⁰₂₀Ca (Calcium-40)",
+      "¹²₆C (Carbon-12) and ¹⁴₆C (Carbon-14)",
+      "¹⁴₆C (Carbon-14) and ¹⁴₇N (Nitrogen-14)",
+      "¹₁H (Protium) and ²₁H (Deuterium)",
+      "²⁴₁₁Na (Sodium-24) and ²⁴₁₂Mg (Magnesium-24)"
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "Isobars have the same mass number (superscript) but different atomic numbers (subscript). Argon-40 and Calcium-40, Carbon-14 and Nitrogen-14, and Sodium-24 and Magnesium-24 are isobars.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-049",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following types of mixtures in INCREASING order of their solute particle diameters (from smallest to largest particle size):",
+    "orderedItems": [
+      "True solution (e.g. Salt dissolved in water, particle size < 1 nm)",
+      "Colloidal solution (e.g. Milk / fog, particle size 1 nm to 100 nm)",
+      "Suspension (e.g. Chalk powder in water, particle size > 100 nm)",
+      "Coarse macroscopic mixture (e.g. Gravel mixed in soil, particle size > 1 mm)"
+    ],
+    "answer": "ordered",
+    "explanation": "Particle size hierarchy: True solution (<1 nm) < Colloid (1-100 nm) < Suspension (>100 nm) < Coarse mixture (>1 mm).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-050",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following temperatures in INCREASING order of thermal value:",
+    "orderedItems": [
+      "0 Kelvin (Absolute zero, -273.15°C)",
+      "0°C (273.15 Kelvin)",
+      "100°C (373.15 Kelvin)",
+      "500 Kelvin (226.85°C)"
+    ],
+    "answer": "ordered",
+    "explanation": "Converting all to Kelvin: 0 K < 273.15 K (0°C) < 373.15 K (100°C) < 500 K.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-051",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The continuous, random zigzag motion of microscopic pollen grains suspended in water observed under a microscope is termed:",
+    "options": [
+      "Brownian motion",
+      "Tyndall effect",
+      "Centrifugation",
+      "Diffusion"
+    ],
+    "answer": 0,
+    "explanation": "Robert Brown discovered that pollen grains suspended in water perform continuous zigzag movements due to ceaseless bombardment by water molecules (Brownian motion).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-052",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Brass is a solid-in-solid homogeneous metallic alloy composed of which two elements?",
+    "options": [
+      "Copper and Tin",
+      "Copper and Zinc",
+      "Iron and Carbon",
+      "Aluminium and Magnesium"
+    ],
+    "answer": 1,
+    "explanation": "Brass is an alloy containing approximately 70% Copper (Cu) and 30% Zinc (Zn). Bronze is an alloy of Copper and Tin.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-053",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the atomicity of an ozone molecule (O₃)?",
+    "options": [
+      "Monoatomic",
+      "Diatomic",
+      "Triatomic",
+      "Tetra-atomic"
+    ],
+    "answer": 2,
+    "explanation": "Atomicity refers to the number of atoms constituting a molecule. Ozone consists of 3 oxygen atoms (O₃), so its atomicity is 3 (triatomic).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-054",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The maximum capacity of the second electron shell (L-shell, principal quantum number n = 2) according to the 2n² Bohr-Bury rule is:",
+    "options": [
+      "2 electrons",
+      "8 electrons",
+      "18 electrons",
+      "32 electrons"
+    ],
+    "answer": 1,
+    "explanation": "For the L-shell (n = 2), maximum electron capacity = 2n² = 2(2)² = 2 × 4 = 8 electrons.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-055",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "Which of the following elements has a neutral valence electronic configuration that requires the GAIN of exactly 1 electron to achieve a stable argon octet?",
+    "options": [
+      "Potassium (Z = 19)",
+      "Chlorine (Z = 17)",
+      "Sulphur (Z = 16)",
+      "Sodium (Z = 11)"
+    ],
+    "answer": 1,
+    "explanation": "Chlorine (Z = 17) has configuration 2, 8, 7. It readily gains 1 electron to form the chloride anion Cl⁻ with stable octet configuration 2, 8, 8.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-056",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Gases can be liquefied into liquids by applying high pressure and simultaneously lowering the temperature.",
+    "answer": true,
+    "explanation": "High pressure brings gas molecules close together, while lowering temperature reduces kinetic energy, facilitating intermolecular bonding and condensation into liquid.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-057",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "An alpha particle (α-particle) used in Rutherford's experiment is identical to a doubly charged helium ion (He²⁺) with mass 4 u.",
+    "answer": true,
+    "explanation": "An alpha particle consists of 2 protons and 2 neutrons (a helium nucleus He²⁺) with net charge +2e and atomic mass 4 u.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-058",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "A group of covalently bonded atoms that carries an overall net positive or negative charge is termed a ____ ion.",
+    "acceptedAnswers": [
+      "polyatomic",
+      "Polyatomic"
+    ],
+    "explanation": "A group of atoms carrying a net charge is called a polyatomic ion (e.g. NH₄⁺, SO₄²⁻, NO₃⁻).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-059",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The component of a solution that is present in the larger quantity and dissolves the other component is called the ____.",
+    "acceptedAnswers": [
+      "solvent",
+      "Solvent"
+    ],
+    "explanation": "In a binary solution, the substance present in greater proportion that dissolves the solute is the solvent.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-060",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match the element with its characteristic atomicity classification:",
+    "pairs": [
+      [
+        "Monoatomic element",
+        "Argon / Helium"
+      ],
+      [
+        "Diatomic element",
+        "Oxygen / Nitrogen"
+      ],
+      [
+        "Tetra-atomic element",
+        "Phosphorus (P₄)"
+      ],
+      [
+        "Poly-atomic element",
+        "Sulphur (S₈)"
+      ]
+    ],
+    "explanation": "Noble gases exist as single atoms (monoatomic), O₂ and N₂ as pairs (diatomic), P₄ as 4 atoms, and S₈ as an 8-atom ring (polyatomic).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-061",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the molecular mass of glucose (C₆H₁₂O₆) in atomic mass units (u) (take atomic masses: C = 12 u, H = 1 u, O = 16 u).",
+    "answer": 180,
+    "tolerance": 0,
+    "explanation": "Molecular mass = (6 × 12) + (12 × 1) + (6 × 16) = 72 + 12 + 96 = 180 u.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-062",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Find the molecular mass of carbon monoxide (CO) in atomic mass units (u) (take atomic masses: C = 12 u, O = 16 u).",
+    "answer": 28,
+    "tolerance": 0,
+    "explanation": "Molecular mass of CO = 12 + 16 = 28 u.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-063",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "An atom of aluminium (Al) has atomic number 13 and mass number 27. How many neutrons does this aluminium atom contain in its nucleus?",
+    "answer": 14,
+    "tolerance": 0,
+    "explanation": "Number of neutrons = Mass number (A) - Atomic number (Z) = 27 - 13 = 14.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-064",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "What mass of water in grams is required to dissolve 50 g of glucose to prepare a solution with a concentration of 20% by mass?",
+    "answer": 200,
+    "tolerance": 1,
+    "explanation": "Mass % = (mass of solute / total mass of solution) × 100 => 20 = (50 / (50 + m_water)) × 100 => 50 + m_water = 250 => m_water = 200 g.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-065",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the separating funnel setup shown separating a mixture of oil and water, which immiscible liquid collects in the LOWER layer due to its higher density?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><path d='M 160 30 L 240 30 L 240 80 Q 240 140 205 170 L 205 200 L 195 200 L 195 170 Q 160 140 160 80 Z' fill='#e2e8f0' stroke='#334155' stroke-width='2'/><path d='M 162 80 L 238 80 Q 238 120 203 140 L 197 140 Q 162 120 162 80 Z' fill='#fde047' opacity='0.8'/><text x='170' y='105' font-family='sans-serif' font-size='12' font-weight='bold' fill='#854d0e'>Oil Layer</text><path d='M 197 140 L 203 140 Q 205 155 205 170 L 195 170 Q 195 155 197 140 Z' fill='#60a5fa' opacity='0.9'/><path d='M 172 125 Q 185 140 200 145 Q 215 140 228 125' fill='#60a5fa' opacity='0.9'/><text x='165' y='160' font-family='sans-serif' font-size='12' font-weight='bold' fill='#1d4ed8'>Water Layer</text><rect x='185' y='180' width='30' height='8' fill='#ef4444'/><text x='225' y='187' font-family='sans-serif' font-size='11' font-weight='bold' fill='#ef4444'>Stopcock</text><polygon points='180,210 220,210 215,235 185,235' fill='#e2e8f0' stroke='#334155' stroke-width='1.5'/><text x='230' y='228' font-family='sans-serif' font-size='11' fill='#64748b'>Beaker</text></svg>"
+    },
+    "options": [
+      "Water (density approx 1.0 g/cm³)",
+      "Kerosene oil (density approx 0.8 g/cm³)",
+      "Mustard oil",
+      "Ether solvent"
+    ],
+    "answer": 0,
+    "explanation": "Because water has a higher density (1.0 g/cm³) than oil (approx 0.8 g/cm³), it sinks to form the lower immiscible layer and drains out first.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-066",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "The historical atomic model shown in the diagram, featuring negatively charged electrons embedded like raisins throughout a spherical positive cloud, was proposed by:",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><circle cx='200' cy='120' r='80' fill='#fed7aa' stroke='#ea580c' stroke-width='3'/><text x='130' y='50' font-family='sans-serif' font-size='13' font-weight='bold' fill='#ea580c'>Sphere of positive charge (+)</text><circle cx='160' cy='90' r='10' fill='#3b82f6'/><text x='156' y='94' font-family='sans-serif' font-size='12' font-weight='bold' fill='#ffffff'>-</text><circle cx='230' cy='85' r='10' fill='#3b82f6'/><text x='226' y='89' font-family='sans-serif' font-size='12' font-weight='bold' fill='#ffffff'>-</text><circle cx='180' cy='135' r='10' fill='#3b82f6'/><text x='176' y='139' font-family='sans-serif' font-size='12' font-weight='bold' fill='#ffffff'>-</text><circle cx='240' cy='140' r='10' fill='#3b82f6'/><text x='236' y='144' font-family='sans-serif' font-size='12' font-weight='bold' fill='#ffffff'>-</text><circle cx='150' cy='155' r='10' fill='#3b82f6'/><text x='146' y='159' font-family='sans-serif' font-size='12' font-weight='bold' fill='#ffffff'>-</text><text x='145' y='220' font-family='sans-serif' font-size='14' font-weight='bold' fill='#1e293b'>Plum Pudding Model</text></svg>"
+    },
+    "options": [
+      "J.J. Thomson",
+      "Ernest Rutherford",
+      "Niels Bohr",
+      "John Dalton"
+    ],
+    "answer": 0,
+    "explanation": "J.J. Thomson proposed the 'plum pudding' (or watermelon) atomic model in 1898, picturing electrons embedded in a uniform sphere of positive charge.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-067",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the spontaneous intermixing of particles of two different substances on their own called?",
+    "acceptedAnswers": [
+      "diffusion",
+      "Diffusion"
+    ],
+    "keywords": [
+      "diffusion"
+    ],
+    "explanation": "Diffusion is the natural spreading and intermixing of particles driven by concentration gradients and thermal motion.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-068",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Which neutral subatomic particle present in atomic nuclei (except ordinary hydrogen) was discovered by James Chadwick in 1932?",
+    "acceptedAnswers": [
+      "neutron",
+      "Neutron"
+    ],
+    "keywords": [
+      "neutron"
+    ],
+    "explanation": "James Chadwick discovered the neutron, a subatomic particle having no net electrical charge and a mass nearly equal to that of a proton.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-069",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): We are able to sip hot tea or hot milk faster from a wide saucer than from a narrow cup.\nReason (R): A saucer provides a significantly larger exposed surface area than a cup, accelerating the cooling process caused by evaporation.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Evaporation is a surface phenomenon. Greater surface area in a saucer facilitates faster heat dissipation and evaporation cooling.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-070",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Exactly 18 g of liquid water (H₂O) contains the exact same number of molecules as 18 g of water vapour at 100°C.\nReason (R): One mole of any chemical compound always contains Avogadro's constant (approx 6.022 × 10²³) of constituent molecules.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Molar mass of water is 18 g/mol in all physical states. Therefore 18 g represents 1 mole (6.022 × 10²³ molecules) in both liquid and vapour states.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-071",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following chemical substances undergo SUBLIMATION when heated under standard atmospheric pressure? (Select all that apply)",
+    "options": [
+      "Ammonium chloride (NH₄Cl)",
+      "Camphor",
+      "Naphthalene mothballs",
+      "Common table salt (NaCl)",
+      "Anthracene crystals"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Ammonium chloride, camphor, naphthalene, and anthracene directly sublime from solid to gas. Common salt (NaCl) melts at 801°C without subliming.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-072",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following processes are classified as CHEMICAL CHANGES (forming entirely new substances)? (Select all that apply)",
+    "options": [
+      "Rusting of an iron almirah in moist air",
+      "Burning of candle wax with flame",
+      "Melting of butter in a warm pan",
+      "Digestion of food inside the human digestive tract",
+      "Dissolving granulated sugar in warm tea"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Rusting, combustion of candle wax, and digestion involve chemical reactions forming new products. Melting butter and dissolving sugar are reversible physical changes.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-073",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following properties of CATHODE RAYS were experimentally confirmed by J.J. Thomson? (Select all that apply)",
+    "options": [
+      "Cathode rays travel in straight lines in the absence of external fields",
+      "They are deflected towards the positively charged plate in an electric field",
+      "They consist of negatively charged subatomic particles (electrons)",
+      "Their charge-to-mass ratio (e/m) depends heavily on the type of gas used",
+      "They cast sharp geometric shadows of opaque objects placed in their path"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Thomson showed cathode rays travel straight, carry negative charge (electrons), cast shadows, and have an e/m ratio that is universal and independent of the gas in the tube.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-074",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following chemical compounds in INCREASING order of their molecular/formula unit masses (from lightest to heaviest):",
+    "orderedItems": [
+      "Methane CH₄ (approx 16 u)",
+      "Water H₂O (approx 18 u)",
+      "Carbon dioxide CO₂ (approx 44 u)",
+      "Calcium carbonate CaCO₃ (approx 100 u)"
+    ],
+    "answer": "ordered",
+    "explanation": "CH₄ (16 u) < H₂O (18 u) < CO₂ (44 u) < CaCO₃ (40 + 12 + 48 = 100 u).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-075",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the successive treatment stages in a municipal drinking water purification plant in proper operational sequence:",
+    "orderedItems": [
+      "Sedimentation tank (allows heavy suspended insoluble solids to settle)",
+      "Loading tank (alum coagulates fine colloidal mud and clay particles)",
+      "Filtration tank (multilayered fine sand, gravel, and charcoal filters)",
+      "Chlorination tank (addition of chlorine disinfectant to kill microbes)",
+      "Pumping into urban household tap water distribution pipes"
+    ],
+    "answer": "ordered",
+    "explanation": "Municipal water purification steps: Sedimentation -> Loading with alum -> Sand/gravel filtration -> Chlorination -> Distribution.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-076",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which state of matter has neither a fixed shape nor a fixed volume, and readily expands to fill any container in which it is placed?",
+    "options": [
+      "Solid",
+      "Liquid",
+      "Gas",
+      "Crystalline solid"
+    ],
+    "answer": 2,
+    "explanation": "Gases have weak intermolecular forces and large intermolecular spaces, allowing them to assume both the shape and total volume of their container.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-077",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "According to the Law of Definite Proportions, the ratio by mass of hydrogen to oxygen in pure water (H₂O) is always:",
+    "options": [
+      "1 : 8",
+      "1 : 2",
+      "8 : 1",
+      "2 : 1"
+    ],
+    "answer": 0,
+    "explanation": "In H₂O, mass of 2 H atoms = 2 u and mass of 1 O atom = 16 u. Ratio by mass = 2 : 16 = 1 : 8.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-078",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Which isotope of carbon is adopted as the internationally accepted standard reference for defining the atomic mass unit (u)?",
+    "options": [
+      "Carbon-12 (¹²C)",
+      "Carbon-14 (¹⁴C)",
+      "Carbon-13 (¹³C)",
+      "Carbon-11 (¹¹C)"
+    ],
+    "answer": 0,
+    "explanation": "One atomic mass unit (1 u) is defined precisely as one-twelfth (1/12th) of the mass of one atom of carbon-12 (¹²C).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-079",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "A solution that has dissolved the maximum quantity of solute possible at a given temperature is called a:",
+    "options": [
+      "Unsaturated solution",
+      "Saturated solution",
+      "Colloidal sol",
+      "Heterogeneous suspension"
+    ],
+    "answer": 1,
+    "explanation": "A saturated solution is one in which no more solute can dissolve at that particular temperature.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-080",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The boiling point of pure water under standard atmospheric pressure (1 atm) in Kelvin is:",
+    "options": [
+      "100 K",
+      "273 K",
+      "373 K",
+      "473 K"
+    ],
+    "answer": 2,
+    "explanation": "Boiling point of water = 100°C. Converting to Kelvin: T(K) = 100 + 273 = 373 K.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-081",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "An uncharged neutral atom has mass number 35 and atomic number 17. The number of neutrons, protons, and electrons in this atom are respectively:",
+    "options": [
+      "18 neutrons, 17 protons, 17 electrons",
+      "17 neutrons, 18 protons, 17 electrons",
+      "18 neutrons, 18 protons, 17 electrons",
+      "35 neutrons, 17 protons, 17 electrons"
+    ],
+    "answer": 0,
+    "explanation": "Atomic number Z = 17 -> Protons = 17, Electrons = 17. Mass number A = 35 -> Neutrons = A - Z = 35 - 17 = 18.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-082",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Evaporation is a surface phenomenon that results in cooling of the surrounding liquid or medium.",
+    "answer": true,
+    "explanation": "During evaporation, surface particles absorb latent heat of vaporisation from the surroundings, causing the temperature of the surroundings to fall.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-083",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "In Rutherford's alpha-particle scattering experiment, the fact that most alpha particles passed straight through the gold foil showed that most of the space inside the atom is empty.",
+    "answer": true,
+    "explanation": "Because nearly 99% of alpha particles passed undeflected, Rutherford concluded that an atom consists largely of empty space with a tiny positive nucleus.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-084",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The scattering of a beam of visible light by colloidal particles when passing through a colloidal solution is known as the ________ effect.",
+    "answer": "Tyndall",
+    "acceptedAnswers": [
+      "Tyndall",
+      "tyndall",
+      "Tyndall effect",
+      "tyndall effect"
+    ],
+    "explanation": "The Tyndall effect is the optical scattering of light by colloidal particles large enough to deflect light rays, making the beam's path visible.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-085",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "A cluster or group of covalently bonded atoms carrying a net overall electrical charge (e.g. NH₄⁺, SO₄²⁻) is called a ________ ion.",
+    "answer": "polyatomic",
+    "acceptedAnswers": [
+      "polyatomic",
+      "Polyatomic",
+      "polyatomic ion"
+    ],
+    "explanation": "A polyatomic ion is a charged chemical species composed of two or more covalently bonded atoms acting as a single unit.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-086",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each subatomic discovery or model with the respective scientist:",
+    "pairs": [
+      [
+        "Discovery of Electron",
+        "J.J. Thomson"
+      ],
+      [
+        "Canal rays (Proton)",
+        "E. Goldstein"
+      ],
+      [
+        "Discovery of Neutron",
+        "James Chadwick"
+      ],
+      [
+        "Nuclear model of atom",
+        "Ernest Rutherford"
+      ]
+    ],
+    "explanation": "J.J. Thomson discovered electron (1897); Goldstein discovered canal rays/protons (1886); Chadwick discovered neutron (1932); Rutherford discovered nucleus (1911).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-087",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "match",
+    "difficulty": "hard",
+    "question": "Match each chemical element with its classical Latin name from which its chemical symbol is derived:",
+    "pairs": [
+      [
+        "Sodium (Na)",
+        "Natrium"
+      ],
+      [
+        "Potassium (K)",
+        "Kalium"
+      ],
+      [
+        "Iron (Fe)",
+        "Ferrum"
+      ],
+      [
+        "Lead (Pb)",
+        "Plumbum"
+      ]
+    ],
+    "explanation": "Chemical symbols derived from Latin: Sodium (Na) = Natrium; Potassium (K) = Kalium; Iron (Fe) = Ferrum; Lead (Pb) = Plumbum.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-088",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the formula unit mass of sodium chloride (NaCl) in unified atomic mass units (u). (Atomic masses: Na = 23 u, Cl = 35.5 u)",
+    "answer": 58.5,
+    "unit": "u",
+    "tolerance": 0.1,
+    "explanation": "Formula unit mass of NaCl = Atomic mass of Na + Atomic mass of Cl = 23 + 35.5 = 58.5 u.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-089",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Calculate the mass in grams of 0.2 mole of oxygen atoms (O). (Atomic mass of O = 16 u)",
+    "answer": 3.2,
+    "unit": "g",
+    "tolerance": 0.05,
+    "explanation": "Mass = Moles * Molar mass of oxygen atoms = 0.2 mol * 16 g/mol = 3.2 g.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-090",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A solution is prepared by dissolving 50 g of common salt in 450 g of water. Calculate the concentration of the solution in mass-by-mass percentage (%).",
+    "answer": 10,
+    "unit": "%",
+    "tolerance": 0.1,
+    "explanation": "Mass of solute = 50 g; Mass of solvent = 450 g. Total mass of solution = 50 + 450 = 500 g. Mass percentage = (50 / 500) * 100 = 10%.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-091",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Atoms and Molecules",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Calculate the number of moles represented by 12.044 × 10²³ helium atoms. (Avogadro constant Nₐ = 6.022 × 10²³ mol⁻¹)",
+    "answer": 2,
+    "unit": "moles",
+    "tolerance": 0.01,
+    "explanation": "Number of moles n = Given number of particles / Avogadro number = (12.044 × 10²³) / (6.022 × 10²³) = 2 moles.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-092",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the schematic Bohr atomic model shown below, which electronic energy shell is indicated by label 'B'?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 220' width='320' height='220'><rect width='320' height='220' fill='#0f172a' rx='8'/><circle cx='140' cy='110' r='16' fill='#ef4444'/><text x='140' y='114' fill='#ffffff' font-size='10' font-family='sans-serif' text-anchor='middle'>Nucleus</text><circle cx='140' cy='110' r='42' fill='none' stroke='#38bdf8' stroke-width='2' stroke-dasharray='4 2'/><text x='188' y='95' fill='#38bdf8' font-size='12' font-family='sans-serif' font-weight='bold'>A (K-shell)</text><circle cx='140' cy='110' r='72' fill='none' stroke='#fbbf24' stroke-width='2.5'/><circle cx='212' cy='110' r='4' fill='#fbbf24'/><text x='220' y='114' fill='#fbbf24' font-size='14' font-family='sans-serif' font-weight='bold'>B</text><circle cx='140' cy='110' r='98' fill='none' stroke='#a855f7' stroke-width='2' stroke-dasharray='4 2'/><text x='245' y='160' fill='#a855f7' font-size='12' font-family='sans-serif' font-weight='bold'>C (M-shell)</text></svg>"
+    },
+    "options": [
+      "K shell (n = 1, capacity 2 electrons)",
+      "L shell (n = 2, capacity 8 electrons)",
+      "M shell (n = 3, capacity 18 electrons)",
+      "N shell (n = 4, capacity 32 electrons)"
+    ],
+    "answer": 1,
+    "explanation": "Label B indicates the second energy level from the nucleus, which is the L shell (principal quantum number n = 2, maximum capacity = 2n² = 8 electrons).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-093",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Why does a desert room cooler cool significantly better on a hot, dry summer day than on a humid day?",
+    "sampleAnswer": "On a hot dry day, high ambient temperature and low relative humidity drastically increase the rate of evaporation of water. Rapid evaporation absorbs substantial latent heat from the air, delivering much greater cooling.",
+    "acceptedAnswers": [
+      "evaporation",
+      "cooling by evaporation",
+      "high temperature and low humidity increase rate of evaporation",
+      "evaporation causes cooling",
+      "rate of evaporation increases"
+    ],
+    "keywords": [
+      "hot",
+      "dry",
+      "humidity",
+      "evaporation",
+      "cooling",
+      "latent heat"
+    ],
+    "explanation": "Evaporation rate is inversely proportional to humidity and directly proportional to temperature. Low humidity + high heat = maximum evaporation and cooling.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-094",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "According to the Bohr-Bury scheme, what is the maximum number of electrons that can be accommodated in the outermost valence shell of any atom?",
+    "sampleAnswer": "The maximum number of electrons that can be accommodated in the outermost valence shell of an atom is 8, known as a stable octet (except for helium where the single K shell holds a maximum of 2 electrons).",
+    "acceptedAnswers": [
+      "8",
+      "eight",
+      "octet",
+      "8 electrons",
+      "eight electrons"
+    ],
+    "keywords": [
+      "8",
+      "eight",
+      "octet",
+      "outermost",
+      "valence"
+    ],
+    "explanation": "The Bohr-Bury rule states that the outermost shell cannot accommodate more than 8 electrons, regardless of its maximum 2n² capacity.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-095",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Is Matter Around Us Pure?",
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "Assertion (A): Tincture of iodine is a homogeneous liquid solution.\nReason (R): In tincture of iodine, elemental iodine acts as the solid solute dissolved homogeneously in alcohol as the liquid solvent.",
+    "options": [
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true"
+    ],
+    "answer": 0,
+    "explanation": "Tincture of iodine is a true solution of iodine (solute) dissolved in alcohol (solvent), making both assertion and reason true with correct explanation.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-096",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Steam at 100°C causes significantly more severe skin burns than liquid water at 100°C.\nReason (R): Particles in steam at 100°C possess extra energy in the form of latent heat of vaporisation (22.5 × 10⁵ J/kg) compared to water at the same temperature.",
+    "options": [
+      "Both (A) and (R) are true and (R) is the correct explanation of (A)",
+      "Both (A) and (R) are true but (R) is NOT the correct explanation of (A)",
+      "(A) is true but (R) is false",
+      "(A) is false but (R) is true"
+    ],
+    "answer": 0,
+    "explanation": "Steam releases its latent heat of vaporisation upon condensing on the skin in addition to cooling down, transferring much more thermal energy than boiling water alone.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-097",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Select ALL statements that correctly describe fundamental characteristics of particles of matter:",
+    "options": [
+      "Particles of matter have spaces between them",
+      "Particles of matter are continuously moving",
+      "Particles of matter attract one another",
+      "Particles of matter possess kinetic energy that increases with temperature",
+      "Particles of matter remain completely stationary at room temperature",
+      "Matter is continuous like a solid block of wood and has no granular particle nature"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Particles have spaces, move continuously, attract each other, and possess temperature-dependent kinetic energy. They are not stationary, nor is matter continuous.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-098",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Select ALL valid scientific characteristics of isotopes of an element:",
+    "options": [
+      "They have identical atomic numbers (same number of protons)",
+      "They have different mass numbers",
+      "They exhibit identical chemical properties due to the same valence electron configuration",
+      "They have different numbers of neutrons in their nuclei",
+      "They always have identical physical properties like density and boiling point"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "explanation": "Isotopes share the same atomic number and electronic structure (hence same chemical properties), but differ in neutron count, mass number, and physical properties.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-099",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Matter in Our Surroundings",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following gases in INCREASING order of their diffusion rates into air at room temperature (from slowest diffusing to fastest diffusing):",
+    "orderedItems": [
+      "Carbon dioxide CO₂ (Molar mass approx 44 g/mol)",
+      "Oxygen gas O₂ (Molar mass approx 32 g/mol)",
+      "Nitrogen gas N₂ (Molar mass approx 28 g/mol)",
+      "Hydrogen gas H₂ (Molar mass approx 2 g/mol)"
+    ],
+    "answer": "ordered",
+    "explanation": "According to Graham's Law, rate of diffusion is inversely proportional to square root of molar mass. Heavier gases diffuse slower: CO₂ (44) < O₂ (32) < N₂ (28) < H₂ (2).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-chemistry-100",
+    "class": 9,
+    "subject": "chemistry",
+    "chapter": "Structure of the Atom",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following milestone scientific discoveries and models of atomic theory in correct chronological historical order (from earliest to latest):",
+    "orderedItems": [
+      "Dalton's atomic theory (indivisible atom postulate)",
+      "Thomson's plum pudding atomic model",
+      "Rutherford's nuclear planetary atomic model",
+      "Bohr's stationary energy orbit model",
+      "Chadwick's discovery of the uncharged neutron"
+    ],
+    "answer": "ordered",
+    "explanation": "Chronological order: Dalton (1808) -> Thomson (1897-1904) -> Rutherford (1911) -> Bohr (1913) -> Chadwick (1932).",
+    "marks": 2,
+    "volatile": false
+  }
+]

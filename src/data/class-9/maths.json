@@ -1,0 +1,1928 @@
+[
+  {
+    "id": "c9-maths-001",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Number Systems",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following is an irrational number?",
+    "options": [
+      "√4",
+      "3.141414...",
+      "√7",
+      "0.25"
+    ],
+    "answer": 2,
+    "explanation": "√7 is a non-terminating, non-repeating decimal and cannot be expressed as p/q with integers p and q. √4 = 2 and 3.141414... = 311/99 are rational.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-002",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If p(x) = x³ - 3x² + 4x - 12, what is the value of p(3)?",
+    "options": [
+      "0",
+      "6",
+      "-6",
+      "12"
+    ],
+    "answer": 0,
+    "explanation": "p(3) = 3³ - 3(3²) + 4(3) - 12 = 27 - 27 + 12 - 12 = 0. Therefore, by factor theorem, (x - 3) is a factor of p(x).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-003",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Lines and Angles",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Two supplementary angles are in the ratio 3 : 2. What is the measure of the smaller angle?",
+    "options": [
+      "36°",
+      "54°",
+      "72°",
+      "108°"
+    ],
+    "answer": 2,
+    "explanation": "Let the angles be 3x and 2x. Supplementary angles add up to 180°: 3x + 2x = 180° => 5x = 180° => x = 36°. The smaller angle is 2(36°) = 72°.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-004",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "In which quadrant of the Cartesian plane does the point (-4, 3) lie?",
+    "options": [
+      "Quadrant I",
+      "Quadrant II",
+      "Quadrant III",
+      "Quadrant IV"
+    ],
+    "answer": 1,
+    "explanation": "In Quadrant II, the x-coordinate is negative (x < 0) and the y-coordinate is positive (y > 0).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-005",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Heron's Formula",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the area of an equilateral triangle having each side equal to 8 cm?",
+    "options": [
+      "16√3 cm²",
+      "32√3 cm²",
+      "64 cm²",
+      "16 cm²"
+    ],
+    "answer": 0,
+    "explanation": "Area of an equilateral triangle = (√3 / 4) × a² = (√3 / 4) × 8² = (√3 / 4) × 64 = 16√3 cm².",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-006",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Number Systems",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Every integer is a whole number.",
+    "answer": false,
+    "explanation": "Negative integers like -1, -2, -3 are integers, but whole numbers include only non-negative integers {0, 1, 2, 3...}. Thus, not every integer is a whole number.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-007",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "The sum of any two sides of a triangle is always greater than the third side.",
+    "answer": true,
+    "explanation": "By the triangle inequality theorem in Euclidean geometry, a triangle can only exist if the sum of lengths of any two sides strictly exceeds the third side.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-008",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The angle subtended by a semicircle at any point on the circle is a right angle (90°).",
+    "answer": true,
+    "explanation": "The straight diameter subtends 180° at the centre. Since the angle subtended at the circumference is half that at the centre, 180° / 2 = 90°.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-009",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "A diagonal of a parallelogram divides it into two congruent triangles.",
+    "answer": true,
+    "explanation": "Opposite sides of a parallelogram are equal and the diagonal is common. By SSS or SAS congruence criterion, the two triangles formed are congruent.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-010",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The degree of a non-zero constant polynomial is 1.",
+    "answer": false,
+    "explanation": "A non-zero constant polynomial c can be written as c·x⁰, so its degree is 0. A polynomial of degree 1 is a linear polynomial.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-011",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Lines and Angles",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "If two parallel lines are intersected by a transversal, then interior angles on the same side of the transversal are ____.",
+    "answer": "supplementary",
+    "acceptedAnswers": [
+      "supplementary",
+      "180 degrees",
+      "180°",
+      "supplementary angles"
+    ],
+    "explanation": "Consecutive interior angles on the same side of a transversal intersecting parallel lines add up to 180°, meaning they are supplementary.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-012",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "fillblank",
+    "difficulty": "medium",
+    "question": "The total surface area of a solid hemisphere of radius r is given by the formula ____.",
+    "answer": "3πr²",
+    "acceptedAnswers": [
+      "3πr²",
+      "3*pi*r^2",
+      "3 pi r^2",
+      "3πr^2",
+      "3pi r^2"
+    ],
+    "explanation": "A solid hemisphere comprises a curved surface area of 2πr² and a flat circular base area of πr², summing to 3πr².",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-013",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "In the Cartesian coordinate system, the point of intersection of the X-axis and Y-axis is known as the ____.",
+    "answer": "origin",
+    "acceptedAnswers": [
+      "origin",
+      "Origin"
+    ],
+    "explanation": "The reference point (0, 0) where the horizontal X-axis and vertical Y-axis intersect is called the origin.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-014",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Linear Equations in Two Variables",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The graph of every linear equation of the form y = mx passes through the ____.",
+    "answer": "origin",
+    "acceptedAnswers": [
+      "origin",
+      "Origin",
+      "point (0,0)",
+      "(0,0)"
+    ],
+    "explanation": "When x = 0, y = m(0) = 0. Since (0, 0) satisfies the equation, the line always passes through the origin.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-015",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "A line segment passing through the center of a circle with endpoints on the circle is called the ____.",
+    "answer": "diameter",
+    "acceptedAnswers": [
+      "diameter",
+      "Diameter"
+    ],
+    "explanation": "The diameter is the longest chord of a circle and passes through the center of the circle.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-016",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each 3D geometrical solid with its corresponding volume formula:",
+    "pairs": [
+      [
+        "Right Circular Cone",
+        "(1/3)πr²h"
+      ],
+      [
+        "Right Circular Cylinder",
+        "πr²h"
+      ],
+      [
+        "Solid Sphere",
+        "(4/3)πr³"
+      ],
+      [
+        "Cuboid",
+        "l × b × h"
+      ],
+      [
+        "Solid Hemisphere",
+        "(2/3)πr³"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Cone volume is one-third of the cylinder of equal base and height ((1/3)πr²h). Sphere is (4/3)πr³, hemisphere is (2/3)πr³, and cuboid is l × b × h.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-017",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each given point with its correct position in the Cartesian plane:",
+    "pairs": [
+      [
+        "Point (3, 5)",
+        "Quadrant I"
+      ],
+      [
+        "Point (-2, 7)",
+        "Quadrant II"
+      ],
+      [
+        "Point (-4, -6)",
+        "Quadrant III"
+      ],
+      [
+        "Point (5, -1)",
+        "Quadrant IV"
+      ],
+      [
+        "Point (0, -3)",
+        "Negative Y-axis"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "(+,+) lies in Q1, (-,+) in Q2, (-,-) in Q3, (+,-) in Q4, and (0, -y) lies on the negative Y-axis.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-018",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each triangle congruence criterion with its geometric rule:",
+    "pairs": [
+      [
+        "SSS Congruence",
+        "Three corresponding sides are equal"
+      ],
+      [
+        "SAS Congruence",
+        "Two sides and the included angle are equal"
+      ],
+      [
+        "ASA Congruence",
+        "Two angles and the included side are equal"
+      ],
+      [
+        "RHS Congruence",
+        "Right angle, hypotenuse, and one corresponding side equal"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "These are the four fundamental triangle congruence criteria studied in NCERT Class 9 Chapter 7.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-019",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "match",
+    "difficulty": "easy",
+    "question": "Match each statistical measure with its standard definition:",
+    "pairs": [
+      [
+        "Mean",
+        "Sum of all observations divided by total count"
+      ],
+      [
+        "Median",
+        "Middle value when data is arranged in order"
+      ],
+      [
+        "Mode",
+        "Observation that occurs with greatest frequency"
+      ],
+      [
+        "Range",
+        "Difference between maximum and minimum values"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Mean represents the arithmetic average, median is positional middle, mode is peak frequency, and range measures data spread.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-020",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "match",
+    "difficulty": "medium",
+    "question": "Match each algebraic polynomial with its degree classification:",
+    "pairs": [
+      [
+        "5x + 3",
+        "Linear polynomial (degree 1)"
+      ],
+      [
+        "2x² - 4x + 1",
+        "Quadratic polynomial (degree 2)"
+      ],
+      [
+        "x³ - 8",
+        "Cubic polynomial (degree 3)"
+      ],
+      [
+        "7",
+        "Constant polynomial (degree 0)"
+      ],
+      [
+        "0",
+        "Zero polynomial (degree not defined)"
+      ]
+    ],
+    "answer": "matched",
+    "explanation": "Degree is the highest exponent of the variable. Degree of 7 is 0, while the degree of the zero polynomial is conventionally not defined.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-021",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A right circular cone has a base radius of 7 cm and a vertical height of 24 cm. Find its slant height in cm.",
+    "answer": 25,
+    "tolerance": 0.1,
+    "unit": "cm",
+    "explanation": "Slant height l = √(r² + h²) = √(7² + 24²) = √(49 + 576) = √625 = 25 cm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-022",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "In a right-angled triangle, the lengths of the two perpendicular sides are 9 cm and 12 cm. Calculate the length of the hypotenuse in cm.",
+    "answer": 15,
+    "tolerance": 0.1,
+    "unit": "cm",
+    "explanation": "By Pythagoras theorem, Hypotenuse = √(9² + 12²) = √(81 + 144) = √225 = 15 cm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-023",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Find the arithmetic mean of the first five prime numbers.",
+    "answer": 5.6,
+    "tolerance": 0.05,
+    "explanation": "The first five prime numbers are 2, 3, 5, 7, and 11. Sum = 2 + 3 + 5 + 7 + 11 = 28. Mean = 28 / 5 = 5.6.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-024",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Linear Equations in Two Variables",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "If the point (2, 0) is a solution of the linear equation 2x + 3y = k, find the numerical value of k.",
+    "answer": 4,
+    "tolerance": 0.01,
+    "explanation": "Substitute x = 2 and y = 0 into 2x + 3y = k: 2(2) + 3(0) = k => 4 + 0 = k => k = 4.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-025",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Heron's Formula",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Calculate the semi-perimeter 's' of a triangle with side lengths 13 cm, 14 cm, and 15 cm in cm.",
+    "answer": 21,
+    "tolerance": 0.01,
+    "unit": "cm",
+    "explanation": "Semi-perimeter s = (a + b + c) / 2 = (13 + 14 + 15) / 2 = 42 / 2 = 21 cm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-026",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the given diagram, O is the centre of the circle and arc AB subtends an angle ∠AOB = 110° at the centre. Find the angle ∠APB subtended by arc AB at point P on the alternate segment.",
+    "options": [
+      "55°",
+      "70°",
+      "110°",
+      "220°"
+    ],
+    "answer": 0,
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 300 240\" width=\"100%\" height=\"200\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"150\" cy=\"120\" r=\"80\" fill=\"#f8fafc\" stroke=\"#1b2a4a\" stroke-width=\"2\"/><circle cx=\"150\" cy=\"120\" r=\"4\" fill=\"#dc2626\"/><text x=\"155\" y=\"115\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b2a4a\">O</text><circle cx=\"90\" cy=\"170\" r=\"4\" fill=\"#0284c7\"/><text x=\"75\" y=\"185\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">A</text><circle cx=\"210\" cy=\"170\" r=\"4\" fill=\"#0284c7\"/><text x=\"215\" y=\"185\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">B</text><circle cx=\"150\" cy=\"40\" r=\"4\" fill=\"#16a34a\"/><text x=\"145\" y=\"32\" font-size=\"14\" font-weight=\"bold\" fill=\"#16a34a\">P</text><line x1=\"150\" y1=\"120\" x2=\"90\" y2=\"170\" stroke=\"#dc2626\" stroke-width=\"2\"/><line x1=\"150\" y1=\"120\" x2=\"210\" y2=\"170\" stroke=\"#dc2626\" stroke-width=\"2\"/><line x1=\"90\" y1=\"170\" x2=\"150\" y2=\"40\" stroke=\"#0284c7\" stroke-width=\"2\"/><line x1=\"210\" y1=\"170\" x2=\"150\" y2=\"40\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"130\" y=\"150\" font-size=\"13\" font-weight=\"bold\" fill=\"#dc2626\">110°</text><text x=\"142\" y=\"65\" font-size=\"13\" font-weight=\"bold\" fill=\"#16a34a\">?</text></svg>"
+    },
+    "explanation": "By NCERT Theorem 10.8, the angle subtended by an arc at the centre is double the angle subtended by it at any point on the remaining part of the circle. Hence ∠APB = (1/2) × ∠AOB = (1/2) × 110° = 55°.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-027",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Lines and Angles",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "In the diagram, lines AB and CD are parallel (AB || CD) and EF is a transversal. If angle ∠1 = 65°, find the measure of the alternate interior angle ∠2.",
+    "options": [
+      "65°",
+      "115°",
+      "125°",
+      "180°"
+    ],
+    "answer": 0,
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 320 200\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><line x1=\"20\" y1=\"60\" x2=\"300\" y2=\"60\" stroke=\"#1b2a4a\" stroke-width=\"2.5\"/><text x=\"290\" y=\"50\" font-size=\"13\" font-weight=\"bold\" fill=\"#1b2a4a\">AB</text><line x1=\"20\" y1=\"140\" x2=\"300\" y2=\"140\" stroke=\"#1b2a4a\" stroke-width=\"2.5\"/><text x=\"290\" y=\"130\" font-size=\"13\" font-weight=\"bold\" fill=\"#1b2a4a\">CD</text><line x1=\"80\" y1=\"20\" x2=\"240\" y2=\"180\" stroke=\"#dc2626\" stroke-width=\"2.5\"/><text x=\"70\" y=\"25\" font-size=\"13\" font-weight=\"bold\" fill=\"#dc2626\">E</text><text x=\"245\" y=\"185\" font-size=\"13\" font-weight=\"bold\" fill=\"#dc2626\">F</text><text x=\"135\" y=\"85\" font-size=\"14\" font-weight=\"bold\" fill=\"#0284c7\">∠1 = 65°</text><text x=\"165\" y=\"132\" font-size=\"14\" font-weight=\"bold\" fill=\"#16a34a\">∠2 = ?</text></svg>"
+    },
+    "explanation": "When two parallel lines are cut by a transversal, pair of alternate interior angles are equal. Therefore, ∠2 = ∠1 = 65°.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-028",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "Look at the Cartesian grid shown. Identify the coordinates of the highlighted point P.",
+    "options": [
+      "(3, 4)",
+      "(-3, 4)",
+      "(4, 3)",
+      "(3, -4)"
+    ],
+    "answer": 0,
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 260 220\" width=\"100%\" height=\"200\" xmlns=\"http://www.w3.org/2000/svg\"><defs><pattern id=\"grid\" width=\"25\" height=\"25\" patternUnits=\"userSpaceOnUse\"><path d=\"M 25 0 L 0 0 0 25\" fill=\"none\" stroke=\"#e2e8f0\" stroke-width=\"1\"/></pattern></defs><rect width=\"260\" height=\"220\" fill=\"url(#grid)\"/><line x1=\"20\" y1=\"150\" x2=\"240\" y2=\"150\" stroke=\"#1b2a4a\" stroke-width=\"2\"/><text x=\"245\" y=\"155\" font-size=\"13\" font-weight=\"bold\" fill=\"#1b2a4a\">X</text><line x1=\"80\" y1=\"20\" x2=\"80\" y2=\"200\" stroke=\"#1b2a4a\" stroke-width=\"2\"/><text x=\"85\" y=\"20\" font-size=\"13\" font-weight=\"bold\" fill=\"#1b2a4a\">Y</text><circle cx=\"155\" cy=\"50\" r=\"5\" fill=\"#dc2626\"/><text x=\"165\" y=\"45\" font-size=\"15\" font-weight=\"bold\" fill=\"#dc2626\">P</text><line x1=\"155\" y1=\"150\" x2=\"155\" y2=\"50\" stroke=\"#dc2626\" stroke-dasharray=\"3,3\"/><line x1=\"80\" y1=\"50\" x2=\"155\" y2=\"50\" stroke=\"#dc2626\" stroke-dasharray=\"3,3\"/><text x=\"150\" y=\"170\" font-size=\"12\" font-weight=\"bold\" fill=\"#1b2a4a\">3</text><text x=\"65\" y=\"55\" font-size=\"12\" font-weight=\"bold\" fill=\"#1b2a4a\">4</text></svg>"
+    },
+    "explanation": "Point P has an abscissa (x-coordinate) of 3 units along the positive X-axis and an ordinate (y-coordinate) of 4 units along the positive Y-axis, giving P(3, 4).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-029",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "image",
+    "difficulty": "easy",
+    "question": "Find the area of the right-angled triangle ABC shown in the diagram.",
+    "options": [
+      "24 cm²",
+      "48 cm²",
+      "14 cm²",
+      "10 cm²"
+    ],
+    "answer": 0,
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 280 200\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><polygon points=\"40,160 200,160 40,40\" fill=\"#e0f2fe\" stroke=\"#0284c7\" stroke-width=\"2.5\"/><rect x=\"40\" y=\"145\" width=\"15\" height=\"15\" fill=\"none\" stroke=\"#0284c7\" stroke-width=\"1.5\"/><text x=\"25\" y=\"170\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b2a4a\">B</text><text x=\"210\" y=\"170\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b2a4a\">C (base = 6 cm)</text><text x=\"15\" y=\"35\" font-size=\"14\" font-weight=\"bold\" fill=\"#1b2a4a\">A (height = 8 cm)</text></svg>"
+    },
+    "explanation": "Area of right-angled triangle = (1/2) × base × height = (1/2) × 6 cm × 8 cm = 24 cm².",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-030",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "A right circular cone shown has radius r = 3 cm and vertical height h = 4 cm. What is its volume in terms of π?",
+    "options": [
+      "12π cm³",
+      "36π cm³",
+      "15π cm³",
+      "24π cm³"
+    ],
+    "answer": 0,
+    "image": {
+      "kind": "svg",
+      "src": "<svg viewBox=\"0 0 240 220\" width=\"100%\" height=\"180\" xmlns=\"http://www.w3.org/2000/svg\"><ellipse cx=\"120\" cy=\"170\" rx=\"60\" ry=\"20\" fill=\"#fef9c3\" stroke=\"#b45309\" stroke-width=\"2\"/><path d=\"M 60 170 L 120 40 L 180 170\" fill=\"#fef3c7\" stroke=\"#b45309\" stroke-width=\"2\"/><line x1=\"120\" y1=\"40\" x2=\"120\" y2=\"170\" stroke=\"#dc2626\" stroke-dasharray=\"4,3\" stroke-width=\"2\"/><line x1=\"120\" y1=\"170\" x2=\"180\" y2=\"170\" stroke=\"#0284c7\" stroke-width=\"2\"/><text x=\"130\" y=\"110\" font-size=\"13\" font-weight=\"bold\" fill=\"#dc2626\">h = 4 cm</text><text x=\"135\" y=\"165\" font-size=\"13\" font-weight=\"bold\" fill=\"#0284c7\">r = 3 cm</text></svg>"
+    },
+    "explanation": "Volume of a cone = (1/3)πr²h = (1/3) × π × 3² × 4 = (1/3) × π × 9 × 4 = 12π cm³.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-031",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Number Systems",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "State Euclid's First Axiom regarding quantities that are equal to the same quantity.",
+    "answer": "Things which are equal to the same thing are equal to one another.",
+    "acceptedAnswers": [
+      "Things which are equal to the same thing are equal to one another",
+      "equal to one another",
+      "things equal to the same thing are equal to each other",
+      "they are equal to each other"
+    ],
+    "keywords": [
+      "equal",
+      "same thing",
+      "one another"
+    ],
+    "explanation": "Euclid's Axiom 1 states: 'Things which are equal to the same thing are equal to one another' (If a = c and b = c, then a = b).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-032",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "By Remainder Theorem, what is the numerical remainder when polynomial p(x) = x⁴ + 1 is divided by (x - 1)?",
+    "answer": "2",
+    "acceptedAnswers": [
+      "2",
+      "remainder is 2",
+      "two"
+    ],
+    "keywords": [
+      "2",
+      "remainder"
+    ],
+    "explanation": "By Remainder Theorem, dividing by (x - 1) leaves remainder R = p(1) = 1⁴ + 1 = 1 + 1 = 2.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-033",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Lines and Angles",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the specific geometric term for two adjacent angles whose non-common sides form a straight line opposite to each other?",
+    "answer": "Linear pair",
+    "acceptedAnswers": [
+      "linear pair",
+      "Linear pair",
+      "linear pair of angles"
+    ],
+    "keywords": [
+      "linear pair"
+    ],
+    "explanation": "A linear pair of angles consists of two adjacent angles whose non-common arms form a straight line, summing up to 180°.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-034",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What geometric term is given to a straight line that intersects a circle at two distinct points?",
+    "answer": "Secant",
+    "acceptedAnswers": [
+      "secant",
+      "Secant",
+      "secant line"
+    ],
+    "keywords": [
+      "secant"
+    ],
+    "explanation": "A line intersecting a circle at two points is called a secant, whereas a line touching it at only one point is a tangent.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-035",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "What is the class mark of the continuous class interval 30 - 50?",
+    "answer": "40",
+    "acceptedAnswers": [
+      "40",
+      "forty"
+    ],
+    "keywords": [
+      "40"
+    ],
+    "explanation": "Class mark = (Upper class limit + Lower class limit) / 2 = (50 + 30) / 2 = 80 / 2 = 40.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-036",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Find the missing number in the sequence: 2, 6, 12, 20, 30, ____.",
+    "options": [
+      "38",
+      "40",
+      "42",
+      "44"
+    ],
+    "answer": 2,
+    "hint": "Check the successive differences: +4, +6, +8, +10...",
+    "explanation": "The differences between successive terms are consecutive even numbers: 6-2=4, 12-6=6, 20-12=8, 30-20=10. The next difference is 12, so 30 + 12 = 42.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-037",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "If all squares are rectangles, and all rectangles are parallelograms, which of the following logical conclusions is necessarily true?",
+    "options": [
+      "All parallelograms are squares",
+      "All squares are parallelograms",
+      "No square can be a rhombus",
+      "All rhombuses are rectangles"
+    ],
+    "answer": 1,
+    "hint": "Use syllogistic deduction: If A ⊆ B and B ⊆ C, then A ⊆ C.",
+    "explanation": "By transitive subset relation: Since Squares ⊂ Rectangles and Rectangles ⊂ Parallelograms, it logically follows that All Squares are Parallelograms.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-038",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Lines and Angles",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "In a geometry coding cipher: TRIANGLE is coded as 8, and QUADRILATERAL is coded as 13. How is PENTAGON coded under this exact rule?",
+    "options": [
+      "5",
+      "7",
+      "8",
+      "9"
+    ],
+    "answer": 2,
+    "hint": "Count the number of alphabet letters forming each polygon word.",
+    "explanation": "TRIANGLE has 8 letters -> 8. QUADRILATERAL has 13 letters -> 13. PENTAGON has letters P-E-N-T-A-G-O-N = 8 letters -> 8.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-039",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "The numbers 5, 8, x, 14, 18 are arranged in ascending order. If the median of this data set is 11, find the value of x.",
+    "options": [
+      "9",
+      "10",
+      "11",
+      "12"
+    ],
+    "answer": 2,
+    "hint": "For an odd number of observations (n = 5), the median is the ((5+1)/2)th term.",
+    "explanation": "With n = 5 observations arranged in order, the median is the 3rd term. The 3rd term is x, so x = 11.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-040",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Lines and Angles",
+    "type": "logic",
+    "difficulty": "easy",
+    "question": "What is the angle formed between the hour hand and the minute hand of a standard analog clock at exactly 3:00?",
+    "options": [
+      "60°",
+      "75°",
+      "90°",
+      "120°"
+    ],
+    "answer": 2,
+    "hint": "At 3:00, the minute hand points straight up at 12 and the hour hand points right at 3.",
+    "explanation": "The clock face is 360° divided into 12 hour marks (30° per hour). At 3:00, the hands are 3 hour marks apart: 3 × 30° = 90° (a right angle).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-041",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following geometric properties are TRUE for EVERY rhombus? (Select all that apply)",
+    "options": [
+      "All four sides are equal in length",
+      "Diagonals bisect each other at 90°",
+      "All four interior angles must be 90°",
+      "Opposite angles are equal",
+      "Diagonals are always equal in length"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "A rhombus has all 4 sides equal, perpendicular bisecting diagonals, and equal opposite angles. Only a square (a special rhombus) has 90° interior angles and equal diagonals.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-042",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Number Systems",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following numbers are RATIONAL numbers? (Select all that apply)",
+    "options": [
+      "√9",
+      "0.333... (recurring 3)",
+      "√5",
+      "-7/4",
+      "π",
+      "0"
+    ],
+    "answer": [
+      0,
+      1,
+      3,
+      5
+    ],
+    "explanation": "√9 = 3 (rational), 0.333... = 1/3 (rational), -7/4 is p/q (rational), and 0 = 0/1 (rational). √5 and π are irrational.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-043",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following statements about circle geometry are CORRECT? (Select all that apply)",
+    "options": [
+      "Equal chords of a circle subtend equal angles at the centre",
+      "The perpendicular drawn from the centre of a circle to a chord bisects the chord",
+      "A circle can have at most two distinct diameters",
+      "Congruent arcs of a circle subtend equal chords",
+      "A secant touches a circle at exactly one point"
+    ],
+    "answer": [
+      0,
+      1,
+      3
+    ],
+    "explanation": "Equal chords subtend equal angles (Theorem 10.1); perpendicular from centre bisects chord (Theorem 10.3); congruent arcs yield equal chords. Circles have infinitely many diameters, and secants cut at two points.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-044",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following algebraic expressions are polynomials in one variable? (Select all that apply)",
+    "options": [
+      "x² + 5x + 6",
+      "y³ - √2 y + 7",
+      "3√t + t√2",
+      "x + 2/x",
+      "z⁴ - 16"
+    ],
+    "answer": [
+      0,
+      1,
+      4
+    ],
+    "explanation": "In a polynomial, every exponent of the variable must be a whole number. 3√t has exponent 1/2 and 2/x has exponent -1, so they are not polynomials.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-045",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "multiselect",
+    "difficulty": "easy",
+    "question": "Which of the following are valid congruence criteria for two triangles? (Select all that apply)",
+    "options": [
+      "SSS (Side-Side-Side)",
+      "AAA (Angle-Angle-Angle)",
+      "SAS (Side-Angle-Side)",
+      "RHS (Right-angle-Hypotenuse-Side)",
+      "SSA (Side-Side-Angle)"
+    ],
+    "answer": [
+      0,
+      2,
+      3
+    ],
+    "explanation": "SSS, SAS, and RHS are valid congruence criteria. AAA guarantees similarity but not congruence (shapes can be different sizes), and SSA is not a valid general congruence criterion.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-046",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the steps to factorize the quadratic polynomial x² + 5x + 6 by splitting the middle term in correct chronological order:",
+    "orderedItems": [
+      "Identify product a × c = 6 and coefficient sum b = 5",
+      "Find a pair of numbers whose product is 6 and sum is 5 (2 and 3)",
+      "Rewrite the middle term: x² + 2x + 3x + 6",
+      "Group in pairs and extract common factor: x(x + 2) + 3(x + 2)",
+      "Factor out the common binomial factor: (x + 2)(x + 3)"
+    ],
+    "answer": "ordered",
+    "explanation": "First identify target product and sum, find factors 2 and 3, rewrite the middle term, group terms, and finally extract (x + 2) to get (x + 2)(x + 3).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-047",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Number Systems",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the following numbers in ASCENDING order (from smallest to largest):",
+    "orderedItems": [
+      "-3.5",
+      "-1/2",
+      "0",
+      "√2 (~1.414)",
+      "2.75",
+      "π (~3.141)"
+    ],
+    "answer": "ordered",
+    "explanation": "In order: -3.5 < -0.5 (-1/2) < 0 < 1.414 (√2) < 2.75 < 3.141 (π).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-048",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Heron's Formula",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the sequential steps to calculate the area of a scalene triangle using Heron's formula:",
+    "orderedItems": [
+      "Record side lengths a, b, and c",
+      "Calculate semi-perimeter s = (a + b + c) / 2",
+      "Compute individual differences (s - a), (s - b), and (s - c)",
+      "Compute product s × (s - a) × (s - b) × (s - c)",
+      "Evaluate square root: Area = √[s(s - a)(s - b)(s - c)]"
+    ],
+    "answer": "ordered",
+    "explanation": "Heron's formula requires calculating semi-perimeter s first, then the differences from each side, followed by multiplying them with s, and taking the square root.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-049",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "ordering",
+    "difficulty": "easy",
+    "question": "Arrange the steps to find the median of an ungrouped dataset:",
+    "orderedItems": [
+      "Collect the raw dataset values",
+      "Arrange observations in ascending order",
+      "Count the total number of observations (n)",
+      "Check whether n is odd or even",
+      "Apply median rule: ((n+1)/2)th term if odd, or average of middle two if even"
+    ],
+    "answer": "ordered",
+    "explanation": "To determine the median, always sort observations first, count n, determine parity (odd/even), and then take the central value or average of middle values.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-050",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the following 3D polyhedra and solids in INCREASING order of their number of vertices (from least to most):",
+    "orderedItems": [
+      "Cone (1 vertex at apex)",
+      "Tetrahedron / Triangular Pyramid (4 vertices)",
+      "Triangular Prism (6 vertices)",
+      "Cube / Cuboid (8 vertices)"
+    ],
+    "answer": "ordered",
+    "explanation": "Cone has 1 apex vertex, tetrahedron has 4 vertices, triangular prism has 6 vertices (3 on each triangle), and cube has 8 vertices.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-051",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Linear Equations in Two Variables",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The linear equation 2x + 5y = 7 has how many solutions in real numbers?",
+    "options": [
+      "A unique solution",
+      "Only two solutions",
+      "Infinitely many solutions",
+      "No solution"
+    ],
+    "answer": 2,
+    "explanation": "A linear equation in two variables ax + by + c = 0 represents a straight line on the Cartesian plane, which contains infinitely many coordinate pairs satisfying it.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-052",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Number Systems",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "What is the simplest rationalising factor of 1 / (√5 - 2)?",
+    "options": [
+      "√5 - 2",
+      "√5 + 2",
+      "5 - √2",
+      "2 - √5"
+    ],
+    "answer": 1,
+    "explanation": "Multiplying numerator and denominator by (√5 + 2) removes the surd from the denominator because (√5 - 2)(√5 + 2) = 5 - 4 = 1.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-053",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If (x - 1) is a factor of 4x³ + 3x² - 4x + k, find the value of k.",
+    "options": [
+      "-3",
+      "3",
+      "-5",
+      "5"
+    ],
+    "answer": 0,
+    "explanation": "By Factor Theorem, p(1) = 0. So 4(1)³ + 3(1)² - 4(1) + k = 0 => 4 + 3 - 4 + k = 0 => 3 + k = 0 => k = -3.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-054",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Euclid's Geometry",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "According to Euclid's axioms, if equals are added to equals, the wholes are:",
+    "options": [
+      "Doubled",
+      "Halved",
+      "Equal",
+      "Unequal"
+    ],
+    "answer": 2,
+    "explanation": "Euclid's second axiom explicitly states: 'If equals be added to equals, the wholes are equal' (i.e. if a = b, then a + c = b + c).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-055",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In an isosceles triangle ABC with AB = AC, if ∠A = 80°, what is the measure of ∠B?",
+    "options": [
+      "50°",
+      "60°",
+      "40°",
+      "80°"
+    ],
+    "answer": 0,
+    "explanation": "In triangle ABC, AB = AC implies ∠B = ∠C. Since ∠A + ∠B + ∠C = 180°, 80° + 2∠B = 180° => 2∠B = 100° => ∠B = 50°.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-056",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The diagonals of a rhombus are 16 cm and 12 cm. What is the length of each side of the rhombus?",
+    "options": [
+      "14 cm",
+      "10 cm",
+      "20 cm",
+      "8 cm"
+    ],
+    "answer": 1,
+    "explanation": "Diagonals of a rhombus bisect each other at right angles. Half-lengths are 8 cm and 6 cm. Side = √(8² + 6²) = √(64 + 36) = √100 = 10 cm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-057",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In a circle of radius 10 cm, two parallel chords of lengths 12 cm and 16 cm are drawn on opposite sides of the centre. What is the distance between the two chords?",
+    "options": [
+      "12 cm",
+      "14 cm",
+      "10 cm",
+      "16 cm"
+    ],
+    "answer": 1,
+    "explanation": "Distance of 12 cm chord from centre: d1 = √(10² - 6²) = √(100 - 36) = √64 = 8 cm. Distance of 16 cm chord: d2 = √(10² - 8²) = √(100 - 64) = √36 = 6 cm. On opposite sides, total distance = 8 + 6 = 14 cm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-058",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Heron's Formula",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "The perimeter of an equilateral triangle is 60 cm. What is its semi-perimeter (s)?",
+    "options": [
+      "20 cm",
+      "30 cm",
+      "15 cm",
+      "45 cm"
+    ],
+    "answer": 1,
+    "explanation": "Semi-perimeter s = Perimeter / 2 = 60 / 2 = 30 cm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-059",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The class mark of the class interval 120 - 150 is:",
+    "options": [
+      "130",
+      "135",
+      "140",
+      "30"
+    ],
+    "answer": 1,
+    "explanation": "Class mark = (Upper class limit + Lower class limit) / 2 = (150 + 120) / 2 = 270 / 2 = 135.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-060",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "A right circular cone has a base radius of 7 cm and a vertical height of 24 cm. Calculate its slant height in cm.",
+    "answer": 25,
+    "tolerance": 0.1,
+    "explanation": "Slant height l = √(r² + h²) = √(7² + 24²) = √(49 + 576) = √625 = 25 cm.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-061",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Heron's Formula",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "The sides of a triangle are 13 cm, 14 cm, and 15 cm. Find the area of the triangle in square centimetres using Heron's formula.",
+    "answer": 84,
+    "tolerance": 0.1,
+    "explanation": "s = (13 + 14 + 15)/2 = 42/2 = 21 cm. Area = √[s(s-a)(s-b)(s-c)] = √[21 × (21-13) × (21-14) × (21-15)] = √[21 × 8 × 7 × 6] = √7056 = 84 cm².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-062",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Number Systems",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Evaluate: (64)^(1/2) + (27)^(1/3). Enter the integer value.",
+    "answer": 11,
+    "tolerance": 0,
+    "explanation": "64^(1/2) = √64 = 8, and 27^(1/3) = ∛27 = 3. Sum = 8 + 3 = 11.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-063",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Lines and Angles",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "An angle is equal to its complementary angle. What is the measure of this angle in degrees?",
+    "answer": 45,
+    "tolerance": 0,
+    "explanation": "Let the angle be x. Since it equals its complement: x + x = 90° => 2x = 90° => x = 45°.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-064",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "If x + 1/x = 5, find the numerical value of x² + 1/x².",
+    "answer": 23,
+    "tolerance": 0,
+    "explanation": "Squaring both sides: (x + 1/x)² = 5² => x² + 2(x)(1/x) + 1/x² = 25 => x² + 2 + 1/x² = 25 => x² + 1/x² = 25 - 2 = 23.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-065",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Find the total surface area of a solid hemisphere of radius 7 cm in cm² (take π = 22/7).",
+    "answer": 462,
+    "tolerance": 0.5,
+    "explanation": "Total surface area of solid hemisphere = 3πr² = 3 × (22/7) × 7² = 3 × 22 × 7 = 462 cm².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-066",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "numerical",
+    "difficulty": "easy",
+    "question": "Find the mean of the first 5 prime numbers (2, 3, 5, 7, 11).",
+    "answer": 5.6,
+    "tolerance": 0.1,
+    "explanation": "Sum of first 5 primes = 2 + 3 + 5 + 7 + 11 = 28. Number of observations = 5. Mean = 28 / 5 = 5.6.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-067",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Euclid's Geometry",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "A line has a definite length and two end points.",
+    "answer": false,
+    "explanation": "According to Euclid's geometry, a line extends indefinitely in both directions without endpoints. A line segment has two endpoints and a definite length.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-068",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "truefalse",
+    "difficulty": "medium",
+    "question": "The angle subtended by a diameter at any point on the semi-circle is always a right angle (90°).",
+    "answer": true,
+    "explanation": "By the semi-circle theorem, the angle subtended by a diameter (an arc measuring 180° at the centre) at any point on the circle is 180° / 2 = 90°.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-069",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "A polynomial consisting of exactly three non-zero terms is called a ____.",
+    "acceptedAnswers": [
+      "trinomial",
+      "Trinomial"
+    ],
+    "explanation": "A polynomial of one term is a monomial, two terms is a binomial, and three terms is a trinomial.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-070",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The horizontal axis in the Cartesian coordinate system is called the ____-axis.",
+    "acceptedAnswers": [
+      "x",
+      "X",
+      "x-axis",
+      "abscissa"
+    ],
+    "explanation": "In the Cartesian plane, the horizontal reference axis is designated as the x-axis, and the vertical reference axis is designated as the y-axis.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-071",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Lines and Angles",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What is the term for a pair of non-adjacent angles on the same side of a transversal and at the same relative position at each intersection?",
+    "acceptedAnswers": [
+      "corresponding angles",
+      "corresponding",
+      "Corresponding Angles"
+    ],
+    "keywords": [
+      "corresponding",
+      "angles"
+    ],
+    "explanation": "Angles in matching corners relative to parallel lines cut by a transversal are called corresponding angles, and they are equal.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-072",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "type": "short",
+    "difficulty": "easy",
+    "question": "Name the quadrilateral whose opposite sides are parallel and all four interior angles are 90 degrees.",
+    "acceptedAnswers": [
+      "rectangle",
+      "Rectangle"
+    ],
+    "keywords": [
+      "rectangle"
+    ],
+    "explanation": "A parallelogram having each interior angle equal to 90 degrees is a rectangle.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-073",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Euclid's Geometry",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "Assertion (A): Only one unique straight line can pass through two given distinct points P and Q.\nReason (R): Euclid's Postulate 1 states that a straight line may be drawn from any one point to any other point.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 0,
+    "explanation": "Euclid's Axiom/Postulate 1 establishes that given any two distinct points, there exists a unique straight line passing through both of them.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-074",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Number Systems",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following numbers are IRRATIONAL? (Select all that apply)",
+    "options": [
+      "√2",
+      "3.14159...",
+      "0.333...",
+      "√9",
+      "π",
+      "22/7"
+    ],
+    "answer": [
+      0,
+      1,
+      4
+    ],
+    "explanation": "√2, non-terminating non-repeating decimal 3.14159..., and π are irrational. 0.333... = 1/3, √9 = 3, and 22/7 are rational numbers.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-075",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following geometric properties are TRUE for every general parallelogram? (Select all that apply)",
+    "options": [
+      "Opposite sides are equal in length",
+      "Opposite angles are equal",
+      "Diagonals bisect each other",
+      "Diagonals are always equal in length",
+      "Diagonals are always perpendicular to each other"
+    ],
+    "answer": [
+      0,
+      1,
+      2
+    ],
+    "explanation": "In every parallelogram, opposite sides are equal, opposite angles are equal, and diagonals bisect each other. Diagonals are equal only in rectangles/squares, and perpendicular only in rhombuses/squares.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-076",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Linear Equations in Two Variables",
+    "type": "mcq",
+    "difficulty": "easy",
+    "question": "Which of the following points lies on the line given by 3x - y = 5?",
+    "options": [
+      "(2, 1)",
+      "(1, 2)",
+      "(3, 2)",
+      "(0, 5)"
+    ],
+    "answer": 0,
+    "explanation": "Substitute x = 2 and y = 1 into 3x - y: 3(2) - 1 = 6 - 1 = 5. Hence, (2, 1) satisfies the equation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-077",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Number Systems",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "Express the recurring decimal 0.474747... as a fraction p/q in simplest form.",
+    "options": [
+      "47/99",
+      "47/90",
+      "43/90",
+      "47/100"
+    ],
+    "answer": 0,
+    "explanation": "Let x = 0.4747... Multiplying by 100 gives 100x = 47.4747... Subtracting gives 99x = 47 => x = 47/99.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-078",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "If a + b + c = 0, what is the value of (a³ + b³ + c³) / (abc)?",
+    "options": [
+      "0",
+      "1",
+      "3",
+      "-3"
+    ],
+    "answer": 2,
+    "explanation": "By algebraic identity, if a + b + c = 0, then a³ + b³ + c³ = 3abc. Therefore, (a³ + b³ + c³) / (abc) = 3abc / abc = 3.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-079",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Lines and Angles",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "In a figure where lines AB and CD intersect at O, ray OE is drawn. If ∠AOC + ∠BOE = 70° and ∠BOD = 40°, what is the measure of ∠BOE?",
+    "options": [
+      "30°",
+      "40°",
+      "50°",
+      "70°"
+    ],
+    "answer": 0,
+    "explanation": "Vertically opposite angles are equal: ∠AOC = ∠BOD = 40°. Since ∠AOC + ∠BOE = 70°, we get 40° + ∠BOE = 70° => ∠BOE = 30°.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-080",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "In right triangle ABC right-angled at B, AB = 6 cm and BC = 8 cm. If D is the midpoint of the hypotenuse AC, what is the length of BD?",
+    "options": [
+      "4 cm",
+      "5 cm",
+      "6 cm",
+      "10 cm"
+    ],
+    "answer": 1,
+    "explanation": "Hypotenuse AC = √(6² + 8²) = 10 cm. The midpoint of the hypotenuse of a right-angled triangle is the circumcentre, equidistant from all three vertices: BD = AC / 2 = 10 / 2 = 5 cm.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-081",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "mcq",
+    "difficulty": "hard",
+    "question": "A cyclic quadrilateral ABCD has ∠A = (2x + 4)° and ∠C = (3x + 1)°. What is the value of x?",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "answer": 1,
+    "explanation": "Opposite angles of a cyclic quadrilateral are supplementary: ∠A + ∠C = 180° => (2x + 4) + (3x + 1) = 180 => 5x + 5 = 180 => 5x = 175 => x = 35.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-082",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "If the radius of a sphere is doubled, its volume increases by what factor?",
+    "options": [
+      "2 times",
+      "4 times",
+      "8 times",
+      "16 times"
+    ],
+    "answer": 2,
+    "explanation": "Volume of a sphere is proportional to r³. If radius becomes 2r, new volume V' = (4/3)π(2r)³ = 8 × (4/3)πr³ = 8V.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-083",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "mcq",
+    "difficulty": "medium",
+    "question": "The mean of 10 observations is 20. If each observation is multiplied by 3 and then 5 is added to each, what is the new mean?",
+    "options": [
+      "25",
+      "60",
+      "65",
+      "75"
+    ],
+    "answer": 2,
+    "explanation": "If every observation x is transformed to 3x + 5, the new mean is 3(original mean) + 5 = 3(20) + 5 = 60 + 5 = 65.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-084",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "Find the volume of a right circular cylinder in cm³ whose base radius is 7 cm and height is 10 cm (take π = 22/7).",
+    "answer": 1540,
+    "tolerance": 1,
+    "explanation": "Volume = πr²h = (22/7) × 7² × 10 = 22 × 7 × 10 = 1540 cm³.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-085",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Find the remainder when the polynomial f(x) = x⁴ - 3x² + 2x + 5 is divided by (x - 2).",
+    "answer": 13,
+    "tolerance": 0,
+    "explanation": "By Remainder Theorem, remainder = f(2) = 2⁴ - 3(2²) + 2(2) + 5 = 16 - 12 + 4 + 5 = 13.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-086",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Heron's Formula",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "The sides of a triangular park are in the ratio 3 : 5 : 7 and its perimeter is 300 m. Find its area in square metres (rounded to nearest integer, taking √3 ≈ 1.732).",
+    "answer": 2598,
+    "tolerance": 5,
+    "explanation": "Ratio sum = 3 + 5 + 7 = 15. Sides: a = 60 m, b = 100 m, c = 140 m. Semi-perimeter s = 150 m. Area = √[150 × 90 × 50 × 10] = 1500√3 ≈ 1500 × 1.732 = 2598 m².",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-087",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "A chord of length 30 cm is drawn in a circle of radius 17 cm. What is the perpendicular distance of this chord from the centre in cm?",
+    "answer": 8,
+    "tolerance": 0.1,
+    "explanation": "Perpendicular from centre bisects chord: half-chord = 30 / 2 = 15 cm. Distance d = √(17² - 15²) = √(289 - 225) = √64 = 8 cm.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-088",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Linear Equations in Two Variables",
+    "type": "numerical",
+    "difficulty": "medium",
+    "question": "The graph of the linear equation 2x + 3y = 12 cuts the x-axis at a point (p, 0). Find the numerical value of p.",
+    "answer": 6,
+    "tolerance": 0,
+    "explanation": "On the x-axis, y = 0. Substituting: 2x + 3(0) = 12 => 2x = 12 => x = 6. So p = 6.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-089",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Number Systems",
+    "type": "numerical",
+    "difficulty": "hard",
+    "question": "Simplify: (5 + √7)(5 - √7) + (√11 - √3)(√11 + √3). What is the resulting integer value?",
+    "answer": 26,
+    "tolerance": 0,
+    "explanation": "Using (a+b)(a-b) = a² - b²: (5² - (√7)²) + ((√11)² - (√3)²) = (25 - 7) + (11 - 3) = 18 + 8 = 26.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-090",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Quadrilaterals",
+    "type": "truefalse",
+    "difficulty": "easy",
+    "question": "Every square is both a rectangle and a rhombus.",
+    "answer": true,
+    "explanation": "A square has four right angles (satisfying the definition of a rectangle) and four equal sides (satisfying the definition of a rhombus).",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-091",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Statistics",
+    "type": "fillblank",
+    "difficulty": "easy",
+    "question": "The difference between the maximum value and the minimum value of a dataset is known as the ____.",
+    "acceptedAnswers": [
+      "range",
+      "Range"
+    ],
+    "explanation": "In statistics, Range = Maximum observation - Minimum observation.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-092",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Lines and Angles",
+    "type": "image",
+    "difficulty": "medium",
+    "question": "In the given diagram, line l is parallel to line m, and line t is a transversal intersecting them. If ∠1 = 115°, what is the measure of the alternate interior angle ∠2 marked in the figure?",
+    "image": {
+      "kind": "svg",
+      "src": "<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 400 240' width='100%' height='240'><rect width='400' height='240' fill='#fdfbf7'/><line x1='40' y1='70' x2='360' y2='70' stroke='#1e293b' stroke-width='3'/><text x='370' y='75' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f766e'>l</text><line x1='40' y1='170' x2='360' y2='170' stroke='#1e293b' stroke-width='3'/><text x='370' y='175' font-family='sans-serif' font-size='14' font-weight='bold' fill='#0f766e'>m</text><line x1='120' y1='20' x2='280' y2='220' stroke='#e11d48' stroke-width='3'/><text x='290' y='225' font-family='sans-serif' font-size='14' font-weight='bold' fill='#e11d48'>t</text><path d='M 175 70 A 20 20 0 0 1 155 88' fill='none' stroke='#2563eb' stroke-width='2'/><text x='185' y='60' font-family='sans-serif' font-size='13' font-weight='bold' fill='#2563eb'>∠1 = 115°</text><path d='M 225 170 A 20 20 0 0 1 245 152' fill='none' stroke='#16a34a' stroke-width='2'/><text x='215' y='195' font-family='sans-serif' font-size='13' font-weight='bold' fill='#16a34a'>∠2 = ?</text></svg>"
+    },
+    "options": [
+      "65°",
+      "115°",
+      "125°",
+      "75°"
+    ],
+    "answer": 1,
+    "explanation": "When two parallel lines are cut by a transversal, alternate interior angles are equal. Hence ∠2 = ∠1 = 115°.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-093",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "short",
+    "difficulty": "medium",
+    "question": "What is the mathematical term for the y-coordinate of an ordered pair (x, y) in the Cartesian plane?",
+    "acceptedAnswers": [
+      "ordinate",
+      "Ordinate"
+    ],
+    "keywords": [
+      "ordinate"
+    ],
+    "explanation": "In Cartesian coordinates, the horizontal x-coordinate is the abscissa and the vertical y-coordinate is the ordinate.",
+    "marks": 1,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-094",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Circles",
+    "type": "logic",
+    "difficulty": "hard",
+    "question": "Assertion (A): Chords equidistant from the centre of a circle are equal in length.\nReason (R): Equal chords of a circle subtend equal angles at the centre.\nChoose the correct option:",
+    "options": [
+      "Both A and R are true and R is the correct explanation of A",
+      "Both A and R are true but R is not the correct explanation of A",
+      "A is true but R is false",
+      "A is false but R is true"
+    ],
+    "answer": 1,
+    "explanation": "Both statements are fundamental NCERT circle theorems, but the fact that equidistant chords are equal is established through RHS congruence of triangles formed with radii and perpendiculars, not directly from the angle subtended at the centre.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-095",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Triangles",
+    "type": "logic",
+    "difficulty": "medium",
+    "question": "In triangle PQR, PQ = 5 cm, QR = 7 cm, and PR = 4 cm. Which of the following conclusions is correct regarding its interior angles?",
+    "options": [
+      "∠P is the greatest angle and ∠Q is the smallest angle",
+      "∠R is the greatest angle and ∠P is the smallest angle",
+      "∠Q is the greatest angle and ∠R is the smallest angle",
+      "All angles are equal"
+    ],
+    "answer": 0,
+    "explanation": "In any triangle, the angle opposite the longest side is largest (side QR = 7 cm is opposite ∠P) and the angle opposite the shortest side is smallest (side PR = 4 cm is opposite ∠Q).",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-096",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Surface Areas and Volumes",
+    "type": "multiselect",
+    "difficulty": "medium",
+    "question": "Which of the following geometric solid formulas are CORRECT? (Select all that apply)",
+    "options": [
+      "Curved surface area of a cylinder = 2πrh",
+      "Volume of a cone = (1/3)πr²h",
+      "Surface area of a sphere = 4πr²",
+      "Volume of a sphere = 2πr³",
+      "Total surface area of a cone = πr(l + r)"
+    ],
+    "answer": [
+      0,
+      1,
+      2,
+      4
+    ],
+    "explanation": "Curved surface area of cylinder is 2πrh, volume of cone is (1/3)πr²h, surface area of sphere is 4πr², and TSA of cone is πr(l + r). Volume of sphere is (4/3)πr³, not 2πr³.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-097",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Polynomials",
+    "type": "multiselect",
+    "difficulty": "hard",
+    "question": "Which of the following algebraic expressions are POLYNOMIALS in variable x? (Select all that apply)",
+    "options": [
+      "3x² - 5x + 7",
+      "x + 1/x",
+      "√2 x³ - 4x + 1",
+      "x^(1/2) + 3",
+      "x³ - 8"
+    ],
+    "answer": [
+      0,
+      2,
+      4
+    ],
+    "explanation": "In a polynomial, the exponent of the variable must be a non-negative integer. Expressions 3x² - 5x + 7, √2 x³ - 4x + 1, and x³ - 8 have whole number powers. x + 1/x (exponent -1) and x^(1/2) (exponent 1/2) are not polynomials.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-098",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Heron's Formula",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the chronological sequence of steps to calculate the area of a scalene triangle with sides a, b, c using Heron's formula:",
+    "orderedItems": [
+      "Measure or note the lengths of all three sides a, b, and c",
+      "Compute the semi-perimeter s = (a + b + c) / 2",
+      "Calculate differences (s - a), (s - b), and (s - c)",
+      "Multiply s by all three differences: s(s - a)(s - b)(s - c)",
+      "Take the square root of the product to obtain the final area"
+    ],
+    "answer": "ordered",
+    "explanation": "The proper sequence starts with the 3 side lengths, computing semi-perimeter s, finding the three differences from s, multiplying them together with s, and taking the square root.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-099",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Introduction to Euclid's Geometry",
+    "type": "ordering",
+    "difficulty": "hard",
+    "question": "Arrange the following geometric entities according to Euclid's hierarchy of dimensions, from 0 dimensions to 3 dimensions:",
+    "orderedItems": [
+      "A Point (0 dimensions: that which has no part)",
+      "A Line / Curve (1 dimension: breadthless length)",
+      "A Surface / Plane (2 dimensions: length and breadth only)",
+      "A Solid (3 dimensions: length, breadth, and depth)"
+    ],
+    "answer": "ordered",
+    "explanation": "According to Euclid's Elements, a point has dimension 0, a line has dimension 1, a surface has dimension 2, and a solid has dimension 3.",
+    "marks": 2,
+    "volatile": false
+  },
+  {
+    "id": "c9-maths-100",
+    "class": 9,
+    "subject": "maths",
+    "chapter": "Coordinate Geometry",
+    "type": "ordering",
+    "difficulty": "medium",
+    "question": "Arrange the four standard quadrants of the 2D Cartesian plane in standard counter-clockwise order starting from the positive x and y quadrant:",
+    "orderedItems": [
+      "Quadrant I (+, +)",
+      "Quadrant II (-, +)",
+      "Quadrant III (-, -)",
+      "Quadrant IV (+, -)"
+    ],
+    "answer": "ordered",
+    "explanation": "Standard quadrant numbering proceeds counter-clockwise from the top-right: Q1 (+, +), Q2 (-, +), Q3 (-, -), and Q4 (+, -).",
+    "marks": 2,
+    "volatile": false
+  }
+]
