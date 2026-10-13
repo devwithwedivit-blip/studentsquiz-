@@ -1,14 +1,40 @@
 import React from 'react';
+import { StudentSession, StaffProfile } from '../../types/online';
 
-export type AppMode = 'practice' | 'student' | 'admin' | 'results';
+export type AppMode = 'login' | 'practice' | 'student' | 'teacher' | 'admin' | 'results';
 
 interface ModeSelectorProps {
   currentMode: AppMode;
   onSelectMode: (mode: AppMode) => void;
   isOnlineConfigured: boolean;
+  studentSession: StudentSession | null;
+  staffProfile: StaffProfile | null;
+  onLogout: () => void;
 }
 
-export function ModeSelector({ currentMode, onSelectMode, isOnlineConfigured }: ModeSelectorProps) {
+export function ModeSelector({
+  currentMode,
+  onSelectMode,
+  isOnlineConfigured,
+  studentSession,
+  staffProfile,
+  onLogout
+}: ModeSelectorProps) {
+  // If not logged in, hide navbar or show minimal header
+  if (!studentSession && !staffProfile) {
+    return null;
+  }
+
+  const roleBadge = studentSession
+    ? `🎒 विद्यार्थी (कक्षा ${studentSession.student.class})`
+    : staffProfile?.role === 'admin'
+    ? '🛡️ एडमिन'
+    : '👨‍🏫 शिक्षक';
+
+  const userName = studentSession
+    ? studentSession.student.name
+    : staffProfile?.name || 'स्टाफ';
+
   return (
     <div
       style={{
@@ -44,36 +70,68 @@ export function ModeSelector({ currentMode, onSelectMode, isOnlineConfigured }: 
           >
             {isOnlineConfigured ? '🟢 SUPABASE ONLINE' : '⚪ LOCAL OFFLINE'}
           </span>
+          <span
+            style={{
+              marginLeft: '0.5rem',
+              fontSize: '0.75rem',
+              padding: '0.15rem 0.4rem',
+              borderRadius: '4px',
+              backgroundColor: '#e0e7ff',
+              color: '#3730a3',
+              fontWeight: 700
+            }}
+          >
+            {roleBadge}: {userName}
+          </span>
         </div>
       </div>
 
-      <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
-        <button
-          type="button"
-          onClick={() => onSelectMode('practice')}
-          className={`paper-btn ${currentMode === 'practice' ? 'paper-btn-accent' : ''}`}
-          style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'practice' ? 700 : 500 }}
-        >
-          📖 अभ्यास मोड (Practice)
-        </button>
+      <div style={{ display: 'flex', gap: '0.4rem', flexWrap: 'wrap', alignItems: 'center' }}>
+        {/* Student Navigation */}
+        {studentSession && (
+          <>
+            <button
+              type="button"
+              onClick={() => onSelectMode('student')}
+              className={`paper-btn ${currentMode === 'student' ? 'paper-btn-accent' : ''}`}
+              style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'student' ? 700 : 500 }}
+            >
+              🎒 कक्षा परीक्षा (Student)
+            </button>
+            <button
+              type="button"
+              onClick={() => onSelectMode('practice')}
+              className={`paper-btn ${currentMode === 'practice' ? 'paper-btn-accent' : ''}`}
+              style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'practice' ? 700 : 500 }}
+            >
+              📖 अभ्यास मोड (Practice)
+            </button>
+          </>
+        )}
 
-        <button
-          type="button"
-          onClick={() => onSelectMode('student')}
-          className={`paper-btn ${currentMode === 'student' ? 'paper-btn-accent' : ''}`}
-          style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'student' ? 700 : 500 }}
-        >
-          🎓 विद्यार्थी परीक्षा (Student)
-        </button>
+        {/* Teacher Navigation */}
+        {staffProfile?.role === 'teacher' && (
+          <button
+            type="button"
+            onClick={() => onSelectMode('teacher')}
+            className={`paper-btn ${currentMode === 'teacher' ? 'paper-btn-accent' : ''}`}
+            style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'teacher' ? 700 : 500 }}
+          >
+            👨‍🏫 शिक्षक पोर्टल (Teacher)
+          </button>
+        )}
 
-        <button
-          type="button"
-          onClick={() => onSelectMode('admin')}
-          className={`paper-btn ${currentMode === 'admin' ? 'paper-btn-accent' : ''}`}
-          style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'admin' ? 700 : 500 }}
-        >
-          🛠️ शिक्षक / एडमिन (Admin)
-        </button>
+        {/* Admin Navigation */}
+        {staffProfile?.role === 'admin' && (
+          <button
+            type="button"
+            onClick={() => onSelectMode('admin')}
+            className={`paper-btn ${currentMode === 'admin' ? 'paper-btn-accent' : ''}`}
+            style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'admin' ? 700 : 500 }}
+          >
+            🛡️ एडमिन पोर्टल (Admin)
+          </button>
+        )}
 
         <button
           type="button"
@@ -82,6 +140,15 @@ export function ModeSelector({ currentMode, onSelectMode, isOnlineConfigured }: 
           style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'results' ? 700 : 500 }}
         >
           📊 लाइव परिणाम (Results)
+        </button>
+
+        <button
+          type="button"
+          onClick={onLogout}
+          className="paper-btn"
+          style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', color: '#dc2626', borderColor: '#fca5a5' }}
+        >
+          🚪 लॉगआउट
         </button>
       </div>
     </div>

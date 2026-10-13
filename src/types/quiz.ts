@@ -70,6 +70,11 @@ export interface Question {
   isUserEdited?: boolean;
   isUserDeleted?: boolean;
   isHidden?: boolean;
+  // Phase 9 Soft-delete & ownership
+  created_by?: string;
+  is_deleted?: boolean;
+  deleted_by?: string;
+  deleted_at?: string;
 }
 
 export type QuizTimerMode = 'none' | 'per-question' | 'whole-quiz';

@@ -1,95 +1,140 @@
 import { supabase, isSupabaseConfigured, getEdgeFunctionUrl } from './supabase';
-import { OnlineQuiz, Student } from '../types/online';
+import { OnlineQuiz, Student, StaffProfile, AuditLogEntry } from '../types/online';
 import { Question } from '../types/quiz';
 
-export interface AdminProfile {
-  id: string;
-  email: string;
-  name: string;
-  role: 'admin' | 'viewer';
+export type AdminProfile = StaffProfile;
+
+/**
+ * Unified Staff Login for Teacher & Admin via Edge Function
+ */
+export async function staffLogin(
+  email: string,
+  password: string,
+  requestedRole: 'admin' | 'teacher'
+): Promise<StaffProfile> {
+  const cleanEmail = email.trim().toLowerCase();
+
+  if (!isSupabaseConfigured) {
+    // Offline / Mock fallback
+    if (requestedRole === 'admin') {
+      if (cleanEmail === 'admin@school.com' && password === 'admin123') {
+        const mockAdmin: StaffProfile = {
+          id: 'mock-admin-id',
+          email: 'admin@school.com',
+          name: 'Principal / Admin (Demo)',
+          role: 'admin',
+          active: true,
+          must_change_password: false
+        };
+        localStorage.setItem('quizforge_staff_profile', JSON.stringify(mockAdmin));
+        return mockAdmin;
+      }
+      throw new Error("गलत ईमेल या पासवर्ड! (Admin demo: admin@school.com / admin123)");
+    } else {
+      if (cleanEmail === 'teacher@school.com' && password === 'teacher123') {
+        const mockTeacher: StaffProfile = {
+          id: 'mock-teacher-id',
+          email: 'teacher@school.com',
+          name: 'Science Teacher (Demo)',
+          role: 'teacher',
+          active: true,
+          must_change_password: false,
+          assignedClasses: [9, 10]
+        };
+        localStorage.setItem('quizforge_staff_profile', JSON.stringify(mockTeacher));
+        return mockTeacher;
+      }
+      throw new Error("गलत ईमेल या पासवर्ड! (Teacher demo: teacher@school.com / teacher123)");
+    }
+  }
+
+  // Use staff-login Edge Function for server-enforced role checking & rate limiting
+  const fnUrl = getEdgeFunctionUrl('staff-login');
+  const res = await fetch(fnUrl, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      email: cleanEmail,
+      password: password.trim(),
+      requestedRole
+    })
+  });
+
+  const body = await res.json();
+  if (!res.ok) {
+    throw new Error(body.error || 'लॉगिन विफल रहा।');
+  }
+
+  if (body.session) {
+    await supabase.auth.setSession(body.session);
+  }
+
+  const profile: StaffProfile = body.profile;
+  localStorage.setItem('quizforge_staff_profile', JSON.stringify(profile));
+  return profile;
 }
 
 /**
- * Sign in as Admin / Teacher using email and password
+ * Backward compatibility alias for adminLogin
  */
-export async function adminLogin(email: string, password: string): Promise<AdminProfile> {
-  if (!isSupabaseConfigured) {
-    // Offline / Mock fallback
-    if (email === 'admin@school.com' && password === 'admin123') {
-      const mockAdmin: AdminProfile = {
-        id: 'mock-admin-id',
-        email: 'admin@school.com',
-        name: 'Principal / Admin (Demo)',
-        role: 'admin'
-      };
-      localStorage.setItem('quizforge_mock_admin', JSON.stringify(mockAdmin));
-      return mockAdmin;
-    }
-    throw new Error('गलत ईमेल या पासवर्ड! डेमो लॉगिन: admin@school.com / admin123');
-  }
-
-  const { data, error } = await supabase.auth.signInWithPassword({
-    email: email.trim(),
-    password: password.trim()
-  });
-
-  if (error || !data.user) {
-    throw new Error(error?.message || 'एडमिन लॉगिन विफल हुआ।');
-  }
-
-  // Fetch admin profile
-  const { data: profile, error: profError } = await supabase
-    .from('profiles')
-    .select('id, name, role')
-    .eq('id', data.user.id)
-    .single();
-
-  if (profError || !profile) {
-    return {
-      id: data.user.id,
-      email: data.user.email || '',
-      name: data.user.email?.split('@')[0] || 'Admin',
-      role: 'admin'
-    };
-  }
-
-  return {
-    id: profile.id,
-    email: data.user.email || '',
-    name: profile.name,
-    role: profile.role
-  };
+export async function adminLogin(email: string, password: string): Promise<StaffProfile> {
+  return staffLogin(email, password, 'admin');
 }
 
-export async function adminLogout(): Promise<void> {
+export async function staffLogout(): Promise<void> {
+  localStorage.removeItem('quizforge_staff_profile');
   localStorage.removeItem('quizforge_mock_admin');
   if (isSupabaseConfigured) {
     await supabase.auth.signOut();
   }
 }
 
-export async function getCurrentAdmin(): Promise<AdminProfile | null> {
+export const adminLogout = staffLogout;
+
+export async function getCurrentStaff(): Promise<StaffProfile | null> {
   if (!isSupabaseConfigured) {
-    const mock = localStorage.getItem('quizforge_mock_admin');
+    const mock = localStorage.getItem('quizforge_staff_profile') || localStorage.getItem('quizforge_mock_admin');
     return mock ? JSON.parse(mock) : null;
   }
 
   const { data: { session } } = await supabase.auth.getSession();
-  if (!session?.user) return null;
+  if (!session?.user) {
+    localStorage.removeItem('quizforge_staff_profile');
+    return null;
+  }
 
   const { data: profile } = await supabase
     .from('profiles')
-    .select('id, name, role')
+    .select('id, name, email, role, active, must_change_password')
     .eq('id', session.user.id)
     .single();
 
-  return {
-    id: session.user.id,
-    email: session.user.email || '',
-    name: profile?.name || session.user.email?.split('@')[0] || 'Admin',
-    role: profile?.role || 'admin'
+  if (!profile) return null;
+
+  let assignedClasses: (9 | 10 | 11 | 12)[] = [];
+  if (profile.role === 'teacher') {
+    const { data: tClasses } = await supabase
+      .from('teacher_classes')
+      .select('class')
+      .eq('teacher_id', profile.id);
+    assignedClasses = (tClasses || []).map((t: any) => Number(t.class) as 9 | 10 | 11 | 12);
+  }
+
+  const staff: StaffProfile = {
+    id: profile.id,
+    email: profile.email || session.user.email || '',
+    name: profile.name || session.user.email?.split('@')[0] || 'Staff',
+    role: profile.role,
+    active: profile.active,
+    must_change_password: Boolean(profile.must_change_password),
+    assignedClasses
   };
+
+  localStorage.setItem('quizforge_staff_profile', JSON.stringify(staff));
+  return staff;
 }
+
+export const getCurrentAdmin = getCurrentStaff;
 
 /**
  * Fetch all quizzes for Admin overview
@@ -148,6 +193,7 @@ export async function getAdminQuizzes(): Promise<OnlineQuiz[]> {
       closes_at,
       max_attempts,
       created_at,
+      owner_id,
       quiz_questions (count)
     `)
     .order('created_at', { ascending: false });
@@ -171,6 +217,7 @@ export async function getAdminQuizzes(): Promise<OnlineQuiz[]> {
     closes_at: q.closes_at,
     max_attempts: q.max_attempts,
     created_at: q.created_at,
+    owner_id: q.owner_id,
     question_count: q.quiz_questions?.[0]?.count || 0
   }));
 }
@@ -201,7 +248,7 @@ export async function updateQuizStatus(
 }
 
 /**
- * Create a new quiz and attach questions
+ * Create a new quiz and attach questions (Admin)
  */
 export async function createAdminQuiz(
   quizData: Omit<OnlineQuiz, 'id' | 'created_at' | 'question_count'>,
@@ -219,6 +266,8 @@ export async function createAdminQuiz(
     return newQuiz;
   }
 
+  const { data: { user } } = await supabase.auth.getUser();
+
   const { data: created, error: qError } = await supabase
     .from('quizzes')
     .insert({
@@ -232,7 +281,8 @@ export async function createAdminQuiz(
       show_answers_after: quizData.show_answers_after || 'submit',
       opens_at: quizData.opens_at || null,
       closes_at: quizData.closes_at || null,
-      max_attempts: quizData.max_attempts || 1
+      max_attempts: quizData.max_attempts || 1,
+      owner_id: user?.id || null
     })
     .select()
     .single();
@@ -341,7 +391,6 @@ export async function getAdminRoster(classFilter?: number): Promise<Student[]> {
  */
 export async function resetStudentPin(studentId: string, newPin: string): Promise<void> {
   if (!isSupabaseConfigured) {
-    // offline success
     return;
   }
 
@@ -429,4 +478,354 @@ export async function toggleStudentActive(studentId: string, active: boolean): P
   if (error) {
     throw new Error(error.message);
   }
+}
+
+/* ====================================================================
+ * PHASE 9: TEACHER MANAGEMENT (ADMIN ONLY)
+ * ==================================================================== */
+
+export interface TeacherListItem {
+  id: string;
+  name: string;
+  email: string;
+  role: 'teacher';
+  active: boolean;
+  must_change_password: boolean;
+  created_at: string;
+  assignedClasses: (9 | 10 | 11 | 12)[];
+}
+
+/**
+ * Fetch all teachers with assigned classes
+ */
+export async function getAdminTeachers(): Promise<TeacherListItem[]> {
+  if (!isSupabaseConfigured) {
+    const mock = localStorage.getItem('quizforge_mock_teachers');
+    if (mock) {
+      try { return JSON.parse(mock); } catch {}
+    }
+    return [
+      {
+        id: 't-demo-01',
+        name: 'Sunil Sharma',
+        email: 'teacher@school.com',
+        role: 'teacher',
+        active: true,
+        must_change_password: false,
+        created_at: new Date().toISOString(),
+        assignedClasses: [9, 10]
+      }
+    ];
+  }
+
+  const { data: profiles, error: pErr } = await supabase
+    .from('profiles')
+    .select('id, name, email, role, active, must_change_password, created_at')
+    .eq('role', 'teacher')
+    .order('name', { ascending: true });
+
+  if (pErr) {
+    throw new Error(pErr.message);
+  }
+
+  const { data: classRows, error: cErr } = await supabase
+    .from('teacher_classes')
+    .select('teacher_id, class');
+
+  if (cErr) {
+    console.warn('Could not load teacher_classes:', cErr);
+  }
+
+  const classMap = new Map<string, (9 | 10 | 11 | 12)[]>();
+  for (const row of classRows || []) {
+    const existing = classMap.get(row.teacher_id) || [];
+    existing.push(Number(row.class) as 9 | 10 | 11 | 12);
+    classMap.set(row.teacher_id, existing);
+  }
+
+  return (profiles || []).map((p: any) => ({
+    id: p.id,
+    name: p.name,
+    email: p.email,
+    role: 'teacher',
+    active: p.active,
+    must_change_password: Boolean(p.must_change_password),
+    created_at: p.created_at,
+    assignedClasses: classMap.get(p.id) || []
+  }));
+}
+
+/**
+ * Create a new teacher via admin-manage-teacher Edge Function
+ */
+export async function createTeacherAccount(
+  data: { email: string; name: string; assignedClasses: (9 | 10 | 11 | 12)[]; password?: string }
+): Promise<TeacherListItem> {
+  if (!isSupabaseConfigured) {
+    const teachers = await getAdminTeachers();
+    const newT: TeacherListItem = {
+      id: 't-mock-' + Date.now(),
+      name: data.name,
+      email: data.email,
+      role: 'teacher',
+      active: true,
+      must_change_password: true,
+      created_at: new Date().toISOString(),
+      assignedClasses: data.assignedClasses
+    };
+    localStorage.setItem('quizforge_mock_teachers', JSON.stringify([...teachers, newT]));
+    return newT;
+  }
+
+  const { data: { session } } = await supabase.auth.getSession();
+  if (!session?.access_token) throw new Error('Admin authentication required');
+
+  const fnUrl = getEdgeFunctionUrl('admin-manage-teacher');
+  const res = await fetch(fnUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${session.access_token}`
+    },
+    body: JSON.stringify({
+      action: 'create_teacher',
+      email: data.email,
+      name: data.name,
+      assignedClasses: data.assignedClasses,
+      password: data.password
+    })
+  });
+
+  const body = await res.json();
+  if (!res.ok) {
+    throw new Error(body.error || 'शिक्षक खाता बनाने में त्रुटि।');
+  }
+
+  return body.teacher;
+}
+
+/**
+ * Update teacher class assignments
+ */
+export async function updateTeacherClassAssignments(
+  teacherId: string,
+  assignedClasses: (9 | 10 | 11 | 12)[]
+): Promise<void> {
+  if (!isSupabaseConfigured) {
+    const list = await getAdminTeachers();
+    const updated = list.map(t => t.id === teacherId ? { ...t, assignedClasses } : t);
+    localStorage.setItem('quizforge_mock_teachers', JSON.stringify(updated));
+    return;
+  }
+
+  const { data: { session } } = await supabase.auth.getSession();
+  if (!session?.access_token) throw new Error('Admin authentication required');
+
+  const fnUrl = getEdgeFunctionUrl('admin-manage-teacher');
+  const res = await fetch(fnUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${session.access_token}`
+    },
+    body: JSON.stringify({
+      action: 'update_classes',
+      teacherId,
+      assignedClasses
+    })
+  });
+
+  const body = await res.json();
+  if (!res.ok) throw new Error(body.error || 'कक्षाएं अपडेट करने में त्रुटि।');
+}
+
+/**
+ * Toggle teacher active status
+ */
+export async function toggleTeacherActiveStatus(teacherId: string, active: boolean): Promise<void> {
+  if (!isSupabaseConfigured) {
+    const list = await getAdminTeachers();
+    const updated = list.map(t => t.id === teacherId ? { ...t, active } : t);
+    localStorage.setItem('quizforge_mock_teachers', JSON.stringify(updated));
+    return;
+  }
+
+  const { data: { session } } = await supabase.auth.getSession();
+  if (!session?.access_token) throw new Error('Admin authentication required');
+
+  const fnUrl = getEdgeFunctionUrl('admin-manage-teacher');
+  const res = await fetch(fnUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${session.access_token}`
+    },
+    body: JSON.stringify({
+      action: 'toggle_active',
+      teacherId,
+      active
+    })
+  });
+
+  const body = await res.json();
+  if (!res.ok) throw new Error(body.error || 'सक्रियता बदलने में त्रुटि।');
+}
+
+/**
+ * Reset teacher password
+ */
+export async function resetTeacherPassword(teacherId: string, newPassword: string): Promise<void> {
+  if (!isSupabaseConfigured) {
+    return;
+  }
+
+  const { data: { session } } = await supabase.auth.getSession();
+  if (!session?.access_token) throw new Error('Admin authentication required');
+
+  const fnUrl = getEdgeFunctionUrl('admin-manage-teacher');
+  const res = await fetch(fnUrl, {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+      Authorization: `Bearer ${session.access_token}`
+    },
+    body: JSON.stringify({
+      action: 'reset_password',
+      teacherId,
+      newPassword
+    })
+  });
+
+  const body = await res.json();
+  if (!res.ok) throw new Error(body.error || 'पासवर्ड रीसेट विफल रहा।');
+}
+
+/* ====================================================================
+ * PHASE 9: RECYCLE BIN & QUESTION RESTORE (ADMIN ONLY)
+ * ==================================================================== */
+
+/**
+ * Fetch soft-deleted questions
+ */
+export async function getRecycleBinQuestions(): Promise<Question[]> {
+  if (!isSupabaseConfigured) {
+    const mock = localStorage.getItem('quizforge_mock_recycle_bin');
+    return mock ? JSON.parse(mock) : [];
+  }
+
+  const { data, error } = await supabase
+    .from('questions_public')
+    .select('*')
+    .eq('is_deleted', true)
+    .order('deleted_at', { ascending: false });
+
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return (data || []).map((q: any) => ({
+    id: q.id,
+    class: q.class,
+    subject: q.subject,
+    chapter: q.chapter,
+    type: q.type,
+    difficulty: q.difficulty,
+    question: q.question,
+    options: q.options,
+    answer: q.answer,
+    explanation: q.explanation || '',
+    marks: q.marks || 1,
+    is_deleted: true,
+    deleted_by: q.deleted_by,
+    deleted_at: q.deleted_at
+  }));
+}
+
+/**
+ * Restore a soft-deleted question
+ */
+export async function restoreQuestion(questionId: string): Promise<void> {
+  if (!isSupabaseConfigured) {
+    const list = await getRecycleBinQuestions();
+    const updated = list.filter(q => q.id !== questionId);
+    localStorage.setItem('quizforge_mock_recycle_bin', JSON.stringify(updated));
+    return;
+  }
+
+  const { data: { user } } = await supabase.auth.getUser();
+
+  const { error } = await supabase
+    .from('questions_public')
+    .update({
+      is_deleted: false,
+      deleted_by: null,
+      deleted_at: null
+    })
+    .eq('id', questionId);
+
+  if (error) throw new Error(error.message);
+
+  try {
+    await supabase.from('audit_log').insert({
+      actor_id: user?.id || 'admin',
+      actor_role: 'admin',
+      action: 'restore_question',
+      target_type: 'question',
+      target_id: questionId
+    });
+  } catch {}
+}
+
+/* ====================================================================
+ * PHASE 9: AUDIT LOG VIEWER (ADMIN ONLY)
+ * ==================================================================== */
+
+export async function getAuditLogs(options?: {
+  limit?: number;
+  action?: string;
+  actorRole?: string;
+}): Promise<AuditLogEntry[]> {
+  if (!isSupabaseConfigured) {
+    return [
+      {
+        id: 1,
+        actor_id: 'mock-admin-id',
+        actor_role: 'admin',
+        action: 'login',
+        target_type: 'staff_account',
+        target_id: 'admin@school.com',
+        details: { role: 'admin' },
+        created_at: new Date().toISOString()
+      }
+    ];
+  }
+
+  let query = supabase
+    .from('audit_log')
+    .select('*')
+    .order('created_at', { ascending: false })
+    .limit(options?.limit || 50);
+
+  if (options?.action) {
+    query = query.eq('action', options.action);
+  }
+  if (options?.actorRole) {
+    query = query.eq('actor_role', options.actorRole);
+  }
+
+  const { data, error } = await query;
+  if (error) {
+    throw new Error(error.message);
+  }
+
+  return (data || []).map((l: any) => ({
+    id: l.id,
+    actor_id: l.actor_id,
+    actor_role: l.actor_role,
+    action: l.action,
+    target_type: l.target_type,
+    target_id: l.target_id,
+    details: l.details || {},
+    created_at: l.created_at
+  }));
 }

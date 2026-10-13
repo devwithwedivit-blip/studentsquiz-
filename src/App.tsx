@@ -11,7 +11,8 @@ import {
 import {
   StudentSession,
   StartAttemptResponse,
-  SubmitAttemptResponse
+  SubmitAttemptResponse,
+  StaffProfile
 } from './types/online';
 import { getEffectiveQuestions, getEffectivePassages } from './data/bankLoader';
 import {
@@ -30,7 +31,7 @@ import {
 } from './services/db';
 import { isSupabaseConfigured } from './services/supabase';
 import { getStoredStudentSession, startOnlineAttempt, clearStudentSession } from './services/studentApi';
-import { getCurrentAdmin, adminLogout, AdminProfile } from './services/adminApi';
+import { getCurrentStaff, staffLogout, AdminProfile } from './services/adminApi';
 
 // Common & Mode
 import { ModeSelector, AppMode } from './components/common/ModeSelector';
@@ -45,12 +46,12 @@ import { BankManager } from './components/manager/BankManager';
 import { BookmarksView } from './components/results/BookmarksView';
 import { PastAttemptsView } from './components/results/PastAttemptsView';
 
-// Online Components
-import { StudentLoginForm } from './components/online/student/StudentLoginForm';
+// Auth & Online Components
+import { UnifiedLogin } from './components/auth/UnifiedLogin';
 import { StudentDashboard } from './components/online/student/StudentDashboard';
 import { OnlineQuizPlayer } from './components/online/student/OnlineQuizPlayer';
 import { StudentResultView } from './components/online/student/StudentResultView';
-import { AdminLoginForm } from './components/online/admin/AdminLoginForm';
+import { TeacherPortal } from './components/online/teacher/TeacherPortal';
 import { AdminPortal } from './components/online/admin/AdminPortal';
 import { LiveResultsView } from './components/online/results/LiveResultsView';
 
@@ -59,15 +60,49 @@ export function App() {
   const [passages, setPassages] = useState<Passage[]>([]);
   const [loading, setLoading] = useState(true);
 
-  // App Mode ('practice' | 'student' | 'admin' | 'results')
+  // Online Sessions state
+  const [studentSession, setStudentSession] = useState<StudentSession | null>(() => getStoredStudentSession());
+  const [staffProfile, setStaffProfile] = useState<StaffProfile | null>(() => {
+    try {
+      const stored = localStorage.getItem('quizforge_staff_profile');
+      return stored ? JSON.parse(stored) : null;
+    } catch {
+      return null;
+    }
+  });
+
+  // App Mode ('login' | 'student' | 'teacher' | 'admin' | 'practice' | 'results')
   const [appMode, setAppMode] = useState<AppMode>(() => {
     const path = window.location.pathname.toLowerCase();
     const search = new URLSearchParams(window.location.search);
     const m = search.get('mode');
-    if (m === 'student' || path.startsWith('/student')) return 'student';
-    if (m === 'admin' || path.startsWith('/admin')) return 'admin';
+
+    const hasStudent = Boolean(getStoredStudentSession());
+    let staffRole: 'teacher' | 'admin' | null = null;
+    try {
+      const stored = localStorage.getItem('quizforge_staff_profile');
+      if (stored) staffRole = JSON.parse(stored).role;
+    } catch {}
+
     if (m === 'results' || path.startsWith('/results')) return 'results';
-    return 'practice';
+    if (m === 'admin' || path.startsWith('/admin')) {
+      return staffRole === 'admin' ? 'admin' : 'login';
+    }
+    if (m === 'teacher' || path.startsWith('/teacher')) {
+      return staffRole === 'teacher' || staffRole === 'admin' ? 'teacher' : 'login';
+    }
+    if (m === 'student' || path.startsWith('/student')) {
+      return hasStudent ? 'student' : 'login';
+    }
+    if (m === 'practice' || path.startsWith('/practice')) {
+      return hasStudent ? 'practice' : 'login';
+    }
+
+    // Default visit to '/' or other route: if logged in, go to dashboard, else /login
+    if (hasStudent) return 'student';
+    if (staffRole === 'admin') return 'admin';
+    if (staffRole === 'teacher') return 'teacher';
+    return 'login';
   });
 
   // Practice View state
@@ -100,13 +135,8 @@ export function App() {
   });
   const [bookmarkedIds, setBookmarkedIds] = useState<Set<string>>(new Set());
 
-  // Online Student state
-  const [studentSession, setStudentSession] = useState<StudentSession | null>(() => getStoredStudentSession());
   const [activeOnlineQuiz, setActiveOnlineQuiz] = useState<StartAttemptResponse | null>(null);
   const [onlineResult, setOnlineResult] = useState<SubmitAttemptResponse | null>(null);
-
-  // Online Admin state
-  const [adminSession, setAdminSession] = useState<AdminProfile | null>(null);
   const [targetQuizId, setTargetQuizId] = useState<string>('');
 
   // Reload bank
@@ -136,24 +166,74 @@ export function App() {
       setPendingResumeSession(savedSession);
     }
 
-    // Check existing admin auth
-    getCurrentAdmin().then(adm => {
-      if (adm) setAdminSession(adm);
+    // Check existing staff auth if Supabase online
+    getCurrentStaff().then(st => {
+      if (st) setStaffProfile(st);
     });
+
+    // Handle popstate for browser back/forward buttons
+    const handlePopState = () => {
+      const path = window.location.pathname.toLowerCase();
+      if (path.startsWith('/admin')) {
+        setAppMode(staffProfile?.role === 'admin' ? 'admin' : 'login');
+      } else if (path.startsWith('/teacher')) {
+        setAppMode(staffProfile?.role === 'teacher' || staffProfile?.role === 'admin' ? 'teacher' : 'login');
+      } else if (path.startsWith('/student')) {
+        setAppMode(studentSession ? 'student' : 'login');
+      } else if (path.startsWith('/practice')) {
+        setAppMode(studentSession ? 'practice' : 'login');
+      } else if (path.startsWith('/results')) {
+        setAppMode('results');
+      } else {
+        setAppMode(studentSession ? 'student' : staffProfile ? (staffProfile.role === 'admin' ? 'admin' : 'teacher') : 'login');
+      }
+    };
+    window.addEventListener('popstate', handlePopState);
 
     // Storage warning listener
     const handleStorageWarn = (e: any) => {
       setStorageWarning(e.detail?.message || 'Storage limit warning');
     };
     window.addEventListener('quizforge:storage-warning', handleStorageWarn);
-    return () => window.removeEventListener('quizforge:storage-warning', handleStorageWarn);
+    return () => {
+      window.removeEventListener('quizforge:storage-warning', handleStorageWarn);
+      window.removeEventListener('popstate', handlePopState);
+    };
   }, []);
 
   // Update browser history/URL smoothly when switching mode
   const handleSelectMode = (mode: AppMode) => {
     setAppMode(mode);
-    const newUrl = mode === 'practice' ? '/' : `/${mode}`;
+    const newUrl = mode === 'login' ? '/login' : `/${mode}`;
     window.history.pushState({}, '', newUrl);
+  };
+
+  const handleLogout = async () => {
+    clearStudentSession();
+    await staffLogout();
+    setStudentSession(null);
+    setStaffProfile(null);
+    setActiveOnlineQuiz(null);
+    setOnlineResult(null);
+    setAppMode('login');
+    window.history.pushState({}, '', '/login');
+  };
+
+  const handleStudentLoginSuccess = (sess: StudentSession) => {
+    setStudentSession(sess);
+    setAppMode('student');
+    window.history.pushState({}, '', '/student');
+  };
+
+  const handleStaffLoginSuccess = (prof: StaffProfile) => {
+    setStaffProfile(prof);
+    if (prof.role === 'admin') {
+      setAppMode('admin');
+      window.history.pushState({}, '', '/admin');
+    } else {
+      setAppMode('teacher');
+      window.history.pushState({}, '', '/teacher');
+    }
   };
 
   // --- ONLINE STUDENT ACTIONS ---
@@ -417,11 +497,14 @@ export function App() {
   return (
     <div style={{ minHeight: '100vh', padding: '1rem', maxWidth: '1200px', margin: '0 auto' }}>
       {/* Top Application Mode Selector */}
-      {!activeQuizQuestions && !activeOnlineQuiz && (
+      {!activeQuizQuestions && !activeOnlineQuiz && appMode !== 'login' && (
         <ModeSelector
           currentMode={appMode}
           onSelectMode={handleSelectMode}
           isOnlineConfigured={isSupabaseConfigured}
+          studentSession={studentSession}
+          staffProfile={staffProfile}
+          onLogout={handleLogout}
         />
       )}
 
@@ -453,13 +536,29 @@ export function App() {
       )}
 
       {/* ======================================================== */}
-      {/* 1. STUDENT PORTAL (/student)                             */}
+      {/* 1. UNIFIED LOGIN SCREEN (/login)                         */}
       {/* ======================================================== */}
-      {appMode === 'student' ? (
+      {appMode === 'login' ? (
+        <UnifiedLogin
+          onStudentLoginSuccess={handleStudentLoginSuccess}
+          onStaffLoginSuccess={handleStaffLoginSuccess}
+          defaultRoleCard={
+            window.location.pathname.toLowerCase().startsWith('/admin')
+              ? 'admin'
+              : window.location.pathname.toLowerCase().startsWith('/teacher')
+              ? 'teacher'
+              : 'student'
+          }
+        />
+      ) : appMode === 'student' ? (
+        /* ======================================================== */
+        /* 2. STUDENT PORTAL (/student)                             */
+        /* ======================================================== */
         !studentSession ? (
-          <StudentLoginForm
-            onSuccess={sess => setStudentSession(sess)}
-            onBackToModeSelect={() => handleSelectMode('practice')}
+          <UnifiedLogin
+            onStudentLoginSuccess={handleStudentLoginSuccess}
+            onStaffLoginSuccess={handleStaffLoginSuccess}
+            defaultRoleCard="student"
           />
         ) : activeOnlineQuiz ? (
           <OnlineQuizPlayer
@@ -479,31 +578,47 @@ export function App() {
         ) : (
           <StudentDashboard
             session={studentSession}
-            onLogout={() => {
-              clearStudentSession();
-              setStudentSession(null);
-            }}
+            onLogout={handleLogout}
             onStartQuiz={handleStartOnlineQuiz}
             onViewAttempt={() => {}}
           />
         )
+      ) : appMode === 'teacher' ? (
+        /* ======================================================== */
+        /* 3. TEACHER PORTAL (/teacher)                             */
+        /* ======================================================== */
+        !staffProfile || (staffProfile.role !== 'teacher' && staffProfile.role !== 'admin') ? (
+          <UnifiedLogin
+            onStudentLoginSuccess={handleStudentLoginSuccess}
+            onStaffLoginSuccess={handleStaffLoginSuccess}
+            defaultRoleCard="teacher"
+          />
+        ) : (
+          <TeacherPortal
+            teacher={staffProfile}
+            allQuestions={questions}
+            onLogout={handleLogout}
+            onOpenLiveResults={id => {
+              setTargetQuizId(id);
+              handleSelectMode('results');
+            }}
+          />
+        )
       ) : appMode === 'admin' ? (
         /* ======================================================== */
-        /* 2. ADMIN PORTAL (/admin)                                 */
+        /* 4. ADMIN PORTAL (/admin)                                 */
         /* ======================================================== */
-        !adminSession ? (
-          <AdminLoginForm
-            onSuccess={adm => setAdminSession(adm)}
-            onBackToModeSelect={() => handleSelectMode('practice')}
+        !staffProfile || staffProfile.role !== 'admin' ? (
+          <UnifiedLogin
+            onStudentLoginSuccess={handleStudentLoginSuccess}
+            onStaffLoginSuccess={handleStaffLoginSuccess}
+            defaultRoleCard="admin"
           />
         ) : (
           <AdminPortal
-            admin={adminSession}
+            admin={staffProfile}
             allQuestions={questions}
-            onLogout={() => {
-              adminLogout();
-              setAdminSession(null);
-            }}
+            onLogout={handleLogout}
             onOpenLiveResults={id => {
               setTargetQuizId(id);
               handleSelectMode('results');
@@ -512,14 +627,40 @@ export function App() {
         )
       ) : appMode === 'results' ? (
         /* ======================================================== */
-        /* 3. LIVE RESULTS VIEWER (/results)                        */
+        /* 5. LIVE RESULTS VIEWER (/results)                        */
         /* ======================================================== */
         <LiveResultsView
           initialQuizId={targetQuizId}
-          onBackToAdmin={() => handleSelectMode('admin')}
-          onBackToHome={() => handleSelectMode('practice')}
+          onBackToAdmin={() => handleSelectMode(staffProfile?.role === 'teacher' ? 'teacher' : 'admin')}
+          onBackToHome={() => handleSelectMode(studentSession ? 'student' : 'login')}
         />
       ) : (
+        /* ======================================================== */
+        /* 6. PRACTICE MODE (GATED BEHIND STUDENT SIGN-IN)          */
+        /* ======================================================== */
+        !studentSession ? (
+          <div className="space-y-4">
+            <div
+              className="notebook-sheet"
+              style={{
+                padding: '1rem',
+                backgroundColor: '#fef3c7',
+                border: '1.5px solid #d97706',
+                borderRadius: '8px',
+                textAlign: 'center',
+                fontWeight: 600,
+                color: '#92400e'
+              }}
+            >
+              ⚠️ अभ्यास मोड शुरू करने के लिए कृपया पहले विद्यार्थी के रूप में साइन इन करें।
+            </div>
+            <UnifiedLogin
+              onStudentLoginSuccess={handleStudentLoginSuccess}
+              onStaffLoginSuccess={handleStaffLoginSuccess}
+              defaultRoleCard="student"
+            />
+          </div>
+        ) : (
         /* ======================================================== */
         /* 4. OFFLINE PRACTICE MODE (DEFAULT PHASE 1-7)             */
         /* ======================================================== */
@@ -680,6 +821,7 @@ export function App() {
             />
           )}
         </div>
+        )
       )}
     </div>
   );

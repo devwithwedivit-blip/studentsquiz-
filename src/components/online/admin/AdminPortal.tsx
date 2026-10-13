@@ -8,9 +8,18 @@ import {
   getAdminRoster,
   resetStudentPin,
   importStudentRoster,
-  toggleStudentActive
+  toggleStudentActive,
+  getAdminTeachers,
+  createTeacherAccount,
+  updateTeacherClassAssignments,
+  toggleTeacherActiveStatus,
+  resetTeacherPassword,
+  getRecycleBinQuestions,
+  restoreQuestion,
+  getAuditLogs,
+  TeacherListItem
 } from '../../../services/adminApi';
-import { OnlineQuiz, Student } from '../../../types/online';
+import { OnlineQuiz, Student, AuditLogEntry } from '../../../types/online';
 import { Question } from '../../../types/quiz';
 
 interface AdminPortalProps {
@@ -26,12 +35,32 @@ export function AdminPortal({
   onLogout,
   onOpenLiveResults
 }: AdminPortalProps) {
-  const [activeTab, setActiveTab] = useState<'quizzes' | 'create' | 'roster'>('quizzes');
+  const [activeTab, setActiveTab] = useState<'quizzes' | 'create' | 'roster' | 'teachers' | 'recycle_bin' | 'audit_log'>('quizzes');
   const [quizzes, setQuizzes] = useState<OnlineQuiz[]>([]);
   const [roster, setRoster] = useState<Student[]>([]);
+  const [teachers, setTeachers] = useState<TeacherListItem[]>([]);
+  const [recycleBinQuestions, setRecycleBinQuestions] = useState<Question[]>([]);
+  const [auditLogs, setAuditLogs] = useState<AuditLogEntry[]>([]);
   const [classFilter, setClassFilter] = useState<number | undefined>(undefined);
   const [loading, setLoading] = useState<boolean>(true);
   const [actionMessage, setActionMessage] = useState<{ text: string; type: 'success' | 'error' } | null>(null);
+
+  // Teachers State
+  const [showAddTeacherModal, setShowAddTeacherModal] = useState<boolean>(false);
+  const [teacherEmail, setTeacherEmail] = useState<string>('');
+  const [teacherName, setTeacherName] = useState<string>('');
+  const [teacherClasses, setTeacherClasses] = useState<(9 | 10 | 11 | 12)[]>([9]);
+  const [teacherTempPass, setTeacherTempPass] = useState<string>('');
+  const [addTeacherLoading, setAddTeacherLoading] = useState<boolean>(false);
+  const [editTeacherClassesTarget, setEditTeacherClassesTarget] = useState<TeacherListItem | null>(null);
+  const [editTeacherClassesList, setEditTeacherClassesList] = useState<(9 | 10 | 11 | 12)[]>([]);
+  const [resetTeacherPassTarget, setResetTeacherPassTarget] = useState<TeacherListItem | null>(null);
+  const [teacherNewPass, setTeacherNewPass] = useState<string>('');
+  const [resetPassLoading, setResetPassLoading] = useState<boolean>(false);
+
+  // Audit filters
+  const [auditRoleFilter, setAuditRoleFilter] = useState<string>('all');
+  const [auditActionFilter, setAuditActionFilter] = useState<string>('all');
 
   // Reset PIN modal state
   const [pinModalStudent, setPinModalStudent] = useState<Student | null>(null);
@@ -60,16 +89,127 @@ export function AdminPortal({
   const loadData = async () => {
     setLoading(true);
     try {
-      const [qList, rList] = await Promise.all([
+      const [qList, rList, tList, rbList, aList] = await Promise.all([
         getAdminQuizzes(),
-        getAdminRoster(classFilter)
+        getAdminRoster(classFilter),
+        getAdminTeachers(),
+        getRecycleBinQuestions(),
+        getAuditLogs({ limit: 50 })
       ]);
       setQuizzes(qList);
       setRoster(rList);
+      setTeachers(tList);
+      setRecycleBinQuestions(rbList);
+      setAuditLogs(aList);
     } catch (err: any) {
       setActionMessage({ text: err.message || 'डेटा लोड करने में त्रुटि।', type: 'error' });
     } finally {
       setLoading(false);
+    }
+  };
+
+  // Add Teacher Handler
+  const handleAddTeacherSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!teacherEmail.trim() || !teacherName.trim()) {
+      alert('ईमेल और नाम अनिवार्य हैं।');
+      return;
+    }
+    setAddTeacherLoading(true);
+    try {
+      await createTeacherAccount({
+        email: teacherEmail.trim(),
+        name: teacherName.trim(),
+        assignedClasses: teacherClasses,
+        password: teacherTempPass.trim() || undefined
+      });
+      setActionMessage({ text: `शिक्षक ${teacherName} का खाता सफलतापूर्वक बनाया गया।`, type: 'success' });
+      setShowAddTeacherModal(false);
+      setTeacherEmail('');
+      setTeacherName('');
+      setTeacherTempPass('');
+      loadData();
+    } catch (err: any) {
+      setActionMessage({ text: err.message || 'शिक्षक खाता बनाने में त्रुटि।', type: 'error' });
+    } finally {
+      setAddTeacherLoading(false);
+    }
+  };
+
+  // Update Teacher Classes Handler
+  const handleUpdateTeacherClasses = async () => {
+    if (!editTeacherClassesTarget) return;
+    try {
+      await updateTeacherClassAssignments(editTeacherClassesTarget.id, editTeacherClassesList);
+      setActionMessage({ text: 'कक्षा असाइनमेंट सफलतापूर्वक अपडेट किया गया।', type: 'success' });
+      setEditTeacherClassesTarget(null);
+      loadData();
+    } catch (err: any) {
+      setActionMessage({ text: err.message, type: 'error' });
+    }
+  };
+
+  // Toggle Teacher Active Handler
+  const handleToggleTeacherActive = async (teacherId: string, currentActive: boolean) => {
+    try {
+      await toggleTeacherActiveStatus(teacherId, !currentActive);
+      setActionMessage({
+        text: `शिक्षक खाता ${!currentActive ? 'सक्रिय' : 'निष्क्रिय'} किया गया।`,
+        type: 'success'
+      });
+      loadData();
+    } catch (err: any) {
+      setActionMessage({ text: err.message, type: 'error' });
+    }
+  };
+
+  // Reset Teacher Password Handler
+  const handleResetTeacherPasswordSubmit = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!resetTeacherPassTarget) return;
+    if (teacherNewPass.length < 10) {
+      alert('पासवर्ड कम से कम 10 अक्षरों का होना चाहिए।');
+      return;
+    }
+    setResetPassLoading(true);
+    try {
+      await resetTeacherPassword(resetTeacherPassTarget.id, teacherNewPass);
+      setActionMessage({
+        text: `${resetTeacherPassTarget.name} का पासवर्ड सफलतापूर्वक रीसेट किया गया (लॉगिन पर बदलना अनिवार्य)।`,
+        type: 'success'
+      });
+      setResetTeacherPassTarget(null);
+      setTeacherNewPass('');
+      loadData();
+    } catch (err: any) {
+      setActionMessage({ text: err.message, type: 'error' });
+    } finally {
+      setResetPassLoading(false);
+    }
+  };
+
+  // Restore Question Handler
+  const handleRestoreQuestion = async (qId: string) => {
+    try {
+      await restoreQuestion(qId);
+      setActionMessage({ text: 'प्रश्न सफलतापूर्वक पुनर्स्थापित किया गया।', type: 'success' });
+      loadData();
+    } catch (err: any) {
+      setActionMessage({ text: err.message, type: 'error' });
+    }
+  };
+
+  // Refresh Audit Logs
+  const handleFilterAuditLogs = async (role: string, action: string) => {
+    try {
+      const logs = await getAuditLogs({
+        limit: 50,
+        actorRole: role === 'all' ? undefined : role,
+        action: action === 'all' ? undefined : action
+      });
+      setAuditLogs(logs);
+    } catch (err: any) {
+      setActionMessage({ text: err.message, type: 'error' });
     }
   };
 
@@ -284,7 +424,28 @@ export function AdminPortal({
           className={`paper-btn ${activeTab === 'roster' ? 'paper-btn-accent' : ''}`}
           style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
         >
-          👥 विद्यार्थी रोस्टर एवं पिन (Roster & PINs)
+          👥 विद्यार्थी रोस्टर ({roster.length})
+        </button>
+        <button
+          onClick={() => setActiveTab('teachers')}
+          className={`paper-btn ${activeTab === 'teachers' ? 'paper-btn-accent' : ''}`}
+          style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
+        >
+          👨‍🏫 शिक्षक प्रबंधन ({teachers.length})
+        </button>
+        <button
+          onClick={() => setActiveTab('recycle_bin')}
+          className={`paper-btn ${activeTab === 'recycle_bin' ? 'paper-btn-accent' : ''}`}
+          style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
+        >
+          ♻️ रीसायकल बिन ({recycleBinQuestions.length})
+        </button>
+        <button
+          onClick={() => setActiveTab('audit_log')}
+          className={`paper-btn ${activeTab === 'audit_log' ? 'paper-btn-accent' : ''}`}
+          style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
+        >
+          🛡️ ऑडिट लॉग ({auditLogs.length})
         </button>
       </div>
 
@@ -704,6 +865,506 @@ export function AdminPortal({
                 ))}
               </tbody>
             </table>
+          </div>
+        </div>
+      )}
+
+      {/* Teachers Tab */}
+      {activeTab === 'teachers' && (
+        <div className="notebook-sheet" style={{ padding: '1.5rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
+            <div>
+              <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)', fontSize: '1.15rem' }}>
+                👨‍🏫 शिक्षक प्रबंधन (Teacher Management)
+              </h4>
+              <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: 'var(--ink-secondary)' }}>
+                शिक्षकों के खाते बनाएं, कक्षाएं असाइन करें और पासवर्ड रीसेट करें
+              </p>
+            </div>
+            <button
+              onClick={() => {
+                setShowAddTeacherModal(true);
+                setTeacherEmail('');
+                setTeacherName('');
+                setTeacherClasses([9]);
+                setTeacherTempPass('');
+              }}
+              className="paper-btn paper-btn-accent"
+              style={{ padding: '0.4rem 0.9rem', fontSize: '0.85rem' }}
+            >
+              + नया शिक्षक जोड़ें
+            </button>
+          </div>
+
+          {teachers.length === 0 ? (
+            <p style={{ color: 'var(--ink-secondary)', textAlign: 'center', padding: '2rem' }}>
+              कोई शिक्षक खाता नहीं मिला। '+ नया शिक्षक जोड़ें' पर क्लिक करें।
+            </p>
+          ) : (
+            <div style={{ overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid var(--paper-line)', color: 'var(--ink-secondary)' }}>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>नाम</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>ईमेल</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>असाइन कक्षाएं</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>स्थिति</th>
+                    <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>कार्रवाई</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {teachers.map(t => (
+                    <tr key={t.id} style={{ borderBottom: '1px solid var(--paper-line)' }}>
+                      <td style={{ padding: '0.7rem 0.5rem', fontWeight: 700 }}>{t.name}</td>
+                      <td style={{ padding: '0.7rem 0.5rem', color: 'var(--ink-secondary)' }}>{t.email}</td>
+                      <td style={{ padding: '0.7rem 0.5rem' }}>
+                        {t.assignedClasses.length === 0 ? (
+                          <span style={{ color: '#dc2626', fontSize: '0.8rem' }}>कोई नहीं</span>
+                        ) : (
+                          t.assignedClasses.map(c => (
+                            <span
+                              key={c}
+                              style={{
+                                display: 'inline-block',
+                                backgroundColor: 'var(--paper-bg)',
+                                border: '1px solid var(--paper-line)',
+                                padding: '0.1rem 0.4rem',
+                                borderRadius: '4px',
+                                fontSize: '0.75rem',
+                                marginRight: '0.3rem',
+                                fontWeight: 700
+                              }}
+                            >
+                              कक्षा {c}
+                            </span>
+                          ))
+                        )}
+                      </td>
+                      <td style={{ padding: '0.7rem 0.5rem' }}>
+                        <button
+                          onClick={() => handleToggleTeacherActive(t.id, t.active)}
+                          className="paper-btn"
+                          style={{
+                            padding: '0.2rem 0.5rem',
+                            fontSize: '0.75rem',
+                            color: t.active ? '#059669' : '#dc2626',
+                            borderColor: t.active ? '#059669' : '#dc2626'
+                          }}
+                        >
+                          {t.active ? '🟢 सक्रिय' : '🔴 निष्क्रिय'}
+                        </button>
+                      </td>
+                      <td style={{ padding: '0.7rem 0.5rem', textAlign: 'right', whiteSpace: 'nowrap' }}>
+                        <button
+                          onClick={() => {
+                            setEditTeacherClassesTarget(t);
+                            setEditTeacherClassesList([...t.assignedClasses]);
+                          }}
+                          className="paper-btn"
+                          style={{ padding: '0.2rem 0.6rem', fontSize: '0.8rem', marginRight: '0.4rem' }}
+                        >
+                          📚 कक्षाएं बदलें
+                        </button>
+                        <button
+                          onClick={() => {
+                            setResetTeacherPassTarget(t);
+                            setTeacherNewPass('');
+                          }}
+                          className="paper-btn"
+                          style={{ padding: '0.2rem 0.6rem', fontSize: '0.8rem' }}
+                        >
+                          🔑 पासवर्ड रीसेट
+                        </button>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Recycle Bin Tab */}
+      {activeTab === 'recycle_bin' && (
+        <div className="notebook-sheet" style={{ padding: '1.5rem' }}>
+          <div style={{ marginBottom: '1rem' }}>
+            <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)', fontSize: '1.15rem' }}>
+              ♻️ रीसायकल बिन (Question Bank Recycle Bin)
+            </h4>
+            <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: 'var(--ink-secondary)' }}>
+              हटाए गए प्रश्न यहां सुरक्षित संग्रहीत हैं। आप इन्हें कभी भी पुनर्स्थापित कर सकते हैं।
+            </p>
+          </div>
+
+          {recycleBinQuestions.length === 0 ? (
+            <p style={{ color: 'var(--ink-secondary)', textAlign: 'center', padding: '2rem' }}>
+              रीसायकल बिन खाली है। कोई हटाया गया प्रश्न नहीं मिला।
+            </p>
+          ) : (
+            <div style={{ overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.9rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid var(--paper-line)', color: 'var(--ink-secondary)' }}>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>कक्षा / विषय</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>प्रश्न</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>हटाने का समय</th>
+                    <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>कार्रवाई</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {recycleBinQuestions.map(q => (
+                    <tr key={q.id} style={{ borderBottom: '1px solid var(--paper-line)' }}>
+                      <td style={{ padding: '0.7rem 0.5rem', whiteSpace: 'nowrap' }}>
+                        <strong>कक्षा {q.class}</strong> • {q.subject.toUpperCase()}
+                      </td>
+                      <td style={{ padding: '0.7rem 0.5rem' }}>{q.question}</td>
+                      <td style={{ padding: '0.7rem 0.5rem', color: 'var(--ink-secondary)', fontSize: '0.8rem', whiteSpace: 'nowrap' }}>
+                        {q.deleted_at ? new Date(q.deleted_at).toLocaleString() : 'ज्ञात नहीं'}
+                      </td>
+                      <td style={{ padding: '0.7rem 0.5rem', textAlign: 'right', whiteSpace: 'nowrap' }}>
+                        <button
+                          onClick={() => handleRestoreQuestion(q.id)}
+                          className="paper-btn paper-btn-accent"
+                          style={{ padding: '0.2rem 0.6rem', fontSize: '0.8rem' }}
+                        >
+                          ♻️ पुनर्स्थापित करें (Restore)
+                        </button>
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Audit Log Tab */}
+      {activeTab === 'audit_log' && (
+        <div className="notebook-sheet" style={{ padding: '1.5rem' }}>
+          <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.8rem' }}>
+            <div>
+              <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)', fontSize: '1.15rem' }}>
+                🛡️ सुरक्षा एवं ऑडिट लॉग (Security & Activity Audit Trail)
+              </h4>
+              <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: 'var(--ink-secondary)' }}>
+                सभी लॉगिन, परीक्षा प्रकाशन, पासवर्ड परिवर्तन एवं प्रशासनिक कार्यों का स्थायी रिकॉर्ड
+              </p>
+            </div>
+
+            <div style={{ display: 'flex', gap: '0.5rem' }}>
+              <select
+                value={auditRoleFilter}
+                onChange={e => {
+                  setAuditRoleFilter(e.target.value);
+                  handleFilterAuditLogs(e.target.value, auditActionFilter);
+                }}
+                className="paper-input"
+                style={{ padding: '0.3rem 0.6rem', fontSize: '0.8rem' }}
+              >
+                <option value="all">सभी भूमिकाएं (All Roles)</option>
+                <option value="admin">Admin</option>
+                <option value="teacher">Teacher</option>
+                <option value="student">Student</option>
+                <option value="system">System</option>
+              </select>
+
+              <select
+                value={auditActionFilter}
+                onChange={e => {
+                  setAuditActionFilter(e.target.value);
+                  handleFilterAuditLogs(auditRoleFilter, e.target.value);
+                }}
+                className="paper-input"
+                style={{ padding: '0.3rem 0.6rem', fontSize: '0.8rem' }}
+              >
+                <option value="all">सभी क्रियाएं (All Actions)</option>
+                <option value="login">Login</option>
+                <option value="login_failed">Login Failed</option>
+                <option value="create_teacher">Create Teacher</option>
+                <option value="push_quiz_to_class">Push Quiz</option>
+                <option value="soft_delete_question">Soft Delete Question</option>
+                <option value="restore_question">Restore Question</option>
+              </select>
+            </div>
+          </div>
+
+          {auditLogs.length === 0 ? (
+            <p style={{ color: 'var(--ink-secondary)', textAlign: 'center', padding: '2rem' }}>
+              कोई ऑडिट लॉग रिकॉर्ड नहीं मिला।
+            </p>
+          ) : (
+            <div style={{ overflowX: 'auto' }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.85rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '2px solid var(--paper-line)', color: 'var(--ink-secondary)' }}>
+                    <th style={{ padding: '0.6rem 0.4rem' }}>समय</th>
+                    <th style={{ padding: '0.6rem 0.4rem' }}>कर्ता (Actor)</th>
+                    <th style={{ padding: '0.6rem 0.4rem' }}>कार्य (Action)</th>
+                    <th style={{ padding: '0.6rem 0.4rem' }}>लक्ष्य (Target)</th>
+                    <th style={{ padding: '0.6rem 0.4rem' }}>विवरण (Details)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {auditLogs.map(l => (
+                    <tr key={l.id} style={{ borderBottom: '1px solid var(--paper-line)' }}>
+                      <td style={{ padding: '0.6rem 0.4rem', color: 'var(--ink-secondary)', whiteSpace: 'nowrap' }}>
+                        {new Date(l.created_at).toLocaleString()}
+                      </td>
+                      <td style={{ padding: '0.6rem 0.4rem', whiteSpace: 'nowrap' }}>
+                        <span
+                          style={{
+                            padding: '0.1rem 0.4rem',
+                            borderRadius: '3px',
+                            fontWeight: 700,
+                            fontSize: '0.75rem',
+                            backgroundColor: l.actor_role === 'admin' ? '#fef3c7' : l.actor_role === 'teacher' ? '#d1fae5' : '#e0e7ff',
+                            color: l.actor_role === 'admin' ? '#92400e' : l.actor_role === 'teacher' ? '#065f46' : '#3730a3'
+                          }}
+                        >
+                          {l.actor_role.toUpperCase()}
+                        </span>
+                      </td>
+                      <td style={{ padding: '0.6rem 0.4rem', fontWeight: 600 }}>
+                        <code style={{ fontSize: '0.8rem', color: l.action.includes('failed') ? '#dc2626' : 'inherit' }}>
+                          {l.action}
+                        </code>
+                      </td>
+                      <td style={{ padding: '0.6rem 0.4rem', color: 'var(--ink-secondary)' }}>
+                        {l.target_type}: {l.target_id}
+                      </td>
+                      <td style={{ padding: '0.6rem 0.4rem', fontSize: '0.75rem', fontFamily: 'monospace' }}>
+                        {JSON.stringify(l.details || {})}
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          )}
+        </div>
+      )}
+
+      {/* Add Teacher Modal */}
+      {showAddTeacherModal && (
+        <div
+          style={{
+            position: 'fixed',
+            inset: 0,
+            backgroundColor: 'rgba(0,0,0,0.6)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 100,
+            padding: '1rem'
+          }}
+        >
+          <div className="notebook-sheet" style={{ maxWidth: '480px', width: '100%', padding: '2rem' }}>
+            <h4 style={{ margin: '0 0 1rem 0', fontFamily: 'var(--font-heading)' }}>
+              ➕ नया शिक्षक खाता जोड़ें (Add Teacher)
+            </h4>
+
+            <form onSubmit={handleAddTeacherSubmit}>
+              <div style={{ marginBottom: '1rem' }}>
+                <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.3rem' }}>
+                  शिक्षक का नाम *
+                </label>
+                <input
+                  type="text"
+                  required
+                  placeholder="उदा: राजेश कुमार"
+                  value={teacherName}
+                  onChange={e => setTeacherName(e.target.value)}
+                  className="paper-input"
+                  style={{ width: '100%', padding: '0.6rem', boxSizing: 'border-box' }}
+                />
+              </div>
+
+              <div style={{ marginBottom: '1rem' }}>
+                <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.3rem' }}>
+                  ईमेल पता (Email) *
+                </label>
+                <input
+                  type="email"
+                  required
+                  placeholder="teacher@school.com"
+                  value={teacherEmail}
+                  onChange={e => setTeacherEmail(e.target.value)}
+                  className="paper-input"
+                  style={{ width: '100%', padding: '0.6rem', boxSizing: 'border-box' }}
+                />
+              </div>
+
+              <div style={{ marginBottom: '1rem' }}>
+                <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.3rem' }}>
+                  असाइन की जाने वाली कक्षाएं *
+                </label>
+                <div style={{ display: 'flex', gap: '1rem', marginTop: '0.3rem' }}>
+                  {([9, 10, 11, 12] as const).map(cls => (
+                    <label key={cls} style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', fontSize: '0.85rem' }}>
+                      <input
+                        type="checkbox"
+                        checked={teacherClasses.includes(cls)}
+                        onChange={e => {
+                          if (e.target.checked) setTeacherClasses([...teacherClasses, cls]);
+                          else setTeacherClasses(teacherClasses.filter(c => c !== cls));
+                        }}
+                      />
+                      कक्षा {cls}
+                    </label>
+                  ))}
+                </div>
+              </div>
+
+              <div style={{ marginBottom: '1.2rem' }}>
+                <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.3rem' }}>
+                  अस्थायी पासवर्ड (वैकल्पिक, न्यूनतम 10 अक्षर)
+                </label>
+                <input
+                  type="text"
+                  placeholder="रिक्त छोड़ने पर स्वतः जनरेट होगा"
+                  value={teacherTempPass}
+                  onChange={e => setTeacherTempPass(e.target.value)}
+                  className="paper-input"
+                  style={{ width: '100%', padding: '0.6rem', boxSizing: 'border-box' }}
+                />
+                <span style={{ fontSize: '0.75rem', color: 'var(--ink-secondary)' }}>
+                  प्रथम लॉगिन पर शिक्षक को पासवर्ड बदलना अनिवार्य होगा।
+                </span>
+              </div>
+
+              <div style={{ display: 'flex', gap: '0.6rem', justifyContent: 'flex-end' }}>
+                <button
+                  type="button"
+                  disabled={addTeacherLoading}
+                  onClick={() => setShowAddTeacherModal(false)}
+                  className="paper-btn"
+                >
+                  रद्द करें
+                </button>
+                <button
+                  type="submit"
+                  disabled={addTeacherLoading || teacherClasses.length === 0}
+                  className="paper-btn paper-btn-accent"
+                >
+                  {addTeacherLoading ? 'खाता बन रहा है...' : 'शिक्षक बनाएं'}
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      )}
+
+      {/* Edit Teacher Classes Modal */}
+      {editTeacherClassesTarget && (
+        <div
+          style={{
+            position: 'fixed',
+            inset: 0,
+            backgroundColor: 'rgba(0,0,0,0.6)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 100,
+            padding: '1rem'
+          }}
+        >
+          <div className="notebook-sheet" style={{ maxWidth: '420px', width: '100%', padding: '2rem' }}>
+            <h4 style={{ margin: '0 0 0.8rem 0', fontFamily: 'var(--font-heading)' }}>
+              📚 कक्षाएं असाइन करें: {editTeacherClassesTarget.name}
+            </h4>
+
+            <div style={{ display: 'flex', gap: '1rem', margin: '1.2rem 0' }}>
+              {([9, 10, 11, 12] as const).map(cls => (
+                <label key={cls} style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', fontSize: '0.9rem' }}>
+                  <input
+                    type="checkbox"
+                    checked={editTeacherClassesList.includes(cls)}
+                    onChange={e => {
+                      if (e.target.checked) setEditTeacherClassesList([...editTeacherClassesList, cls]);
+                      else setEditTeacherClassesList(editTeacherClassesList.filter(c => c !== cls));
+                    }}
+                  />
+                  कक्षा {cls}
+                </label>
+              ))}
+            </div>
+
+            <div style={{ display: 'flex', gap: '0.6rem', justifyContent: 'flex-end' }}>
+              <button
+                type="button"
+                onClick={() => setEditTeacherClassesTarget(null)}
+                className="paper-btn"
+              >
+                रद्द करें
+              </button>
+              <button
+                type="button"
+                onClick={handleUpdateTeacherClasses}
+                className="paper-btn paper-btn-accent"
+              >
+                सहेजें (Save Classes)
+              </button>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Reset Teacher Password Modal */}
+      {resetTeacherPassTarget && (
+        <div
+          style={{
+            position: 'fixed',
+            inset: 0,
+            backgroundColor: 'rgba(0,0,0,0.6)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 100,
+            padding: '1rem'
+          }}
+        >
+          <div className="notebook-sheet" style={{ maxWidth: '420px', width: '100%', padding: '2rem' }}>
+            <h4 style={{ margin: '0 0 0.8rem 0', fontFamily: 'var(--font-heading)' }}>
+              🔑 पासवर्ड रीसेट: {resetTeacherPassTarget.name}
+            </h4>
+
+            <form onSubmit={handleResetTeacherPasswordSubmit}>
+              <div style={{ marginBottom: '1.2rem' }}>
+                <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.3rem' }}>
+                  नया अस्थायी पासवर्ड (न्यूनतम 10 अक्षर) *
+                </label>
+                <input
+                  type="text"
+                  required
+                  minLength={10}
+                  placeholder="उदा: SchoolTeach#2026!"
+                  value={teacherNewPass}
+                  onChange={e => setTeacherNewPass(e.target.value)}
+                  className="paper-input"
+                  style={{ width: '100%', padding: '0.6rem', boxSizing: 'border-box' }}
+                />
+              </div>
+
+              <div style={{ display: 'flex', gap: '0.6rem', justifyContent: 'flex-end' }}>
+                <button
+                  type="button"
+                  disabled={resetPassLoading}
+                  onClick={() => setResetTeacherPassTarget(null)}
+                  className="paper-btn"
+                >
+                  रद्द करें
+                </button>
+                <button
+                  type="submit"
+                  disabled={resetPassLoading || teacherNewPass.length < 10}
+                  className="paper-btn paper-btn-accent"
+                >
+                  {resetPassLoading ? 'रीसेट हो रहा है...' : 'पासवर्ड रीसेट करें'}
+                </button>
+              </div>
+            </form>
           </div>
         </div>
       )}

@@ -90,6 +90,15 @@ serve(async (req: Request) => {
     });
 
     if (!pinValid) {
+      await supabase.from('audit_log').insert({
+        actor_id: String(studentId),
+        actor_role: 'student',
+        action: 'login_failed',
+        target_type: 'student',
+        target_id: String(studentId),
+        details: { ip: clientIp, reason: 'invalid_pin' }
+      }).catch((e: any) => console.error('audit_log insert error:', e));
+
       const remainingAttempts = 4 - failedCount;
       const warnMsg = remainingAttempts > 0
         ? `गलत पिन दर्ज किया गया। आपके पास ${remainingAttempts} प्रयास शेष हैं।`
@@ -102,6 +111,15 @@ serve(async (req: Request) => {
 
     // 5. Success -> Issue Student Session Token
     const token = await createStudentJwt(student.id, student.name, student.class);
+
+    await supabase.from('audit_log').insert({
+      actor_id: String(student.id),
+      actor_role: 'student',
+      action: 'login',
+      target_type: 'student',
+      target_id: String(student.id),
+      details: { name: student.name, class: student.class, ip: clientIp }
+    }).catch((e: any) => console.error('audit_log insert error:', e));
 
     return new Response(
       JSON.stringify({

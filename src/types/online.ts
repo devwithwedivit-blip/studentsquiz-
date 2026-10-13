@@ -47,6 +47,34 @@ export interface SanitizedOnlineQuestion {
   passageOrder?: number;
 }
 
+export interface StaffProfile {
+  id: string;
+  email: string;
+  name: string;
+  role: 'admin' | 'teacher';
+  active: boolean;
+  must_change_password: boolean;
+  assignedClasses?: (9 | 10 | 11 | 12 | string)[];
+}
+
+export interface TeacherClass {
+  id?: number;
+  teacher_id: string;
+  class: string;
+  created_at?: string;
+}
+
+export interface AuditLogEntry {
+  id: number;
+  actor_id: string;
+  actor_role: 'admin' | 'teacher' | 'student' | 'system';
+  action: string;
+  target_type: string;
+  target_id: string;
+  details: Record<string, any>;
+  created_at: string;
+}
+
 export interface OnlineQuiz {
   id: string;
   title: string;
@@ -63,6 +91,8 @@ export interface OnlineQuiz {
   created_at: string;
   question_count?: number;
   total_marks?: number;
+  owner_id?: string;
+  owner_name?: string;
 }
 
 export interface OnlineAttempt {
