@@ -12,7 +12,8 @@
     "validate-bank:full": "tsx scripts/validateBank.ts --full",
     "create-admin": "tsx scripts/create-first-admin.ts",
     "seed-phase9": "tsx scripts/seed-phase9-dev.ts",
-    "test-phase9": "tsx scripts/test-phase9-security.ts"
+    "test-phase9": "tsx scripts/test-phase9-security.ts",
+    "test-phase10": "tsx scripts/test-phase10-teacher-tests.ts"
   },
   "dependencies": {
     "@dnd-kit/core": "^6.3.1",

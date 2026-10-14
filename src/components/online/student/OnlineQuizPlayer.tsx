@@ -6,14 +6,17 @@ import {
   SubmitAttemptResponse
 } from '../../../types/online';
 import { saveOnlineProgress, submitOnlineAttempt } from '../../../services/studentApi';
+import { saveTeacherTestProgress, submitTeacherTest } from '../../../services/teacherTestApi';
 
 interface OnlineQuizPlayerProps {
-  quizData: StartAttemptResponse;
+  quizData: StartAttemptResponse & { isTeacherTest?: boolean; teacherTestId?: string };
   onFinish: (result: SubmitAttemptResponse) => void;
   onQuit: () => void;
+  onSubmitAttempt?: (attemptId: string, answers: Record<string, any>, isAbrupt?: boolean) => Promise<SubmitAttemptResponse>;
+  onSaveProgress?: (attemptId: string, questionId: string, response: any, timeSpentSeconds: number) => Promise<{ saved: boolean }>;
 }
 
-export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlayerProps) {
+export function OnlineQuizPlayer({ quizData, onFinish, onQuit, onSubmitAttempt, onSaveProgress }: OnlineQuizPlayerProps) {
   const { attemptId, durationMinutes, startedAt, title, questions, passages } = quizData;
 
   const [currentIndex, setCurrentIndex] = useState<number>(0);
@@ -35,6 +38,10 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
   const [showSubmitModal, setShowSubmitModal] = useState<boolean>(false);
   const [submitting, setSubmitting] = useState<boolean>(false);
   const [submitError, setSubmitError] = useState<string | null>(null);
+
+  // Tab switch / anti-cheat violation tracking (1st warning, 2nd auto-submits abrupt)
+  const [violationWarning, setViolationWarning] = useState<boolean>(false);
+  const violationCountRef = useRef<number>(0);
 
   const questionTimesRef = useRef<Record<string, number>>({});
   const lastActiveTimestampRef = useRef<number>(Date.now());
@@ -69,6 +76,43 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
     return () => clearInterval(timer);
   }, [startedAt, durationMinutes, currentIndex, questions]);
 
+  // Tab switch & window blur anti-cheat monitoring
+  useEffect(() => {
+    const handleViolation = () => {
+      if (isAutoSubmittingRef.current || submitting) return;
+
+      violationCountRef.current += 1;
+      const count = violationCountRef.current;
+
+      if (count === 1) {
+        setViolationWarning(true);
+      } else if (count >= 2) {
+        isAutoSubmittingRef.current = true;
+        setViolationWarning(false);
+        alert('Exam terminated! A 2nd tab-switch violation was detected. Your test is being auto-submitted as "abrupt" with zero (0) score.');
+        handleFinalSubmit(false, true); // isAbrupt = true
+      }
+    };
+
+    const handleVisibilityChange = () => {
+      if (document.visibilityState === 'hidden') {
+        handleViolation();
+      }
+    };
+
+    const handleBlur = () => {
+      handleViolation();
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+    window.addEventListener('blur', handleBlur);
+
+    return () => {
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+      window.removeEventListener('blur', handleBlur);
+    };
+  }, [submitting]);
+
   const currentQuestion: SanitizedOnlineQuestion = questions[currentIndex] || questions[0];
   const currentPassage: OnlinePassage | undefined = currentQuestion?.passageId
     ? passages.find(p => p.id === currentQuestion.passageId)
@@ -82,7 +126,13 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
 
     try {
       const timeSpent = questionTimesRef.current[qId] || 1;
-      await saveOnlineProgress(attemptId, qId, newVal, timeSpent);
+      if (quizData.isTeacherTest) {
+        await saveTeacherTestProgress(attemptId, qId, newVal);
+      } else if (onSaveProgress) {
+        await onSaveProgress(attemptId, qId, newVal, timeSpent);
+      } else {
+        await saveOnlineProgress(attemptId, qId, newVal, timeSpent);
+      }
       setSaveStatus('saved');
     } catch (e) {
       console.error('Autosave error:', e);
@@ -100,7 +150,13 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
     setSaveStatus('saving');
     try {
       const timeSpent = questionTimesRef.current[qId] || 1;
-      await saveOnlineProgress(attemptId, qId, null, timeSpent);
+      if (quizData.isTeacherTest) {
+        await saveTeacherTestProgress(attemptId, qId, null);
+      } else if (onSaveProgress) {
+        await onSaveProgress(attemptId, qId, null, timeSpent);
+      } else {
+        await saveOnlineProgress(attemptId, qId, null, timeSpent);
+      }
       setSaveStatus('saved');
     } catch {
       setSaveStatus('error');
@@ -117,11 +173,23 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
     });
   };
 
-  const handleFinalSubmit = async (isAutoTimeout = false) => {
+  const handleFinalSubmit = async (isAutoTimeout = false, isAbrupt = false) => {
     setSubmitting(true);
     setSubmitError(null);
     try {
-      const result = await submitOnlineAttempt(attemptId, answers);
+      let result: SubmitAttemptResponse;
+      if (quizData.isTeacherTest && quizData.teacherTestId) {
+        result = await submitTeacherTest(quizData.teacherTestId, attemptId, answers, isAbrupt);
+      } else if (onSubmitAttempt) {
+        result = await onSubmitAttempt(attemptId, answers, isAbrupt);
+      } else {
+        result = await submitOnlineAttempt(attemptId, answers);
+        if (isAbrupt) {
+          result.status = 'abrupt';
+          result.score = 0;
+          result.percentage = 0;
+        }
+      }
       onFinish(result);
     } catch (err: any) {
       setSubmitError(err.message || 'Submission error. Please try again.');
@@ -923,6 +991,68 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                 {submitting ? 'Submitting...' : 'Yes, Submit Exam'}
               </button>
             </div>
+          </div>
+        </div>
+      )}
+
+      {/* Tab-Switch Anti-Cheat Warning Modal (Warning 1 of 2) */}
+      {violationWarning && (
+        <div
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.8)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            zIndex: 100,
+            padding: '1rem'
+          }}
+        >
+          <div
+            className="notebook-sheet"
+            style={{
+              maxWidth: '480px',
+              width: '100%',
+              padding: '2rem',
+              textAlign: 'center',
+              border: '3px solid var(--red-pen)',
+              backgroundColor: '#fff',
+              boxShadow: '0 8px 32px rgba(0,0,0,0.3)'
+            }}
+          >
+            <div style={{ fontSize: '3.2rem', marginBottom: '0.5rem' }}>⚠️</div>
+            <h3 style={{ margin: '0 0 0.5rem 0', color: 'var(--red-pen)', fontFamily: 'var(--font-heading)', fontSize: '1.4rem' }}>
+              Tab Switch Detected! (Warning 1 of 2)
+            </h3>
+            <p style={{ fontSize: '0.95rem', color: 'var(--ink-secondary)', lineHeight: 1.5, margin: '0.5rem 0 1rem 0' }}>
+              You left or switched away from the active exam window. Leaving the exam window is strictly monitored.
+            </p>
+            <div
+              style={{
+                padding: '0.8rem 1rem',
+                margin: '1rem 0 1.5rem 0',
+                borderRadius: '8px',
+                backgroundColor: 'var(--red-pen-bg)',
+                border: '1.5px solid var(--red-pen)',
+                color: 'var(--red-pen)',
+                fontWeight: 700,
+                fontSize: '0.9rem'
+              }}
+            >
+              🚨 Attention: A 2nd violation will automatically terminate your exam and submit it as &quot;abrupt&quot; with 0 marks!
+            </div>
+            <button
+              type="button"
+              onClick={() => setViolationWarning(false)}
+              className="paper-btn paper-btn-accent"
+              style={{ width: '100%', padding: '0.75rem', fontWeight: 800, fontSize: '1rem' }}
+            >
+              I Understand — Return to Exam
+            </button>
           </div>
         </div>
       )}

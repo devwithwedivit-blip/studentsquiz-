@@ -99,7 +99,7 @@ export interface OnlineAttempt {
   id: string;
   quiz_id: string;
   student_id: string;
-  status: 'in_progress' | 'submitted' | 'timed_out';
+  status: 'in_progress' | 'submitted' | 'timed_out' | 'abrupt';
   started_at: string;
   submitted_at?: string | null;
   score?: number | null;
@@ -112,6 +112,7 @@ export interface OnlineAttempt {
 
 export interface AttemptReviewItem {
   questionId: string;
+  question?: string;
   type: QuestionType;
   marks: number;
   marksAwarded: number;
@@ -136,7 +137,7 @@ export interface StartAttemptResponse {
 
 export interface SubmitAttemptResponse {
   attemptId: string;
-  status: 'submitted' | 'timed_out';
+  status: 'submitted' | 'timed_out' | 'abrupt';
   score: number;
   total: number;
   percentage: number;

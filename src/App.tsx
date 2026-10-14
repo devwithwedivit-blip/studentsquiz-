@@ -54,6 +54,7 @@ import { StudentResultView } from './components/online/student/StudentResultView
 import { TeacherPortal } from './components/online/teacher/TeacherPortal';
 import { AdminPortal } from './components/online/admin/AdminPortal';
 import { LiveResultsView } from './components/online/results/LiveResultsView';
+import { startTeacherTest, getTeacherTestSubmissionResult } from './services/teacherTestApi';
 
 export function App() {
   const [questions, setQuestions] = useState<Question[]>([]);
@@ -244,6 +245,30 @@ export function App() {
       setOnlineResult(null);
     } catch (err: any) {
       alert(err.message || 'Unable to start exam.');
+    }
+  };
+
+  const handleStartTeacherTest = async (testId: string) => {
+    if (!studentSession) return;
+    try {
+      const data = await startTeacherTest(testId, studentSession.student);
+      setActiveOnlineQuiz(data);
+      setOnlineResult(null);
+    } catch (err: any) {
+      alert(err.message || 'Unable to start teacher test.');
+    }
+  };
+
+  const handleViewTeacherTestResult = async (testId: string, submissionId: string) => {
+    try {
+      const result = await getTeacherTestSubmissionResult(testId, submissionId);
+      if (result) {
+        setOnlineResult(result);
+      } else {
+        alert('Could not find submission details.');
+      }
+    } catch (err: any) {
+      alert(err.message || 'Unable to load test result.');
     }
   };
 
@@ -594,6 +619,8 @@ export function App() {
             onLogout={handleLogout}
             onStartQuiz={handleStartOnlineQuiz}
             onViewAttempt={() => {}}
+            onStartTeacherTest={handleStartTeacherTest}
+            onViewTeacherTestResult={handleViewTeacherTestResult}
           />
         )
       ) : appMode === 'teacher' ? (

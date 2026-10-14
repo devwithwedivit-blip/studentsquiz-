@@ -71,6 +71,24 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
           </div>
         )}
 
+        {status === 'abrupt' && (
+          <div
+            style={{
+              padding: '0.6rem 1.2rem',
+              backgroundColor: 'var(--red-pen-bg)',
+              border: '1.5px solid var(--red-pen)',
+              color: 'var(--red-pen)',
+              borderRadius: '6px',
+              display: 'inline-block',
+              fontWeight: 700,
+              fontSize: '0.88rem',
+              marginBottom: '1rem'
+            }}
+          >
+            ⚠️ Terminated due to tab-switch violations (Auto-submitted as Abrupt with 0 score)
+          </div>
+        )}
+
         {/* Score Metrics Grid */}
         <div
           style={{

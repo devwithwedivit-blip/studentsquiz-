@@ -13,6 +13,16 @@ import {
   getTeacherRoster,
   getTeacherQuizAttempts
 } from '../../../services/teacherApi';
+import {
+  getTeacherTestsForTeacher,
+  createTeacherTest,
+  getTeacherTestResults
+} from '../../../services/teacherTestApi';
+import {
+  TeacherTest,
+  CreateTeacherTestQuestionInput,
+  TeacherTestSubmissionRow
+} from '../../../types/teacherTest';
 
 interface TeacherPortalProps {
   teacher: StaffProfile;
@@ -27,7 +37,7 @@ export function TeacherPortal({
   onLogout,
   onOpenLiveResults
 }: TeacherPortalProps) {
-  const [activeTab, setActiveTab] = useState<'quizzes' | 'create' | 'my_questions' | 'roster'>('quizzes');
+  const [activeTab, setActiveTab] = useState<'quizzes' | 'create' | 'assign_test' | 'my_questions' | 'roster'>('quizzes');
   const [assignedClasses, setAssignedClasses] = useState<(9 | 10 | 11 | 12)[]>(
     (teacher.assignedClasses as (9 | 10 | 11 | 12)[]) || [9]
   );
@@ -35,6 +45,34 @@ export function TeacherPortal({
   const [myQuestions, setMyQuestions] = useState<Question[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [actionMessage, setActionMessage] = useState<{ text: string; type: 'success' | 'error' } | null>(null);
+
+  // --- Teacher Assigned Tests State ---
+  const [teacherTests, setTeacherTests] = useState<TeacherTest[]>([]);
+  const [testViewMode, setTestViewMode] = useState<'create' | 'results'>('create');
+  const [selectedResultTestId, setSelectedResultTestId] = useState<string>('');
+  const [testSubmissions, setTestSubmissions] = useState<TeacherTestSubmissionRow[]>([]);
+  const [submissionsLoading, setSubmissionsLoading] = useState<boolean>(false);
+
+  // Create Test Form State
+  const [testTitle, setTestTitle] = useState<string>('');
+  const [testSubject, setTestSubject] = useState<string>('mathematics');
+  const [testClass, setTestClass] = useState<9 | 10 | 11 | 12>(9);
+  const [testDuration, setTestDuration] = useState<number>(30);
+  const [testDueAt, setTestDueAt] = useState<string>(() => {
+    const tomorrow = new Date();
+    tomorrow.setDate(tomorrow.getDate() + 1);
+    tomorrow.setHours(17, 0, 0, 0);
+    return tomorrow.toISOString().slice(0, 16);
+  });
+  const [testQuestions, setTestQuestions] = useState<CreateTeacherTestQuestionInput[]>([
+    {
+      question: '',
+      options: ['', '', '', ''],
+      correct_answer: 0,
+      marks: 1
+    }
+  ]);
+  const [testCreating, setTestCreating] = useState<boolean>(false);
 
   // Push Modal State
   const [pushQuizTarget, setPushQuizTarget] = useState<OnlineQuiz | null>(null);
@@ -70,19 +108,25 @@ export function TeacherPortal({
   const loadData = async () => {
     setLoading(true);
     try {
-      const [clsList, qList, qTeacher] = await Promise.all([
+      const [clsList, qList, qTeacher, tTests] = await Promise.all([
         getTeacherAssignedClasses(),
         getTeacherQuizzes(),
-        getTeacherQuestions()
+        getTeacherQuestions(),
+        getTeacherTestsForTeacher(teacher.id)
       ]);
       const validClasses = clsList.length > 0 ? clsList : ((teacher.assignedClasses as any) || [9]);
       setAssignedClasses(validClasses);
       setQuizzes(qList);
       setMyQuestions(qTeacher);
+      setTeacherTests(tTests);
+      if (tTests.length > 0 && !selectedResultTestId) {
+        setSelectedResultTestId(tTests[0].id);
+      }
       if (validClasses.length > 0) {
         setNewClass(validClasses[0]);
         setPushSelectedClass(validClasses[0]);
         setRosterClass(validClasses[0]);
+        setTestClass(validClasses[0]);
       }
     } catch (err: any) {
       setActionMessage({ text: err.message || 'Error loading data.', type: 'error' });
@@ -94,6 +138,145 @@ export function TeacherPortal({
   useEffect(() => {
     loadData();
   }, []);
+
+  // Auto-refresh results when viewing test results
+  const loadTestResults = async (tId: string) => {
+    if (!tId) return;
+    setSubmissionsLoading(true);
+    try {
+      const rows = await getTeacherTestResults(tId);
+      setTestSubmissions(rows);
+    } catch (err: any) {
+      console.error('Error loading test submissions:', err);
+    } finally {
+      setSubmissionsLoading(false);
+    }
+  };
+
+  useEffect(() => {
+    if (activeTab === 'assign_test' && testViewMode === 'results' && selectedResultTestId) {
+      loadTestResults(selectedResultTestId);
+      const interval = setInterval(() => {
+        loadTestResults(selectedResultTestId);
+      }, 5000);
+      return () => clearInterval(interval);
+    }
+  }, [activeTab, testViewMode, selectedResultTestId]);
+
+  const handleAddQuestion = () => {
+    setTestQuestions(prev => [
+      ...prev,
+      {
+        question: '',
+        options: ['', '', '', ''],
+        correct_answer: 0,
+        marks: 1
+      }
+    ]);
+  };
+
+  const handleRemoveQuestion = (index: number) => {
+    if (testQuestions.length <= 1) return;
+    setTestQuestions(prev => prev.filter((_, i) => i !== index));
+  };
+
+  const handleQuestionTextChange = (index: number, text: string) => {
+    setTestQuestions(prev => {
+      const copy = [...prev];
+      copy[index] = { ...copy[index], question: text };
+      return copy;
+    });
+  };
+
+  const handleOptionChange = (qIndex: number, optIndex: number, text: string) => {
+    setTestQuestions(prev => {
+      const copy = [...prev];
+      const opts = [...copy[qIndex].options];
+      opts[optIndex] = text;
+      copy[qIndex] = { ...copy[qIndex], options: opts };
+      return copy;
+    });
+  };
+
+  const handleCorrectAnswerChange = (qIndex: number, optIndex: number) => {
+    setTestQuestions(prev => {
+      const copy = [...prev];
+      copy[qIndex] = { ...copy[qIndex], correct_answer: optIndex };
+      return copy;
+    });
+  };
+
+  const handleMarksChange = (qIndex: number, marks: number) => {
+    setTestQuestions(prev => {
+      const copy = [...prev];
+      copy[qIndex] = { ...copy[qIndex], marks: Math.max(1, marks) };
+      return copy;
+    });
+  };
+
+  const handleCreateTestSubmit = async (isPublished: boolean) => {
+    if (!testTitle.trim()) {
+      alert('Please enter a test title.');
+      return;
+    }
+    for (let i = 0; i < testQuestions.length; i++) {
+      const q = testQuestions[i];
+      if (!q.question.trim()) {
+        alert(`Question ${i + 1} statement cannot be empty.`);
+        return;
+      }
+      for (let o = 0; o < 4; o++) {
+        if (!q.options[o].trim()) {
+          alert(`Question ${i + 1}, Option ${String.fromCharCode(65 + o)} cannot be empty.`);
+          return;
+        }
+      }
+    }
+
+    setTestCreating(true);
+    try {
+      const created = await createTeacherTest(
+        {
+          title: testTitle.trim(),
+          subject: testSubject,
+          class: testClass,
+          duration_minutes: testDuration,
+          due_at: new Date(testDueAt).toISOString(),
+          is_published: isPublished,
+          questions: testQuestions
+        },
+        { id: teacher.id, name: teacher.name }
+      );
+
+      setActionMessage({
+        text: isPublished
+          ? `Test "${created.title}" successfully published to Class ${created.class}!`
+          : `Draft test "${created.title}" saved.`,
+        type: 'success'
+      });
+
+      // Reset form
+      setTestTitle('');
+      setTestQuestions([
+        {
+          question: '',
+          options: ['', '', '', ''],
+          correct_answer: 0,
+          marks: 1
+        }
+      ]);
+
+      // Refresh tests list
+      const tests = await getTeacherTestsForTeacher(teacher.id);
+      setTeacherTests(tests);
+      setSelectedResultTestId(created.id);
+      setTestViewMode('results');
+    } catch (err: any) {
+      setActionMessage({ text: err.message || 'Error creating test.', type: 'error' });
+    } finally {
+      setTestCreating(false);
+    }
+  };
 
   // Load roster when roster tab or selected class changes
   useEffect(() => {
@@ -302,6 +485,16 @@ export function TeacherPortal({
               }`}
             >
               <span>➕</span> Create New Exam
+            </button>
+            <button
+              onClick={() => setActiveTab('assign_test')}
+              className={`px-4 py-2 rounded-lg text-xs sm:text-sm font-bold transition-all whitespace-nowrap flex items-center gap-1.5 ${
+                activeTab === 'assign_test'
+                  ? 'bg-white text-emerald-950 shadow-sm'
+                  : 'text-emerald-100 hover:bg-emerald-800/80'
+              }`}
+            >
+              <span>📝</span> Create &amp; Assign Test ({teacherTests.length})
             </button>
             <button
               onClick={() => setActiveTab('my_questions')}
@@ -808,6 +1001,454 @@ export function TeacherPortal({
                     </table>
                   )}
                 </div>
+              </div>
+            )}
+
+            {/* TAB: CREATE & ASSIGN CLASS TEST & RESULTS */}
+            {activeTab === 'assign_test' && (
+              <div className="space-y-6 max-w-5xl mx-auto">
+                {/* Header Switcher */}
+                <div className="flex flex-wrap items-center justify-between gap-4 bg-white p-4 rounded-xl border border-stone-200 shadow-sm">
+                  <div>
+                    <h2 className="text-lg font-bold text-stone-900">Class Tests &amp; Live Submissions</h2>
+                    <p className="text-xs text-stone-500">
+                      Create class-specific tests with MCQs and view live student submissions
+                    </p>
+                  </div>
+                  <div className="flex gap-2">
+                    <button
+                      onClick={() => setTestViewMode('create')}
+                      className={`px-4 py-2 rounded-lg text-xs font-bold transition shadow-sm flex items-center gap-1.5 ${
+                        testViewMode === 'create'
+                          ? 'bg-emerald-700 text-white'
+                          : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                      }`}
+                    >
+                      <span>➕</span> Create &amp; Assign Test
+                    </button>
+                    <button
+                      onClick={() => {
+                        setTestViewMode('results');
+                        if (teacherTests.length > 0 && !selectedResultTestId) {
+                          setSelectedResultTestId(teacherTests[0].id);
+                        }
+                      }}
+                      className={`px-4 py-2 rounded-lg text-xs font-bold transition shadow-sm flex items-center gap-1.5 ${
+                        testViewMode === 'results'
+                          ? 'bg-emerald-700 text-white'
+                          : 'bg-stone-100 text-stone-700 hover:bg-stone-200'
+                      }`}
+                    >
+                      <span>📊</span> Test Results ({teacherTests.length})
+                    </button>
+                  </div>
+                </div>
+
+                {/* SUB-VIEW 1: CREATE & ASSIGN TEST FORM */}
+                {testViewMode === 'create' ? (
+                  <div className="bg-white rounded-xl border border-stone-200 shadow-sm p-6 space-y-6">
+                    <div className="border-b border-stone-200 pb-3">
+                      <h3 className="font-bold text-stone-900 text-base">New Class Test Details</h3>
+                      <p className="text-xs text-stone-500">
+                        Assigned students will see this test in their &quot;📋 Teacher Tests&quot; tab.
+                      </p>
+                    </div>
+
+                    {/* Metadata Fields */}
+                    <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                      <div className="sm:col-span-2">
+                        <label className="block text-xs font-bold text-stone-700 uppercase mb-1">
+                          Test Title *
+                        </label>
+                        <input
+                          type="text"
+                          value={testTitle}
+                          onChange={(e) => setTestTitle(e.target.value)}
+                          placeholder="e.g. Unit Test 1: Polynomials &amp; Linear Equations"
+                          className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-sm font-medium focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                        />
+                      </div>
+
+                      <div>
+                        <label className="block text-xs font-bold text-stone-700 uppercase mb-1">
+                          Subject *
+                        </label>
+                        <select
+                          value={testSubject}
+                          onChange={(e) => setTestSubject(e.target.value)}
+                          className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-sm font-medium bg-stone-50 focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                        >
+                          <option value="mathematics">Mathematics</option>
+                          <option value="science">Science</option>
+                          <option value="english">English</option>
+                          <option value="hindi">Hindi</option>
+                          <option value="social_science">Social Science</option>
+                          <option value="gk">General Knowledge</option>
+                        </select>
+                      </div>
+
+                      <div>
+                        <label className="block text-xs font-bold text-stone-700 uppercase mb-1">
+                          Assigned Class (9–12) *
+                        </label>
+                        <select
+                          value={testClass}
+                          onChange={(e) => setTestClass(Number(e.target.value) as 9 | 10 | 11 | 12)}
+                          className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-sm font-bold bg-stone-50 focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                        >
+                          <option value={9}>Class 9</option>
+                          <option value={10}>Class 10</option>
+                          <option value={11}>Class 11</option>
+                          <option value={12}>Class 12</option>
+                        </select>
+                      </div>
+
+                      <div>
+                        <label className="block text-xs font-bold text-stone-700 uppercase mb-1">
+                          Duration (Minutes) *
+                        </label>
+                        <input
+                          type="number"
+                          min={5}
+                          max={180}
+                          value={testDuration}
+                          onChange={(e) => setTestDuration(Number(e.target.value))}
+                          className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-sm font-bold focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                        />
+                      </div>
+
+                      <div>
+                        <label className="block text-xs font-bold text-stone-700 uppercase mb-1">
+                          Due Date &amp; Time (Deadline) *
+                        </label>
+                        <input
+                          type="datetime-local"
+                          value={testDueAt}
+                          onChange={(e) => setTestDueAt(e.target.value)}
+                          className="w-full px-3.5 py-2 rounded-lg border border-stone-300 text-xs font-bold bg-stone-50 focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                        />
+                      </div>
+                    </div>
+
+                    {/* Question Builder Section */}
+                    <div className="space-y-4 pt-4 border-t border-stone-200">
+                      <div className="flex items-center justify-between">
+                        <div>
+                          <h4 className="font-bold text-stone-900 text-sm">
+                            Question Builder (MCQs with 4 Options &amp; Marks)
+                          </h4>
+                          <p className="text-xs text-stone-500">
+                            Select the radio button next to the correct answer for automated server-side grading.
+                          </p>
+                        </div>
+                        <button
+                          type="button"
+                          onClick={handleAddQuestion}
+                          className="px-3.5 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded-lg text-xs font-bold shadow-sm transition flex items-center gap-1"
+                        >
+                          <span>➕</span> Add Question
+                        </button>
+                      </div>
+
+                      <div className="space-y-4">
+                        {testQuestions.map((q, qIdx) => (
+                          <div
+                            key={qIdx}
+                            className="p-4 rounded-xl border border-stone-200 bg-stone-50 space-y-3"
+                          >
+                            <div className="flex items-center justify-between">
+                              <span className="px-2.5 py-0.5 bg-emerald-100 text-emerald-800 font-extrabold text-xs rounded border border-emerald-300">
+                                Question {qIdx + 1}
+                              </span>
+                              <div className="flex items-center gap-3">
+                                <label className="text-xs font-bold text-stone-600 flex items-center gap-1">
+                                  Marks:
+                                  <input
+                                    type="number"
+                                    min={1}
+                                    max={20}
+                                    value={q.marks}
+                                    onChange={(e) => handleMarksChange(qIdx, Number(e.target.value))}
+                                    className="w-16 px-2 py-1 bg-white border border-stone-300 rounded text-center text-xs font-bold"
+                                  />
+                                </label>
+                                {testQuestions.length > 1 && (
+                                  <button
+                                    type="button"
+                                    onClick={() => handleRemoveQuestion(qIdx)}
+                                    className="text-red-600 hover:text-red-800 text-xs font-bold"
+                                  >
+                                    Delete
+                                  </button>
+                                )}
+                              </div>
+                            </div>
+
+                            {/* Question Prompt */}
+                            <div>
+                              <textarea
+                                rows={2}
+                                value={q.question}
+                                onChange={(e) => handleQuestionTextChange(qIdx, e.target.value)}
+                                placeholder={`Enter question ${qIdx + 1} text here...`}
+                                className="w-full p-2.5 bg-white border border-stone-300 rounded-lg text-sm font-medium focus:ring-2 focus:ring-emerald-500 focus:outline-none"
+                              />
+                            </div>
+
+                            {/* 4 MCQ Options */}
+                            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 pt-1">
+                              {q.options.map((opt, optIdx) => {
+                                const isCorrect = q.correct_answer === optIdx;
+                                const letter = String.fromCharCode(65 + optIdx);
+                                return (
+                                  <div
+                                    key={optIdx}
+                                    className={`flex items-center gap-2 p-2 rounded-lg border transition ${
+                                      isCorrect
+                                        ? 'bg-emerald-50 border-emerald-400'
+                                        : 'bg-white border-stone-200'
+                                    }`}
+                                  >
+                                    <input
+                                      type="radio"
+                                      name={`correct-ans-${qIdx}`}
+                                      checked={isCorrect}
+                                      onChange={() => handleCorrectAnswerChange(qIdx, optIdx)}
+                                      className="h-4 w-4 text-emerald-600 focus:ring-emerald-500 cursor-pointer"
+                                      title="Mark as correct answer"
+                                    />
+                                    <span className="font-bold text-xs text-stone-500 w-4">
+                                      {letter}.
+                                    </span>
+                                    <input
+                                      type="text"
+                                      value={opt}
+                                      onChange={(e) => handleOptionChange(qIdx, optIdx, e.target.value)}
+                                      placeholder={`Option ${letter}`}
+                                      className="flex-1 px-2 py-1 text-xs font-medium bg-transparent focus:outline-none"
+                                    />
+                                    {isCorrect && (
+                                      <span className="text-[10px] font-bold text-emerald-700 bg-emerald-100 px-1.5 py-0.5 rounded">
+                                        Correct
+                                      </span>
+                                    )}
+                                  </div>
+                                );
+                              })}
+                            </div>
+                          </div>
+                        ))}
+                      </div>
+                    </div>
+
+                    {/* Summary and Submission Action Bar */}
+                    <div className="pt-4 border-t border-stone-200 flex flex-wrap items-center justify-between gap-4">
+                      <div className="flex items-center gap-4 text-xs font-bold text-stone-600">
+                        <div>
+                          Total Questions: <span className="text-emerald-700">{testQuestions.length}</span>
+                        </div>
+                        <div>
+                          Total Marks:{' '}
+                          <span className="text-emerald-700">
+                            {testQuestions.reduce((sum, q) => sum + Number(q.marks || 1), 0)}
+                          </span>
+                        </div>
+                      </div>
+
+                      <div className="flex gap-2">
+                        <button
+                          type="button"
+                          disabled={testCreating}
+                          onClick={() => handleCreateTestSubmit(false)}
+                          className="px-4 py-2 bg-stone-200 hover:bg-stone-300 text-stone-800 font-bold rounded-lg text-xs transition"
+                        >
+                          Save as Draft
+                        </button>
+                        <button
+                          type="button"
+                          disabled={testCreating}
+                          onClick={() => handleCreateTestSubmit(true)}
+                          className="px-5 py-2 bg-emerald-700 hover:bg-emerald-800 text-white font-extrabold rounded-lg text-xs shadow-md transition flex items-center gap-1.5"
+                        >
+                          <span>🚀</span> {testCreating ? 'Publishing...' : 'Publish to class'}
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                ) : (
+                  /* SUB-VIEW 2: TEST RESULTS & SUBMISSIONS TABLE */
+                  <div className="bg-white rounded-xl border border-stone-200 shadow-sm p-6 space-y-6">
+                    <div className="flex flex-wrap items-center justify-between gap-4 border-b border-stone-200 pb-4">
+                      <div>
+                        <h3 className="font-bold text-stone-900 text-base">Select Test for Results</h3>
+                        <p className="text-xs text-stone-500">
+                          Submissions update live in real-time as students submit.
+                        </p>
+                      </div>
+
+                      <div className="flex items-center gap-2">
+                        <select
+                          value={selectedResultTestId}
+                          onChange={(e) => setSelectedResultTestId(e.target.value)}
+                          className="px-3.5 py-2 border border-stone-300 rounded-lg text-xs font-bold bg-stone-50 focus:outline-none"
+                        >
+                          {teacherTests.map((t) => (
+                            <option key={t.id} value={t.id}>
+                              Class {t.class} • {t.title} ({t.is_published ? 'Live' : 'Draft'})
+                            </option>
+                          ))}
+                        </select>
+
+                        <button
+                          onClick={() => loadTestResults(selectedResultTestId)}
+                          className="px-3 py-2 bg-stone-100 hover:bg-stone-200 text-stone-700 font-bold rounded-lg text-xs transition flex items-center gap-1"
+                        >
+                          <span>🔄</span> Refresh
+                        </button>
+                      </div>
+                    </div>
+
+                    {/* Selected Test Summary Card */}
+                    {(() => {
+                      const currentTest = teacherTests.find((t) => t.id === selectedResultTestId);
+                      if (!currentTest) {
+                        return (
+                          <div className="text-center py-12 text-stone-500 text-sm font-medium">
+                            No tests created yet. Use &quot;Create &amp; Assign Test&quot; above to assign one.
+                          </div>
+                        );
+                      }
+
+                      return (
+                        <div className="space-y-4">
+                          <div className="p-4 bg-emerald-50 rounded-xl border border-emerald-200 flex flex-wrap items-center justify-between gap-4 text-xs">
+                            <div>
+                              <div className="font-bold text-sm text-emerald-950">{currentTest.title}</div>
+                              <div className="text-emerald-700 mt-0.5">
+                                Class {currentTest.class} • Subject: {currentTest.subject.toUpperCase()} • Duration: {currentTest.duration_minutes} mins
+                              </div>
+                            </div>
+                            <div className="flex items-center gap-4">
+                              <div>
+                                Total Marks: <strong>{currentTest.total_marks}</strong>
+                              </div>
+                              <div>
+                                Due:{' '}
+                                <strong>
+                                  {new Date(currentTest.due_at).toLocaleDateString('en-IN', {
+                                    day: 'numeric',
+                                    month: 'short',
+                                    hour: '2-digit',
+                                    minute: '2-digit'
+                                  })}
+                                </strong>
+                              </div>
+                              <span
+                                className={`px-2 py-0.5 rounded text-[10px] font-bold ${
+                                  currentTest.is_published
+                                    ? 'bg-emerald-200 text-emerald-900'
+                                    : 'bg-stone-200 text-stone-700'
+                                }`}
+                              >
+                                {currentTest.is_published ? '🟢 Published' : '🟡 Draft'}
+                              </span>
+                            </div>
+                          </div>
+
+                          {/* Submissions Table */}
+                          <div className="border border-stone-200 rounded-xl overflow-hidden">
+                            {submissionsLoading ? (
+                              <div className="text-center py-12 text-stone-500 text-sm">
+                                ⏳ Fetching live test submissions...
+                              </div>
+                            ) : testSubmissions.length === 0 ? (
+                              <div className="text-center py-12 text-stone-500 text-sm">
+                                📭 No students have submitted this test yet.
+                                <p className="text-xs text-stone-400 mt-1">
+                                  When a student from Class {currentTest.class} finishes their test, their score and status will appear here.
+                                </p>
+                              </div>
+                            ) : (
+                              <table className="w-full text-xs sm:text-sm">
+                                <thead className="bg-stone-50 border-b border-stone-200 text-stone-600 font-bold">
+                                  <tr>
+                                    <th className="p-3 text-left">Student Name</th>
+                                    <th className="p-3 text-left">Roll No / ID</th>
+                                    <th className="p-3 text-center">Score</th>
+                                    <th className="p-3 text-center">Percentage</th>
+                                    <th className="p-3 text-center">Status</th>
+                                    <th className="p-3 text-right">Submitted At</th>
+                                  </tr>
+                                </thead>
+                                <tbody className="divide-y divide-stone-100">
+                                  {testSubmissions.map((row) => {
+                                    const pct =
+                                      row.total_marks > 0
+                                        ? Math.round((row.score / row.total_marks) * 100)
+                                        : 0;
+
+                                    return (
+                                      <tr key={row.id} className="hover:bg-stone-50">
+                                        <td className="p-3 font-bold text-stone-900">{row.student_name}</td>
+                                        <td className="p-3 font-mono text-stone-500 text-xs">{row.student_id}</td>
+                                        <td className="p-3 text-center font-bold text-emerald-700">
+                                          {row.score} / {row.total_marks}
+                                        </td>
+                                        <td className="p-3 text-center">
+                                          <span
+                                            className={`px-2 py-0.5 rounded text-[10px] font-bold ${
+                                              pct >= 75
+                                                ? 'bg-emerald-100 text-emerald-800'
+                                                : pct >= 40
+                                                ? 'bg-amber-100 text-amber-800'
+                                                : 'bg-red-100 text-red-800'
+                                            }`}
+                                          >
+                                            {pct}%
+                                          </span>
+                                        </td>
+                                        <td className="p-3 text-center">
+                                          {row.status === 'submitted' && (
+                                            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-emerald-100 text-emerald-800 border border-emerald-300">
+                                              Submitted
+                                            </span>
+                                          )}
+                                          {row.status === 'in_progress' && (
+                                            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-amber-100 text-amber-800 border border-amber-300">
+                                              In progress
+                                            </span>
+                                          )}
+                                          {row.status === 'abrupt' && (
+                                            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-red-100 text-red-800 border border-red-300">
+                                              Abrupt Exit
+                                            </span>
+                                          )}
+                                          {row.status === 'timed_out' && (
+                                            <span className="px-2 py-0.5 rounded text-[10px] font-bold bg-stone-200 text-stone-700 border border-stone-300">
+                                              Timed Out
+                                            </span>
+                                          )}
+                                        </td>
+                                        <td className="p-3 text-right text-stone-500 text-xs">
+                                          {row.submitted_at
+                                            ? new Date(row.submitted_at).toLocaleTimeString('en-IN', {
+                                                hour: '2-digit',
+                                                minute: '2-digit'
+                                              })
+                                            : '-'}
+                                        </td>
+                                      </tr>
+                                    );
+                                  })}
+                                </tbody>
+                              </table>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    })()}
+                  </div>
+                )}
               </div>
             )}
           </>
