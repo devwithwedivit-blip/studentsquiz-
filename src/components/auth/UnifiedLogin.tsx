@@ -394,6 +394,9 @@ export function UnifiedLogin({
                 {showTeacherPass ? EYE_OFF_ICON : EYE_ICON}
               </button>
             </div>
+            <p className="hint">
+              Demo: <code>teacher@school.com</code> / <code>teacher123</code>
+            </p>
           </div>
 
           <button className="go" type="submit" disabled={teacherLoading}>
@@ -454,6 +457,9 @@ export function UnifiedLogin({
                 {showAdminPass ? EYE_OFF_ICON : EYE_ICON}
               </button>
             </div>
+            <p className="hint">
+              Demo: <code>admin@school.com</code> / <code>admin123</code>
+            </p>
           </div>
 
           <button className="go" type="submit" disabled={adminLoading}>
