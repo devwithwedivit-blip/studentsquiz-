@@ -22,8 +22,55 @@ async function runPhase10Tests() {
   console.log(bold('  PHASE 10 — TEACHER TESTS & STUDENT DASHBOARD TAB TEST SUITE  '));
   console.log(bold('===============================================================\n'));
 
-  // Test 1: Class Isolation (Class 9 vs Class 10)
-  console.log(bold('Scenario 1: Strict Class Isolation'));
+  // Initial step: Teacher publishes tests for Class 9
+  await createTeacherTest(
+    {
+      title: 'Periodic Test 1: Linear Equations & Polynomials',
+      subject: 'mathematics',
+      class: 9,
+      duration_minutes: 20,
+      due_at: new Date(Date.now() + 18 * 3600 * 1000).toISOString(),
+      is_published: true,
+      questions: [
+        {
+          question: 'What is the degree of a non-zero constant polynomial?',
+          options: ['1', '0', 'Not defined', 'Any real number'],
+          correct_answer: 1,
+          marks: 2
+        },
+        {
+          question: 'The graph of 2x + 3y = 6 cuts the y-axis at which point?',
+          options: ['(0, 2)', '(3, 0)', '(2, 0)', '(0, 3)'],
+          correct_answer: 0,
+          marks: 2
+        }
+      ]
+    },
+    { id: 'teacher-sharma', name: 'Mr. R. K. Sharma' }
+  );
+
+  await createTeacherTest(
+    {
+      title: 'Weekly Science Checkup: Motion & Forces',
+      subject: 'science',
+      class: 9,
+      duration_minutes: 25,
+      due_at: new Date(Date.now() + 72 * 3600 * 1000).toISOString(),
+      is_published: true,
+      questions: [
+        {
+          question: 'Which law of motion gives formula F = ma?',
+          options: ['First', 'Second', 'Third', 'Gravity'],
+          correct_answer: 1,
+          marks: 2
+        }
+      ]
+    },
+    { id: 'teacher-verma', name: 'Mrs. Sunita Verma' }
+  );
+
+  // Test 1: Class Isolation (Class 9 vs Class 10) & Only Published Tests
+  console.log(bold('Scenario 1: Strict Class Isolation & Published-Only Filtering'));
   const studentC9 = { id: 'test-student-9', name: 'Aarav Sharma', class: 9 };
   const studentC10 = { id: 'test-student-10', name: 'Rohan Gupta', class: 10 };
 
@@ -33,6 +80,22 @@ async function runPhase10Tests() {
   assert(testsC9.length > 0, 'Class 9 student receives Class 9 teacher tests');
   assert(testsC9.every(t => t.class === 9), 'All tests for studentC9 are strictly Class 9');
   assert(testsC10.every(t => t.class === 10), 'Class 10 student sees 0 tests for Class 9');
+
+  // Verify that an unpublished draft test is NEVER shown to students
+  await createTeacherTest(
+    {
+      title: 'Class 9 Draft Hidden Test',
+      subject: 'science',
+      class: 9,
+      duration_minutes: 15,
+      due_at: new Date(Date.now() + 24 * 3600 * 1000).toISOString(),
+      is_published: false,
+      questions: [{ question: 'Sample draft?', options: ['A', 'B', 'C', 'D'], correct_answer: 0, marks: 1 }]
+    },
+    { id: 'teacher-sharma', name: 'Mr. R. K. Sharma' }
+  );
+  const recheckedC9 = await getTeacherTestsForStudent(9, studentC9.id);
+  assert(!recheckedC9.some(t => t.title === 'Class 9 Draft Hidden Test'), 'Unpublished draft tests are NEVER visible to students');
 
   // Test 2: Nearest Deadline Sorting & Due Soon Badge
   console.log(bold('\nScenario 2: Nearest Deadline Sorting & Due Soon Detection'));

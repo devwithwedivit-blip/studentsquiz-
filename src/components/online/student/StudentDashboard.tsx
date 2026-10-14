@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { getAvailableQuizzes, getMyAttempts, clearStudentSession } from '../../../services/studentApi';
-import { getTeacherTestsForStudent } from '../../../services/teacherTestApi';
+import { getTeacherTestsForStudent, subscribeToTeacherTestUpdates } from '../../../services/teacherTestApi';
 import { StudentSession, OnlineQuiz, OnlineAttempt } from '../../../types/online';
 import { TeacherTestCardItem } from '../../../types/teacherTest';
 
@@ -47,9 +47,33 @@ export function StudentDashboard({
     }
   };
 
+  const refreshTeacherTestsSilently = async () => {
+    try {
+      const ttList = await getTeacherTestsForStudent(session.student.class, session.student.id);
+      setTeacherTests(ttList);
+    } catch (err) {
+      console.warn('Realtime refresh of teacher tests skipped:', err);
+    }
+  };
+
   useEffect(() => {
     loadData();
-  }, [session]);
+
+    // Instant realtime synchronization when a teacher publishes a test
+    const unsubscribe = subscribeToTeacherTestUpdates(session.student.class, () => {
+      refreshTeacherTestsSilently();
+    });
+
+    // 3-second heartbeat polling for guaranteed cross-browser realtime sync
+    const interval = setInterval(() => {
+      refreshTeacherTestsSilently();
+    }, 3000);
+
+    return () => {
+      unsubscribe();
+      clearInterval(interval);
+    };
+  }, [session.student.class, session.student.id]);
 
   const handleLogoutClick = () => {
     if (window.confirm('Are you sure you want to log out?')) {

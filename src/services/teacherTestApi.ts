@@ -136,7 +136,7 @@ const safeStorage = {
       if (typeof window !== 'undefined' && window.localStorage) {
         return window.localStorage.getItem(key);
       }
-    } catch {}
+    } catch { }
     return memoryStorage.get(key) || null;
   },
   setItem: (key: string, val: string): void => {
@@ -145,7 +145,7 @@ const safeStorage = {
         window.localStorage.setItem(key, val);
         return;
       }
-    } catch {}
+    } catch { }
     memoryStorage.set(key, val);
   },
   removeItem: (key: string): void => {
@@ -154,38 +154,30 @@ const safeStorage = {
         window.localStorage.removeItem(key);
         return;
       }
-    } catch {}
+    } catch { }
     memoryStorage.delete(key);
   }
 };
 
-// Local storage helpers
+// Local storage helpers - ONLY return tests and questions created by teachers (no unnecessary dummy tests)
 function getStoredTests(): TeacherTest[] {
   try {
     const raw = safeStorage.getItem(LOCAL_TEACHER_TESTS_KEY);
-    const custom = raw ? JSON.parse(raw) : [];
-    const defaults = getDefaultOfflineTests().tests;
-    // Merge without duplicates
-    const map = new Map<string, TeacherTest>();
-    defaults.forEach(t => map.set(t.id, t));
-    custom.forEach((t: TeacherTest) => map.set(t.id, t));
-    return Array.from(map.values());
+    const custom: TeacherTest[] = raw ? JSON.parse(raw) : [];
+    // Strictly filter out any old demo-tt- tests
+    return (custom || []).filter((t: TeacherTest) => t && !t.id.startsWith('demo-tt-'));
   } catch {
-    return getDefaultOfflineTests().tests;
+    return [];
   }
 }
 
 function getStoredQuestions(): TeacherTestQuestion[] {
   try {
     const raw = safeStorage.getItem(LOCAL_TEACHER_QUESTIONS_KEY);
-    const custom = raw ? JSON.parse(raw) : [];
-    const defaults = getDefaultOfflineTests().questions;
-    const map = new Map<string, TeacherTestQuestion>();
-    defaults.forEach(q => map.set(q.id, q));
-    custom.forEach((q: TeacherTestQuestion) => map.set(q.id, q));
-    return Array.from(map.values());
+    const custom: TeacherTestQuestion[] = raw ? JSON.parse(raw) : [];
+    return (custom || []).filter((q: TeacherTestQuestion) => q && !q.test_id.startsWith('demo-tt-'));
   } catch {
-    return getDefaultOfflineTests().questions;
+    return [];
   }
 }
 
@@ -200,6 +192,126 @@ function getStoredSubmissions(): TeacherTestSubmission[] {
 
 function saveStoredSubmissions(subs: TeacherTestSubmission[]) {
   safeStorage.setItem(LOCAL_TEACHER_SUBMISSIONS_KEY, JSON.stringify(subs));
+}
+
+// Realtime notification & synchronization channels
+const REALTIME_CHANNEL_NAME = 'quizforge_teacher_tests_realtime';
+const STORAGE_PING_KEY = 'quizforge_test_published_timestamp';
+
+/**
+ * Broadcasts an event when a teacher publishes a test
+ */
+export function notifyTestPublished(test: TeacherTest) {
+  try {
+    if (typeof window !== 'undefined') {
+      // 1. Same-window CustomEvent
+      window.dispatchEvent(
+        new CustomEvent('quizforge:teacher_test_published', {
+          detail: { testId: test.id, class: Number(test.class) }
+        })
+      );
+
+      // 2. Cross-tab BroadcastChannel
+      if ('BroadcastChannel' in window) {
+        try {
+          const bc = new BroadcastChannel(REALTIME_CHANNEL_NAME);
+          bc.postMessage({
+            type: 'teacher_test_published',
+            testId: test.id,
+            class: Number(test.class),
+            timestamp: Date.now()
+          });
+          bc.close();
+        } catch {}
+      }
+
+      // 3. Storage timestamp ping (triggers across windows/tabs)
+      safeStorage.setItem(STORAGE_PING_KEY, String(Date.now()));
+    }
+  } catch (err) {
+    console.warn('Realtime notify warning:', err);
+  }
+}
+
+/**
+ * Realtime listener for students to receive tests as soon as teacher publishes them
+ */
+export function subscribeToTeacherTestUpdates(
+  studentClass: number,
+  onUpdate: () => void
+): () => void {
+  const cleanups: (() => void)[] = [];
+
+  if (typeof window !== 'undefined') {
+    // 1. Same-tab CustomEvent
+    const handleCustom = (e: Event) => {
+      const detail = (e as CustomEvent).detail;
+      if (!detail || Number(detail.class) === Number(studentClass)) {
+        onUpdate();
+      }
+    };
+    window.addEventListener('quizforge:teacher_test_published', handleCustom);
+    cleanups.push(() => window.removeEventListener('quizforge:teacher_test_published', handleCustom));
+
+    // 2. Cross-tab BroadcastChannel
+    if ('BroadcastChannel' in window) {
+      try {
+        const bc = new BroadcastChannel(REALTIME_CHANNEL_NAME);
+        bc.onmessage = (event) => {
+          if (event.data?.type === 'teacher_test_published') {
+            if (!event.data.class || Number(event.data.class) === Number(studentClass)) {
+              onUpdate();
+            }
+          }
+        };
+        cleanups.push(() => {
+          bc.close();
+        });
+      } catch {}
+    }
+
+    // 3. Storage event for cross-tab updates
+    const handleStorage = (e: StorageEvent) => {
+      if (e.key === STORAGE_PING_KEY || e.key === LOCAL_TEACHER_TESTS_KEY) {
+        onUpdate();
+      }
+    };
+    window.addEventListener('storage', handleStorage);
+    cleanups.push(() => window.removeEventListener('storage', handleStorage));
+
+    // 4. Supabase Realtime channel (if supabase is active)
+    if (isSupabaseConfigured && supabase) {
+      try {
+        const channel = supabase
+          .channel(`rt-tt-class-${studentClass}`)
+          .on(
+            'postgres_changes',
+            {
+              event: '*',
+              schema: 'public',
+              table: 'teacher_tests',
+              filter: `class=eq.${studentClass}`
+            },
+            () => {
+              onUpdate();
+            }
+          )
+          .subscribe();
+
+        cleanups.push(() => {
+          try { supabase.removeChannel(channel); } catch {}
+        });
+      } catch (err) {
+        console.warn('Supabase realtime listener skipped:', err);
+      }
+    }
+  }
+
+  return () => {
+    cleanups.forEach(fn => {
+      try { fn(); } catch {}
+    });
+  };
 }
 
 /**
@@ -849,6 +961,10 @@ export async function createTeacherTest(
     questions.push(...newQuestions);
     safeStorage.setItem(LOCAL_TEACHER_QUESTIONS_KEY, JSON.stringify(questions));
 
+    if (newTest.is_published) {
+      notifyTestPublished(newTest);
+    }
+
     return newTest;
   }
 
@@ -887,10 +1003,16 @@ export async function createTeacherTest(
 
     if (qErr) throw qErr;
 
-    return {
+    const publishedTest: TeacherTest = {
       ...newTest,
       id: insertedTestId
     };
+
+    if (publishedTest.is_published) {
+      notifyTestPublished(publishedTest);
+    }
+
+    return publishedTest;
   } catch (err) {
     console.warn('Falling back to local storage for test creation:', err);
     const tests = getStoredTests();
@@ -900,6 +1022,11 @@ export async function createTeacherTest(
     const questions = getStoredQuestions();
     questions.push(...newQuestions);
     safeStorage.setItem(LOCAL_TEACHER_QUESTIONS_KEY, JSON.stringify(questions));
+
+    if (newTest.is_published) {
+      notifyTestPublished(newTest);
+    }
+
     return newTest;
   }
 }
@@ -910,7 +1037,7 @@ export async function createTeacherTest(
 export async function getTeacherTestsForTeacher(teacherId: string): Promise<TeacherTest[]> {
   if (!isSupabaseConfigured) {
     const tests = getStoredTests();
-    return tests.filter(t => t.teacher_id === teacherId || t.teacher_id.startsWith('teacher-'));
+    return tests.filter(t => !t.id.startsWith('demo-tt-') && (t.teacher_id === teacherId || t.teacher_id === 'mock-teacher-id' || teacherId.startsWith('teacher-')));
   }
 
   try {
@@ -927,7 +1054,7 @@ export async function getTeacherTestsForTeacher(teacherId: string): Promise<Teac
     }));
   } catch {
     const tests = getStoredTests();
-    return tests.filter(t => t.teacher_id === teacherId || t.teacher_id.startsWith('teacher-'));
+    return tests.filter(t => !t.id.startsWith('demo-tt-') && (t.teacher_id === teacherId || t.teacher_id === 'mock-teacher-id' || teacherId.startsWith('teacher-')));
   }
 }
 
