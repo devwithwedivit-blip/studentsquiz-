@@ -48,7 +48,7 @@ serve(async (req: Request) => {
     if (failedCount >= 5) {
       return new Response(
         JSON.stringify({
-          error: 'सुरक्षा लॉक: 5 बार गलत पिन दर्ज किया गया है। कृपया 15 मिनट बाद पुनः प्रयास करें। (Locked out for 15 minutes)'
+          error: 'Security Lockout: 5 failed PIN attempts. Please try again in 15 minutes.'
         }),
         {
           status: 429,
@@ -66,7 +66,7 @@ serve(async (req: Request) => {
       .single();
 
     if (studentError || !student || !student.active) {
-      return new Response(JSON.stringify({ error: 'विद्यार्थी का रिकॉर्ड नहीं मिला या खाता निष्क्रिय है।' }), {
+      return new Response(JSON.stringify({ error: 'Student record not found or account is deactivated.' }), {
         status: 404,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' }
       });
@@ -99,10 +99,9 @@ serve(async (req: Request) => {
         details: { ip: clientIp, reason: 'invalid_pin' }
       }).catch((e: any) => console.error('audit_log insert error:', e));
 
-      const remainingAttempts = 4 - failedCount;
       const warnMsg = remainingAttempts > 0
-        ? `गलत पिन दर्ज किया गया। आपके पास ${remainingAttempts} प्रयास शेष हैं।`
-        : 'गलत पिन। इसके बाद आपका खाता 15 मिनट के लिए लॉक हो जाएगा।';
+        ? `Incorrect PIN. You have ${remainingAttempts} attempt${remainingAttempts === 1 ? '' : 's'} remaining.`
+        : 'Incorrect PIN. Next failed attempt will lock your account for 15 minutes.';
       return new Response(JSON.stringify({ error: warnMsg }), {
         status: 401,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' }

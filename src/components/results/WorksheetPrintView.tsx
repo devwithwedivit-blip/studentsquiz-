@@ -115,8 +115,8 @@ export const WorksheetPrintView: React.FC<WorksheetPrintViewProps> = ({
                   >
                     <div style={{ fontWeight: 'bold', fontSize: '1rem', marginBottom: '0.5rem', color: '#0f172a' }}>
                       {q.passage.kind === 'padya'
-                        ? 'निम्नलिखित काव्यांश को ध्यानपूर्वक पढ़कर दिए गए प्रश्नों (प्रश्न ' + (idx + 1) + ' से ' + (idx + 5) + ') के उत्तर दीजिए:'
-                        : 'निम्नलिखित गद्यांश को ध्यानपूर्वक पढ़कर दिए गए प्रश्नों (प्रश्न ' + (idx + 1) + ' से ' + (idx + 5) + ') के उत्तर दीजिए:'}
+                        ? 'Read the following poem carefully and answer the questions (Questions ' + (idx + 1) + ' to ' + (idx + 5) + ') below:'
+                        : 'Read the following passage carefully and answer the questions (Questions ' + (idx + 1) + ' to ' + (idx + 5) + ') below:'}
                     </div>
                     <div
                       style={{

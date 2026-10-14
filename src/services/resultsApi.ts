@@ -45,7 +45,7 @@ export async function getQuizResultsOverview(quizId: string): Promise<QuizResult
     // Offline Mock Overview
     const mockQuiz: OnlineQuiz = {
       id: quizId,
-      title: 'कक्षा 9 - सामान्य ज्ञान व विज्ञान आवधिक टेस्ट',
+      title: 'Class 9 - General Knowledge & Science Periodic Test',
       class: 9,
       status: 'published',
       duration_minutes: 25,
@@ -123,7 +123,7 @@ export async function getQuizResultsOverview(quizId: string): Promise<QuizResult
     .single();
 
   if (qErr || !quiz) {
-    throw new Error('प्रश्नोत्तरी (Quiz) नहीं मिली।');
+    throw new Error('Quiz not found.');
   }
 
   // 2. Count active students in class
@@ -163,7 +163,7 @@ export async function getQuizResultsOverview(quizId: string): Promise<QuizResult
     score: a.score,
     total: a.total,
     time_taken_seconds: a.time_taken_seconds,
-    student_name: a.students?.name || 'अज्ञात विद्यार्थी',
+    student_name: a.students?.name || 'Unknown Student',
     student_class: a.students?.class || quiz.class,
     quiz_title: quiz.title
   }));
@@ -272,14 +272,14 @@ export async function getAttemptDetail(attemptId: string): Promise<DetailedStude
       answers: [
         {
           questionId: 'mock-q1',
-          questionText: 'भारत की राजधानी क्या है?',
+          questionText: 'What is the capital of India?',
           questionType: 'mcq',
           userResponse: 1,
           correctAnswer: 1,
           isCorrect: true,
           marksAwarded: 1,
           maxMarks: 1,
-          explanation: 'नई दिल्ली भारत की आधिकारिक राजधानी है।',
+          explanation: 'New Delhi is the official capital of India.',
           timeSpentSeconds: 15
         }
       ]
@@ -343,7 +343,7 @@ export async function getAttemptDetail(attemptId: string): Promise<DetailedStude
       score: attempt.score,
       total: attempt.total,
       time_taken_seconds: attempt.time_taken_seconds,
-      student_name: (attempt.students as any)?.name || 'विद्यार्थी',
+      student_name: (attempt.students as any)?.name || 'Student',
       student_class: (attempt.students as any)?.class,
       quiz_title: (attempt.quizzes as any)?.title
     },

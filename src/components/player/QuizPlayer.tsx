@@ -476,7 +476,7 @@ export const QuizPlayer: React.FC<QuizPlayerProps> = ({
                     gap: '0.4rem'
                   }}
                 >
-                  <span>📖 Read Passage ({currentQ.passage.kind === 'padya' ? 'काव्यांश' : 'गद्यांश'})</span>
+                  <span>📖 Read Passage ({currentQ.passage.kind === 'padya' ? 'Poetry' : 'Prose'})</span>
                 </button>
                 <button
                   type="button"

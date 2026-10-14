@@ -169,8 +169,8 @@ async function runTestSuite() {
   // 3. Fill in the Blank (with Hindi/Devanagari normalization)
   const gFill = evaluateQuestionServer(
     { type: 'fillblank', marks: 1 },
-    { answer: 'सूर्य', acceptedAnswers: ['Surya', 'सूरज'] },
-    'सूरज',
+    { answer: '\u0938\u0942\u0930\u094d\u092f', acceptedAnswers: ['Surya', '\u0938\u0942\u0930\u091c'] },
+    '\u0938\u0942\u0930\u091c',
     false
   );
   assert(gFill.isCorrect === true && gFill.marksAwarded === 1, 'Grading: Fill in blank with alternate accepted answer');
@@ -222,8 +222,8 @@ async function runTestSuite() {
   // 8. Short Answer (keyword matching)
   const gShort = evaluateQuestionServer(
     { type: 'short', marks: 2 },
-    { answer: 'प्रकाश संश्लेषण', keywords: ['प्रकाश', 'संश्लेषण'] },
-    'यह प्रकाश संश्लेषण की क्रिया है',
+    { answer: '\u092a\u094d\u0930\u0915\u093e\u0936 \u0938\u0902\u0936\u094d\u0932\u0947\u0937\u0923', keywords: ['\u092a\u094d\u0930\u0915\u093e\u0936', '\u0938\u0902\u0936\u094d\u0932\u0947\u0937\u0923'] },
+    '\u092f\u0939 \u092a\u094d\u0930\u0915\u093e\u0936 \u0938\u0902\u0936\u094d\u0932\u0947\u0937\u0923 \u0915\u0940 \u0915\u094d\u0930\u093f\u092f\u093e \u0939\u0948',
     false
   );
   assert(gShort.isCorrect === true && gShort.marksAwarded === 2, 'Grading: Short answer keyword matching');

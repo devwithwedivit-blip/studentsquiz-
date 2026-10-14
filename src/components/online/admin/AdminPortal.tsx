@@ -102,7 +102,7 @@ export function AdminPortal({
       setRecycleBinQuestions(rbList);
       setAuditLogs(aList);
     } catch (err: any) {
-      setActionMessage({ text: err.message || 'डेटा लोड करने में त्रुटि।', type: 'error' });
+      setActionMessage({ text: err.message || 'Error loading data.', type: 'error' });
     } finally {
       setLoading(false);
     }
@@ -112,7 +112,7 @@ export function AdminPortal({
   const handleAddTeacherSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     if (!teacherEmail.trim() || !teacherName.trim()) {
-      alert('ईमेल और नाम अनिवार्य हैं।');
+      alert('Email and name are required.');
       return;
     }
     setAddTeacherLoading(true);
@@ -123,14 +123,14 @@ export function AdminPortal({
         assignedClasses: teacherClasses,
         password: teacherTempPass.trim() || undefined
       });
-      setActionMessage({ text: `शिक्षक ${teacherName} का खाता सफलतापूर्वक बनाया गया।`, type: 'success' });
+      setActionMessage({ text: `Teacher account for ${teacherName} created successfully.`, type: 'success' });
       setShowAddTeacherModal(false);
       setTeacherEmail('');
       setTeacherName('');
       setTeacherTempPass('');
       loadData();
     } catch (err: any) {
-      setActionMessage({ text: err.message || 'शिक्षक खाता बनाने में त्रुटि।', type: 'error' });
+      setActionMessage({ text: err.message || 'Error creating teacher account.', type: 'error' });
     } finally {
       setAddTeacherLoading(false);
     }
@@ -141,7 +141,7 @@ export function AdminPortal({
     if (!editTeacherClassesTarget) return;
     try {
       await updateTeacherClassAssignments(editTeacherClassesTarget.id, editTeacherClassesList);
-      setActionMessage({ text: 'कक्षा असाइनमेंट सफलतापूर्वक अपडेट किया गया।', type: 'success' });
+      setActionMessage({ text: 'Class assignments updated successfully.', type: 'success' });
       setEditTeacherClassesTarget(null);
       loadData();
     } catch (err: any) {
@@ -154,7 +154,7 @@ export function AdminPortal({
     try {
       await toggleTeacherActiveStatus(teacherId, !currentActive);
       setActionMessage({
-        text: `शिक्षक खाता ${!currentActive ? 'सक्रिय' : 'निष्क्रिय'} किया गया।`,
+        text: `Teacher account ${!currentActive ? 'activated' : 'deactivated'}.`,
         type: 'success'
       });
       loadData();
@@ -168,14 +168,14 @@ export function AdminPortal({
     e.preventDefault();
     if (!resetTeacherPassTarget) return;
     if (teacherNewPass.length < 10) {
-      alert('पासवर्ड कम से कम 10 अक्षरों का होना चाहिए।');
+      alert('Password must be at least 10 characters long.');
       return;
     }
     setResetPassLoading(true);
     try {
       await resetTeacherPassword(resetTeacherPassTarget.id, teacherNewPass);
       setActionMessage({
-        text: `${resetTeacherPassTarget.name} का पासवर्ड सफलतापूर्वक रीसेट किया गया (लॉगिन पर बदलना अनिवार्य)।`,
+        text: `Password reset successfully for ${resetTeacherPassTarget.name} (must change on next login).`,
         type: 'success'
       });
       setResetTeacherPassTarget(null);
@@ -192,7 +192,7 @@ export function AdminPortal({
   const handleRestoreQuestion = async (qId: string) => {
     try {
       await restoreQuestion(qId);
-      setActionMessage({ text: 'प्रश्न सफलतापूर्वक पुनर्स्थापित किया गया।', type: 'success' });
+      setActionMessage({ text: 'Question restored successfully.', type: 'success' });
       loadData();
     } catch (err: any) {
       setActionMessage({ text: err.message, type: 'error' });
@@ -222,24 +222,24 @@ export function AdminPortal({
     try {
       await updateQuizStatus(quizId, newStatus);
       setActionMessage({
-        text: `परीक्षा की स्थिति '${newStatus === 'published' ? 'प्रकाशित' : newStatus === 'closed' ? 'बंद' : 'ड्राफ्ट'}' में परिवर्तित की गई।`,
+        text: `Exam status changed to '${newStatus === 'published' ? 'Published' : newStatus === 'closed' ? 'Closed' : 'Draft'}'.`,
         type: 'success'
       });
       loadData();
     } catch (err: any) {
-      setActionMessage({ text: err.message || 'स्थिति बदलने में त्रुटि।', type: 'error' });
+      setActionMessage({ text: err.message || 'Error updating status.', type: 'error' });
     }
   };
 
   // Delete quiz
   const handleDeleteQuiz = async (quizId: string, title: string) => {
-    if (window.confirm(`क्या आप निश्चित हैं कि आप परीक्षा "${title}" को हटाना चाहते हैं?`)) {
+    if (window.confirm(`Are you sure you want to delete exam "${title}"?`)) {
       try {
         await deleteAdminQuiz(quizId);
-        setActionMessage({ text: 'परीक्षा सफलतापूर्वक हटा दी गई।', type: 'success' });
+        setActionMessage({ text: 'Exam deleted successfully.', type: 'success' });
         loadData();
       } catch (err: any) {
-        setActionMessage({ text: err.message || 'परीक्षा हटाने में त्रुटि।', type: 'error' });
+        setActionMessage({ text: err.message || 'Error deleting exam.', type: 'error' });
       }
     }
   };
@@ -249,20 +249,20 @@ export function AdminPortal({
     e.preventDefault();
     if (!pinModalStudent) return;
     if (newPinValue.trim().length !== 4 || isNaN(Number(newPinValue))) {
-      alert('कृपया 4 अंकों की मान्य संख्या दर्ज करें।');
+      alert('Please enter a valid 4-digit PIN.');
       return;
     }
     setPinSubmitting(true);
     try {
       await resetStudentPin(pinModalStudent.id, newPinValue.trim());
       setActionMessage({
-        text: `${pinModalStudent.name} का पिन सफलतापूर्वक बदलकर '${newPinValue}' कर दिया गया।`,
+        text: `PIN for ${pinModalStudent.name} updated to '${newPinValue}' successfully.`,
         type: 'success'
       });
       setPinModalStudent(null);
       setNewPinValue('');
     } catch (err: any) {
-      alert(err.message || 'पिन रीसेट विफल रहा।');
+      alert(err.message || 'PIN reset failed.');
     } finally {
       setPinSubmitting(false);
     }
@@ -290,20 +290,20 @@ export function AdminPortal({
       }
 
       if (parsed.length === 0) {
-        alert('कोई मान्य रिकॉर्ड नहीं मिला। कृपया फॉर्मेट जांचें: Name,Class,PIN');
+        alert('No valid records found. Please check format: Name,Class,PIN');
         return;
       }
 
       const res = await importStudentRoster(parsed);
       setActionMessage({
-        text: `सफलतापूर्वक ${res.insertedCount} विद्यार्थियों का रोस्टर इम्पोर्ट किया गया!`,
+        text: `Successfully imported ${res.insertedCount} students to roster!`,
         type: 'success'
       });
       setShowImportModal(false);
       setImportCsvText('');
       loadData();
     } catch (err: any) {
-      alert(err.message || 'इम्पोर्ट विफल रहा।');
+      alert(err.message || 'Import failed.');
     } finally {
       setImportSubmitting(false);
     }
@@ -313,7 +313,7 @@ export function AdminPortal({
   const handleCreateQuizSubmit = async (e: React.FormEvent, publishImmediately = false) => {
     e.preventDefault();
     if (!newQuizTitle.trim()) {
-      alert('कृपया परीक्षा का शीर्षक दर्ज करें।');
+      alert('Please enter an exam title.');
       return;
     }
 
@@ -326,7 +326,7 @@ export function AdminPortal({
       }
 
       if (pool.length === 0) {
-        alert(`कक्षा ${newQuizClass} के लिए प्रश्न बैंक में कोई प्रश्न उपलब्ध नहीं है।`);
+        alert(`No questions available in question bank for Class ${newQuizClass}.`);
         setCreateSubmitting(false);
         return;
       }
@@ -355,7 +355,7 @@ export function AdminPortal({
       );
 
       setActionMessage({
-        text: `परीक्षा "${created.title}" सफलतापूर्वक निर्मित एवं ${publishImmediately ? 'कक्षा ' + newQuizClass + ' के लिए प्रकाशित की गई!' : 'ड्राफ्ट के रूप में सहेजी गई!'}`,
+        text: `Exam "${created.title}" created successfully and ${publishImmediately ? 'published for Class ' + newQuizClass + '!' : 'saved as draft!'}`,
         type: 'success'
       });
 
@@ -363,7 +363,7 @@ export function AdminPortal({
       setActiveTab('quizzes');
       loadData();
     } catch (err: any) {
-      alert(err.message || 'परीक्षा बनाने में त्रुटि।');
+      alert(err.message || 'Error creating exam.');
     } finally {
       setCreateSubmitting(false);
     }
@@ -387,10 +387,10 @@ export function AdminPortal({
       >
         <div>
           <h3 style={{ margin: 0, fontSize: '1.3rem', fontFamily: 'var(--font-heading)' }}>
-            🛠️ परीक्षा नियंत्रण कक्ष (Admin Control Room)
+            🛠️ Admin Control Room
           </h3>
           <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', marginTop: '0.2rem' }}>
-            व्यवस्थापक: <strong>{admin.name}</strong> ({admin.email}) • भूमिका: {admin.role.toUpperCase()}
+            Admin: <strong>{admin.name}</strong> ({admin.email}) • Role: {admin.role.toUpperCase()}
           </div>
         </div>
 
@@ -399,7 +399,7 @@ export function AdminPortal({
           className="paper-btn"
           style={{ padding: '0.4rem 0.9rem', fontSize: '0.85rem', color: 'var(--red-pen)', borderColor: 'var(--red-pen)' }}
         >
-          🚪 लॉगआउट (Exit Admin)
+          🚪 Sign Out
         </button>
       </div>
 
@@ -410,42 +410,42 @@ export function AdminPortal({
           className={`paper-btn ${activeTab === 'quizzes' ? 'paper-btn-accent' : ''}`}
           style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
         >
-          📋 परीक्षा सूची ({quizzes.length})
+          📋 Exams ({quizzes.length})
         </button>
         <button
           onClick={() => setActiveTab('create')}
           className={`paper-btn ${activeTab === 'create' ? 'paper-btn-accent' : ''}`}
           style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
         >
-          ➕ नई परीक्षा बनाएं (Create Quiz)
+          ➕ Create Exam
         </button>
         <button
           onClick={() => setActiveTab('roster')}
           className={`paper-btn ${activeTab === 'roster' ? 'paper-btn-accent' : ''}`}
           style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
         >
-          👥 विद्यार्थी रोस्टर ({roster.length})
+          👥 Student Roster ({roster.length})
         </button>
         <button
           onClick={() => setActiveTab('teachers')}
           className={`paper-btn ${activeTab === 'teachers' ? 'paper-btn-accent' : ''}`}
           style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
         >
-          👨‍🏫 शिक्षक प्रबंधन ({teachers.length})
+          👨‍🏫 Teacher Management ({teachers.length})
         </button>
         <button
           onClick={() => setActiveTab('recycle_bin')}
           className={`paper-btn ${activeTab === 'recycle_bin' ? 'paper-btn-accent' : ''}`}
           style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
         >
-          ♻️ रीसायकल बिन ({recycleBinQuestions.length})
+          ♻️ Recycle Bin ({recycleBinQuestions.length})
         </button>
         <button
           onClick={() => setActiveTab('audit_log')}
           className={`paper-btn ${activeTab === 'audit_log' ? 'paper-btn-accent' : ''}`}
           style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
         >
-          🛡️ ऑडिट लॉग ({auditLogs.length})
+          🛡️ Audit Logs ({auditLogs.length})
         </button>
       </div>
 
@@ -478,39 +478,39 @@ export function AdminPortal({
 
       {loading ? (
         <div className="notebook-sheet" style={{ padding: '3rem', textAlign: 'center' }}>
-          <p style={{ color: 'var(--ink-secondary)' }}>लोड हो रहा है...</p>
+          <p style={{ color: 'var(--ink-secondary)' }}>Loading...</p>
         </div>
       ) : activeTab === 'quizzes' ? (
         /* Quizzes Tab */
         <div className="notebook-sheet" style={{ padding: '1.5rem' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
             <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)', fontSize: '1.15rem' }}>
-              वर्तमान परीक्षाएं (Active & Draft Tests)
+              Active & Draft Tests
             </h4>
             <button
               onClick={() => setActiveTab('create')}
               className="paper-btn paper-btn-accent"
               style={{ padding: '0.4rem 0.9rem', fontSize: '0.85rem' }}
             >
-              + नई परीक्षा बनाएं
+              + Create New Quiz
             </button>
           </div>
 
           {quizzes.length === 0 ? (
             <p style={{ color: 'var(--ink-secondary)', textAlign: 'center', padding: '2rem' }}>
-              कोई परीक्षा नहीं मिली। 'नई परीक्षा बनाएं' पर क्लिक करके पहली परीक्षा तैयार करें।
+              No quizzes found. Click '+ Create New Quiz' to create your first quiz.
             </p>
           ) : (
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.9rem' }}>
                 <thead>
                   <tr style={{ borderBottom: '2px solid var(--paper-line)', color: 'var(--ink-secondary)' }}>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>शीर्षक (Title)</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>कक्षा</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>स्थिति (Status)</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>प्रश्न</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>समय</th>
-                    <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>क्रियाएं (Actions)</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Title</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Class</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Status</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Questions</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Duration</th>
+                    <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>Actions</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -533,7 +533,7 @@ export function AdminPortal({
                               color: statusColor
                             }}
                           >
-                            {q.status === 'published' ? '🟢 प्रकाशित' : q.status === 'closed' ? '🔴 बंद' : '🟡 ड्राफ्ट'}
+                            {q.status === 'published' ? '🟢 Published' : q.status === 'closed' ? '🔴 Closed' : '🟡 Draft'}
                           </span>
                         </td>
                         <td style={{ padding: '0.8rem 0.5rem' }}>{q.question_count || '-'}</td>
@@ -545,7 +545,7 @@ export function AdminPortal({
                               className="paper-btn"
                               style={{ padding: '0.3rem 0.6rem', fontSize: '0.8rem', fontWeight: 600, color: 'var(--accent-color)' }}
                             >
-                              📊 परिणाम
+                              📊 Results
                             </button>
 
                             {q.status !== 'published' && (
@@ -554,7 +554,7 @@ export function AdminPortal({
                                 className="paper-btn"
                                 style={{ padding: '0.3rem 0.6rem', fontSize: '0.8rem', color: '#059669' }}
                               >
-                                प्रकाशित करें
+                                Publish
                               </button>
                             )}
 
@@ -564,7 +564,7 @@ export function AdminPortal({
                                 className="paper-btn"
                                 style={{ padding: '0.3rem 0.6rem', fontSize: '0.8rem', color: '#dc2626' }}
                               >
-                                बंद करें
+                                Close
                               </button>
                             )}
 
@@ -574,7 +574,7 @@ export function AdminPortal({
                                 className="paper-btn"
                                 style={{ padding: '0.3rem 0.6rem', fontSize: '0.8rem' }}
                               >
-                                अप्रकाशित
+                                Unpublish
                               </button>
                             )}
 
@@ -599,19 +599,19 @@ export function AdminPortal({
         /* Create Quiz Tab */
         <div className="notebook-sheet" style={{ padding: '2rem' }}>
           <h4 style={{ margin: '0 0 1.2rem 0', fontFamily: 'var(--font-heading)', fontSize: '1.25rem' }}>
-            नई ऑनलाइन परीक्षा तैयार करें (Create & Push Online Quiz)
+            Create & Push Online Quiz
           </h4>
 
           <form onSubmit={e => handleCreateQuizSubmit(e, false)}>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.2rem', marginBottom: '1.2rem' }}>
               <div>
                 <label style={{ display: 'block', fontWeight: 700, fontSize: '0.9rem', marginBottom: '0.4rem' }}>
-                  परीक्षा का शीर्षक (Quiz Title):
+                  Quiz Title:
                 </label>
                 <input
                   type="text"
                   required
-                  placeholder="उदा. कक्षा 10 आवधिक मूल्यांकन - गणित व विज्ञान"
+                  placeholder="e.g. Class 10 Periodic Assessment - Maths & Science"
                   value={newQuizTitle}
                   onChange={e => setNewQuizTitle(e.target.value)}
                   className="paper-input"
@@ -621,7 +621,7 @@ export function AdminPortal({
 
               <div>
                 <label style={{ display: 'block', fontWeight: 700, fontSize: '0.9rem', marginBottom: '0.4rem' }}>
-                  लक्ष्य कक्षा (Target Class):
+                  Target Class:
                 </label>
                 <select
                   value={newQuizClass}
@@ -640,7 +640,7 @@ export function AdminPortal({
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '1rem', marginBottom: '1.2rem' }}>
               <div>
                 <label style={{ display: 'block', fontWeight: 700, fontSize: '0.85rem', marginBottom: '0.4rem' }}>
-                  समय सीमा (Minutes):
+                  Duration (Minutes):
                 </label>
                 <input
                   type="number"
@@ -655,7 +655,7 @@ export function AdminPortal({
 
               <div>
                 <label style={{ display: 'block', fontWeight: 700, fontSize: '0.85rem', marginBottom: '0.4rem' }}>
-                  विषय चयन (Subject):
+                  Subject:
                 </label>
                 <select
                   value={newQuizSubject}
@@ -663,11 +663,11 @@ export function AdminPortal({
                   className="paper-input"
                   style={{ width: '100%', padding: '0.5rem', borderRadius: '6px' }}
                 >
-                  <option value="all">सभी विषय (All Subjects)</option>
-                  <option value="maths">गणित (Maths)</option>
-                  <option value="hindi">हिन्दी (Hindi)</option>
+                  <option value="all">All Subjects</option>
+                  <option value="maths">Maths</option>
+                  <option value="hindi">Hindi</option>
                   <option value="english">English</option>
-                  <option value="gk">सामान्य ज्ञान (GK)</option>
+                  <option value="gk">General Knowledge (GK)</option>
                   <option value="cs">Computer Science</option>
                   <option value="physics">Physics</option>
                   <option value="chemistry">Chemistry</option>
@@ -677,7 +677,7 @@ export function AdminPortal({
 
               <div>
                 <label style={{ display: 'block', fontWeight: 700, fontSize: '0.85rem', marginBottom: '0.4rem' }}>
-                  प्रश्नों की संख्या (Question Count):
+                  Question Count:
                 </label>
                 <input
                   type="number"
@@ -708,7 +708,7 @@ export function AdminPortal({
                   checked={newQuizNegative}
                   onChange={e => setNewQuizNegative(e.target.checked)}
                 />
-                <span>⚠️ नकारात्मक अंकन (0.25 कटौती)</span>
+                <span>⚠️ Negative Marking (0.25 penalty)</span>
               </label>
 
               <label style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.88rem', cursor: 'pointer' }}>
@@ -717,12 +717,12 @@ export function AdminPortal({
                   checked={newQuizShuffle}
                   onChange={e => setNewQuizShuffle(e.target.checked)}
                 />
-                <span>🔀 प्रश्नों का रैंडम क्रम (Shuffle)</span>
+                <span>🔀 Randomize Question Order (Shuffle)</span>
               </label>
 
               <div>
                 <label style={{ fontSize: '0.8rem', fontWeight: 600, display: 'block', marginBottom: '0.2rem' }}>
-                  उत्तर दिखाने का समय:
+                  Show Answers Time:
                 </label>
                 <select
                   value={newQuizShowAnswers}
@@ -730,9 +730,9 @@ export function AdminPortal({
                   className="paper-input"
                   style={{ width: '100%', padding: '0.3rem', fontSize: '0.85rem' }}
                 >
-                  <option value="submit">सबमिट करते ही (Instant)</option>
-                  <option value="close">परीक्षा समाप्त होने पर (After close)</option>
-                  <option value="never">कभी नहीं (Never)</option>
+                  <option value="submit">Instant (Upon submission)</option>
+                  <option value="close">After Quiz Closes</option>
+                  <option value="never">Never</option>
                 </select>
               </div>
             </div>
@@ -744,7 +744,7 @@ export function AdminPortal({
                 className="paper-btn"
                 style={{ padding: '0.6rem 1.2rem', fontWeight: 600 }}
               >
-                {createSubmitting ? 'सहेजा जा रहा है...' : 'ड्राफ्ट के रूप में सहेजें (Save Draft)'}
+                {createSubmitting ? 'Saving...' : 'Save Draft'}
               </button>
               <button
                 type="button"
@@ -753,7 +753,7 @@ export function AdminPortal({
                 className="paper-btn paper-btn-accent"
                 style={{ padding: '0.6rem 1.4rem', fontWeight: 700 }}
               >
-                {createSubmitting ? 'प्रक्रियाधीन...' : `🚀 कक्षा ${newQuizClass} के लिए अभी प्रकाशित करें!`}
+                {createSubmitting ? 'Publishing...' : `🚀 Publish Now for Class ${newQuizClass}!`}
               </button>
             </div>
           </form>
@@ -773,10 +773,10 @@ export function AdminPortal({
           >
             <div>
               <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)', fontSize: '1.15rem' }}>
-                विद्यार्थी रोस्टर एवं पिन प्रबंधन (Student Roster & PINs)
+                Student Roster & PIN Management
               </h4>
               <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: 'var(--ink-secondary)' }}>
-                कुल विद्यार्थी: {roster.length}
+                Total Students: {roster.length}
               </p>
             </div>
 
@@ -788,7 +788,7 @@ export function AdminPortal({
                 className="paper-input"
                 style={{ padding: '0.4rem 0.6rem', fontSize: '0.85rem' }}
               >
-                <option value="">सभी कक्षाएं (All Classes)</option>
+                <option value="">All Classes</option>
                 <option value="9">Class 9</option>
                 <option value="10">Class 10</option>
                 <option value="11">Class 11</option>
@@ -800,7 +800,7 @@ export function AdminPortal({
                 className="paper-btn"
                 style={{ padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}
               >
-                📥 CSV इम्पोर्ट करें
+                📥 Import CSV
               </button>
 
               <button
@@ -808,7 +808,7 @@ export function AdminPortal({
                 className="paper-btn paper-btn-accent"
                 style={{ padding: '0.4rem 0.8rem', fontSize: '0.85rem', fontWeight: 700 }}
               >
-                🖨️ पिन पर्चियां प्रिंट करें (Print PIN Slips)
+                🖨️ Print PIN Slips
               </button>
             </div>
           </div>
@@ -817,11 +817,11 @@ export function AdminPortal({
             <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.9rem' }}>
               <thead>
                 <tr style={{ borderBottom: '2px solid var(--paper-line)', color: 'var(--ink-secondary)' }}>
-                  <th style={{ padding: '0.7rem 0.5rem' }}>ID / रोल नं</th>
-                  <th style={{ padding: '0.7rem 0.5rem' }}>नाम</th>
-                  <th style={{ padding: '0.7rem 0.5rem' }}>कक्षा</th>
-                  <th style={{ padding: '0.7rem 0.5rem' }}>स्थिति</th>
-                  <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>क्रियाएं</th>
+                  <th style={{ padding: '0.7rem 0.5rem' }}>ID / Roll No</th>
+                  <th style={{ padding: '0.7rem 0.5rem' }}>Name</th>
+                  <th style={{ padding: '0.7rem 0.5rem' }}>Class</th>
+                  <th style={{ padding: '0.7rem 0.5rem' }}>Status</th>
+                  <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>Actions</th>
                 </tr>
               </thead>
               <tbody>
@@ -845,7 +845,7 @@ export function AdminPortal({
                           }}
                         />
                         <span style={{ fontSize: '0.8rem', color: st.active ? '#059669' : '#dc2626' }}>
-                          {st.active ? 'सक्रिय (Active)' : 'निष्क्रिय'}
+                          {st.active ? 'Active' : 'Inactive'}
                         </span>
                       </label>
                     </td>
@@ -858,7 +858,7 @@ export function AdminPortal({
                         className="paper-btn"
                         style={{ padding: '0.2rem 0.6rem', fontSize: '0.8rem' }}
                       >
-                        🔑 पिन बदलें (Reset PIN)
+                        🔑 Reset PIN
                       </button>
                     </td>
                   </tr>
@@ -875,10 +875,10 @@ export function AdminPortal({
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
             <div>
               <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)', fontSize: '1.15rem' }}>
-                👨‍🏫 शिक्षक प्रबंधन (Teacher Management)
+                👨‍🏫 Teacher Management
               </h4>
               <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: 'var(--ink-secondary)' }}>
-                शिक्षकों के खाते बनाएं, कक्षाएं असाइन करें और पासवर्ड रीसेट करें
+                Create teacher accounts, assign classes, and reset passwords
               </p>
             </div>
             <button
@@ -892,24 +892,24 @@ export function AdminPortal({
               className="paper-btn paper-btn-accent"
               style={{ padding: '0.4rem 0.9rem', fontSize: '0.85rem' }}
             >
-              + नया शिक्षक जोड़ें
+              + Add New Teacher
             </button>
           </div>
 
           {teachers.length === 0 ? (
             <p style={{ color: 'var(--ink-secondary)', textAlign: 'center', padding: '2rem' }}>
-              कोई शिक्षक खाता नहीं मिला। '+ नया शिक्षक जोड़ें' पर क्लिक करें।
+              No teacher accounts found. Click '+ Add New Teacher'.
             </p>
           ) : (
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.9rem' }}>
                 <thead>
                   <tr style={{ borderBottom: '2px solid var(--paper-line)', color: 'var(--ink-secondary)' }}>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>नाम</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>ईमेल</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>असाइन कक्षाएं</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>स्थिति</th>
-                    <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>कार्रवाई</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Name</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Email</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Assigned Classes</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Status</th>
+                    <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>Actions</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -919,7 +919,7 @@ export function AdminPortal({
                       <td style={{ padding: '0.7rem 0.5rem', color: 'var(--ink-secondary)' }}>{t.email}</td>
                       <td style={{ padding: '0.7rem 0.5rem' }}>
                         {t.assignedClasses.length === 0 ? (
-                          <span style={{ color: '#dc2626', fontSize: '0.8rem' }}>कोई नहीं</span>
+                          <span style={{ color: '#dc2626', fontSize: '0.8rem' }}>None</span>
                         ) : (
                           t.assignedClasses.map(c => (
                             <span
@@ -935,7 +935,7 @@ export function AdminPortal({
                                 fontWeight: 700
                               }}
                             >
-                              कक्षा {c}
+                              Class {c}
                             </span>
                           ))
                         )}
@@ -951,7 +951,7 @@ export function AdminPortal({
                             borderColor: t.active ? '#059669' : '#dc2626'
                           }}
                         >
-                          {t.active ? '🟢 सक्रिय' : '🔴 निष्क्रिय'}
+                          {t.active ? '🟢 Active' : '🔴 Inactive'}
                         </button>
                       </td>
                       <td style={{ padding: '0.7rem 0.5rem', textAlign: 'right', whiteSpace: 'nowrap' }}>
@@ -963,7 +963,7 @@ export function AdminPortal({
                           className="paper-btn"
                           style={{ padding: '0.2rem 0.6rem', fontSize: '0.8rem', marginRight: '0.4rem' }}
                         >
-                          📚 कक्षाएं बदलें
+                          📚 Edit Classes
                         </button>
                         <button
                           onClick={() => {
@@ -973,7 +973,7 @@ export function AdminPortal({
                           className="paper-btn"
                           style={{ padding: '0.2rem 0.6rem', fontSize: '0.8rem' }}
                         >
-                          🔑 पासवर्ड रीसेट
+                          🔑 Reset Password
                         </button>
                       </td>
                     </tr>
@@ -990,37 +990,37 @@ export function AdminPortal({
         <div className="notebook-sheet" style={{ padding: '1.5rem' }}>
           <div style={{ marginBottom: '1rem' }}>
             <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)', fontSize: '1.15rem' }}>
-              ♻️ रीसायकल बिन (Question Bank Recycle Bin)
+              ♻️ Question Bank Recycle Bin
             </h4>
             <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: 'var(--ink-secondary)' }}>
-              हटाए गए प्रश्न यहां सुरक्षित संग्रहीत हैं। आप इन्हें कभी भी पुनर्स्थापित कर सकते हैं।
+              Deleted questions are stored safely here. You can restore them anytime.
             </p>
           </div>
 
           {recycleBinQuestions.length === 0 ? (
             <p style={{ color: 'var(--ink-secondary)', textAlign: 'center', padding: '2rem' }}>
-              रीसायकल बिन खाली है। कोई हटाया गया प्रश्न नहीं मिला।
+              Recycle bin is empty. No deleted questions found.
             </p>
           ) : (
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.9rem' }}>
                 <thead>
                   <tr style={{ borderBottom: '2px solid var(--paper-line)', color: 'var(--ink-secondary)' }}>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>कक्षा / विषय</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>प्रश्न</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>हटाने का समय</th>
-                    <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>कार्रवाई</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Class / Subject</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Question</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Deleted At</th>
+                    <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>Actions</th>
                   </tr>
                 </thead>
                 <tbody>
                   {recycleBinQuestions.map(q => (
                     <tr key={q.id} style={{ borderBottom: '1px solid var(--paper-line)' }}>
                       <td style={{ padding: '0.7rem 0.5rem', whiteSpace: 'nowrap' }}>
-                        <strong>कक्षा {q.class}</strong> • {q.subject.toUpperCase()}
+                        <strong>Class {q.class}</strong> • {q.subject.toUpperCase()}
                       </td>
                       <td style={{ padding: '0.7rem 0.5rem' }}>{q.question}</td>
                       <td style={{ padding: '0.7rem 0.5rem', color: 'var(--ink-secondary)', fontSize: '0.8rem', whiteSpace: 'nowrap' }}>
-                        {q.deleted_at ? new Date(q.deleted_at).toLocaleString() : 'ज्ञात नहीं'}
+                        {q.deleted_at ? new Date(q.deleted_at).toLocaleString() : 'Unknown'}
                       </td>
                       <td style={{ padding: '0.7rem 0.5rem', textAlign: 'right', whiteSpace: 'nowrap' }}>
                         <button
@@ -1028,7 +1028,7 @@ export function AdminPortal({
                           className="paper-btn paper-btn-accent"
                           style={{ padding: '0.2rem 0.6rem', fontSize: '0.8rem' }}
                         >
-                          ♻️ पुनर्स्थापित करें (Restore)
+                          ♻️ Restore
                         </button>
                       </td>
                     </tr>
@@ -1046,10 +1046,10 @@ export function AdminPortal({
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.8rem' }}>
             <div>
               <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)', fontSize: '1.15rem' }}>
-                🛡️ सुरक्षा एवं ऑडिट लॉग (Security & Activity Audit Trail)
+                🛡️ Security & Activity Audit Trail
               </h4>
               <p style={{ margin: '0.2rem 0 0 0', fontSize: '0.85rem', color: 'var(--ink-secondary)' }}>
-                सभी लॉगिन, परीक्षा प्रकाशन, पासवर्ड परिवर्तन एवं प्रशासनिक कार्यों का स्थायी रिकॉर्ड
+                Permanent audit trail of all logins, quiz publications, password changes, and administrative actions
               </p>
             </div>
 
@@ -1063,7 +1063,7 @@ export function AdminPortal({
                 className="paper-input"
                 style={{ padding: '0.3rem 0.6rem', fontSize: '0.8rem' }}
               >
-                <option value="all">सभी भूमिकाएं (All Roles)</option>
+                <option value="all">All Roles</option>
                 <option value="admin">Admin</option>
                 <option value="teacher">Teacher</option>
                 <option value="student">Student</option>
@@ -1079,7 +1079,7 @@ export function AdminPortal({
                 className="paper-input"
                 style={{ padding: '0.3rem 0.6rem', fontSize: '0.8rem' }}
               >
-                <option value="all">सभी क्रियाएं (All Actions)</option>
+                <option value="all">All Actions</option>
                 <option value="login">Login</option>
                 <option value="login_failed">Login Failed</option>
                 <option value="create_teacher">Create Teacher</option>
@@ -1092,18 +1092,18 @@ export function AdminPortal({
 
           {auditLogs.length === 0 ? (
             <p style={{ color: 'var(--ink-secondary)', textAlign: 'center', padding: '2rem' }}>
-              कोई ऑडिट लॉग रिकॉर्ड नहीं मिला।
+              No audit log records found.
             </p>
           ) : (
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.85rem' }}>
                 <thead>
                   <tr style={{ borderBottom: '2px solid var(--paper-line)', color: 'var(--ink-secondary)' }}>
-                    <th style={{ padding: '0.6rem 0.4rem' }}>समय</th>
-                    <th style={{ padding: '0.6rem 0.4rem' }}>कर्ता (Actor)</th>
-                    <th style={{ padding: '0.6rem 0.4rem' }}>कार्य (Action)</th>
-                    <th style={{ padding: '0.6rem 0.4rem' }}>लक्ष्य (Target)</th>
-                    <th style={{ padding: '0.6rem 0.4rem' }}>विवरण (Details)</th>
+                    <th style={{ padding: '0.6rem 0.4rem' }}>Timestamp</th>
+                    <th style={{ padding: '0.6rem 0.4rem' }}>Actor</th>
+                    <th style={{ padding: '0.6rem 0.4rem' }}>Action</th>
+                    <th style={{ padding: '0.6rem 0.4rem' }}>Target</th>
+                    <th style={{ padding: '0.6rem 0.4rem' }}>Details</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -1162,18 +1162,18 @@ export function AdminPortal({
         >
           <div className="notebook-sheet" style={{ maxWidth: '480px', width: '100%', padding: '2rem' }}>
             <h4 style={{ margin: '0 0 1rem 0', fontFamily: 'var(--font-heading)' }}>
-              ➕ नया शिक्षक खाता जोड़ें (Add Teacher)
+              ➕ Add New Teacher Account
             </h4>
 
             <form onSubmit={handleAddTeacherSubmit}>
               <div style={{ marginBottom: '1rem' }}>
                 <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.3rem' }}>
-                  शिक्षक का नाम *
+                  Teacher Name *
                 </label>
                 <input
                   type="text"
                   required
-                  placeholder="उदा: राजेश कुमार"
+                  placeholder="e.g. Rajesh Kumar"
                   value={teacherName}
                   onChange={e => setTeacherName(e.target.value)}
                   className="paper-input"
@@ -1183,7 +1183,7 @@ export function AdminPortal({
 
               <div style={{ marginBottom: '1rem' }}>
                 <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.3rem' }}>
-                  ईमेल पता (Email) *
+                  Email Address *
                 </label>
                 <input
                   type="email"
@@ -1198,7 +1198,7 @@ export function AdminPortal({
 
               <div style={{ marginBottom: '1rem' }}>
                 <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.3rem' }}>
-                  असाइन की जाने वाली कक्षाएं *
+                  Assigned Classes *
                 </label>
                 <div style={{ display: 'flex', gap: '1rem', marginTop: '0.3rem' }}>
                   {([9, 10, 11, 12] as const).map(cls => (
@@ -1211,7 +1211,7 @@ export function AdminPortal({
                           else setTeacherClasses(teacherClasses.filter(c => c !== cls));
                         }}
                       />
-                      कक्षा {cls}
+                      Class {cls}
                     </label>
                   ))}
                 </div>
@@ -1219,18 +1219,18 @@ export function AdminPortal({
 
               <div style={{ marginBottom: '1.2rem' }}>
                 <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.3rem' }}>
-                  अस्थायी पासवर्ड (वैकल्पिक, न्यूनतम 10 अक्षर)
+                  Temporary Password (Optional, min 10 chars)
                 </label>
                 <input
                   type="text"
-                  placeholder="रिक्त छोड़ने पर स्वतः जनरेट होगा"
+                  placeholder="Auto-generated if left blank"
                   value={teacherTempPass}
                   onChange={e => setTeacherTempPass(e.target.value)}
                   className="paper-input"
                   style={{ width: '100%', padding: '0.6rem', boxSizing: 'border-box' }}
                 />
                 <span style={{ fontSize: '0.75rem', color: 'var(--ink-secondary)' }}>
-                  प्रथम लॉगिन पर शिक्षक को पासवर्ड बदलना अनिवार्य होगा।
+                  Teacher will be required to change password on first login.
                 </span>
               </div>
 
@@ -1241,14 +1241,14 @@ export function AdminPortal({
                   onClick={() => setShowAddTeacherModal(false)}
                   className="paper-btn"
                 >
-                  रद्द करें
+                  Cancel
                 </button>
                 <button
                   type="submit"
                   disabled={addTeacherLoading || teacherClasses.length === 0}
                   className="paper-btn paper-btn-accent"
                 >
-                  {addTeacherLoading ? 'खाता बन रहा है...' : 'शिक्षक बनाएं'}
+                  {addTeacherLoading ? 'Creating account...' : 'Create Teacher'}
                 </button>
               </div>
             </form>
@@ -1272,7 +1272,7 @@ export function AdminPortal({
         >
           <div className="notebook-sheet" style={{ maxWidth: '420px', width: '100%', padding: '2rem' }}>
             <h4 style={{ margin: '0 0 0.8rem 0', fontFamily: 'var(--font-heading)' }}>
-              📚 कक्षाएं असाइन करें: {editTeacherClassesTarget.name}
+              📚 Assign Classes: {editTeacherClassesTarget.name}
             </h4>
 
             <div style={{ display: 'flex', gap: '1rem', margin: '1.2rem 0' }}>
@@ -1286,7 +1286,7 @@ export function AdminPortal({
                       else setEditTeacherClassesList(editTeacherClassesList.filter(c => c !== cls));
                     }}
                   />
-                  कक्षा {cls}
+                  Class {cls}
                 </label>
               ))}
             </div>
@@ -1297,14 +1297,14 @@ export function AdminPortal({
                 onClick={() => setEditTeacherClassesTarget(null)}
                 className="paper-btn"
               >
-                रद्द करें
+                Cancel
               </button>
               <button
                 type="button"
                 onClick={handleUpdateTeacherClasses}
                 className="paper-btn paper-btn-accent"
               >
-                सहेजें (Save Classes)
+                Save Classes
               </button>
             </div>
           </div>
@@ -1327,19 +1327,19 @@ export function AdminPortal({
         >
           <div className="notebook-sheet" style={{ maxWidth: '420px', width: '100%', padding: '2rem' }}>
             <h4 style={{ margin: '0 0 0.8rem 0', fontFamily: 'var(--font-heading)' }}>
-              🔑 पासवर्ड रीसेट: {resetTeacherPassTarget.name}
+              🔑 Reset Password: {resetTeacherPassTarget.name}
             </h4>
 
             <form onSubmit={handleResetTeacherPasswordSubmit}>
               <div style={{ marginBottom: '1.2rem' }}>
                 <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.3rem' }}>
-                  नया अस्थायी पासवर्ड (न्यूनतम 10 अक्षर) *
+                  New Temporary Password (min 10 chars) *
                 </label>
                 <input
                   type="text"
                   required
                   minLength={10}
-                  placeholder="उदा: SchoolTeach#2026!"
+                  placeholder="e.g. SchoolTeach#2026!"
                   value={teacherNewPass}
                   onChange={e => setTeacherNewPass(e.target.value)}
                   className="paper-input"
@@ -1354,14 +1354,14 @@ export function AdminPortal({
                   onClick={() => setResetTeacherPassTarget(null)}
                   className="paper-btn"
                 >
-                  रद्द करें
+                  Cancel
                 </button>
                 <button
                   type="submit"
                   disabled={resetPassLoading || teacherNewPass.length < 10}
                   className="paper-btn paper-btn-accent"
                 >
-                  {resetPassLoading ? 'रीसेट हो रहा है...' : 'पासवर्ड रीसेट करें'}
+                  {resetPassLoading ? 'Resetting...' : 'Reset Password'}
                 </button>
               </div>
             </form>
@@ -1385,16 +1385,16 @@ export function AdminPortal({
         >
           <div className="notebook-sheet" style={{ maxWidth: '400px', width: '100%', padding: '2rem' }}>
             <h4 style={{ margin: '0 0 0.8rem 0', fontFamily: 'var(--font-heading)' }}>
-              🔑 पिन रीसेट: {pinModalStudent.name}
+              🔑 Reset PIN: {pinModalStudent.name}
             </h4>
             <p style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', marginBottom: '1rem' }}>
-              कक्षा: Class {pinModalStudent.class} • ID: {pinModalStudent.id}
+              Class: Class {pinModalStudent.class} • ID: {pinModalStudent.id}
             </p>
 
             <form onSubmit={handleResetPinSubmit}>
               <div style={{ marginBottom: '1.2rem' }}>
                 <label style={{ display: 'block', fontSize: '0.85rem', fontWeight: 700, marginBottom: '0.3rem' }}>
-                  नया 4-अंकों का पिन (New 4-digit PIN):
+                  New 4-digit PIN:
                 </label>
                 <div style={{ display: 'flex', gap: '0.5rem' }}>
                   <input
@@ -1402,7 +1402,7 @@ export function AdminPortal({
                     maxLength={4}
                     pattern="[0-9]{4}"
                     required
-                    placeholder="उदा. 4321"
+                    placeholder="e.g. 4321"
                     value={newPinValue}
                     onChange={e => setNewPinValue(e.target.value.replace(/\D/g, ''))}
                     className="paper-input"
@@ -1414,7 +1414,7 @@ export function AdminPortal({
                     className="paper-btn"
                     style={{ padding: '0.4rem 0.6rem', fontSize: '0.8rem' }}
                   >
-                    🎲 रैंडम पिन
+                    🎲 Random PIN
                   </button>
                 </div>
               </div>
@@ -1426,14 +1426,14 @@ export function AdminPortal({
                   onClick={() => setPinModalStudent(null)}
                   className="paper-btn"
                 >
-                  रद्द करें
+                  Cancel
                 </button>
                 <button
                   type="submit"
                   disabled={pinSubmitting || newPinValue.length !== 4}
                   className="paper-btn paper-btn-accent"
                 >
-                  {pinSubmitting ? 'सहेज रहे हैं...' : 'पिन अपडेट करें'}
+                  {pinSubmitting ? 'Updating...' : 'Update PIN'}
                 </button>
               </div>
             </form>
@@ -1457,10 +1457,10 @@ export function AdminPortal({
         >
           <div className="notebook-sheet" style={{ maxWidth: '520px', width: '100%', padding: '2rem' }}>
             <h4 style={{ margin: '0 0 0.6rem 0', fontFamily: 'var(--font-heading)' }}>
-              📥 CSV रोस्टर इम्पोर्ट (Bulk Student Import)
+              📥 Bulk Student Roster Import (CSV)
             </h4>
             <p style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', marginBottom: '0.8rem' }}>
-              फॉर्मेट: <code>Name,Class,PIN</code> (कक्षा 9-12, पिन 4 अंक)
+              Format: <code>Name,Class,PIN</code> (Class 9-12, 4-digit PIN)
             </p>
 
             <form onSubmit={handleImportCsvSubmit}>
@@ -1481,14 +1481,14 @@ export function AdminPortal({
                   onClick={() => setShowImportModal(false)}
                   className="paper-btn"
                 >
-                  रद्द करें
+                  Cancel
                 </button>
                 <button
                   type="submit"
                   disabled={importSubmitting || !importCsvText.trim()}
                   className="paper-btn paper-btn-accent"
                 >
-                  {importSubmitting ? 'इम्पोर्ट हो रहा है...' : 'रोस्टर अपलोड करें'}
+                  {importSubmitting ? 'Importing...' : 'Upload Roster'}
                 </button>
               </div>
             </form>
@@ -1509,21 +1509,21 @@ export function AdminPortal({
           }}
         >
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1.5rem' }}>
-            <h2>🖨️ विद्यार्थी परीक्षा पिन पर्चियां (Exam PIN Slips)</h2>
+            <h2>🖨️ Student Exam PIN Slips</h2>
             <div style={{ display: 'flex', gap: '0.8rem' }}>
               <button
                 onClick={() => window.print()}
                 className="paper-btn paper-btn-accent"
                 style={{ padding: '0.5rem 1rem', fontWeight: 700 }}
               >
-                प्रिंट निकालें (Print)
+                Print
               </button>
               <button
                 onClick={() => setShowPinSlips(false)}
                 className="paper-btn"
                 style={{ padding: '0.5rem 1rem' }}
               >
-                बंद करें (Close)
+                Close
               </button>
             </div>
           </div>
@@ -1550,8 +1550,8 @@ export function AdminPortal({
                 </div>
                 <div style={{ marginTop: '0.5rem' }}>
                   <div style={{ fontSize: '1.1rem', fontWeight: 800 }}>{st.name}</div>
-                  <div style={{ fontSize: '0.85rem' }}>कक्षा: <strong>Class {st.class}</strong></div>
-                  <div style={{ fontSize: '0.85rem' }}>विद्यार्थी ID: <code>{st.id}</code></div>
+                  <div style={{ fontSize: '0.85rem' }}>Class: <strong>Class {st.class}</strong></div>
+                  <div style={{ fontSize: '0.85rem' }}>Student ID: <code>{st.id}</code></div>
                   <div
                     style={{
                       marginTop: '0.5rem',
@@ -1561,7 +1561,7 @@ export function AdminPortal({
                       fontSize: '0.9rem'
                     }}
                   >
-                    लॉगिन पिन: <strong>**** (गोपनीय)</strong>
+                    Login PIN: <strong>**** (Confidential)</strong>
                   </div>
                 </div>
               </div>

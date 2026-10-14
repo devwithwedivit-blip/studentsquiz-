@@ -43,9 +43,9 @@ const STOP_WORDS = new Set([
   'calculate', 'evaluate', 'find', 'determine', 'identify', 'select', 'choose', 'following', 'given',
   'value', 'statement', 'correct', 'incorrect', 'true', 'false', 'below', 'above', 'each', 'match',
   'order', 'arrange', 'between', 'among', 'after', 'before', 'total', 'ratio', 'percentage',
-  // Hindi stop words
-  'निम्नलिखित', 'कौन', 'कौनसा', 'कौनसी', 'किस', 'किसे', 'किसने', 'क्या', 'कहाँ', 'कब', 'सही', 'गलत',
-  'कथन', 'उत्तर', 'अर्थ', 'सुमेलित', 'क्रम', 'सटीक', 'प्रतीक', 'स्पष्ट', 'मान', 'ज्ञात', 'कीजिए', 'करें'
+  // Hindi stop words (unicode escaped)
+  '\u0928\u093f\u092e\u094d\u0928\u0932\u093f\u0916\u093f\u0924', '\u0915\u094c\u0928', '\u0915\u094c\u0928\u0938\u093e', '\u0915\u094c\u0928\u0938\u0940', '\u0915\u093f\u0938', '\u0915\u093f\u0938\u0947', '\u0915\u093f\u0938\u0928\u0947', '\u0915\u094d\u092f\u093e', '\u0915\u0939\u093e\u0901', '\u0915\u092c', '\u0938\u0939\u0940', '\u0917\u0932\u0924',
+  '\u0915\u0925\u0928', '\u0909\u0924\u094d\u0924\u0930', '\u0905\u0930\u094d\u0925', '\u0938\u0941\u092e\u0947\u0932\u093f\u0924', '\u0915\u094d\u0930\u092e', '\u0938\u091f\u0940\u0915', '\u092a\u094d\u0930\u0924\u0940\u0915', '\u0938\u094d\u092a\u0937\u094d\u091f', '\u092e\u093e\u0928', '\u091c\u094d\u091e\u093e\u0924', '\u0915\u0940\u091c\u093f\u090f', '\u0915\u0930\u0947\u0902'
 ]);
 
 function tokenize(text) {

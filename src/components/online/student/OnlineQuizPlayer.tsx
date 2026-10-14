@@ -124,10 +124,10 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
       const result = await submitOnlineAttempt(attemptId, answers);
       onFinish(result);
     } catch (err: any) {
-      setSubmitError(err.message || 'सबमिशन में त्रुटि हुई। कृपया पुनः प्रयास करें।');
+      setSubmitError(err.message || 'Submission error. Please try again.');
       setSubmitting(false);
       if (isAutoTimeout) {
-        alert('समय समाप्त हो चुका है। सबमिशन सर्वर पर रिकॉर्ड किया जा रहा है...');
+        alert('Time has expired. Recording submission on server...');
       }
     }
   };
@@ -165,7 +165,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
             {title}
           </h3>
           <div style={{ fontSize: '0.8rem', color: 'var(--ink-secondary)', marginTop: '0.2rem' }}>
-            कक्षा: Class {currentQuestion?.class} • प्रश्न {currentIndex + 1} of {questions.length}
+            Class: Class {currentQuestion?.class} • Question {currentIndex + 1} of {questions.length}
           </div>
         </div>
 
@@ -180,9 +180,9 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
               color: saveStatus === 'error' ? 'var(--red-pen)' : 'var(--ink-secondary)'
             }}
           >
-            {saveStatus === 'saving' && '🔄 सहेजा जा रहा है...'}
-            {saveStatus === 'saved' && '✓ सर्वर पर सुरक्षित'}
-            {saveStatus === 'error' && '⚠️ सहेजने में रुकावट'}
+            {saveStatus === 'saving' && '🔄 Saving...'}
+            {saveStatus === 'saved' && '✓ Saved to server'}
+            {saveStatus === 'error' && '⚠️ Saving failed'}
           </div>
 
           <div
@@ -211,7 +211,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
             className="paper-btn paper-btn-accent"
             style={{ padding: '0.5rem 1rem', fontWeight: 700, fontSize: '0.9rem' }}
           >
-            सबमिट करें (Finish)
+            Finish Quiz
           </button>
         </div>
       </div>
@@ -243,9 +243,9 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                   justifyContent: 'space-between'
                 }}
               >
-                <span>📜 अपठित {currentPassage.kind === 'padya' ? 'काव्यांश' : 'गद्यांश'} (Passage)</span>
+                <span>📜 Unseen {currentPassage.kind === 'padya' ? 'Poem' : 'Prose'} Passage</span>
                 <span style={{ fontSize: '0.8rem', color: 'var(--ink-secondary)' }}>
-                  (प्रश्न {(currentQuestion.passageOrder || 1)}/5)
+                  (Question {(currentQuestion.passageOrder || 1)}/5)
                 </span>
               </div>
               <div
@@ -303,7 +303,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
               </div>
 
               <div style={{ fontWeight: 700, fontSize: '0.9rem', color: 'var(--accent-color)' }}>
-                {currentQuestion.marks} अंक (Marks)
+                {currentQuestion.marks} Mark{currentQuestion.marks !== 1 ? 's' : ''}
               </div>
             </div>
 
@@ -389,8 +389,8 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
               {currentQuestion.type === 'truefalse' && (
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1rem' }}>
                   {[
-                    { label: 'सत्य (True)', val: true },
-                    { label: 'असत्य (False)', val: false }
+                    { label: 'True', val: true },
+                    { label: 'False', val: false }
                   ].map(item => {
                     const isSelected = answers[currentQuestion.id] === item.val;
                     return (
@@ -424,7 +424,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                       type={currentQuestion.type === 'numerical' ? 'number' : 'text'}
                       value={answers[currentQuestion.id] ?? ''}
                       onChange={e => handleAnswerChange(e.target.value)}
-                      placeholder="यहाँ अपना उत्तर लिखें..."
+                      placeholder="Type your answer here..."
                       className="paper-input"
                       style={{
                         padding: '0.8rem 1rem',
@@ -507,7 +507,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                     rows={4}
                     value={answers[currentQuestion.id] ?? ''}
                     onChange={e => handleAnswerChange(e.target.value)}
-                    placeholder="अपना संक्षिप्त उत्तर (1-2 वाक्य) यहाँ लिखें..."
+                    placeholder="Write your short answer (1-2 sentences) here..."
                     className="paper-input"
                     style={{
                       width: '100%',
@@ -526,7 +526,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
               {currentQuestion.type === 'match' && currentQuestion.pairsLeft && (
                 <div>
                   <p style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', marginBottom: '0.6rem' }}>
-                    बाएं स्तम्भ के प्रत्येक मद के लिए दाएं स्तम्भ से सही मिलान चुनें:
+                    Match each item from the left column with the correct item on the right:
                   </p>
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '0.8rem' }}>
                     {currentQuestion.pairsLeft.map((leftItem, lIdx) => {
@@ -561,7 +561,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                             className="paper-input"
                             style={{ flex: 1, padding: '0.5rem', borderRadius: '4px' }}
                           >
-                            <option value="">-- मिलान चुनें --</option>
+                            <option value="">-- Select match --</option>
                             {(currentQuestion.pairsRightShuffled || []).map((rItem, rIdx) => (
                               <option key={rIdx} value={rItem}>
                                 {rItem}
@@ -579,7 +579,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
               {currentQuestion.type === 'ordering' && currentQuestion.itemsShuffled && (
                 <div>
                   <p style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', marginBottom: '0.6rem' }}>
-                    मदों को सही क्रम में व्यवस्थित करें (ऊपर/नीचे बटन का प्रयोग करें):
+                    Arrange the items in correct order (use Up/Down buttons):
                   </p>
                   {(() => {
                     const currentOrder: string[] = Array.isArray(answers[currentQuestion.id])
@@ -676,7 +676,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                   className="paper-btn"
                   style={{ padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}
                 >
-                  उत्तर साफ़ करें (Clear)
+                  Clear Answer
                 </button>
                 <button
                   type="button"
@@ -684,7 +684,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                   className={`paper-btn ${flaggedIds.has(currentQuestion.id) ? 'paper-btn-accent' : ''}`}
                   style={{ padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}
                 >
-                  {flaggedIds.has(currentQuestion.id) ? '🚩 चिन्हित (Flagged)' : '🏳️ समीक्षा के लिए रखें'}
+                  {flaggedIds.has(currentQuestion.id) ? '🚩 Flagged' : '🏳️ Flag for Review'}
                 </button>
               </div>
 
@@ -696,7 +696,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                   className="paper-btn"
                   style={{ padding: '0.5rem 1rem', fontWeight: 600 }}
                 >
-                  ← पिछला (Prev)
+                  ← Previous
                 </button>
                 <button
                   type="button"
@@ -705,7 +705,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                   className="paper-btn paper-btn-accent"
                   style={{ padding: '0.5rem 1.2rem', fontWeight: 700 }}
                 >
-                  अगला (Next) →
+                  Next →
                 </button>
               </div>
             </div>
@@ -724,7 +724,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                 paddingBottom: '0.4rem'
               }}
             >
-              प्रश्नावली पैलेट (Question Palette)
+              Question Palette
             </h4>
 
             {/* Legend */}
@@ -739,19 +739,19 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
             >
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
                 <div style={{ width: '12px', height: '12px', borderRadius: '3px', backgroundColor: '#059669' }} />
-                <span>उत्तर दिया ({answeredCount})</span>
+                <span>Answered ({answeredCount})</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
                 <div style={{ width: '12px', height: '12px', borderRadius: '3px', backgroundColor: '#e2e8f0' }} />
-                <span>शेष ({unansweredCount})</span>
+                <span>Unanswered ({unansweredCount})</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
                 <div style={{ width: '12px', height: '12px', borderRadius: '3px', backgroundColor: '#eab308' }} />
-                <span>समीक्षा ({flaggedCount})</span>
+                <span>Review ({flaggedCount})</span>
               </div>
               <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
                 <div style={{ width: '12px', height: '12px', borderRadius: '3px', border: '2px solid #2563eb' }} />
-                <span>सक्रिय (Active)</span>
+                <span>Active</span>
               </div>
             </div>
 
@@ -829,7 +829,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                 textAlign: 'center'
               }}
             >
-              परीक्षा समाप्त करें (Submit)
+              Submit Exam
             </button>
           </div>
         </div>
@@ -855,10 +855,10 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
           >
             <div style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>📋</div>
             <h3 style={{ margin: 0, fontFamily: 'var(--font-heading)', fontSize: '1.3rem' }}>
-              परीक्षा सबमिट करें?
+              Submit Exam?
             </h3>
             <p style={{ color: 'var(--ink-secondary)', fontSize: '0.9rem', marginTop: '0.3rem' }}>
-              कृपया सबमिशन से पूर्व अपनी स्थिति की समीक्षा करें:
+              Please review your exam status before submitting:
             </p>
 
             {submitError && (
@@ -891,15 +891,15 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                 fontSize: '0.9rem'
               }}
             >
-              <div>कुल प्रश्न: <strong>{questions.length}</strong></div>
-              <div>उत्तर दिए: <strong style={{ color: '#059669' }}>{answeredCount}</strong></div>
-              <div>अनुत्तरित: <strong style={{ color: '#dc2626' }}>{unansweredCount}</strong></div>
-              <div>समीक्षा हेतु: <strong style={{ color: '#d97706' }}>{flaggedCount}</strong></div>
+              <div>Total Questions: <strong>{questions.length}</strong></div>
+              <div>Answered: <strong style={{ color: '#059669' }}>{answeredCount}</strong></div>
+              <div>Unanswered: <strong style={{ color: '#dc2626' }}>{unansweredCount}</strong></div>
+              <div>Marked for Review: <strong style={{ color: '#d97706' }}>{flaggedCount}</strong></div>
             </div>
 
             {unansweredCount > 0 && (
               <p style={{ color: 'var(--red-pen)', fontSize: '0.85rem', fontWeight: 600, margin: '0 0 1rem 0' }}>
-                चेतावनी: आपके पास {unansweredCount} अनुत्तरित प्रश्न हैं!
+                Warning: You have {unansweredCount} unanswered questions!
               </p>
             )}
 
@@ -911,7 +911,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                 className="paper-btn"
                 style={{ padding: '0.6rem 1.2rem', fontWeight: 600 }}
               >
-                जारी रखें (Cancel)
+                Continue Exam
               </button>
               <button
                 type="button"
@@ -920,7 +920,7 @@ export function OnlineQuizPlayer({ quizData, onFinish, onQuit }: OnlineQuizPlaye
                 className="paper-btn paper-btn-accent"
                 style={{ padding: '0.6rem 1.4rem', fontWeight: 700 }}
               >
-                {submitting ? 'सबमिट हो रहा है...' : 'हाँ, सबमिट करें'}
+                {submitting ? 'Submitting...' : 'Yes, Submit Exam'}
               </button>
             </div>
           </div>

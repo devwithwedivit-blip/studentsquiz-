@@ -60,7 +60,7 @@ export function UnifiedLogin({
         }
       } catch (err: any) {
         if (active) {
-          setStudentError(err.message || 'विद्यार्थी सूची लोड नहीं हो सकी।');
+          setStudentError(err.message || 'Could not load student list.');
         }
       } finally {
         if (active) setStudentLoading(false);
@@ -76,11 +76,11 @@ export function UnifiedLogin({
     setStudentError(null);
 
     if (!selectedStudentId) {
-      setStudentError('कृपया अपना नाम चुनें।');
+      setStudentError('Please select your name.');
       return;
     }
     if (!studentPin || studentPin.length < 4) {
-      setStudentError('कृपया 4-अंकीय पिन दर्ज करें।');
+      setStudentError('Please enter a 4-digit PIN.');
       return;
     }
 
@@ -89,7 +89,7 @@ export function UnifiedLogin({
       const session = await loginStudent(selectedStudentId, selectedClass, studentPin);
       onStudentLoginSuccess(session);
     } catch (err: any) {
-      setStudentError(err.message || 'लॉगिन विफल रहा। कृपया पुनः प्रयास करें।');
+      setStudentError(err.message || 'Login failed. Please try again.');
     } finally {
       setStudentLoading(false);
     }
@@ -101,7 +101,7 @@ export function UnifiedLogin({
     setTeacherError(null);
 
     if (!teacherEmail.trim() || !teacherPassword) {
-      setTeacherError('ईमेल और पासवर्ड आवश्यक हैं।');
+      setTeacherError('Email and password are required.');
       return;
     }
 
@@ -114,7 +114,7 @@ export function UnifiedLogin({
         onStaffLoginSuccess(profile);
       }
     } catch (err: any) {
-      setTeacherError(err.message || 'शिक्षक लॉगिन विफल रहा।');
+      setTeacherError(err.message || 'Teacher login failed.');
     } finally {
       setTeacherLoading(false);
     }
@@ -126,7 +126,7 @@ export function UnifiedLogin({
     setAdminError(null);
 
     if (!adminEmail.trim() || !adminPassword) {
-      setAdminError('ईमेल और पासवर्ड आवश्यक हैं।');
+      setAdminError('Email and password are required.');
       return;
     }
 
@@ -139,7 +139,7 @@ export function UnifiedLogin({
         onStaffLoginSuccess(profile);
       }
     } catch (err: any) {
-      setAdminError(err.message || 'व्यवस्थापक लॉगिन विफल रहा।');
+      setAdminError(err.message || 'Admin login failed.');
     } finally {
       setAdminLoading(false);
     }
@@ -151,11 +151,11 @@ export function UnifiedLogin({
     setChangePassError(null);
 
     if (!newPassword || newPassword.length < 10) {
-      setChangePassError('पासवर्ड कम से कम 10 अक्षरों का होना चाहिए।');
+      setChangePassError('Password must be at least 10 characters long.');
       return;
     }
     if (newPassword !== confirmPassword) {
-      setChangePassError('दोनों पासवर्ड मेल नहीं खाते।');
+      setChangePassError('Passwords do not match.');
       return;
     }
 
@@ -168,7 +168,7 @@ export function UnifiedLogin({
         onStaffLoginSuccess(updated);
       }
     } catch (err: any) {
-      setChangePassError(err.message || 'पासवर्ड बदलने में त्रुटि।');
+      setChangePassError(err.message || 'Error changing password.');
     } finally {
       setChangePassLoading(false);
     }
@@ -179,13 +179,13 @@ export function UnifiedLogin({
       {/* Title Header */}
       <div className="text-center mb-8 max-w-xl">
         <div className="inline-flex items-center gap-2 px-3 py-1 bg-indigo-50 border border-indigo-200 text-indigo-800 rounded-full text-xs font-semibold uppercase tracking-wider mb-3">
-          <span>🎓</span> परीक्षा एवं अभ्यास मंच
+          <span>🎓</span> Exam & Practice Platform
         </div>
         <h1 className="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
-          विद्यालय परीक्षा पोर्टल
+          School Exam Portal
         </h1>
         <p className="text-stone-600 text-sm sm:text-base mt-2">
-          कृपया अपनी भूमिका चुनें और सुरक्षित रूप से साइन इन करें
+          Please choose your role and sign in securely
         </p>
       </div>
 
@@ -200,7 +200,7 @@ export function UnifiedLogin({
               : 'text-stone-600 hover:text-stone-900'
           }`}
         >
-          <span>🎒</span> विद्यार्थी
+          <span>🎒</span> Student
         </button>
         <button
           type="button"
@@ -211,7 +211,7 @@ export function UnifiedLogin({
               : 'text-stone-600 hover:text-stone-900'
           }`}
         >
-          <span>👨‍🏫</span> शिक्षक
+          <span>👨‍🏫</span> Teacher
         </button>
         <button
           type="button"
@@ -222,7 +222,7 @@ export function UnifiedLogin({
               : 'text-stone-600 hover:text-stone-900'
           }`}
         >
-          <span>🛡️</span> एडमिन
+          <span>🛡️</span> Admin
         </button>
       </div>
 
@@ -234,10 +234,10 @@ export function UnifiedLogin({
             <div className="bg-gradient-to-r from-indigo-700 to-indigo-800 text-white px-6 py-5 flex items-center justify-between">
               <div>
                 <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>🎒</span> विद्यार्थी लॉगिन
+                  <span>🎒</span> Student Login
                 </h2>
                 <p className="text-indigo-200 text-xs mt-0.5">
-                  अपनी कक्षा, नाम और 4-अंकीय पिन से लॉगिन करें
+                  Log in with your class, name and 4-digit PIN
                 </p>
               </div>
               <span className="text-2xl bg-indigo-600/60 p-2 rounded-xl">✍️</span>
@@ -254,7 +254,7 @@ export function UnifiedLogin({
               {/* Class Buttons */}
               <div>
                 <label className="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-2">
-                  कक्षा चुनें
+                  Select class
                 </label>
                 <div className="grid grid-cols-4 gap-2">
                   {([9, 10, 11, 12] as const).map((cls) => (
@@ -271,7 +271,7 @@ export function UnifiedLogin({
                           : 'bg-stone-50 text-stone-700 border-stone-300 hover:bg-stone-100'
                       }`}
                     >
-                      कक्षा {cls}
+                      Class {cls}
                     </button>
                   ))}
                 </div>
@@ -280,7 +280,7 @@ export function UnifiedLogin({
               {/* Student Dropdown */}
               <div>
                 <label htmlFor="student-name-select" className="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1">
-                  विद्यार्थी का नाम
+                  Student name
                 </label>
                 <select
                   id="student-name-select"
@@ -291,7 +291,7 @@ export function UnifiedLogin({
                 >
                   {studentsList.length === 0 ? (
                     <option value="">
-                      {studentLoading ? 'लोड हो रहा है...' : 'कोई विद्यार्थी उपलब्ध नहीं है'}
+                      {studentLoading ? 'Loading...' : 'No students available'}
                     </option>
                   ) : (
                     studentsList.map((st) => (
@@ -307,14 +307,14 @@ export function UnifiedLogin({
               <div>
                 <div className="flex justify-between items-center mb-1">
                   <label htmlFor="student-pin-input" className="text-xs font-bold text-stone-700 uppercase tracking-wider">
-                    4-अंकीय गुप्त पिन (PIN)
+                    4-digit secret PIN
                   </label>
                   <button
                     type="button"
                     onClick={() => setShowStudentPin(!showStudentPin)}
                     className="text-xs text-indigo-600 hover:underline font-medium"
                   >
-                    {showStudentPin ? 'पिन छिपाएं' : 'पिन देखें'}
+                    {showStudentPin ? 'Hide PIN' : 'Show PIN'}
                   </button>
                 </div>
                 <input
@@ -327,7 +327,7 @@ export function UnifiedLogin({
                   className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-stone-900 tracking-widest text-lg font-mono focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-stone-50 focus:bg-white text-center"
                 />
                 <p className="text-xs text-stone-500 mt-1">
-                  यदि आप अपना पिन भूल गए हैं, तो कृपया अपने कक्षा शिक्षक से संपर्क करें।
+                  If you've forgotten your PIN, please contact your class teacher.
                 </p>
               </div>
 
@@ -340,11 +340,11 @@ export function UnifiedLogin({
                 {studentLoading ? (
                   <>
                     <span className="animate-spin text-lg">⏳</span>
-                    <span>प्रमाणीकरण हो रहा है...</span>
+                    <span>Authenticating...</span>
                   </>
                 ) : (
                   <>
-                    <span>प्रवेश करें (Start Learning)</span>
+                    <span>Start Learning</span>
                     <span>➔</span>
                   </>
                 )}
@@ -359,10 +359,10 @@ export function UnifiedLogin({
             <div className="bg-gradient-to-r from-emerald-700 to-teal-800 text-white px-6 py-5 flex items-center justify-between">
               <div>
                 <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>👨‍🏫</span> शिक्षक लॉगिन
+                  <span>👨‍🏫</span> Teacher Login
                 </h2>
                 <p className="text-emerald-200 text-xs mt-0.5">
-                  अपने आधिकारिक ईमेल एवं पासवर्ड से लॉगिन करें
+                  Sign in with your official email and password
                 </p>
               </div>
               <span className="text-2xl bg-emerald-600/60 p-2 rounded-xl">📚</span>
@@ -378,7 +378,7 @@ export function UnifiedLogin({
 
               <div>
                 <label htmlFor="teacher-email-input" className="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1">
-                  शिक्षक ईमेल (Email)
+                  Teacher Email
                 </label>
                 <input
                   id="teacher-email-input"
@@ -394,14 +394,14 @@ export function UnifiedLogin({
               <div>
                 <div className="flex justify-between items-center mb-1">
                   <label htmlFor="teacher-password-input" className="text-xs font-bold text-stone-700 uppercase tracking-wider">
-                    पासवर्ड (Password)
+                    Password
                   </label>
                   <button
                     type="button"
                     onClick={() => setShowTeacherPass(!showTeacherPass)}
                     className="text-xs text-emerald-600 hover:underline font-medium"
                   >
-                    {showTeacherPass ? 'छिपाएं' : 'देखें'}
+                    {showTeacherPass ? 'Hide' : 'Show'}
                   </button>
                 </div>
                 <input
@@ -423,11 +423,11 @@ export function UnifiedLogin({
                 {teacherLoading ? (
                   <>
                     <span className="animate-spin text-lg">⏳</span>
-                    <span>सत्यापन हो रहा है...</span>
+                    <span>Authenticating...</span>
                   </>
                 ) : (
                   <>
-                    <span>शिक्षक पोर्टल में प्रवेश करें</span>
+                    <span>Enter Teacher Portal</span>
                     <span>➔</span>
                   </>
                 )}
@@ -442,10 +442,10 @@ export function UnifiedLogin({
             <div className="bg-gradient-to-r from-amber-700 to-amber-900 text-white px-6 py-5 flex items-center justify-between">
               <div>
                 <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>🛡️</span> व्यवस्थापक (एडमिन) लॉगिन
+                  <span>🛡️</span> Admin Login
                 </h2>
                 <p className="text-amber-200 text-xs mt-0.5">
-                  विद्यालय एडमिन क्रेडेंशियल्स से साइन इन करें
+                  Sign in with school admin credentials
                 </p>
               </div>
               <span className="text-2xl bg-amber-600/60 p-2 rounded-xl">🔑</span>
@@ -461,7 +461,7 @@ export function UnifiedLogin({
 
               <div>
                 <label htmlFor="admin-email-input" className="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1">
-                  व्यवस्थापक ईमेल (Admin Email)
+                  Admin Email
                 </label>
                 <input
                   id="admin-email-input"
@@ -477,14 +477,14 @@ export function UnifiedLogin({
               <div>
                 <div className="flex justify-between items-center mb-1">
                   <label htmlFor="admin-password-input" className="text-xs font-bold text-stone-700 uppercase tracking-wider">
-                    पासवर्ड (Password)
+                    Password
                   </label>
                   <button
                     type="button"
                     onClick={() => setShowAdminPass(!showAdminPass)}
                     className="text-xs text-amber-700 hover:underline font-medium"
                   >
-                    {showAdminPass ? 'छिपाएं' : 'देखें'}
+                    {showAdminPass ? 'Hide' : 'Show'}
                   </button>
                 </div>
                 <input
@@ -506,11 +506,11 @@ export function UnifiedLogin({
                 {adminLoading ? (
                   <>
                     <span className="animate-spin text-lg">⏳</span>
-                    <span>सत्यापन हो रहा है...</span>
+                    <span>Authenticating...</span>
                   </>
                 ) : (
                   <>
-                    <span>एडमिन पोर्टल में प्रवेश करें</span>
+                    <span>Enter Admin Portal</span>
                     <span>➔</span>
                   </>
                 )}
@@ -526,10 +526,10 @@ export function UnifiedLogin({
           <div className="bg-white rounded-2xl max-w-md w-full shadow-2xl border-2 border-amber-400 overflow-hidden animate-fadeIn">
             <div className="bg-gradient-to-r from-amber-600 to-amber-700 text-white p-5">
               <h3 className="text-lg font-bold flex items-center gap-2">
-                <span>🔒</span> नया पासवर्ड सेट करना अनिवार्य है
+                <span>🔒</span> Set New Password (Mandatory)
               </h3>
               <p className="text-amber-100 text-xs mt-1">
-                सुरक्षा कारणों से, प्रथम लॉगिन पर पासवर्ड बदलना आवश्यक है।
+                For security reasons, you must change your password on first login.
               </p>
             </div>
 
@@ -542,7 +542,7 @@ export function UnifiedLogin({
 
               <div>
                 <label className="block text-xs font-bold text-stone-700 mb-1">
-                  नया सुरक्षित पासवर्ड (न्यूनतम 10 अक्षर)
+                  New Secure Password (Minimum 10 characters)
                 </label>
                 <input
                   type="password"
@@ -557,7 +557,7 @@ export function UnifiedLogin({
 
               <div>
                 <label className="block text-xs font-bold text-stone-700 mb-1">
-                  नए पासवर्ड की पुष्टि करें
+                  Confirm New Password
                 </label>
                 <input
                   type="password"
@@ -571,7 +571,7 @@ export function UnifiedLogin({
               </div>
 
               <div className="text-xs text-stone-500 bg-stone-50 p-3 rounded-lg border border-stone-200">
-                💡 सुझाव: एक मजबूत पासवर्ड में अक्षर, संख्याएं और विशेष वर्ण (!@#$) शामिल करें।
+                💡 Tip: A strong password includes letters, numbers, and symbols (!@#$).
               </div>
 
               <button
@@ -579,7 +579,7 @@ export function UnifiedLogin({
                 disabled={changePassLoading}
                 className="w-full py-2.5 bg-amber-700 hover:bg-amber-800 text-white font-bold rounded-xl shadow transition-all disabled:opacity-50"
               >
-                {changePassLoading ? 'अपडेट हो रहा है...' : 'पासवर्ड सहेजें और पोर्टल में प्रवेश करें'}
+                {changePassLoading ? 'Updating...' : 'Save Password & Enter Portal'}
               </button>
             </form>
           </div>

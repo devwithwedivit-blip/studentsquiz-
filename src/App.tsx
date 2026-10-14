@@ -243,7 +243,7 @@ export function App() {
       setActiveOnlineQuiz(data);
       setOnlineResult(null);
     } catch (err: any) {
-      alert(err.message || 'परीक्षा प्रारंभ करने में असमर्थ।');
+      alert(err.message || 'Unable to start exam.');
     }
   };
 
@@ -460,7 +460,7 @@ export function App() {
     const newPassage: Passage = {
       ...p,
       id: newId,
-      title: `${p.title} (प्रतिलिपि)`
+      title: `${p.title} (Copy)`
     };
     await addOverlayPassage(newPassage);
     await reloadBank();
@@ -565,7 +565,7 @@ export function App() {
             quizData={activeOnlineQuiz}
             onFinish={handleFinishOnlineQuiz}
             onQuit={() => {
-              if (window.confirm('क्या आप परीक्षा से बाहर जाना चाहते हैं? आपकी प्रगति सहेजी जा चुकी है।')) {
+              if (window.confirm('Are you sure you want to exit the exam? Your progress has already been saved.')) {
                 setActiveOnlineQuiz(null);
               }
             }}
@@ -652,7 +652,7 @@ export function App() {
                 color: '#92400e'
               }}
             >
-              ⚠️ अभ्यास मोड शुरू करने के लिए कृपया पहले विद्यार्थी के रूप में साइन इन करें।
+              ⚠️ Please sign in as a student first to start practice mode.
             </div>
             <UnifiedLogin
               onStudentLoginSuccess={handleStudentLoginSuccess}

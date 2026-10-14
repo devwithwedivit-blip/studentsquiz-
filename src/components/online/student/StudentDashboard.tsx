@@ -32,7 +32,7 @@ export function StudentDashboard({
       setQuizzes(qList);
       setAttempts(aList);
     } catch (err: any) {
-      setError(err.message || 'डेटा लोड करने में त्रुटि हुई।');
+      setError(err.message || 'Error loading data.');
     } finally {
       setLoading(false);
     }
@@ -43,7 +43,7 @@ export function StudentDashboard({
   }, [session]);
 
   const handleLogoutClick = () => {
-    if (window.confirm('क्या आप लॉगआउट करना चाहते हैं?')) {
+    if (window.confirm('Are you sure you want to log out?')) {
       clearStudentSession();
       onLogout();
     }
@@ -88,7 +88,7 @@ export function StudentDashboard({
               {session.student.name}
             </h3>
             <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', marginTop: '0.2rem' }}>
-              कक्षा: <strong>Class {session.student.class}</strong> • रोल नं / ID: {session.student.id}
+              Class: <strong>Class {session.student.class}</strong> • Roll No / ID: {session.student.id}
             </div>
           </div>
         </div>
@@ -104,7 +104,7 @@ export function StudentDashboard({
             borderColor: 'var(--red-pen)'
           }}
         >
-          🚪 लॉगआउट (Logout)
+          🚪 Logout
         </button>
       </div>
 
@@ -115,14 +115,14 @@ export function StudentDashboard({
           className={`paper-btn ${activeTab === 'quizzes' ? 'paper-btn-accent' : ''}`}
           style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
         >
-          📝 उपलब्ध ऑनलाइन परीक्षाएं ({quizzes.length})
+          📝 Available Quizzes ({quizzes.length})
         </button>
         <button
           onClick={() => setActiveTab('history')}
           className={`paper-btn ${activeTab === 'history' ? 'paper-btn-accent' : ''}`}
           style={{ padding: '0.6rem 1.2rem', fontWeight: 700 }}
         >
-          📜 मेरे पूर्व परिणाम ({attempts.length})
+          📜 Past Results ({attempts.length})
         </button>
       </div>
 
@@ -144,7 +144,7 @@ export function StudentDashboard({
 
       {loading ? (
         <div className="notebook-sheet" style={{ padding: '2.5rem', textAlign: 'center' }}>
-          <p style={{ color: 'var(--ink-secondary)' }}>परीक्षा सूची लोड हो रही है...</p>
+          <p style={{ color: 'var(--ink-secondary)' }}>Loading quiz list...</p>
         </div>
       ) : activeTab === 'quizzes' ? (
         /* Quizzes List */
@@ -153,13 +153,13 @@ export function StudentDashboard({
             <div className="notebook-sheet" style={{ padding: '3rem', textAlign: 'center' }}>
               <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>📭</div>
               <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)' }}>
-                वर्तमान में कोई सक्रिय परीक्षा उपलब्ध नहीं है
+                No active quizzes available
               </h4>
               <p style={{ color: 'var(--ink-secondary)', fontSize: '0.9rem', marginTop: '0.4rem' }}>
-                जब शिक्षक कक्षा {session.student.class} के लिए परीक्षा प्रकाशित करेंगे, वह यहां प्रदर्शित होगी।
+                When a teacher publishes a quiz for Class {session.student.class}, it will appear here.
               </p>
               <button onClick={loadData} className="paper-btn" style={{ marginTop: '0.8rem' }}>
-                🔄 ताज़ा करें (Refresh)
+                🔄 Refresh
               </button>
             </div>
           ) : (
@@ -216,7 +216,7 @@ export function StudentDashboard({
                             color: isCompleted ? '#065f46' : 'var(--ink-primary)'
                           }}
                         >
-                          {isCompleted ? '✓ सबमिट किया जा चुका' : isInProgress ? '⏳ प्रगति पर (In Progress)' : 'खुली है (Open)'}
+                          {isCompleted ? '✓ Submitted' : isInProgress ? '⏳ In Progress' : 'Open'}
                         </span>
                       </div>
 
@@ -236,14 +236,14 @@ export function StudentDashboard({
                           margin: '0.8rem 0'
                         }}
                       >
-                        <div>⏱️ समय सीमा: <strong>{quiz.duration_minutes} मिनट</strong></div>
-                        <div>❓ प्रश्न: <strong>{quiz.question_count || 'पूर्ण सेट'}</strong></div>
+                        <div>⏱️ Duration: <strong>{quiz.duration_minutes} mins</strong></div>
+                        <div>❓ Questions: <strong>{quiz.question_count || 'Full Set'}</strong></div>
                         {quiz.negative_marking && (
                           <div style={{ color: 'var(--red-pen)', fontWeight: 600 }}>
-                            ⚠️ नकारात्मक अंकन (0.25 कटौती)
+                            ⚠️ Negative Marking (-0.25)
                           </div>
                         )}
-                        {quiz.shuffle && <div>🔀 रैंडम क्रम (Shuffled)</div>}
+                        {quiz.shuffle && <div>🔀 Shuffled Order</div>}
                       </div>
                     </div>
 
@@ -254,7 +254,7 @@ export function StudentDashboard({
                           className="paper-btn"
                           style={{ padding: '0.5rem 1rem', fontWeight: 600 }}
                         >
-                          परिणाम देखें (View Score) →
+                          View Score →
                         </button>
                       ) : (
                         <button
@@ -262,7 +262,7 @@ export function StudentDashboard({
                           className="paper-btn paper-btn-accent"
                           style={{ padding: '0.6rem 1.4rem', fontWeight: 700 }}
                         >
-                          {isInProgress ? 'प्रयास जारी रखें (Resume Exam) →' : 'परीक्षा प्रारंभ करें (Start Exam) →'}
+                          {isInProgress ? 'Resume Quiz →' : 'Start Quiz →'}
                         </button>
                       )}
                     </div>
@@ -277,7 +277,7 @@ export function StudentDashboard({
         <div>
           {attempts.length === 0 ? (
             <div className="notebook-sheet" style={{ padding: '3rem', textAlign: 'center' }}>
-              <p style={{ color: 'var(--ink-secondary)' }}>आपने अभी तक कोई ऑनलाइन परीक्षा नहीं दी है।</p>
+              <p style={{ color: 'var(--ink-secondary)' }}>You have not taken any online quizzes yet.</p>
             </div>
           ) : (
             <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: '0.8rem' }}>
@@ -299,15 +299,15 @@ export function StudentDashboard({
                       {att.quiz_title}
                     </h4>
                     <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', marginTop: '0.3rem' }}>
-                      दिनांक:{' '}
-                      {new Date(att.started_at).toLocaleDateString('hi-IN', {
+                      Date:{' '}
+                      {new Date(att.started_at).toLocaleDateString('en-IN', {
                         day: 'numeric',
                         month: 'short',
                         year: 'numeric',
                         hour: '2-digit',
                         minute: '2-digit'
                       })}
-                      {' • '} स्थिति: <strong>{att.status === 'submitted' ? 'पूर्ण' : att.status === 'timed_out' ? 'समय समाप्त' : 'अपूर्ण'}</strong>
+                      {' • '} Status: <strong>{att.status === 'submitted' ? 'Completed' : att.status === 'timed_out' ? 'Timed Out' : 'Incomplete'}</strong>
                     </div>
                   </div>
 
@@ -318,7 +318,7 @@ export function StudentDashboard({
                           {att.score ?? 0} / {att.total ?? 0}
                         </div>
                         <div style={{ fontSize: '0.8rem', color: 'var(--ink-secondary)' }}>
-                          {att.total ? Math.round(((att.score || 0) / att.total) * 100) : 0}% प्राप्तांक
+                          {att.total ? Math.round(((att.score || 0) / att.total) * 100) : 0}% Score
                         </div>
                       </div>
                     )}
@@ -329,7 +329,7 @@ export function StudentDashboard({
                         className="paper-btn paper-btn-accent"
                         style={{ padding: '0.4rem 0.9rem', fontSize: '0.85rem' }}
                       >
-                        जारी रखें (Resume)
+                        Resume
                       </button>
                     ) : (
                       <button
@@ -337,7 +337,7 @@ export function StudentDashboard({
                         className="paper-btn"
                         style={{ padding: '0.4rem 0.9rem', fontSize: '0.85rem' }}
                       >
-                        विस्तार देखें
+                        View Details
                       </button>
                     )}
                   </div>

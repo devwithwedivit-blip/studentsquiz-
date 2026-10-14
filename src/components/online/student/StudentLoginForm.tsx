@@ -34,7 +34,7 @@ export function StudentLoginForm({ onSuccess, onBackToModeSelect }: StudentLogin
         }
       } catch (err: any) {
         if (active) {
-          setErrorMessage(err.message || 'विद्यार्थी सूची लोड नहीं हो सकी।');
+          setErrorMessage(err.message || 'Could not load student list.');
         }
       } finally {
         if (active) setLoadingStudents(false);
@@ -67,7 +67,7 @@ export function StudentLoginForm({ onSuccess, onBackToModeSelect }: StudentLogin
 
   const performLogin = async (pinToSubmit: string) => {
     if (!selectedStudentId) {
-      setErrorMessage('कृपया अपना नाम चुनें।');
+      setErrorMessage('Please select your name.');
       return;
     }
     setSubmitting(true);
@@ -76,7 +76,7 @@ export function StudentLoginForm({ onSuccess, onBackToModeSelect }: StudentLogin
       const session = await loginStudent(selectedStudentId, selectedClass, pinToSubmit);
       onSuccess(session);
     } catch (err: any) {
-      setErrorMessage(err.message || 'लॉगिन विफल। कृपया सही पिन डालें।');
+      setErrorMessage(err.message || 'Login failed. Please enter the correct PIN.');
       setPin('');
     } finally {
       setSubmitting(false);
@@ -86,7 +86,7 @@ export function StudentLoginForm({ onSuccess, onBackToModeSelect }: StudentLogin
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     if (pin.length !== 4) {
-      setErrorMessage('कृपया 4-अंकों का पिन दर्ज करें।');
+      setErrorMessage('Please enter a 4-digit PIN.');
       return;
     }
     performLogin(pin);
@@ -98,10 +98,10 @@ export function StudentLoginForm({ onSuccess, onBackToModeSelect }: StudentLogin
         <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
           <div style={{ fontSize: '2.5rem', marginBottom: '0.4rem' }}>🎓</div>
           <h2 style={{ fontFamily: 'var(--font-heading)', margin: 0, fontSize: '1.6rem' }}>
-            विद्यार्थी लॉगिन (Student Login)
+            Student Login
           </h2>
           <p style={{ color: 'var(--ink-secondary)', fontSize: '0.9rem', marginTop: '0.3rem' }}>
-            अपनी कक्षा, नाम चुनें और 4-अंकों का पिन दर्ज करें।
+            Log in with your class, name and 4-digit PIN.
           </p>
         </div>
 
@@ -127,7 +127,7 @@ export function StudentLoginForm({ onSuccess, onBackToModeSelect }: StudentLogin
           {/* Class Selector Tabs */}
           <div style={{ marginBottom: '1.2rem' }}>
             <label style={{ display: 'block', fontWeight: 700, fontSize: '0.9rem', marginBottom: '0.4rem' }}>
-              कक्षा (Class):
+              Select class:
             </label>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem' }}>
               {([9, 10, 11, 12] as const).map(c => (
@@ -155,15 +155,15 @@ export function StudentLoginForm({ onSuccess, onBackToModeSelect }: StudentLogin
           {/* Student Name Dropdown */}
           <div style={{ marginBottom: '1.5rem' }}>
             <label style={{ display: 'block', fontWeight: 700, fontSize: '0.9rem', marginBottom: '0.4rem' }}>
-              नाम (Student Name):
+              Student name:
             </label>
             {loadingStudents ? (
               <div style={{ padding: '0.6rem', color: 'var(--ink-secondary)', fontSize: '0.9rem' }}>
-                विद्यार्थियों की सूची लोड हो रही है...
+                Loading students...
               </div>
             ) : students.length === 0 ? (
               <div style={{ padding: '0.6rem', color: 'var(--red-pen)', fontSize: '0.88rem' }}>
-                कक्षा {selectedClass} में कोई सक्रिय विद्यार्थी पंजीकृत नहीं है।
+                No students available in Class {selectedClass}.
               </div>
             ) : (
               <select
@@ -193,7 +193,7 @@ export function StudentLoginForm({ onSuccess, onBackToModeSelect }: StudentLogin
           {/* PIN Input Display */}
           <div style={{ textAlign: 'center', marginBottom: '1.2rem' }}>
             <label style={{ display: 'block', fontWeight: 700, fontSize: '0.9rem', marginBottom: '0.6rem' }}>
-              4-अंकों का पिन (PIN):
+              4-digit secret PIN:
             </label>
             <div
               style={{
@@ -230,7 +230,7 @@ export function StudentLoginForm({ onSuccess, onBackToModeSelect }: StudentLogin
               })}
             </div>
             <div style={{ fontSize: '0.8rem', color: 'var(--ink-secondary)' }}>
-              (डेमो पिन: 1234)
+              (Demo PIN: 1234)
             </div>
           </div>
 
@@ -283,7 +283,7 @@ export function StudentLoginForm({ onSuccess, onBackToModeSelect }: StudentLogin
               gap: '0.5rem'
             }}
           >
-            {submitting ? 'प्रमाणीकरण हो रहा है...' : 'लॉगिन करें (Enter Portal) →'}
+            {submitting ? 'Authenticating...' : 'Start Learning →'}
           </button>
 
           {onBackToModeSelect && (
@@ -299,7 +299,7 @@ export function StudentLoginForm({ onSuccess, onBackToModeSelect }: StudentLogin
                 color: 'var(--ink-secondary)'
               }}
             >
-              ← वापस मुख्य मेनू (Back to Home)
+              ← Back to Home
             </button>
           )}
         </form>

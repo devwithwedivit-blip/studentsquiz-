@@ -30,10 +30,10 @@ export const PassageEditorModal: React.FC<PassageEditorModalProps> = ({
 
   // Class word count limits
   const limits: Record<number, { gadya: string; padya: string }> = {
-    9: { gadya: '120-170 शब्द', padya: '8-10 पंक्तियाँ' },
-    10: { gadya: '160-220 शब्द', padya: '8-12 पंक्तियाँ' },
-    11: { gadya: '200-280 शब्द', padya: '10-14 पंक्तियाँ' },
-    12: { gadya: '250-320 शब्द', padya: '12-16 पंक्तियाँ' }
+    9: { gadya: '120-170 words', padya: '8-10 lines' },
+    10: { gadya: '160-220 words', padya: '8-12 lines' },
+    11: { gadya: '200-280 words', padya: '10-14 lines' },
+    12: { gadya: '250-320 words', padya: '12-16 lines' }
   };
 
   const handleSave = () => {
@@ -94,7 +94,7 @@ export const PassageEditorModal: React.FC<PassageEditorModalProps> = ({
         <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
           <div>
             <h2 style={{ fontSize: '1.4rem', margin: 0 }}>
-              {isEditing ? 'अपठित परिच्छेद संपादित करें' : 'नया अपठित परिच्छेद जोड़ें'}
+              {isEditing ? 'Edit Unseen Passage' : 'Add New Unseen Passage'}
             </h2>
             <span style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)' }}>
               Teacher Repository Passage Editor
@@ -108,7 +108,7 @@ export const PassageEditorModal: React.FC<PassageEditorModalProps> = ({
         {/* Form Fields */}
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.9rem' }}>
           <div>
-            <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>कक्षा (Class):</label>
+            <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>Class:</label>
             <select
               value={cls}
               onChange={e => setCls(Number(e.target.value) as any)}
@@ -122,14 +122,14 @@ export const PassageEditorModal: React.FC<PassageEditorModalProps> = ({
           </div>
 
           <div>
-            <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>प्रकार (Kind):</label>
+            <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>Kind:</label>
             <select
               value={kind}
               onChange={e => setKind(e.target.value as any)}
               style={{ width: '100%', padding: '0.5rem', borderRadius: '4px', border: '1px solid #cbd5e1' }}
             >
-              <option value="gadya">अपठित गद्यांश (Prose)</option>
-              <option value="padya">अपठित पद्यांश (Poem)</option>
+              <option value="gadya">Unseen Prose</option>
+              <option value="padya">Unseen Poetry</option>
             </select>
           </div>
         </div>
@@ -137,27 +137,27 @@ export const PassageEditorModal: React.FC<PassageEditorModalProps> = ({
         <div style={{ display: 'grid', gridTemplateColumns: '1.5fr 1fr', gap: '0.9rem' }}>
           <div>
             <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>
-              शीर्षक (Teacher-Only Title):
+              Title (Teacher-Only Title):
             </label>
             <input
               type="text"
               value={title}
               onChange={e => setTitle(e.target.value)}
-              placeholder="e.g. समय का महत्व (Never shown to students)"
+              placeholder="e.g. Importance of Time (Never shown to students)"
               style={{ width: '100%', padding: '0.5rem', borderRadius: '4px', border: '1px solid #cbd5e1' }}
             />
             <span style={{ fontSize: '0.72rem', color: 'var(--ink-muted)' }}>
-              * यह केवल शिक्षक संदर्भ के लिए है; छात्रों से छिपा रहेगा।
+              * This is for teacher reference only; hidden from students.
             </span>
           </div>
 
           <div>
-            <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>विषय-वस्तु (Theme):</label>
+            <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>Theme:</label>
             <input
               type="text"
               value={theme}
               onChange={e => setTheme(e.target.value)}
-              placeholder="e.g. पर्यावरण, अनुशासन"
+              placeholder="e.g. Environment, Discipline"
               style={{ width: '100%', padding: '0.5rem', borderRadius: '4px', border: '1px solid #cbd5e1' }}
             />
           </div>
@@ -166,13 +166,13 @@ export const PassageEditorModal: React.FC<PassageEditorModalProps> = ({
         <div>
           <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'baseline', marginBottom: '0.3rem' }}>
             <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>
-              परिच्छेद पाठ्य (Passage Content):
+              Passage Content:
             </label>
             <div style={{ fontSize: '0.82rem', fontWeight: 600, color: 'var(--ink-secondary)' }}>
               {kind === 'padya' ? (
-                <span>पंक्तियाँ: {lineCount} (अनुशंसित: {limits[cls]?.padya})</span>
+                <span>Lines: {lineCount} (Recommended: {limits[cls]?.padya})</span>
               ) : (
-                <span>शब्द संख्या: {wordCount} (अनुशंसित: {limits[cls]?.gadya})</span>
+                <span>Word Count: {wordCount} (Recommended: {limits[cls]?.gadya})</span>
               )}
             </div>
           </div>
@@ -182,8 +182,8 @@ export const PassageEditorModal: React.FC<PassageEditorModalProps> = ({
             rows={10}
             placeholder={
               kind === 'padya'
-                ? 'कविता की पंक्तियाँ यहाँ लिखें (प्रत्येक पंक्ति के बाद Enter दबाएँ)...'
-                : 'गद्यांश के अनुच्छेद यहाँ लिखें (अनुच्छेदों के बीच खाली पंक्ति छोड़ें)...'
+                ? 'Type poem lines here (press Enter after each line)...'
+                : 'Type prose paragraphs here (leave empty line between paragraphs)...'
             }
             style={{
               width: '100%',
@@ -200,11 +200,11 @@ export const PassageEditorModal: React.FC<PassageEditorModalProps> = ({
         {/* Actions */}
         <div style={{ display: 'flex', justifyContent: 'flex-end', gap: '0.6rem', marginTop: '0.5rem' }}>
           <button className="paper-btn" onClick={onClose}>
-            रद्द करें (Cancel)
+            Cancel
           </button>
           <button className="paper-btn paper-btn-primary" onClick={handleSave}>
             <HandDrawnIcon name="check" size={16} />
-            <span>सहेजें (Save Passage)</span>
+            <span>Save Passage</span>
           </button>
         </div>
       </div>

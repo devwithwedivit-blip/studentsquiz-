@@ -382,7 +382,7 @@ export const BankManager: React.FC<BankManagerProps> = ({
                                 color: isPoem ? '#7e22ce' : '#0369a1'
                               }}
                             >
-                              {isPoem ? '📜 पद्यांश' : '📄 गद्यांश'}
+                              {isPoem ? '📜 Poetry' : '📄 Prose'}
                             </span>
                             <span style={{ fontSize: '0.78rem', color: 'var(--ink-secondary)' }}>
                               ({p.id})
@@ -431,7 +431,7 @@ export const BankManager: React.FC<BankManagerProps> = ({
                       {/* Stats */}
                       <div style={{ display: 'flex', justifyContent: 'space-between', fontSize: '0.78rem', color: 'var(--ink-secondary)' }}>
                         <span>
-                          {isPoem ? `${lineCount} पंक्तियाँ` : `${wordCount} शब्द`} • विषय: {p.theme || 'General'}
+                          {isPoem ? `${lineCount} Lines` : `${wordCount} Words`} • Theme: {p.theme || 'General'}
                         </span>
                         {linkedQs.length > 0 && (
                           <span title={linkedQs.map(q => q.id).join(', ')}>

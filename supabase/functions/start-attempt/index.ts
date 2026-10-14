@@ -53,21 +53,21 @@ serve(async (req: Request) => {
       .single();
 
     if (quizError || !quiz) {
-      return new Response(JSON.stringify({ error: 'प्रश्नोत्तरी (Quiz) नहीं मिली।' }), {
+      return new Response(JSON.stringify({ error: 'Quiz not found.' }), {
         status: 404,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' }
       });
     }
 
     if (quiz.status !== 'published') {
-      return new Response(JSON.stringify({ error: 'यह परीक्षा अभी प्रकाशित नहीं हुई है।' }), {
+      return new Response(JSON.stringify({ error: 'This exam is not published yet.' }), {
         status: 403,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' }
       });
     }
 
     if (Number(quiz.class) !== Number(student.class)) {
-      return new Response(JSON.stringify({ error: `यह परीक्षा कक्षा ${quiz.class} के लिए है, आप कक्षा ${student.class} में हैं।` }), {
+      return new Response(JSON.stringify({ error: `This exam is for Class ${quiz.class}; you are in Class ${student.class}.` }), {
         status: 403,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' }
       });
@@ -75,14 +75,14 @@ serve(async (req: Request) => {
 
     const now = new Date();
     if (quiz.opens_at && new Date(quiz.opens_at) > now) {
-      return new Response(JSON.stringify({ error: 'यह परीक्षा अभी प्रारंभ नहीं हुई है।' }), {
+      return new Response(JSON.stringify({ error: 'This exam has not started yet.' }), {
         status: 403,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' }
       });
     }
 
     if (quiz.closes_at && new Date(quiz.closes_at) < now) {
-      return new Response(JSON.stringify({ error: 'इस परीक्षा की अंतिम तिथि समाप्त हो चुकी है।' }), {
+      return new Response(JSON.stringify({ error: 'The deadline for this exam has passed.' }), {
         status: 403,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' }
       });
@@ -103,7 +103,7 @@ serve(async (req: Request) => {
     if (!activeAttempt) {
       const completedCount = existingAttempts?.filter(a => a.status !== 'in_progress').length || 0;
       if (completedCount >= (quiz.max_attempts || 1)) {
-        return new Response(JSON.stringify({ error: 'आप इस परीक्षा के लिए अधिकतम अनुमत प्रयास पूर्ण कर चुके हैं।' }), {
+        return new Response(JSON.stringify({ error: 'You have reached the maximum allowed attempts for this exam.' }), {
           status: 403,
           headers: { ...corsHeaders, 'Content-Type': 'application/json' }
         });
@@ -122,7 +122,7 @@ serve(async (req: Request) => {
         .single();
 
       if (insertError || !newAttempt) {
-        throw new Error('प्रयास (Attempt) बनाने में त्रुटि हुई: ' + insertError?.message);
+        throw new Error('Error creating attempt: ' + insertError?.message);
       }
       attemptId = newAttempt.id;
       startedAt = newAttempt.started_at;

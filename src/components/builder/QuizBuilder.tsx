@@ -718,7 +718,7 @@ export const QuizBuilder: React.FC<QuizBuilderProps> = ({
                   onChange={e => setIncludePassages(e.target.checked)}
                 />
                 <span style={{ fontSize: '0.92rem', fontWeight: 700 }}>
-                  Include unseen-passage questions (अपठित बोध)
+                  Include unseen-passage questions (Reading Comprehension)
                 </span>
               </label>
 

@@ -13,10 +13,10 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
   const secs = timeTakenSeconds % 60;
 
   const getPraiseMessage = (pct: number) => {
-    if (pct >= 90) return { text: '🌟 उत्कृष्ट प्रदर्शन! (Outstanding!)', color: '#059669' };
-    if (pct >= 75) return { text: '👏 बहुत अच्छा प्रयास! (Great Job!)', color: '#0284c7' };
-    if (pct >= 50) return { text: '👍 अच्छा प्रयास! निरंतर अभ्यास करते रहें।', color: '#d97706' };
-    return { text: '📚 पुनः अभ्यास की आवश्यकता है। और मेहनत करें!', color: '#dc2626' };
+    if (pct >= 90) return { text: '🌟 Outstanding performance!', color: '#059669' };
+    if (pct >= 75) return { text: '👏 Great job! Well done.', color: '#0284c7' };
+    if (pct >= 50) return { text: '👍 Good effort! Keep practicing.', color: '#d97706' };
+    return { text: '📚 More practice needed. Keep working hard!', color: '#dc2626' };
   };
 
   const praise = getPraiseMessage(percentage);
@@ -41,7 +41,7 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
           {percentage >= 75 ? '🏆' : percentage >= 50 ? '🎯' : '📖'}
         </div>
         <h2 style={{ fontFamily: 'var(--font-heading)', margin: 0, fontSize: '1.8rem' }}>
-          परीक्षा परिणाम (Exam Result)
+          Exam Result
         </h2>
         <div
           style={{
@@ -67,7 +67,7 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
               marginBottom: '1rem'
             }}
           >
-            ⏱️ समय सीमा समाप्त होने पर स्वतः सबमिट किया गया
+            ⏱️ Auto-submitted as time expired
           </div>
         )}
 
@@ -88,7 +88,7 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
               border: '1.5px solid var(--paper-line)'
             }}
           >
-            <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>कुल प्राप्तांक</div>
+            <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>Total Score</div>
             <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--accent-color)', marginTop: '0.2rem' }}>
               {score} <span style={{ fontSize: '1.1rem', color: 'var(--ink-secondary)' }}>/ {total}</span>
             </div>
@@ -102,7 +102,7 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
               border: '1.5px solid var(--paper-line)'
             }}
           >
-            <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>प्रतिशत (Percentage)</div>
+            <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>Percentage</div>
             <div style={{ fontSize: '2rem', fontWeight: 800, color: praise.color, marginTop: '0.2rem' }}>
               {percentage}%
             </div>
@@ -116,7 +116,7 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
               border: '1.5px solid var(--paper-line)'
             }}
           >
-            <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>लिया गया समय</div>
+            <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>Time Taken</div>
             <div style={{ fontSize: '1.8rem', fontWeight: 800, color: 'var(--ink-primary)', marginTop: '0.2rem' }}>
               {mins}m {secs}s
             </div>
@@ -130,14 +130,14 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
             className="paper-btn paper-btn-accent"
             style={{ padding: '0.6rem 1.4rem', fontWeight: 700 }}
           >
-            ← डैशबोर्ड पर वापस जाएं
+            ← Back to Dashboard
           </button>
           <button
             onClick={handlePrint}
             className="paper-btn"
             style={{ padding: '0.6rem 1.2rem', fontWeight: 600 }}
           >
-            🖨️ प्रिंट करें (Print Result)
+            🖨️ Print Result
           </button>
         </div>
       </div>
@@ -146,7 +146,7 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
       {answersVisible ? (
         <div>
           <h3 style={{ fontFamily: 'var(--font-heading)', margin: '1.5rem 0 1rem 0' }}>
-            🔍 उत्तर समीक्षा एवं व्याख्या (Review & Explanations)
+            🔍 Review & Explanations
           </h3>
           <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
             {review.map((item, idx) => {
@@ -171,7 +171,7 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
                     }}
                   >
                     <span style={{ fontWeight: 700, fontSize: '0.95rem' }}>
-                      प्रश्न {idx + 1} ({item.type})
+                      Question {idx + 1} ({item.type})
                     </span>
                     <span
                       style={{
@@ -183,22 +183,22 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
                         color: isFull ? '#065f46' : isPartial ? '#92400e' : '#991b1b'
                       }}
                     >
-                      {item.marksAwarded} / {item.marks} अंक
+                      {item.marksAwarded} / {item.marks} marks
                     </span>
                   </div>
 
                   <div style={{ fontSize: '0.9rem', marginBottom: '0.4rem' }}>
-                    <strong>आपका उत्तर:</strong>{' '}
+                    <strong>Your Answer:</strong>{' '}
                     <span style={{ color: isFull ? '#065f46' : '#991b1b', fontWeight: 600 }}>
                       {typeof item.userResponse === 'object'
                         ? JSON.stringify(item.userResponse)
-                        : String(item.userResponse ?? '(अनुत्तरित)')}
+                        : String(item.userResponse ?? '(Unanswered)')}
                     </span>
                   </div>
 
                   {item.correctAnswer !== undefined && (
                     <div style={{ fontSize: '0.9rem', marginBottom: '0.4rem', color: '#065f46' }}>
-                      <strong>सही उत्तर:</strong>{' '}
+                      <strong>Correct Answer:</strong>{' '}
                       <span style={{ fontWeight: 600 }}>
                         {typeof item.correctAnswer === 'object'
                           ? JSON.stringify(item.correctAnswer)
@@ -218,7 +218,7 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
                         lineHeight: '1.5'
                       }}
                     >
-                      💡 <strong>व्याख्या:</strong> {item.explanation}
+                      💡 <strong>Explanation:</strong> {item.explanation}
                     </div>
                   )}
                 </div>
@@ -230,10 +230,10 @@ export function StudentResultView({ result, onBackToDashboard }: StudentResultVi
         <div className="notebook-sheet" style={{ padding: '2rem', textAlign: 'center' }}>
           <div style={{ fontSize: '2rem', marginBottom: '0.5rem' }}>🔒</div>
           <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)' }}>
-            विस्तृत समीक्षा वर्तमान में सुरक्षित है
+            Detailed Review is Locked
           </h4>
           <p style={{ color: 'var(--ink-secondary)', fontSize: '0.9rem', marginTop: '0.4rem' }}>
-            इस परीक्षा की सेटिंग के अनुसार, परीक्षा अवधि समाप्त होने के पश्चात ही सही उत्तर और विस्तृत समाधान दिखाए जाएंगे।
+            According to the exam settings, correct answers and detailed explanations will be visible only after the exam window ends.
           </p>
         </div>
       )}

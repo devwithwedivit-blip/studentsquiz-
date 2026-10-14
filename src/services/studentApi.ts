@@ -43,11 +43,11 @@ export async function getStudentsForClass(classNum: number): Promise<Student[]> 
   if (!isSupabaseConfigured) {
     // Return sample offline students if Supabase isn't connected yet
     return [
-      { id: 'sample-9-1', name: 'Aarav Sharma (ऑफलाइन डेमो)', class: 9, active: true },
-      { id: 'sample-9-2', name: 'Ananya Verma (ऑफलाइन डेमो)', class: 9, active: true },
-      { id: 'sample-10-1', name: 'Rohan Gupta (ऑफलाइन डेमो)', class: 10, active: true },
-      { id: 'sample-11-1', name: 'Priya Patel (ऑफलाइन डेमो)', class: 11, active: true },
-      { id: 'sample-12-1', name: 'Aditya Singh (ऑफलाइन डेमो)', class: 12, active: true }
+      { id: 'sample-9-1', name: 'Aarav Sharma (Offline Demo)', class: 9, active: true },
+      { id: 'sample-9-2', name: 'Ananya Verma (Offline Demo)', class: 9, active: true },
+      { id: 'sample-10-1', name: 'Rohan Gupta (Offline Demo)', class: 10, active: true },
+      { id: 'sample-11-1', name: 'Priya Patel (Offline Demo)', class: 11, active: true },
+      { id: 'sample-12-1', name: 'Aditya Singh (Offline Demo)', class: 12, active: true }
     ].filter(s => s.class === classNum) as Student[];
   }
 
@@ -60,7 +60,7 @@ export async function getStudentsForClass(classNum: number): Promise<Student[]> 
 
   if (error) {
     console.error('Error fetching students for class:', error);
-    throw new Error(error.message || 'विद्यार्थियों की सूची लोड करने में असमर्थ।');
+    throw new Error(error.message || 'Unable to load student roster.');
   }
 
   return (data || []) as Student[];
@@ -81,14 +81,14 @@ export async function loginStudent(
         token: 'mock-jwt-token-dev-' + Date.now(),
         student: {
           id: studentId,
-          name: 'डेमो विद्यार्थी (कक्षा ' + studentClass + ')',
+          name: 'Demo Student (Class ' + studentClass + ')',
           class: studentClass as 9 | 10 | 11 | 12
         }
       };
       setStoredStudentSession(mockSession);
       return mockSession;
     } else {
-      throw new Error('गलत पिन! डेमो पिन 1234 का उपयोग करें।');
+      throw new Error('Invalid PIN! Use demo PIN 1234.');
     }
   }
 
@@ -107,7 +107,7 @@ export async function loginStudent(
 
   const body = await res.json();
   if (!res.ok) {
-    throw new Error(body.error || 'लॉगिन विफल हुआ।');
+    throw new Error(body.error || 'Login failed.');
   }
 
   const session: StudentSession = {
@@ -126,7 +126,7 @@ export async function getAvailableQuizzes(studentClass: number): Promise<OnlineQ
     return [
       {
         id: 'mock-quiz-1',
-        title: `कक्षा ${studentClass} आवधिक मूल्यांकन (Mock Demo Quiz)`,
+        title: `Class ${studentClass} Periodic Assessment (Mock Demo Quiz)`,
         class: studentClass as 9 | 10 | 11 | 12,
         status: 'published',
         duration_minutes: 20,
@@ -226,7 +226,7 @@ export async function getMyAttempts(studentId: string): Promise<OnlineAttempt[]>
     score: a.score,
     total: a.total,
     time_taken_seconds: a.time_taken_seconds,
-    quiz_title: a.quizzes?.title || 'प्रश्नोत्तरी'
+    quiz_title: a.quizzes?.title || 'Quiz'
   }));
 }
 
@@ -236,7 +236,7 @@ export async function getMyAttempts(studentId: string): Promise<OnlineAttempt[]>
 export async function startOnlineAttempt(quizId: string): Promise<StartAttemptResponse> {
   const session = getStoredStudentSession();
   if (!session) {
-    throw new Error('कृपया पहले लॉगिन करें।');
+    throw new Error('Please login first.');
   }
 
   if (!isSupabaseConfigured) {
@@ -246,7 +246,7 @@ export async function startOnlineAttempt(quizId: string): Promise<StartAttemptRe
       startedAt: new Date().toISOString(),
       durationMinutes: 15,
       negativeMarking: false,
-      title: 'ऑफलाइन मॉक परीक्षा',
+      title: 'Offline Mock Exam',
       questions: [
         {
           id: 'mock-q1',
@@ -255,8 +255,8 @@ export async function startOnlineAttempt(quizId: string): Promise<StartAttemptRe
           chapter: 'General Knowledge',
           type: 'mcq',
           difficulty: 'easy',
-          question: 'भारत की राजधानी क्या है?',
-          options: ['मुंबई', 'नई दिल्ली', 'कोलकाता', 'चेन्नई'],
+          question: 'What is the capital of India?',
+          options: ['Mumbai', 'New Delhi', 'Kolkata', 'Chennai'],
           marks: 1
         }
       ],
@@ -277,7 +277,7 @@ export async function startOnlineAttempt(quizId: string): Promise<StartAttemptRe
 
   const body = await res.json();
   if (!res.ok) {
-    throw new Error(body.error || 'परीक्षा प्रारंभ करने में असमर्थ।');
+    throw new Error(body.error || 'Unable to start exam.');
   }
 
   return body as StartAttemptResponse;
@@ -314,7 +314,7 @@ export async function saveOnlineProgress(
 
   if (!res.ok) {
     const err = await res.json().catch(() => ({}));
-    throw new Error(err.error || 'प्रगति सहेजने में विफल।');
+    throw new Error(err.error || 'Failed to save progress.');
   }
 
   return { saved: true };
@@ -329,7 +329,7 @@ export async function submitOnlineAttempt(
 ): Promise<SubmitAttemptResponse> {
   const session = getStoredStudentSession();
   if (!session) {
-    throw new Error('सत्र समाप्त। कृपया पुनः लॉगिन करें।');
+    throw new Error('Session expired. Please login again.');
   }
 
   if (!isSupabaseConfigured) {
@@ -361,7 +361,7 @@ export async function submitOnlineAttempt(
 
   const body = await res.json();
   if (!res.ok) {
-    throw new Error(body.error || 'सबमिशन में त्रुटि हुई।');
+    throw new Error(body.error || 'Error during submission.');
   }
 
   return body as SubmitAttemptResponse;

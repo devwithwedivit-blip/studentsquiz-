@@ -41,7 +41,7 @@ serve(async (req: Request) => {
     if ((failedCount || 0) >= 5) {
       return new Response(
         JSON.stringify({
-          error: 'सुरक्षा लॉक: 5 बार गलत लॉगिन प्रयास हुए हैं। कृपया 15 मिनट बाद पुनः प्रयास करें। (Too many failed attempts. Try again in 15 minutes.)'
+          error: 'Security Lockout: 5 failed login attempts. Please try again in 15 minutes.'
         }),
         {
           status: 429,
@@ -68,7 +68,7 @@ serve(async (req: Request) => {
       });
 
       return new Response(
-        JSON.stringify({ error: 'ईमेल या पासवर्ड अमान्य है। (Invalid email or password)' }),
+        JSON.stringify({ error: 'Invalid email or password.' }),
         {
           status: 401,
           headers: { ...corsHeaders, 'Content-Type': 'application/json' }
@@ -87,7 +87,7 @@ serve(async (req: Request) => {
 
     if (profError || !profile) {
       return new Response(
-        JSON.stringify({ error: 'उपयोगकर्ता प्रोफ़ाइल नहीं मिली। (Profile not found)' }),
+        JSON.stringify({ error: 'User profile not found.' }),
         {
           status: 404,
           headers: { ...corsHeaders, 'Content-Type': 'application/json' }
@@ -97,7 +97,7 @@ serve(async (req: Request) => {
 
     if (!profile.active) {
       return new Response(
-        JSON.stringify({ error: 'यह खाता निष्क्रिय कर दिया गया है। कृपया व्यवस्थापक से संपर्क करें। (Account deactivated)' }),
+        JSON.stringify({ error: 'This account has been deactivated. Please contact the administrator.' }),
         {
           status: 403,
           headers: { ...corsHeaders, 'Content-Type': 'application/json' }

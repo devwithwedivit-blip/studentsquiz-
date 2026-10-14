@@ -375,7 +375,7 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
               >
                 <div>
                   <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>
-                    Link to Passage (अपठित परिच्छेद से जोड़ें):
+                    Link to Passage:
                   </label>
                   <select
                     value={passageId}
@@ -383,8 +383,8 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
                       setPassageId(e.target.value);
                       if (e.target.value) {
                         const p = relevantPassages.find(rp => rp.id === e.target.value);
-                        if (p && !chapter) {
-                          setChapter(p.kind === 'padya' ? 'अपठित पद्यांश' : 'अपठित गद्यांश');
+                        if (!chapter) {
+                          setChapter(p?.kind === 'padya' ? 'Unseen Poetry' : 'Unseen Prose');
                         }
                       }
                     }}
@@ -393,7 +393,7 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
                     <option value="">None (Standalone Vyakaran question)</option>
                     {relevantPassages.map(p => (
                       <option key={p.id} value={p.id}>
-                        [{p.id}] {p.kind === 'padya' ? 'पद्यांश' : 'गद्यांश'} — {p.wordCount || p.text.split(/\s+/).length} words ({p.theme || 'General'})
+                        [{p.id}] {p.kind === 'padya' ? 'Poetry' : 'Prose'} — {p.wordCount || p.text.split(/\s+/).length} words ({p.theme || 'General'})
                       </option>
                     ))}
                   </select>
@@ -402,7 +402,7 @@ export const QuestionEditorModal: React.FC<QuestionEditorModalProps> = ({
                 {passageId && (
                   <div>
                     <label style={{ fontSize: '0.85rem', fontWeight: 700 }}>
-                      Passage Order (प्रश्न क्रमांक 1-5):
+                      Passage Order (Question 1-5):
                     </label>
                     <select
                       value={passageOrder}

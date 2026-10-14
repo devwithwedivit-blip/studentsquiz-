@@ -139,11 +139,11 @@ export const PassagePanel: React.FC<PassagePanelProps> = ({
               border: '1px solid currentColor'
             }}
           >
-            {isPoem ? '📜 अपठित पद्यांश (काव्यांश)' : '📄 अपठित गद्यांश'}
+            {isPoem ? '📜 Unseen Poetry (Kavyansh)' : '📄 Unseen Prose (Gadyansh)'}
           </span>
           {passageOrder && (
             <span style={{ fontSize: '0.8rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>
-              (प्रश्न {passageOrder}/5)
+              (Question {passageOrder}/5)
             </span>
           )}
         </div>
@@ -154,7 +154,7 @@ export const PassagePanel: React.FC<PassagePanelProps> = ({
             type="button"
             className="paper-btn"
             style={{ padding: '0.2rem 0.5rem', fontSize: '0.78rem', minWidth: '30px' }}
-            title="फ़ॉन्ट छोटा करें (A-)"
+            title="Decrease font size (A-)"
             aria-label="Decrease text size"
             disabled={fontSizeLevel === 0}
             onClick={() => setFontSizeLevel(p => Math.max(0, p - 1))}
@@ -165,7 +165,7 @@ export const PassagePanel: React.FC<PassagePanelProps> = ({
             type="button"
             className="paper-btn"
             style={{ padding: '0.2rem 0.5rem', fontSize: '0.85rem', minWidth: '30px', fontWeight: 700 }}
-            title="फ़ॉन्ट बड़ा करें (A+)"
+            title="Increase font size (A+)"
             aria-label="Increase text size"
             disabled={fontSizeLevel === fontSizes.length - 1}
             onClick={() => setFontSizeLevel(p => Math.min(fontSizes.length - 1, p + 1))}
@@ -185,9 +185,9 @@ export const PassagePanel: React.FC<PassagePanelProps> = ({
                 borderColor: '#eab308'
               }}
               onClick={handleApplyHighlight}
-              title="चयनित शब्द हाइलाइट करें"
+              title="Highlight selected text"
             >
-              ✎ हाइलाइट
+              ✎ Highlight
             </button>
           )}
 
@@ -197,9 +197,9 @@ export const PassagePanel: React.FC<PassagePanelProps> = ({
               className="paper-btn"
               style={{ padding: '0.2rem 0.45rem', fontSize: '0.75rem', color: 'var(--red-pen)' }}
               onClick={handleClearAll}
-              title="सभी हाइलाइट हटाएं"
+              title="Clear all highlights"
             >
-              साफ़ करें
+              Clear
             </button>
           )}
 
@@ -211,7 +211,7 @@ export const PassagePanel: React.FC<PassagePanelProps> = ({
               onClick={onCloseModal}
               aria-label="Close passage modal"
             >
-              ✕ बंद करें
+              ✕ Close
             </button>
           )}
         </div>
@@ -227,8 +227,8 @@ export const PassagePanel: React.FC<PassagePanelProps> = ({
         }}
       >
         {isPoem
-          ? 'निम्नलिखित काव्यांश को ध्यानपूर्वक पढ़कर नीचे दिए गए प्रश्नों के उत्तर दीजिए:'
-          : 'निम्नलिखित गद्यांश को ध्यानपूर्वक पढ़कर नीचे दिए गए प्रश्नों के उत्तर दीजिए:'}
+          ? 'Read the following poem carefully and answer the questions below:'
+          : 'Read the following passage carefully and answer the questions below:'}
       </div>
 
       {/* Main Passage Text */}
@@ -266,10 +266,10 @@ export const PassagePanel: React.FC<PassagePanelProps> = ({
       >
         <span>
           {isPoem
-            ? `पंक्तियाँ: ${passage.text.split('\n').filter(Boolean).length}`
-            : `शब्द संख्या: लगभग ${passage.wordCount || passage.text.trim().split(/\s+/).length} शब्द`}
+            ? `Lines: ${passage.text.split('\n').filter(Boolean).length}`
+            : `Word count: Approx ${passage.wordCount || passage.text.trim().split(/\s+/).length} words`}
         </span>
-        <span style={{ fontSize: '0.72rem' }}>* शब्दों को चुनकर हाइलाइट कर सकते हैं</span>
+        <span style={{ fontSize: '0.72rem' }}>* Select text to highlight words</span>
       </div>
     </div>
   );
@@ -279,7 +279,7 @@ export const PassagePanel: React.FC<PassagePanelProps> = ({
       <div
         role="dialog"
         aria-modal="true"
-        aria-label="अपठित परिच्छेद"
+        aria-label="Unseen Passage"
         style={{
           position: 'fixed',
           top: 0,

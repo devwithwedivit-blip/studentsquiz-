@@ -32,7 +32,7 @@ export function normalizeHindiDevanagari(text: string): string {
     .normalize('NFC')
     .replace(/\u093C/g, '') // Remove Nukta
     .replace(/\u0901/g, '\u0902') // Chandrabindu to Anusvar
-    .replace(/[ङञणनम]\u094D(?=[क-ह])/g, '\u0902'); // Nasals before consonants to Anusvar
+    .replace(/[\u0919\u091E\u0923\u0928\u092E]\u094D(?=[\u0915-\u0939])/g, '\u0902'); // Nasals before consonants to Anusvar
 }
 
 export function normalizeAnswerText(text: string): string {
@@ -40,7 +40,7 @@ export function normalizeAnswerText(text: string): string {
   const cleaned = text
     .normalize('NFC')
     .toLowerCase()
-    .replace(/[.,/#!$%^&*;:{}=\-_`~()?"'’।॥]/g, '')
+    .replace(/[.,/#!$%^&*;:{}=\-_`~()?"'\u2019\u0964\u0965]/g, '')
     .replace(/\s+/g, ' ')
     .trim();
   return normalizeHindiDevanagari(cleaned);

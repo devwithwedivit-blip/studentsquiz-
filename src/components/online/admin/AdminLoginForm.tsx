@@ -20,7 +20,7 @@ export function AdminLoginForm({ onSuccess, onBackToModeSelect }: AdminLoginForm
       const admin = await adminLogin(email, password);
       onSuccess(admin);
     } catch (err: any) {
-      setErrorMessage(err.message || 'एडमिन लॉगिन विफल हुआ।');
+      setErrorMessage(err.message || 'Admin login failed.');
     } finally {
       setSubmitting(false);
     }
@@ -32,7 +32,7 @@ export function AdminLoginForm({ onSuccess, onBackToModeSelect }: AdminLoginForm
         <div style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
           <div style={{ fontSize: '2.8rem', marginBottom: '0.4rem' }}>🔐</div>
           <h2 style={{ fontFamily: 'var(--font-heading)', margin: 0, fontSize: '1.6rem' }}>
-            शिक्षक / व्यवस्थापक पोर्टल
+            Teacher & Admin Portal
           </h2>
           <p style={{ color: 'var(--ink-secondary)', fontSize: '0.88rem', marginTop: '0.3rem' }}>
             Teacher & Administrator Control Center
@@ -59,7 +59,7 @@ export function AdminLoginForm({ onSuccess, onBackToModeSelect }: AdminLoginForm
         <form onSubmit={handleSubmit}>
           <div style={{ marginBottom: '1.2rem' }}>
             <label style={{ display: 'block', fontWeight: 700, fontSize: '0.9rem', marginBottom: '0.4rem' }}>
-              ईमेल (Admin Email):
+              Admin Email:
             </label>
             <input
               type="email"
@@ -80,7 +80,7 @@ export function AdminLoginForm({ onSuccess, onBackToModeSelect }: AdminLoginForm
 
           <div style={{ marginBottom: '1.5rem' }}>
             <label style={{ display: 'block', fontWeight: 700, fontSize: '0.9rem', marginBottom: '0.4rem' }}>
-              पासवर्ड (Password):
+              Password:
             </label>
             <input
               type="password"
@@ -98,7 +98,7 @@ export function AdminLoginForm({ onSuccess, onBackToModeSelect }: AdminLoginForm
               }}
             />
             <div style={{ fontSize: '0.8rem', color: 'var(--ink-secondary)', marginTop: '0.3rem' }}>
-              (डिफ़ॉल्ट परीक्षण: admin@school.com / admin123)
+              (Default test: admin@school.com / admin123)
             </div>
           </div>
 
@@ -116,7 +116,7 @@ export function AdminLoginForm({ onSuccess, onBackToModeSelect }: AdminLoginForm
               justifyContent: 'center'
             }}
           >
-            {submitting ? 'प्रमाणीकरण हो रहा है...' : 'लॉगिन करें (Sign In) →'}
+            {submitting ? 'Authenticating...' : 'Sign In →'}
           </button>
 
           {onBackToModeSelect && (
@@ -132,7 +132,7 @@ export function AdminLoginForm({ onSuccess, onBackToModeSelect }: AdminLoginForm
                 color: 'var(--ink-secondary)'
               }}
             >
-              ← वापस मुख्य मेनू (Back to Home)
+              ← Back to Home
             </button>
           )}
         </form>

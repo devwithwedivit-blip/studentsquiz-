@@ -26,14 +26,14 @@ export function ModeSelector({
   }
 
   const roleBadge = studentSession
-    ? `🎒 विद्यार्थी (कक्षा ${studentSession.student.class})`
+    ? `🎒 Student (Class ${studentSession.student.class})`
     : staffProfile?.role === 'admin'
-    ? '🛡️ एडमिन'
-    : '👨‍🏫 शिक्षक';
+    ? '🛡️ Admin'
+    : '👨‍🏫 Teacher';
 
   const userName = studentSession
     ? studentSession.student.name
-    : staffProfile?.name || 'स्टाफ';
+    : staffProfile?.name || 'Staff';
 
   return (
     <div
@@ -96,7 +96,7 @@ export function ModeSelector({
               className={`paper-btn ${currentMode === 'student' ? 'paper-btn-accent' : ''}`}
               style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'student' ? 700 : 500 }}
             >
-              🎒 कक्षा परीक्षा (Student)
+              🎒 Student Exam
             </button>
             <button
               type="button"
@@ -104,7 +104,7 @@ export function ModeSelector({
               className={`paper-btn ${currentMode === 'practice' ? 'paper-btn-accent' : ''}`}
               style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'practice' ? 700 : 500 }}
             >
-              📖 अभ्यास मोड (Practice)
+              📖 Practice Mode
             </button>
           </>
         )}
@@ -117,7 +117,7 @@ export function ModeSelector({
             className={`paper-btn ${currentMode === 'teacher' ? 'paper-btn-accent' : ''}`}
             style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'teacher' ? 700 : 500 }}
           >
-            👨‍🏫 शिक्षक पोर्टल (Teacher)
+            👨‍🏫 Teacher Portal
           </button>
         )}
 
@@ -129,7 +129,7 @@ export function ModeSelector({
             className={`paper-btn ${currentMode === 'admin' ? 'paper-btn-accent' : ''}`}
             style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'admin' ? 700 : 500 }}
           >
-            🛡️ एडमिन पोर्टल (Admin)
+            🛡️ Admin Portal
           </button>
         )}
 
@@ -139,7 +139,7 @@ export function ModeSelector({
           className={`paper-btn ${currentMode === 'results' ? 'paper-btn-accent' : ''}`}
           style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', fontWeight: currentMode === 'results' ? 700 : 500 }}
         >
-          📊 लाइव परिणाम (Results)
+          📊 Live Results
         </button>
 
         <button
@@ -148,7 +148,7 @@ export function ModeSelector({
           className="paper-btn"
           style={{ padding: '0.35rem 0.8rem', fontSize: '0.85rem', color: '#dc2626', borderColor: '#fca5a5' }}
         >
-          🚪 लॉगआउट
+          🚪 Logout
         </button>
       </div>
     </div>

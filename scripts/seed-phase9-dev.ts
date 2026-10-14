@@ -15,24 +15,24 @@ const PIN_1234_HASH = '$2a$10$wOqZqW6K0jD/fG8jXw6f..Y6D2IeE5Lg/XJsm3N9v4C.gHn7Zf
 
 const devStudents = [
   // Class 9 (3 students)
-  { name: 'आरव शर्मा (Aarav Sharma)', class: 9, pin_hash: PIN_1234_HASH },
-  { name: 'अनन्या वर्मा (Ananya Verma)', class: 9, pin_hash: PIN_1234_HASH },
-  { name: 'ईशान पटेल (Ishaan Patel)', class: 9, pin_hash: PIN_1234_HASH },
+  { name: 'Aarav Sharma', class: 9, pin_hash: PIN_1234_HASH },
+  { name: 'Ananya Verma', class: 9, pin_hash: PIN_1234_HASH },
+  { name: 'Ishaan Patel', class: 9, pin_hash: PIN_1234_HASH },
 
   // Class 10 (3 students)
-  { name: 'रोहन गुप्ता (Rohan Gupta)', class: 10, pin_hash: PIN_1234_HASH },
-  { name: 'स्नेहा राव (Sneha Rao)', class: 10, pin_hash: PIN_1234_HASH },
-  { name: 'दीया पटेल (Diya Patel)', class: 10, pin_hash: PIN_1234_HASH },
+  { name: 'Rohan Gupta', class: 10, pin_hash: PIN_1234_HASH },
+  { name: 'Sneha Rao', class: 10, pin_hash: PIN_1234_HASH },
+  { name: 'Diya Patel', class: 10, pin_hash: PIN_1234_HASH },
 
   // Class 11 (3 students)
-  { name: 'प्रिया पटेल (Priya Patel)', class: 11, pin_hash: PIN_1234_HASH },
-  { name: 'विक्रम जोशी (Vikram Joshi)', class: 11, pin_hash: PIN_1234_HASH },
-  { name: 'विवेक जोशी (Vivek Joshi)', class: 11, pin_hash: PIN_1234_HASH },
+  { name: 'Priya Patel', class: 11, pin_hash: PIN_1234_HASH },
+  { name: 'Vikram Joshi', class: 11, pin_hash: PIN_1234_HASH },
+  { name: 'Vivek Joshi', class: 11, pin_hash: PIN_1234_HASH },
 
   // Class 12 (3 students)
-  { name: 'आदित्य सिंह (Aditya Singh)', class: 12, pin_hash: PIN_1234_HASH },
-  { name: 'मीरा अय्यर (Meera Iyer)', class: 12, pin_hash: PIN_1234_HASH },
-  { name: 'हर्षित मेहता (Harshit Mehta)', class: 12, pin_hash: PIN_1234_HASH }
+  { name: 'Aditya Singh', class: 12, pin_hash: PIN_1234_HASH },
+  { name: 'Meera Iyer', class: 12, pin_hash: PIN_1234_HASH },
+  { name: 'Harshit Mehta', class: 12, pin_hash: PIN_1234_HASH }
 ];
 
 async function seedPhase9Dev() {
@@ -69,7 +69,7 @@ ON CONFLICT (name, class) DO UPDATE SET active = true, pin_hash = '${st.pin_hash
     // Create Test Teacher
     const teacherEmail = 'teacher.class9@school.com';
     const teacherPass = process.env.TEACHER_PASSWORD || 'Teach#Class9!2026';
-    const teacherName = 'श्री शर्मा (Class 9 Teacher)';
+    const teacherName = 'Mr. Sharma (Class 9 Teacher)';
 
     const { data: existingUsers } = await supabase.auth.admin.listUsers();
     const existing = existingUsers?.users?.find(u => u.email?.toLowerCase() === teacherEmail);

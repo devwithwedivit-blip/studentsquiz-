@@ -71,7 +71,7 @@ serve(async (req: Request) => {
 
     // Rejection of duplicate submission
     if (attempt.status !== 'in_progress') {
-      return new Response(JSON.stringify({ error: `परीक्षा पहले ही सबमिट की जा चुकी है (${attempt.status})` }), {
+      return new Response(JSON.stringify({ error: `Exam has already been submitted (${attempt.status})` }), {
         status: 400,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' }
       });

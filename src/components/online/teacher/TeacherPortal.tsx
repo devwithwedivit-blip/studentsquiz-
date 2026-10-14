@@ -85,7 +85,7 @@ export function TeacherPortal({
         setRosterClass(validClasses[0]);
       }
     } catch (err: any) {
-      setActionMessage({ text: err.message || 'डेटा लोड करने में त्रुटि।', type: 'error' });
+      setActionMessage({ text: err.message || 'Error loading data.', type: 'error' });
     } finally {
       setLoading(false);
     }
@@ -113,13 +113,13 @@ export function TeacherPortal({
       setPushSubmitting(true);
       await pushQuizToClass(pushQuizTarget.id, pushSelectedClass);
       setActionMessage({
-        text: `परीक्षा सफलतापूर्वक कक्षा ${pushSelectedClass} के लिए प्रकाशित कर दी गई!`,
+        text: `Exam published successfully for Class ${pushSelectedClass}!`,
         type: 'success'
       });
       setPushQuizTarget(null);
       loadData();
     } catch (err: any) {
-      setActionMessage({ text: err.message || 'परीक्षा प्रकाशित करने में त्रुटि।', type: 'error' });
+      setActionMessage({ text: err.message || 'Error publishing exam.', type: 'error' });
     } finally {
       setPushSubmitting(false);
     }
@@ -129,7 +129,7 @@ export function TeacherPortal({
   const handleUnpublish = async (quizId: string) => {
     try {
       await unpublishTeacherQuiz(quizId);
-      setActionMessage({ text: 'परीक्षा ड्राफ्ट में वापस ले ली गई।', type: 'success' });
+      setActionMessage({ text: 'Exam reverted to draft.', type: 'success' });
       loadData();
     } catch (err: any) {
       setActionMessage({ text: err.message, type: 'error' });
@@ -138,10 +138,10 @@ export function TeacherPortal({
 
   // Handle Delete Quiz
   const handleDeleteQuiz = async (quizId: string, title: string) => {
-    if (window.confirm(`क्या आप निश्चित रूप से परीक्षा "${title}" हटाना चाहते हैं?`)) {
+    if (window.confirm(`Are you sure you want to delete exam "${title}"?`)) {
       try {
         await deleteTeacherQuiz(quizId);
-        setActionMessage({ text: 'ड्राफ्ट परीक्षा हटा दी गई।', type: 'success' });
+        setActionMessage({ text: 'Draft exam deleted.', type: 'success' });
         loadData();
       } catch (err: any) {
         setActionMessage({ text: err.message, type: 'error' });
@@ -151,12 +151,12 @@ export function TeacherPortal({
 
   // Handle Soft-delete Question
   const handleSoftDelete = async (qId: string) => {
-    if (window.confirm('क्या आप इस प्रश्न को हटाना चाहते हैं?')) {
+    if (window.confirm('Are you sure you want to delete this question?')) {
       try {
         await softDeleteTeacherQuestion(qId);
         setRecentlyDeletedQuestionId(qId);
         setActionMessage({
-          text: 'प्रश्न हटा दिया गया। (रीसायकल बिन में स्थानांतरित)',
+          text: 'Question deleted (moved to trash).',
           type: 'success'
         });
         loadData();
@@ -184,11 +184,11 @@ export function TeacherPortal({
   const handleCreateQuizSubmit = async (e: React.FormEvent, directPublish: boolean = false) => {
     e.preventDefault();
     if (!newTitle.trim()) {
-      setActionMessage({ text: 'कृपया परीक्षा का शीर्षक दर्ज करें।', type: 'error' });
+      setActionMessage({ text: 'Please enter an exam title.', type: 'error' });
       return;
     }
     if (selectedQuestionIds.size === 0) {
-      setActionMessage({ text: 'कृपया कम से कम एक प्रश्न चुनें।', type: 'error' });
+      setActionMessage({ text: 'Please select at least one question.', type: 'error' });
       return;
     }
 
@@ -216,8 +216,8 @@ export function TeacherPortal({
 
       setActionMessage({
         text: directPublish
-          ? `परीक्षा सफलतापूर्वक बनाई गई और कक्षा ${newClass} में प्रकाशित कर दी गई!`
-          : 'परीक्षा ड्राफ्ट के रूप में सुरक्षित कर ली गई।',
+          ? `Exam created and published to Class ${newClass} successfully!`
+          : 'Exam saved as draft successfully.',
         type: 'success'
       });
 
@@ -228,7 +228,7 @@ export function TeacherPortal({
       setActiveTab('quizzes');
       loadData();
     } catch (err: any) {
-      setActionMessage({ text: err.message || 'परीक्षा बनाने में त्रुटि।', type: 'error' });
+      setActionMessage({ text: err.message || 'Error creating exam.', type: 'error' });
     } finally {
       setCreateSubmitting(false);
     }
@@ -250,7 +250,7 @@ export function TeacherPortal({
             <div className="bg-emerald-700 p-2 rounded-xl text-xl">👨‍🏫</div>
             <div>
               <h1 className="font-extrabold text-lg sm:text-xl tracking-tight leading-tight">
-                शिक्षक पोर्टल (Teacher Portal)
+                Teacher Portal
               </h1>
               <p className="text-emerald-200 text-xs">
                 {teacher.name} • {teacher.email}
@@ -260,13 +260,13 @@ export function TeacherPortal({
 
           <div className="flex items-center gap-2">
             <div className="hidden sm:flex items-center gap-1.5 mr-2">
-              <span className="text-xs text-emerald-200 font-semibold uppercase">असाइन कक्षाएं:</span>
+              <span className="text-xs text-emerald-200 font-semibold uppercase">Assigned Classes:</span>
               {assignedClasses.map((c) => (
                 <span
                   key={c}
                   className="px-2 py-0.5 bg-emerald-700 text-emerald-100 rounded text-xs font-bold border border-emerald-600"
                 >
-                  कक्षा {c}
+                  Class {c}
                 </span>
               ))}
             </div>
@@ -275,7 +275,7 @@ export function TeacherPortal({
               onClick={onLogout}
               className="px-3.5 py-1.5 bg-emerald-900/80 hover:bg-emerald-950 text-white rounded-lg text-xs font-bold transition-all border border-emerald-700 flex items-center gap-1"
             >
-              <span>🚪</span> बाहर निकलें
+              <span>🚪</span> Sign Out
             </button>
           </div>
         </div>
@@ -291,7 +291,7 @@ export function TeacherPortal({
                   : 'text-emerald-100 hover:bg-emerald-800/80'
               }`}
             >
-              <span>📋</span> मेरी परीक्षाएं ({quizzes.length})
+              <span>📋</span> My Exams ({quizzes.length})
             </button>
             <button
               onClick={() => setActiveTab('create')}
@@ -301,7 +301,7 @@ export function TeacherPortal({
                   : 'text-emerald-100 hover:bg-emerald-800/80'
               }`}
             >
-              <span>➕</span> नई परीक्षा तैयार करें
+              <span>➕</span> Create New Exam
             </button>
             <button
               onClick={() => setActiveTab('my_questions')}
@@ -311,7 +311,7 @@ export function TeacherPortal({
                   : 'text-emerald-100 hover:bg-emerald-800/80'
               }`}
             >
-              <span>✍️</span> मेरे प्रश्न ({myQuestions.length})
+              <span>✍️</span> My Questions ({myQuestions.length})
             </button>
             <button
               onClick={() => setActiveTab('roster')}
@@ -321,7 +321,7 @@ export function TeacherPortal({
                   : 'text-emerald-100 hover:bg-emerald-800/80'
               }`}
             >
-              <span>👥</span> कक्षा विद्यार्थी सूची
+              <span>👥</span> Class Student List
             </button>
           </div>
         </div>
@@ -351,7 +351,7 @@ export function TeacherPortal({
         {loading ? (
           <div className="flex flex-col items-center justify-center py-20 text-stone-500">
             <span className="animate-spin text-3xl mb-2">⏳</span>
-            <span>डेटा लोड हो रहा है...</span>
+            <span>Loading data...</span>
           </div>
         ) : (
           <>
@@ -360,28 +360,28 @@ export function TeacherPortal({
               <div className="space-y-6">
                 <div className="flex flex-wrap items-center justify-between gap-4 bg-white p-4 rounded-xl border border-stone-200 shadow-sm">
                   <div>
-                    <h2 className="text-lg font-bold text-stone-900">आपकी तैयार की गई परीक्षाएं</h2>
+                    <h2 className="text-lg font-bold text-stone-900">Your Created Exams</h2>
                     <p className="text-xs text-stone-500">
-                      यहां आप अपनी ड्राफ्ट परीक्षाओं को कक्षा में भेज सकते हैं या परिणाम देख सकते हैं
+                      Publish your draft exams to classes or view results here
                     </p>
                   </div>
                   <button
                     onClick={() => setActiveTab('create')}
                     className="px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white rounded-lg text-sm font-bold shadow-sm transition-all flex items-center gap-1.5"
                   >
-                    <span>➕</span> नई परीक्षा बनाएं
+                    <span>➕</span> Create Exam
                   </button>
                 </div>
 
                 {quizzes.length === 0 ? (
                   <div className="bg-white rounded-xl border border-stone-200 p-12 text-center text-stone-500">
-                    <p className="text-lg font-bold text-stone-700 mb-1">अभी तक कोई परीक्षा नहीं बनाई गई है</p>
-                    <p className="text-xs mb-4">कक्षा के लिए पहली परीक्षा तैयार करने के लिए नीचे क्लिक करें।</p>
+                    <p className="text-lg font-bold text-stone-700 mb-1">No exams created yet</p>
+                    <p className="text-xs mb-4">Click below to create your first exam for the class.</p>
                     <button
                       onClick={() => setActiveTab('create')}
                       className="px-4 py-2 bg-emerald-700 text-white rounded-lg text-sm font-bold shadow hover:bg-emerald-800"
                     >
-                      नई परीक्षा बनाएं
+                      Create Exam
                     </button>
                   </div>
                 ) : (
@@ -394,7 +394,7 @@ export function TeacherPortal({
                         <div>
                           <div className="flex items-center justify-between gap-2 mb-2">
                             <span className="px-2.5 py-0.5 bg-indigo-50 text-indigo-800 font-bold text-xs rounded border border-indigo-200">
-                              कक्षा {quiz.class}
+                              Class {quiz.class}
                             </span>
                             <span
                               className={`px-2.5 py-0.5 text-xs font-bold rounded ${
@@ -405,7 +405,7 @@ export function TeacherPortal({
                                   : 'bg-amber-100 text-amber-800 border border-amber-300'
                               }`}
                             >
-                              {quiz.status === 'published' ? '🟢 लाइव / प्रकाशित' : quiz.status === 'closed' ? '⚫ समाप्त' : '🟡 ड्राफ्ट'}
+                              {quiz.status === 'published' ? '🟢 Live / Published' : quiz.status === 'closed' ? '⚫ Closed' : '🟡 Draft'}
                             </span>
                           </div>
 
@@ -415,10 +415,10 @@ export function TeacherPortal({
                           )}
 
                           <div className="grid grid-cols-2 gap-2 text-xs text-stone-500 py-2 border-t border-stone-100">
-                            <div>⏱️ {quiz.duration_minutes} मिनट</div>
-                            <div>📝 {quiz.question_count || 0} प्रश्न</div>
-                            <div>🎯 -ve: {quiz.negative_marking ? 'हाँ' : 'नहीं'}</div>
-                            <div>🔀 शफ़ल: {quiz.shuffle ? 'हाँ' : 'नहीं'}</div>
+                            <div>⏱️ {quiz.duration_minutes} mins</div>
+                            <div>📝 {quiz.question_count || 0} questions</div>
+                            <div>🎯 -ve: {quiz.negative_marking ? 'Yes' : 'No'}</div>
+                            <div>🔀 Shuffle: {quiz.shuffle ? 'Yes' : 'No'}</div>
                           </div>
                         </div>
 
@@ -432,13 +432,13 @@ export function TeacherPortal({
                                 }}
                                 className="flex-1 py-1.5 bg-emerald-600 hover:bg-emerald-700 text-white rounded text-xs font-bold transition shadow-sm"
                               >
-                                🚀 कक्षा में भेजें (Push)
+                                🚀 Push to Class
                               </button>
                               <button
                                 onClick={() => handleDeleteQuiz(quiz.id, quiz.title)}
                                 className="px-2.5 py-1.5 bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 rounded text-xs font-bold transition"
                               >
-                                हटाएं
+                                Delete
                               </button>
                             </>
                           ) : (
@@ -447,13 +447,13 @@ export function TeacherPortal({
                                 onClick={() => handleViewAttempts(quiz)}
                                 className="flex-1 py-1.5 bg-indigo-50 hover:bg-indigo-100 text-indigo-800 border border-indigo-200 rounded text-xs font-bold transition"
                               >
-                                📊 परिणाम देखें
+                                📊 View Results
                               </button>
                               <button
                                 onClick={() => handleUnpublish(quiz.id)}
                                 className="px-2.5 py-1.5 bg-amber-50 hover:bg-amber-100 text-amber-800 border border-amber-200 rounded text-xs font-bold transition"
                               >
-                                वापस ड्राफ्ट
+                                Revert to Draft
                               </button>
                             </>
                           )}
@@ -469,9 +469,9 @@ export function TeacherPortal({
             {activeTab === 'create' && (
               <div className="bg-white rounded-xl border border-stone-200 shadow-sm p-6 max-w-4xl mx-auto">
                 <div className="mb-6 border-b border-stone-200 pb-4">
-                  <h2 className="text-xl font-bold text-stone-900">नई परीक्षा तैयार करें (Quiz Creator)</h2>
+                  <h2 className="text-xl font-bold text-stone-900">Create New Exam (Quiz Creator)</h2>
                   <p className="text-xs text-stone-500 mt-1">
-                    अपनी असाइन की गई कक्षाओं के लिए प्रश्नोत्तरी बनाएं और प्रश्न बैंक से प्रश्न चुनें
+                    Create exams for your assigned classes and select questions from the question bank
                   </p>
                 </div>
 
@@ -480,20 +480,20 @@ export function TeacherPortal({
                   <div className="grid grid-cols-1 sm:grid-cols-3 gap-4">
                     <div className="sm:col-span-2">
                       <label className="block text-xs font-bold text-stone-700 uppercase mb-1">
-                        परीक्षा का शीर्षक *
+                        Exam Title *
                       </label>
                       <input
                         type="text"
                         value={newTitle}
                         onChange={(e) => setNewTitle(e.target.value)}
-                        placeholder="उदा: कक्षा 9 - विज्ञान आवधिक टेस्ट"
+                        placeholder="e.g. Class 9 - Science Periodic Test"
                         className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm font-medium"
                       />
                     </div>
 
                     <div>
                       <label className="block text-xs font-bold text-stone-700 uppercase mb-1">
-                        कक्षा (असाइन की गई) *
+                        Class (Assigned) *
                       </label>
                       <select
                         value={newClass}
@@ -506,7 +506,7 @@ export function TeacherPortal({
                       >
                         {assignedClasses.map((cls) => (
                           <option key={cls} value={cls}>
-                            कक्षा {cls}
+                            Class {cls}
                           </option>
                         ))}
                       </select>
@@ -516,13 +516,13 @@ export function TeacherPortal({
                   {/* Description */}
                   <div>
                     <label className="block text-xs font-bold text-stone-700 uppercase mb-1">
-                      विवरण / निर्देश (वैकल्पिक)
+                      Description / Instructions (Optional)
                     </label>
                     <textarea
                       value={newDescription}
                       onChange={(e) => setNewDescription(e.target.value)}
                       rows={2}
-                      placeholder="विद्यार्थियों के लिए आवश्यक निर्देश..."
+                      placeholder="Instructions for students..."
                       className="w-full px-3.5 py-2 rounded-lg border border-stone-300 focus:outline-none focus:ring-2 focus:ring-emerald-500 text-sm"
                     />
                   </div>
@@ -530,7 +530,7 @@ export function TeacherPortal({
                   {/* Settings Grid */}
                   <div className="grid grid-cols-2 sm:grid-cols-4 gap-4 p-4 bg-stone-50 rounded-xl border border-stone-200">
                     <div>
-                      <label className="block text-xs font-bold text-stone-700 mb-1">अवधि (मिनट)</label>
+                      <label className="block text-xs font-bold text-stone-700 mb-1">Duration (Minutes)</label>
                       <input
                         type="number"
                         min={5}
@@ -541,15 +541,15 @@ export function TeacherPortal({
                       />
                     </div>
                     <div>
-                      <label className="block text-xs font-bold text-stone-700 mb-1">उत्तर दिखाना</label>
+                      <label className="block text-xs font-bold text-stone-700 mb-1">Show Answers</label>
                       <select
                         value={newShowAnswers}
                         onChange={(e) => setNewShowAnswers(e.target.value as any)}
                         className="w-full px-3 py-1.5 rounded border border-stone-300 text-xs"
                       >
-                        <option value="submit">सबमिट करते ही</option>
-                        <option value="close">परीक्षा समाप्त होने पर</option>
-                        <option value="never">कभी नहीं</option>
+                        <option value="submit">Immediately on Submit</option>
+                        <option value="close">After Exam Window Closes</option>
+                        <option value="never">Never</option>
                       </select>
                     </div>
                     <div className="flex items-center gap-2 pt-5">
@@ -561,7 +561,7 @@ export function TeacherPortal({
                         className="rounded text-emerald-600"
                       />
                       <label htmlFor="neg-check" className="text-xs font-bold text-stone-700">
-                        नेगेटिव मार्किंग (-0.25)
+                        Negative Marking (-0.25)
                       </label>
                     </div>
                     <div className="flex items-center gap-2 pt-5">
@@ -573,7 +573,7 @@ export function TeacherPortal({
                         className="rounded text-emerald-600"
                       />
                       <label htmlFor="shuf-check" className="text-xs font-bold text-stone-700">
-                        प्रश्नों को शफ़ल करें
+                        Shuffle Questions
                       </label>
                     </div>
                   </div>
@@ -583,10 +583,10 @@ export function TeacherPortal({
                     <div className="flex flex-wrap items-center justify-between gap-2 mb-3">
                       <div>
                         <h3 className="font-bold text-stone-800 text-sm">
-                          प्रश्न चुनें (कक्षा {newClass} के उपलब्ध प्रश्न)
+                          Select Questions (Available for Class {newClass})
                         </h3>
                         <p className="text-xs text-stone-500">
-                          चुने गए: <strong className="text-emerald-700">{selectedQuestionIds.size} प्रश्न</strong>
+                          Selected: <strong className="text-emerald-700">{selectedQuestionIds.size} questions</strong>
                         </p>
                       </div>
 
@@ -596,12 +596,12 @@ export function TeacherPortal({
                           onChange={(e) => setBankSubjectFilter(e.target.value)}
                           className="px-2.5 py-1 rounded border border-stone-300 text-xs"
                         >
-                          <option value="all">सभी विषय</option>
-                          <option value="maths">गणित</option>
-                          <option value="gk">सामान्य ज्ञान/विज्ञान</option>
-                          <option value="hindi">हिंदी</option>
-                          <option value="english">अंग्रेजी</option>
-                          <option value="cs">कम्प्यूटर साइंस</option>
+                          <option value="all">All Subjects</option>
+                          <option value="maths">Mathematics</option>
+                          <option value="gk">Science / GK</option>
+                          <option value="hindi">Hindi</option>
+                          <option value="english">English</option>
+                          <option value="cs">Computer Science</option>
                         </select>
                         <button
                           type="button"
@@ -612,14 +612,14 @@ export function TeacherPortal({
                           }}
                           className="px-2.5 py-1 bg-stone-200 hover:bg-stone-300 rounded text-xs font-semibold"
                         >
-                          सभी चुनें
+                          Select All
                         </button>
                         <button
                           type="button"
                           onClick={() => setSelectedQuestionIds(new Set())}
                           className="px-2.5 py-1 bg-stone-200 hover:bg-stone-300 rounded text-xs font-semibold"
                         >
-                          हटाएं
+                          Clear
                         </button>
                       </div>
                     </div>
@@ -627,7 +627,7 @@ export function TeacherPortal({
                     <div className="max-h-72 overflow-y-auto divide-y divide-stone-100 border border-stone-100 rounded-lg">
                       {filteredAvailableQuestions.length === 0 ? (
                         <p className="text-xs text-stone-500 p-4 text-center">
-                          इस कक्षा और विषय के लिए कोई प्रश्न नहीं मिला।
+                          No questions found for this class and subject.
                         </p>
                       ) : (
                         filteredAvailableQuestions.map((q) => {
@@ -676,7 +676,7 @@ export function TeacherPortal({
                       disabled={createSubmitting}
                       className="px-5 py-2.5 bg-stone-200 hover:bg-stone-300 text-stone-800 font-bold rounded-lg text-sm transition"
                     >
-                      Draft के रूप में सहेजें
+                      Save as Draft
                     </button>
                     <button
                       type="button"
@@ -684,7 +684,7 @@ export function TeacherPortal({
                       disabled={createSubmitting}
                       className="px-5 py-2.5 bg-emerald-700 hover:bg-emerald-800 text-white font-bold rounded-lg text-sm shadow-md transition flex items-center gap-1.5"
                     >
-                      <span>🚀</span> कक्षा {newClass} में सीधे प्रकाशित करें
+                      <span>🚀</span> Publish Directly to Class {newClass}
                     </button>
                   </div>
                 </form>
@@ -696,17 +696,17 @@ export function TeacherPortal({
               <div className="space-y-4">
                 <div className="flex items-center justify-between bg-white p-4 rounded-xl border border-stone-200">
                   <div>
-                    <h2 className="text-lg font-bold text-stone-900">मेरे द्वारा जोड़े गए प्रश्न</h2>
+                    <h2 className="text-lg font-bold text-stone-900">Questions Added by Me</h2>
                     <p className="text-xs text-stone-500">
-                      यहां आप अपने बनाए गए प्रश्नों को संपादित कर सकते हैं या सुरक्षित रूप से हटा सकते हैं
+                      View, edit, or delete questions you created
                     </p>
                   </div>
                 </div>
 
                 {myQuestions.length === 0 ? (
                   <div className="bg-white rounded-xl border border-stone-200 p-12 text-center text-stone-500">
-                    <p className="text-base font-bold text-stone-700 mb-1">आपने अभी तक कोई प्रश्न नहीं जोड़ा है</p>
-                    <p className="text-xs">प्रश्नोत्तरी बनाते समय आप प्रश्न बैंक के मौजूदा 3,200+ प्रश्नों का उपयोग कर सकते हैं।</p>
+                    <p className="text-base font-bold text-stone-700 mb-1">You haven't added any questions yet</p>
+                    <p className="text-xs">You can use any of the 3,200+ question bank questions when creating exams.</p>
                   </div>
                 ) : (
                   <div className="divide-y divide-stone-200 bg-white rounded-xl border border-stone-200 overflow-hidden">
@@ -715,7 +715,7 @@ export function TeacherPortal({
                         <div className="space-y-1 flex-1">
                           <div className="flex items-center gap-2">
                             <span className="px-2 py-0.5 bg-indigo-50 text-indigo-800 rounded font-bold text-[10px]">
-                              कक्षा {q.class}
+                              Class {q.class}
                             </span>
                             <span className="px-2 py-0.5 bg-stone-100 text-stone-700 rounded font-semibold text-[10px] uppercase">
                               {q.subject}
@@ -725,7 +725,7 @@ export function TeacherPortal({
                           <p className="font-bold text-stone-900 text-sm">{q.question}</p>
                           {q.explanation && (
                             <p className="text-xs text-stone-500 bg-stone-50 p-2 rounded">
-                              💡 व्याख्या: {q.explanation}
+                              💡 Explanation: {q.explanation}
                             </p>
                           )}
                         </div>
@@ -735,7 +735,7 @@ export function TeacherPortal({
                             onClick={() => handleSoftDelete(q.id)}
                             className="px-3 py-1.5 bg-red-50 hover:bg-red-100 text-red-700 border border-red-200 rounded text-xs font-bold transition"
                           >
-                            हटाएं
+                            Delete
                           </button>
                         </div>
                       </div>
@@ -750,12 +750,12 @@ export function TeacherPortal({
               <div className="space-y-4">
                 <div className="flex flex-wrap items-center justify-between gap-4 bg-white p-4 rounded-xl border border-stone-200">
                   <div>
-                    <h2 className="text-lg font-bold text-stone-900">विद्यार्थी सूची एवं स्थिति</h2>
-                    <p className="text-xs text-stone-500">केवल आपकी असाइन कक्षाओं के विद्यार्थी प्रदर्शित हैं</p>
+                    <h2 className="text-lg font-bold text-stone-900">Student List & Status</h2>
+                    <p className="text-xs text-stone-500">Students from your assigned classes only</p>
                   </div>
 
                   <div className="flex items-center gap-2">
-                    <span className="text-xs font-bold text-stone-700">कक्षा चुनें:</span>
+                    <span className="text-xs font-bold text-stone-700">Select Class:</span>
                     <select
                       value={rosterClass}
                       onChange={(e) => setRosterClass(Number(e.target.value) as 9 | 10 | 11 | 12)}
@@ -763,7 +763,7 @@ export function TeacherPortal({
                     >
                       {assignedClasses.map((cls) => (
                         <option key={cls} value={cls}>
-                          कक्षा {cls}
+                          Class {cls}
                         </option>
                       ))}
                     </select>
@@ -772,17 +772,17 @@ export function TeacherPortal({
 
                 <div className="bg-white rounded-xl border border-stone-200 overflow-hidden shadow-sm">
                   {rosterLoading ? (
-                    <div className="p-8 text-center text-stone-500">लोड हो रहा है...</div>
+                    <div className="p-8 text-center text-stone-500">Loading...</div>
                   ) : rosterStudents.length === 0 ? (
-                    <div className="p-8 text-center text-stone-500">इस कक्षा में कोई विद्यार्थी पंजीकृत नहीं है।</div>
+                    <div className="p-8 text-center text-stone-500">No students enrolled in this class.</div>
                   ) : (
                     <table className="w-full text-left text-xs sm:text-sm">
                       <thead className="bg-stone-50 border-b border-stone-200 text-stone-700 uppercase font-bold text-[11px]">
                         <tr>
-                          <th className="p-3">क्रमांक / ID</th>
-                          <th className="p-3">विद्यार्थी का नाम</th>
-                          <th className="p-3">कक्षा</th>
-                          <th className="p-3">स्थिति</th>
+                          <th className="p-3">Roll No / ID</th>
+                          <th className="p-3">Student Name</th>
+                          <th className="p-3">Class</th>
+                          <th className="p-3">Status</th>
                         </tr>
                       </thead>
                       <tbody className="divide-y divide-stone-100">
@@ -790,7 +790,7 @@ export function TeacherPortal({
                           <tr key={st.id} className="hover:bg-stone-50">
                             <td className="p-3 font-mono text-stone-500">{st.id}</td>
                             <td className="p-3 font-bold text-stone-900">{st.name}</td>
-                            <td className="p-3 font-semibold text-stone-700">कक्षा {st.class}</td>
+                            <td className="p-3 font-semibold text-stone-700">Class {st.class}</td>
                             <td className="p-3">
                               <span
                                 className={`px-2 py-0.5 rounded text-[10px] font-bold ${
@@ -799,7 +799,7 @@ export function TeacherPortal({
                                     : 'bg-red-100 text-red-800'
                                 }`}
                               >
-                                {st.active ? 'सक्रिय (Active)' : 'निष्क्रिय'}
+                                {st.active ? 'Active' : 'Inactive'}
                               </span>
                             </td>
                           </tr>
@@ -819,14 +819,14 @@ export function TeacherPortal({
         <div className="fixed inset-0 z-50 bg-stone-900/60 backdrop-blur-sm flex items-center justify-center p-4">
           <div className="bg-white rounded-2xl max-w-md w-full shadow-2xl border-2 border-emerald-400 overflow-hidden">
             <div className="bg-emerald-700 text-white p-5">
-              <h3 className="text-lg font-bold">🚀 परीक्षा को कक्षा में भेजें</h3>
+              <h3 className="text-lg font-bold">🚀 Push Exam to Class</h3>
               <p className="text-emerald-100 text-xs mt-1">"{pushQuizTarget.title}"</p>
             </div>
 
             <div className="p-6 space-y-4">
               <div>
                 <label className="block text-xs font-bold text-stone-700 uppercase mb-1">
-                  लक्ष्य कक्षा चुनें (केवल असाइन की गई कक्षाएं)
+                  Select Target Class (Assigned classes only)
                 </label>
                 <select
                   value={pushSelectedClass}
@@ -835,14 +835,14 @@ export function TeacherPortal({
                 >
                   {assignedClasses.map((cls) => (
                     <option key={cls} value={cls}>
-                      कक्षा {cls}
+                      Class {cls}
                     </option>
                   ))}
                 </select>
               </div>
 
               <div className="p-3 bg-amber-50 border border-amber-200 text-amber-900 text-xs rounded-lg">
-                ⚠️ ध्यान दें: कक्षा में प्रकाशित करने के बाद, यह परीक्षा कक्षा {pushSelectedClass} के सभी विद्यार्थियों के डैशबोर्ड पर दिखाई देगी।
+                ⚠️ Note: Once published, this exam will appear on the dashboard of all students in Class {pushSelectedClass}.
               </div>
 
               <div className="flex gap-2 justify-end pt-3">
@@ -851,7 +851,7 @@ export function TeacherPortal({
                   onClick={() => setPushQuizTarget(null)}
                   className="px-4 py-2 bg-stone-200 hover:bg-stone-300 text-stone-800 font-bold rounded-lg text-xs"
                 >
-                  रद्द करें
+                  Cancel
                 </button>
                 <button
                   type="button"
@@ -859,7 +859,7 @@ export function TeacherPortal({
                   disabled={pushSubmitting}
                   className="px-4 py-2 bg-emerald-700 hover:bg-emerald-800 text-white font-bold rounded-lg text-xs shadow"
                 >
-                  {pushSubmitting ? 'भेजा जा रहा है...' : 'अभी प्रकाशित करें'}
+                  {pushSubmitting ? 'Publishing...' : 'Publish Now'}
                 </button>
               </div>
             </div>
@@ -873,7 +873,7 @@ export function TeacherPortal({
           <div className="bg-white rounded-2xl max-w-2xl w-full shadow-2xl border border-stone-300 max-h-[85vh] flex flex-col overflow-hidden">
             <div className="bg-indigo-900 text-white p-5 flex items-center justify-between">
               <div>
-                <h3 className="text-base font-bold">📊 परीक्षा परिणाम</h3>
+                <h3 className="text-base font-bold">📊 Exam Results</h3>
                 <p className="text-indigo-200 text-xs">{viewAttemptsQuiz.title}</p>
               </div>
               <button
@@ -886,19 +886,19 @@ export function TeacherPortal({
 
             <div className="p-4 overflow-y-auto flex-1">
               {attemptsLoading ? (
-                <div className="text-center py-8 text-stone-500">परिणाम लोड हो रहे हैं...</div>
+                <div className="text-center py-8 text-stone-500">Loading results...</div>
               ) : attemptsList.length === 0 ? (
                 <div className="text-center py-8 text-stone-500">
-                  अभी तक किसी विद्यार्थी ने यह परीक्षा सबमिट नहीं की है।
+                  No student has submitted this exam yet.
                 </div>
               ) : (
                 <table className="w-full text-xs sm:text-sm">
                   <thead className="bg-stone-50 border-b border-stone-200 text-stone-600 font-bold">
                     <tr>
-                      <th className="p-2.5 text-left">विद्यार्थी का नाम</th>
-                      <th className="p-2.5 text-center">प्राप्तांक</th>
-                      <th className="p-2.5 text-center">प्रतिशत</th>
-                      <th className="p-2.5 text-right">समय</th>
+                      <th className="p-2.5 text-left">Student Name</th>
+                      <th className="p-2.5 text-center">Score</th>
+                      <th className="p-2.5 text-center">Percentage</th>
+                      <th className="p-2.5 text-right">Time</th>
                     </tr>
                   </thead>
                   <tbody className="divide-y divide-stone-100">
@@ -906,7 +906,7 @@ export function TeacherPortal({
                       const pct = att.total && att.total > 0 ? Math.round(((att.score || 0) / att.total) * 100) : 0;
                       return (
                         <tr key={att.id} className="hover:bg-stone-50">
-                          <td className="p-2.5 font-bold text-stone-900">{att.student_name || 'विद्यार्थी'}</td>
+                          <td className="p-2.5 font-bold text-stone-900">{att.student_name || 'Student'}</td>
                           <td className="p-2.5 text-center font-bold text-indigo-700">
                             {att.score ?? '-'} / {att.total ?? '-'}
                           </td>

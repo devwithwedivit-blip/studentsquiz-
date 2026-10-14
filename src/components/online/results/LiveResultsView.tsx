@@ -77,7 +77,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
       const detail = await getAttemptDetail(attemptId);
       setSelectedAttemptDetail(detail);
     } catch (err: any) {
-      alert(err.message || 'विवरण लोड करने में असमर्थ।');
+      alert(err.message || 'Unable to load details.');
     } finally {
       setLoadingDetail(false);
     }
@@ -101,9 +101,9 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
       <div style={{ padding: '2rem', backgroundColor: '#fff', minHeight: '100vh' }}>
         <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1.5rem' }}>
           <div>
-            <h2 style={{ margin: 0 }}>कक्षा परिणाम पत्रक (Class Result Sheet)</h2>
+            <h2 style={{ margin: 0 }}>Class Result Sheet</h2>
             <p style={{ margin: '0.3rem 0', color: '#555' }}>
-              {overview.quiz.title} • कक्षा {overview.quiz.class}
+              {overview.quiz.title} • Class {overview.quiz.class}
             </p>
           </div>
           <div style={{ display: 'flex', gap: '0.8rem' }}>
@@ -112,14 +112,14 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
               className="paper-btn paper-btn-accent"
               style={{ padding: '0.4rem 0.8rem' }}
             >
-              प्रिंट निकालें (Print)
+              Print
             </button>
             <button
               onClick={() => setIsPrintMode(false)}
               className="paper-btn"
               style={{ padding: '0.4rem 0.8rem' }}
             >
-              वापस (Back)
+              Back
             </button>
           </div>
         </div>
@@ -127,13 +127,13 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
         <table style={{ width: '100%', borderCollapse: 'collapse', border: '1px solid #ccc', fontSize: '0.9rem' }}>
           <thead>
             <tr style={{ backgroundColor: '#f3f4f6', borderBottom: '2px solid #999' }}>
-              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>क्रमांक</th>
-              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>विद्यार्थी नाम</th>
-              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>कक्षा</th>
-              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>स्थिति</th>
-              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>प्राप्तांक</th>
-              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>प्रतिशत (%)</th>
-              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>लिया गया समय</th>
+              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>S.No.</th>
+              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>Student Name</th>
+              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>Class</th>
+              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>Status</th>
+              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>Score</th>
+              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>Percentage (%)</th>
+              <th style={{ padding: '0.5rem', border: '1px solid #ccc' }}>Time Taken</th>
             </tr>
           </thead>
           <tbody>
@@ -178,10 +178,10 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
       >
         <div>
           <h3 style={{ margin: 0, fontFamily: 'var(--font-heading)', fontSize: '1.3rem' }}>
-            📊 लाइव परीक्षा परिणाम (Realtime Results)
+            📊 Live Exam Results (Realtime)
           </h3>
           <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginTop: '0.4rem' }}>
-            <span style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)' }}>परीक्षा चुनें:</span>
+            <span style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)' }}>Select Exam:</span>
             <select
               value={selectedQuizId}
               onChange={e => setSelectedQuizId(e.target.value)}
@@ -200,12 +200,12 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
         <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap' }}>
           {onBackToAdmin && (
             <button onClick={onBackToAdmin} className="paper-btn" style={{ padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              ← एडमिन पोर्टल (Admin)
+              ← Admin Portal
             </button>
           )}
           {onBackToHome && (
             <button onClick={onBackToHome} className="paper-btn" style={{ padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
-              🏠 मुख्य मेनू
+              🏠 Home
             </button>
           )}
           <button
@@ -214,7 +214,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
             className="paper-btn"
             style={{ padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}
           >
-            📥 CSV डाउनलोड
+            📥 Download CSV
           </button>
           <button
             onClick={() => setIsPrintMode(true)}
@@ -222,14 +222,14 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
             className="paper-btn paper-btn-accent"
             style={{ padding: '0.4rem 0.8rem', fontSize: '0.85rem', fontWeight: 700 }}
           >
-            🖨️ परिणाम पत्रक
+            🖨️ Result Sheet
           </button>
         </div>
       </div>
 
       {loading || !overview ? (
         <div className="notebook-sheet" style={{ padding: '3rem', textAlign: 'center' }}>
-          <p style={{ color: 'var(--ink-secondary)' }}>लाइव डेटा लोड हो रहा है...</p>
+          <p style={{ color: 'var(--ink-secondary)' }}>Loading live data...</p>
         </div>
       ) : (
         <div>
@@ -260,20 +260,20 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
               />
               <div>
                 <div style={{ fontSize: '1.25rem', fontWeight: 800, color: '#065f46' }}>
-                  {overview.submittedCount} of {overview.totalStudentsInClass || overview.attempts.length} सबमिट हुए (
+                  {overview.submittedCount} of {overview.totalStudentsInClass || overview.attempts.length} submitted (
                   {overview.totalStudentsInClass > 0
                     ? Math.round((overview.submittedCount / overview.totalStudentsInClass) * 100)
                     : 0}
                   %)
                 </div>
                 <div style={{ fontSize: '0.85rem', color: '#047857' }}>
-                  {overview.inProgressCount} विद्यार्थी अभी परीक्षा दे रहे हैं • {overview.timedOutCount} समय समाप्त
+                  {overview.inProgressCount} students taking exam • {overview.timedOutCount} timed out
                 </div>
               </div>
             </div>
 
             <div style={{ fontSize: '0.8rem', color: '#047857', fontWeight: 600 }}>
-              ⚡ Supabase Realtime से स्वतः अपडेट
+              ⚡ Live auto-updates via Supabase Realtime
             </div>
           </div>
 
@@ -290,7 +290,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
               className="notebook-sheet"
               style={{ padding: '1.2rem', textAlign: 'center', borderTop: '4px solid var(--accent-color)' }}
             >
-              <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>औसत प्राप्तांक</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>Average Score</div>
               <div style={{ fontSize: '2rem', fontWeight: 800, color: 'var(--accent-color)', marginTop: '0.2rem' }}>
                 {overview.averageScore} <span style={{ fontSize: '1rem', color: 'var(--ink-secondary)' }}>/ {overview.maxPossibleScore}</span>
               </div>
@@ -300,7 +300,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
               className="notebook-sheet"
               style={{ padding: '1.2rem', textAlign: 'center', borderTop: '4px solid #059669' }}
             >
-              <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>सर्वोच्च अंक (Highest)</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>Highest Score</div>
               <div style={{ fontSize: '2rem', fontWeight: 800, color: '#059669', marginTop: '0.2rem' }}>
                 {overview.highestScore}
               </div>
@@ -310,7 +310,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
               className="notebook-sheet"
               style={{ padding: '1.2rem', textAlign: 'center', borderTop: '4px solid #dc2626' }}
             >
-              <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>न्यूनतम अंक (Lowest)</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>Lowest Score</div>
               <div style={{ fontSize: '2rem', fontWeight: 800, color: '#dc2626', marginTop: '0.2rem' }}>
                 {overview.lowestScore}
               </div>
@@ -320,7 +320,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
               className="notebook-sheet"
               style={{ padding: '1.2rem', textAlign: 'center', borderTop: '4px solid #d97706' }}
             >
-              <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>औसत समय</div>
+              <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', fontWeight: 600 }}>Average Time</div>
               <div style={{ fontSize: '1.8rem', fontWeight: 800, color: 'var(--ink-primary)', marginTop: '0.2rem' }}>
                 {Math.round(overview.averageTimeSeconds / 60)} min
               </div>
@@ -330,7 +330,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
           {/* Score Distribution Visual Bar */}
           <div className="notebook-sheet" style={{ padding: '1.4rem', marginBottom: '1.5rem' }}>
             <h4 style={{ margin: '0 0 1rem 0', fontFamily: 'var(--font-heading)', fontSize: '1.05rem' }}>
-              📊 अंक वितरण (Score Range Distribution)
+              📊 Score Range Distribution
             </h4>
 
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '1rem' }}>
@@ -371,7 +371,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
                       />
                     </div>
                     <div style={{ fontSize: '0.9rem', fontWeight: 700, marginTop: '0.4rem' }}>
-                      {count} विद्यार्थी ({pct}%)
+                      {count} students ({pct}%)
                     </div>
                   </div>
                 );
@@ -382,20 +382,20 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
           {/* Student Submissions Table */}
           <div className="notebook-sheet" style={{ padding: '1.5rem' }}>
             <h4 style={{ margin: '0 0 1rem 0', fontFamily: 'var(--font-heading)', fontSize: '1.15rem' }}>
-              विद्यार्थी सबमिशन सूची (Student Attempt Submissions)
+              Student Attempt Submissions
             </h4>
 
             <div style={{ overflowX: 'auto' }}>
               <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.9rem' }}>
                 <thead>
                   <tr style={{ borderBottom: '2px solid var(--paper-line)', color: 'var(--ink-secondary)' }}>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>विद्यार्थी नाम</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>स्थिति</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>प्राप्तांक</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>प्रतिशत</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>समय</th>
-                    <th style={{ padding: '0.7rem 0.5rem' }}>सबमिट समय</th>
-                    <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>विवरण</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Student Name</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Status</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Score</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Percentage</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Time</th>
+                    <th style={{ padding: '0.7rem 0.5rem' }}>Submitted At</th>
+                    <th style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>Details</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -417,7 +417,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
                               color: isSub ? '#065f46' : isProg ? '#92400e' : '#991b1b'
                             }}
                           >
-                            {isSub ? '✓ सबमिट' : isProg ? '⏳ प्रगति पर' : 'समय समाप्त'}
+                            {isSub ? '✓ Submitted' : isProg ? '⏳ In Progress' : 'Timed Out'}
                           </span>
                         </td>
                         <td style={{ padding: '0.7rem 0.5rem', fontWeight: 700, color: 'var(--accent-color)' }}>
@@ -431,7 +431,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
                         </td>
                         <td style={{ padding: '0.7rem 0.5rem', fontSize: '0.8rem', color: 'var(--ink-secondary)' }}>
                           {att.submitted_at
-                            ? new Date(att.submitted_at).toLocaleTimeString('hi-IN', { hour: '2-digit', minute: '2-digit' })
+                            ? new Date(att.submitted_at).toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' })
                             : '-'}
                         </td>
                         <td style={{ padding: '0.7rem 0.5rem', textAlign: 'right' }}>
@@ -440,7 +440,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
                             className="paper-btn"
                             style={{ padding: '0.2rem 0.6rem', fontSize: '0.8rem' }}
                           >
-                            प्रश्नवार जांचें →
+                            Review Answers →
                           </button>
                         </td>
                       </tr>
@@ -480,10 +480,10 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem' }}>
               <div>
                 <h3 style={{ margin: 0, fontFamily: 'var(--font-heading)' }}>
-                  {selectedAttemptDetail.attempt.student_name} की उत्तर पुस्तिका
+                  {selectedAttemptDetail.attempt.student_name}'s Answer Sheet
                 </h3>
                 <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', marginTop: '0.2rem' }}>
-                  प्राप्तांक: <strong>{selectedAttemptDetail.attempt.score}</strong> / {selectedAttemptDetail.attempt.total}
+                  Score: <strong>{selectedAttemptDetail.attempt.score}</strong> / {selectedAttemptDetail.attempt.total}
                 </div>
               </div>
               <button
@@ -491,7 +491,7 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
                 className="paper-btn"
                 style={{ padding: '0.3rem 0.6rem' }}
               >
-                ✕ बंद करें
+                ✕ Close
               </button>
             </div>
 
@@ -510,18 +510,18 @@ export function LiveResultsView({ initialQuizId, onBackToAdmin, onBackToHome }: 
                   <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.4rem' }}>
                     <strong>Q{idx + 1}: {ans.questionText}</strong>
                     <span style={{ fontWeight: 700, color: ans.isCorrect ? '#059669' : '#dc2626' }}>
-                      {ans.marksAwarded} / {ans.maxMarks} अंक
+                      {ans.marksAwarded} / {ans.maxMarks} marks
                     </span>
                   </div>
 
                   <div style={{ marginBottom: '0.3rem' }}>
-                    <span style={{ color: 'var(--ink-secondary)' }}>विद्यार्थी का उत्तर:</span>{' '}
-                    <strong>{typeof ans.userResponse === 'object' ? JSON.stringify(ans.userResponse) : String(ans.userResponse ?? '(अनुत्तरित)')}</strong>
+                    <span style={{ color: 'var(--ink-secondary)' }}>Student's Answer:</span>{' '}
+                    <strong>{typeof ans.userResponse === 'object' ? JSON.stringify(ans.userResponse) : String(ans.userResponse ?? '(Unanswered)')}</strong>
                   </div>
 
                   {ans.correctAnswer !== undefined && (
                     <div style={{ color: '#065f46', marginBottom: '0.3rem' }}>
-                      <span style={{ color: 'var(--ink-secondary)' }}>सही उत्तर:</span>{' '}
+                      <span style={{ color: 'var(--ink-secondary)' }}>Correct Answer:</span>{' '}
                       <strong>{typeof ans.correctAnswer === 'object' ? JSON.stringify(ans.correctAnswer) : String(ans.correctAnswer)}</strong>
                     </div>
                   )}

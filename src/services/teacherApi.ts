@@ -14,7 +14,7 @@ export async function getTeacherQuizzes(): Promise<OnlineQuiz[]> {
     return [
       {
         id: 'quiz-teach-01',
-        title: 'कक्षा 9 - विज्ञान आवधिक अभ्यास',
+        title: 'Class 9 - Science Periodic Practice',
         class: 9,
         status: 'draft',
         duration_minutes: 30,
@@ -111,7 +111,7 @@ export async function createTeacherQuiz(
 ): Promise<OnlineQuiz> {
   const assigned = await getTeacherAssignedClasses();
   if (assigned.length > 0 && !assigned.includes(quizData.class as any)) {
-    throw new Error(`आपको कक्षा ${quizData.class} के लिए प्रश्नोत्तरी बनाने की अनुमति नहीं है। केवल कक्षा ${assigned.join(', ')} असाइन की गई हैं।`);
+    throw new Error(`You are not authorized to create quizzes for Class ${quizData.class}. Only classes ${assigned.join(', ')} are assigned.`);
   }
 
   if (!isSupabaseConfigured) {
@@ -149,7 +149,7 @@ export async function createTeacherQuiz(
     .single();
 
   if (qError || !created) {
-    throw new Error(qError?.message || 'प्रश्नोत्तरी बनाने में त्रुटि।');
+    throw new Error(qError?.message || 'Error creating quiz.');
   }
 
   // Insert quiz_questions links
@@ -182,7 +182,7 @@ export async function createTeacherQuiz(
 export async function pushQuizToClass(quizId: string, targetClass: 9 | 10 | 11 | 12): Promise<void> {
   const assigned = await getTeacherAssignedClasses();
   if (assigned.length > 0 && !assigned.includes(targetClass)) {
-    throw new Error(`आपको कक्षा ${targetClass} में प्रश्नोत्तरी भेजने की अनुमति नहीं है।`);
+    throw new Error(`You are not authorized to send quizzes to Class ${targetClass}.`);
   }
 
   if (!isSupabaseConfigured) {
@@ -354,13 +354,13 @@ export async function softDeleteTeacherQuestion(questionId: string): Promise<voi
 export async function getTeacherRoster(classNum: 9 | 10 | 11 | 12): Promise<Student[]> {
   const assigned = await getTeacherAssignedClasses();
   if (assigned.length > 0 && !assigned.includes(classNum)) {
-    throw new Error(`आपको कक्षा ${classNum} की सूची देखने की अनुमति नहीं है।`);
+    throw new Error(`You are not authorized to view the roster for Class ${classNum}.`);
   }
 
   if (!isSupabaseConfigured) {
     const mockRoster: Student[] = [
-      { id: `c${classNum}-01`, name: 'विद्यार्थी 1', class: classNum, active: true },
-      { id: `c${classNum}-02`, name: 'विद्यार्थी 2', class: classNum, active: true }
+      { id: `c${classNum}-01`, name: 'Student 1', class: classNum, active: true },
+      { id: `c${classNum}-02`, name: 'Student 2', class: classNum, active: true }
     ];
     return mockRoster;
   }
@@ -456,6 +456,6 @@ export async function changeOwnPassword(newPassword: string): Promise<void> {
 
   const body = await res.json();
   if (!res.ok) {
-    throw new Error(body.error || 'पासवर्ड बदलने में त्रुटि।');
+    throw new Error(body.error || 'Error changing password.');
   }
 }

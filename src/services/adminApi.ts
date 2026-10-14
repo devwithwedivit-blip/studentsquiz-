@@ -29,7 +29,7 @@ export async function staffLogin(
         localStorage.setItem('quizforge_staff_profile', JSON.stringify(mockAdmin));
         return mockAdmin;
       }
-      throw new Error("गलत ईमेल या पासवर्ड! (Admin demo: admin@school.com / admin123)");
+      throw new Error("Invalid email or password! (Admin demo: admin@school.com / admin123)");
     } else {
       if (cleanEmail === 'teacher@school.com' && password === 'teacher123') {
         const mockTeacher: StaffProfile = {
@@ -44,7 +44,7 @@ export async function staffLogin(
         localStorage.setItem('quizforge_staff_profile', JSON.stringify(mockTeacher));
         return mockTeacher;
       }
-      throw new Error("गलत ईमेल या पासवर्ड! (Teacher demo: teacher@school.com / teacher123)");
+      throw new Error("Invalid email or password! (Teacher demo: teacher@school.com / teacher123)");
     }
   }
 
@@ -62,7 +62,7 @@ export async function staffLogin(
 
   const body = await res.json();
   if (!res.ok) {
-    throw new Error(body.error || 'लॉगिन विफल रहा।');
+    throw new Error(body.error || 'Login failed.');
   }
 
   if (body.session) {
@@ -148,7 +148,7 @@ export async function getAdminQuizzes(): Promise<OnlineQuiz[]> {
     return [
       {
         id: 'quiz-c9-gk-01',
-        title: 'कक्षा 9 - सामान्य ज्ञान व विज्ञान परीक्षा',
+        title: 'Class 9 - General Knowledge & Science Exam',
         class: 9,
         status: 'published',
         duration_minutes: 25,
@@ -162,7 +162,7 @@ export async function getAdminQuizzes(): Promise<OnlineQuiz[]> {
       },
       {
         id: 'quiz-c10-math-01',
-        title: 'कक्षा 10 - त्रिकोणमिति एवं बीजगणित आवधिक टेस्ट',
+        title: 'Class 10 - Trigonometry & Algebra Periodic Test',
         class: 10,
         status: 'draft',
         duration_minutes: 40,
@@ -288,7 +288,7 @@ export async function createAdminQuiz(
     .single();
 
   if (qError || !created) {
-    throw new Error(qError?.message || 'प्रश्नोत्तरी बनाने में त्रुटि।');
+    throw new Error(qError?.message || 'Error creating quiz.');
   }
 
   // Insert quiz_questions links
@@ -396,7 +396,7 @@ export async function resetStudentPin(studentId: string, newPin: string): Promis
 
   const { data: { session } } = await supabase.auth.getSession();
   if (!session?.access_token) {
-    throw new Error('एडमिन प्रमाणीकरण आवश्यक है।');
+    throw new Error('Admin authentication required.');
   }
 
   const fnUrl = getEdgeFunctionUrl('admin-reset-pin');
@@ -414,7 +414,7 @@ export async function resetStudentPin(studentId: string, newPin: string): Promis
 
   const body = await res.json();
   if (!res.ok) {
-    throw new Error(body.error || 'पिन रीसेट विफल रहा।');
+    throw new Error(body.error || 'PIN reset failed.');
   }
 }
 
@@ -438,7 +438,7 @@ export async function importStudentRoster(
 
   const { data: { session } } = await supabase.auth.getSession();
   if (!session?.access_token) {
-    throw new Error('एडमिन प्रमाणीकरण आवश्यक है।');
+    throw new Error('Admin authentication required.');
   }
 
   const fnUrl = getEdgeFunctionUrl('admin-import-roster');
@@ -453,7 +453,7 @@ export async function importStudentRoster(
 
   const body = await res.json();
   if (!res.ok) {
-    throw new Error(body.error || 'रोस्टर इम्पोर्ट विफल रहा।');
+    throw new Error(body.error || 'Roster import failed.');
   }
 
   return { insertedCount: body.insertedCount || students.length };
@@ -598,7 +598,7 @@ export async function createTeacherAccount(
 
   const body = await res.json();
   if (!res.ok) {
-    throw new Error(body.error || 'शिक्षक खाता बनाने में त्रुटि।');
+    throw new Error(body.error || 'Error creating teacher account.');
   }
 
   return body.teacher;
@@ -636,7 +636,7 @@ export async function updateTeacherClassAssignments(
   });
 
   const body = await res.json();
-  if (!res.ok) throw new Error(body.error || 'कक्षाएं अपडेट करने में त्रुटि।');
+  if (!res.ok) throw new Error(body.error || 'Error updating classes.');
 }
 
 /**
@@ -668,7 +668,7 @@ export async function toggleTeacherActiveStatus(teacherId: string, active: boole
   });
 
   const body = await res.json();
-  if (!res.ok) throw new Error(body.error || 'सक्रियता बदलने में त्रुटि।');
+  if (!res.ok) throw new Error(body.error || 'Error updating active status.');
 }
 
 /**
@@ -697,7 +697,7 @@ export async function resetTeacherPassword(teacherId: string, newPassword: strin
   });
 
   const body = await res.json();
-  if (!res.ok) throw new Error(body.error || 'पासवर्ड रीसेट विफल रहा।');
+  if (!res.ok) throw new Error(body.error || 'Password reset failed.');
 }
 
 /* ====================================================================

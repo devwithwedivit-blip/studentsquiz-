@@ -353,7 +353,7 @@ export const QuizResults: React.FC<QuizResultsProps> = ({
                     }}
                   >
                     <strong style={{ display: 'block', marginBottom: '0.3rem', color: 'var(--ink-secondary)' }}>
-                      {q.passage.kind === 'padya' ? '📜 संबद्ध काव्यांश:' : '📄 संबद्ध गद्यांश:'}
+                      {q.passage.kind === 'padya' ? '📜 Associated Poetry:' : '📄 Associated Passage:'}
                     </strong>
                     {q.passage.text}
                   </div>

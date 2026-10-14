@@ -83,7 +83,7 @@ serve(async (req: Request) => {
         .update({ status: 'timed_out' })
         .eq('id', attemptId);
 
-      return new Response(JSON.stringify({ error: 'समय समाप्त (Time Out). परीक्षा स्वतः बंद हो गई है।' }), {
+      return new Response(JSON.stringify({ error: 'Time out. Exam has ended automatically.' }), {
         status: 400,
         headers: { ...corsHeaders, 'Content-Type': 'application/json' }
       });
