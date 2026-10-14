@@ -3,6 +3,7 @@ import { getAvailableQuizzes, getMyAttempts, clearStudentSession } from '../../.
 import { getTeacherTestsForStudent, subscribeToTeacherTestUpdates } from '../../../services/teacherTestApi';
 import { StudentSession, OnlineQuiz, OnlineAttempt } from '../../../types/online';
 import { TeacherTestCardItem } from '../../../types/teacherTest';
+import { formatClassLabel, normalizeClass } from '../../../utils/classNormalizer';
 
 interface StudentDashboardProps {
   session: StudentSession;
@@ -27,30 +28,52 @@ export function StudentDashboard({
   const [teacherTests, setTeacherTests] = useState<TeacherTestCardItem[]>([]);
   const [loading, setLoading] = useState<boolean>(true);
   const [error, setError] = useState<string | null>(null);
+  const [teacherTestsError, setTeacherTestsError] = useState<string | null>(null);
+  const [teacherTestsLoading, setTeacherTestsLoading] = useState<boolean>(false);
+
+  const loadTeacherTests = async () => {
+    setTeacherTestsLoading(true);
+    setTeacherTestsError(null);
+    try {
+      const ttList = await getTeacherTestsForStudent(session.student.class, session.student.id);
+      setTeacherTests(ttList);
+    } catch (err: any) {
+      console.error('Failed to load tests:', err);
+      setTeacherTestsError(err?.message || "Couldn't load tests from server.");
+    } finally {
+      setTeacherTestsLoading(false);
+    }
+  };
 
   const loadData = async () => {
     setLoading(true);
     setError(null);
     try {
-      const [qList, aList, ttList] = await Promise.all([
-        getAvailableQuizzes(session.student.class),
-        getMyAttempts(session.student.id),
-        getTeacherTestsForStudent(session.student.class, session.student.id)
+      const [qList, aList] = await Promise.all([
+        getAvailableQuizzes(session.student.class).catch(e => {
+          console.error('Failed to load practice quizzes:', e);
+          return [];
+        }),
+        getMyAttempts(session.student.id).catch(e => {
+          console.error('Failed to load past attempts:', e);
+          return [];
+        })
       ]);
       setQuizzes(qList);
       setAttempts(aList);
-      setTeacherTests(ttList);
     } catch (err: any) {
       setError(err.message || 'Error loading data.');
     } finally {
       setLoading(false);
     }
+    await loadTeacherTests();
   };
 
   const refreshTeacherTestsSilently = async () => {
     try {
       const ttList = await getTeacherTestsForStudent(session.student.class, session.student.id);
       setTeacherTests(ttList);
+      setTeacherTestsError(null);
     } catch (err) {
       console.warn('Realtime refresh of teacher tests skipped:', err);
     }
@@ -131,7 +154,7 @@ export function StudentDashboard({
               {session.student.name}
             </h3>
             <div style={{ fontSize: '0.85rem', color: 'var(--ink-secondary)', marginTop: '0.2rem' }}>
-              Class: <strong>Class {session.student.class}</strong> • Roll No / ID: {session.student.id}
+              Class: <strong>{formatClassLabel(session.student.class)}</strong> • Roll No / ID: {session.student.id}
             </div>
           </div>
         </div>
@@ -208,7 +231,7 @@ export function StudentDashboard({
                 No active quizzes available
               </h4>
               <p style={{ color: 'var(--ink-secondary)', fontSize: '0.9rem', marginTop: '0.4rem' }}>
-                When a quiz is published for Class {session.student.class}, it will appear here.
+                When a quiz is published for {formatClassLabel(session.student.class)}, it will appear here.
               </p>
             </div>
           ) : (
@@ -488,14 +511,35 @@ export function StudentDashboard({
         /* PANEL 3: 📋 Teacher Tests (Assigned to Student's Class)   */
         /* ======================================================== */
         <div>
-          {teacherTests.length === 0 ? (
+          {teacherTestsLoading ? (
+            <div className="notebook-sheet" style={{ padding: '2.5rem', textAlign: 'center' }}>
+              <p style={{ color: 'var(--ink-secondary)' }}>Loading tests from your teacher...</p>
+            </div>
+          ) : teacherTestsError ? (
+            <div className="notebook-sheet" style={{ padding: '2.5rem', textAlign: 'center', border: '1.5px solid var(--red-pen)' }}>
+              <div style={{ fontSize: '2.5rem', marginBottom: '0.5rem' }}>⚠️</div>
+              <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)', color: 'var(--red-pen)' }}>
+                Couldn't load tests. Retry.
+              </h4>
+              <p style={{ color: 'var(--ink-secondary)', fontSize: '0.9rem', marginTop: '0.4rem', marginBottom: '1.2rem' }}>
+                {teacherTestsError}
+              </p>
+              <button
+                onClick={loadTeacherTests}
+                className="paper-btn paper-btn-accent"
+                style={{ padding: '0.5rem 1.4rem', fontWeight: 700 }}
+              >
+                🔄 Retry
+              </button>
+            </div>
+          ) : teacherTests.length === 0 ? (
             <div className="notebook-sheet" style={{ padding: '3rem', textAlign: 'center' }}>
               <div style={{ fontSize: '3rem', marginBottom: '0.5rem' }}>📭</div>
               <h4 style={{ margin: 0, fontFamily: 'var(--font-heading)' }}>
                 No tests from your teacher yet. Check back soon.
               </h4>
               <p style={{ color: 'var(--ink-secondary)', fontSize: '0.9rem', marginTop: '0.4rem' }}>
-                Class-specific tests assigned by your teacher for Class {session.student.class} will appear here.
+                Class-specific tests assigned by your teacher for {formatClassLabel(session.student.class)} will appear here.
               </p>
             </div>
           ) : (

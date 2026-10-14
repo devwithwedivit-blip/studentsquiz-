@@ -23,6 +23,7 @@ import {
   CreateTeacherTestQuestionInput,
   TeacherTestSubmissionRow
 } from '../../../types/teacherTest';
+import { formatClassLabel } from '../../../utils/classNormalizer';
 
 interface TeacherPortalProps {
   teacher: StaffProfile;
@@ -250,7 +251,7 @@ export function TeacherPortal({
 
       setActionMessage({
         text: isPublished
-          ? `Test "${created.title}" successfully published to Class ${created.class}!`
+          ? `Test "${created.title}" successfully published to ${formatClassLabel(created.class)}!`
           : `Draft test "${created.title}" saved.`,
         type: 'success'
       });
@@ -296,7 +297,7 @@ export function TeacherPortal({
       setPushSubmitting(true);
       await pushQuizToClass(pushQuizTarget.id, pushSelectedClass);
       setActionMessage({
-        text: `Exam published successfully for Class ${pushSelectedClass}!`,
+        text: `Exam published successfully for ${formatClassLabel(pushSelectedClass)}!`,
         type: 'success'
       });
       setPushQuizTarget(null);
@@ -382,7 +383,7 @@ export function TeacherPortal({
         marks: 1
       }));
 
-      const created = await createTeacherQuiz(
+      await createTeacherQuiz(
         {
           title: newTitle.trim(),
           description: newDescription.trim() || undefined,
@@ -399,7 +400,7 @@ export function TeacherPortal({
 
       setActionMessage({
         text: directPublish
-          ? `Exam created and published to Class ${newClass} successfully!`
+          ? `Exam created and published to ${formatClassLabel(newClass)} successfully!`
           : 'Exam saved as draft successfully.',
         type: 'success'
       });
@@ -449,7 +450,7 @@ export function TeacherPortal({
                   key={c}
                   className="px-2 py-0.5 bg-emerald-700 text-emerald-100 rounded text-xs font-bold border border-emerald-600"
                 >
-                  Class {c}
+                  {formatClassLabel(c)}
                 </span>
               ))}
             </div>
@@ -587,7 +588,7 @@ export function TeacherPortal({
                         <div>
                           <div className="flex items-center justify-between gap-2 mb-2">
                             <span className="px-2.5 py-0.5 bg-indigo-50 text-indigo-800 font-bold text-xs rounded border border-indigo-200">
-                              Class {quiz.class}
+                              {formatClassLabel(quiz.class)}
                             </span>
                             <span
                               className={`px-2.5 py-0.5 text-xs font-bold rounded ${
@@ -908,7 +909,7 @@ export function TeacherPortal({
                         <div className="space-y-1 flex-1">
                           <div className="flex items-center gap-2">
                             <span className="px-2 py-0.5 bg-indigo-50 text-indigo-800 rounded font-bold text-[10px]">
-                              Class {q.class}
+                              {formatClassLabel(q.class)}
                             </span>
                             <span className="px-2 py-0.5 bg-stone-100 text-stone-700 rounded font-semibold text-[10px] uppercase">
                               {q.subject}
@@ -956,7 +957,7 @@ export function TeacherPortal({
                     >
                       {assignedClasses.map((cls) => (
                         <option key={cls} value={cls}>
-                          Class {cls}
+                          {formatClassLabel(cls)}
                         </option>
                       ))}
                     </select>
@@ -983,7 +984,7 @@ export function TeacherPortal({
                           <tr key={st.id} className="hover:bg-stone-50">
                             <td className="p-3 font-mono text-stone-500">{st.id}</td>
                             <td className="p-3 font-bold text-stone-900">{st.name}</td>
-                            <td className="p-3 font-semibold text-stone-700">Class {st.class}</td>
+                            <td className="p-3 font-semibold text-stone-700">{formatClassLabel(st.class)}</td>
                             <td className="p-3">
                               <span
                                 className={`px-2 py-0.5 rounded text-[10px] font-bold ${
@@ -1325,7 +1326,7 @@ export function TeacherPortal({
                             <div>
                               <div className="font-bold text-sm text-emerald-950">{currentTest.title}</div>
                               <div className="text-emerald-700 mt-0.5">
-                                Class {currentTest.class} • Subject: {currentTest.subject.toUpperCase()} • Duration: {currentTest.duration_minutes} mins
+                                {formatClassLabel(currentTest.class)} • Subject: {currentTest.subject.toUpperCase()} • Duration: {currentTest.duration_minutes} mins
                               </div>
                             </div>
                             <div className="flex items-center gap-4">
@@ -1365,7 +1366,7 @@ export function TeacherPortal({
                               <div className="text-center py-12 text-stone-500 text-sm">
                                 📭 No students have submitted this test yet.
                                 <p className="text-xs text-stone-400 mt-1">
-                                  When a student from Class {currentTest.class} finishes their test, their score and status will appear here.
+                                  When a student from {formatClassLabel(currentTest.class)} finishes their test, their score and status will appear here.
                                 </p>
                               </div>
                             ) : (

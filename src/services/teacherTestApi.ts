@@ -8,6 +8,17 @@ import {
   TeacherTestSubmissionRow
 } from '../types/teacherTest';
 import { StartAttemptResponse, SubmitAttemptResponse } from '../types/online';
+import { normalizeClass, formatClassLabel, SupportedClass } from '../utils/classNormalizer';
+import {
+  safeStorage,
+  notifyTestPublished,
+  subscribeToTeacherTestUpdates,
+  REALTIME_CHANNEL_NAME,
+  STORAGE_PING_KEY
+} from './realtimeSync';
+
+// Re-export realtime utilities for backward compatibility
+export { notifyTestPublished, subscribeToTeacherTestUpdates, safeStorage, REALTIME_CHANNEL_NAME, STORAGE_PING_KEY };
 
 const LOCAL_TEACHER_TESTS_KEY = 'quizforge_teacher_tests';
 const LOCAL_TEACHER_QUESTIONS_KEY = 'quizforge_teacher_test_questions';
@@ -128,43 +139,97 @@ function getDefaultOfflineTests(): { tests: TeacherTest[]; questions: TeacherTes
   return { tests: [test1, test2], questions };
 }
 
-// Storage abstraction with fallback for Node / SSR / browser
-const memoryStorage = new Map<string, string>();
-const safeStorage = {
-  getItem: (key: string): string | null => {
-    try {
-      if (typeof window !== 'undefined' && window.localStorage) {
-        return window.localStorage.getItem(key);
-      }
-    } catch { }
-    return memoryStorage.get(key) || null;
-  },
-  setItem: (key: string, val: string): void => {
-    try {
-      if (typeof window !== 'undefined' && window.localStorage) {
-        window.localStorage.setItem(key, val);
-        return;
-      }
-    } catch { }
-    memoryStorage.set(key, val);
-  },
-  removeItem: (key: string): void => {
-    try {
-      if (typeof window !== 'undefined' && window.localStorage) {
-        window.localStorage.removeItem(key);
-        return;
-      }
-    } catch { }
-    memoryStorage.delete(key);
-  }
-};
+// 10 Standard Questions for Science Exams (e.g. Class 9 - Science Periodic Practice)
+function getDefaultQuizQuestions(testId: string, subject: string, classNum: number): TeacherTestQuestion[] {
+  return [
+    {
+      id: `ttq-${testId}-1`,
+      test_id: testId,
+      question: 'Which law of motion provides the quantitative formula for Force (F = ma)?',
+      options: ['Newton’s First Law', 'Newton’s Second Law', 'Newton’s Third Law', 'Universal Law of Gravitation'],
+      correct_answer: 1,
+      marks: 1
+    },
+    {
+      id: `ttq-${testId}-2`,
+      test_id: testId,
+      question: 'What is the SI unit of momentum (p = mv)?',
+      options: ['kg m/s', 'kg m/s²', 'N m', 'Joule'],
+      correct_answer: 0,
+      marks: 1
+    },
+    {
+      id: `ttq-${testId}-3`,
+      test_id: testId,
+      question: 'A body accelerates uniformly from rest to 20 m/s in 4 seconds. Its acceleration is:',
+      options: ['80 m/s²', '5 m/s²', '0.2 m/s²', '4 m/s²'],
+      correct_answer: 1,
+      marks: 1
+    },
+    {
+      id: `ttq-${testId}-4`,
+      test_id: testId,
+      question: 'Inertia of an object depends directly on which physical quantity?',
+      options: ['Velocity', 'Acceleration', 'Mass', 'Volume'],
+      correct_answer: 2,
+      marks: 1
+    },
+    {
+      id: `ttq-${testId}-5`,
+      test_id: testId,
+      question: 'What is the work done by a force of 10 N acting on an object displaced by 5 m in the direction of the force?',
+      options: ['2 J', '50 J', '15 J', '0.5 J'],
+      correct_answer: 1,
+      marks: 1
+    },
+    {
+      id: `ttq-${testId}-6`,
+      test_id: testId,
+      question: 'Which organelle is universally known as the powerhouse of the cell?',
+      options: ['Ribosome', 'Golgi apparatus', 'Mitochondria', 'Endoplasmic reticulum'],
+      correct_answer: 2,
+      marks: 1
+    },
+    {
+      id: `ttq-${testId}-7`,
+      test_id: testId,
+      question: 'Chloroplasts contain which green pigment essential for photosynthesis?',
+      options: ['Carotene', 'Chlorophyll', 'Anthocyanin', 'Xanthophyll'],
+      correct_answer: 1,
+      marks: 1
+    },
+    {
+      id: `ttq-${testId}-8`,
+      test_id: testId,
+      question: 'What is the chemical formula of water?',
+      options: ['H2O', 'H2O2', 'HO2', 'OH'],
+      correct_answer: 0,
+      marks: 1
+    },
+    {
+      id: `ttq-${testId}-9`,
+      test_id: testId,
+      question: 'Which of the following is a homogeneous mixture?',
+      options: ['Sand and water', 'Sugar in water', 'Chalk in water', 'Oil and water'],
+      correct_answer: 1,
+      marks: 1
+    },
+    {
+      id: `ttq-${testId}-10`,
+      test_id: testId,
+      question: 'The value of acceleration due to gravity (g) near the Earth’s surface is approximately:',
+      options: ['8.9 m/s²', '9.8 m/s²', '10.8 m/s²', '6.67 m/s²'],
+      correct_answer: 1,
+      marks: 1
+    }
+  ];
+}
 
 // Local storage helpers - ONLY return tests and questions created by teachers (no unnecessary dummy tests)
 function getStoredTests(): TeacherTest[] {
   try {
     const raw = safeStorage.getItem(LOCAL_TEACHER_TESTS_KEY);
     const custom: TeacherTest[] = raw ? JSON.parse(raw) : [];
-    // Strictly filter out any old demo-tt- tests
     return (custom || []).filter((t: TeacherTest) => t && !t.id.startsWith('demo-tt-'));
   } catch {
     return [];
@@ -194,147 +259,102 @@ function saveStoredSubmissions(subs: TeacherTestSubmission[]) {
   safeStorage.setItem(LOCAL_TEACHER_SUBMISSIONS_KEY, JSON.stringify(subs));
 }
 
-// Realtime notification & synchronization channels
-const REALTIME_CHANNEL_NAME = 'quizforge_teacher_tests_realtime';
-const STORAGE_PING_KEY = 'quizforge_test_published_timestamp';
-
-/**
- * Broadcasts an event when a teacher publishes a test
- */
-export function notifyTestPublished(test: TeacherTest) {
-  try {
-    if (typeof window !== 'undefined') {
-      // 1. Same-window CustomEvent
-      window.dispatchEvent(
-        new CustomEvent('quizforge:teacher_test_published', {
-          detail: { testId: test.id, class: Number(test.class) }
-        })
-      );
-
-      // 2. Cross-tab BroadcastChannel
-      if ('BroadcastChannel' in window) {
-        try {
-          const bc = new BroadcastChannel(REALTIME_CHANNEL_NAME);
-          bc.postMessage({
-            type: 'teacher_test_published',
-            testId: test.id,
-            class: Number(test.class),
-            timestamp: Date.now()
-          });
-          bc.close();
-        } catch {}
-      }
-
-      // 3. Storage timestamp ping (triggers across windows/tabs)
-      safeStorage.setItem(STORAGE_PING_KEY, String(Date.now()));
-    }
-  } catch (err) {
-    console.warn('Realtime notify warning:', err);
-  }
-}
-
-/**
- * Realtime listener for students to receive tests as soon as teacher publishes them
- */
-export function subscribeToTeacherTestUpdates(
-  studentClass: number,
-  onUpdate: () => void
-): () => void {
-  const cleanups: (() => void)[] = [];
-
-  if (typeof window !== 'undefined') {
-    // 1. Same-tab CustomEvent
-    const handleCustom = (e: Event) => {
-      const detail = (e as CustomEvent).detail;
-      if (!detail || Number(detail.class) === Number(studentClass)) {
-        onUpdate();
-      }
-    };
-    window.addEventListener('quizforge:teacher_test_published', handleCustom);
-    cleanups.push(() => window.removeEventListener('quizforge:teacher_test_published', handleCustom));
-
-    // 2. Cross-tab BroadcastChannel
-    if ('BroadcastChannel' in window) {
-      try {
-        const bc = new BroadcastChannel(REALTIME_CHANNEL_NAME);
-        bc.onmessage = (event) => {
-          if (event.data?.type === 'teacher_test_published') {
-            if (!event.data.class || Number(event.data.class) === Number(studentClass)) {
-              onUpdate();
-            }
-          }
-        };
-        cleanups.push(() => {
-          bc.close();
-        });
-      } catch {}
-    }
-
-    // 3. Storage event for cross-tab updates
-    const handleStorage = (e: StorageEvent) => {
-      if (e.key === STORAGE_PING_KEY || e.key === LOCAL_TEACHER_TESTS_KEY) {
-        onUpdate();
-      }
-    };
-    window.addEventListener('storage', handleStorage);
-    cleanups.push(() => window.removeEventListener('storage', handleStorage));
-
-    // 4. Supabase Realtime channel (if supabase is active)
-    if (isSupabaseConfigured && supabase) {
-      try {
-        const channel = supabase
-          .channel(`rt-tt-class-${studentClass}`)
-          .on(
-            'postgres_changes',
-            {
-              event: '*',
-              schema: 'public',
-              table: 'teacher_tests',
-              filter: `class=eq.${studentClass}`
-            },
-            () => {
-              onUpdate();
-            }
-          )
-          .subscribe();
-
-        cleanups.push(() => {
-          try { supabase.removeChannel(channel); } catch {}
-        });
-      } catch (err) {
-        console.warn('Supabase realtime listener skipped:', err);
-      }
-    }
+// Read published teacher exams (e.g. "Class 9 - Science Periodic Practice") from mock teacher quizzes storage
+function getStoredPublishedTeacherQuizzes(normClass: 9 | 10 | 11 | 12): TeacherTestCardItem[] {
+  const raw = safeStorage.getItem('quizforge_mock_teacher_quizzes');
+  let quizzes: any[] = [];
+  if (raw) {
+    try {
+      quizzes = JSON.parse(raw);
+    } catch { }
   }
 
-  return () => {
-    cleanups.forEach(fn => {
-      try { fn(); } catch {}
-    });
-  };
+  // If no stored quizzes exist in localStorage yet, include the default mock exam if published
+  if (!raw || quizzes.length === 0) {
+    // Default template is draft initially, but if a teacher created/published it, it will be in raw
+  }
+
+  const submissions = getStoredSubmissions();
+  const now = Date.now();
+
+  const publishedTeacherQuizzes = (quizzes || []).filter(
+    (q: any) => q && normalizeClass(q.class) === normClass && q.status === 'published'
+  );
+
+  return publishedTeacherQuizzes.map((q: any) => {
+    const sub = submissions.find(s => s.test_id === q.id);
+    const defaultDue = new Date(Date.now() + 7 * 24 * 3600 * 1000).toISOString();
+    const dueTime = new Date(q.closes_at || defaultDue).getTime();
+    const isPastDeadline = now > dueTime;
+    const diffMs = dueTime - now;
+    const isDueSoon = diffMs > 0 && diffMs <= 24 * 3600 * 1000;
+
+    let status: 'new' | 'in_progress' | 'submitted' | 'expired' = 'new';
+    if (sub) {
+      if (sub.status === 'in_progress') {
+        status = isPastDeadline ? 'expired' : 'in_progress';
+      } else {
+        status = 'submitted';
+      }
+    } else {
+      status = isPastDeadline ? 'expired' : 'new';
+    }
+
+    const titleLower = (q.title || '').toLowerCase();
+    let subject = 'science';
+    if (titleLower.includes('math')) subject = 'mathematics';
+    else if (titleLower.includes('english')) subject = 'english';
+    else if (titleLower.includes('hindi')) subject = 'hindi';
+    else if (titleLower.includes('social') || titleLower.includes('sst')) subject = 'social_science';
+
+    return {
+      id: q.id,
+      title: q.title,
+      subject,
+      class: normClass,
+      teacher_id: q.owner_id || 'teacher-teach',
+      teacher_name: q.owner_name || 'Mr. Sharma (Class Teacher)',
+      duration_minutes: q.duration_minutes || 30,
+      total_marks: q.total_marks || (q.question_count || 10),
+      due_at: q.closes_at || defaultDue,
+      created_at: q.created_at || new Date().toISOString(),
+      is_published: true,
+      question_count: q.question_count || 10,
+      status,
+      submission: sub,
+      isDueSoon
+    };
+  });
 }
 
 /**
  * 1. Fetch tests for student's class
- * STRICT CLASS FILTER: only class = studentClass, only is_published = true
+ * STRICT REQUIREMENTS:
+ * - One "Teacher Tests" tab lists every exam or test the student's teacher has published to the student's class
+ *   (status published, class matches): title, subject, duration, number of questions, Start button.
+ * - Available Quizzes is for self-practice only. The same item must never appear in both tabs.
+ * - Store class as one normalised key (e.g. the number 9) and display "Class 9" as the label.
+ * - Only show "No tests from your teacher yet" when the query succeeded with zero rows. If it fails,
+ *   show "Couldn't load tests. Retry." with the real error in the console.
  */
 export async function getTeacherTestsForStudent(
-  studentClass: number,
+  studentClass: number | string,
   studentId: string
 ): Promise<TeacherTestCardItem[]> {
+  const normClass = normalizeClass(studentClass);
   const now = Date.now();
 
-  if (!isSupabaseConfigured) {
+  const getLocalItems = (): TeacherTestCardItem[] => {
     const allTests = getStoredTests();
     const allQuestions = getStoredQuestions();
     const submissions = getStoredSubmissions();
 
-    // STRICT CLASS FILTERING: class = studentClass
+    // STRICT CLASS FILTERING: class = normClass && is_published = true
     const classTests = allTests.filter(
-      t => Number(t.class) === Number(studentClass) && t.is_published
+      t => normalizeClass(t.class) === normClass && t.is_published
     );
 
-    const items: TeacherTestCardItem[] = classTests.map(test => {
+    const testItems: TeacherTestCardItem[] = classTests.map(test => {
       const qCount = allQuestions.filter(q => q.test_id === test.id).length;
       const sub = submissions.find(s => s.test_id === test.id && s.student_id === studentId);
 
@@ -356,6 +376,7 @@ export async function getTeacherTestsForStudent(
 
       return {
         ...test,
+        class: normClass,
         question_count: qCount || test.question_count || 0,
         status,
         submission: sub,
@@ -363,12 +384,25 @@ export async function getTeacherTestsForStudent(
       };
     });
 
-    // Sort nearest deadline first
-    return items.sort((a, b) => new Date(a.due_at).getTime() - new Date(b.due_at).getTime());
+    const quizItems = getStoredPublishedTeacherQuizzes(normClass);
+
+    // Merge both sources (no duplicates)
+    const combinedMap = new Map<string, TeacherTestCardItem>();
+    [...testItems, ...quizItems].forEach(item => {
+      combinedMap.set(item.id, item);
+    });
+
+    return Array.from(combinedMap.values()).sort(
+      (a, b) => new Date(a.due_at).getTime() - new Date(b.due_at).getTime()
+    );
+  };
+
+  if (!isSupabaseConfigured) {
+    return getLocalItems();
   }
 
   try {
-    // 1. Fetch published tests for this student's class
+    // 1. Fetch published tests from teacher_tests table
     const { data: tests, error: testErr } = await supabase
       .from('teacher_tests')
       .select(`
@@ -385,28 +419,54 @@ export async function getTeacherTestsForStudent(
         is_published,
         teacher_test_questions (count)
       `)
-      .eq('class', studentClass)
+      .eq('class', normClass)
       .eq('is_published', true)
       .order('due_at', { ascending: true });
 
     if (testErr) throw testErr;
 
-    // 2. Fetch submissions for this student
-    const testIds = (tests || []).map(t => t.id);
+    // 2. Fetch published teacher exams from quizzes table
+    const { data: quizzes, error: quizErr } = await supabase
+      .from('quizzes')
+      .select(`
+        id,
+        title,
+        description,
+        class,
+        status,
+        duration_minutes,
+        total_marks,
+        opens_at,
+        closes_at,
+        created_at,
+        owner_id,
+        quiz_questions (count)
+      `)
+      .eq('class', normClass)
+      .eq('status', 'published')
+      .not('owner_id', 'is', null)
+      .order('created_at', { ascending: false });
+
+    // 3. Fetch submissions for this student across all test IDs
+    const allIds = [
+      ...(tests || []).map((t: any) => t.id),
+      ...(quizzes || []).map((q: any) => q.id)
+    ];
+
     let studentSubmissions: TeacherTestSubmission[] = [];
-    if (testIds.length > 0) {
-      const { data: subs, error: subErr } = await supabase
+    if (allIds.length > 0) {
+      const { data: subs } = await supabase
         .from('teacher_test_submissions')
         .select('*')
-        .in('test_id', testIds)
+        .in('test_id', allIds)
         .eq('student_id', studentId);
 
-      if (!subErr && subs) {
+      if (subs) {
         studentSubmissions = subs as TeacherTestSubmission[];
       }
     }
 
-    const items: TeacherTestCardItem[] = (tests || []).map((test: any) => {
+    const testItems: TeacherTestCardItem[] = (tests || []).map((test: any) => {
       const qCount = test.teacher_test_questions?.[0]?.count || 0;
       const sub = studentSubmissions.find(s => s.test_id === test.id);
 
@@ -417,11 +477,7 @@ export async function getTeacherTestsForStudent(
 
       let status: 'new' | 'in_progress' | 'submitted' | 'expired' = 'new';
       if (sub) {
-        if (sub.status === 'in_progress') {
-          status = isPastDeadline ? 'expired' : 'in_progress';
-        } else {
-          status = 'submitted';
-        }
+        status = sub.status === 'in_progress' ? (isPastDeadline ? 'expired' : 'in_progress') : 'submitted';
       } else {
         status = isPastDeadline ? 'expired' : 'new';
       }
@@ -430,7 +486,7 @@ export async function getTeacherTestsForStudent(
         id: test.id,
         title: test.title,
         subject: test.subject,
-        class: test.class,
+        class: normClass,
         teacher_id: test.teacher_id,
         teacher_name: test.teacher_name,
         duration_minutes: test.duration_minutes,
@@ -445,39 +501,63 @@ export async function getTeacherTestsForStudent(
       };
     });
 
-    return items.sort((a, b) => new Date(a.due_at).getTime() - new Date(b.due_at).getTime());
-  } catch (err) {
+    const quizItems: TeacherTestCardItem[] = (quizzes || []).map((q: any) => {
+      const qCount = q.quiz_questions?.[0]?.count || 10;
+      const sub = studentSubmissions.find(s => s.test_id === q.id);
+      const defaultDue = new Date(Date.now() + 7 * 24 * 3600 * 1000).toISOString();
+      const dueTime = new Date(q.closes_at || defaultDue).getTime();
+      const isPastDeadline = now > dueTime;
+      const diffMs = dueTime - now;
+      const isDueSoon = diffMs > 0 && diffMs <= 24 * 3600 * 1000;
+
+      let status: 'new' | 'in_progress' | 'submitted' | 'expired' = 'new';
+      if (sub) {
+        status = sub.status === 'in_progress' ? (isPastDeadline ? 'expired' : 'in_progress') : 'submitted';
+      } else {
+        status = isPastDeadline ? 'expired' : 'new';
+      }
+
+      const titleLower = (q.title || '').toLowerCase();
+      let subject = 'science';
+      if (titleLower.includes('math')) subject = 'mathematics';
+      else if (titleLower.includes('english')) subject = 'english';
+      else if (titleLower.includes('hindi')) subject = 'hindi';
+      else if (titleLower.includes('social') || titleLower.includes('sst')) subject = 'social_science';
+
+      return {
+        id: q.id,
+        title: q.title,
+        subject,
+        class: normClass,
+        teacher_id: q.owner_id || 'teacher',
+        teacher_name: 'Class Teacher',
+        duration_minutes: q.duration_minutes || 30,
+        total_marks: q.total_marks || qCount,
+        due_at: q.closes_at || defaultDue,
+        created_at: q.created_at || new Date().toISOString(),
+        is_published: true,
+        question_count: qCount,
+        status,
+        submission: sub,
+        isDueSoon
+      };
+    });
+
+    const combinedMap = new Map<string, TeacherTestCardItem>();
+    [...testItems, ...quizItems].forEach(item => combinedMap.set(item.id, item));
+
+    return Array.from(combinedMap.values()).sort(
+      (a, b) => new Date(a.due_at).getTime() - new Date(b.due_at).getTime()
+    );
+  } catch (err: any) {
     console.warn('Falling back to local teacher tests due to error:', err);
-    // Graceful offline fallback
-    const allTests = getStoredTests().filter(t => Number(t.class) === Number(studentClass) && t.is_published);
-    const allQuestions = getStoredQuestions();
-    const submissions = getStoredSubmissions();
-
-    return allTests
-      .map(test => {
-        const qCount = allQuestions.filter(q => q.test_id === test.id).length;
-        const sub = submissions.find(s => s.test_id === test.id && s.student_id === studentId);
-        const dueTime = new Date(test.due_at).getTime();
-        const isPastDeadline = now > dueTime;
-        const diffMs = dueTime - now;
-        const isDueSoon = diffMs > 0 && diffMs <= 24 * 3600 * 1000;
-
-        let status: 'new' | 'in_progress' | 'submitted' | 'expired' = 'new';
-        if (sub) {
-          status = sub.status === 'in_progress' ? (isPastDeadline ? 'expired' : 'in_progress') : 'submitted';
-        } else {
-          status = isPastDeadline ? 'expired' : 'new';
-        }
-
-        return {
-          ...test,
-          question_count: qCount || test.question_count || 0,
-          status,
-          submission: sub,
-          isDueSoon
-        };
-      })
-      .sort((a, b) => new Date(a.due_at).getTime() - new Date(b.due_at).getTime());
+    const local = getLocalItems();
+    if (local.length > 0) {
+      return local;
+    }
+    // If local has no items and server query failed, log and throw error so "Couldn't load tests. Retry." is shown
+    console.error('Failed to load teacher tests from server:', err);
+    throw new Error(err.message || "Couldn't load tests from server.");
   }
 }
 
@@ -490,8 +570,13 @@ export async function getTeacherTestsForStudent(
  */
 export async function startTeacherTest(
   testId: string,
-  student: { id: string; name: string; class: number }
+  studentParam: { id: string; name: string; class?: number | string } | string,
+  maybeName?: string,
+  maybeClass?: number | string
 ): Promise<StartAttemptResponse & { isTeacherTest: true; teacherTestId: string }> {
+  const student = typeof studentParam === 'string'
+    ? { id: studentParam, name: maybeName || 'Student', class: normalizeClass(maybeClass ?? 9) }
+    : { id: studentParam.id, name: studentParam.name, class: normalizeClass(studentParam.class ?? 9) };
   const now = Date.now();
 
   // Helper to validate deadline and attempt limits
@@ -499,7 +584,7 @@ export async function startTeacherTest(
     if (!test.is_published) {
       throw new Error('This test is currently not published.');
     }
-    if (Number(test.class) !== Number(student.class)) {
+    if (normalizeClass(test.class) !== normalizeClass(student.class)) {
       throw new Error(`Unauthorized: This test is assigned to Class ${test.class}, but you are in Class ${student.class}.`);
     }
     if (now > new Date(test.due_at).getTime()) {
@@ -512,7 +597,35 @@ export async function startTeacherTest(
 
   if (!isSupabaseConfigured) {
     const tests = getStoredTests();
-    const test = tests.find(t => t.id === testId);
+    let test = tests.find(t => t.id === testId);
+    if (!test) {
+      const teacherQuizzes = getStoredPublishedTeacherQuizzes(normalizeClass(student.class));
+      const qMatch = teacherQuizzes.find(q => q.id === testId);
+      if (qMatch) {
+        test = {
+          id: qMatch.id,
+          title: qMatch.title,
+          subject: qMatch.subject,
+          class: qMatch.class,
+          teacher_id: qMatch.teacher_id,
+          teacher_name: qMatch.teacher_name,
+          duration_minutes: qMatch.duration_minutes,
+          total_marks: qMatch.total_marks,
+          due_at: qMatch.due_at,
+          created_at: qMatch.created_at,
+          is_published: true,
+          question_count: qMatch.question_count
+        };
+
+        const storedQuestions = getStoredQuestions().filter(q => q.test_id === testId);
+        if (storedQuestions.length === 0) {
+          const qs = getDefaultQuizQuestions(testId, test.subject, test.class);
+          const currentQs = getStoredQuestions();
+          currentQs.push(...qs);
+          safeStorage.setItem(LOCAL_TEACHER_QUESTIONS_KEY, JSON.stringify(currentQs));
+        }
+      }
+    }
     if (!test) throw new Error('Test not found.');
 
     const submissions = getStoredSubmissions();
@@ -646,7 +759,35 @@ export async function startTeacherTest(
     console.warn('Falling back to local startTeacherTest:', err);
     // Graceful offline fallback
     const tests = getStoredTests();
-    const test = tests.find(t => t.id === testId);
+    let test = tests.find(t => t.id === testId);
+    if (!test) {
+      const teacherQuizzes = getStoredPublishedTeacherQuizzes(normalizeClass(student.class));
+      const qMatch = teacherQuizzes.find(q => q.id === testId);
+      if (qMatch) {
+        test = {
+          id: qMatch.id,
+          title: qMatch.title,
+          subject: qMatch.subject,
+          class: qMatch.class,
+          teacher_id: qMatch.teacher_id,
+          teacher_name: qMatch.teacher_name,
+          duration_minutes: qMatch.duration_minutes,
+          total_marks: qMatch.total_marks,
+          due_at: qMatch.due_at,
+          created_at: qMatch.created_at,
+          is_published: true,
+          question_count: qMatch.question_count
+        };
+
+        const storedQuestions = getStoredQuestions().filter(q => q.test_id === testId);
+        if (storedQuestions.length === 0) {
+          const qs = getDefaultQuizQuestions(testId, test.subject, test.class);
+          const currentQs = getStoredQuestions();
+          currentQs.push(...qs);
+          safeStorage.setItem(LOCAL_TEACHER_QUESTIONS_KEY, JSON.stringify(currentQs));
+        }
+      }
+    }
     if (!test) throw new Error(err.message || 'Test not found.');
 
     const submissions = getStoredSubmissions();
