@@ -494,8 +494,21 @@ export function App() {
     );
   }
 
+  const isAuthScreen =
+    appMode === 'login' ||
+    (!studentSession && appMode === 'student') ||
+    (!staffProfile && (appMode === 'teacher' || appMode === 'admin'));
+
   return (
-    <div style={{ minHeight: '100vh', padding: '1rem', maxWidth: '1200px', margin: '0 auto' }}>
+    <div
+      style={{
+        minHeight: '100vh',
+        padding: isAuthScreen ? 0 : '1rem',
+        maxWidth: isAuthScreen ? '100%' : '1200px',
+        margin: '0 auto',
+        width: '100%'
+      }}
+    >
       {/* Top Application Mode Selector */}
       {!activeQuizQuestions && !activeOnlineQuiz && appMode !== 'login' && (
         <ModeSelector

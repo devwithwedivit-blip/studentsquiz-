@@ -3,6 +3,7 @@ import { Student, StudentSession, StaffProfile } from '../../types/online';
 import { getStudentsForClass, loginStudent } from '../../services/studentApi';
 import { staffLogin } from '../../services/adminApi';
 import { changeOwnPassword } from '../../services/teacherApi';
+import './UnifiedLogin.css';
 
 interface UnifiedLoginProps {
   onStudentLoginSuccess: (session: StudentSession) => void;
@@ -10,12 +11,34 @@ interface UnifiedLoginProps {
   defaultRoleCard?: 'student' | 'teacher' | 'admin';
 }
 
+const EYE_ICON = (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M2 12s3.6-7 10-7 10 7 10 7-3.6 7-10 7S2 12 2 12Z" />
+    <circle cx="12" cy="12" r="3" />
+  </svg>
+);
+
+const EYE_OFF_ICON = (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M9.9 5.2A10 10 0 0 1 12 5c6.4 0 10 7 10 7a17 17 0 0 1-3.2 4.1M6.6 6.6A17 17 0 0 0 2 12s3.6 7 10 7a10 10 0 0 0 5.4-1.6" />
+    <path d="m2 2 20 20M9.9 9.9a3 3 0 0 0 4.2 4.2" />
+  </svg>
+);
+
+const LOGO_ICON = (
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" aria-hidden="true">
+    <path d="M22 10 12 5 2 10l10 5 10-5Z" />
+    <path d="M6 12v5c0 1.5 2.7 3 6 3s6-1.5 6-3v-5" />
+  </svg>
+);
+
 export function UnifiedLogin({
   onStudentLoginSuccess,
   onStaffLoginSuccess,
   defaultRoleCard = 'student'
 }: UnifiedLoginProps) {
   const [selectedCard, setSelectedCard] = useState<'student' | 'teacher' | 'admin'>(defaultRoleCard);
+  const [errorMessage, setErrorMessage] = useState<string>('');
 
   // Student Form State
   const [selectedClass, setSelectedClass] = useState<9 | 10 | 11 | 12>(9);
@@ -24,21 +47,18 @@ export function UnifiedLogin({
   const [studentPin, setStudentPin] = useState<string>('');
   const [showStudentPin, setShowStudentPin] = useState<boolean>(false);
   const [studentLoading, setStudentLoading] = useState<boolean>(false);
-  const [studentError, setStudentError] = useState<string | null>(null);
 
   // Teacher Form State
   const [teacherEmail, setTeacherEmail] = useState<string>('');
   const [teacherPassword, setTeacherPassword] = useState<string>('');
   const [showTeacherPass, setShowTeacherPass] = useState<boolean>(false);
   const [teacherLoading, setTeacherLoading] = useState<boolean>(false);
-  const [teacherError, setTeacherError] = useState<string | null>(null);
 
   // Admin Form State
   const [adminEmail, setAdminEmail] = useState<string>('');
   const [adminPassword, setAdminPassword] = useState<string>('');
   const [showAdminPass, setShowAdminPass] = useState<boolean>(false);
   const [adminLoading, setAdminLoading] = useState<boolean>(false);
-  const [adminError, setAdminError] = useState<string | null>(null);
 
   // Password Change Modal State (for must_change_password)
   const [pendingStaffProfile, setPendingStaffProfile] = useState<StaffProfile | null>(null);
@@ -47,7 +67,7 @@ export function UnifiedLogin({
   const [changePassLoading, setChangePassLoading] = useState<boolean>(false);
   const [changePassError, setChangePassError] = useState<string | null>(null);
 
-  // Load students when class changes
+  // Load students whenever class changes
   useEffect(() => {
     let active = true;
     const fetchStudents = async () => {
@@ -60,7 +80,7 @@ export function UnifiedLogin({
         }
       } catch (err: any) {
         if (active) {
-          setStudentError(err.message || 'Could not load student list.');
+          setErrorMessage(err.message || 'Could not load student list.');
         }
       } finally {
         if (active) setStudentLoading(false);
@@ -70,17 +90,22 @@ export function UnifiedLogin({
     return () => { active = false; };
   }, [selectedClass]);
 
+  const switchRole = (role: 'student' | 'teacher' | 'admin') => {
+    setSelectedCard(role);
+    setErrorMessage('');
+  };
+
   // Handle Student Login
   const handleStudentSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setStudentError(null);
+    setErrorMessage('');
 
     if (!selectedStudentId) {
-      setStudentError('Please select your name.');
+      setErrorMessage('Please select your name.');
       return;
     }
-    if (!studentPin || studentPin.length < 4) {
-      setStudentError('Please enter a 4-digit PIN.');
+    if (!studentPin || studentPin.length !== 4) {
+      setErrorMessage('Enter your 4-digit PIN.');
       return;
     }
 
@@ -89,7 +114,7 @@ export function UnifiedLogin({
       const session = await loginStudent(selectedStudentId, selectedClass, studentPin);
       onStudentLoginSuccess(session);
     } catch (err: any) {
-      setStudentError(err.message || 'Login failed. Please try again.');
+      setErrorMessage(err.message || 'Login failed. Please try again.');
     } finally {
       setStudentLoading(false);
     }
@@ -98,23 +123,24 @@ export function UnifiedLogin({
   // Handle Teacher Login
   const handleTeacherSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setTeacherError(null);
+    setErrorMessage('');
 
-    if (!teacherEmail.trim() || !teacherPassword) {
-      setTeacherError('Email and password are required.');
+    const cleanEmail = teacherEmail.trim();
+    if (!cleanEmail || !teacherPassword) {
+      setErrorMessage('Enter your user ID and password.');
       return;
     }
 
     try {
       setTeacherLoading(true);
-      const profile = await staffLogin(teacherEmail, teacherPassword, 'teacher');
+      const profile = await staffLogin(cleanEmail, teacherPassword, 'teacher');
       if (profile.must_change_password) {
         setPendingStaffProfile(profile);
       } else {
         onStaffLoginSuccess(profile);
       }
     } catch (err: any) {
-      setTeacherError(err.message || 'Teacher login failed.');
+      setErrorMessage(err.message || 'Teacher login failed.');
     } finally {
       setTeacherLoading(false);
     }
@@ -123,29 +149,30 @@ export function UnifiedLogin({
   // Handle Admin Login
   const handleAdminSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    setAdminError(null);
+    setErrorMessage('');
 
-    if (!adminEmail.trim() || !adminPassword) {
-      setAdminError('Email and password are required.');
+    const cleanEmail = adminEmail.trim();
+    if (!cleanEmail || !adminPassword) {
+      setErrorMessage('Enter your user ID and password.');
       return;
     }
 
     try {
       setAdminLoading(true);
-      const profile = await staffLogin(adminEmail, adminPassword, 'admin');
+      const profile = await staffLogin(cleanEmail, adminPassword, 'admin');
       if (profile.must_change_password) {
         setPendingStaffProfile(profile);
       } else {
         onStaffLoginSuccess(profile);
       }
     } catch (err: any) {
-      setAdminError(err.message || 'Admin login failed.');
+      setErrorMessage(err.message || 'Admin login failed.');
     } finally {
       setAdminLoading(false);
     }
   };
 
-  // Handle Password Change Submission
+  // Handle Mandatory Password Change Submission
   const handlePasswordChangeSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setChangePassError(null);
@@ -174,412 +201,337 @@ export function UnifiedLogin({
     }
   };
 
+  const activeIndex = selectedCard === 'student' ? '0' : selectedCard === 'teacher' ? '1' : '2';
+
   return (
-    <div className="min-h-screen bg-amber-50/40 py-10 px-4 sm:px-6 flex flex-col justify-center items-center">
-      {/* Title Header */}
-      <div className="text-center mb-8 max-w-xl">
-        <div className="inline-flex items-center gap-2 px-3 py-1 bg-indigo-50 border border-indigo-200 text-indigo-800 rounded-full text-xs font-semibold uppercase tracking-wider mb-3">
-          <span>🎓</span> Exam & Practice Platform
+    <div className="login-portal-wrapper">
+      <main className="card">
+        {/* Brand */}
+        <div className="brand">
+          <div className="logo" aria-hidden="true">
+            {LOGO_ICON}
+          </div>
+          <h1>Welcome to School Exam Portal</h1>
+          <p className="sub">Choose your role and sign in securely</p>
         </div>
-        <h1 className="text-3xl sm:text-4xl font-extrabold text-stone-900 tracking-tight">
-          School Exam Portal
-        </h1>
-        <p className="text-stone-600 text-sm sm:text-base mt-2">
-          Please choose your role and sign in securely
+
+        {/* Roles Tablist */}
+        <div className="roles" role="tablist" aria-label="Sign in as" data-active={activeIndex} id="roles">
+          <span className="pill" aria-hidden="true"></span>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={selectedCard === 'student'}
+            data-role="student"
+            aria-controls="p-student"
+            onClick={() => switchRole('student')}
+          >
+            Student
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={selectedCard === 'teacher'}
+            data-role="teacher"
+            aria-controls="p-teacher"
+            onClick={() => switchRole('teacher')}
+          >
+            Teacher
+          </button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={selectedCard === 'admin'}
+            data-role="admin"
+            aria-controls="p-admin"
+            onClick={() => switchRole('admin')}
+          >
+            Admin
+          </button>
+        </div>
+
+        {/* Error message slot */}
+        <p className="error" id="error" role="alert">
+          {errorMessage}
         </p>
-      </div>
 
-      {/* Role Selector Tabs (Mobile & Quick Switch) */}
-      <div className="flex gap-2 p-1.5 bg-stone-200/70 rounded-xl mb-6 max-w-md w-full border border-stone-300">
-        <button
-          type="button"
-          onClick={() => setSelectedCard('student')}
-          className={`flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
-            selectedCard === 'student'
-              ? 'bg-white text-indigo-900 shadow-sm'
-              : 'text-stone-600 hover:text-stone-900'
-          }`}
+        {/* STUDENT PANEL */}
+        <form
+          className="panel"
+          id="p-student"
+          data-role="student"
+          autoComplete="off"
+          noValidate
+          hidden={selectedCard !== 'student'}
+          onSubmit={handleStudentSubmit}
         >
-          <span>🎒</span> Student
-        </button>
-        <button
-          type="button"
-          onClick={() => setSelectedCard('teacher')}
-          className={`flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
-            selectedCard === 'teacher'
-              ? 'bg-white text-emerald-900 shadow-sm'
-              : 'text-stone-600 hover:text-stone-900'
-          }`}
-        >
-          <span>👨‍🏫</span> Teacher
-        </button>
-        <button
-          type="button"
-          onClick={() => setSelectedCard('admin')}
-          className={`flex-1 py-2 px-3 rounded-lg text-sm font-semibold transition-all flex items-center justify-center gap-1.5 ${
-            selectedCard === 'admin'
-              ? 'bg-white text-amber-900 shadow-sm'
-              : 'text-stone-600 hover:text-stone-900'
-          }`}
-        >
-          <span>🛡️</span> Admin
-        </button>
-      </div>
-
-      {/* Main Container Card Deck */}
-      <div className="max-w-xl w-full">
-        {/* STUDENT CARD */}
-        {selectedCard === 'student' && (
-          <div className="bg-white rounded-2xl border-2 border-indigo-200 shadow-xl overflow-hidden transition-all animate-fadeIn">
-            <div className="bg-gradient-to-r from-indigo-700 to-indigo-800 text-white px-6 py-5 flex items-center justify-between">
-              <div>
-                <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>🎒</span> Student Login
-                </h2>
-                <p className="text-indigo-200 text-xs mt-0.5">
-                  Log in with your class, name and 4-digit PIN
-                </p>
-              </div>
-              <span className="text-2xl bg-indigo-600/60 p-2 rounded-xl">✍️</span>
-            </div>
-
-            <form onSubmit={handleStudentSubmit} className="p-6 space-y-5">
-              {studentError && (
-                <div className="p-3 bg-red-50 border border-red-200 text-red-700 text-sm rounded-lg flex items-start gap-2">
-                  <span className="text-red-500 font-bold">⚠️</span>
-                  <span>{studentError}</span>
-                </div>
-              )}
-
-              {/* Class Buttons */}
-              <div>
-                <label className="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-2">
-                  Select class
-                </label>
-                <div className="grid grid-cols-4 gap-2">
-                  {([9, 10, 11, 12] as const).map((cls) => (
-                    <button
-                      key={cls}
-                      type="button"
-                      onClick={() => {
-                        setSelectedClass(cls);
-                        setStudentError(null);
-                      }}
-                      className={`py-2 px-3 rounded-lg text-sm font-bold border transition-all ${
-                        selectedClass === cls
-                          ? 'bg-indigo-600 text-white border-indigo-600 shadow-sm'
-                          : 'bg-stone-50 text-stone-700 border-stone-300 hover:bg-stone-100'
-                      }`}
-                    >
-                      Class {cls}
-                    </button>
-                  ))}
-                </div>
-              </div>
-
-              {/* Student Dropdown */}
-              <div>
-                <label htmlFor="student-name-select" className="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1">
-                  Student name
-                </label>
-                <select
-                  id="student-name-select"
-                  value={selectedStudentId}
-                  onChange={(e) => setSelectedStudentId(e.target.value)}
-                  disabled={studentLoading || studentsList.length === 0}
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-stone-800 bg-stone-50 focus:bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 font-medium"
+          <div className="field">
+            <span className="label" id="class-label">Select class</span>
+            <div className="chips" role="radiogroup" aria-labelledby="class-label" id="chips">
+              {([9, 10, 11, 12] as const).map((cls) => (
+                <button
+                  key={cls}
+                  type="button"
+                  className="chip"
+                  role="radio"
+                  aria-checked={selectedClass === cls}
+                  data-class={String(cls)}
+                  onClick={() => {
+                    setSelectedClass(cls);
+                    setErrorMessage('');
+                  }}
                 >
-                  {studentsList.length === 0 ? (
-                    <option value="">
-                      {studentLoading ? 'Loading...' : 'No students available'}
-                    </option>
-                  ) : (
-                    studentsList.map((st) => (
-                      <option key={st.id} value={st.id}>
-                        {st.name}
-                      </option>
-                    ))
-                  )}
-                </select>
-              </div>
-
-              {/* 4-digit PIN */}
-              <div>
-                <div className="flex justify-between items-center mb-1">
-                  <label htmlFor="student-pin-input" className="text-xs font-bold text-stone-700 uppercase tracking-wider">
-                    4-digit secret PIN
-                  </label>
-                  <button
-                    type="button"
-                    onClick={() => setShowStudentPin(!showStudentPin)}
-                    className="text-xs text-indigo-600 hover:underline font-medium"
-                  >
-                    {showStudentPin ? 'Hide PIN' : 'Show PIN'}
-                  </button>
-                </div>
-                <input
-                  id="student-pin-input"
-                  type={showStudentPin ? 'text' : 'password'}
-                  maxLength={6}
-                  value={studentPin}
-                  onChange={(e) => setStudentPin(e.target.value.replace(/\D/g, ''))}
-                  placeholder="••••"
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-stone-900 tracking-widest text-lg font-mono focus:outline-none focus:ring-2 focus:ring-indigo-500 bg-stone-50 focus:bg-white text-center"
-                />
-                <p className="text-xs text-stone-500 mt-1">
-                  If you've forgotten your PIN, please contact your class teacher.
-                </p>
-              </div>
-
-              {/* Submit */}
-              <button
-                type="submit"
-                disabled={studentLoading || studentsList.length === 0}
-                className="w-full py-3 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white font-bold rounded-xl shadow-md transition-all flex items-center justify-center gap-2 disabled:opacity-50"
-              >
-                {studentLoading ? (
-                  <>
-                    <span className="animate-spin text-lg">⏳</span>
-                    <span>Authenticating...</span>
-                  </>
-                ) : (
-                  <>
-                    <span>Start Learning</span>
-                    <span>➔</span>
-                  </>
-                )}
-              </button>
-            </form>
-          </div>
-        )}
-
-        {/* TEACHER CARD */}
-        {selectedCard === 'teacher' && (
-          <div className="bg-white rounded-2xl border-2 border-emerald-200 shadow-xl overflow-hidden transition-all animate-fadeIn">
-            <div className="bg-gradient-to-r from-emerald-700 to-teal-800 text-white px-6 py-5 flex items-center justify-between">
-              <div>
-                <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>👨‍🏫</span> Teacher Login
-                </h2>
-                <p className="text-emerald-200 text-xs mt-0.5">
-                  Sign in with your official email and password
-                </p>
-              </div>
-              <span className="text-2xl bg-emerald-600/60 p-2 rounded-xl">📚</span>
+                  Class {cls}
+                </button>
+              ))}
             </div>
-
-            <form onSubmit={handleTeacherSubmit} className="p-6 space-y-5">
-              {teacherError && (
-                <div className="p-3 bg-red-50 border border-red-200 text-red-700 text-sm rounded-lg flex items-start gap-2">
-                  <span className="text-red-500 font-bold">⚠️</span>
-                  <span>{teacherError}</span>
-                </div>
-              )}
-
-              <div>
-                <label htmlFor="teacher-email-input" className="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1">
-                  Teacher Email
-                </label>
-                <input
-                  id="teacher-email-input"
-                  type="email"
-                  value={teacherEmail}
-                  onChange={(e) => setTeacherEmail(e.target.value)}
-                  placeholder="teacher@school.com"
-                  required
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-stone-900 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-stone-50 focus:bg-white"
-                />
-              </div>
-
-              <div>
-                <div className="flex justify-between items-center mb-1">
-                  <label htmlFor="teacher-password-input" className="text-xs font-bold text-stone-700 uppercase tracking-wider">
-                    Password
-                  </label>
-                  <button
-                    type="button"
-                    onClick={() => setShowTeacherPass(!showTeacherPass)}
-                    className="text-xs text-emerald-600 hover:underline font-medium"
-                  >
-                    {showTeacherPass ? 'Hide' : 'Show'}
-                  </button>
-                </div>
-                <input
-                  id="teacher-password-input"
-                  type={showTeacherPass ? 'text' : 'password'}
-                  value={teacherPassword}
-                  onChange={(e) => setTeacherPassword(e.target.value)}
-                  placeholder="••••••••••••"
-                  required
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-stone-900 focus:outline-none focus:ring-2 focus:ring-emerald-500 bg-stone-50 focus:bg-white"
-                />
-              </div>
-
-              <button
-                type="submit"
-                disabled={teacherLoading}
-                className="w-full py-3 bg-emerald-700 hover:bg-emerald-800 active:bg-emerald-900 text-white font-bold rounded-xl shadow-md transition-all flex items-center justify-center gap-2 disabled:opacity-50"
-              >
-                {teacherLoading ? (
-                  <>
-                    <span className="animate-spin text-lg">⏳</span>
-                    <span>Authenticating...</span>
-                  </>
-                ) : (
-                  <>
-                    <span>Enter Teacher Portal</span>
-                    <span>➔</span>
-                  </>
-                )}
-              </button>
-            </form>
           </div>
-        )}
 
-        {/* ADMIN CARD */}
-        {selectedCard === 'admin' && (
-          <div className="bg-white rounded-2xl border-2 border-amber-300 shadow-xl overflow-hidden transition-all animate-fadeIn">
-            <div className="bg-gradient-to-r from-amber-700 to-amber-900 text-white px-6 py-5 flex items-center justify-between">
-              <div>
-                <h2 className="text-xl font-bold flex items-center gap-2">
-                  <span>🛡️</span> Admin Login
-                </h2>
-                <p className="text-amber-200 text-xs mt-0.5">
-                  Sign in with school admin credentials
-                </p>
-              </div>
-              <span className="text-2xl bg-amber-600/60 p-2 rounded-xl">🔑</span>
+          <div className="field">
+            <label htmlFor="student-name">Student name</label>
+            <select
+              id="student-name"
+              required
+              value={selectedStudentId}
+              onChange={(e) => setSelectedStudentId(e.target.value)}
+              disabled={studentLoading || studentsList.length === 0}
+            >
+              {studentsList.length === 0 ? (
+                <option value="">{studentLoading ? 'Loading students...' : 'No students found'}</option>
+              ) : (
+                studentsList.map((st) => (
+                  <option key={st.id} value={st.id}>
+                    {st.name}
+                  </option>
+                ))
+              )}
+            </select>
+          </div>
+
+          <div className="field">
+            <label htmlFor="student-pin">4-digit secret PIN</label>
+            <div className="pw">
+              <input
+                className="input pin"
+                id="student-pin"
+                type={showStudentPin ? 'text' : 'password'}
+                inputMode="numeric"
+                pattern="[0-9]*"
+                maxLength={4}
+                placeholder="••••"
+                required
+                value={studentPin}
+                onChange={(e) => setStudentPin(e.target.value.replace(/\D/g, '').slice(0, 4))}
+              />
+              <button
+                type="button"
+                className="toggle"
+                aria-label={showStudentPin ? 'Hide PIN' : 'Show PIN'}
+                data-target="student-pin"
+                onClick={() => setShowStudentPin(!showStudentPin)}
+              >
+                {showStudentPin ? EYE_OFF_ICON : EYE_ICON}
+              </button>
             </div>
-
-            <form onSubmit={handleAdminSubmit} className="p-6 space-y-5">
-              {adminError && (
-                <div className="p-3 bg-red-50 border border-red-200 text-red-700 text-sm rounded-lg flex items-start gap-2">
-                  <span className="text-red-500 font-bold">⚠️</span>
-                  <span>{adminError}</span>
-                </div>
-              )}
-
-              <div>
-                <label htmlFor="admin-email-input" className="block text-xs font-bold text-stone-700 uppercase tracking-wider mb-1">
-                  Admin Email
-                </label>
-                <input
-                  id="admin-email-input"
-                  type="email"
-                  value={adminEmail}
-                  onChange={(e) => setAdminEmail(e.target.value)}
-                  placeholder="admin@school.com"
-                  required
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-stone-900 focus:outline-none focus:ring-2 focus:ring-amber-500 bg-stone-50 focus:bg-white"
-                />
-              </div>
-
-              <div>
-                <div className="flex justify-between items-center mb-1">
-                  <label htmlFor="admin-password-input" className="text-xs font-bold text-stone-700 uppercase tracking-wider">
-                    Password
-                  </label>
-                  <button
-                    type="button"
-                    onClick={() => setShowAdminPass(!showAdminPass)}
-                    className="text-xs text-amber-700 hover:underline font-medium"
-                  >
-                    {showAdminPass ? 'Hide' : 'Show'}
-                  </button>
-                </div>
-                <input
-                  id="admin-password-input"
-                  type={showAdminPass ? 'text' : 'password'}
-                  value={adminPassword}
-                  onChange={(e) => setAdminPassword(e.target.value)}
-                  placeholder="••••••••••••"
-                  required
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-stone-900 focus:outline-none focus:ring-2 focus:ring-amber-500 bg-stone-50 focus:bg-white"
-                />
-              </div>
-
-              <button
-                type="submit"
-                disabled={adminLoading}
-                className="w-full py-3 bg-amber-800 hover:bg-amber-900 active:bg-amber-950 text-white font-bold rounded-xl shadow-md transition-all flex items-center justify-center gap-2 disabled:opacity-50"
-              >
-                {adminLoading ? (
-                  <>
-                    <span className="animate-spin text-lg">⏳</span>
-                    <span>Authenticating...</span>
-                  </>
-                ) : (
-                  <>
-                    <span>Enter Admin Portal</span>
-                    <span>➔</span>
-                  </>
-                )}
-              </button>
-            </form>
+            <p className="hint">Forgot your PIN? Ask your class teacher.</p>
           </div>
-        )}
-      </div>
+
+          <button className="go" type="submit" disabled={studentLoading || studentsList.length === 0}>
+            {studentLoading ? (
+              <>
+                <span className="spinner"></span>
+                <span>Authenticating...</span>
+              </>
+            ) : (
+              'Start learning'
+            )}
+          </button>
+        </form>
+
+        {/* TEACHER PANEL */}
+        <form
+          className="panel"
+          id="p-teacher"
+          data-role="teacher"
+          noValidate
+          hidden={selectedCard !== 'teacher'}
+          onSubmit={handleTeacherSubmit}
+        >
+          <div className="field">
+            <label htmlFor="teacher-id">User ID</label>
+            <input
+              className="input"
+              id="teacher-id"
+              type="email"
+              placeholder="you@school.com"
+              autoComplete="username"
+              required
+              value={teacherEmail}
+              onChange={(e) => setTeacherEmail(e.target.value)}
+            />
+          </div>
+
+          <div className="field">
+            <label htmlFor="teacher-pw">Password</label>
+            <div className="pw">
+              <input
+                className="input"
+                id="teacher-pw"
+                type={showTeacherPass ? 'text' : 'password'}
+                placeholder="Enter your password"
+                autoComplete="current-password"
+                required
+                value={teacherPassword}
+                onChange={(e) => setTeacherPassword(e.target.value)}
+              />
+              <button
+                type="button"
+                className="toggle"
+                aria-label={showTeacherPass ? 'Hide password' : 'Show password'}
+                data-target="teacher-pw"
+                onClick={() => setShowTeacherPass(!showTeacherPass)}
+              >
+                {showTeacherPass ? EYE_OFF_ICON : EYE_ICON}
+              </button>
+            </div>
+          </div>
+
+          <button className="go" type="submit" disabled={teacherLoading}>
+            {teacherLoading ? (
+              <>
+                <span className="spinner"></span>
+                <span>Authenticating...</span>
+              </>
+            ) : (
+              'Sign in as teacher'
+            )}
+          </button>
+        </form>
+
+        {/* ADMIN PANEL */}
+        <form
+          className="panel"
+          id="p-admin"
+          data-role="admin"
+          noValidate
+          hidden={selectedCard !== 'admin'}
+          onSubmit={handleAdminSubmit}
+        >
+          <div className="field">
+            <label htmlFor="admin-id">User ID</label>
+            <input
+              className="input"
+              id="admin-id"
+              type="email"
+              placeholder="admin@school.com"
+              autoComplete="username"
+              required
+              value={adminEmail}
+              onChange={(e) => setAdminEmail(e.target.value)}
+            />
+          </div>
+
+          <div className="field">
+            <label htmlFor="admin-pw">Password</label>
+            <div className="pw">
+              <input
+                className="input"
+                id="admin-pw"
+                type={showAdminPass ? 'text' : 'password'}
+                placeholder="Enter your password"
+                autoComplete="current-password"
+                required
+                value={adminPassword}
+                onChange={(e) => setAdminPassword(e.target.value)}
+              />
+              <button
+                type="button"
+                className="toggle"
+                aria-label={showAdminPass ? 'Hide password' : 'Show password'}
+                data-target="admin-pw"
+                onClick={() => setShowAdminPass(!showAdminPass)}
+              >
+                {showAdminPass ? EYE_OFF_ICON : EYE_ICON}
+              </button>
+            </div>
+          </div>
+
+          <button className="go" type="submit" disabled={adminLoading}>
+            {adminLoading ? (
+              <>
+                <span className="spinner"></span>
+                <span>Authenticating...</span>
+              </>
+            ) : (
+              'Sign in as admin'
+            )}
+          </button>
+        </form>
+
+        <p className="foot">Need help signing in? Contact your school office.</p>
+      </main>
 
       {/* MANDATORY PASSWORD CHANGE MODAL */}
       {pendingStaffProfile && (
-        <div className="fixed inset-0 z-50 bg-stone-900/60 backdrop-blur-sm flex items-center justify-center p-4">
-          <div className="bg-white rounded-2xl max-w-md w-full shadow-2xl border-2 border-amber-400 overflow-hidden animate-fadeIn">
-            <div className="bg-gradient-to-r from-amber-600 to-amber-700 text-white p-5">
-              <h3 className="text-lg font-bold flex items-center gap-2">
-                <span>🔒</span> Set New Password (Mandatory)
-              </h3>
-              <p className="text-amber-100 text-xs mt-1">
+        <div className="modal-backdrop">
+          <div className="modal-card">
+            <div className="brand" style={{ marginBottom: '18px' }}>
+              <h2 style={{ fontSize: '20px', fontWeight: 800, margin: '0 0 6px', color: 'var(--ink)' }}>
+                Set New Password
+              </h2>
+              <p className="sub" style={{ fontSize: '13px' }}>
                 For security reasons, you must change your password on first login.
               </p>
             </div>
 
-            <form onSubmit={handlePasswordChangeSubmit} className="p-6 space-y-4">
-              {changePassError && (
-                <div className="p-3 bg-red-50 border border-red-200 text-red-700 text-xs rounded-lg">
-                  {changePassError}
-                </div>
-              )}
+            {changePassError && (
+              <p className="error" role="alert" style={{ marginBottom: '14px' }}>
+                {changePassError}
+              </p>
+            )}
 
-              <div>
-                <label className="block text-xs font-bold text-stone-700 mb-1">
-                  New Secure Password (Minimum 10 characters)
-                </label>
+            <form onSubmit={handlePasswordChangeSubmit} noValidate>
+              <div className="field">
+                <label htmlFor="new-pass">New Secure Password (Minimum 10 characters)</label>
                 <input
+                  id="new-pass"
+                  className="input"
                   type="password"
+                  placeholder="••••••••••••"
+                  required
+                  minLength={10}
                   value={newPassword}
                   onChange={(e) => setNewPassword(e.target.value)}
-                  placeholder="••••••••••••"
-                  required
-                  minLength={10}
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-stone-900 focus:outline-none focus:ring-2 focus:ring-amber-500"
                 />
               </div>
 
-              <div>
-                <label className="block text-xs font-bold text-stone-700 mb-1">
-                  Confirm New Password
-                </label>
+              <div className="field">
+                <label htmlFor="confirm-pass">Confirm New Password</label>
                 <input
+                  id="confirm-pass"
+                  className="input"
                   type="password"
+                  placeholder="••••••••••••"
+                  required
+                  minLength={10}
                   value={confirmPassword}
                   onChange={(e) => setConfirmPassword(e.target.value)}
-                  placeholder="••••••••••••"
-                  required
-                  minLength={10}
-                  className="w-full px-3.5 py-2.5 rounded-lg border border-stone-300 text-stone-900 focus:outline-none focus:ring-2 focus:ring-amber-500"
                 />
               </div>
 
-              <div className="text-xs text-stone-500 bg-stone-50 p-3 rounded-lg border border-stone-200">
-                💡 Tip: A strong password includes letters, numbers, and symbols (!@#$).
-              </div>
+              <p className="hint" style={{ marginBottom: '18px' }}>
+                Tip: Use a mix of uppercase letters, numbers, and symbols (!@#$).
+              </p>
 
-              <button
-                type="submit"
-                disabled={changePassLoading}
-                className="w-full py-2.5 bg-amber-700 hover:bg-amber-800 text-white font-bold rounded-xl shadow transition-all disabled:opacity-50"
-              >
-                {changePassLoading ? 'Updating...' : 'Save Password & Enter Portal'}
+              <button className="go" type="submit" disabled={changePassLoading}>
+                {changePassLoading ? (
+                  <>
+                    <span className="spinner"></span>
+                    <span>Updating...</span>
+                  </>
+                ) : (
+                  'Save password & enter'
+                )}
               </button>
             </form>
           </div>

@@ -1,0 +1,383 @@
+.login-portal-wrapper {
+  --ink: #1a2238;
+  --muted: #6b7690;
+  --line: #dfe5f3;
+  --field: #eef3ff;
+  --field-focus: #e3ebff;
+  --brand: #3558e6;
+  --brand-dark: #2745c4;
+  --bg-1: #f4f7ff;
+  --bg-2: #e6edff;
+  --card: #ffffff;
+  --danger: #d64545;
+
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+  color: var(--ink);
+  background:
+    radial-gradient(900px 500px at 15% -10%, var(--bg-2), transparent 60%),
+    radial-gradient(700px 450px at 100% 110%, var(--bg-2), transparent 60%),
+    var(--bg-1);
+  display: grid;
+  place-items: center;
+  min-height: 100vh;
+  width: 100%;
+  padding: 24px 16px;
+  box-sizing: border-box;
+}
+
+@media (prefers-color-scheme: dark) {
+  .login-portal-wrapper:not([data-theme="light"]) {
+    --ink: #eaf0ff;
+    --muted: #9aa6c4;
+    --line: #2a3556;
+    --field: #1b2442;
+    --field-focus: #222d52;
+    --brand: #6f8cff;
+    --brand-dark: #5a77f0;
+    --bg-1: #0f1428;
+    --bg-2: #141b36;
+    --card: #171f3a;
+  }
+}
+
+.login-portal-wrapper * {
+  box-sizing: border-box;
+}
+
+.login-portal-wrapper .card {
+  width: 100%;
+  max-width: 420px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 32px 28px 28px;
+  box-shadow: 0 24px 60px -24px rgba(53, 88, 230, .28);
+  text-align: left;
+}
+
+.login-portal-wrapper .brand {
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.login-portal-wrapper .logo {
+  width: 52px;
+  height: 52px;
+  margin: 0 auto 14px;
+  display: grid;
+  place-items: center;
+  background: var(--brand);
+  color: #fff;
+  border-radius: 16px;
+}
+
+.login-portal-wrapper .logo svg {
+  width: 28px;
+  height: 28px;
+}
+
+.login-portal-wrapper h1 {
+  margin: 0 0 6px;
+  font-size: 24px;
+  font-weight: 800;
+  letter-spacing: -.01em;
+  color: var(--ink);
+  text-align: center;
+}
+
+.login-portal-wrapper .sub {
+  margin: 0;
+  color: var(--muted);
+  font-size: 14px;
+  text-align: center;
+}
+
+/* role switcher */
+.login-portal-wrapper .roles {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  background: var(--field);
+  border-radius: 14px;
+  padding: 4px;
+  margin-bottom: 24px;
+}
+
+.login-portal-wrapper .roles .pill {
+  position: absolute;
+  top: 4px;
+  bottom: 4px;
+  left: 4px;
+  width: calc((100% - 8px) / 3);
+  background: var(--card);
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(26, 34, 56, .12);
+  transition: transform .25s cubic-bezier(.3, .8, .3, 1);
+}
+
+.login-portal-wrapper .roles[data-active="0"] .pill {
+  transform: translateX(0);
+}
+
+.login-portal-wrapper .roles[data-active="1"] .pill {
+  transform: translateX(100%);
+}
+
+.login-portal-wrapper .roles[data-active="2"] .pill {
+  transform: translateX(200%);
+}
+
+.login-portal-wrapper .roles button {
+  position: relative;
+  z-index: 1;
+  border: 0;
+  background: none;
+  cursor: pointer;
+  padding: 10px 4px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  color: var(--muted);
+  border-radius: 10px;
+  transition: color .2s;
+  text-align: center;
+}
+
+.login-portal-wrapper .roles button[aria-selected="true"] {
+  color: var(--brand);
+}
+
+.login-portal-wrapper .roles button:focus-visible,
+.login-portal-wrapper .chip:focus-visible,
+.login-portal-wrapper .toggle:focus-visible,
+.login-portal-wrapper .go:focus-visible {
+  outline: 3px solid color-mix(in srgb, var(--brand) 45%, transparent);
+  outline-offset: 2px;
+}
+
+/* form */
+.login-portal-wrapper .panel[hidden] {
+  display: none;
+}
+
+.login-portal-wrapper .field {
+  margin-bottom: 18px;
+}
+
+.login-portal-wrapper label,
+.login-portal-wrapper .label {
+  display: block;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+  color: var(--ink);
+}
+
+.login-portal-wrapper .hint {
+  margin: 6px 0 0;
+  font-size: 12.5px;
+  color: var(--muted);
+}
+
+.login-portal-wrapper .input,
+.login-portal-wrapper select {
+  width: 100%;
+  height: 46px;
+  padding: 0 14px;
+  font: inherit;
+  font-size: 15px;
+  color: var(--ink);
+  background: var(--field);
+  border: 1.5px solid transparent;
+  border-radius: 12px;
+  outline: none;
+  transition: border-color .15s, background .15s;
+}
+
+.login-portal-wrapper select {
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='%236b7690' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 14px center;
+  padding-right: 40px;
+  cursor: pointer;
+}
+
+.login-portal-wrapper .input:focus,
+.login-portal-wrapper select:focus {
+  background-color: var(--field-focus);
+  border-color: var(--brand);
+}
+
+.login-portal-wrapper .input::placeholder {
+  color: var(--muted);
+  opacity: .8;
+}
+
+.login-portal-wrapper .chips {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.login-portal-wrapper .chip {
+  height: 44px;
+  border: 1.5px solid var(--line);
+  background: transparent;
+  color: var(--ink);
+  border-radius: 12px;
+  font: inherit;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all .15s;
+}
+
+.login-portal-wrapper .chip:hover {
+  border-color: var(--brand);
+}
+
+.login-portal-wrapper .chip[aria-checked="true"] {
+  background: var(--brand);
+  border-color: var(--brand);
+  color: #fff;
+}
+
+.login-portal-wrapper .pw {
+  position: relative;
+}
+
+.login-portal-wrapper .pw .input {
+  padding-right: 48px;
+}
+
+.login-portal-wrapper .pin {
+  letter-spacing: .5em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.login-portal-wrapper .toggle {
+  position: absolute;
+  right: 6px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 36px;
+  height: 36px;
+  display: grid;
+  place-items: center;
+  border: 0;
+  background: none;
+  border-radius: 10px;
+  color: var(--muted);
+  cursor: pointer;
+  padding: 0;
+  transition: color .15s;
+}
+
+.login-portal-wrapper .toggle:hover {
+  color: var(--brand);
+}
+
+.login-portal-wrapper .toggle svg {
+  width: 20px;
+  height: 20px;
+}
+
+.login-portal-wrapper .error {
+  min-height: 20px;
+  margin: 0 0 12px;
+  font-size: 13px;
+  color: var(--danger);
+  font-weight: 600;
+  text-align: center;
+}
+
+.login-portal-wrapper .go {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  border-radius: 12px;
+  background: var(--brand);
+  color: #fff;
+  font: inherit;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .15s, transform .1s, opacity .15s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.login-portal-wrapper .go:hover:not(:disabled) {
+  background: var(--brand-dark);
+}
+
+.login-portal-wrapper .go:active:not(:disabled) {
+  transform: scale(.985);
+}
+
+.login-portal-wrapper .go:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.login-portal-wrapper .foot {
+  margin: 18px 0 0;
+  text-align: center;
+  font-size: 13px;
+  color: var(--muted);
+}
+
+/* Modal for first-time password change */
+.login-portal-wrapper .modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: rgba(15, 20, 40, 0.65);
+  backdrop-filter: blur(6px);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+}
+
+.login-portal-wrapper .modal-card {
+  width: 100%;
+  max-width: 440px;
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  padding: 28px 24px 24px;
+  box-shadow: 0 24px 60px -20px rgba(0, 0, 0, 0.35);
+  text-align: left;
+}
+
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.login-portal-wrapper .spinner {
+  width: 18px;
+  height: 18px;
+  border: 2px solid rgba(255, 255, 255, 0.35);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: spin 0.8s linear infinite;
+  display: inline-block;
+}
+
+@media (max-width: 400px) {
+  .login-portal-wrapper .card {
+    padding: 26px 20px 22px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .login-portal-wrapper * {
+    transition: none !important;
+    animation: none !important;
+  }
+}
